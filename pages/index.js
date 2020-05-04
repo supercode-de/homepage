@@ -1,5 +1,7 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
+import Footer from '../components/Footer'
+import FooterCallToAction from '../components/FooterCallToAction'
 
 export default function Home() {
   return (
@@ -10,6 +12,8 @@ export default function Home() {
       </Head>
       <main>
         <Banner />
+        <FooterCallToAction month="Mai" />
+        <Footer />
       </main>
 
 

@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';  brauchen wir nicht oder?
 import Link from 'next/link'
 const Banner = () => {
     return (

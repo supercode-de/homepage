@@ -1,0 +1,13 @@
+#call-to-action {
+    background: #5D3EDE;
+    color: #3DD7AC;
+    width: 90%;
+    margin: 0 auto;
+    padding: 5vh 0;
+
+}
+span {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #3DD7AC;
+}
