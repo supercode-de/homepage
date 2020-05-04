@@ -52,6 +52,16 @@ const FooterCallToAction = (props) => {
                 color: #5D3EDE;
                 background: #fff;
             }
+            @media (max-width: 768px) {
+                #call-to-action {
+                    display: block;
+                }
+                a {
+                    margin: 10px 20px 0 0;
+                    
+                }
+            }
+            
             `}</style>
         </div>
     );

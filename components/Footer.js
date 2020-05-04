@@ -14,7 +14,7 @@ const Footer = () => {
                     <Link href="/"><a className="line-bottom">Kurse</a></Link>
                     <Link href="/"><a>Markenwert</a></Link>
                     <Link href="/"><a>Markenbekanntheit</a></Link>
-                    <Link href="/"><a>Kundenzufriedenheut</a></Link>
+                    <Link href="/"><a>Kundenzufriedenheit</a></Link>
                     <Link href="/"><a>Preis</a></Link>
                 </div>
                 <div className="link-container">
@@ -84,6 +84,17 @@ const Footer = () => {
                 font-weight: bold;
                 font-size: 1.2em
             }
+            @media (max-width: 768px) {
+                .footer-grid {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+            }
+            @media (max-width: 480px) {
+                .footer-grid {
+                    display: block;
+                }
+            }
+
             `}
             </style>
         </footer>
