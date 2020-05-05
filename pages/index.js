@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Banner from '../components/Banner'
 import Footer from '../components/Footer'
 import FooterCallToAction from '../components/FooterCallToAction'
+import UnserCampus from '../components/UnserCampus'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       </Head>
       <main>
         <Banner />
+        <UnserCampus />
         <FooterCallToAction month="Mai" />
         <Footer />
       </main>
