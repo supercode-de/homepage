@@ -1,4 +1,4 @@
-import Link from 'next/link'
+import Button from "./small/Button"
 
 const FooterCallToAction = (props) => {
     return (
@@ -8,8 +8,8 @@ const FooterCallToAction = (props) => {
                 <span>Die nächsten Kurse starten im {props.month}!</span>
             </h1>
             <div className="buttons">
-                <Link href=""><a>Play Video</a></Link>
-                <Link href=""><a>Play Video</a></Link>
+                <Button href="/" text="Play Video" />
+                <Button href="/" text="Play Video" />
             </div>
             <style jsx>{`
             #call-to-action {
@@ -37,20 +37,6 @@ const FooterCallToAction = (props) => {
                 display: flex;
                 align-items: flex-end;
                 
-            }
-            a {
-                color: #fff;
-                text-decoration: none;
-                text-transform: uppercase;
-                padding: 5px;
-                border: 3px solid #fff;
-                font-size: .9em;
-                font-weight: 200;
-                margin: 10px;
-            }
-            a:hover {
-                color: #5D3EDE;
-                background: #fff;
             }
             @media (max-width: 768px) {
                 #call-to-action {

@@ -1,18 +1,19 @@
-import Collapsible from "./Collapsible"
+import Collapsible from "./FAQItem"
 import faqData from './data/faq'
-import { useWindowSize } from './windowSize'
+import { useWindowSize } from './functions/windowSize'
 
 const FAQ = () => {
     const width = useWindowSize().width / 12
     return (
         <div id="faq">
+            <span className="aside">FAQ Yourself</span>
             {faqData.map((faq, i) =>
                 <Collapsible trigger={faq.question} key={i} > <p>{faq.answer}</p></Collapsible>
             )
             }
             <style jsx>{`
                 #faq {
-                    padding: 10vh 5%;
+                    padding: 10vh ${width * 2}px;
                     
                     display: grid;
                     grid-template-columns: 1fr 1fr;
@@ -37,7 +38,17 @@ const FAQ = () => {
                     background-position: 0 0, 0 0;
                     background-size: ${width}px ${width}px;
                 }
-                
+                .Collapsible {
+                    
+                }
+                .aside {
+                    position: absolute;
+                    transform: rotate(-90deg);
+                    transform-origin: left;
+                    left: calc(${width}px - .5em);
+                    top: 50%;
+                    color: #3DD7AC
+                  }
             `}</style>
         </div >
     );

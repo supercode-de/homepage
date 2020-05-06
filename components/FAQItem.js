@@ -222,15 +222,19 @@ class Collapsible extends Component {
                     </div>
                 </div>
                 <style jsx>{`
-                
+                .Collapsible {
+                    width: 98%;
+                    padding-bottom: 2em;
+                }
                 .Collapsible__trigger {
                     display: flex;
                     align-items: center;
                     font-weight: 400;
                     color: #3DD7AC;
                     position: relative;    
-                    padding: 10px;
-                    width: 95%
+                    padding: 10px 20px 5px 0;
+                    font-size: 1.4em
+                    
                 }
                 .Collapsible__trigger:after, .Collapsible__trigger.is-closed:before {
                     position: absolute;
@@ -240,29 +244,28 @@ class Collapsible extends Component {
                 }
                 .Collapsible__trigger.is-open:after {
                     content: ' ';
-                    width: 20px;
-                    height: 2px;
+                    width: 19px;
+                    height: 3px;
                     background: #3DD7AC;
                     
                 }
                 .Collapsible__trigger.is-closed:after {
                     content: ' ';
-                    width: 20px;
-                    height: 2px;
+                    width: 19px;
+                    height: 3px;
                     background: #3DD7AC
                 }
                 .Collapsible__trigger.is-closed:before {
                     content: ' ';
-                    width: 2px;
-                    height: 20px;
+                    width: 3px;
+                    height: 19px;
                     background: #3DD7AC;
-                    right: 20px;
-                    top: 11px
+                    right: 18px;
+                    top: 12px
                 }
                 .Collapsible__contentInner {
                     color: #3DD7AC;
-                    width: 95%;
-                    padding: 0 10px
+                    
                 }
             
             `}</style>

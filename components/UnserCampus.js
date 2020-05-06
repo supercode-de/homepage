@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useWindowSize } from './windowSize'
+import { useWindowSize } from './functions/windowSize'
 
 const UnserCampus = (props) => {
   const width = useWindowSize().width / 12
