@@ -16,9 +16,9 @@ const FooterCallToAction = (props) => {
                 background: #5D3EDE;
                 color: #3DD7AC;
                 margin: 0 auto;
-                padding: 8vh 5%;
+                padding: 8vh;
                 display: flex;
-                justify-content: space-between;
+                justify-content: space-around;
                 
             }
             h1 {
@@ -36,15 +36,15 @@ const FooterCallToAction = (props) => {
             .buttons {
                 display: flex;
                 align-items: flex-end;
-                
+
             }
             @media (max-width: 768px) {
                 #call-to-action {
                     display: block;
                 }
-                a {
-                    margin: 10px 20px 0 0;
-                    
+                .buttons{
+                    margin-top: 1em;
+                    height: 5em
                 }
             }
             
