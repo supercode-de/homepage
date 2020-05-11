@@ -22,6 +22,7 @@ export default function Home() {
       </Head>
       <main>
         <Banner />
+        <Navigation />
         <Header />
         <HeaderCallToAction />
         <Zukunft />
