@@ -1,14 +1,10 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
-<<<<<<< HEAD
-import Navigation from '../components/Navigation'
-=======
 import Footer from '../components/Footer'
 import FooterCallToAction from '../components/FooterCallToAction'
 import UnserCampus from '../components/UnserCampus'
 import FAQ from '../components/FAQ'
 import MeldeDich from '../components/MeldeDich'
->>>>>>> 525224b6ebeed7029e5e8720c8a0282c0b75604e
 
 export default function Home() {
   return (
