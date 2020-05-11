@@ -20,7 +20,7 @@ const Button = (props) => {
             }
             a:hover {
                 // margin: 10px 5px 15px 10px;
-                margin: 10px 10px 15px 15px;
+                // margin: 10px 10px 15px 15px;
                 box-shadow: -5px 5px 0 0 #fff;
             }
     `}</style>

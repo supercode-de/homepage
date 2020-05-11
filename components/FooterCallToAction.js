@@ -36,7 +36,6 @@ const FooterCallToAction = (props) => {
             .buttons {
                 display: flex;
                 align-items: flex-end;
-
             }
             @media (max-width: 768px) {
                 #call-to-action {
