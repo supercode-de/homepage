@@ -6,7 +6,7 @@ import FooterCallToAction from '../components/FooterCallToAction'
 import UnserCampus from '../components/UnserCampus'
 import FAQ from '../components/FAQ'
 import MeldeDich from '../components/MeldeDich'
-import Bewerbungsprozess from '../components/Bewerbungsprozess'
+//import Bewerbungsprozess from '../components/Bewerbungsprozess'
 import Header from '../components/Header'
 import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
@@ -18,7 +18,7 @@ export default function Home() {
       <Head>
         <title>Super-code</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" />
+        {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" /> */}
       </Head>
       <main>
         <Banner />
