@@ -5,6 +5,8 @@ import FooterCallToAction from '../components/FooterCallToAction'
 import UnserCampus from '../components/UnserCampus'
 import FAQ from '../components/FAQ'
 import MeldeDich from '../components/MeldeDich'
+import Bewerbungsprozess from '../components/Bewerbungsprozess'
+import Header from '../components/Header'
 
 export default function Home() {
   return (
@@ -15,8 +17,10 @@ export default function Home() {
       </Head>
       <main>
         <Banner />
+        <Header />
+        {/* <Bewerbungsprozess /> */}
         <MeldeDich />
-        <UnserCampus />
+        {/* <UnserCampus /> */}
         <FAQ />
         <FooterCallToAction month="Mai" />
         <Footer />
@@ -39,7 +43,12 @@ export default function Home() {
         * {
           box-sizing: border-box;
         }
-       
+        @media (max-width: 768px) {
+          body {
+            font-size: 10px;
+          }
+          }
+      }
       `}</style>
     </div>
   )
