@@ -2,26 +2,25 @@ import Button from "./small/Button"
 import { useWindowSize } from './functions/windowSize'
 
 const Header = () => {
-    const width = useWindowSize().width / 12
-    console.log(width)
-    const pixelSize = 2
-    return (
-        <div id="header">
-            <h1>Programmieren <br /> lernen war noch nie <span>digitaler.</span></h1>
-            <div className="buttons">
-                <Button href="/" text="PLAY VIDEO" />
+  const width = useWindowSize().width / 12
+  const pixelSize = 2
+  return (
+    <div id="header">
+      <h1>Programmieren <br /> lernen war noch nie <span>digitaler.</span></h1>
+      <div className="buttons">
+        <Button href="/" text="PLAY VIDEO" />
+      </div>
+      <div className="aside">
+        📞 +49 211 7817 233-0
             </div>
-            <div className="aside">
-                📞 +49 211 7817 233-0
-            </div>
-            <div className="arrow">
-                <span></span>
-                <span></span>
-                <span></span>
+      <div className="arrow">
+        <span></span>
+        <span></span>
+        <span></span>
 
-            </div>
+      </div>
 
-            <style jsx>{`
+      <style jsx>{`
             #header {
                 background: linear-gradient(90deg, #000 ${width - pixelSize}px, transparent 1%), linear-gradient(#000 ${width - pixelSize}px, transparent 1%) , #fff;
                 background-size: ${width}px ${width}px;
@@ -100,8 +99,8 @@ const Header = () => {
             }
               
                 `}</style>
-        </div>
-    );
+    </div>
+  );
 }
 
 export default Header;
