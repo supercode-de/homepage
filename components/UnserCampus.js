@@ -3,6 +3,7 @@ import { useWindowSize } from './functions/windowSize'
 
 const UnserCampus = (props) => {
   const width = useWindowSize().width / 12
+  console.log(width)
   return (
     <div id="unser-campus">
       <span className="aside">lerne programmieren</span>

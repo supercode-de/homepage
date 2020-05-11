@@ -10,7 +10,7 @@ const Button = (props) => {
                 color: #fff;
                 text-decoration: none;
                 text-transform: uppercase;
-                padding: 5px;
+                padding: 5px 10px;
                 border: 2px solid #fff;
                 font-size: .9em;
                 font-weight: 200;
