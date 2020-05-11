@@ -1,22 +1,16 @@
 import Head from 'next/head'
 import Banner from '../components/Banner'
-<<<<<<< HEAD
-=======
 import Navigation from '../components/Navigation'
->>>>>>> 3651b5990565d90a5fa4c292c5410c1797d4d2f2
 import Footer from '../components/Footer'
 import FooterCallToAction from '../components/FooterCallToAction'
 import UnserCampus from '../components/UnserCampus'
 import FAQ from '../components/FAQ'
 import MeldeDich from '../components/MeldeDich'
-<<<<<<< HEAD
-=======
 import Bewerbungsprozess from '../components/Bewerbungsprozess'
 import Header from '../components/Header'
 import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
 
->>>>>>> 3651b5990565d90a5fa4c292c5410c1797d4d2f2
 
 export default function Home() {
   return (
