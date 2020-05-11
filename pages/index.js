@@ -20,15 +20,11 @@ export default function Home() {
       </Head>
       <main>
         <Banner />
-<<<<<<< HEAD
-
-=======
         <MeldeDich />
         <UnserCampus />
         <FAQ />
         <FooterCallToAction month="Mai" />
         <Footer />
->>>>>>> 525224b6ebeed7029e5e8720c8a0282c0b75604e
       </main>
 
 
