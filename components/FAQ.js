@@ -14,7 +14,6 @@ const FAQ = () => {
       <style jsx>{`
                 #faq {
                     padding: 10vh ${width * 2}px;
-                    
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     position: relative;
@@ -38,9 +37,6 @@ const FAQ = () => {
                     background-position: 0 0, 0 0;
                     background-size: ${width}px ${width}px;
                 }
-                .Collapsible {
-                    
-                }
                 .aside {
                     position: absolute;
                     transform: rotate(-90deg);
@@ -48,6 +44,11 @@ const FAQ = () => {
                     left: calc(${width}px - .5em);
                     top: 30vh;
                     color: #3DD7AC
+                  }
+                  @media (max-width: 768px) {
+                    #faq {
+                      display: block;
+                    }
                   }
             `}</style>
     </div >

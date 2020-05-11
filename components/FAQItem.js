@@ -267,6 +267,11 @@ class Collapsible extends Component {
                     color: #3DD7AC;
                     
                 }
+                @media (max-width: 768px) {
+                    .Collapsible__trigger {
+                        padding: 10px 30px 5px 0;
+                    }
+                    }
             
             `}</style>
             </ContentContainerElement>
