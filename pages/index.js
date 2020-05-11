@@ -7,6 +7,8 @@ import FAQ from '../components/FAQ'
 import MeldeDich from '../components/MeldeDich'
 import Bewerbungsprozess from '../components/Bewerbungsprozess'
 import Header from '../components/Header'
+import HeaderCallToAction from '../components/HeaderCallToAction'
+import Zukunft from '../components/Zukunft'
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <main>
         <Banner />
         <Header />
+        <HeaderCallToAction />
+        <Zukunft />
         {/* <Bewerbungsprozess /> */}
         <MeldeDich />
         {/* <UnserCampus /> */}
