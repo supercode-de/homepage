@@ -6,7 +6,7 @@ import FooterCallToAction from '../components/FooterCallToAction'
 import UnserCampus from '../components/UnserCampus'
 import FAQ from '../components/FAQ'
 import MeldeDich from '../components/MeldeDich'
-//import Bewerbungsprozess from '../components/Bewerbungsprozess'
+import Bewerbungsprozess from '../components/Bewerbungsprozess'
 import Header from '../components/Header'
 import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
@@ -33,7 +33,7 @@ export default function Home(props) {
           <Zukunft width={width} />
           <UnserCampus width={width} />
           <Weiterbildung />
-          {/* <Bewerbungsprozess /> */}
+          <Bewerbungsprozess />
           <MeldeDich />
 
           <FAQ />
