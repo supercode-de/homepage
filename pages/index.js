@@ -6,7 +6,7 @@ import FooterCallToAction from '../components/FooterCallToAction'
 import UnserCampus from '../components/UnserCampus'
 import FAQ from '../components/FAQ'
 import MeldeDich from '../components/MeldeDich'
-// import Bewerbungsprozess from '../components/Bewerbungsprozess'
+import Bewerbungsprozess from '../components/Bewerbungsprozess'
 import Header from '../components/Header'
 import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
@@ -14,7 +14,7 @@ import Weiterbildung from '../components/Weiterbildung'
 
 import { useWindowSize } from '../components/functions/windowSize'
 
-export default function Home(props) {
+export default function Home() {
   if (process.browser) {
     const width = useWindowSize().width / 12
     return (
@@ -33,7 +33,7 @@ export default function Home(props) {
           <Zukunft width={width} />
           <UnserCampus width={width} />
           <Weiterbildung />
-          {/* <Bewerbungsprozess /> */}
+          <Bewerbungsprozess />
           <MeldeDich />
 
           <FAQ />
@@ -67,7 +67,7 @@ export default function Home(props) {
         `}</style>
       </div>
     )
-  } else { "" }
+  } else { return "" }
 
 
 
