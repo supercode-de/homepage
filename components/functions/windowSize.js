@@ -9,7 +9,6 @@ export function useWindowSize() {
             height: isClient ? window.innerHeight : undefined
         };
     }
-
     const [windowSize, setWindowSize] = useState(getSize);
 
     useEffect(() => {
@@ -20,13 +19,9 @@ export function useWindowSize() {
         function handleResize() {
             setWindowSize(getSize());
         }
-
         window.addEventListener('resize', handleResize);
         return () => window.removeEventListener('resize', handleResize);
     }, []); // Empty array ensures that effect is only run on mount and unmount
-
     return windowSize;
 }
-export function add(a, b) {
-    return a + b;
-}
+

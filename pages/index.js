@@ -12,7 +12,6 @@ import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
 import Weiterbildung from '../components/Weiterbildung'
 
-
 export default function Home() {
   return (
     <div className="container">
