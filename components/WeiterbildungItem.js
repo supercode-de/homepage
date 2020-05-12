@@ -204,7 +204,6 @@ class Collapsible extends Component {
                     {...this.props.triggerElementProps}
                 >
                     {trigger}
-
                 </TriggerElement>
 
                 {this.renderNonClickableTriggerElement()}
@@ -221,57 +220,6 @@ class Collapsible extends Component {
                         {children}
                     </div>
                 </div>
-                <style jsx>{`
-                .Collapsible {
-                    width: 98%;
-                    padding-bottom: 2em;
-                }
-                .Collapsible__trigger {
-                    display: flex;
-                    align-items: center;
-                    font-weight: 400;
-                    color: #3DD7AC;
-                    position: relative;    
-                    padding: 10px 30px 5px 0;
-                    font-size: 1.4em
-                    
-                }
-                .Collapsible__trigger:after, .Collapsible__trigger.is-closed:before {
-                    position: absolute;
-                    right: 10px;
-                    top: 20px;
-                    display: block;
-                }
-                .Collapsible__trigger.is-open:after {
-                    content: ' ';
-                    width: 19px;
-                    height: 3px;
-                    background: #3DD7AC;
-                    
-                }
-                .Collapsible__trigger.is-closed:after {
-                    content: ' ';
-                    width: 19px;
-                    height: 3px;
-                    background: #3DD7AC
-                }
-                .Collapsible__trigger.is-closed:before {
-                    content: ' ';
-                    width: 3px;
-                    height: 19px;
-                    background: #3DD7AC;
-                    right: 18px;
-                    top: 12px
-                }
-                .Collapsible__contentInner {
-                    color: #3DD7AC;
-                    
-                }
-                @media (max-width: 768px) {
-                    
-                    }
-            
-            `}</style>
             </ContentContainerElement>
         );
     }

@@ -10,6 +10,7 @@ import MeldeDich from '../components/MeldeDich'
 import Header from '../components/Header'
 import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
+import Weiterbildung from '../components/Weiterbildung'
 
 
 export default function Home() {
@@ -22,13 +23,15 @@ export default function Home() {
       </Head>
       <main>
         <Banner />
-        <Navigation />
+        {/* <Navigation /> */}
         <Header />
         <HeaderCallToAction />
         <Zukunft />
+        <UnserCampus />
+        <Weiterbildung />
         {/* <Bewerbungsprozess /> */}
         <MeldeDich />
-        {/* <UnserCampus /> */}
+
         <FAQ />
         <FooterCallToAction month="Mai" />
         <Footer />

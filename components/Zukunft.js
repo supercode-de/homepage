@@ -70,8 +70,7 @@ const Zukunft = () => {
                 margin-top: ${width}px;
                 position: relative;
                 text-align: center;
-                padding-bottom: ${width * 3}px;
-                margin-bottom: ${width * 2}px;
+                padding-bottom: ${width * 4}px;
             }
             .img-one {
                 width: ${width * 6}px;
@@ -86,7 +85,8 @@ const Zukunft = () => {
                 position: absolute;
                 top: ${width * 6}px;
                 left: ${width}px;
-                width: ${width * 3}px
+                width: ${width * 3}px;
+                z-index: 20;
             }
             `}</style>
         </div>
