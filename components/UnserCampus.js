@@ -7,7 +7,7 @@ const UnserCampus = (props) => {
   return (
     <div id="unser-campus">
       <span className="aside">lerne programmieren</span>
-      <img className="img-one" src="https://unsplash.it/300/200" alt="" />
+      {/* <img className="img-one" src="https://unsplash.it/300/200" alt="" /> */}
       <div className="text-one">
         <h1>
           Unser Campus <br /> ist <span>mehr</span>
@@ -15,10 +15,10 @@ const UnserCampus = (props) => {
         <p>Unsere Schule befindet sich im Super7000. Auf über 1.000 qm arbeiten mehr als 50 Unternehmen in offenen Büros und in Teambüros inklusive Telefonzellen, Meetingräumen, Bällebad und der legendären Eventfläche auf echtem Kunstrasen für Workshops, Meet-Ups & Co. Wir nutzen dieses einzigartige Umfeld, um Dich noch schneller in passende Jobs zu vermitteln.</p>
         <p className="hash-tag">#superwinwin</p>
       </div>
-      <img className="img-two" src="https://unsplash.it/300/200" alt="" />
-      <img className="img-three" src="https://unsplash.it/300/200" alt="" />
-      <img className="img-four" src="https://unsplash.it/300/200" alt="" />
-      <img className="img-five" src="https://unsplash.it/300/200" alt="" />
+      <img className="img-two" src="https://unsplash.it/300/202" alt="" />
+      <img className="img-three" src="https://unsplash.it/302/200" alt="" />
+      <img className="img-four" src="https://unsplash.it/305/200" alt="" />
+      <img className="img-five" src="https://unsplash.it/300/206" alt="" />
       <div className="text-two">
         <p>SuperCode bietet ein arbeitsmarktlich aussichtsreiches und praxisnahes Bildungsangebot im IT-Bereich mit methodisch modernen und hohem Einsatz von Lehrpersonal. Hervorzuheben ist die hervorragende Branchenvernetzung sowie die innovative Praxiskompetenz der Geschäftsführung und des Teams.</p>
         <p className="hash-tag"># Certqua Bonn</p>
@@ -50,7 +50,10 @@ const UnserCampus = (props) => {
                   img {
                       width: ${3 * width}px
                   }
-                  h1, p {
+                  .text-one {
+                    padding-top: ${width}px;
+                  }
+                  h1, p, .text-two {
                     color: #3DD7AC;
                     width: ${width * 3}px
                   }
@@ -71,26 +74,37 @@ const UnserCampus = (props) => {
                   }
                   .img-two {
                     margin-left: ${width * 9}px;
-                    margin-top: -${1.5 * width}px
+                    margin-top: -${2 * width}px
                   }
                   .img-three {
                     margin-left: ${width * 3}px;
+                    margin-top: ${width * .5}px;
                   }
                   .img-four {
                     margin-left: ${width * 8}px;
                     margin-top: -${1.5 * width}px
                   }
-                  .text-one {
+                  .img-five {
+                    margin-top: ${width}px;
+                  }
+                  .img-six {
+                    margin-left: ${width * 7}px;
+                    margin-top: ${width}px
+                  }
+                  .text-one, .text-two {
                       margin-left: ${width * 5}px;
-                      margin-top: -${width}px
+                      margin-top: -${.5 * width}px
                   }
                   .aside {
                     position: absolute;
                     transform: rotate(-90deg);
                     transform-origin: left;
                     left: 1%;
-                    top: 50%;
+                    top: 30%;
                     text-transform: uppercase;
+                  }
+                  .text-two {
+                    margin-top: ${-1.5 * width}px
                   }
             `}</style>
     </div>
