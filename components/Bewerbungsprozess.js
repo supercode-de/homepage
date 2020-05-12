@@ -6,7 +6,7 @@ const Bewerbungsprozess = () => {
             <BeratungIcon height={256} />
             <FinanzierungIcon height={256} />
             <MethodikIcon height={256} />
-            <SuperLogo height={256} />
+            {/* <SuperLogo height={256} /> */}
             <TeamIcon height={256} />
             <WaitIcon height={256} />
             {/* <NetzwerkIcon height={256} /> // doesnt work */}
