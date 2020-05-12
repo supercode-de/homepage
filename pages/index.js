@@ -33,7 +33,7 @@ export default function Home() {
           <Zukunft width={width} />
           <UnserCampus width={width} />
           <Weiterbildung />
-          <Bewerbungsprozess />
+          {/* <Bewerbungsprozess /> */}
           <MeldeDich />
 
           <FAQ />
