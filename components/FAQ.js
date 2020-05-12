@@ -7,7 +7,6 @@ class FAQ extends Component {
   state = {}
 
   componentDidMount() {
-
     this.setState({ width: window.innerWidth / 12 });
   }
 

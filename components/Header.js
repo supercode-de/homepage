@@ -1,9 +1,10 @@
 import Button from "./small/Button"
 import { useWindowSize } from './functions/windowSize'
 
-const Header = () => {
-  const width = useWindowSize().width / 12
+const Header = (props) => {
+  // const width = useWindowSize().width / 12
   const pixelSize = 2
+  console.log("Header ", props)
   return (
     <div id="header">
       <h1>Programmieren <br /> lernen war noch nie <span>digitaler.</span></h1>
@@ -19,11 +20,10 @@ const Header = () => {
         <span></span>
 
       </div>
-
       <style jsx>{`
             #header {
-                background: linear-gradient(90deg, #000 ${width - pixelSize}px, transparent 1%), linear-gradient(#000 ${width - pixelSize}px, transparent 1%) , #fff;
-                background-size: ${width}px ${width}px;
+                background: linear-gradient(90deg, #000 ${props.width - pixelSize}px, transparent 1%), linear-gradient(#000 ${props.width - pixelSize}px, transparent 1%) , #fff;
+                background-size: ${props.width}px ${props.width}px;
             }
             h1 {
                 margin: 0;

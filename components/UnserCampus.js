@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useWindowSize } from './functions/windowSize'
 
 const UnserCampus = (props) => {
-  const width = useWindowSize().width / 12
-  console.log(width)
+  // const width = useWindowSize().width / 12
+  // console.log(width)
   return (
     <div id="unser-campus">
       <span className="aside">lerne programmieren</span>
@@ -45,17 +45,17 @@ const UnserCampus = (props) => {
                       )
                     ;
                     background-position: 0 0, 0 0;
-                    background-size: ${width}px ${width}px;
+                    background-size: ${props.width}px ${props.width}px;
                   }
                   img {
-                      width: ${3 * width}px
+                      width: ${3 * props.width}px
                   }
                   .text-one {
-                    padding-top: ${width}px;
+                    padding-top: ${props.width}px;
                   }
                   h1, p, .text-two {
                     color: #3DD7AC;
-                    width: ${width * 3}px
+                    width: ${props.width * 3}px
                   }
                   h1 span {
                     color: transparent;
@@ -70,30 +70,30 @@ const UnserCampus = (props) => {
                     color: #5D3EDE;
                   }
                   .img-one {
-                      margin-left: ${width}px
+                      margin-left: ${props.width}px
                   }
                   .img-two {
-                    margin-left: ${width * 9}px;
-                    margin-top: -${2 * width}px
+                    margin-left: ${props.width * 9}px;
+                    margin-top: -${2 * props.width}px
                   }
                   .img-three {
-                    margin-left: ${width * 3}px;
-                    margin-top: ${width * .5}px;
+                    margin-left: ${props.width * 3}px;
+                    margin-top: ${props.width * .5}px;
                   }
                   .img-four {
-                    margin-left: ${width * 8}px;
-                    margin-top: -${1.5 * width}px
+                    margin-left: ${props.width * 8}px;
+                    margin-top: -${1.5 * props.width}px
                   }
                   .img-five {
-                    margin-top: ${width}px;
+                    margin-top: ${props.width}px;
                   }
                   .img-six {
-                    margin-left: ${width * 7}px;
-                    margin-top: ${width}px
+                    margin-left: ${props.width * 7}px;
+                    margin-top: ${props.width}px
                   }
                   .text-one, .text-two {
-                      margin-left: ${width * 5}px;
-                      margin-top: -${.5 * width}px
+                      margin-left: ${props.width * 5}px;
+                      margin-top: -${.5 * props.width}px
                   }
                   .aside {
                     position: absolute;
@@ -104,7 +104,7 @@ const UnserCampus = (props) => {
                     text-transform: uppercase;
                   }
                   .text-two {
-                    margin-top: ${-1.5 * width}px
+                    margin-top: ${-1.5 * props.width}px
                   }
             `}</style>
     </div>

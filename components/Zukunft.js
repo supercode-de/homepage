@@ -1,7 +1,7 @@
-import { useWindowSize } from './functions/windowSize'
+// import { useWindowSize } from './functions/windowSize'
 
-const Zukunft = () => {
-    const width = useWindowSize().width / 12
+const Zukunft = (props) => {
+    // const width = useWindowSize().width / 12
     const pixelSize = 2
     return (
         <div id="zukunft">
@@ -29,15 +29,15 @@ const Zukunft = () => {
             <style jsx>{`
             #zukunft {
                 color: #3DD7AC;
-                background: linear-gradient(90deg, #000 ${width - pixelSize}px, transparent 1%), linear-gradient(#000 ${width - pixelSize}px, transparent 1%) , #fff;
-                background-size: ${width}px ${width}px;
+                background: linear-gradient(90deg, #000 ${props.width - pixelSize}px, transparent 1%), linear-gradient(#000 ${props.width - pixelSize}px, transparent 1%) , #fff;
+                background-size: ${props.width}px ${props.width}px;
             }
             h1 {
-                padding: ${width * 1.5}px 0 0 ${width}px;
+                padding: ${props.width * 1.5}px 0 0 ${props.width}px;
                 font-size: 4em;
                 letter-spacing: 2px;
                 color: #3DD7AC;
-                width: ${width * 5}px;
+                width: ${props.width * 5}px;
                 margin: 0;
             }
             h1 span {
@@ -48,15 +48,15 @@ const Zukunft = () => {
             }
             .infos {
                 display: flex;
-                margin: ${width}px 0 0;
+                margin: ${props.width}px 0 0;
             }
             .info-one {
-                width: ${width * 3}px;
-                margin: 0 ${width}px;
+                width: ${props.width * 3}px;
+                margin: 0 ${props.width}px;
             }
             .info-headline {
-                width: ${width * 2}px;
-                margin-right: ${width}px;
+                width: ${props.width * 2}px;
+                margin-right: ${props.width}px;
             }
             p {
                 font-weight: 200;
@@ -67,25 +67,25 @@ const Zukunft = () => {
                 margin: 0
             }
             .images {
-                margin-top: ${width}px;
+                margin-top: ${props.width}px;
                 position: relative;
                 text-align: center;
-                padding-bottom: ${width * 4}px;
+                padding-bottom: ${props.width * 4}px;
             }
             .img-one {
-                width: ${width * 6}px;
+                width: ${props.width * 6}px;
             }
             .img-two {
-                width: ${width * 4}px;
+                width: ${props.width * 4}px;
                 position: absolute;
-                top: ${width * 2}px;
+                top: ${props.width * 2}px;
                 right: 0;
             }
             .img-three {
                 position: absolute;
-                top: ${width * 6}px;
-                left: ${width}px;
-                width: ${width * 3}px;
+                top: ${props.width * 6}px;
+                left: ${props.width}px;
+                width: ${props.width * 3}px;
                 z-index: 20;
             }
             `}</style>
