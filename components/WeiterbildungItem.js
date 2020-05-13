@@ -203,7 +203,15 @@ class Collapsible extends Component {
                     tabIndex={this.props.tabIndex && this.props.tabIndex}
                     {...this.props.triggerElementProps}
                 >
-                    {trigger}
+                    <div>
+                        {trigger}
+                        {/* Added for style */}
+                        <span className="trigger-extra">
+                            {this.props.triggerExtra}
+                        </span>
+                    </div>
+
+                    <span className={this.state.isClosed ? "arrow" : "arrow up"}></span>
                 </TriggerElement>
 
                 {this.renderNonClickableTriggerElement()}
@@ -220,6 +228,34 @@ class Collapsible extends Component {
                         {children}
                     </div>
                 </div>
+                <style jsx>{`
+                .trigger-extra {
+                    color: transparent;
+                    -webkit-text-stroke-width: 1.5px;
+                    -webkit-text-stroke-color: #3DD7AC;
+                }
+                .Collapsible {
+                    padding: 3vh 10%;
+                    background-color: ${this.state.isClosed ? "#000" : "#5D3EDE"};
+                    transition: background-color 1s linear;
+                }
+                .Collapsible__trigger {
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .arrow {
+                    border: solid #3DD7AC;
+                    border-width: 0 3px 3px 0;
+                    display: inline-block;
+                    height: 20px;
+                    width: 20px;
+                    transform: rotate(45deg);
+                    transition: transform .4s linear;
+                }
+                .arrow.up {
+                    transform: scaleY(-1) rotate(45deg) ;
+                }
+                `}</style>
             </ContentContainerElement>
         );
     }

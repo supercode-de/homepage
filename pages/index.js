@@ -6,7 +6,6 @@ import FooterCallToAction from '../components/FooterCallToAction'
 import UnserCampus from '../components/UnserCampus'
 import FAQ from '../components/FAQ'
 import MeldeDich from '../components/MeldeDich'
-import Bewerbungsprozess from '../components/Bewerbungsprozess'
 import Header from '../components/Header'
 import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
@@ -25,7 +24,6 @@ export default function Home() {
           {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" /> */}
         </Head>
         <main>
-          {/* <h1>${width}</h1> */}
           <Banner />
           {/* <Navigation /> */}
           <Header width={width} />
@@ -33,7 +31,6 @@ export default function Home() {
           <Zukunft width={width} />
           <UnserCampus width={width} />
           <Weiterbildung />
-          <Bewerbungsprozess />
           <MeldeDich />
 
           <FAQ />
