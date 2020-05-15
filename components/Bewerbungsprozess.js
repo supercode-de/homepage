@@ -1,4 +1,9 @@
-import { SuperLogo, WaitIcon, BeratungIcon, NetzwerkIcon, FinanzierungIcon, MethodikIcon, TeamIcon, ZertifikatIcon, ZielIcon } from "super-library";
+// import { SuperLogo, WaitIcon, BeratungIcon, NetzwerkIcon, FinanzierungIcon, MethodikIcon, TeamIcon, ZertifikatIcon, ZielIcon } from "super-library";
+// import { BeratungIcon } from 'super-library/dist/module/BeratungIcon/'
+import BeratungIcon from 'super-library/dist/main/BeratungIcon/BeratungIcon';
+// also `import BeratungIcon from 'supercode/module/BeratungIcon/BeratungIcon'
+
+
 
 const Bewerbungsprozess = () => {
     return (

@@ -10,8 +10,10 @@ import Header from '../components/Header'
 import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
 import Weiterbildung from '../components/Weiterbildung'
+import Bewerbungsprozess from '../components/Bewerbungsprozess'
 
 import { useWindowSize } from '../components/functions/windowSize'
+
 
 export default function Home() {
   if (process.browser) {
@@ -32,7 +34,7 @@ export default function Home() {
           <UnserCampus width={width} />
           <Weiterbildung />
           <MeldeDich />
-
+          <Bewerbungsprozess />
           <FAQ />
           <FooterCallToAction month="Mai" />
           <Footer />
