@@ -1,12 +1,13 @@
-.headerNavigation{
+.headerNavigation {
     position: fixed;
     top: 0;
     width: 100%;
     display: block;
     transition: top 0.3s;
     z-index: 1000;
-    box-shadow: 0 1px 3px rgba(0,0,0,.2);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, .2);
 }
+
 .imageNavigationNormal img, .imageNavigationMobile img {
     height: 30px;
     padding-left: 1em;
@@ -21,32 +22,38 @@
     display: flex;
     align-items: center;
 }
+
 .nav-link, .main-nav {
     padding: 2em !important;
 }
+
 .dropdown-toggle::after {
     border-top: none;
     border-right: none;
     border-left: none;
 }
+
 .nav-link a:hover, .main-nav:hover {
     text-decoration: none;
 }
+
 .nav-link::after, .headerNavigation a::after, .main-nav::after {
     position: absolute;
     content: '';
-    top:0;
+    top: 0;
     left: 0;
     width: 0;
     height: 100%;
     background-color: white;
     transform-origin: left;
     transition: width 0.25s ease;
-    z-index:-1;
+    z-index: -1;
 }
+
 .nav-link {
     color: red;
-}  
+}
+
 .nav-link:hover::after, .headerNavigation a:hover::after, .main-nav:hover::after {
     width: 100%;
 }
@@ -54,14 +61,17 @@
 .navigationAnmeldung {
     background: #3DD7AC;
 }
+
 .nav-link.navigationAnmeldung-small {
     background: #3DD7AC;
     display: none;
 }
+
 .navbar {
     padding: 0;
     background: #F0F0F0 !important;
 }
+
 .dropdown-menu {
     top: 98%;
     border: none;
@@ -69,29 +79,34 @@
     background: #f0f0f0;
     /* left: 5px; */
 }
+
 .dropdown-menu {
-    border-top: 2px solid rgba(0,0,0,.1);
+    border-top: 2px solid rgba(0, 0, 0, .1);
     /* box-shadow: 0 1px 3px rgba(0,0,0,.2); */
 }
+
 .dropdown.show {
     background: #fff;
 }
+
 .imageNavigationNormal.logo.navbar-brand::after {
     height: 0;
     background: transparent;
 }
+
 .dropdown:hover .dropdown-menu {
     display: block !important;
 }
+
 @media only screen and (max-width: 1200px) {
     .dropdown-menu a {
         font-size: .9em;
     }
     .dropdown-menu.show {
-        border-top: 1px solid rgba(0,0,0,.2);
-        border-bottom: 1px solid rgba(0,0,0,.2);
+        border-top: 1px solid rgba(0, 0, 0, .2);
+        border-bottom: 1px solid rgba(0, 0, 0, .2);
     }
-    .nav-link,.headerNavigation a {
+    .nav-link, .headerNavigation a {
         padding: .5em !important;
         text-align: right;
     }
@@ -109,11 +124,11 @@
         background-repeat: no-repeat;
         background-position: center;
     }
-    .navigationAnmeldung{
+    .navigationAnmeldung {
         display: none;
     }
     .nav-link.navigationAnmeldung-small {
         display: block;
         text-align: center;
     }
-  }
+}
