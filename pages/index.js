@@ -27,7 +27,7 @@ export default function Home() {
         </Head>
         <main>
           <Banner />
-          {/* <Navigation /> */}
+          <Navigation />
           <Header width={width} />
           <HeaderCallToAction />
           <Zukunft width={width} />
