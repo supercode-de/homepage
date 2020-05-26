@@ -87,11 +87,8 @@ const Navigation = () => {
             height: 5vmax
         }
         @media (max-width: 1200px) {
-            #navigation {
-                
-            }
             .main-navigation {
-                height: 90vh;
+                height: fit-content;
                 top: 7vh;
                 width: 70%;
                 flex-direction: column;
@@ -103,11 +100,18 @@ const Navigation = () => {
             ul {
                 display: block;
                 padding: 0;
+                margin: 0;
                 text-align: center;
             }
             a {
                 display: block;
-                margin-top: 3vh;
+            }
+            li {
+                margin: 5vh 0;
+                padding: 0;
+            }
+            .logo {
+                margin-top: 5vh;
             }
         }
         `}</style>
