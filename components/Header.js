@@ -1,10 +1,7 @@
 import Button from "./small/Button"
-import { useWindowSize } from './functions/windowSize'
 
 const Header = (props) => {
-  // const width = useWindowSize().width / 12
-  const pixelSize = 2
-  console.log("Header ", props)
+  const pixelSize = 2 // Width of Lines in Background
   return (
     <div id="header">
       <h1>Programmieren <br /> lernen war noch nie <span>digitaler.</span></h1>

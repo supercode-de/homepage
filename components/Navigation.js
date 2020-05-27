@@ -5,6 +5,7 @@ import React, { useState } from 'react';
 
 const Navigation = () => {
     const [show, setShow] = useState(true)
+
     return (
         <nav id="navigation" style={{
             width: show ? "100%" : "5%"
@@ -49,7 +50,7 @@ const Navigation = () => {
         #navigation {
             right: 0;
             position: fixed;
-            top: 5vh;
+            top: 2.5vw;
             display: flex;
             z-index:500000000;
             width: 100%;
@@ -59,12 +60,20 @@ const Navigation = () => {
         a {
             color: #fff;
             text-decoration: none;
-            font-size: 1.5em;
+            font-size: 1.2em;
         }
+        a:visited {
+        color: #fff;
+        }
+          
         a:hover {
             text-decoration: underline;
-            color: #eee;
+            color: #3DD7AC;
         }
+        a:active {
+            color: #5D3EDE;
+        }
+        
         .main-navigation {
             background: rgb(0 0 0 / 50%);
             display: flex;
@@ -84,7 +93,7 @@ const Navigation = () => {
         img {
             position: absolute;
             right: 2.5vw;
-            height: 5vmax
+            height: 4vmax
         }
         @media (max-width: 1200px) {
             .main-navigation {
