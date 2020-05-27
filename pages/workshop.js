@@ -1,6 +1,8 @@
 import Head from "next/head";
 import HeaderWS from "../components/HeaderWS";
+import HeaderCallToActionWS from "../components/HeaderCallToActionWS";
 import { useWindowSize } from "../components/functions/windowSize";
+import LerneProgrammieren from "../components/LerneProgrammieren";
 
 export default function Workshop() {
   if (process.browser) {
@@ -14,9 +16,11 @@ export default function Workshop() {
         </Head>
         <main>
           <HeaderWS width={width} />
+          <HeaderCallToActionWS />
+          <LerneProgrammieren />
           {/* <Navigation /> */}
           {/* <Header width={width} /> */}
-          {/* <HeaderCallToAction /> */}
+
           {/* <Zukunft width={width} /> */}
           {/* <UnserCampus width={width} /> */}
           {/* <Weiterbildung /> */}
