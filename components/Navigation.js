@@ -2,94 +2,39 @@ import Link from "next/link";
 import React, { useState } from "react";
 
 const Navigation = () => {
-<<<<<<< HEAD
-    const [show, setShow] = useState(true)
+  const [show, setShow] = useState(true)
 
-    return (
-        <nav id="navigation" style={{
-            width: show ? "100%" : "5%"
-        }}>
-            <img src="/menu-button.svg" alt="Menu-Button" onClick={() => setShow(!show)} />
-            <div className={`main-navigation ${show ? "show" : "hide"}`}>
-                <Link href="/"><a className="logo">super(code)</a></Link>
-                <div>
-                    <ul>
-                        <li>
-                            <Link href="/kurse"><a>Kurse</a></Link>
-                        </li>
-                        <li>
-                            <Link href="/workshops"><a>Workshops</a></Link>
-                        </li>
-                        <li>
-                            <Link href="/finfanzierung"><a>finfanzierung</a></Link>
-                        </li>
-                        <li>
-                            <Link href="/team"><a>team</a></Link>
-                        </li>
-                        <li>
-                            <Link href="/outcomes"><a>outcomes</a></Link>
-                        </li>
-                        <li>
-                            <Link href="/faq"><a>faq</a></Link>
-                        </li>
-                    </ul>
-                </div>
-
-            </div>
-=======
-  const [show, setShow] = useState(true);
   return (
-    <nav
-      id="navigation"
-      style={{
-        width: show ? "100%" : "5%",
-      }}
-    >
-      <img
-        src="/menu-button.svg"
-        alt="Menu-Button"
-        onClick={() => setShow(!show)}
-      />
+    <nav id="navigation" style={{
+      width: show ? "100%" : "5%"
+    }}>
+      <img src="/menu-button.svg" alt="Menu-Button" onClick={() => setShow(!show)} />
       <div className={`main-navigation ${show ? "show" : "hide"}`}>
-        <Link href="/">
-          <a className="logo">super(code)</a>
-        </Link>
+        <Link href="/"><a className="logo">super(code)</a></Link>
         <div>
           <ul>
             <li>
-              <Link href="/kurse">
-                <a>Kurse</a>
-              </Link>
+              <Link href="/kurse"><a>Kurse</a></Link>
             </li>
             <li>
-              <Link href="/workshops">
-                <a>Workshops</a>
-              </Link>
+              <Link href="/workshops"><a>Workshops</a></Link>
             </li>
             <li>
-              <Link href="/finfanzierung">
-                <a>finfanzierung</a>
-              </Link>
+              <Link href="/finfanzierung"><a>finfanzierung</a></Link>
             </li>
             <li>
-              <Link href="/team">
-                <a>team</a>
-              </Link>
+              <Link href="/team"><a>team</a></Link>
             </li>
             <li>
-              <Link href="/outcomes">
-                <a>outcomes</a>
-              </Link>
+              <Link href="/outcomes"><a>outcomes</a></Link>
             </li>
             <li>
-              <Link href="/faq">
-                <a>faq</a>
-              </Link>
+              <Link href="/faq"><a>faq</a></Link>
             </li>
           </ul>
         </div>
+
       </div>
->>>>>>> ef11dee3a7631e4713d28319bf71d8fb6df38211
 
       <style jsx>{`
         ul {
