@@ -52,14 +52,15 @@ const Header = (props) => {
                 text-align: right;
                 width: 70%;
                 margin: 0 auto;
-                padding: 12vh 0;
-
+                padding: 12vh 0 6vh;
             }
             .arrow {
-                position: absolute;
-                bottom 20%;
-                left: 50%;
-                transform: translate(-50%, -50%);
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              height: 100px;
+              padding-bottom: 50px;
               }
               .arrow span {
                 display: block;
