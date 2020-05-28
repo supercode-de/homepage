@@ -1,7 +1,3 @@
-import Head from 'next/head'
-import Banner from '../components/Banner'
-import Navigation from '../components/Navigation'
-import Footer from '../components/Footer'
 import FooterCallToAction from '../components/FooterCallToAction'
 import UnserCampus from '../components/UnserCampus'
 import FAQ from '../components/FAQ'
@@ -33,9 +29,7 @@ export default function Home() {
             <FAQ />
             <FooterCallToAction month="Mai" />
           </main>
-
           <style jsx>{``}</style>
-
         </div>
       </Layout>
     )
