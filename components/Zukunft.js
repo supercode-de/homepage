@@ -109,6 +109,21 @@ const Zukunft = (props) => {
           width: ${props.width * 3}px;
           z-index: 20;
         }
+        @media (max-width: 768px) {
+          .infos {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 90%;
+            margin: 0 auto;
+          }
+          .info-one, .info-headline {
+            width: auto;
+            margin: 0;
+          }
+          .info-one {
+            grid-column: 1 / span 2;
+          }
+        }
       `}</style>
     </div>
   );
