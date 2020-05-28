@@ -29,7 +29,7 @@ const Navigation = () => {
               <Link href="/outcomes"><a>outcomes</a></Link>
             </li>
             <li>
-              <Link href="/faq"><a>faq</a></Link>
+              <Link href="/#faq"><a>faq</a></Link>
             </li>
           </ul>
         </div>

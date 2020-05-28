@@ -240,8 +240,7 @@ class Collapsible extends Component {
                     transition: background-color 1s linear;
                 }
                 .Collapsible__trigger {
-                    display: flex;
-                    justify-content: space-between;
+                    position: relative;
                 }
                 .arrow {
                     border: solid #3DD7AC;
@@ -251,6 +250,9 @@ class Collapsible extends Component {
                     width: 20px;
                     transform: rotate(45deg);
                     transition: transform .4s linear;
+                    position: absolute;
+                    top: 10px;
+                    right: 0;
                 }
                 .arrow.up {
                     transform: scaleY(-1) rotate(45deg) ;
