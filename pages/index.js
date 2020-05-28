@@ -13,58 +13,31 @@ import Weiterbildung from '../components/Weiterbildung'
 import Bewerbungsprozess from '../components/Bewerbungsprozess'
 
 import { useWindowSize } from '../components/functions/windowSize'
+import Layout from '../components/Layout'
 
 
 export default function Home() {
   if (process.browser) {
     const width = useWindowSize().width / 12
     return (
-      <div className="container">
-        <Head>
-          <title>Super-code</title>
-          <link rel="icon" href="/favicon.ico" />
-          {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" /> */}
-        </Head>
-        <main>
-          <Banner />
-          <Navigation />
-          <Header width={width} />
-          <HeaderCallToAction />
-          <Zukunft width={width} />
-          <UnserCampus width={width} />
-          <Weiterbildung />
-          <Bewerbungsprozess />
-          <MeldeDich />
-          <FAQ />
-          <FooterCallToAction month="Mai" />
-          <Footer />
-        </main>
+      <Layout banner={true}>
+        <div className="container">
+          <main>
+            <Header width={width} />
+            <HeaderCallToAction />
+            <Zukunft width={width} />
+            <UnserCampus width={width} />
+            <Weiterbildung />
+            <Bewerbungsprozess />
+            <MeldeDich />
+            <FAQ />
+            <FooterCallToAction month="Mai" />
+          </main>
 
+          <style jsx>{``}</style>
 
-        <style jsx>{`
-         
-        `}</style>
-
-        <style jsx global>{`
-          @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');        
-          html,
-          body {
-            padding: 0;
-            margin: 0;
-            font-family: 'Fira Sans', sans-serif;
-          }
-  
-          * {
-            box-sizing: border-box;
-          }
-          @media (max-width: 768px) {
-            body {
-              font-size: 12px;
-            }
-            }
-        }
-        `}</style>
-      </div>
+        </div>
+      </Layout>
     )
   } else { return "" }
 
