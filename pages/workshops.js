@@ -3,6 +3,7 @@ import HeaderWS from "../components/HeaderWS";
 import HeaderCallToActionWS from "../components/HeaderCallToActionWS";
 import { useWindowSize } from "../components/functions/windowSize";
 import LerneProgrammieren from "../components/LerneProgrammieren";
+import Navigation from "../components/Navigation";
 
 export default function Workshop() {
   if (process.browser) {
@@ -15,6 +16,7 @@ export default function Workshop() {
           {/* <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" /> */}
         </Head>
         <main>
+          <Navigation />
           <HeaderWS width={width} />
           <HeaderCallToActionWS />
           <LerneProgrammieren />

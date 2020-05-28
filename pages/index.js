@@ -33,8 +33,8 @@ export default function Home() {
           <Zukunft width={width} />
           <UnserCampus width={width} />
           <Weiterbildung />
-          <MeldeDich />
           <Bewerbungsprozess />
+          <MeldeDich />
           <FAQ />
           <FooterCallToAction month="Mai" />
           <Footer />
@@ -59,7 +59,7 @@ export default function Home() {
           }
           @media (max-width: 768px) {
             body {
-              font-size: 10px;
+              font-size: 12px;
             }
             }
         }

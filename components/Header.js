@@ -1,10 +1,7 @@
-import Button from "./small/Button";
-import { useWindowSize } from "./functions/windowSize";
+import Button from "./small/Button"
 
 const Header = (props) => {
-  // const width = useWindowSize().width / 12
-  const pixelSize = 2;
-  console.log("Header ", props);
+  const pixelSize = 2 // Width of Lines in Background
   return (
     <div id="header">
       <h1>
@@ -22,10 +19,10 @@ const Header = (props) => {
       <style jsx>{`
             #header {
                 background: linear-gradient(90deg, #000 ${
-                  props.width - pixelSize
-                }px, transparent 1%), linear-gradient(#000 ${
         props.width - pixelSize
-      }px, transparent 1%) , #fff;
+        }px, transparent 1%), linear-gradient(#000 ${
+        props.width - pixelSize
+        }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
             }
             h1 {
