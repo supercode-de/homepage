@@ -1,13 +1,29 @@
 import React, { useState, useEffect } from 'react';
-import { useWindowSize } from './functions/windowSize'
+import Carousel from 'react-multi-carousel'
 
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
+};
 const UnserCampus = (props) => {
-  // const width = useWindowSize().width / 12
-  // console.log(width)
   return (
     <div id="unser-campus">
       <span className="aside">lerne programmieren</span>
-      {/* <img className="img-one" src="https://unsplash.it/300/200" alt="" /> */}
       <div className="text-one">
         <h1>
           Unser Campus <br /> ist <span>mehr</span>
@@ -19,7 +35,29 @@ const UnserCampus = (props) => {
       <img className="img-three" src="https://unsplash.it/302/200" alt="" />
       <img className="img-four" src="https://unsplash.it/305/200" alt="" />
       <img className="img-five" src="https://unsplash.it/300/206" alt="" />
+      <div className="carousel">
+        <Carousel
+          responsive={responsive}
+          ssr
+          showDots={false}
+          slidesToSlide={1}
+          infinite
+          containerClass="container-with-dots"
+          itemClass="image-item"
+          deviceType={''}
+        >
+          <div><img src="https://unsplash.it/300/202" alt="" /></div>
+          <div><img src="https://unsplash.it/302/200" alt="" /></div>
+          <div><img src="https://unsplash.it/305/200" alt="" /></div>
+          <div><img src="https://unsplash.it/300/206" alt="" /></div>
+        </Carousel>
+      </div>
+
+
+
+
       <div className="text-two">
+
         <p>SuperCode bietet ein arbeitsmarktlich aussichtsreiches und praxisnahes Bildungsangebot im IT-Bereich mit methodisch modernen und hohem Einsatz von Lehrpersonal. Hervorzuheben ist die hervorragende Branchenvernetzung sowie die innovative Praxiskompetenz der Geschäftsführung und des Teams.</p>
         <p className="hash-tag"># Certqua Bonn</p>
       </div>
@@ -99,12 +137,42 @@ const UnserCampus = (props) => {
                     position: absolute;
                     transform: rotate(-90deg);
                     transform-origin: left;
-                    left: 1%;
+                    left: 3%;
                     top: 30%;
                     text-transform: uppercase;
                   }
                   .text-two {
                     margin-top: ${-1.5 * props.width}px
+                  }
+                  .carousel {
+                    display:none;
+                  } 
+                  .carousel div {
+                    text-align: center;
+                  }
+                  @media (max-width: 768px) {
+                    .text-one, .text-two {
+                      padding: 0 ${props.width}px;
+                      margin: 0;
+                      width: 100%;
+                    }
+                    h1 {
+                      margin-top:0;
+                      padding-top: .7em;
+                    }
+                    h1, p {
+                      width: 100%
+                    }
+                    .img-two, .img-three, .img-four, .img-five, .img-six {
+                      display: none;
+                    }
+                    .carousel {
+                      display: block;
+                    }
+                    .carousel img {
+                      height: 20vh;
+                      width: autO;
+                    }
                   }
             `}</style>
     </div>
