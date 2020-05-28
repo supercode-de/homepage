@@ -52,7 +52,7 @@ const Navigation = () => {
             display: flex;
             z-index:500000000;
             width: 100%;
-            height: 5vmax;
+            height: 4vmax;
             transition: width 1s;
         }
         a {
