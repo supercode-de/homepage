@@ -45,7 +45,7 @@ const Footer = () => {
             </div>
             <style jsx>{`
             #footer {
-                background: #000;
+                background: #03000F;
                 color: #3DD7AC;
                 font-weight: 200;
                 padding-top: 3em;

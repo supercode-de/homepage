@@ -28,11 +28,11 @@ const HeaderWS = (props) => {
 
       <style jsx>{`
                #header {
-                background: linear-gradient(90deg, #000 ${
-                  props.width - pixelSize
-                }px, transparent 1%), linear-gradient(#000 ${
+                background: linear-gradient(90deg, #03000F ${
         props.width - pixelSize
-      }px, transparent 1%) , #fff;
+        }px, transparent 1%), linear-gradient(#03000F ${
+        props.width - pixelSize
+        }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
             }
             img{

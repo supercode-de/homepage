@@ -236,7 +236,7 @@ class Collapsible extends Component {
                 }
                 .Collapsible {
                     padding: 3vh 10%;
-                    background-color: ${this.state.isClosed ? "#000" : "#5D3EDE"};
+                    background-color: ${this.state.isClosed ? "#03000F" : "#5D3EDE"};
                     transition: background-color 1s linear;
                 }
                 .Collapsible__trigger {

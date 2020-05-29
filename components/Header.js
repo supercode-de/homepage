@@ -18,9 +18,9 @@ const Header = (props) => {
       </div>
       <style jsx>{`
             #header {
-                background: linear-gradient(90deg, #000 ${
+                background: linear-gradient(90deg, #03000F ${
         props.width - pixelSize
-        }px, transparent 1%), linear-gradient(#000 ${
+        }px, transparent 1%), linear-gradient(#03000F ${
         props.width - pixelSize
         }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;

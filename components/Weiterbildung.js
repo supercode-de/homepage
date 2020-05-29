@@ -72,7 +72,7 @@ const Weiterbildung = () => {
             </div>
             <style jsx>{`
                 #weiterbildung {
-                    background: #000;
+                    background: #03000F;
                     color: #3DD7AC;
                     padding: 10vh 0;
                 }

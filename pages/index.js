@@ -10,6 +10,7 @@ import Bewerbungsprozess from '../components/Bewerbungsprozess'
 
 import { useWindowSize } from '../components/functions/windowSize'
 import Layout from '../components/Layout'
+import Blog from '../components/Blog'
 
 
 export default function Home() {
@@ -26,6 +27,7 @@ export default function Home() {
             <Weiterbildung />
             <Bewerbungsprozess />
             <MeldeDich />
+            <Blog />
             <FAQ />
             <FooterCallToAction month="Mai" />
           </main>

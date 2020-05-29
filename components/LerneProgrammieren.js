@@ -160,7 +160,7 @@ const LerneProgrammieren = () => {
       </div>
       <style jsx>{`
         #weiterbildung {
-          background: #000;
+          background: #03000F;
           color: #3dd7ac;
           padding: 10vh 0;
           display: flex;
