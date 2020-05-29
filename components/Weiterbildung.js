@@ -74,10 +74,10 @@ const Weiterbildung = () => {
                 #weiterbildung {
                     background: #03000F;
                     color: #3DD7AC;
-                    padding: 10vh 0;
+                    padding: 15vh 0;
                 }
                 h1 {
-                    font-size: 3em;
+                    font-size: 4em;
                     letter-spacing: 2px;
                     margin: 0 10% 5vh;
                 }

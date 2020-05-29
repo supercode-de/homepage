@@ -37,7 +37,7 @@ const Bewerbungsprozess = () => {
 
             <style jsx>{`
                 #finanzierung {
-                    
+                    padding-top: 10vh;
                 }
                 h1 {
                     font-size: 4em;
