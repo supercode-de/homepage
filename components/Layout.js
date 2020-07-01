@@ -12,9 +12,10 @@ const Layout = (props) => {
       </Head>
 
       {props.banner ? <Banner /> : ""}
-      <Navigation />
+      {props.oneComponent ? "" : <Navigation />}
       {props.children}
-      <Footer />
+      {props.oneComponent ? "" : <Footer />}
+
 
       <style jsx global>{`
           @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');
