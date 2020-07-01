@@ -185,7 +185,7 @@ const LerneProgrammieren = () => {
           transform: rotate(-90deg);
           transform-origin: left;
           left: 3%;
-          top: 20%;
+          top: 48vh;
           color: #3dd7ac;
           font-size: 1.3rem;
           text-transform: uppercase;

@@ -1,6 +1,7 @@
 import blog from './data/blog'
 import Carousel from 'react-multi-carousel'
 import Link from 'next/link'
+import ButtonGroup from './React-Multi-Carousel-Custom-Arrows'
 
 const responsive = {
     superLargeDesktop: {
@@ -65,12 +66,12 @@ const Blog = () => {
                 -webkit-text-stroke-color: #3DD7AC;
             }
             .blog-list {
-                margin-top: 8vh;
+                padding-top: 15vh;
             }
             // Blog-item-style
             .blog-item {
-                padding: 10vh 7.5vw 3vh;
-                box-shadow: inset 15vw 0 #5D3EDE;
+                padding: 15vh 7.5vw 3vh;
+                box-shadow: 15vw 0 #5D3EDE;
                 height: 100%;
                 display: flex;
                 flex-direction: column;

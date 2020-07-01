@@ -21,7 +21,8 @@ const Layout = (props) => {
           @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');
           html {
             scroll-behavior: smooth;
-          }        
+          }  
+                
           html,
           body {
             padding: 0;
@@ -31,6 +32,20 @@ const Layout = (props) => {
           * {
             box-sizing: border-box;
           }
+          // Styling Carousel Blog Start
+          #blog .react-multiple-carousel__arrow {
+            background: none;
+            top: -1px;
+          }
+          #blog .react-multiple-carousel__arrow--right {
+            right: 8%;
+            left: auto;
+          }
+          #blog .react-multiple-carousel__arrow--left {
+            right 10%;
+            left: auto;
+          }
+          // Styling Carousel Blog End
           @media (max-width: 768px) {
             body {
               font-size: 10px;
