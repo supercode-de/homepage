@@ -1,7 +1,7 @@
 import blog from './data/blog'
 import Carousel from 'react-multi-carousel'
 import Link from 'next/link'
-import ButtonGroup from './React-Multi-Carousel-Custom-Arrows'
+// import ButtonGroup from './React-Multi-Carousel-Custom-Arrows'
 
 const responsive = {
     superLargeDesktop: {
@@ -42,7 +42,7 @@ const Blog = () => {
                         <div className="blog-item" key={i}>
                             <h3>{blogitem.titel.slice(0, 100)}</h3>
                             <p>{blogitem.text.slice(0, 200)}</p>
-                            <Link href={blogitem.href}><a target="_blank">zum Artikel ></a></Link>
+                            <Link href={blogitem.href}><a target="_blank">zum Artikel </a></Link>
                         </div>)}
                 </Carousel>
             </div>

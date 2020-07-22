@@ -39,7 +39,7 @@ const Weiterbildung = () => {
                         </div>
                     </div>
                 </Collapsible>
-                <Collapsible triggerTagName="h1" trigger="6 Monate Web-Developer Frond-End " triggerExtra="Teilzeit 24 Wochen">
+                <Collapsible triggerTagName="h1" trigger="7 Monate Web-Developer Frond-End " triggerExtra="Teilzeit 30 Wochen">
                     <div className="kurse-infos">
                         <div>
                             <p>Dein Studium passt nicht mehr zu Dir, in deinem Beruf gibt es keine Zukunft oder du willst was ganz neues starten? Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
@@ -73,7 +73,7 @@ const Weiterbildung = () => {
             <style jsx>{`
                 #weiterbildung {
                     background: #03000F;
-                    color: #3DD7AC;
+                    color: #fff;
                     padding: 15vh 0;
                 }
                 h1 {

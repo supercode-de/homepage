@@ -28,9 +28,11 @@ const SuperPartner = (props) => {
         #container {
           color: #5d3ede;
           margin: 0 auto;
-          padding: 8vh;
+          padding: 8vh 10%;
           display: flex;
           flex-direction: column;
+          background: #03000F;
+          
         }
         h1 {
           font-size: 2rem;

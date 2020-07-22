@@ -2,8 +2,9 @@
 
 const Bewerbungsprozess = () => {
     return (
-        <div id="finanzierung">
-            <h1>In vier Schritten zum <br /> neuen <span>Traumjob</span></h1>
+        <div id="bewerbungsprozess">
+
+            <h1>Unser <br /><span>UnserAufnahmeprozess</span></h1>
             <div className="path">
                 <figure className="kontakt">
                     <img src="/img/kontakt.svg" alt="" />
@@ -36,7 +37,7 @@ const Bewerbungsprozess = () => {
             </div>
 
             <style jsx>{`
-                #finanzierung {
+                #bewerbungsprozess {
                     padding-top: 10vh;
                 }
                 h1 {

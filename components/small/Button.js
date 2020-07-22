@@ -21,6 +21,7 @@ const Button = (props) => {
                 top: 0;
                 left: 0;
                 text-align: center;
+                min-width:100px;
             }
             a:hover {
                 // margin: 10px 5px 15px 10px;

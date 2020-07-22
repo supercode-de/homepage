@@ -8,8 +8,8 @@ const FooterCallToAction = (props) => {
                 <span>Die nächsten Kurse starten im {props.month}!</span>
             </h1>
             <div className="buttons">
-                <Button href="/" text="Play Video" />
-                <Button href="/" text="Play Video" />
+                <Button href="/" text="Mehr" />
+                <Button href="/" text="Kontakt" />
             </div>
             <style jsx>{`
             #call-to-action {

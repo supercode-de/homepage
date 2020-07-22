@@ -21,14 +21,14 @@ const Zukunft = (props) => {
           </p>
         </div>
         <div className="info-headline">
-          <h3>Bootcamps ⟶</h3>
+          <h3><a href="">Bootcamps ⟶</a></h3>
           <p>
             Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur
             5 Monaten
           </p>
         </div>
         <div className="info-headline">
-          <h3>Workshops ⟶</h3>
+          <h3><a href="">Workshops ⟶</a> </h3>
           <p>
             Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
             schärfe deine Wissen in einer Programmiersprache.
@@ -36,9 +36,9 @@ const Zukunft = (props) => {
         </div>
       </div>
       <div className="images">
-        <img className="img-one" src="https://unsplash.it/900/600" alt="" />
-        <img className="img-two" src="https://unsplash.it/900/600" alt="" />
-        <img className="img-three" src="https://unsplash.it/900/600" alt="" />
+        <img className="img-one" src="/img/_DSC2652_LowRes 6.png" alt="" />
+        <img className="img-two" src="/img/_DSC2652_LowRes 7.png" alt="" />
+        {/* <img className="img-three" src="https://unsplash.it/900/600" alt="" /> */}
       </div>
 
       <style jsx>{`
@@ -86,6 +86,10 @@ const Zukunft = (props) => {
           color: #5d3ede;
           font-size: 2em;
           margin: 0;
+        }
+        a{
+          color: #5d3ede;
+          text-decoration:none;
         }
         .images {
           margin-top: ${props.width}px;

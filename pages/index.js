@@ -7,11 +7,12 @@ import HeaderCallToAction from '../components/HeaderCallToAction'
 import Zukunft from '../components/Zukunft'
 import Weiterbildung from '../components/Weiterbildung'
 import Bewerbungsprozess from '../components/Bewerbungsprozess'
-
+import SuperPartner from '../components/SuperPartner'
 import { useWindowSize } from '../components/functions/windowSize'
 import Layout from '../components/Layout'
 import Blog from '../components/Blog'
-
+import Qualitat from '../components/Qualitat'
+import Finanzierung from '../components/Finanzierung'
 
 export default function Home() {
   if (process.browser) {
@@ -25,11 +26,14 @@ export default function Home() {
             <Zukunft width={width} />
             <UnserCampus width={width} />
             <Weiterbildung />
+            <SuperPartner />
+            <Qualitat />
+            <Finanzierung />
             <Bewerbungsprozess />
             <MeldeDich />
             <Blog />
             <FAQ />
-            <FooterCallToAction month="Mai" />
+            <FooterCallToAction month="September" />
           </main>
           <style jsx>{``}</style>
         </div>

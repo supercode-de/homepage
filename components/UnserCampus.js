@@ -24,17 +24,21 @@ const UnserCampus = (props) => {
   return (
     <div id="unser-campus">
       <span className="aside">lerne programmieren</span>
-      <div className="text-one">
-        <h1>
-          Unser Campus <br /> ist <span>mehr</span>
-        </h1>
-        <p>Unsere Schule befindet sich im Super7000. Auf über 1.000 qm arbeiten mehr als 50 Unternehmen in offenen Büros und in Teambüros inklusive Telefonzellen, Meetingräumen, Bällebad und der legendären Eventfläche auf echtem Kunstrasen für Workshops, Meet-Ups & Co. Wir nutzen dieses einzigartige Umfeld, um Dich noch schneller in passende Jobs zu vermitteln.</p>
-        <p className="hash-tag">#superwinwin</p>
-      </div>
-      <img className="img-two" src="https://unsplash.it/300/202" alt="" />
-      <img className="img-three" src="https://unsplash.it/302/200" alt="" />
-      <img className="img-four" src="https://unsplash.it/305/200" alt="" />
-      <img className="img-five" src="https://unsplash.it/300/206" alt="" />
+      <section className="two-column">
+        <div className="text-one">
+          <h1>
+            Unser Campus <br /> ist <span>mehr</span>
+          </h1>
+          <p>Unsere Schule befindet sich im Super7000. Auf über 1.000 qm arbeiten mehr als 50 Unternehmen in offenen Büros und in Teambüros inklusive Telefonzellen, Meetingräumen, Bällebad und der legendären Eventfläche auf echtem Kunstrasen für Workshops, Meet-Ups & Co. Wir nutzen dieses einzigartige Umfeld, um Dich noch schneller in passende Jobs zu vermitteln.</p>
+          <p className="hash-tag">#superwinwin</p>
+        </div>
+        <img className="img-two" src="/img/_DSC2652_LowRes 3.png" alt="" />
+      </section>
+
+      <img className="img-three" src="/img/_DSC2652_LowRes 13.png" alt="" />
+      <img src="/img/campus.svg" alt="" className="campus" />
+      <img className="img-four" src="/img/_DSC2652_LowRes 14.png" alt="" />
+      <img className="img-five" src="/img/_DSC2652_LowRes 11.png" alt="" />
       <div className="carousel">
         <Carousel
           responsive={responsive}
@@ -46,10 +50,10 @@ const UnserCampus = (props) => {
           itemClass="image-item"
           deviceType={''}
         >
-          <div><img src="https://unsplash.it/300/202" alt="" /></div>
-          <div><img src="https://unsplash.it/302/200" alt="" /></div>
-          <div><img src="https://unsplash.it/305/200" alt="" /></div>
-          <div><img src="https://unsplash.it/300/206" alt="" /></div>
+          <div><img src="/img/_DSC2652_LowRes 3.png" alt="" /></div>
+          <div><img src="/img/_DSC2652_LowRes 13.png" alt="" /></div>
+          <div><img src="/img/_DSC2652_LowRes 14.png" alt="" /></div>
+          <div><img src="/img/_DSC2652_LowRes 11.png" alt="" /></div>
         </Carousel>
       </div>
 
@@ -61,7 +65,7 @@ const UnserCampus = (props) => {
         <p>SuperCode bietet ein arbeitsmarktlich aussichtsreiches und praxisnahes Bildungsangebot im IT-Bereich mit methodisch modernen und hohem Einsatz von Lehrpersonal. Hervorzuheben ist die hervorragende Branchenvernetzung sowie die innovative Praxiskompetenz der Geschäftsführung und des Teams.</p>
         <p className="hash-tag"># Certqua Bonn</p>
       </div>
-      <img className="img-six" src="https://unsplash.it/300/200" alt="" />
+      <img className="img-six" src="/img/_DSC2652_LowRes 15.png" alt="" />
       <style jsx>{`
                 #unser-campus {
                     position: relative;
@@ -85,11 +89,18 @@ const UnserCampus = (props) => {
                     background-position: 0 0, 0 0;
                     background-size: ${props.width}px ${props.width}px;
                   }
+                  .two-column{
+                    display:grid;
+                    grid-template-columns:1fr 1fr;
+                    margin:0 8% 100px;
+                  }
                   img {
-                      width: ${3 * props.width}px
+                      width: 100%
+                  }
+                  .two-column img{
+                    align-self: center
                   }
                   .text-one {
-                    padding-top: ${props.width}px;
                   }
                   h1, p, .text-two {
                     color: #3DD7AC;
@@ -107,32 +118,6 @@ const UnserCampus = (props) => {
                   .hash-tag {
                     color: #5D3EDE;
                   }
-                  .img-one {
-                      margin-left: ${props.width}px
-                  }
-                  .img-two {
-                    margin-left: ${props.width * 9}px;
-                    margin-top: -${2 * props.width}px
-                  }
-                  .img-three {
-                    margin-left: ${props.width * 3}px;
-                    margin-top: ${props.width * .5}px;
-                  }
-                  .img-four {
-                    margin-left: ${props.width * 8}px;
-                    margin-top: -${1.5 * props.width}px
-                  }
-                  .img-five {
-                    margin-top: ${props.width}px;
-                  }
-                  .img-six {
-                    margin-left: ${props.width * 7}px;
-                    margin-top: ${props.width}px
-                  }
-                  .text-one, .text-two {
-                      margin-left: ${props.width * 5}px;
-                      margin-top: -${.5 * props.width}px
-                  }
                   .aside {
                     position: absolute;
                     transform: rotate(-90deg);
@@ -142,13 +127,46 @@ const UnserCampus = (props) => {
                     text-transform: uppercase;
                   }
                   .text-two {
-                    margin-top: ${-1.5 * props.width}px
+                    margin-left:50% ;
+                    transform:translateY(-180px)
                   }
                   .carousel {
                     display:none;
                   } 
                   .carousel div {
                     text-align: center;
+                  }
+                  .img-three{
+                    width:25%;
+                    margin-left:15%
+                  }
+                  .img-four{
+                    width:25%;
+                    margin-left:60%;
+                    transform:translateY(-80px)
+                  }
+                  .img-five{
+                    width:25%;
+                    transform:translateY(-80px)
+                  }
+                  .img-six{
+                    width:30%;
+                    margin-left:60%;
+                    transform:translateY(40px)
+                  }
+                  .campus{
+                    width:12%;
+                    margin-left:38%;
+                    animation: spin 15s linear infinite;
+                  }
+                  @keyframes spin{
+                      0%{
+                          transform:  rotate(0);
+                      }
+                      100%{
+                          transform: rotate(360deg);
+                      }
+                      
                   }
                   @media (max-width: 768px) {
                     .text-one, .text-two {
@@ -180,3 +198,20 @@ const UnserCampus = (props) => {
 }
 
 export default UnserCampus;
+
+
+// .img-three {
+//   margin-left: ${props.width * 3}px;
+//   margin-top: ${props.width * .5}px;
+// }
+// .img-four {
+//   margin-left: ${props.width * 8}px;
+//   margin-top: -${1.5 * props.width}px
+// }
+// .img-five {
+//   margin-top: ${props.width}px;
+// }
+// .img-six {
+//   margin-left: ${props.width * 7}px;
+//   margin-top: ${props.width}px
+// }

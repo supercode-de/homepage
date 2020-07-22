@@ -1,14 +1,32 @@
-import Button from "./small/Button"
+import Popup from "reactjs-popup";
+import YouTube from 'react-youtube';
 
 const Header = (props) => {
   const pixelSize = 2 // Width of Lines in Background
+  const opts = {
+    height: '360',
+    width: '640',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      autoplay: 1,
+    },
+  };
   return (
     <div id="header">
       <h1>
         Programmieren <br /> lernen war noch nie <span>digitaler.</span>
       </h1>
       <div className="buttons">
-        <Button href="/" text="PLAY VIDEO" />
+
+        <Popup
+          trigger={<button className="button"> PLAY VIDEO </button>}
+          modal
+          closeOnDocumentClick
+        >
+          <div className="large">
+            <YouTube videoId="ewW2g5RP5d4" opts={opts} />
+          </div>
+        </Popup>
       </div>
       <div className="aside">📞 +49 211 7817 233-0</div>
       <div className="arrow">
@@ -24,6 +42,12 @@ const Header = (props) => {
         props.width - pixelSize
         }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
+            }
+            
+            .large{
+              background:#03000F;
+              width:100%;
+              text-align:center;
             }
             h1 {
                 margin: 0;
@@ -91,6 +115,31 @@ const Header = (props) => {
                   transform: rotate(45deg) translate(20px, 20px);
                 }
               }
+              button {
+                display:inline-block;
+                color: #000;
+                text-decoration: none;
+                text-transform: uppercase;
+                padding: 5px 10px;
+                border: 3px solid #fff;
+                font-size: .9em;
+                font-weight: 200;
+                margin: 10px;
+                transition: top .5s linear, box-shadow .5s linear, left .5s linear;
+                box-shadow: 0 0 0 0 transparent;
+                position: relative;
+                top: 0;
+                left: 0;
+                text-align: center;
+                min-width:100px;
+            }
+            button:hover {
+                // margin: 10px 5px 15px 10px;
+                // margin: 10px 10px 15px 15px;
+                box-shadow: -5px 5px 0 0 #fff;
+                top: -5px;
+                left: 5px;
+            }
               @media (max-width: 768px) {
                 h1 {
                     font-size: 3em;

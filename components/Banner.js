@@ -18,12 +18,12 @@ const Banner = () => {
             font-family: "Fira Mono", monospace;
             font-style: normal;
             font-weight: bold;
-            font-size: 16px;
             line-height: 19px;
-            letter-spacing: 0.2em;
             text-transform: uppercase;
             color: #5d3ede;
             font-weight: 500;
+            font-size:0.8em;
+            letter-spacing:1.3px
           }
           #banner h3 a {
             color: #5d3ede;

@@ -3,10 +3,11 @@ import Button from "./small/Button"
 const MeldeDich = () => {
     return (
         <div id="melde-dich">
-            <h1>Melde dich noch heute</h1>
+            <h1>Melde dich noch heute, <br />oder mach mit bei unserem kostenlosen Workshop</h1>
+
             <div className="buttons">
-                <Button href="/" text="BUTTON" />
-                <Button href="/" text="BUTTON" />
+                <Button href="/" text="TERMIN" />
+                <Button href="/" text="WORKSHOP" />
             </div>
             <style jsx>{`
             #melde-dich {
@@ -16,7 +17,7 @@ const MeldeDich = () => {
                 margin: 10vh auto;
             }
             h1 {
-                font-size: 4em;
+                font-size: 2em;
                 color: #3DD7AC;
                 text-align: center;
             }
