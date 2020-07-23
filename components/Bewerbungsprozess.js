@@ -4,7 +4,7 @@ const Bewerbungsprozess = () => {
     return (
         <div id="bewerbungsprozess">
 
-            <h1>Unser <br /><span>UnserAufnahmeprozess</span></h1>
+            <h1>Unser <br /><span>Aufnahmeprozess</span></h1>
             <div className="path">
                 <figure className="kontakt">
                     <img src="/img/kontakt.svg" alt="" />

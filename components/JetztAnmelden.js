@@ -9,8 +9,15 @@ const JetztAnmdelden = (props) => {
 
             <div className="jetzt-anmelden-container">
                 <div className="jetzt-anmelden-left">
-                    <h1>How can we get in touch?</h1>
-                    <p>We’re available Monday-Friday from 8am-8pm EST. Requests outside of these hours will be handled the next business day.</p>
+                    <h1>Hi, wie</h1>
+                    <h1>können wir</h1>
+                    <h1>dir <span>helfen?</span></h1>
+                    <p>An diesen Zeiten erreichst duuns am besten an folgenden Tagen und Zeiten</p>
+                    <p>Montag - Freitag</p>
+                    <p>09:00 - 17:00 Uhr</p>
+                    <p>Unser Campus befindet sich im super7000 Coworking Space - der Mutter aller Coworking Spaces. Die genau Adresse lautet</p>
+                    <p>Ratherstr. 25</p>
+                    <p>40476 Düsseldorf</p>
                 </div>
                 <div className="jetzt-anmelden-right">
                     <HubspotForm
@@ -22,14 +29,14 @@ const JetztAnmdelden = (props) => {
                     />
                 </div>
             </div>
-            {/* <style jsx>{`
+            <style jsx>{`
                     #jetzt-anmelden{
                         position: fixed;
-                        background: #ffffff;
                         padding: 20px;
-                        background:#0b0f2c ;
+                        background: #03000F;
                         top: 0;
                         bottom: 0;
+                        color:#3DD7AC;
                         overflow-y: scroll;
                         transition: all .5s;
                         width: 100%;
@@ -46,9 +53,9 @@ const JetztAnmdelden = (props) => {
                     }
 
                     .jetzt-anmelden-container{
-                        padding: 5% 10%;
+                        padding: 150px 10%;
                         display: grid;
-                        grid-template-columns: 1fr 2fr;
+                        grid-template-columns: 1fr 1fr;
                         gap:50px;
                     }
                     .jetzt-anmelden-close{    
@@ -71,23 +78,26 @@ const JetztAnmdelden = (props) => {
                     }
                     .jetzt-anmelden-left h1{
                         font-size:4.3em;
-                        line-height: 1.08;
                         font-style: normal;
-                        font-weight: 300;
-                        margin-bottom: 50px;
-                        color: #fff;
-                        letter-spacing: 4px;
+                        font-weight: 800;
+                        margin:0;
+                        line-height:1em;
+                        letter-spacing:-1.5px
                     }
                     .jetzt-anmelden-left p{
                         font-size:1.1em;
                         line-height: 1.08;
-                        font-weight: 300;
+                        font-weight: 400;
                         letter-spacing: 2px;
                         margin-bottom: 14px;
-                        color: #78808a;
                         line-height: 24px;
                     }
-
+                    span {
+                        color: transparent;
+                        letter-spacing: 3px;
+                        -webkit-text-stroke-width: 1.5px;
+                        -webkit-text-stroke-color: #3DD7AC;
+                    }
                     @media screen and (max-width: 768px) {
                         .jetzt-anmelden-left h1{
                             padding-top: 100px;
@@ -133,7 +143,7 @@ const JetztAnmdelden = (props) => {
                         }
                     }
                     `}
-            </style> */}
+            </style>
 
         </div>);
 }

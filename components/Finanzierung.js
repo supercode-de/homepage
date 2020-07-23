@@ -80,6 +80,9 @@ const Finanzierung = (props) => {
                 grid-template-columns:repeat(1,1fr);
                 gap:20px
               }
+              h1{
+                  font-size:2em
+              }
         }
     `}
             </style>

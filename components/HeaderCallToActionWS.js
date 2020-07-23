@@ -1,20 +1,16 @@
 import Button from "./small/Button";
 
-const HeaderCallToActionWS = () => {
+const HeaderCallToActionWS = (props) => {
   return (
     <div id="header-call">
-      <p>(c)</p>
       <div>
         <h2>
-          Du willst Programmieren lernen
-          <br /> aber weißt nicht wie du starten sollst
+          Lerne Programmieren und werde <br /> Front-End oder Full-Stack Web-Developer*in! <br />– Jetzt auch online!
         </h2>
       </div>
       <style jsx>{`
         #header-call {
-          background: #5d3ede url(/fragezeichen.svg) right/contain no-repeat;
-          background-origin: content-box;
-          background-size: 6.6%;
+          background: #5d3ede ;
           color: #3dd7ac;
           padding: 5vh 3% 5vh;
           text-align: center;

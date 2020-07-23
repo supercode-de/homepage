@@ -1,38 +1,38 @@
 import Button from "./small/Button";
 import { useWindowSize } from "./functions/windowSize";
 
-const HeaderWS = (props) => {
-  // const width = useWindowSize().width / 12
-  const pixelSize = 2;
-  console.log("Header ", props);
-  return (
-    <div id="header">
-      <img src="/img/Bilder.png" alt="" />
-      <article>
-        <div>
-          <h1>
-            Lerne <br /> Web-Entwicklung<br />  in unseren
+const HeaderKurse = (props) => {
+    // const width = useWindowSize().width / 12
+    const pixelSize = 2;
+    console.log("Header ", props);
+    return (
+        <div id="header">
+            <img src="/img/Bilder.png" alt="" />
+            <article>
+                <div>
+                    <h1>
+                        Lerne <br /> Web-Entwicklung<br />  in unseren
 
             <span>Workshops.</span>
 
-          </h1>
-          <div className="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </div>
-        <div className="aside">📞 +49 211 7817 233-0</div>
+                    </h1>
+                    <div className="arrow">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div className="aside">📞 +49 211 7817 233-0</div>
 
-      </article>
+            </article>
 
-      <style jsx>{`
+            <style jsx>{`
                #header {
                 background: linear-gradient(90deg, #03000F ${
-        props.width - pixelSize
-        }px, transparent 1%), linear-gradient(#03000F ${
-        props.width - pixelSize
-        }px, transparent 1%) , #fff;
+                props.width - pixelSize
+                }px, transparent 1%), linear-gradient(#03000F ${
+                props.width - pixelSize
+                }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
             }
             img{
@@ -118,8 +118,8 @@ const HeaderWS = (props) => {
             }
               
                 `}</style>
-    </div>
-  );
+        </div>
+    );
 };
 
-export default HeaderWS;
+export default HeaderKurse;

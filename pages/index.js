@@ -10,8 +10,6 @@ import Bewerbungsprozess from '../components/Bewerbungsprozess'
 import SuperPartner from '../components/SuperPartner'
 import { useWindowSize } from '../components/functions/windowSize'
 import Layout from '../components/Layout'
-import Blog from '../components/Blog'
-import Qualitat from '../components/Qualitat'
 import Finanzierung from '../components/Finanzierung'
 
 export default function Home() {
@@ -26,13 +24,11 @@ export default function Home() {
             <Zukunft width={width} />
             <UnserCampus width={width} />
             <Weiterbildung />
-            <SuperPartner />
-            <Qualitat />
+            <SuperPartner width={width} />
             <Finanzierung />
             <Bewerbungsprozess />
             <MeldeDich />
-            <Blog />
-            <FAQ />
+            <FAQ width={width} />
             <FooterCallToAction month="September" />
           </main>
           <style jsx>{``}</style>

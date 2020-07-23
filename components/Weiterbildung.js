@@ -12,60 +12,68 @@ const Weiterbildung = () => {
                 <Collapsible triggerTagName="h1" trigger="5 Monate Web-Developer Full-Stack " triggerExtra="Vollzeit 22 Wochen">
                     <div className="kurse-infos">
                         <div>
-                            <p>Dein Studium passt nicht mehr zu Dir, in deinem Beruf gibt es keine Zukunft oder du willst was ganz neues starten? Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
-                            <h3>Inhalte:</h3>
-                            <p>Dein Studium passt nicht mehr zu Dir, in deinem Beruf gibt es keine Zukunft oder du willst was ganz neues starten?</p>
+                            <p>Unser Full-Stack Kurs ermöglicht dir einen Web-Entwicklungs deep Dive verpackt in einem ultra praxisorientiertem instensiv Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
+                            <h3>Termine:</h3>
+                            <h4>18.05.20 - voll</h4>
+                            <h4>7.09.20 - Platz sichern⟶</h4>
+                            <div>
+                                <Button href="/" text="ANFRAGEN" />
+                                <Button href="/" text="BERATUNG" />
+                            </div>
                         </div>
                         <div>
-                            <h3>Termine</h3>
-                            <p>Kurszeitraum: 18.05.20 - 21.10.20</p>
-                            <p>Anmeldefrist: bis zum 30.04.20</p>
+                            <h3>Inhalte:</h3>
+                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS</p>
+                            <p>Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken</p>
+                            <p>Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+
+
+                        </div>
+                        <div>
+                            <h3>Trainer*innen:</h3>
+                            <p>2 Trainer*innen pro Tag</p>
+                            <h3>Umfang:</h3>
+                            <p>_ 22 Wochen Vollzeit</p>
+                            <p>_ Montag bis Freitag</p>
+                            <p>_ 09:00 - 18:00 Uhr</p>
                             <h3>Finanzierung</h3>
                             <p>_ Bildungsgutschein</p>
                             <p>_ Chancen eG</p>
                             <p>_ Selbstzahler</p>
                         </div>
-                        <div>
-                            <h3>sonstiges:</h3>
-                            <p>zeitgleich 2 Trainer pro Tag</p>
-                            <p>mehr als 60 % Praxis</p>
-                            <h3>Umfang:</h3>
-                            <p>_ 22 Wochen Vollzeit</p>
-                            <p>_ Montag bis Freitag</p>
-                        </div>
-                        <div>
-                            <Button href="/" text="Button" />
-                            <Button href="/" text="Button" />
-                        </div>
+
                     </div>
                 </Collapsible>
                 <Collapsible triggerTagName="h1" trigger="7 Monate Web-Developer Frond-End " triggerExtra="Teilzeit 30 Wochen">
                     <div className="kurse-infos">
                         <div>
-                            <p>Dein Studium passt nicht mehr zu Dir, in deinem Beruf gibt es keine Zukunft oder du willst was ganz neues starten? Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
-                            <h3>Inhalte:</h3>
-                            <p>Dein Studium passt nicht mehr zu Dir, in deinem Beruf gibt es keine Zukunft oder du willst was ganz neues starten?</p>
+                            <p>Unser Full-Stack Kurs ermöglicht dir einen Web-Entwicklungs deep Dive verpackt in einem ultra praxisorientiertem instensiv Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
+                            <h3>Termine:</h3>
+                            <h4>20.01.20 - voll</h4>
+                            <h4>7.09.20 - Platz sichern⟶</h4>
+                            <div>
+                                <Button href="/" text="ANFRAGEN" />
+                                <Button href="/" text="BERATUNG" />
+                            </div>
                         </div>
                         <div>
-                            <h3>Termine</h3>
-                            <p>Kurszeitraum: 18.05.20 - 21.10.20</p>
-                            <p>Anmeldefrist: bis zum 30.04.20</p>
+                            <h3>Inhalte:</h3>
+                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS</p>
+
+                            <p>Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+                        </div>
+                        <div>
+                            <h3>Trainer*innen:</h3>
+                            <p>2 Trainer*innen pro Tag</p>
+                            <h3>Umfang:</h3>
+                            <p>_ 22 Wochen Vollzeit</p>
+                            <p>_ 3 abende und jeden 2.Samstag</p>
+                            <p>_ In der Woche: 18:00 - 21:00 Uhr</p>
+                            <p>_ Samstags: 09:00 - 18:00</p>
                             <h3>Finanzierung</h3>
                             <p>_ Bildungsgutschein</p>
                             <p>_ Chancen eG</p>
                             <p>_ Selbstzahler</p>
-                        </div>
-                        <div>
-                            <h3>sonstiges:</h3>
-                            <p>zeitgleich 2 Trainer pro Tag</p>
-                            <p>mehr als 60 % Praxis</p>
-                            <h3>Umfang:</h3>
-                            <p>_ 22 Wochen Vollzeit</p>
-                            <p>_ Montag bis Freitag</p>
-                        </div>
-                        <div>
-                            <Button href="/" text="Button" />
-                            <Button href="/" text="Button" />
                         </div>
                     </div>
                 </Collapsible>
@@ -90,11 +98,25 @@ const Weiterbildung = () => {
                 }
                 .kurse-infos {
                     display: grid;
-                    grid-template-columns: 50% 25% 25%;
+                    grid-template-columns: 40% 30% 30%;
+                    gap:30px
                 }
+
                 p {
                     font-weight: 200
                 }
+                .kurse-infos div:nth-of-type(1) h4{
+                    margin:0
+                }
+                .kurse-infos>div:nth-of-type(1) {
+                    display:flex;
+                    flex-direction:column;
+                    justify-content:space-between
+                }
+                .kurse-infos div:nth-of-type(3) p{
+                    margin:0
+                }
+                
             `}</style>
         </div>
     );
