@@ -9,19 +9,19 @@ const Finanzierung = (props) => {
                 <div className="infos">
                     <div className="info-headline">
 
-                        <h3>Bildungsgutschein ➔</h3>
+                        <h3>Bildungsgutschein </h3>
                         <p>
                             Unsere Kurse sind zertifiziert und könnnen zu 100% durch einen Bildungsgutschein finaziert werden.
                         </p>
                     </div>
                     <div className="info-headline">
-                        <h3>Chancen eG ➔</h3>
+                        <h3>Chancen eG </h3>
                         <p>
                             Lerne jetzt und zahle erst wenn du einen Job gefunden hast – der umgekehrte Genereationen Vertrag der Chancen eG macht es möglich.
                         </p>
                     </div>
                     <div className="info-headline">
-                        <h3>Ratenzahlung ➔</h3>
+                        <h3>Ratenzahlung </h3>
                         <p>
                             Du möchtest die Kurskosten in Raten abbezhalen, kein Problem. Wir bieten dir 3 faire und flexible Modelle.
                         </p>

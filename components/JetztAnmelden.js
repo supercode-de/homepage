@@ -12,7 +12,7 @@ const JetztAnmdelden = (props) => {
                     <h1>Hi, wie</h1>
                     <h1>können wir</h1>
                     <h1>dir <span>helfen?</span></h1>
-                    <p>An diesen Zeiten erreichst duuns am besten an folgenden Tagen und Zeiten</p>
+                    <p>An diesen Zeiten erreichst du uns am besten an folgenden Tagen und Zeiten</p>
                     <p>Montag - Freitag</p>
                     <p>09:00 - 17:00 Uhr</p>
                     <p>Unser Campus befindet sich im super7000 Coworking Space - der Mutter aller Coworking Spaces. Die genau Adresse lautet</p>
