@@ -16,7 +16,7 @@ const HeaderKurse = (props) => {
             <h1>
               Lerne <br /> Web-Entwicklung<br />  in unseren
 
-            <span>Workshops.</span>
+            <span>Bootcamps.</span>
 
             </h1>
             <div className="arrow">
