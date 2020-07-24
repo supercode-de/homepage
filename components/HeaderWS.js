@@ -113,10 +113,13 @@ const HeaderWS = (props) => {
                 }
                 
               @media (max-width: 768px) {
-                h1 {
+               
+                  h1 {
                     font-size: 2em;
                     width: 90%;
-                    margin: 0 auto;
+                    margin:40px auto;
+                    line-height:30px
+                
                 }
                 .container{
                   grid-template-columns:100%;

@@ -217,6 +217,15 @@ const LerneProgrammieren = () => {
         .button-container {
           align-self: end;
         }
+        @media (max-width: 768px) {
+          h1 {
+            font-size: 3em;
+            line-height:2em;
+        }
+          .kurse-infos {
+            
+            grid-template-columns: 1fr;
+      }
       `}</style>
     </div>
   );

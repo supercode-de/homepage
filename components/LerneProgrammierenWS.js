@@ -118,9 +118,20 @@ const LerneProgrammierenKurse = () => {
         @media (max-width: 768px) {
             h1 {
                 font-size: 3em;
+                line-height:2em;
+            }
+            .kurse-infos {
+                
+                grid-template-columns: 100%;
+                
+              }
+        }
+        @media (max-width: 468px) {
+            h1 {
+                font-size: 2em;
                 
             }
-            
+        }
       `}</style>
         </div>
     );

@@ -110,6 +110,19 @@ const Absolvente = () => {
             h3,h4{
                 color:#fff;
             }
+            @media (max-width: 768px) {
+                
+                .carousel {
+                  display: block;
+                }
+                .carousel img {
+                  height: 20vh;
+                  width: auto;
+                }
+                h2{
+                    font-size:3em
+                }
+              }
             `}</style>
         </div>
     );

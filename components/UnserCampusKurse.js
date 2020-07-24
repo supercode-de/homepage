@@ -228,7 +228,7 @@ const UnserCampus = (props) => {
                     }
                     .carousel img {
                       height: 20vh;
-                      width: autO;
+                      width: auto;
                     }
                   }
             `}</style>
