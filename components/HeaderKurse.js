@@ -7,25 +7,28 @@ const HeaderKurse = (props) => {
   console.log("Header ", props);
   return (
     <div id="header">
-      <img src="/img/Bilder.png" alt="" />
-      <article>
-        <div>
-          <h1>
-            Lerne <br /> Web-Entwicklung<br />  in unseren
+      <div className="container">
+
+
+        <img src="/img/Bilder.png" alt="" />
+        <article>
+          <div>
+            <h1>
+              Lerne <br /> Web-Entwicklung<br />  in unseren
 
             <span>Workshops.</span>
 
-          </h1>
-          <div className="arrow">
-            <span></span>
-            <span></span>
-            <span></span>
+            </h1>
+            <div className="arrow">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
-        </div>
-        <div className="aside">📞 +49 211 7817 233-0</div>
+          <div className="aside">📞 +49 211 7817 233-0</div>
 
-      </article>
-
+        </article>
+      </div>
       <style jsx>{`
                #header {
                 background: linear-gradient(90deg, #03000F ${
