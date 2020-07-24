@@ -2,94 +2,90 @@ import React, { useState, useEffect } from 'react';
 import Carousel from 'react-multi-carousel'
 
 const responsive = {
-    superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 5
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 3
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 2
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1
-    }
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1
+  }
 };
 const UnserCampus = (props) => {
-    return (
-        <div id="unser-campus">
-            <div id="partner">
-                <h1>#SuperPartner</h1>
-                <div className="partner-container">
-                    <a href="#">
-                        <img src="/img/blanko.png" alt="" />
-                    </a>
-                    <a href="">
-                        <img src="/img/cammio.png" alt="" />
-                    </a>
-                    <a href="">
-                        <img src="/img/digihub.png" alt="" />
-                    </a>
-                    <a href="">
-                        <img src="/img/moWeb.png" alt="" />
-                    </a>
-                    <a href="">
-                        <img src="/img/startupDorf.png" alt="" />
-                    </a>
-                    <a href="">
-                        <img src="/img/super7000.png" alt="" />
-                    </a>
-                </div>
-            </div>
-            <span className="aside">lerne programmieren</span>
-            <section className="two-column">
-                <div className="text-one">
-                    <h1>
-                        Unser Campus <br /> ist <span>mehr</span>
-                    </h1>
-                    <p>Unsere Schule befindet sich im Super7000. Auf über 1.000 qm arbeiten mehr als 50 Unternehmen in offenen Büros und in Teambüros inklusive Telefonzellen, Meetingräumen, Bällebad und der legendären Eventfläche auf echtem Kunstrasen für Workshops, Meet-Ups & Co. Wir nutzen dieses einzigartige Umfeld, um Dich noch schneller in passende Jobs zu vermitteln.</p>
-                    <p className="hash-tag">#superwinwin</p>
-                </div>
-                <img className="img-two" src="/img/_DSC2652_LowRes 3.png" alt="" />
-            </section>
+  return (
+    <div id="unser-campus">
+      <div id="partner">
+        <h1>#SuperPartner</h1>
+        <div className="partner-container">
+          <a href="#">
+            <img src="/img/blanko.png" alt="" />
+          </a>
+          <a href="">
+            <img src="/img/cammio.png" alt="" />
+          </a>
+          <a href="">
+            <img src="/img/digihub.png" alt="" />
+          </a>
+          <a href="">
+            <img src="/img/zdi.png" alt="" />
+          </a>
+          <a href="">
+            <img src="/img/startupDorf.png" alt="" />
+          </a>
+          <a href="">
+            <img src="/img/super7000.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <span className="aside">lerne programmieren</span>
+      <section className="two-column">
+        <div className="text-one">
+          <h1>
+            Unser Campus <br /> ist <span>mehr</span>
+          </h1>
+          <p>Unsere Schule befindet sich im Super7000. Auf über 1.000 qm arbeiten mehr als 50 Unternehmen in offenen Büros und in Teambüros inklusive Telefonzellen, Meetingräumen, Bällebad und der legendären Eventfläche auf echtem Kunstrasen für Workshops, Meet-Ups & Co. Wir nutzen dieses einzigartige Umfeld, um Dich noch schneller in passende Jobs zu vermitteln.</p>
+          <p className="hash-tag">#superwinwin</p>
+        </div>
+        <img className="img-two" src="/img/_DSC2652_LowRes 3.png" alt="" />
+      </section>
 
-            <img className="img-three" src="/img/_DSC2652_LowRes 13.png" alt="" />
-            <img src="/img/campus.svg" alt="" className="campus" />
-            <img className="img-four" src="/img/_DSC2652_LowRes 14.png" alt="" />
-            <img className="img-five" src="/img/_DSC2652_LowRes 11.png" alt="" />
-            <div className="carousel">
-                <Carousel
-                    responsive={responsive}
-                    ssr
-                    showDots={false}
-                    slidesToSlide={1}
-                    infinite
-                    containerClass="container-with-dots"
-                    itemClass="image-item"
-                    deviceType={''}
-                >
-                    <div><img src="/img/_DSC2652_LowRes 3.png" alt="" /></div>
-                    <div><img src="/img/_DSC2652_LowRes 13.png" alt="" /></div>
-                    <div><img src="/img/_DSC2652_LowRes 14.png" alt="" /></div>
-                    <div><img src="/img/_DSC2652_LowRes 11.png" alt="" /></div>
-                </Carousel>
-            </div>
-
-
+      <img className="img-three" src="/img/_DSC2652_LowRes 13.png" alt="" />
+      <img src="/img/campus.svg" alt="" className="campus" />
+      <img className="img-four" src="/img/_DSC2652_LowRes 14.png" alt="" />
+      <img className="img-five" src="/img/_DSC2652_LowRes 11.png" alt="" />
+      <div className="carousel">
+        <Carousel
+          responsive={responsive}
+          ssr
+          showDots={false}
+          slidesToSlide={1}
+          infinite
+          containerClass="container-with-dots"
+          itemClass="image-item"
+          deviceType={''}
+        >
+          <div><img src="/img/_DSC2652_LowRes 3.png" alt="" /></div>
+          <div><img src="/img/_DSC2652_LowRes 13.png" alt="" /></div>
+          <div><img src="/img/_DSC2652_LowRes 14.png" alt="" /></div>
+          <div><img src="/img/_DSC2652_LowRes 11.png" alt="" /></div>
+        </Carousel>
+      </div>
 
 
-            <div className="text-two">
 
-                <p>SuperCode bietet ein arbeitsmarktlich aussichtsreiches und praxisnahes Bildungsangebot im IT-Bereich mit methodisch modernen und hohem Einsatz von Lehrpersonal. Hervorzuheben ist die hervorragende Branchenvernetzung sowie die innovative Praxiskompetenz der Geschäftsführung und des Teams.</p>
-                <p className="hash-tag"># Certqua Bonn</p>
-            </div>
-            <img className="img-six" src="/img/_DSC2652_LowRes 15.png" alt="" />
-            <style jsx>{`
+
+
+      <img className="img-six" src="/img/_DSC2652_LowRes 15.png" alt="" />
+      <style jsx>{`
                 #unser-campus {
                     position: relative;
                     background-color: #fff;
@@ -236,8 +232,8 @@ const UnserCampus = (props) => {
                     }
                   }
             `}</style>
-        </div>
-    );
+    </div>
+  );
 }
 
 export default UnserCampus;

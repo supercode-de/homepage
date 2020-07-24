@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Footer = () => {
     return (
         <footer id="footer">
-            <div className="footer-grid">
+            {/* <div className="footer-grid">
                 <div className="link-container">
                     <Link href="/"><a className="line-bottom">Sitemap</a></Link>
                     <Link href="/"><a>Customer Jurney &amp; Experience (CX)</a></Link>
@@ -38,7 +38,7 @@ const Footer = () => {
                     <Link href="/"><a>Rekrutierung</a></Link>
                     <Link href="/"><a>Pflege</a></Link>
                 </div>
-            </div>
+            </div> */}
             <div className="copyright">
                 <p className="white">super(code)</p>
                 <p>&copy; 2002-2020</p>
@@ -48,7 +48,7 @@ const Footer = () => {
                 background: #03000F;
                 color: #3DD7AC;
                 font-weight: 200;
-                padding-top: 3em;
+                padding-top: .8em;
             }
             .link-container {
                 display: flex;

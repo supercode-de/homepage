@@ -6,7 +6,7 @@ const MeldeDich = () => {
             <h1>Melde dich noch heute, <br />oder mach mit bei unserem kostenlosen Workshop</h1>
 
             <div className="buttons">
-                <Button href="/" text="TERMIN" />
+                <Button href="/" text="BERATUNG" />
                 <Button href="/" text="WORKSHOP" />
             </div>
             <style jsx>{`

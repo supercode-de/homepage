@@ -1,9 +1,8 @@
 import HeaderWS from "../components/HeaderWS";
 import HeaderCallToActionWS from "../components/HeaderCallToActionWS";
 import { useWindowSize } from "../components/functions/windowSize";
-import LerneProgrammieren from "../components/LerneProgrammieren";
-import UnserCampus from "../components/UnserCampus";
-import SuperPartner from "../components/SuperPartner";
+import LerneProgrammierenWS from "../components/LerneProgrammierenWS";
+import UnserCampusKurse from "../components/UnserCampusKurse";
 import FooterCallToAction from "../components/FooterCallToAction";
 import Layout from "../components/Layout";
 
@@ -16,9 +15,8 @@ export default function Workshop() {
           <main>
             <HeaderWS width={width} />
             <HeaderCallToActionWS />
-            <LerneProgrammieren />
-            <UnserCampus width={width} />
-            <SuperPartner />
+            <LerneProgrammierenWS />
+            <UnserCampusKurse width={width} />
             <FooterCallToAction month="Mai" />
             {/* <Header width={width} /> */}
 

@@ -1,14 +1,14 @@
 import Button from "./small/Button";
 
-const HeaderCallToActionWS = (props) => {
-  return (
-    <div id="header-call">
-      <div>
-        <h2>
-          Lerne wichtige IT Fahigkeiten neben deinem Beruf oder Studium.<br />– Jetzt auch online!
+const HeaderCallToActionKurse = (props) => {
+    return (
+        <div id="header-call">
+            <div>
+                <h2>
+                    Lerne Programmieren und werde <br /> Front-End oder Full-Stack Web-Developer*in! <br />– Jetzt auch online!
         </h2>
-      </div>
-      <style jsx>{`
+            </div>
+            <style jsx>{`
         #header-call {
           background: #5d3ede ;
           color: #3dd7ac;
@@ -27,8 +27,8 @@ const HeaderCallToActionWS = (props) => {
           font-size: 2.2rem;
         }
       `}</style>
-    </div>
-  );
+        </div>
+    );
 };
 
-export default HeaderCallToActionWS;
+export default HeaderCallToActionKurse;

@@ -1,5 +1,5 @@
 import HeaderKurse from "../components/HeaderKurse";
-import HeaderCallToActionWS from "../components/HeaderCallToActionWS";
+import HeaderCallToActionKurse from "../components/HeaderCallToActionKurse";
 import { useWindowSize } from "../components/functions/windowSize";
 import LerneProgrammierenKurse from "../components/LerneProgrammierenKurse";
 import UnserCampusKurse from "../components/UnserCampusKurse";
@@ -14,7 +14,7 @@ export default function Workshop() {
                 <div className="container">
                     <main>
                         <HeaderKurse width={width} />
-                        <HeaderCallToActionWS />
+                        <HeaderCallToActionKurse />
                         <LerneProgrammierenKurse />
                         <UnserCampusKurse width={width} />
                         <Absolvente />

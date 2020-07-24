@@ -2,7 +2,7 @@ import Link from 'next/link'
 const Button = (props) => {
     return (
         <Link href={props.href}>
-            <a>
+            <a target="_blank">
                 {props.text}
                 <style jsx>{`
             a {

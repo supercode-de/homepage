@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <section id="banner">
       <h3>
-        Unsere Anmeldephase läuft.<a href="/">erfahre mehr</a>{" "}
+        Unsere Anmeldephase läuft.<a href="/#zukunft">erfahre mehr</a>{" "}
       </h3>
       <style jsx>
         {`

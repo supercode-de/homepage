@@ -56,15 +56,6 @@ const UnserCampus = (props) => {
           <div><img src="/img/_DSC2652_LowRes 11.png" alt="" /></div>
         </Carousel>
       </div>
-
-
-
-
-      <div className="text-two">
-
-        <p>SuperCode bietet ein arbeitsmarktlich aussichtsreiches und praxisnahes Bildungsangebot im IT-Bereich mit methodisch modernen und hohem Einsatz von Lehrpersonal. Hervorzuheben ist die hervorragende Branchenvernetzung sowie die innovative Praxiskompetenz der Geschäftsführung und des Teams.</p>
-        <p className="hash-tag"># Certqua Bonn</p>
-      </div>
       <img className="img-six" src="/img/_DSC2652_LowRes 15.png" alt="" />
       <style jsx>{`
                 #unser-campus {

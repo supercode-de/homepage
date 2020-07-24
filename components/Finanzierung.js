@@ -11,21 +11,19 @@ const Finanzierung = (props) => {
 
                         <h3>Bildungsgutschein ➔</h3>
                         <p>
-                            Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur 5 Monaten
+                            Unsere Kurse sind zertifiziert und könnnen zu 100% durch einen Bildungsgutschein finaziert werden.
                         </p>
                     </div>
                     <div className="info-headline">
                         <h3>Chancen eG ➔</h3>
                         <p>
-                            Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur
-                            5 Monaten
+                            Lerne jetzt und zahle erst wenn du einen Job gefunden hast – der umgekehrte Genereationen Vertrag der Chancen eG macht es möglich.
                         </p>
                     </div>
                     <div className="info-headline">
                         <h3>Ratenzahlung ➔</h3>
                         <p>
-                            Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
-                            schärfe deine Wissen in einer Programmiersprache.
+                            Du möchtest die Kurskosten in Raten abbezhalen, kein Problem. Wir bieten dir 3 faire und flexible Modelle.
                         </p>
                     </div>
                 </div>

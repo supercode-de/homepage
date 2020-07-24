@@ -12,7 +12,10 @@ import { useWindowSize } from '../components/functions/windowSize'
 import Layout from '../components/Layout'
 import Finanzierung from '../components/Finanzierung'
 
-export default function Home() {
+
+
+export default function Home(props) {
+
   if (process.browser) {
     const width = useWindowSize().width / 12
     return (

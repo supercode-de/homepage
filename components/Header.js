@@ -4,8 +4,6 @@ import YouTube from 'react-youtube';
 const Header = (props) => {
   const pixelSize = 2 // Width of Lines in Background
   const opts = {
-    height: '360',
-    width: '640',
     playerVars: {
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
@@ -24,7 +22,7 @@ const Header = (props) => {
           closeOnDocumentClick
         >
           <div className="large">
-            <YouTube videoId="ewW2g5RP5d4" opts={opts} />
+            <YouTube class="youtube" videoId="ewW2g5RP5d4" opts={opts} />
           </div>
         </Popup>
       </div>
@@ -56,6 +54,9 @@ const Header = (props) => {
                 letter-spacing: 2px;
                 color: #3DD7AC;
                 text-align: center;
+            }
+            .youtube{
+              width:100%
             }
             .aside {
                 position: absolute;
@@ -116,8 +117,10 @@ const Header = (props) => {
                 }
               }
               button {
+                background:none;
                 display:inline-block;
                 color: #000;
+                color:#fff;
                 text-decoration: none;
                 text-transform: uppercase;
                 padding: 5px 10px;

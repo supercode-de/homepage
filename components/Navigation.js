@@ -4,19 +4,19 @@ import React, { Component } from 'react';
 
 class Navigation extends Component {
   state = { show: true, color: 'white' }
-  listenScrollEvent = e => {
-    if (window.scrollY > 2700 && window.scrollY < 4700) {
-      this.setState({ color: 'black' })
-    } else if (window.scrollY > 7100 && window.scrollY < 8670) {
-      this.setState({ color: 'black' })
-    } else {
-      this.setState({ color: 'white' })
-    }
-  }
+  // listenScrollEvent = e => {
+  //   if (window.scrollY > 2700 && window.scrollY < 4700) {
+  //     this.setState({ color: 'black' })
+  //   } else if (window.scrollY > 7100 && window.scrollY < 8670) {
+  //     this.setState({ color: 'black' })
+  //   } else {
+  //     this.setState({ color: 'white' })
+  //   }
+  // }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.listenScrollEvent)
-  }
+  // componentDidMount() {
+  //   window.addEventListener('scroll', this.listenScrollEvent)
+  // }
   render() {
     return (
       <nav id="navigation" style={{
@@ -24,7 +24,7 @@ class Navigation extends Component {
       }}>
         <img src="/menu-button.svg" alt="Menu-Button" onClick={this.props.toggleJetztAnmelden} />
         <div className={`main-navigation ${this.state.show ? "hide" : "hide"}`}>
-          <Link href="/"><a className="logo" style={{ color: this.state.color }}>super(code)</a></Link>
+          <Link href="/"><a className="logo" style={{ color: '#3DD7AC' }}>super(code)</a></Link>
 
           <ul>
             <li>
@@ -109,13 +109,18 @@ class Navigation extends Component {
   
           }
           .logo{
+            color: #3DD7AC;
             position: fixed;
             left: 2.5vw;
-            top:60px;
+            padding-top:4vh;
             height: 4vmax;
-            z-index:88888899
+            z-index:99998
           }
           
+          @media (max-width: 468px) {
+            .logo{
+              display:none
+            }
           }
         `}</style>
       </nav>

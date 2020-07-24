@@ -69,7 +69,7 @@ const Absolvente = () => {
 
             <style jsx>{`
             #Absolventen {
-                padding: 10vh 5vw;
+                padding: 10vh 9vw;
                 background: #5D3EDE
             }
             h2 {

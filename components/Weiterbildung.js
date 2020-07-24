@@ -2,7 +2,8 @@ import Collapsible from './WeiterbildungItem'
 import Button from "./small/Button"
 
 
-const Weiterbildung = () => {
+const Weiterbildung = (props) => {
+    console.log(props)
     return (
         <div id="weiterbildung">
             <h1>IT Weiterbildung – <br /> zertifiziert, intensiv & praxisnah.

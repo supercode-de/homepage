@@ -15,7 +15,7 @@ const SuperPartner = (props) => {
           <img src="/img/digihub.png" alt="" />
         </a>
         <a href="">
-          <img src="/img/moWeb.png" alt="" />
+          <img src="/img/zdi.png" alt="" />
         </a>
         <a href="">
           <img src="/img/startupDorf.png" alt="" />

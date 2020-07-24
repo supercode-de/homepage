@@ -100,7 +100,7 @@ const JetztAnmdelden = (props) => {
                     }
                     @media screen and (max-width: 768px) {
                         .jetzt-anmelden-left h1{
-                            padding-top: 100px;
+                            
                             font-size:3.3em;
                         }
                         .jetzt-anmelden-container{
@@ -117,7 +117,7 @@ const JetztAnmdelden = (props) => {
                             font-size:2.3em;
                         }
                         .jetzt-anmelden-container{
-                            padding: 5% 10%;
+                            padding: 10% 10%;
                             display: block;
                         }
                         .hbspt-form{
@@ -126,7 +126,7 @@ const JetztAnmdelden = (props) => {
                     }
                     @media screen and (max-width: 400px) {
                         .jetzt-anmelden-container{
-                            padding: 5% 5%;
+                            padding:10% 5%;
                             display: block;
                         }
                         .hbspt-form{
@@ -135,7 +135,7 @@ const JetztAnmdelden = (props) => {
                     }
                     @media screen and (max-width: 350px) {
                         .jetzt-anmelden-container{
-                            padding: 5% 5%;
+                            padding: 12% 5%;
                             display: block;
                         }
                         .hbspt-form{

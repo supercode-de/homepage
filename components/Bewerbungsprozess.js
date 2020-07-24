@@ -100,6 +100,10 @@ const Bewerbungsprozess = () => {
                     figure {
                         margin-bottom: 5em;
                     }
+                    h1 {
+                        font-size: 2.5em;
+                        
+                    }
                 }
         `}</style>
         </div>

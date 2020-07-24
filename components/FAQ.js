@@ -55,6 +55,10 @@ class FAQ extends Component {
                   @media (max-width: 768px) {
                     #faq {
                       display: block;
+                      padding:10px
+                    }
+                    .aside{
+                      display:none
                     }
                   }
             `}</style>
