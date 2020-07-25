@@ -1,4 +1,5 @@
 import Button from "./small/Button"
+import Beratung from "./Beratung"
 
 const FooterCallToAction = (props) => {
     return (
@@ -8,8 +9,7 @@ const FooterCallToAction = (props) => {
                 <span>Die nächsten Kurse starten im {props.month}!</span>
             </h1>
             <div className="buttons">
-                <Button href="/" text="Mehr" />
-                <Button href="/" text="Kontakt" />
+                <Beratung />
             </div>
             <style jsx>{`
             #call-to-action {

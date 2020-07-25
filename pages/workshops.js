@@ -17,7 +17,7 @@ export default function Workshop() {
             <HeaderCallToActionWS />
             <LerneProgrammierenWS />
             <UnserCampusKurse width={width} />
-            <FooterCallToAction month="Mai" />
+            <FooterCallToAction month="September" />
             {/* <Header width={width} /> */}
 
             {/* <Zukunft width={width} /> */}

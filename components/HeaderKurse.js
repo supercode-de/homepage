@@ -44,6 +44,10 @@ const HeaderKurse = (props) => {
               grid-template-columns:45% 55%;
               gap:40px;
               padding: 13vh 10%;
+              
+            }
+            article{
+              align-self:Center
             }
             h1 {
               margin: 0;
@@ -53,7 +57,7 @@ const HeaderKurse = (props) => {
               line-height:4.8rem;
           }
           img{
-            width:100%
+            width:70%
           }
           h1 span {
             display: block;

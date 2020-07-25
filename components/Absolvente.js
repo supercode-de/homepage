@@ -24,53 +24,62 @@ const responsive = {
 const Absolvente = () => {
     return (
         <div id="Absolventen">
+
             <h2>unsere <br /> <span>Asolvent*innen</span></h2>
             <div className="Absolventen-list">
-                <Carousel
-                    responsive={responsive}
-                    ssr
-                    showDots={false}
-                    slidesToSlide={1}
-                    infinite
-                    containerClass="container-with-dots"
-                    itemClass="image-item"
-                    deviceType={''}
-                >
+                <div className="container">
+                    <Carousel
+                        responsive={responsive}
+                        ssr
+                        showDots={false}
+                        slidesToSlide={1}
+                        infinite
+                        containerClass="container-with-dots"
+
+                        deviceType={''}
+                        itemClass="carousel-item-padding-20-px"
+                    >
 
 
 
-                    <figure>
-                        <img src="/img/_DSC3289_LowRes.png" alt="" />
-                        <figcaption>
-                            <p>“Ich hatte noch nie so viel Spaß in einem Kurs. Ich habe mich sehr schnell wohl gefühlt, und alles war super organisiert.”</p>
-                            <h3>– Rihab Al-Yasiri</h3>
-                            <h4>arbeitet jetzt bei Provinzial als Web-Developerin</h4>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/img/Jascha-Hell.png" alt="" />
-                        <figcaption>
-                            <p>“Das Bootcamp war super! Viel gesehen, viel gelernt, viel gelacht. Kann ich nur jedem ans Herz legen, der einen Einblick in die Materie Webentwicklung sucht.”</p>
-                            <h3>– Jascha Hell</h3>
-                            <h4>arbeitet jetzt bei Esentri als Projekt Manager IT</h4>
-                        </figcaption>
-                    </figure>
-                    <figure>
-                        <img src="/img/_DSC3661_LowRes.png" alt="" />
-                        <figcaption>
-                            <p>“Das Bootcamp hat mir super gefallen. Der größte Pluspukt war, dass ich hier auf eine Gruppe Gleichgesinnter und Super Trainer gestoßen bin. ”</p>
-                            <h3>– Abdulrahman Karbouj</h3>
-                            <h4>arbeitet jetzt bei Edatasystemsals Web-Developer</h4>
-                        </figcaption>
-                    </figure>
+                        <figure>
+                            <img src="/img/_DSC3289_LowRes.png" alt="" />
+                            <figcaption>
+                                <p>“Ich hatte noch nie so viel Spaß in einem Kurs. Ich habe mich sehr schnell wohl gefühlt, und alles war super organisiert.”</p>
+                                <h3>– Rihab Al-Yasiri</h3>
+                                <h4>arbeitet jetzt bei Provinzial als Web-Developerin</h4>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/img/Jascha-Hell.png" alt="" />
+                            <figcaption>
+                                <p>“Das Bootcamp war super! Viel gesehen, viel gelernt, viel gelacht. Kann ich nur jedem ans Herz legen, der einen Einblick in die Materie Webentwicklung sucht.”</p>
+                                <h3>– Jascha Hell</h3>
+                                <h4>arbeitet jetzt bei Esentri als Projekt Manager IT</h4>
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/img/_DSC3661_LowRes.png" alt="" />
+                            <figcaption>
+                                <p>“Das Bootcamp hat mir super gefallen. Der größte Pluspukt war, dass ich hier auf eine Gruppe Gleichgesinnter und Super Trainer gestoßen bin. ”</p>
+                                <h3>– Abdulrahman Karbouj</h3>
+                                <h4>arbeitet jetzt bei Edatasystemsals Web-Developer</h4>
+                            </figcaption>
+                        </figure>
 
-                </Carousel>
+                    </Carousel>
+                </div>
             </div>
 
             <style jsx>{`
             #Absolventen {
                 padding: 10vh 9vw;
-                background: #5D3EDE
+                background: #5D3EDE;
+                
+            }
+            .container{
+                width:80%;
+                margin:0 auto
             }
             h2 {
                 margin: 0;
@@ -109,6 +118,9 @@ const Absolvente = () => {
             }
             h3,h4{
                 color:#fff;
+            }
+            img{
+                width:250px
             }
             @media (max-width: 768px) {
                 

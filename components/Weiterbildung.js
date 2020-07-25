@@ -1,9 +1,12 @@
 import Collapsible from './WeiterbildungItem'
 import Button from "./small/Button"
-
+import HubspotForm from 'react-hubspot-form'
+import Popup1 from './Beratung';
+import Beratung from './Beratung';
 
 const Weiterbildung = (props) => {
-    console.log(props)
+
+
     return (
         <div id="weiterbildung">
             <h1>IT Weiterbildung – <br /> zertifiziert, intensiv & praxisnah.
@@ -17,9 +20,10 @@ const Weiterbildung = (props) => {
                             <h3>Termine:</h3>
                             <h4>18.05.20 - voll</h4>
                             <h4>7.09.20 - Platz sichern⟶</h4>
-                            <div>
-                                <Button href="/" text="ANFRAGEN" />
-                                <Button href="/" text="BERATUNG" />
+                            <div className="two-column">
+                                <Button href="mailto:beratung@super-code.de" text="ANFRAGEN" />
+                                <Beratung />
+
                             </div>
                         </div>
                         <div>
@@ -52,9 +56,9 @@ const Weiterbildung = (props) => {
                             <h3>Termine:</h3>
                             <h4>20.01.20 - voll</h4>
                             <h4>7.09.20 - Platz sichern⟶</h4>
-                            <div>
-                                <Button href="/" text="ANFRAGEN" />
-                                <Button href="/" text="BERATUNG" />
+                            <div className="two-column">
+                                <Button href="mailto:beratung@super-code.de" text="ANFRAGEN" />
+                                <Beratung />
                             </div>
                         </div>
                         <div>
@@ -80,6 +84,9 @@ const Weiterbildung = (props) => {
                 </Collapsible>
             </div>
             <style jsx>{`
+            .two-column{
+                display:flex;
+            }
                 #weiterbildung {
                     background: #03000F;
                     color: #fff;
@@ -117,7 +124,40 @@ const Weiterbildung = (props) => {
                 .kurse-infos div:nth-of-type(3) p{
                     margin:0
                 }
-                
+                button {
+                    background:none;
+                    display:inline-block;
+                    color: #000;
+                    color:#fff;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    padding: 5px 10px;
+                    border: 3px solid #fff;
+                    font-size: .9em;
+                    font-weight: 200;
+                    margin: 10px;
+                    transition: top .5s linear, box-shadow .5s linear, left .5s linear;
+                    box-shadow: 0 0 0 0 transparent;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                    text-align: center;
+                    min-width:100px;
+                }
+                button:hover {
+                    // margin: 10px 5px 15px 10px;
+                    // margin: 10px 10px 15px 15px;
+                    box-shadow: -5px 5px 0 0 #fff;
+                    top: -5px;
+                    left: 5px;
+                }
+                .jetzt-anmelden{
+                    background: #03000F;
+                    height:200vh;
+                }
+                .popup-overlay {
+                    overflow-y:scroll
+                }
             `}</style>
         </div>
     );

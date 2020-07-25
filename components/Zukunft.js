@@ -1,5 +1,5 @@
 // import { useWindowSize } from './functions/windowSize'
-
+import Link from "next/link";
 const Zukunft = (props) => {
   // const width = useWindowSize().width / 12
   const pixelSize = 2;
@@ -21,14 +21,14 @@ const Zukunft = (props) => {
           </p>
         </div>
         <div className="info-headline">
-          <h3><a href="/kurse">Bootcamps ⟶</a></h3>
+          <h3><Link href="/kurse"><a>Bootcamps ⟶</a></Link></h3>
           <p>
             Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur
             5 Monaten
           </p>
         </div>
         <div className="info-headline">
-          <h3><a href="/workshops">Workshops ⟶</a> </h3>
+          <h3><Link href="/workshops"><a>Workshops ⟶</a></Link> </h3>
           <p>
             Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
             schärfe deine Wissen in einer Programmiersprache.
