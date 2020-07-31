@@ -71,7 +71,7 @@ const Weiterbildung = (props) => {
                             <h3>Trainer*innen:</h3>
                             <p>2 Trainer*innen pro Tag</p>
                             <h3>Umfang:</h3>
-                            <p>_ 22 Wochen Vollzeit</p>
+                            <p>_ 30 Wochen Teilzeit</p>
                             <p>_ 3 abende und jeden 2.Samstag</p>
                             <p>_ In der Woche: 18:00 - 21:00 Uhr</p>
                             <p>_ Samstags: 09:00 - 18:00</p>
