@@ -25,7 +25,7 @@ const Absolvente = () => {
     return (
         <div id="Absolventen">
 
-            <h2>unsere <br /> <span>Asolvent*innen</span></h2>
+            <h2>unsere <br /> <span>Absolvent*innen</span></h2>
             <div className="Absolventen-list">
                 <div className="container">
                     <Carousel
