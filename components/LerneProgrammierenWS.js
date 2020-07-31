@@ -35,7 +35,7 @@ const LerneProgrammierenKurse = () => {
             </div>
             <div>
               <h3>sonstiges:</h3>
-              <p>2 Trainer pro Worlkshop</p>
+              <p>2 Trainer pro Workshop</p>
               <p>Teilnahme erfolgt online</p>
               <h3>Umfang:</h3>
               <p>_ 3 Stunden</p>
