@@ -11,7 +11,7 @@ const Finanzierung = (props) => {
 
                         <h3>Bildungsgutschein </h3>
                         <p>
-                            Unsere Kurse sind zertifiziert und könnnen zu 100% durch einen Bildungsgutschein finaziert werden.
+                            Unsere Kurse sind zertifiziert und könnnen zu 100% durch einen Bildungsgutschein finanziert werden.
                         </p>
                     </div>
                     <div className="info-headline">
