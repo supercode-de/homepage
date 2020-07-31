@@ -92,7 +92,7 @@ const LerneProgrammierenKurse = () => {
         }
         .kurse-infos {
           display: grid;
-          grid-template-columns: 50% 25% 25%;
+          grid-template-columns: 2fr 1fr 1fr;
           grid-gap: 5%;
           color: #fff;
         }

@@ -8,9 +8,7 @@ const LerneProgrammierenKurse = () => {
       <h1>
         <span>Vollzeit oder Teilzeit  –</span>
         <br />
-                lerne Programmieren in einem <br />unserer
-
-                <span>zerifizierten Bootcamps.</span>
+                lerne Programmieren in einem <br />unserer <span>zertifizierten Bootcamps.</span>
       </h1>
       <div className="aside">Lerne Programmieren</div>
       <div className="kurse">
@@ -128,7 +126,7 @@ const LerneProgrammierenKurse = () => {
         }
         .kurse-infos {
           display: grid;
-          grid-template-columns: 50% 25% 25%;
+          grid-template-columns: 2fr 1fr 1fr;
           grid-gap: 5%;
           color: #fff;
         }
