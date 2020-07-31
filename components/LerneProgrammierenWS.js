@@ -61,7 +61,7 @@ const LerneProgrammierenKurse = () => {
             }
         #weiterbildung {
           background: #03000F;
-          color: #3dd7ac;
+          color: #fff;
           padding: 10vh 0;
           display: flex;
           flex-direction: column;
