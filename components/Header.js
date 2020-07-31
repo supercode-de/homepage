@@ -22,7 +22,7 @@ const Header = (props) => {
           closeOnDocumentClick
         >
           <div className="large">
-            <YouTube class="youtube" videoId="ewW2g5RP5d4" opts={opts} />
+            <YouTube className="youtube" videoId="ewW2g5RP5d4" opts={opts} />
           </div>
         </Popup>
       </div>
