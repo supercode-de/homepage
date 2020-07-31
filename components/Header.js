@@ -49,7 +49,7 @@ const Header = (props) => {
             }
             h1 {
                 margin: 0;
-                padding-top: 20vh;
+                padding-top: 16vh;
                 font-size: 5em;
                 letter-spacing: 2px;
                 color: #3DD7AC;
