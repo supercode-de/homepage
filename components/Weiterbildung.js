@@ -10,7 +10,7 @@ const Weiterbildung = (props) => {
     return (
         <div id="weiterbildung">
             <h1>IT Weiterbildung – <br /> zertifiziert, intensiv & praxisnah.
-                <span>Wähle das Format, was dir am besten passt</span>
+                <span>Wähle das Format, das dir am besten passt</span>
             </h1>
             <div className="kurse">
                 <Collapsible triggerTagName="h1" trigger="5 Monate Web-Developer Full-Stack " triggerExtra="Vollzeit 22 Wochen">
@@ -52,7 +52,7 @@ const Weiterbildung = (props) => {
                 <Collapsible triggerTagName="h1" trigger="7 Monate Web-Developer Frond-End " triggerExtra="Teilzeit 30 Wochen">
                     <div className="kurse-infos">
                         <div>
-                            <p>Unser Full-Stack Kurs ermöglicht dir einen Web-Entwicklungs deep Dive verpackt in einem ultra praxisorientiertem instensiv Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
+                            <p>Programmieren lernen neben dem Beruf? Kein Problem! Unser Front-End Kurs findest abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
                             <h3>Termine:</h3>
                             <h4>20.01.20 - voll</h4>
                             <h4>7.09.20 - Platz sichern⟶</h4>
