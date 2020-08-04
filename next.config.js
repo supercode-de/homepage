@@ -8,6 +8,8 @@ module.exports = {
             '/kurse': { page: '/kurse' },
             '/workshops': { page: '/workshops' },
             '/supercodeworkshop': { page: '/supercodeworkshop' },
+            '/dsgvo': { page: '/dsgvo' },
+            '/impressum': { page: '/impressum' },
         }
     }
 }
