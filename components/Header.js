@@ -22,7 +22,7 @@ const Header = (props) => {
           closeOnDocumentClick
         >
           <div className="large">
-            <YouTube class="youtube" videoId="ewW2g5RP5d4" opts={opts} />
+            <YouTube className="youtube" videoId="ewW2g5RP5d4" opts={opts} />
           </div>
         </Popup>
       </div>
@@ -49,7 +49,7 @@ const Header = (props) => {
             }
             h1 {
                 margin: 0;
-                padding-top: 20vh;
+                padding-top: 16vh;
                 font-size: 5em;
                 letter-spacing: 2px;
                 color: #3DD7AC;

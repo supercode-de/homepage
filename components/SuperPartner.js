@@ -26,7 +26,7 @@ const SuperPartner = (props) => {
       </div>
       <section id="qualitat">
         <h1>#Qualität vor Gewinn</h1>
-        <div class="border">
+        <div className="border">
           <p>“SuperCode bietet ein arbeitsmarktlich aussichtsreiches und praxisnahes Bildungsangebot im IT-Bereich mit methodisch modernen und hohem Einsatz von Lehrpersonal. Hervorzuheben ist die hervorragende Branchenvernetzung sowie die innovative Praxiskompetenz der Geschäftsführung und des Teams.”</p>
           <h3>– Certqua Bonn</h3>
         </div>

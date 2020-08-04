@@ -5,7 +5,7 @@ const HeaderCallToActionWS = (props) => {
     <div id="header-call">
       <div>
         <h2>
-          Lerne wichtige IT Fahigkeiten neben deinem Beruf oder Studium.<br />– Jetzt auch online!
+          Lerne wichtige IT-Fähigkeiten neben deinem Beruf oder Studium.
         </h2>
       </div>
       <style jsx>{`

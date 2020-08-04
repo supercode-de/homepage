@@ -5,8 +5,9 @@ module.exports = {
     exportPathMap: function () {
         return {
             '/': { page: '/' },
-            // '/about': { page: '/about' }
-
+            '/kurse': { page: '/kurse' },
+            '/workshops': { page: '/workshops' },
+            '/supercodeworkshop': { page: '/supercodeworkshop' },
         }
     }
 }

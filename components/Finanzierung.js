@@ -5,13 +5,13 @@ const Finanzierung = (props) => {
         <div>
             <section id="finanzierung">
                 <h2>#Finanzierung</h2>
-                <h1>No Mon€y, no Probl€m! <span>Wähle zwischen 3 flexiblen und fairen Finazierungsmodellen.</span></h1>
+                <h1>No Mon€y, no Probl€m! <span>Wähle zwischen 3 flexiblen und fairen Finanzierungsmodellen.</span></h1>
                 <div className="infos">
                     <div className="info-headline">
 
                         <h3>Bildungsgutschein </h3>
                         <p>
-                            Unsere Kurse sind zertifiziert und könnnen zu 100% durch einen Bildungsgutschein finaziert werden.
+                            Unsere Kurse sind zertifiziert und könnnen zu 100% durch einen Bildungsgutschein finanziert werden.
                         </p>
                     </div>
                     <div className="info-headline">
