@@ -4,7 +4,6 @@ const ImpressumBody = (props) => {
   return (
     <div id="impressum-text">
       <div className="text-body">
-        <h1>Impressum</h1>
         <div className="block">
           <p>Anbieter dieser Internetseiten ist dieSuperCode GmbH & Co. KG</p>
           <p>hallo@super-code.de</p>

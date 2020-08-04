@@ -545,7 +545,7 @@ const DsgvoBody = (props) => {
           
         }
         #text-body {
-          font-size: .8em;
+          font-size: .6em;
             width: 85%;
             margin: 0 auto;
             padding: 50px 0;
