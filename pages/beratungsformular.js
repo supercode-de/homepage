@@ -2,7 +2,7 @@ import Layout from "../components/Layout";
 import { useWindowSize } from '../components/functions/windowSize'
 import HubspotForm from 'react-hubspot-form'
 
-export default function Workshop() {
+export default function Beratungsformular() {
   const pixelSize = 2;
   if (process.browser) {
     const width = useWindowSize().width / 12
