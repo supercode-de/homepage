@@ -67,7 +67,7 @@ export default function Beratungsformular() {
           background-size: ${width}px ${width}px;
           display: grid;
           justify-content: center;
-          padding-bottom: 5rem;
+          padding: 5rem 0;
         }
         #notice {
           font-weight: bold;
