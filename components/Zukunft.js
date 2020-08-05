@@ -31,7 +31,7 @@ const Zukunft = (props) => {
           <h3><Link href="/workshops"><a>Workshops ⟶</a></Link> </h3>
           <p>
             Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
-            schärfe deine Wissen in einer Programmiersprache.
+            schärfe dein Wissen in einer Programmiersprache.
           </p>
         </div>
       </div>

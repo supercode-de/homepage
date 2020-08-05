@@ -52,7 +52,7 @@ const UnserCampus = (props) => {
           <h1>
             Unser Campus <br /> ist <span>mehr</span>
           </h1>
-          <p>Unsere Schule befindet sich im Super7000. Auf über 1.000 qm arbeiten mehr als 50 Unternehmen in offenen Büros und in Teambüros inklusive Telefonzellen, Meetingräumen, Bällebad und der legendären Eventfläche auf echtem Kunstrasen für Workshops, Meet-Ups & Co. Wir nutzen dieses einzigartige Umfeld, um Dich noch schneller in passende Jobs zu vermitteln.</p>
+          <p>Unsere Kursräume befindet sich im Super7000. Auf über 1.000 qm arbeiten mehr als 50 Unternehmen in offenen Büros und in Teambüros inklusive Telefonzellen, Meetingräumen, Bällebad und der legendären Eventfläche auf echtem Kunstrasen für Workshops, Meet-Ups & Co. Wir nutzen dieses einzigartige Umfeld, um Dich noch schneller in passende Jobs zu vermitteln.</p>
           <p className="hash-tag">#superwinwin</p>
         </div>
         <img className="img-two" src="/img/_DSC2652_LowRes 3.png" alt="" />

@@ -17,13 +17,13 @@ const Finanzierung = (props) => {
                     <div className="info-headline">
                         <h3>Chancen eG </h3>
                         <p>
-                            Lerne jetzt und zahle erst wenn du einen Job gefunden hast – der umgekehrte Genereationen Vertrag der Chancen eG macht es möglich.
+                            Lerne jetzt und zahle erst wenn du einen Job gefunden hast – der umgekehrte Generationenvertrag der Chancen eG macht es möglich.
                         </p>
                     </div>
                     <div className="info-headline">
                         <h3>Ratenzahlung </h3>
                         <p>
-                            Du möchtest die Kurskosten in Raten abbezhalen, kein Problem. Wir bieten dir 3 faire und flexible Modelle.
+                            Du möchtest die Kurskosten in Raten abbezahlen, kein Problem. Wir bieten dir drei faire und flexible Modelle.
                         </p>
                     </div>
                 </div>

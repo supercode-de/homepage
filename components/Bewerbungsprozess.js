@@ -10,7 +10,7 @@ const Bewerbungsprozess = () => {
                     <img src="/img/kontakt.svg" alt="" />
                     <figcaption>
                         <h2>#1 Kontakt</h2>
-                        <p>Nimm Kontakt mit uns auf und vereinbare einen Termin mit einem unseren Bildungsberater. Sie helfen dir dabei den perfekten Kurs für dich zu finden.</p>
+                        <p>Nimm Kontakt mit uns auf und vereinbare einen Termin mit einem unseren Bildungsberater*innen. Sie helfen dir dabei den perfekten Kurs für dich zu finden.</p>
                     </figcaption>
                 </figure>
                 <figure className="workshop">
@@ -31,7 +31,7 @@ const Bewerbungsprozess = () => {
                     <img src="/img/kurse.svg" alt="" />
                     <figcaption>
                         <h2>#4 Kurs</h2>
-                        <p>Es geht los! Starte deinen neuen SuperKurs bei uns!  Du erhältst von uns alles was du brauchst, und nach 3-5 Monaten bist du fit für den IT-Arbeitsmarkt!</p>
+                        <p>Es geht los! Starte deinen neuen SuperKurs bei uns!  Du erhältst von uns alles was du brauchst, und nach 5-7 Monaten bist du fit für den IT-Arbeitsmarkt!</p>
                     </figcaption>
                 </figure>
             </div>
