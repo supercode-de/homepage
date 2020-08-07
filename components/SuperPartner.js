@@ -1,28 +1,40 @@
-import Button from "./small/Button";
+
 
 const SuperPartner = (props) => {
   return (
     <div id="container">
       <h1>#SuperPartner</h1>
       <div className="partner-container">
-        <a href="#">
-          <img src="/img/blanko.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/cammio.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/digihub.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/zdi.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/startupDorf.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/super7000.png" alt="" />
-        </a>
+        <Link>
+          <a href="https://blanko.de/">
+            <img src="/img/blanko.png" alt="" />
+          </a>
+        </Link>
+        <Link>
+          <a href="#">
+            <img src="/img/cammio.png" alt="" />
+          </a>
+        </Link>
+        <Link>
+          <a href="#">
+            <img src="/img/digihub.png" alt="" />
+          </a>
+        </Link>
+        <Link>
+          <a href="#">
+            <img src="/img/zdi.png" alt="" />
+          </a>
+        </Link>
+        <Link>
+          <a href="#">
+            <img src="/img/startupDorf.png" alt="" />
+          </a>
+        </Link>
+        <Link>
+          <a href="#">
+            <img src="/img/super7000.png" alt="" />
+          </a>
+        </Link>
       </div>
       <section id="qualitat">
         <h1>#Qualität vor Gewinn</h1>

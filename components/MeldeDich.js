@@ -5,7 +5,7 @@ import Link from "next/link";
 const MeldeDich = () => {
     return (
         <div id="melde-dich">
-            <h1>Melde dich noch heute, <br />oder mach mit bei unserem kostenlosen Workshop</h1>
+            <h1>Melde dich noch heute <br />oder mach’ mit bei unserem kostenlosen Workshop</h1>
 
             <div className="buttons">
                 <Beratung />

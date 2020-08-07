@@ -12,7 +12,7 @@ const Zukunft = (props) => {
         <div className="info-one">
           <p>
             Wir bieten Menschen einen modernen Ansatz für lebenslanges Lernen
-            und den ultimativen Skill Power-UP für eine schöne berufliche
+            und den ultimativen Skill Power-Up für eine schöne berufliche
             Zukunft!
           </p>
           <p>

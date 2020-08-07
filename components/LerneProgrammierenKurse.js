@@ -15,10 +15,10 @@ const LerneProgrammierenKurse = () => {
         <Collapsible triggerTagName="h1" trigger="5 Monate Web-Developer Full-Stack " triggerExtra="Vollzeit 22 Wochen">
           <div className="kurse-infos">
             <div>
-              <p>Unser Full-Stack-Kurs ermöglicht dir einen Web-Entwicklungs Deep Dive verpackt in einem ultra praxisorientiertem Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
+              <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
               <h3>Termine:</h3>
-              <h4>18.05.20 - voll</h4>
-              <h4>7.09.20 - Platz sichern⟶</h4>
+              <h4>18.05.2020 - voll</h4>
+              <h4>07.09.2020 - Platz sichern ⟶</h4>
               <div className="two-column">
                 <Button href="mailto:beratung@super-code.de" text="ANFRAGEN" />
                 <Beratung />
@@ -50,7 +50,7 @@ const LerneProgrammierenKurse = () => {
         <Collapsible triggerTagName="h1" trigger="7 Monate Web-Developer Frond-End " triggerExtra="Teilzeit 30 Wochen">
           <div className="kurse-infos">
             <div>
-              <p>Programmieren lernen neben dem Beruf? Kein Problem! Unser Front-End Kurs findest abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
+              <p>Programmieren lernen neben dem Beruf? Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
               <h3>Termine:</h3>
               <h4>20.01.20 - voll</h4>
               <h4>7.09.20 - Platz sichern⟶</h4>
@@ -70,9 +70,9 @@ const LerneProgrammierenKurse = () => {
               <p>2 Trainer*innen pro Tag</p>
               <h3>Umfang:</h3>
               <p>_ 22 Wochen Vollzeit</p>
-              <p>_ 3 abende und jeden 2.Samstag</p>
+              <p>_ 3 Abende und jeden 2. Samstag</p>
               <p>_ In der Woche: 18:00 - 21:00 Uhr</p>
-              <p>_ Samstags: 09:00 - 18:00</p>
+              <p>_ Samstags: 09:00 - 18:00 Uhr</p>
               <h3>Finanzierung</h3>
               <p>_ Bildungsgutschein</p>
               <p>_ Chancen eG</p>
