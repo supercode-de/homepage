@@ -5,6 +5,9 @@ import Banner from '../components/Banner'
 import Head from 'next/head'
 import JetztAnmdelden from "./JetztAnmelden"
 import React, { Component } from 'react';
+
+import Pixel from './small/facebook/index'
+
 class Layout extends Component {
   state = {
     isHidden: true
@@ -19,7 +22,7 @@ class Layout extends Component {
           <title>Super-code</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
-
+        <Pixel name='FACEBOOK_PIXEL_1' />
         {this.props.banner ? <Banner /> : <Banner />}
         {this.props.oneComponent ? "" : <Navigation toggleJetztAnmelden={this.toggleJetztAnmelden} isHidden={this.state.isHidden} />}
         {this.props.oneComponent ? "" : <JetztAnmdelden toggleJetztAnmelden={this.toggleJetztAnmelden} isHidden={this.state.isHidden} />}
