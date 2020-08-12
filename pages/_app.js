@@ -6,4 +6,4 @@ import withFBQ from "next-fbq";
 function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
 }
-export default withFBQ("139xxxxxxxxx3", Router)(MyApp);
+export default withFBQ("353903998812058", Router)(MyApp);
