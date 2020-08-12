@@ -1,37 +1,37 @@
-
+import Link from "next/link";
 
 const SuperPartner = (props) => {
   return (
     <div id="container">
       <h1>#SuperPartner</h1>
       <div className="partner-container">
-        <Link>
-          <a href="https://blanko.de/">
+        <Link href="https://blanko.de/">
+          <a >
             <img src="/img/blanko.png" alt="" />
           </a>
         </Link>
-        <Link>
-          <a href="#">
+        <Link href="https://blanko.de/">
+          <a>
             <img src="/img/cammio.png" alt="" />
           </a>
         </Link>
-        <Link>
-          <a href="#">
+        <Link href="https://blanko.de/">
+          <a >
             <img src="/img/digihub.png" alt="" />
           </a>
         </Link>
-        <Link>
-          <a href="#">
+        <Link href="https://blanko.de/">
+          <a>
             <img src="/img/zdi.png" alt="" />
           </a>
         </Link>
-        <Link>
-          <a href="#">
+        <Link href="https://blanko.de/">
+          <a>
             <img src="/img/startupDorf.png" alt="" />
           </a>
         </Link>
-        <Link>
-          <a href="#">
+        <Link href="https://blanko.de/">
+          <a>
             <img src="/img/super7000.png" alt="" />
           </a>
         </Link>
