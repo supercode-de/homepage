@@ -6,16 +6,26 @@ const LerneProgrammierenKurse = () => {
   return (
     <div id="weiterbildung">
       <h1>
-        <span>Vollzeit oder Teilzeit  –</span>
+        <span>Vollzeit oder Teilzeit –</span>
         <br />
-                lerne Programmieren in einem <br />unserer <span>zertifizierten Bootcamps.</span>
+        lerne Programmieren in einem <br />
+        unserer <span>zertifizierten Bootcamps.</span>
       </h1>
       <div className="aside">Lerne Programmieren</div>
       <div className="kurse">
-        <Collapsible triggerTagName="h1" trigger="5 Monate Web-Developer Full-Stack " triggerExtra="Vollzeit 22 Wochen">
+        <Collapsible
+          triggerTagName="h1"
+          trigger="5 Monate Web-Developer Full-Stack "
+          triggerExtra="Vollzeit 22 Wochen"
+        >
           <div className="kurse-infos">
             <div>
-              <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
+              <p>
+                Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
+                Web-Entwicklung verpackt in einem ultra praxisorientierten
+                Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
+                und finde einen Job mit Zukunft.
+              </p>
               <h3>Termine:</h3>
               <h4>18.05.2020 - voll</h4>
               <h4>07.09.2020 - Platz sichern ⟶</h4>
@@ -26,11 +36,19 @@ const LerneProgrammierenKurse = () => {
             </div>
             <div>
               <h3>Inhalte:</h3>
-              <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS</p>
-              <p>Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken</p>
-              <p>Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
-
-
+              <p>
+                Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
+                Javascript Frameworks und Libraries, CMS
+              </p>
+              <p>
+                Back-End: Essentials, Node.js, Express.js, npm, API &
+                Datenbanken
+              </p>
+              <p>
+                Plus Skills: Grundlagen Projekt Management & Präsentation,
+                Design & UX, Learn-To-Learn, Bewerbungscoaching,
+                Abschlussprojekt.
+              </p>
             </div>
             <div>
               <h3>Trainer*innen:</h3>
@@ -44,13 +62,20 @@ const LerneProgrammierenKurse = () => {
               <p>_ Chancen eG</p>
               <p>_ Selbstzahler</p>
             </div>
-
           </div>
         </Collapsible>
-        <Collapsible triggerTagName="h1" trigger="7 Monate Web-Developer Frond-End " triggerExtra="Teilzeit 30 Wochen">
+        <Collapsible
+          triggerTagName="h1"
+          trigger="7 Monate Web-Developer Frond-End "
+          triggerExtra="Teilzeit 30 Wochen"
+        >
           <div className="kurse-infos">
             <div>
-              <p>Programmieren lernen neben dem Beruf? Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
+              <p>
+                Programmieren lernen neben dem Beruf? Kein Problem! Unser
+                Front-End Kurs findet abends und online statt! In 30 Wochen
+                lernst du das Programmieren moderner Websites & Apps.
+              </p>
               <h3>Termine:</h3>
               <h4>20.01.20 - voll</h4>
               <h4>7.09.20 - Platz sichern⟶</h4>
@@ -61,9 +86,16 @@ const LerneProgrammierenKurse = () => {
             </div>
             <div>
               <h3>Inhalte:</h3>
-              <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS</p>
+              <p>
+                Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
+                Javascript Frameworks und Libraries, CMS
+              </p>
 
-              <p>Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+              <p>
+                Plus Skills: Grundlagen Projekt Management & Präsentation,
+                Design & UX, Learn-To-Learn, Bewerbungscoaching,
+                Abschlussprojekt.
+              </p>
             </div>
             <div>
               <h3>Trainer*innen:</h3>
@@ -81,16 +113,16 @@ const LerneProgrammierenKurse = () => {
           </div>
         </Collapsible>
 
-
-
-        <h2>bald: 1 Monat SuperDigital Basics <span>Vollzeilt 4 Woche</span></h2>
+        <h2>
+          bald: 1 Monat SuperDigital Basics <span>Vollzeilt 4 Woche</span>
+        </h2>
       </div>
       <style jsx>{`
-        .two-column{
-          display:flex;
+        .two-column {
+          display: flex;
         }
-       #weiterbildung {
-          background: #03000F;
+        #weiterbildung {
+          background: #03000f;
           color: #fff;
           padding: 10vh 0;
           display: flex;
@@ -110,9 +142,9 @@ const LerneProgrammierenKurse = () => {
           -webkit-text-stroke-width: 1.5px;
           -webkit-text-stroke-color: #3dd7ac;
         }
-        h2{
-            margin-left: 10%;
-            font-size:2em;
+        h2 {
+          margin-left: 10%;
+          font-size: 2em;
         }
         .aside {
           position: absolute;
@@ -120,7 +152,7 @@ const LerneProgrammierenKurse = () => {
           transform-origin: left;
           left: 3%;
           top: 48vh;
-          color: #5D3EDE;
+          color: #5d3ede;
           font-size: 1.3rem;
           text-transform: uppercase;
         }
@@ -152,22 +184,19 @@ const LerneProgrammierenKurse = () => {
           align-self: end;
         }
         @media (max-width: 768px) {
-            h1 {
-                font-size: 3em;
-                line-height:2em;
-            }
-            .kurse-infos {
-                
-                grid-template-columns: 100%;
-                
-              }
+          h1 {
+            font-size: 3em;
+            line-height: 2em;
+          }
+          .kurse-infos {
+            grid-template-columns: 100%;
+          }
         }
-        
+
         @media (max-width: 468px) {
-            h1 {
-                font-size: 2em;
-                
-            }
+          h1 {
+            font-size: 2em;
+          }
         }
       `}</style>
     </div>
