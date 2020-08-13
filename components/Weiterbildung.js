@@ -65,7 +65,7 @@ const Weiterbildung = (props) => {
         </Collapsible>
         <Collapsible
           triggerTagName="h1"
-          trigger="7 Monate Web-Developer Frond-End "
+          trigger="7 Monate Web-Developer Front-End "
           triggerExtra="Teilzeit 30 Wochen"
         >
           <div className="kurse-infos">
