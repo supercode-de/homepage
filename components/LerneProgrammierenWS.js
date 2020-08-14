@@ -31,11 +31,11 @@ const LerneProgrammierenKurse = () => {
               <p>Anmeldung erforderlich</p>
               <h3>Finanzierung:</h3>
               <p>_kostenlos!</p>
-              <p>Allerdings nehmen wir eine kleine Reservierungsgeühr die wir am Ende des Workshops rückerstatten.</p>
+              <p>Allerdings nehmen wir eine kleine Reservierungsgebühr, die wir am Ende des Workshops rückerstatten.</p>
             </div>
             <div>
-              <h3>sonstiges:</h3>
-              <p>2 Trainer pro Worlkshop</p>
+              <h3>Sonstiges:</h3>
+              <p>2 Trainer*innen pro Workshop</p>
               <p>Teilnahme erfolgt online</p>
               <h3>Umfang:</h3>
               <p>_ 3 Stunden</p>
@@ -49,7 +49,7 @@ const LerneProgrammierenKurse = () => {
 
 
       <h2>1 Monat SuperBasics HMTL & CSS <span>Online</span> </h2>
-      <h2>bald: 1 Monat SuperDigital Basics  <span>Vollzeilt 4 Wochen</span></h2>
+      <h2>bald: 1 Monat SuperDigital Basics <span>Vollzeit 4 Wochen</span></h2>
 
       <style jsx>{`
       .two-column{
@@ -61,7 +61,7 @@ const LerneProgrammierenKurse = () => {
             }
         #weiterbildung {
           background: #03000F;
-          color: #3dd7ac;
+          color: #fff;
           padding: 10vh 0;
           display: flex;
           flex-direction: column;
@@ -92,7 +92,7 @@ const LerneProgrammierenKurse = () => {
         }
         .kurse-infos {
           display: grid;
-          grid-template-columns: 50% 25% 25%;
+          grid-template-columns: 2fr 1fr 1fr;
           grid-gap: 5%;
           color: #fff;
         }

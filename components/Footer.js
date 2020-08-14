@@ -39,6 +39,10 @@ const Footer = () => {
                     <Link href="/"><a>Pflege</a></Link>
                 </div>
             </div> */}
+            <div className="links">
+                <Link href="/impressum"><a>Impressum</a></Link>
+                <Link href="/dsgvo"><a>DSGVO</a></Link>
+            </div>
             <div className="copyright">
                 <p className="white">super(code)</p>
                 <p>&copy; 2002-2020</p>
@@ -49,6 +53,10 @@ const Footer = () => {
                 color: #3DD7AC;
                 font-weight: 200;
                 padding-top: .8em;
+            }
+            .links {
+                display: flex;
+                justify-content: space-around;
             }
             .link-container {
                 display: flex;

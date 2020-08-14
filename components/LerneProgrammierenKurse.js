@@ -8,16 +8,14 @@ const LerneProgrammierenKurse = () => {
       <h1>
         <span>Vollzeit oder Teilzeit  –</span>
         <br />
-                lerne Programmieren in einem <br />unserer
-
-                <span>zerifizierten Bootcamps.</span>
+                lerne Programmieren in einem <br />unserer <span>zertifizierten Bootcamps.</span>
       </h1>
       <div className="aside">Lerne Programmieren</div>
       <div className="kurse">
         <Collapsible triggerTagName="h1" trigger="5 Monate Web-Developer Full-Stack " triggerExtra="Vollzeit 22 Wochen">
           <div className="kurse-infos">
             <div>
-              <p>Unser Full-Stack Kurs ermöglicht dir einen Web-Entwicklungs deep Dive verpackt in einem ultra praxisorientiertem instensiv Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
+              <p>Unser Full-Stack-Kurs ermöglicht dir einen Web-Entwicklungs Deep Dive verpackt in einem ultra praxisorientiertem Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
               <h3>Termine:</h3>
               <h4>18.05.20 - voll</h4>
               <h4>7.09.20 - Platz sichern⟶</h4>
@@ -52,7 +50,7 @@ const LerneProgrammierenKurse = () => {
         <Collapsible triggerTagName="h1" trigger="7 Monate Web-Developer Frond-End " triggerExtra="Teilzeit 30 Wochen">
           <div className="kurse-infos">
             <div>
-              <p>Unser Full-Stack Kurs ermöglicht dir einen Web-Entwicklungs deep Dive verpackt in einem ultra praxisorientiertem instensiv Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
+              <p>Programmieren lernen neben dem Beruf? Kein Problem! Unser Front-End Kurs findest abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
               <h3>Termine:</h3>
               <h4>20.01.20 - voll</h4>
               <h4>7.09.20 - Platz sichern⟶</h4>
@@ -93,7 +91,7 @@ const LerneProgrammierenKurse = () => {
         }
        #weiterbildung {
           background: #03000F;
-          color: #3dd7ac;
+          color: #fff;
           padding: 10vh 0;
           display: flex;
           flex-direction: column;
@@ -128,7 +126,7 @@ const LerneProgrammierenKurse = () => {
         }
         .kurse-infos {
           display: grid;
-          grid-template-columns: 50% 25% 25%;
+          grid-template-columns: 2fr 1fr 1fr;
           grid-gap: 5%;
           color: #fff;
         }
