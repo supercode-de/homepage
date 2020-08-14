@@ -218,6 +218,10 @@ const UnserCampus = (props) => {
             width: auto;
             margin-bottom: 50px;
           }
+          p {
+            font-size: 1.3em;
+            width: 120%;
+          }
         }
         @media (max-width: 321px) {
           .campus {

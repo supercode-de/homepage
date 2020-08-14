@@ -153,10 +153,10 @@ const Header = (props) => {
             width: 90%;
             margin: 0 auto;
           }
-          @media (max-width: 468px) {
-            button {
-              font-size: 1.2em;
-            }
+        }
+        @media (max-width: 468px) {
+          button {
+            font-size: 1.2em;
           }
         }
       `}</style>

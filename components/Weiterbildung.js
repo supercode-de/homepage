@@ -191,8 +191,17 @@ const Weiterbildung = (props) => {
           h1 {
             margin: 0 5% 5vh;
           }
+          h3 {
+            font-size: 1.8em;
+          }
+          h4 {
+            font-size: 1.4em;
+          }
           .kurse-infos {
             display: block;
+          }
+          p {
+            font-size: 1.5em;
           }
         }
       `}</style>

@@ -8,16 +8,13 @@ const HeaderKurse = (props) => {
   return (
     <div id="header">
       <div className="container">
-
-
         <img src="/img/Bilder.png" alt="" />
         <article>
           <div>
             <h1>
-              Lerne <br /> Web-Entwicklung<br />  in unseren
-
-            <span>Bootcamps.</span>
-
+              Lerne <br /> Web-Entwicklung
+              <br /> in unseren
+              <span>Bootcamps.</span>
             </h1>
             <div className="arrow">
               <span></span>
@@ -26,16 +23,15 @@ const HeaderKurse = (props) => {
             </div>
           </div>
           <div className="aside">📞 +49 211 7817 233-0</div>
-
         </article>
       </div>
       <style jsx>{`
                #header {
                 background: linear-gradient(90deg, #03000F ${
+                  props.width - pixelSize
+                }px, transparent 1%), linear-gradient(#03000F ${
         props.width - pixelSize
-        }px, transparent 1%), linear-gradient(#03000F ${
-        props.width - pixelSize
-        }px, transparent 1%) , #fff;
+      }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
                 
             }
@@ -78,6 +74,7 @@ const HeaderKurse = (props) => {
             .arrow {
                 text-align:center;
                 margin-top:100px;
+                
                 
               }
               .arrow span {
@@ -127,6 +124,41 @@ const HeaderKurse = (props) => {
                   grid-template-columns:100%;
                  
                 }
+            }
+            
+            @media (max-width: 468px) {
+              .arrow {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: -5px;              
+              }
+              h1 {
+                font-size: 3.3em;
+                position:relative; 
+                margin-top: 20%;
+                margin-bottom: 60%;
+                text-align: center;
+                z-index: 99;
+
+              }
+              img {
+                position:absolute; 
+                width: 50%;
+                z-index: 0;
+                top:15%;
+                right: 20%;
+                display: none;
+            }
+            .aside {
+              
+              right: 5%;
+              
+              font-size: 1.1rem;
+          }
+
+          
             }
               
                 `}</style>
