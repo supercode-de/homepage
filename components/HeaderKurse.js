@@ -8,16 +8,13 @@ const HeaderKurse = (props) => {
   return (
     <div id="header">
       <div className="container">
-
-
         <img src="/img/Bilder.png" alt="" />
         <article>
           <div>
             <h1>
-              Lerne <br /> Web-Entwicklung<br />  in unseren
-
-            <span>Bootcamps.</span>
-
+              Lerne <br /> Web-Entwicklung
+              <br /> in unseren
+              <span>Bootcamps.</span>
             </h1>
             <div className="arrow">
               <span></span>
@@ -26,16 +23,15 @@ const HeaderKurse = (props) => {
             </div>
           </div>
           <div className="aside">📞 +49 211 7817 233-0</div>
-
         </article>
       </div>
       <style jsx>{`
                #header {
                 background: linear-gradient(90deg, #03000F ${
+                  props.width - pixelSize
+                }px, transparent 1%), linear-gradient(#03000F ${
         props.width - pixelSize
-        }px, transparent 1%), linear-gradient(#03000F ${
-        props.width - pixelSize
-        }px, transparent 1%) , #fff;
+      }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
                 
             }
