@@ -179,9 +179,7 @@ const HeaderKurse = (props) => {
             }
               
             .aside {
-              
               right: 5%;
-              
               font-size: 1.1rem;
           }
 

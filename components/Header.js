@@ -59,6 +59,7 @@ const Header = (props) => {
             ),
             #fff;
           background-size: ${props.width}px ${props.width}px;
+          
         }
 
         .large {
@@ -173,6 +174,13 @@ const Header = (props) => {
           button {
             font-size: 1.2em;
           }
+          #header {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            min-height: 90vh;
+          }
+          
         }
       `}</style>
     </div>
