@@ -188,15 +188,15 @@ const LerneProgrammierenKurse = () => {
             font-size: 3em;
             line-height: 2em;
           }
-          .kurse-infos {
-            grid-template-columns: 100%;
-          }
         }
 
         @media (max-width: 468px) {
           h1 {
             font-size: 3.5em;
             line-height: 3rem;
+          }
+          .kurse-infos {
+            grid-template-columns: 100%;
           }
           h3 {
             font-size: 1.8em;

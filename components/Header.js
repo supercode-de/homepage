@@ -5,6 +5,8 @@ const Header = (props) => {
   const pixelSize = 2; // Width of Lines in Background
   const opts = {
     playerVars: {
+      width: 300,
+
       // https://developers.google.com/youtube/player_parameters
       autoplay: 1,
     },
@@ -31,6 +33,19 @@ const Header = (props) => {
         <span></span>
         <span></span>
       </div>
+      <style jsx global>{`
+        iframe.youtube {
+          width: 100% !important;
+        }
+        @media (max-width: 468px) {
+          iframe.youtube {
+            height: auto !important;
+          }
+          .popup-content {
+            width: 100% !important;
+          }
+        }
+      `}</style>
       <style jsx>{`
         #header {
           background: linear-gradient(

@@ -130,6 +130,10 @@ const Absolvente = () => {
           .carousel {
             display: block;
           }
+          img {
+            width: 200px;
+          }
+
           .carousel img {
             height: 20vh;
             width: auto;
@@ -143,6 +147,7 @@ const Absolvente = () => {
             padding-top: 1vh;
           }
           img {
+            width: 250px;
             margin-left: -40px;
           }
         }
