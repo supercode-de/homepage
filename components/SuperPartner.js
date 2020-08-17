@@ -5,7 +5,7 @@ const SuperPartner = (props) => {
     <div id="container">
       <h1>#SuperPartner</h1>
       <div className="partner-container">
-        <Link href="https://blanko.de/" target="blank">
+        <Link href="https://blanko.de/">
           <a>
             <img src="/img/blanko.png" alt="" />
           </a>

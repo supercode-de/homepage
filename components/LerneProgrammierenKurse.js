@@ -50,7 +50,7 @@ const LerneProgrammierenKurse = () => {
                 Abschlussprojekt.
               </p>
             </div>
-            <div>
+            <div className="daten-unten">
               <h3>Trainer*innen:</h3>
               <p>2 Trainer*innen pro Tag</p>
               <h3>Umfang:</h3>
@@ -97,7 +97,7 @@ const LerneProgrammierenKurse = () => {
                 Abschlussprojekt.
               </p>
             </div>
-            <div>
+            <div className="daten-unten">
               <h3>Trainer*innen:</h3>
               <p>2 Trainer*innen pro Tag</p>
               <h3>Umfang:</h3>
@@ -195,7 +195,26 @@ const LerneProgrammierenKurse = () => {
 
         @media (max-width: 468px) {
           h1 {
-            font-size: 2em;
+            font-size: 3.5em;
+            line-height: 3rem;
+          }
+          h3 {
+            font-size: 1.8em;
+          }
+          h4 {
+            font-size: 1.4em;
+          }
+          p {
+            font-size: 1.5em;
+          }
+          .daten-unten {
+            margin-top: -10%;
+            margin-bottom: 30%;
+          }
+        }
+        @media (max-width: 321px) {
+          .daten-unten {
+            margin-bottom: 50%;
           }
         }
       `}</style>

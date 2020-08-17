@@ -26,22 +26,22 @@ const UnserCampus = (props) => {
       <div id="partner">
         <h1>#SuperPartner</h1>
         <div className="partner-container">
-          <a href="#">
+          <a href="https://blanko.de">
             <img src="/img/blanko.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://cammio.com/?lang=de">
             <img src="/img/cammio.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://www.digihub.de/">
             <img src="/img/digihub.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://www.zdi-portal.de/">
             <img src="/img/zdi.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://www.startupdorf.de/">
             <img src="/img/startupDorf.png" alt="" />
           </a>
-          <a href="">
+          <a href="https://super7000.de/">
             <img src="/img/super7000.png" alt="" />
           </a>
         </div>
@@ -265,13 +265,22 @@ const UnserCampus = (props) => {
             width: 32%;
             position: absolute;
             bottom: 14%;
-            right: 5%;
+            right: 5.5%;
             margin: 0;
           }
           .carousel img {
             height: 23vh;
             width: auto;
             margin-bottom: 50px;
+          }
+        }
+        @media (max-width: 321px) {
+          .campus {
+            bottom: 15%;
+            right: 4%;
+          }
+          .carousel img {
+            height: 29vh;
           }
         }
       `}</style>
