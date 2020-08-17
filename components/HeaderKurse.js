@@ -124,16 +124,35 @@ const HeaderKurse = (props) => {
                   grid-template-columns:100%;
                  
                 }
+                .arrow {
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  margin-top: 5px;              
+                }
+                img {
+                  position:absolute; 
+                  width: 30%;
+                  z-index: 0;
+                  top:43%;
+                  right: 35%;
+                  display: none;
+                  
+              }
+              h1 {
+                font-size: 4.6em;
+                position:relative; 
+                margin-top: 20%;
+                margin-bottom: 60%;
+                text-align: center;
+                z-index: 99;
+
+              }
             }
             
             @media (max-width: 468px) {
-              .arrow {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                margin-top: -5px;              
-              }
+              
               h1 {
                 font-size: 3.3em;
                 position:relative; 
@@ -151,6 +170,14 @@ const HeaderKurse = (props) => {
                 right: 20%;
                 display: none;
             }
+            .arrow {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              margin-top: -5px;              
+            }
+              
             .aside {
               
               right: 5%;

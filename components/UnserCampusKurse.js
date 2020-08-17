@@ -243,8 +243,16 @@ const UnserCampus = (props) => {
             display: block;
           }
           .carousel img {
+            margin-top: 100px;
+            margin-bottom: 100px;
             height: 20vh;
             width: auto;
+          }
+          .campus {
+            width: 22%;
+            position: absolute;
+            bottom: 16%;
+            right: 38.5%;
           }
         }
         @media (max-width: 468px) {
