@@ -3,7 +3,7 @@ import { useWindowSize } from "./functions/windowSize";
 
 const HeaderWS = (props) => {
   // const width = useWindowSize().width / 12
-  const pixelSize = 2;
+  const pixelSize = 1;
 
   return (
     <div id="header">

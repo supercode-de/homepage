@@ -1,7 +1,7 @@
 
 
 const ImpressumHeader = (props) => {
-  const pixelSize = 2; // Width of Lines in Background
+  const pixelSize = 1; // Width of Lines in Background
   return (
     <div id="impressum">
       <h1>Impressum</h1>
