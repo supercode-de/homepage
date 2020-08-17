@@ -124,7 +124,8 @@ const LerneProgrammierenKurse = () => {
             }
             .kurse-infos {
                 
-                grid-template-columns: 100%;
+                // grid-template-columns: 100%;
+                display: block;
                 
               }
         }
