@@ -140,7 +140,8 @@ const LerneProgrammierenKurse = () => {
             line-height: 2em;
           }
           .kurse-infos {
-            grid-template-columns: 100%;
+            // grid-template-columns: 100%;
+            display: block;
           }
         }
         @media (max-width: 468px) {
