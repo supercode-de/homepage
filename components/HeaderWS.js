@@ -1,5 +1,6 @@
 import Button from "./small/Button";
 import { useWindowSize } from "./functions/windowSize";
+import Arrow from "./small/Arrow";
 
 const HeaderWS = (props) => {
   // const width = useWindowSize().width / 12
@@ -8,34 +9,26 @@ const HeaderWS = (props) => {
   return (
     <div id="header">
       <div className="container">
-
-
         <img src="/img/_DSC3141_LowRes.png" alt="" />
         <article>
           <div>
             <h1>
-              Teste deine <br /> Codingskills in <br />unserem
-
-            <span>Workshops.</span>
-
+              Teste deine <br /> Codingskills in <br />
+              unserem
+              <span>Workshops.</span>
             </h1>
-            <div className="arrow">
-              <span></span>
-              <span></span>
-              <span></span>
-            </div>
           </div>
           <div className="aside">📞 +49 211 7817 233-0</div>
-
         </article>
       </div>
+      <Arrow />
       <style jsx>{`
                #header {
                 background: linear-gradient(90deg, #03000F ${
+                  props.width - pixelSize
+                }px, transparent 1%), linear-gradient(#03000F ${
         props.width - pixelSize
-        }px, transparent 1%), linear-gradient(#03000F ${
-        props.width - pixelSize
-        }px, transparent 1%) , #fff;
+      }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
                 
             }
@@ -125,6 +118,23 @@ const HeaderWS = (props) => {
                   grid-template-columns:100%;
                  
                 }
+            }
+            @media (max-width: 468px) {
+              .aside {
+                right: 5%;              
+                font-size:1.2rem;
+              }
+              img{
+                display: none;
+              }
+              h1 {
+                font-size: 3.5em;
+                width: 90%;
+                text-align: center;
+                margin:100px auto;
+                line-height:30px
+            
+            }
             }
               
                 `}</style>
