@@ -2,7 +2,7 @@ import Popup from "reactjs-popup";
 import YouTube from "react-youtube";
 
 const Header = (props) => {
-  const pixelSize = 2; // Width of Lines in Background
+  const pixelSize = 1; // Width of Lines in Background
   const opts = {
     playerVars: {
       // https://developers.google.com/youtube/player_parameters

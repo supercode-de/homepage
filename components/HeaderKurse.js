@@ -3,7 +3,7 @@ import { useWindowSize } from "./functions/windowSize";
 
 const HeaderKurse = (props) => {
   // const width = useWindowSize().width / 12
-  const pixelSize = 2;
+  const pixelSize = 1;
 
   return (
     <div id="header">
@@ -28,10 +28,10 @@ const HeaderKurse = (props) => {
       <style jsx>{`
                #header {
                 background: linear-gradient(90deg, #03000F ${
-                  props.width - pixelSize
-                }px, transparent 1%), linear-gradient(#03000F ${
         props.width - pixelSize
-      }px, transparent 1%) , #fff;
+        }px, transparent 1%), linear-gradient(#03000F ${
+        props.width - pixelSize
+        }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
                 
             }
