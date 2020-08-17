@@ -1,5 +1,6 @@
 import Popup from "reactjs-popup";
 import YouTube from "react-youtube";
+import Arrow from "./small/Arrow";
 
 const Header = (props) => {
   const pixelSize = 1; // Width of Lines in Background
@@ -28,11 +29,7 @@ const Header = (props) => {
         </Popup>
       </div>
       <div className="aside">📞 +49 211 7817 233-0</div>
-      <div className="arrow">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
+      <Arrow />
       <style jsx global>{`
         iframe.youtube {
           width: 100% !important;
@@ -59,7 +56,6 @@ const Header = (props) => {
             ),
             #fff;
           background-size: ${props.width}px ${props.width}px;
-          
         }
 
         .large {
@@ -99,43 +95,7 @@ const Header = (props) => {
           margin: 0 auto;
           padding: 12vh 0 6vh;
         }
-        .arrow {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          height: 100px;
-          padding-bottom: 50px;
-        }
-        .arrow span {
-          display: block;
-          width: 30px;
-          height: 30px;
-          border-bottom: 2px solid #3dd7ac;
-          border-right: 2px solid #3dd7ac;
-          transform: rotate(45deg);
-          margin: -10px;
-          animation: animate 2s infinite;
-        }
-        .arrow span:nth-child(2) {
-          animation-delay: -0.2s;
-        }
-        .arrow span:nth-child(3) {
-          animation-delay: -0.4s;
-        }
-        @keyframes animate {
-          0% {
-            opacity: 0;
-            transform: rotate(45deg) translate(-20px, -20px);
-          }
-          50% {
-            opacity: 1;
-          }
-          100% {
-            opacity: 0;
-            transform: rotate(45deg) translate(20px, 20px);
-          }
-        }
+
         button {
           background: none;
           display: inline-block;
@@ -180,7 +140,6 @@ const Header = (props) => {
             justify-content: space-evenly;
             min-height: 90vh;
           }
-          
         }
       `}</style>
     </div>
