@@ -142,6 +142,9 @@ const Absolvente = () => {
           .Absolventen-list {
             padding-top: 1vh;
           }
+          img {
+            margin-left: -40px;
+          }
         }
       `}</style>
     </div>
