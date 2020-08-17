@@ -17,7 +17,7 @@ const Header = (props) => {
         Programmieren <br /> lernen war noch nie <span>digitaler.</span>
       </h1>
       <div className="buttons">
-        {/* <Popup
+        <Popup
           trigger={<button className="button"> PLAY VIDEO </button>}
           modal
           closeOnDocumentClick
@@ -25,7 +25,7 @@ const Header = (props) => {
           <div className="large">
             <YouTube className="youtube" videoId="ewW2g5RP5d4" opts={opts} />
           </div>
-        </Popup> */}
+        </Popup>
       </div>
       <div className="aside">📞 +49 211 7817 233-0</div>
       <div className="arrow">
