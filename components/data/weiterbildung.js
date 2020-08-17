@@ -11,7 +11,7 @@ var faq = [
         links: ["/", "/"]
     },
     {
-        headline: "6 Monate Web-Developer Frond-End",
+        headline: "6 Monate Web-Developer Front-End",
         headlineSpan: "Teilzeit 24 Wochen",
         text: "Dein Studium passt nicht mehr zu Dir, in deinem Beruf gibt es keine Zukunft oder du willst was ganz neues starten? Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.",
         inhalte: "Dein Studium passt nicht mehr zu Dir, in deinem Beruf gibt es keine Zukunft oder du willst was ganz neues starten?",
