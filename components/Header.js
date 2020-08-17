@@ -173,13 +173,12 @@ const Header = (props) => {
         @media (max-width: 468px) {
           button {
             font-size: 1.2em;
-            transform: translateY()
           }
           #header {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            min-height: 95vh;
+            min-height: 90vh;
           }
           
         }
