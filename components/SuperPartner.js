@@ -1,33 +1,51 @@
-import Button from "./small/Button";
+import Link from "next/link";
 
 const SuperPartner = (props) => {
   return (
     <div id="container">
       <h1>#SuperPartner</h1>
       <div className="partner-container">
-        <a href="#">
-          <img src="/img/blanko.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/cammio.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/digihub.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/zdi.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/startupDorf.png" alt="" />
-        </a>
-        <a href="">
-          <img src="/img/super7000.png" alt="" />
-        </a>
+        <Link href="https://blanko.de/">
+          <a>
+            <img src="/img/blanko.png" alt="" />
+          </a>
+        </Link>
+        <Link href="https://cammio.com/?lang=de">
+          <a>
+            <img src="/img/cammio.png" alt="" />
+          </a>
+        </Link>
+        <Link href="https://www.digihub.de/">
+          <a>
+            <img src="/img/digihub.png" alt="" />
+          </a>
+        </Link>
+        <Link href="https://www.zdi-portal.de/">
+          <a>
+            <img src="/img/zdi.png" alt="" />
+          </a>
+        </Link>
+        <Link href="https://www.startupdorf.de/">
+          <a>
+            <img src="/img/startupDorf.png" alt="" />
+          </a>
+        </Link>
+        <Link href="https://super7000.de/">
+          <a>
+            <img src="/img/super7000.png" alt="" />
+          </a>
+        </Link>
       </div>
       <section id="qualitat">
         <h1>#Qualität vor Gewinn</h1>
         <div className="border">
-          <p>“SuperCode bietet ein arbeitsmarktlich aussichtsreiches und praxisnahes Bildungsangebot im IT-Bereich mit methodisch modernen und hohem Einsatz von Lehrpersonal. Hervorzuheben ist die hervorragende Branchenvernetzung sowie die innovative Praxiskompetenz der Geschäftsführung und des Teams.”</p>
+          <p>
+            “SuperCode bietet ein arbeitsmarktlich aussichtsreiches und
+            praxisnahes Bildungsangebot im IT-Bereich mit methodisch modernen
+            und hohem Einsatz von Lehrpersonal. Hervorzuheben ist die
+            hervorragende Branchenvernetzung sowie die innovative
+            Praxiskompetenz der Geschäftsführung und des Teams.”
+          </p>
           <h3>– Certqua Bonn</h3>
         </div>
       </section>
@@ -96,6 +114,19 @@ const SuperPartner = (props) => {
             margin-top: 1em;
             height: 5em;
           }
+          @media (max-width: 468px) {
+            .partner-container{
+              
+              grid-template-columns: repeat(3,1fr);
+              grid-gap: 10%;
+              margin-top: -5%;
+
+              
+          }
+          img {
+            margin-top:20px;
+            width: 120%;
+        }
         }
       `}</style>
     </div>

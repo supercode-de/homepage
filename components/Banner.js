@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <section id="banner">
       <h3>
-        Unsere Anmeldephase läuft.<a href="/#zukunft">erfahre mehr</a>{" "}
+        Unsere Anmeldephase läuft. <Link href="/#zukunft">erfahre mehr</Link>
       </h3>
       <style jsx>
         {`
@@ -22,11 +22,16 @@ const Banner = () => {
             text-transform: uppercase;
             color: #5d3ede;
             font-weight: 500;
-            font-size:0.8em;
-            letter-spacing:1.3px
+            font-size: 0.8em;
+            letter-spacing: 1.3px;
           }
           #banner h3 a {
             color: #5d3ede;
+          }
+          @media (max-width: 468px) {
+            #banner h3 {
+              font-size: 1.1em;
+            }
           }
         `}
       </style>

@@ -15,7 +15,7 @@ const JetztAnmdelden = (props) => {
                     <p>An diesen Zeiten erreichst du uns am besten an folgenden Tagen und Zeiten</p>
                     <p>Montag - Freitag</p>
                     <p>09:00 - 17:00 Uhr</p>
-                    <p>Unser Campus befindet sich im super7000 Coworking Space - der Mutter aller Coworking Spaces. Die genau Adresse lautet</p>
+                    <p>Unser Campus befindet sich im super7000 Coworking Space - der Mutter aller Coworking Spaces. Die genaue Adresse lautet</p>
                     <p>Ratherstr. 25</p>
                     <p>40476 Düsseldorf</p>
                 </div>

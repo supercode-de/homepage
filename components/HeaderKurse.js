@@ -75,6 +75,7 @@ const HeaderKurse = (props) => {
                 text-align:center;
                 margin-top:100px;
                 
+                
               }
               .arrow span {
                 display: block;
@@ -123,6 +124,41 @@ const HeaderKurse = (props) => {
                   grid-template-columns:100%;
                  
                 }
+            }
+            
+            @media (max-width: 468px) {
+              .arrow {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: -5px;              
+              }
+              h1 {
+                font-size: 3.3em;
+                position:relative; 
+                margin-top: 20%;
+                margin-bottom: 60%;
+                text-align: center;
+                z-index: 99;
+
+              }
+              img {
+                position:absolute; 
+                width: 50%;
+                z-index: 0;
+                top:15%;
+                right: 20%;
+                display: none;
+            }
+            .aside {
+              
+              right: 5%;
+              
+              font-size: 1.1rem;
+          }
+
+          
             }
               
                 `}</style>

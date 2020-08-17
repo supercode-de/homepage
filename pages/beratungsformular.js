@@ -65,9 +65,9 @@ export default function Beratungsformular() {
           ;
           background-position: 0 0, 0 0;
           background-size: ${width}px ${width}px;
-          display: grid;
-          justify-content: center;
-          padding: 5rem 0;
+          // display: grid;
+          // justify-content: center;
+          padding: ${width}px;
         }
         #notice {
           font-weight: bold;
@@ -83,7 +83,7 @@ export default function Beratungsformular() {
           animation-direction: alternate-reverse;
         }
         #form {
-          background: 
+          margin: 0 auto;
           padding-top: 5rem;
           padding: 20px;
           background: #03000F;
@@ -191,6 +191,9 @@ export default function Beratungsformular() {
                 font-size: 3em;
                 width: 90%;
                 margin: 0 auto;
+            }
+            #sign-up {
+              padding: 0;
             }
         }
       `}</style>

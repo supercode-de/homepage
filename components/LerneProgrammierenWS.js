@@ -12,7 +12,7 @@ const LerneProgrammierenKurse = () => {
       </h1>
       <div className="aside">Lerne Programmieren</div>
       <div className="kurse">
-        <Collapsible triggerTagName="h1" trigger="kostenloser HTML & CSS Workshop  " triggerExtra="Online">
+        <Collapsible triggerTagName="h1" trigger="Kostenloser HTML & CSS Workshop  " triggerExtra="Online">
           <div className="kurse-infos">
             <div>
               <p>Tauche ein in die wundervolle Welt der Web-Entwicklung und mache bei uns dein Seepferdchen im Bereich HTML & CSS. Online, im World Wide Web! Live, in Farbe und immer mit zwei Trainer*innen.</p>

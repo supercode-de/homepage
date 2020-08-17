@@ -12,7 +12,7 @@ const Zukunft = (props) => {
         <div className="info-one">
           <p>
             Wir bieten Menschen einen modernen Ansatz für lebenslanges Lernen
-            und den ultimativen Skill Power-UP für eine schöne berufliche
+            und den ultimativen Skill Power-Up für eine schöne berufliche
             Zukunft!
           </p>
           <p>
@@ -21,14 +21,22 @@ const Zukunft = (props) => {
           </p>
         </div>
         <div className="info-headline">
-          <h3><Link href="/kurse"><a>Bootcamps ⟶</a></Link></h3>
+          <h3>
+            <Link href="/kurse">
+              <a>Bootcamps ⟶</a>
+            </Link>
+          </h3>
           <p>
             Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur
             5 Monaten
           </p>
         </div>
         <div className="info-headline">
-          <h3><Link href="/workshops"><a>Workshops ⟶</a></Link> </h3>
+          <h3>
+            <Link href="/workshops">
+              <a>Workshops ⟶</a>
+            </Link>{" "}
+          </h3>
           <p>
             Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
             schärfe dein Wissen in einer Programmiersprache.
@@ -46,10 +54,13 @@ const Zukunft = (props) => {
           color: #3dd7ac;
           background: linear-gradient(
               90deg,
-              #03000F ${props.width - pixelSize}px,
+              #03000f ${props.width - pixelSize}px,
               transparent 1%
             ),
-            linear-gradient(#03000F ${props.width - pixelSize}px, transparent 1%),
+            linear-gradient(
+              #03000f ${props.width - pixelSize}px,
+              transparent 1%
+            ),
             #fff;
           background-size: ${props.width}px ${props.width}px;
         }
@@ -87,9 +98,9 @@ const Zukunft = (props) => {
           font-size: 2em;
           margin: 0;
         }
-        a{
+        a {
           color: #5d3ede;
-          text-decoration:none;
+          text-decoration: none;
         }
         .images {
           margin-top: ${props.width}px;
@@ -120,12 +131,33 @@ const Zukunft = (props) => {
             width: 90%;
             margin: 0 auto;
           }
-          .info-one, .info-headline {
+          .info-one,
+          .info-headline {
             width: auto;
             margin: 0;
           }
           .info-one {
             grid-column: 1 / span 2;
+          }
+        }
+        @media (max-width: 468px) {
+          p {
+            font-size: 1.5em;
+          }
+          a {
+            font-size: 1.2em;
+          }
+          .img-one {
+            width: 270px;
+          }
+          .img-two {
+            width: 200px;
+            position: absolute;
+            top: 140px;
+            right: 0;
+          }
+          .images {
+            padding-bottom: 135px;
           }
         }
       `}</style>
