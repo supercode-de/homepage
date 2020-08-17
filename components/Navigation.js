@@ -118,6 +118,7 @@ class Navigation extends Component {
             right: 2.5vw;
             height: 4vmax;
             z-index: 99998;
+            cursor: pointer;
           }
           .logo {
             color: #3dd7ac;
