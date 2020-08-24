@@ -83,6 +83,7 @@ const SuperPartner = (props) => {
         }
         img {
           width: 100%;
+          transition: transform .5s;
         }
         img:hover {
           transform: scale(1.05)
