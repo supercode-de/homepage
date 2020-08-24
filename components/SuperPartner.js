@@ -6,33 +6,33 @@ const SuperPartner = (props) => {
       <h1>#SuperPartner</h1>
       <div className="partner-container">
         <Link href="https://blanko.de/">
-          <a>
-            <img src="/img/blanko.png" alt="" />
+          <a target="_blank" rel="noreferrer">
+            <img src="/img/blanko.png" alt="Blanko" />
           </a>
         </Link>
         <Link href="https://cammio.com/?lang=de">
-          <a>
-            <img src="/img/cammio.png" alt="" />
+          <a target="_blank" rel="noreferrer">
+            <img src="/img/cammio.png" alt="Cammio" />
           </a>
         </Link>
         <Link href="https://www.digihub.de/">
-          <a>
-            <img src="/img/digihub.png" alt="" />
+          <a target="_blank" rel="noreferrer">
+            <img src="/img/digihub.png" alt="Digihub" />
           </a>
         </Link>
         <Link href="https://www.zdi-portal.de/">
-          <a>
-            <img src="/img/zdi.png" alt="" />
+          <a target="_blank" rel="noreferrer">
+            <img src="/img/zdi.png" alt="zdi" />
           </a>
         </Link>
         <Link href="https://www.startupdorf.de/">
-          <a>
-            <img src="/img/startupDorf.png" alt="" />
+          <a target="_blank" rel="noreferrer">
+            <img src="/img/startupDorf.png" alt="StartupDorf" />
           </a>
         </Link>
         <Link href="https://super7000.de/">
           <a>
-            <img src="/img/super7000.png" alt="" />
+            <img src="/img/super7000.png" alt="super7000" />
           </a>
         </Link>
       </div>
@@ -83,6 +83,9 @@ const SuperPartner = (props) => {
         }
         img {
           width: 100%;
+        }
+        img:hover {
+          transform: scale(1.05)
         }
         .partner-container {
           display: grid;
