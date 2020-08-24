@@ -89,6 +89,7 @@ class Navigation extends Component {
             text-decoration: none;
             font-size: 0.8em;
             letter-spacing: 1.3px;
+            transition: color .5s;
           }
           a:visited {
             color: #fff;
