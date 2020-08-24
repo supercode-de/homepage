@@ -1,6 +1,7 @@
 import Popup from "reactjs-popup";
 import YouTube from "react-youtube";
 import Arrow from "./small/Arrow";
+import Telefon from "./small/Telefon";
 
 const Header = (props) => {
   const pixelSize = 1; // Width of Lines in Background
@@ -28,7 +29,7 @@ const Header = (props) => {
           </div>
         </Popup>
       </div>
-      <div className="aside">📞 +49 211 7817 233-0</div>
+      <Telefon />
       <Arrow />
       <style jsx global>{`
         iframe.youtube {
@@ -73,14 +74,6 @@ const Header = (props) => {
         }
         .youtube {
           width: 100%;
-        }
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: right;
-          right: 3%;
-          top: 30vh;
-          color: #fff;
         }
         h1 span {
           display: block;
