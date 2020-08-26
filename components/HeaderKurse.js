@@ -1,6 +1,7 @@
 import Button from "./small/Button";
 import { useWindowSize } from "./functions/windowSize";
 import Arrow from "./small/Arrow";
+import Telefon from "./small/Telefon";
 
 const HeaderKurse = (props) => {
   // const width = useWindowSize().width / 12
@@ -26,10 +27,10 @@ const HeaderKurse = (props) => {
       <style jsx>{`
                #header {
                 background: linear-gradient(90deg, #03000F ${
-                  props.width - pixelSize
-                }px, transparent 1%), linear-gradient(#03000F ${
         props.width - pixelSize
-      }px, transparent 1%) , #fff;
+        }px, transparent 1%), linear-gradient(#03000F ${
+        props.width - pixelSize
+        }px, transparent 1%) , #fff;
                 background-size: ${props.width}px ${props.width}px;
                 
             }
