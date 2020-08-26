@@ -28,7 +28,7 @@ export default function Beratungsformular() {
         <div id="form">
           <HubspotForm
             portalId='5807040'
-            formId='4fb004bc-0372-4848-b17d-923a1b059392'
+            formId='b1c54768-9387-49e1-9669-ea5c0f58ebd6'
             onSubmit={() => console.log('Submit!')}
             onReady={(form) => console.log('Form ready!')}
             loading={<div>Loading...</div>}
