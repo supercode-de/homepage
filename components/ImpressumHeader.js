@@ -1,4 +1,5 @@
 import Arrow from "./small/Arrow";
+import Telefon from "./small/Telefon";
 
 
 const ImpressumHeader = (props) => {
@@ -8,6 +9,7 @@ const ImpressumHeader = (props) => {
       <h1>Impressum</h1>
 
       <div className="aside">📞 +49 211 7817 233-0</div>
+      <Telefon color="#fff" />
       <Arrow />
       <style jsx>{`
         #impressum {
@@ -33,14 +35,14 @@ const ImpressumHeader = (props) => {
           color: #3dd7ac;
           text-align: center;
         }
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: right;
-          right: 3%;
-          top: 30vh;
-          color: #fff;
-        }
+        // .aside {
+        //   position: absolute;
+        //   transform: rotate(-90deg);
+        //   transform-origin: right;
+        //   right: 3%;
+        //   top: 30vh;
+        //   color: #fff;
+        // }
         @media (max-width: 768px) {
           h1 {
             font-size: 3em;
