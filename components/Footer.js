@@ -77,7 +77,7 @@ const Footer = () => {
                 text-decoration: underline;
                 color: #3dd7ac;
             }
-                a:active {
+            a:active {
                 color: #5d3ede;
             }
             .line-bottom {
