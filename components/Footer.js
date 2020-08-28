@@ -69,6 +69,17 @@ const Footer = () => {
                 padding: .5em 0;
                 color: #3DD7AC;
             }
+            a:visited {
+                color: #3DD7AC;
+            }
+
+            a:hover {
+                text-decoration: underline;
+                color: #3dd7ac;
+            }
+                a:active {
+                color: #5d3ede;
+            }
             .line-bottom {
                 padding-bottom: 5px;
                 border-bottom: 1px solid #3DD7AC;
