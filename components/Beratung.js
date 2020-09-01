@@ -1,31 +1,44 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 //import './jetzt-anmelden.css'
 
-import HubspotForm from 'react-hubspot-form'
+import HubspotForm from "react-hubspot-form";
 
 const Beratung = (props) => {
-    const [isHidden, toggleJetztAnmelden] = useState(true)
-    return (
-        <div id="beratung">
-            <button className="button" onClick={() => toggleJetztAnmelden(!isHidden)}>Beratung</button>
+  const [isHidden, toggleJetztAnmelden] = useState(true);
+  return (
+    <div id="beratung">
+      <button className="button" onClick={() => toggleJetztAnmelden(!isHidden)}>
+        Beratung
+      </button>
 
-            <div id="jetzt-anmelden" className={isHidden ? "isHidden" : "isNotHidden"}>
-                <button className="jetzt-anmelden-close" onClick={() => toggleJetztAnmelden(!isHidden)}>&#10539;</button>
+      <div
+        id="jetzt-anmelden"
+        className={isHidden ? "isHidden" : "isNotHidden"}
+      >
+        <button
+          className="jetzt-anmelden-close"
+          onClick={() => toggleJetztAnmelden(!isHidden)}
+        >
+          &#10539;
+        </button>
 
-                <div className="jetzt-anmelden-container">
-                    <h1>Hi, wie können wir dir <span>helfen?</span></h1>
-                    <div className="jetzt-anmelden-right">
-                        <HubspotForm
-                            portalId='5807040'
-                            formId='4fb004bc-0372-4848-b17d-923a1b059392'
-                            onSubmit={() => console.log('Submit!')}
-                            onReady={(form) => console.log('Form ready!')}
-                            loading={<div>Loading...</div>}
-                        />
-                    </div>
-                </div>
-            </div>
-            <style jsx>{`
+        <div className="jetzt-anmelden-container">
+          <h1>
+            Hi, wie können wir dir <span>helfen?</span>
+          </h1>
+          <div className="jetzt-anmelden-right">
+            <HubspotForm
+              portalId="5807040"
+              formId="4fb004bc-0372-4848-b17d-923a1b059392"
+              onSubmit={() => console.log("Submit!")}
+              onReady={(form) => console.log("Form ready!")}
+              loading={<div>Loading...</div>}
+            />
+          </div>
+        </div>
+      </div>
+      <style jsx>
+        {`
                     #jetzt-anmelden{
                         position: fixed;
                         padding: 20px;
@@ -134,6 +147,10 @@ const Beratung = (props) => {
                             width: 400px;
                         }
                     }
+                    @media (max-width: 468px) {
+                        .button {
+                          font-size: 1.2em;
+                        }
                     @media screen and (max-width: 400px) {
                         .jetzt-anmelden-container{
                             padding:10% 5%;
@@ -153,10 +170,9 @@ const Beratung = (props) => {
                         }
                     }
                     `}
-            </style>
-
-        </div>);
-}
+      </style>
+    </div>
+  );
+};
 
 export default Beratung;
-

@@ -11,6 +11,9 @@ module.exports = {
             '/beratungsformular': { page: '/beratungsformular' },
             '/dsgvo': { page: '/dsgvo' },
             '/impressum': { page: '/impressum' },
+            '/bootcamp': { page: '/bootcamp' },
+            '/kontakt': { page: '/kontakt' },
+            '/team': { page: '/team' },
         }
     }
 }
