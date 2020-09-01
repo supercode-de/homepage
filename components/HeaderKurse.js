@@ -1,5 +1,3 @@
-import Button from "./small/Button";
-import { useWindowSize } from "./functions/windowSize";
 import Arrow from "./small/Arrow";
 import Telefon from "./small/Telefon";
 
