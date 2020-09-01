@@ -1,11 +1,7 @@
+import Telefon from "./small/Telefon";
+
 const Header404 = (props) => {
   const pixelSize = 2; // Width of Lines in Background
-  const opts = {
-    playerVars: {
-      // https://developers.google.com/youtube/player_parameters
-      autoplay: 1,
-    },
-  };
   return (
     <div id="header">
       <h1>
@@ -13,7 +9,7 @@ const Header404 = (props) => {
         Baby
       </h1>
       <div className="buttons"></div>
-      <div className="aside">📞 +49 211 7817 233-0</div>
+      <Telefon />
 
       <img src="/img/_DSC2571_LowRes 3.png" alt="" />
 
@@ -48,14 +44,6 @@ const Header404 = (props) => {
           color: #3dd7ac;
           text-align: center;
         }
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: right;
-          right: 3%;
-          top: 40vh;
-          color: #fff;
-        }
         h1 span {
           display: block;
           color: transparent;
@@ -75,9 +63,6 @@ const Header404 = (props) => {
             font-size: 3em;
             width: 90%;
             margin: 0 auto;
-          }
-          .aside {
-            top: 20vh;
           }
         }
       `}</style>
