@@ -76,6 +76,9 @@ const Header404 = (props) => {
             width: 90%;
             margin: 0 auto;
           }
+          .aside {
+            top: 20vh;
+          }
         }
       `}</style>
     </div>

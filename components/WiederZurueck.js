@@ -124,13 +124,23 @@ const WiederZurueck = (props) => {
         }
 
         @media (max-width: 768px) {
-          h1 {
-            margin-top: 0;
-            padding-top: 0.7em;
-          }
           h1,
           p {
             width: 100%;
+          }
+          h1 {
+            padding: 0.7em 0;
+            font-size: 3em;
+            width: 70%;
+            margin: 0 auto;
+          }
+          .infos {
+            flex-direction: column;
+            align-items: center;
+          }
+          .info-headline {
+            width: 70%;
+            margin: 0;
           }
         }
       `}</style>
