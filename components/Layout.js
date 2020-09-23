@@ -21,10 +21,10 @@ class Layout extends Component {
         <Head>
           <title>Super-code</title>
           <link rel="icon" href="/favicon.ico" />
-          {/* <meta property="og:url" content="/img/page-preview.jpg" />
-          <meta property="og:type" content="/img/page-preview.jpg" />
-          <meta property="og:title" content="/img/page-preview.jpg" />
-          <meta property="og:description" content="/img/page-preview.jpg" /> */}
+          <meta property="og:url" content="https://www.super-code.de" />
+          <meta property="og:type" content="Website" />
+          <meta property="og:title" content="Super-code.de - Programmieren lernen war noch nie digitaler." />
+          {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}
           <meta property="og:image" content="https://www.super-code.de/img/page-preview.jpg" />
           <meta property="og:image" content="http://www.super-code.de/img/page-preview.jpg" />
 
