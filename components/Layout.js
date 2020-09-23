@@ -21,7 +21,14 @@ class Layout extends Component {
         <Head>
           <title>Super-code</title>
           <link rel="icon" href="/favicon.ico" />
-          <meta property="og:image" content="/img/page-preview.jpg" />
+          {/* <meta property="og:url" content="/img/page-preview.jpg" />
+          <meta property="og:type" content="/img/page-preview.jpg" />
+          <meta property="og:title" content="/img/page-preview.jpg" />
+          <meta property="og:description" content="/img/page-preview.jpg" /> */}
+          <meta property="og:image" content="https://www.super-code.de/img/page-preview.jpg" />
+          <meta property="og:image" content="http://www.super-code.de/img/page-preview.jpg" />
+
+
         </Head>
         <Pixel name='FACEBOOK_PIXEL_1' />
         {this.props.banner ? <Banner /> : <Banner />}
