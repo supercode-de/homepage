@@ -21,6 +21,7 @@ class Layout extends Component {
         <Head>
           <title>Super-code</title>
           <link rel="icon" href="/favicon.ico" />
+          <meta property="og:image" content="/img/page-preview.jpg" />
         </Head>
         <Pixel name='FACEBOOK_PIXEL_1' />
         {this.props.banner ? <Banner /> : <Banner />}
