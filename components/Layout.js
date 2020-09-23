@@ -19,7 +19,7 @@ class Layout extends Component {
     return (
       <div id="super-layout">
         <Head>
-          <meta property="og:image" content="https://www.super-code.de/img/page-preview.jpg" />
+          <meta property="og:image:secure" content="https://www.super-code.de/img/page-preview.jpg" />
           <meta property="og:image" content="http://www.super-code.de/img/page-preview.jpg" />
           <meta property="og:url" content="https://www.super-code.de" />
           <meta property="og:type" content="Website" />
