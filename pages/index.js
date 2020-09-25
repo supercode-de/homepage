@@ -30,7 +30,7 @@ export default function Home(props) {
             <Bewerbungsprozess />
             <MeldeDich />
             <FAQ width={width} />
-            <FooterCallToAction month="September" />
+            <FooterCallToAction month="November" />
           </main>
           <style jsx>{``}</style>
         </div>
