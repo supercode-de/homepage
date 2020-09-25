@@ -78,11 +78,10 @@ class Collapsible extends Component {
     this.setState({
       shouldSwitchAutoOnNextCycle: true,
       height: this.innerRef.scrollHeight,
-      transition: `height ${
-        this.props.transitionCloseTime
+      transition: `height ${this.props.transitionCloseTime
           ? this.props.transitionCloseTime
           : this.props.transitionTime
-      }ms ${this.props.easing}`,
+        }ms ${this.props.easing}`,
       inTransition: true,
     });
   }
@@ -191,23 +190,20 @@ class Collapsible extends Component {
     // Don't render children until the first opening of the Collapsible if lazy rendering is enabled
     var children =
       this.props.lazyRender &&
-      !this.state.hasBeenOpened &&
-      this.state.isClosed &&
-      !this.state.inTransition
+        !this.state.hasBeenOpened &&
+        this.state.isClosed &&
+        !this.state.inTransition
         ? null
         : this.props.children;
 
     // Construct CSS classes strings
-    const triggerClassString = `${
-      this.props.classParentString
-    }__trigger ${openClass} ${disabledClass} ${
-      this.state.isClosed
+    const triggerClassString = `${this.props.classParentString
+      }__trigger ${openClass} ${disabledClass} ${this.state.isClosed
         ? this.props.triggerClassName
         : this.props.triggerOpenedClassName
-    }`;
-    const parentClassString = `${this.props.classParentString} ${
-      this.state.isClosed ? this.props.className : this.props.openedClassName
-    }`;
+      }`;
+    const parentClassString = `${this.props.classParentString} ${this.state.isClosed ? this.props.className : this.props.openedClassName
+      }`;
     const outerClassString = `${this.props.classParentString}__contentOuter ${this.props.contentOuterClassName}`;
     const innerClassString = `${this.props.classParentString}__contentInner ${this.props.contentInnerClassName}`;
 
@@ -278,7 +274,7 @@ class Collapsible extends Component {
             transform: scaleY(-1) rotate(45deg);
           }
 
-          div:hover {
+          .Collapsible__trigger:hover {
             cursor: pointer;
             color: rgb(61, 215, 172);
           }
@@ -345,10 +341,10 @@ Collapsible.defaultProps = {
   contentInnerClassName: "",
   className: "",
   triggerSibling: null,
-  onOpen: () => {},
-  onClose: () => {},
-  onOpening: () => {},
-  onClosing: () => {},
+  onOpen: () => { },
+  onClose: () => { },
+  onOpening: () => { },
+  onClosing: () => { },
   tabIndex: null,
   contentContainerTagName: "div",
 };
