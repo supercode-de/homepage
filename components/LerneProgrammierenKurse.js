@@ -1,6 +1,7 @@
 import Button from "./small/Button";
 import Collapsible from "./WeiterbildungItem";
 import Beratung from "./Beratung";
+import dates from "./data/dates.json"
 
 const LerneProgrammierenKurse = () => {
   return (
@@ -27,8 +28,8 @@ const LerneProgrammierenKurse = () => {
                 und finde einen Job mit Zukunft.
               </p>
               <h3>Termine:</h3>
-              <h4>07.09.2020 - voll</h4>
-              <h4>16.11.2020 - Platz sichern ⟶</h4>
+              <h4>{dates.VzTermin1} - voll</h4>
+              <h4>{dates.VzTermin2} - Platz sichern ⟶</h4>
               <div className="two-column">
                 <Button href="mailto:beratung@super-code.de" text="ANFRAGEN" />
                 <Beratung />
@@ -77,8 +78,8 @@ const LerneProgrammierenKurse = () => {
                 lernst du das Programmieren moderner Websites & Apps.
               </p>
               <h3>Termine:</h3>
-              <h4>20.01.20 - voll</h4>
-              <h4>7.09.20 - Platz sichern⟶</h4>
+              <h4>{dates.TzTermin1} - voll</h4>
+              <h4>{dates.TzTermin2} - Platz sichern⟶</h4>
               <div className="two-column">
                 <Button href="mailto:beratung@super-code.de" text="ANFRAGEN" />
                 <Beratung />
@@ -114,7 +115,7 @@ const LerneProgrammierenKurse = () => {
         </Collapsible>
 
         <h2>
-          bald: 1 Monat SuperDigital Basics <span>Vollzeilt 4 Woche</span>
+          bald: 1 Monat SuperDigital Basics <span>Vollzeilt 4 Wochen</span>
         </h2>
       </div>
       <style jsx>{`
