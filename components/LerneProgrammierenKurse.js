@@ -27,8 +27,8 @@ const LerneProgrammierenKurse = () => {
                 und finde einen Job mit Zukunft.
               </p>
               <h3>Termine:</h3>
-              <h4>18.05.2020 - voll</h4>
-              <h4>07.09.2020 - Platz sichern ⟶</h4>
+              <h4>07.09.2020 - voll</h4>
+              <h4>16.11.2020 - Platz sichern ⟶</h4>
               <div className="two-column">
                 <Button href="mailto:beratung@super-code.de" text="ANFRAGEN" />
                 <Beratung />
