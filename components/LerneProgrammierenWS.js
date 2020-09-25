@@ -1,7 +1,7 @@
 import Button from "./small/Button";
 import Collapsible from "./WeiterbildungItem";
 import Beratung from "./Beratung";
-
+import dates from './data/dates.json'
 const LerneProgrammierenKurse = () => {
   return (
     <div id="weiterbildung">
@@ -15,7 +15,7 @@ const LerneProgrammierenKurse = () => {
       <div className="kurse">
         <Collapsible
           triggerTagName="h1"
-          trigger="Kostenloser HTML & CSS Workshop  "
+          trigger="Kostenloser HTML & CSS Workshop "
           triggerExtra="Online"
         >
           <div className="kurse-infos">
@@ -60,10 +60,54 @@ const LerneProgrammierenKurse = () => {
           </div>
         </Collapsible>
       </div>
+      <Collapsible
+        triggerTagName="h1"
+        trigger="1 Monat SuperBasics HMTL & CSS "
+        triggerExtra="Online"
+      >
+        <div className="kurse-infos">
+          <div>
+            <p>
+              An vier Abenden lernst du die nötigen Grundlagen für die Erstellung einer modernen Webseite mit Hilfe von HTML und CSS. Du lernst intensiv, schnell und ultra praxisorientiert!
+              </p>
+            <h3>Inhalte:</h3>
+            <h4>- Design Basics</h4>
+            <h4>- UX & UI Basics</h4>
+            <h4>- Prototyping</h4>
+            <h4>- Designthinking</h4>
+            <div className="two-column">
+              <Button
+                href="https://www.eventbrite.de/e/superbasics-html-css-workshop-tickets-120028908697"
+                text="ANMELDUNG"
+                target="_blank"
+              />
+              <Beratung />
+            </div>
+          </div>
+          <div>
+            <h3>Zeitraum: {dates.superBasicTermin}</h3>
+            <p>Wochentage: jeden Donnerstag</p>
+            <p>Uhrzeit: 18.00 - 21.00 Uhr</p>
+            <p>Lerneinheiten: 16 (je 45 Minuten)</p>
 
-      <h2>
+            <p>
+              Level: Anfänger*innen
+              </p>
+          </div>
+          <div>
+            <h3>Sonstiges:</h3>
+            <p>2 Trainer*innen pro Workshop</p>
+            <p>Teilnahme erfolgt online</p>
+            {/* <h3>Umfang:</h3>
+              <p>_ 3 Stunden</p>
+              <p>_ 18:00 - 21:00 Uhr</p> */}
+          </div>
+        </div>
+      </Collapsible>
+
+      {/* <h2>
         1 Monat SuperBasics HMTL & CSS <span>Online</span>{" "}
-      </h2>
+      </h2> */}
       <h2>
         bald: 1 Monat SuperDigital Basics <span>Vollzeit 4 Wochen</span>
       </h2>
