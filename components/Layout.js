@@ -41,7 +41,9 @@ class Layout extends Component {
             html {
               scroll-behavior: smooth;
             }  
-                  
+            .image-item-partner {
+              align-self: center
+            }      
             html,
             body {
               padding: 0;
