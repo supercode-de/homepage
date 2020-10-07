@@ -1,38 +1,28 @@
 
 
 const LeitBildBody = (props) => {
-    return (
-        <div id="impressum-text">
-            <div className="text-body">
-                <div className="block">
-                    <h3>Leitbild SuperCode GmbH & Co. KG</h3>
-                    <p>
-                        Die SuperCode GmbH & Co. KG ist ein Bildungsträger, entstanden aus einer Initiative, die sich zum Ziel gesetzt hat, Menschen mit Veränderungswunsch in den digitalen Arbeitsmarkt zu integrieren und sich auf die Qualifikation von Talenten für die Digitalbranche spezialisiert. Wir liefern jungen Talenten mit unseren Weiterbildungsmaßnahmen die technische Qualifizierung am deutschen Arbeitsmarkt, die sie benötigen. Berufliche Qualifizierung verstehen wir als Schlüssel zu einem erfolgreichen Berufsleben. Bei Migranten zieht die Integration in den Arbeitsmarkt die gesellschaftliche Eingliederung zwangsläufig mit sich. Wir streben dabei kontinuierlich verbesserte Ausbildungsstandards an, die Maßnahmen ermöglichen, welche ständig auf die häufig wechselnden Bedürfnisse des digitalen Jobmarkts reagieren.
+  return (
+    <div id="impressum-text">
+      <div className="text-body">
+        <h2>Leitbild SuperCode GmbH & Co. KG</h2>
+        <div className="block">
+          <h3>Unser Ziel</h3>
 
-                    </p>
-                    <p>
-                        Die SuperCode GmbH & Co. KG ist also ein Träger im Bildungsbereich und der privaten Arbeitsvermittlung im Bereich der Informationstechnik. Der Bildungsbereich erstreckt sich bisher auf den Bereich der Web-Programmierung und Unterstützung beim Bewerbungsprozess im IT-Bereich.
-                    </p>
-                    <p>
-                        Da Erwerbsarbeit und das lebenslange Lernen einen wesentlichen Teil des gesellschaftlichen Lebens und der Integration ausmachen, möchte die SuperCode GmbH & Co. KG einen aktiven Beitrag dazu leisten.
-                    </p>
-                    <p>
-                        In den Fachbereichen der Informationstechnik wird den Teilnehmern praxisorientiert Fachwissen vermittelt. Sie werden begleitet und unterstützt, sich am Arbeitsleben zu beteiligen, ihre individuellen Perspektiven zu verbessern und Zugang zum Arbeitsmarkt zu finden. Die Vermittlung wird auf Deutsch und Englisch erfolgen, da Berufe im Web-Development ebenso wie viele andere Berufsbilder der IT-Wirtschaft auch in Deutschland weitgehend auf Englisch ausgeübt werden. Da die Programmiersprachen auf englischer Syntax beruhen und viele der verfügbaren Online- und Offline-Lerntools nur auf Englisch vorliegen, versteht die SuperCode GmbH & Co. KG die Zweisprachigkeits des Unterrichts und Trainings als arbeitsmarkt-spezifische Selbstverständlichkeit.
-                    </p>
-                    <p>
-                        Der Arbeit der SuperCode GmbH & Co. KG liegt ein positives humanistisches Menschenbild zugrunde, welches Erwerbsarbeit grundsätzlich als wichtigen individuellen Beitrag zum Gemeinwesen und zugleich als Teil der persönlichen Selbstverwirklichung versteht. Die SuperCode GmbH & Co. KG nutzt das Feedback und den regelmäßigen Austausch der Teilnehmer sowie der beteiligten Behörden, Ämtern und Unternehmen, um eine stetige Verbesserung unsere Dienstleistung zu erreichen. Damit wollen wir den Bedürfnissen des Arbeitsmarktes gerecht werden sowie unser Handeln daran anpassen.
-                    </p>
-                </div>
-                <div className="block">
-                    <h3>Werte</h3>
-                    <p>Die SuperCode GmbH & Co. KG ist überparteilich, unpolitisch und konfessionell und weltanschaulich neutral.
-                    </p>
-                    <p>
-                        Unsere Arbeit folgt den ethischen Grundsätzen der Gewaltfreiheit, der Emanzipation, der Solidarität und der Selbstbestimmung. Gleichstellung von Mann und Frau, Kollegialität, Teamgeist und Loyalität sind Leitprinzipien für unser Miteinander und unser öffentliches Auftreten. Die SuperCode GmbH & Co. KG fühlt sich den United Nations Sustainability Development Goals verpflichtet und strebt nach größtmöglicher und umfassender Nachhaltigkeit im Geschäftsgebahren.
-                    </p>
-                </div>
-            </div>
-            <style jsx>{`
+          <p>ist die Ausbildung unserer Teilnehmenden zu verantwortungsvollen, effizient arbeitenden und nachhaltig denkenden Fachkräften für die Digitalwirtschaft (z.B. Web Entwickler Frontend, Webentwickler Full-Stack, Data Analysts) auszubilden. Dabei richten wir uns vor allem an Studienabbrecher*innen, Absolvent*innen der Geistes- und Humanwissenschaften, Quereinsteiger*innen aus technischen, wie auch nicht-technischen Berufen. Ein besonderes Augenmerk liegt auch auf der Integration von Frauen in die Digitalwirtschaft, daher spricht unser Kurs explizit auch Frauen an.</p>
+          <h3>Insbesondere vermitteln wir:</h3>
+          <p>Fähigkeiten und Fertigkeiten, um die Anforderungen in den Bereichen Web Entwicklung, Data Science und Technical Sales entsprechend den neuesten Technologien und Vorschriften angepasst an den aktuellen Arbeitsmarkt zu erfüllen Fähigkeiten und Fertigkeiten zur Wahrnehmung und Kontrolle von Erstellungs-, Testing- und Qualitätssicherungsprozessen, Wissen über die Auswirkungen von Fehlern im Kontrollprozess und eine realistische Selbsteinschätzung, Bereitschaft und Fähigkeit zum rücksichtsvollen und partnerschaftlichen Verhalten, und Verantwortung für Leben und Gesundheit, Umwelt und Eigentum</p>
+          <h2>Unsere Grundsätze:</h2>
+          <h3>Personal</h3>
+          <p>Wir setzen qualifiziertes und praxiserfahrenes Personal in Leitung, Unterricht und Verwaltung ein. Für das Personal wird eine laufende fachliche und pädagogische Fortbildung durchgeführt.</p>
+          <h3>Räumliche und sachliche Ausstattung</h3>
+          <p>Die Unterrichtsräume entsprechen nach Art und Ausstattung modernen erwachsenenpädagogischen und fachlichen Kriterien und sind den Zielgruppen angepasst. Die genutzten Lern- und Sozialräume und die sanitären Einrichtungen entsprechen den Anforderungen der Arbeitsstättenverordnung.</p>
+          <h3>Bildungsangebot</h3>
+          <p>Potentielle Lehrgangsteilnehmende erhalten von uns eindeutige Aussagen zur geforderten Eingangsqualifikation bzw. den Lernvoraussetzungen. Sie werden von uns persönlich beraten um ein teilnehmerorientiertes und sachgerechtes Lernen zu ermöglichen. Bei Angeboten der beruflichen Weiterbildung werden aktuelle Arbeitsmarkt- und berufliche Qualifikationsanforderungen berücksichtigt sowie Praxisorientierung gewährleistet. Das Lehr- und Lernmaterial entspricht den fachdidaktischen Anforderungen und Standards. Allen Angeboten liegt ein didaktisch-methodisches Konzept zugrunde. Die Veranstaltungen sind auf Methodenvielfalt ausgerichtet. Erwachsenengerechte Lern- und Erfolgskontrollen sichern den Unterrichtserfolg.</p>
+          <h3>Kundenzufriedenheit</h3>
+          <p>Kundenzufriedenheit ist ein wesentlicher Leitgedanke unserer Qualitätspolitik. Bei der Entwicklung unserer Bildungsangebote nach dem Dritten Buch Sozialgesetzbuch – AZAV berücksichtigen wir die Lage und die Entwicklung des Arbeitsmarktes und unterstützen die Teilnehmenden bei der Eingliederung in den regulären Arbeitsmarkt.</p>
+        </div>
+      </div>
+      <style jsx>{`
           #impressum-text {
             position: relative;
             background-color: #fff;
@@ -69,9 +59,9 @@ const LeitBildBody = (props) => {
           
           }
         `}</style>
-        </div>
+    </div>
 
-    );
+  );
 };
 
 export default LeitBildBody;
