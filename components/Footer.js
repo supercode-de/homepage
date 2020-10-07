@@ -41,6 +41,7 @@ const Footer = () => {
             </div> */}
             <div className="links">
                 <Link href="/impressum"><a>Impressum</a></Link>
+                <Link href="/leitbild"><a>Leitbild</a></Link>
                 <Link href="/dsgvo"><a>DSGVO</a></Link>
             </div>
             <div className="copyright">
