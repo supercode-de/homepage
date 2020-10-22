@@ -9,6 +9,7 @@ Akzent. Wer ist dieser sympathische, junggebliebene Typ mit dem Pferdeschwanz un
 Geschichten aus aller Welt? Hier im Blog-interview lernt ihr ihn ein bisschen kennen.
 
 ![blog3](/img/blogs/image6.png )
+
 Unser Super-Master-Trainer Adriaan in seinem Raumschiff
 
 _Hallo Adriaan. Du bist ausgebildeter Lehrer, zertifizierter Entwickler und unterrichtest nun
