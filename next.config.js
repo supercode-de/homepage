@@ -15,7 +15,7 @@ module.exports = {
             '/kontakt': { page: '/kontakt' },
             '/team': { page: '/team' },
             '/leitbild': { page: '/leitbild' },
-            '/blogs': { page: '/blogs', query: { slug: 'blogItem' } }
+            '/blogs/[...blogItem]': { page: '/blogs/[...blogItem]', query: { slug: 'blogItem' } }
         }
     }
 }
