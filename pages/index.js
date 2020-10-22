@@ -12,6 +12,7 @@ import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import Finanzierung from "../components/Finanzierung";
 import Head from 'next/head'
+import Blog from '../components/Blog'
 
 export default function Home(props) {
   if (process.browser) {
@@ -28,6 +29,7 @@ export default function Home(props) {
             <SuperPartner width={width} />
             <Finanzierung />
             <Bewerbungsprozess />
+            <Blog />
             <MeldeDich />
             <FAQ width={width} />
             <FooterCallToAction month="Dezember" />

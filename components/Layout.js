@@ -43,7 +43,18 @@ class Layout extends Component {
             }  
             .image-item-partner {
               align-self: center
-            }      
+            }  
+            section .right h1{
+              font-size:2em;
+              color:#000;
+          }    
+          section .right h2{
+            
+            color:#000;
+        } 
+        section .right img{
+          width:80% !important;
+      }
             html,
             body {
               padding: 0;
@@ -59,7 +70,7 @@ class Layout extends Component {
               top: -1px;
             }
             #blog .react-multiple-carousel__arrow--right {
-              right: 8%;
+              right: 6%;
               left: auto;
             }
             #blog .react-multiple-carousel__arrow--left {
