@@ -14,7 +14,8 @@ module.exports = {
             '/bootcamp': { page: '/bootcamp' },
             '/kontakt': { page: '/kontakt' },
             '/team': { page: '/team' },
-            '/leitbild': { page: '/leitbild' }
+            '/leitbild': { page: '/leitbild' },
+            '/blogs/:blogItem': { page: '/blogs/:blogItem' }
         }
     }
 }
