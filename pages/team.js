@@ -11,7 +11,7 @@ import SuperPartner from '../components/SuperPartner'
 import { useWindowSize } from '../components/functions/windowSize'
 import Layout from '../components/Layout'
 import Finanzierung from '../components/Finanzierung'
-
+import dates from '../components/data/dates.json'
 
 
 export default function Home(props) {
@@ -32,7 +32,7 @@ export default function Home(props) {
             <Bewerbungsprozess />
             <MeldeDich />
             <FAQ width={width} />
-            <FooterCallToAction month="Dezember" />
+            <FooterCallToAction month={dates.VzTzMonth} />
           </main>
           <style jsx>{``}</style>
         </div>

@@ -6,6 +6,7 @@ import UnserCampusKurse from "../components/UnserCampusKurse";
 import FooterCallToAction from "../components/FooterCallToAction";
 import Layout from "../components/Layout";
 import Absolvente from '../components/Absolvente'
+import dates from '../components/data/dates.json'
 export default function Workshop() {
     if (process.browser) {
         const width = useWindowSize().width / 12;
@@ -18,17 +19,8 @@ export default function Workshop() {
                         <LerneProgrammierenKurse />
                         <UnserCampusKurse width={width} />
                         <Absolvente />
-                        <FooterCallToAction month="Dezember" />
-                        {/* <Header width={width} /> */}
+                        <FooterCallToAction month={dates.VzTzMonth} />
 
-                        {/* <Zukunft width={width} /> */}
-                        {/* <UnserCampus width={width} /> */}
-                        {/* <Weiterbildung /> */}
-                        {/* <MeldeDich /> */}
-                        {/* <Bewerbungsprozess /> */}
-                        {/* <FAQ /> */}
-                        {/* <FooterCallToAction month="Mai" /> */}
-                        {/* <Footer /> */}
                     </main>
 
                     <style jsx>{``}</style>

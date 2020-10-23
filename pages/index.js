@@ -13,7 +13,7 @@ import Layout from "../components/Layout";
 import Finanzierung from "../components/Finanzierung";
 import Head from 'next/head'
 import Blog from '../components/Blog'
-
+import dates from '../components/data/dates.json'
 export default function Home(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -32,7 +32,7 @@ export default function Home(props) {
             <Blog />
             <MeldeDich />
             <FAQ width={width} />
-            <FooterCallToAction month="Dezember" />
+            <FooterCallToAction month={dates.VzTzMonth} />
           </main>
           <style jsx>{``}</style>
         </div>
