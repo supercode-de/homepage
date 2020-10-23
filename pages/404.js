@@ -4,10 +4,11 @@ import Header404 from "../components/Header404";
 import WiederZurueck from "../components/WiederZurueck";
 
 export default function Custom404() {
+
   if (process.browser) {
-    const width = useWindowSize().width / 12;
+    const width = useWindowSize().width / 12
     return (
-      <Layout>
+      < Layout >
         <div className="container">
           <main>
             <Header404 width={width} />
@@ -16,9 +17,12 @@ export default function Custom404() {
 
           <style jsx>{``}</style>
         </div>
-      </Layout>
-    );
+      </Layout >
+    )
   } else {
-    return <h1>404 - Page Not Found</h1>;
+    return (
+      <h1>404</h1>
+    );
   }
+
 }
