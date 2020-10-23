@@ -1,5 +1,3 @@
-import Button from "./small/Button";
-import { useWindowSize } from "./functions/windowSize";
 import Arrow from "./small/Arrow";
 import Telefon from "./small/Telefon";
 
@@ -19,7 +17,8 @@ const HeaderKurse = (props) => {
               <span>Bootcamps.</span>
             </h1>
           </div>
-          <div className="aside">📞 +49 211 7817 233-0</div>
+          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
+          <Telefon color="#5D3EDE" />
         </article>
       </div>
       <Arrow />
@@ -63,15 +62,15 @@ const HeaderKurse = (props) => {
             -webkit-text-stroke-width: 1.5px;
             -webkit-text-stroke-color: #3DD7AC;
         }
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: right;
-          right: 3%;
-          top: 35vh;
-          color: #5D3EDE;
-          font-size:1.3rem;
-        }
+        // .aside {
+        //   position: absolute;
+        //   transform: rotate(-90deg);
+        //   transform-origin: right;
+        //   right: 3%;
+        //   top: 35vh;
+        //   color: #5D3EDE;
+        //   font-size:1.3rem;
+        // }
             
               @media (max-width: 1040px) {
                 h1 {
@@ -91,13 +90,13 @@ const HeaderKurse = (props) => {
                   grid-template-columns:100%;
                  
                 }
-                .arrow {
-                  display: flex;
-                  flex-direction: column;
-                  justify-content: center;
-                  align-items: center;
-                  margin-top: 5px;              
-                }
+                // .arrow {
+                //   display: flex;
+                //   flex-direction: column;
+                //   justify-content: center;
+                //   align-items: center;
+                //   margin-top: 5px;              
+                // }
                 img {
                   position:absolute; 
                   width: 30%;

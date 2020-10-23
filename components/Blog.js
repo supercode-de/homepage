@@ -39,17 +39,19 @@ const Blog = () => {
                     deviceType={''}
                 >
                     {blog.map((blogitem, i) =>
-                        <div className="blog-item" key={i}>
-                            <h3>{blogitem.titel.slice(0, 100)}</h3>
-                            <p>{blogitem.text.slice(0, 200)}</p>
-                            <Link href={blogitem.href}><a target="_blank">zum Artikel </a></Link>
+                        <div className="blog-item" key={i} style={{ background: `url(${blogitem.pic}) center/cover no-repeat` }}>
+                            <div className="translate">
+                                <h3>{blogitem.title.main.slice(0, 100)}</h3>
+                                {/* <p>{blogitem.text.slice(0, 200)}</p> */}
+                                <Link href={"/blogs/" + blogitem.id}><a target="_blank">zum Artikel </a></Link>
+                            </div>
                         </div>)}
                 </Carousel>
             </div>
 
             <style jsx>{`
             #blog {
-                padding: 10vh 5vw;
+                padding: 10vh 8%;
                 background: #03000F
             }
             h2 {
@@ -65,18 +67,24 @@ const Blog = () => {
                 -webkit-text-stroke-width: 1.5px;
                 -webkit-text-stroke-color: #3DD7AC;
             }
+            .translate{
+                transform:translateX(150px)
+            }
             .blog-list {
                 padding-top: 15vh;
             }
             // Blog-item-style
             .blog-item {
-                padding: 15vh 7.5vw 3vh;
-                box-shadow: 15vw 0 #5D3EDE;
-                height: 100%;
+                
+                
+                height: 300px;
+                max-width:200px;
                 display: flex;
                 flex-direction: column;
                 justify-content: flex-end;
+                position:relative;
             }
+            
             h3, p {
                 color: #3DD7AC;
             }
@@ -95,7 +103,7 @@ const Blog = () => {
                 color: #3DD7AC;
             }
             `}</style>
-        </div>
+        </div >
     );
 }
 

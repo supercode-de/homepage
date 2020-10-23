@@ -19,6 +19,12 @@ class Layout extends Component {
     return (
       <div id="super-layout">
         <Head>
+          <meta property="og:image:secure" content="https://www.super-code.de/img/page-preview.jpg" />
+          <meta property="og:image" content="http://www.super-code.de/img/page-preview.jpg" />
+          <meta property="og:url" content="https://www.super-code.de" />
+          <meta property="og:type" content="Website" />
+          <meta property="og:title" content="Super-code.de - Programmieren lernen war noch nie digitaler." />
+          {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}
           <title>Super-code</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -35,7 +41,20 @@ class Layout extends Component {
             html {
               scroll-behavior: smooth;
             }  
-                  
+            .image-item-partner {
+              align-self: center
+            }  
+            section .right h1{
+              font-size:2em;
+              color:#000;
+          }    
+          section .right h2{
+            
+            color:#000;
+        } 
+        section .right img{
+          width:80% !important;
+      }
             html,
             body {
               padding: 0;
@@ -51,7 +70,7 @@ class Layout extends Component {
               top: -1px;
             }
             #blog .react-multiple-carousel__arrow--right {
-              right: 8%;
+              right: 6%;
               left: auto;
             }
             #blog .react-multiple-carousel__arrow--left {

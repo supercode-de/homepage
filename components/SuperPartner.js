@@ -1,40 +1,81 @@
 import Link from "next/link";
+import Carousel from "react-multi-carousel";
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 const SuperPartner = (props) => {
   return (
     <div id="container">
       <h1>#SuperPartner</h1>
-      <div className="partner-container">
-        <Link href="https://blanko.de/">
-          <a target="_blank" rel="noreferrer">
-            <img src="/img/blanko.png" alt="Blanko" />
-          </a>
-        </Link>
-        <Link href="https://cammio.com/?lang=de">
-          <a target="_blank" rel="noreferrer">
-            <img src="/img/cammio.png" alt="Cammio" />
-          </a>
-        </Link>
-        <Link href="https://www.digihub.de/">
-          <a target="_blank" rel="noreferrer">
-            <img src="/img/digihub.png" alt="Digihub" />
-          </a>
-        </Link>
-        <Link href="https://www.zdi-portal.de/">
-          <a target="_blank" rel="noreferrer">
-            <img src="/img/zdi.png" alt="zdi" />
-          </a>
-        </Link>
-        <Link href="https://www.startupdorf.de/">
-          <a target="_blank" rel="noreferrer">
-            <img src="/img/startupDorf.png" alt="StartupDorf" />
-          </a>
-        </Link>
-        <Link href="https://super7000.de/">
-          <a>
-            <img src="/img/super7000.png" alt="super7000" />
-          </a>
-        </Link>
+      {/* <div className="partner-container"> */}
+      <div className="carousel">
+        <Carousel
+          responsive={responsive}
+          ssr
+          showDots={false}
+          slidesToSlide={1}
+          infinite
+          containerClass="container-with-dots"
+          itemClass="image-item-partner"
+          deviceType={""}
+        >
+          <Link href="https://blanko.de/">
+            <a target="_blank" rel="noreferrer">
+              <img src="/img/blanko.png" alt="Blanko" />
+            </a>
+          </Link>
+          <Link href="https://cammio.com/?lang=de">
+            <a target="_blank" rel="noreferrer">
+              <img src="/img/cammio.png" alt="Cammio" />
+            </a>
+          </Link>
+          <Link href="https://www.digihub.de/">
+            <a target="_blank" rel="noreferrer">
+              <img src="/img/digihub.png" alt="Digihub" />
+            </a>
+          </Link>
+          <Link href="https://www.zdi-portal.de/">
+            <a target="_blank" rel="noreferrer">
+              <img src="/img/zdi.png" alt="zdi" />
+            </a>
+          </Link>
+          <Link href="https://www.startupdorf.de/">
+            <a target="_blank" rel="noreferrer">
+              <img src="/img/startupDorf.png" alt="StartupDorf" />
+            </a>
+          </Link>
+          <Link href="https://super7000.de/">
+            <a>
+              <img src="/img/super7000.png" alt="super7000" />
+            </a>
+          </Link>
+
+          <Link href="https://www.na-bibb.de/erasmus-berufsbildung/">
+            <a>
+              <img src="/img/Erasmus_Partnerlabel_BB_web.jpg" alt="super7000" />
+            </a>
+          </Link>
+
+        </Carousel>
+        {/* </div> */}
       </div>
       <section id="qualitat">
         <h1>#Qualität vor Gewinn</h1>
@@ -82,15 +123,21 @@ const SuperPartner = (props) => {
           margin: 0 0 8vh;
         }
         img {
-          width: 100%;
+          width: 175px !important;
+          display: block;
+          margin: 0 auto;
           transition: transform .5s;
         }
+        
+        
         img:hover {
           transform: scale(1.05)
+          // box-shadow: 2px 2px 0 #000
         }
         .partner-container {
           display: grid;
-          grid-template-columns: repeat(6, 1fr);
+          grid-template-columns: repeat(7, 1fr);
+          align-items: center;
           grid-gap: 5%;
         }
         

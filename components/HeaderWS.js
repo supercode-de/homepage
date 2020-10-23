@@ -1,6 +1,7 @@
 import Button from "./small/Button";
 import { useWindowSize } from "./functions/windowSize";
 import Arrow from "./small/Arrow";
+import Telefon from "./small/Telefon";
 
 const HeaderWS = (props) => {
   // const width = useWindowSize().width / 12
@@ -18,7 +19,8 @@ const HeaderWS = (props) => {
               <span>Workshops.</span>
             </h1>
           </div>
-          <div className="aside">📞 +49 211 7817 233-0</div>
+          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
+          <Telefon color="#5D3EDE" />
         </article>
       </div>
       <Arrow />
@@ -55,15 +57,15 @@ const HeaderWS = (props) => {
             -webkit-text-stroke-width: 1.5px;
             -webkit-text-stroke-color: #3DD7AC;
         }
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: right;
-          right: 3%;
-          top: 35vh;
-          color: #5D3EDE;
-          font-size:1.3rem;
-        }
+        // .aside {
+        //   position: absolute;
+        //   transform: rotate(-90deg);
+        //   transform-origin: right;
+        //   right: 3%;
+        //   top: 35vh;
+        //   color: #5D3EDE;
+        //   font-size:1.3rem;
+        // }
             
         @media (max-width: 1040px) {
           h1 {

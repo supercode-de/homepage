@@ -77,9 +77,7 @@ class Navigation extends Component {
           }
           #navigation {
             background: #03000f;
-
             display: flex;
-
             width: 100%;
             height: 4vmax;
             transition: width 1s;
@@ -118,6 +116,7 @@ class Navigation extends Component {
             position: fixed;
             right: 2.5vw;
             height: 4vmax;
+            min-height: 50px;
             z-index: 99998;
             cursor: pointer;
           }
@@ -136,6 +135,9 @@ class Navigation extends Component {
             }
             a {
               font-size: 1.2em;
+            }
+            ul {
+              width: 95%;
             }
           }
         `}</style>

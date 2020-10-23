@@ -16,7 +16,7 @@ const Button = (props) => {
             font-weight: 200;
             margin: 10px;
             transition: top 0.5s linear, box-shadow 0.5s linear,
-              left 0.5s linear;
+            left 0.5s linear;
             box-shadow: 0 0 0 0 transparent;
             position: relative;
             top: 0;

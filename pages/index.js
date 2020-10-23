@@ -11,6 +11,8 @@ import SuperPartner from "../components/SuperPartner";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import Finanzierung from "../components/Finanzierung";
+import Head from 'next/head'
+import Blog from '../components/Blog'
 
 export default function Home(props) {
   if (process.browser) {
@@ -27,15 +29,27 @@ export default function Home(props) {
             <SuperPartner width={width} />
             <Finanzierung />
             <Bewerbungsprozess />
+            <Blog />
             <MeldeDich />
             <FAQ width={width} />
-            <FooterCallToAction month="September" />
+            <FooterCallToAction month="Dezember" />
           </main>
           <style jsx>{``}</style>
         </div>
       </Layout>
     );
   } else {
-    return "";
+    return (
+      <Head>
+        <meta property="og:image:secure" content="https://www.super-code.de/img/page-preview.jpg" />
+        <meta property="og:image" content="http://www.super-code.de/img/page-preview.jpg" />
+        <meta property="og:url" content="https://www.super-code.de" />
+        <meta property="og:type" content="Website" />
+        <meta property="og:title" content="Super-code.de - Programmieren lernen war noch nie digitaler." />
+        {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}
+        <title>Super-code</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+    );
   }
 }

@@ -1,5 +1,6 @@
 import Button from "./small/Button";
 import Collapsible from "./WeiterbildungItem";
+import dates from './data/dates.json'
 
 const LerneProgrammieren = () => {
   return (
@@ -44,7 +45,7 @@ const LerneProgrammieren = () => {
                 <div>
                   <h3>Details:</h3>
                   <ul>
-                    <li>Zeitraum: 02.06. - 23.6.2020</li>
+                    <li>Zeitraum: {dates.superBasicTermin}</li>
                     <li>Wochentage: immer dienstags</li>
                     <li>Uhrzeit: 18.00 - 21.00 Uhr</li>
                     <li>Lerneinheiten: 16 (je 45 Minuten)</li>
@@ -116,7 +117,7 @@ const LerneProgrammieren = () => {
                 <div>
                   <h3>Details:</h3>
                   <ul>
-                    <li>Zeitraum: 02.06. - 23.6.2020</li>
+                    <li>Zeitraum: {dates.superBasicTermin}</li>
                     <li>Wochentage: immer dienstags</li>
                     <li>Uhrzeit: 18.00 - 21.00 Uhr</li>
                     <li>Lerneinheiten: 16 (je 45 Minuten)</li>

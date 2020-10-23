@@ -13,7 +13,7 @@ export default function Beratungsformular() {
         <div id="waving">👋</div>
         <h1>Willkommen bei<br />Supercode</h1>
         {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-        <Telefon />
+        <Telefon color="#fff" />
         <Arrow />
       </div>
       <div id="sign-up">

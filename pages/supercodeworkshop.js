@@ -2,6 +2,7 @@ import Layout from "../components/Layout";
 import { useWindowSize } from '../components/functions/windowSize'
 import HubspotForm from 'react-hubspot-form'
 import Arrow from "../components/small/Arrow";
+import Telefon from "../components/small/Telefon";
 
 export default function Workshop() {
   const pixelSize = 1;
@@ -11,7 +12,8 @@ export default function Workshop() {
       <div id="header">
         <div id="waving">👋</div>
         <h1>YEAH!<br />Willkommen bei unserem HTML<br />& CSS Workshop für Anfänger</h1>
-        <div className="aside">📞 +49 211 7817 233-0</div>
+        {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
+        <Telefon color="#fff" />
         <Arrow />
       </div>
       <div id="sign-up">
@@ -96,14 +98,14 @@ export default function Workshop() {
             text-align: center;
             padding-bottom: 3rem;
         }
-        .aside {
-            position: absolute;
-            transform: rotate(-90deg);
-            transform-origin: right;
-            right: 3%;
-            top: 30vh;
-            color: #fff
-          }
+        // .aside {
+        //     position: absolute;
+        //     transform: rotate(-90deg);
+        //     transform-origin: right;
+        //     right: 3%;
+        //     top: 30vh;
+        //     color: #fff
+        //   }
         h1 span {
             display: block;
             color: transparent;
