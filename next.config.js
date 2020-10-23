@@ -16,10 +16,10 @@ module.exports = {
             '/team': { page: '/team' },
             '/leitbild': { page: '/leitbild' },
             // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
-            '/blogs/0': { page: '/blogs/[blogItem]', query: { title: '0' } },
-            '/blogs/1': { page: '/blogs/[blogItem]', query: { title: '1' } },
-            '/blogs/2': { page: '/blogs/[blogItem]', query: { title: '2' } },
-            '/blogs/3': { page: '/blogs/[blogItem]', query: { title: '3' } },
+            '/blogs/0': { page: '/blogs/[blogItem]' },
+            '/blogs/1': { page: '/blogs/[blogItem]' },
+            '/blogs/2': { page: '/blogs/[blogItem]' },
+            '/blogs/3': { page: '/blogs/[blogItem]' },
         }
     }
 }
