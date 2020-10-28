@@ -3,8 +3,7 @@ import YouTube from "react-youtube";
 import Arrow from "./small/Arrow";
 import Telefon from "./small/Telefon";
 
-const Header = (props) => {
-  const pixelSize = 1; // Width of Lines in Background
+const Header = () => {
   const opts = {
     playerVars: {
       width: 300,
@@ -48,15 +47,15 @@ const Header = (props) => {
         #header {
           background: linear-gradient(
               90deg,
-              #03000f ${props.width - pixelSize}px,
+              #03000f calc(100vw / 12 - 1px),
               transparent 1%
             ),
             linear-gradient(
-              #03000f ${props.width - pixelSize}px,
+              #03000f calc(100vw / 12 - 1px),
               transparent 1%
             ),
             #fff;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
         }
 
         .large {
