@@ -23,6 +23,8 @@ Zusätzlich muss in der `next.config.js` eine neue Route eingefügt werden.
 Ist momentan notwendig, um das Raster und die Punkte auf der Homepage zu generieren.  
 Deswegen ist auch der Render der Seiten mit `if (process.browser)` aufgebaut.
 
+_Dass kann auch ohne js passiert wenn wir css calc() benutzt_
+
 ### Vorgefertigte kleine Komponenten:
 `components/small`
 **Arrow:** der animierte Pfeil in der Mitte der Seite.
