@@ -13,7 +13,7 @@ const Header = () => {
     },
   };
   return (
-    <div id="header">
+    <div id="header" className="--background-grid__black-white--dots">
       <h1>
         Programmieren <br /> lernen war noch nie <span>digitaler.</span>
       </h1>
@@ -44,20 +44,6 @@ const Header = () => {
         }
       `}</style>
       <style jsx>{`
-        #header {
-          background: linear-gradient(
-              90deg,
-              #03000f calc(100vw / 12 - 1px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #03000f calc(100vw / 12 - 1px),
-              transparent 1%
-            ),
-            #fff;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-        }
-
         .large {
           background: #03000f;
           width: 100%;

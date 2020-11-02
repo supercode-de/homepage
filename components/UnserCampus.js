@@ -20,9 +20,9 @@ const responsive = {
     items: 1,
   },
 };
-const UnserCampus = (props) => {
+const UnserCampus = () => {
   return (
-    <div id="unser-campus">
+    <div id="unser-campus" className="--background-grid__white-red--lines">
       <span className="aside">lerne programmieren</span>
       <section className="two-column">
         <div className="text-one">
@@ -75,23 +75,6 @@ const UnserCampus = (props) => {
       <style jsx>{`
         #unser-campus {
           position: relative;
-          background-color: #fff;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: ${props.width}px ${props.width}px;
         }
         .two-column {
           display: grid;
@@ -110,7 +93,7 @@ const UnserCampus = (props) => {
         p,
         .text-two {
           color: #3dd7ac;
-          width: ${props.width * 3}px;
+          width: calc(100vw / 12 * 3);
         }
         h1 span {
           color: transparent;
@@ -176,7 +159,7 @@ const UnserCampus = (props) => {
         @media (max-width: 768px) {
           .text-one,
           .text-two {
-            padding: 0 ${props.width}px;
+            padding: 0 calc(100vw / 12);
             margin: 0;
             width: 100%;
           }

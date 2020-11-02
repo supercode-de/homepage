@@ -21,9 +21,9 @@ const responsive = {
   },
 };
 
-const SuperPartner = (props) => {
+const SuperPartner = () => {
   return (
-    <div id="container">
+    <div id="container" className="--background-grid__white-red--lines">
       <h1>#SuperPartner</h1>
       {/* <div className="partner-container"> */}
       <div className="carousel">
@@ -73,7 +73,6 @@ const SuperPartner = (props) => {
               <img src="/img/Erasmus_Partnerlabel_BB_web.jpg" alt="super7000" />
             </a>
           </Link>
-
         </Carousel>
         {/* </div> */}
       </div>
@@ -96,26 +95,7 @@ const SuperPartner = (props) => {
           margin: 0 auto;
           padding: 8vh 10%;
           display: flex;
-          flex-direction: column;
-          background-image:
-                linear-gradient(
-                to right,
-                rgba(255, 0, 0, 0.25) 0,
-                rgba(255, 0, 0, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-                ),
-                linear-gradient(
-                to bottom,
-                rgba(255, 0, 0, 0.25) 0,
-                rgba(255, 0, 0, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-                )
-            ;
-            background-position: 0 0, 0 0;
-            background-size: ${props.width}px ${props.width}px;
-          
+          flex-direction: column;    
         }
         h1 {
           font-size: 2rem;

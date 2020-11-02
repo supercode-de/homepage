@@ -1,10 +1,7 @@
-// import { useWindowSize } from './functions/windowSize'
 import Link from "next/link";
-const Zukunft = (props) => {
-  // const width = useWindowSize().width / 12
-  const pixelSize = 1;
+const Zukunft = () => {
   return (
-    <div id="zukunft">
+    <div id="zukunft" className="--background-grid__black-white--dots">
       <h1>
         Denkst du über deine <span>Zukunft</span> nach?
       </h1>
@@ -52,24 +49,13 @@ const Zukunft = (props) => {
       <style jsx>{`
         #zukunft {
           color: #3dd7ac;
-          background: linear-gradient(
-              90deg,
-              #03000f ${props.width - pixelSize}px,
-              transparent 1%
-            ),
-            linear-gradient(
-              #03000f ${props.width - pixelSize}px,
-              transparent 1%
-            ),
-            #fff;
-          background-size: ${props.width}px ${props.width}px;
         }
         h1 {
-          padding: ${props.width * 1.5}px 0 0 ${props.width}px;
+          padding: calc(100vw / 12 * 1.5) 0 0 calc(100vw / 12);
           font-size: 4em;
           letter-spacing: 2px;
           color: #3dd7ac;
-          width: ${props.width * 5}px;
+          width: calc(100vw / 12 * 5);
           margin: 0;
         }
         h1 span {
@@ -80,15 +66,15 @@ const Zukunft = (props) => {
         }
         .infos {
           display: flex;
-          margin: ${props.width}px 0 0;
+          margin: calc(100vw / 12) 0 0;
         }
         .info-one {
-          width: ${props.width * 3}px;
-          margin: 0 ${props.width}px;
+          width: calc(100vw / 12 * 3);
+          margin: 0 calc(100vw / 12);
         }
         .info-headline {
-          width: ${props.width * 2}px;
-          margin-right: ${props.width}px;
+          width: calc(100vw / 12 * 2);
+          margin-right: calc(100vw / 12);
         }
         p {
           font-weight: 200;
@@ -103,25 +89,25 @@ const Zukunft = (props) => {
           text-decoration: none;
         }
         .images {
-          margin-top: ${props.width}px;
+          margin-top: calc(100vw / 12);
           position: relative;
           text-align: center;
-          padding-bottom: ${props.width * 4}px;
+          padding-bottom: calc(100vw / 12 * 4);
         }
         .img-one {
-          width: ${props.width * 6}px;
+          width: calc(100vw / 12 * 6);
         }
         .img-two {
-          width: ${props.width * 4}px;
+          width: calc(100vw / 12 * 4);
           position: absolute;
-          top: ${props.width * 2}px;
+          top: calc(100vw / 12 * 2);
           right: 0;
         }
         .img-three {
           position: absolute;
-          top: ${props.width * 6}px;
-          left: ${props.width}px;
-          width: ${props.width * 3}px;
+          top: calc(100vw / 12 * 6);
+          left: calc(100vw / 12);
+          width: calc(100vw / 12 * 3);
           z-index: 20;
         }
         @media (max-width: 768px) {
