@@ -8,4 +8,4 @@ function MyApp({ Component, pageProps }) {
     return <Component {...pageProps} />
 }
 // export default withFBQ("353903998812058", Router)(MyApp);
-export default withAnalytics(Router, { ga: "UA-140157887-1", fbq: "353903998812058" })(MyApp);
+export default withAnalytics(Router, { ga: "UA-140157887-2", fbq: "353903998812058" })(MyApp);
