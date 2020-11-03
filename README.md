@@ -18,6 +18,12 @@ das Array erweitern und zusätzliche Dateien in
 erstellen.  
 Zusätzlich muss in der `next.config.js` eine neue Route eingefügt werden.  
 
+### Fuer das Absolventen-Carousell:
+ `./components/data/absolvente.json`
+
+dort können dem Array zusätzliche Absolventen als Objekt beigefügt werden.
+
+
 ### Funktion width:
 `components/functions/windowSize.js`
 Ist momentan notwendig, um das Raster und die Punkte auf der Homepage zu generieren.  
