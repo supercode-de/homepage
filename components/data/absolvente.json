@@ -58,5 +58,17 @@
         "name": "Eric Noack",
         "job": "arbeitet jetzt bei SuperCode als Flex Trainer",
         "text": "“Bei SuperCode kann ich einfach so sein, wie ich bin! Die Trainer*innen haben mich total motiviert und mir den Weg in die IT ermöglicht. Außerdem gibt’s freien Kaffee! ;-)”"
+    },
+    {
+        "img": "/img/absolvent/Oliver.png",
+        "name": "Oliver Köhnen",
+        "job": "arbeitet als Online-Marketing- Manager bei DJH Rheinland e.V.",
+        "text": "“Als Ergänzung zu meinem Job habe ich am Teilzeit-Bootcamp teilgenommen. Ich kann jetzt einiges daraus anwenden und bleibe am Ball. Programmieren ist echt etwas, das mich bereichert und mir neue Perspektiven aufgezeigt hat.”"
+    },
+    {
+        "img": "/img/absolvent/Hakan-Gezer.png",
+        "name": "Hakan Gezer",
+        "job": "arbeitet jetzt bei SuperCode als Assistant Trainer",
+        "text": "“Im Bootcamp hatte ich schon innerhalb kürzester Zeit die ersten Erfolgserlebnisse. Die Gruppendynamik hat mir gut gefallen, komplexe Projekte wurden super erklärt und die Trainer*innen waren sehr kompetent.”"
     }
 ]
