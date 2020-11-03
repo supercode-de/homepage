@@ -34,5 +34,23 @@
         "name": "Ariane Bischoff",
         "job": "Selbstständig",
         "text": "“Als freiberufliche Projekt-Managerin habe ich jetzt einen guten Überblick über die  Bedarfe eine Webseite und kann mich mit Programmierer*innen auf Augenhöhe unterhalten. Vielen Dank, SuperCode!”"
+    },
+    {
+        "img": "/img/absolvent/Georg.png",
+        "name": "Georg Treitz",
+        "job": "arbeitet jetzt bei SuperCode als Main Trainer",
+        "text": "“Ich hätte nie gedacht, wie schnell die Zeit im Bootcamp vergeht und wie viel Spaß mir Programmieren macht! Es war die beste Entscheidung diese Weiterbildung zu machen!”"
+    },
+    {
+        "img": "/img/absolvent/Matthias.png",
+        "name": "Matthias Höh",
+        "job": "absolviert momentan ein Praktikum bei SuperCode",
+        "text": "“Als Physikingenieur und Hobby-Programmierer wollte ich mir ein gutes Coding-Fundament aufbauen und genau das habe ich im Full-Stack-Bootcamp bekommen. Optimal!”"
+    },
+    {
+        "img": "/img/absolvent/Elaine-Wong.png",
+        "name": "Elaine Wong",
+        "job": "arbeitet jetzt bei SuperCode als Assistant Trainerin",
+        "text": "“Im Bootcamp hatte ich viel Spaß und habe viel gelernt - die Trainer sind immer hilfsbereit und geben nützliche Tipps. Zukünftige Teilnehmerinnen kann ich nur ermutigen den Weg in die IT zu wagen!”"
     }
 ]
