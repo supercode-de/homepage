@@ -52,5 +52,11 @@
         "name": "Elaine Wong",
         "job": "arbeitet jetzt bei SuperCode als Assistant Trainerin",
         "text": "“Im Bootcamp hatte ich viel Spaß und habe viel gelernt - die Trainer sind immer hilfsbereit und geben nützliche Tipps. Zukünftige Teilnehmerinnen kann ich nur ermutigen den Weg in die IT zu wagen!”"
+    },
+    {
+        "img": "/img/absolvent/Eric.png",
+        "name": "Eric Noack",
+        "job": "arbeitet jetzt bei SuperCode als Flex Trainer",
+        "text": "“Bei SuperCode kann ich einfach so sein, wie ich bin! Die Trainer*innen haben mich total motiviert und mir den Weg in die IT ermöglicht. Außerdem gibt’s freien Kaffee! ;-)”"
     }
 ]
