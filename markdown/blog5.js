@@ -49,6 +49,10 @@ Wer nun auch Lust auf Webentwicklung bei SuperCode bekommen hat und digitale Kar
 
 
 
+Text: Natalie Streich   
+Fotos: [Jakob Wagner Photography](https://jakobwagner.eu/)
+
+
 `
 
 
