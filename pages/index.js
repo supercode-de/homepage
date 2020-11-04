@@ -48,7 +48,8 @@ export default function Home(props) {
         <meta property="og:title" content="Super-code.de - Programmieren lernen war noch nie digitaler." />
         {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}
         <title>Super-code</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="alternate icon" href="/favicon.ico" />
       </Head>
     );
   }
