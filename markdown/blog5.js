@@ -42,7 +42,9 @@ Die glücklichen Gewinner des SuperHackathons 2020, die den großen Wanderpokal 
 
 ### Codes with benefits!
 Der diesjährige SuperHackathon ermöglichte für die Teilnehmende nicht nur kreative, kollaborative Höhenflüge, sondern zeigte ihnen auch, dass oft der Weg das Ziel ist und viele Coding-Projekte eine Teamaufgabe sind. Die fertigen Ergebnissen können die Teilnehmenden in ihr Portfolio aufnehmen, um potentiellen Arbeitgebern zu zeigen, was sie können und was in nur wenigen Monaten intensiven Lernens im Bootcamp Webentwicklung bei SuperCode möglich ist!
+
 ![blog5](/img/blogs/image-5-7.jpg )
+
 Wer nun auch Lust auf Webentwicklung bei SuperCode bekommen hat und digitale Karriere machen will, meldet sich am besten schnell bei uns. Die neuen Kurse starten im Dezember und es sind noch wenige Plätze frei. 
 
 
