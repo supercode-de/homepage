@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-
+import absolvente from './data/absolvente.json'
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -38,41 +38,16 @@ const Absolvente = () => {
             deviceType={""}
             itemClass="carousel-item-padding-20-px"
           >
-            <figure>
-              <img src="/img/_DSC3289_LowRes.png" alt="" />
+            {absolvente.map((person, i) => <figure key={i}>
+              <img src={person.img} alt={person.name} />
               <figcaption>
                 <p>
-                  “Ich hatte noch nie so viel Spaß in einem Kurs. Ich habe mich
-                  sehr schnell wohl gefühlt, und alles war super organisiert.”
+                  {person.text}
                 </p>
-                <h3>– Rihab Al-Yasiri</h3>
-                <h4>arbeitet jetzt bei Provinzial als Web-Developerin</h4>
+                <h3>– {person.name}</h3>
+                <h4>{person.job}</h4>
               </figcaption>
-            </figure>
-            <figure>
-              <img src="/img/Jascha-Hell.png" alt="" />
-              <figcaption>
-                <p>
-                  “Das Bootcamp war super! Viel gesehen, viel gelernt, viel
-                  gelacht. Kann ich nur jedem ans Herz legen, der einen Einblick
-                  in die Materie Webentwicklung sucht.”
-                </p>
-                <h3>– Jascha Hell</h3>
-                <h4>arbeitet jetzt bei Esentri als Projekt Manager IT</h4>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="/img/_DSC3661_LowRes.png" alt="" />
-              <figcaption>
-                <p>
-                  “Das Bootcamp hat mir super gefallen. Der größte Pluspukt war,
-                  dass ich hier auf eine Gruppe Gleichgesinnter und Super
-                  Trainer gestoßen bin. ”
-                </p>
-                <h3>– Abdulrahman Karbouj</h3>
-                <h4>arbeitet jetzt bei Edatasystemsals Web-Developer</h4>
-              </figcaption>
-            </figure>
+            </figure>)}
           </Carousel>
         </div>
       </div>

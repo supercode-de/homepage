@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+  <url>
+    <loc>https://www.super-code.de/</loc>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://www.super-code.de/kurse</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.super-code.de/workshops</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.super-code.de/impressum</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.super-code.de/leitbild</loc>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.super-code.de/dsgvo</loc>
+    <priority>0.5</priority>
+  </url>
+</urlset>
