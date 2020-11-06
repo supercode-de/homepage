@@ -10,16 +10,16 @@ An drei herbstlichen Oktobertagen haben sich die Teilnehmenden der aktuellen Boo
 Hackathon ist eine Verschmelzung von „Hacking“ und „Marathon“ und zielt darauf ab  technische Probleme auf ungewöhnliche Weise zu lösen. Der Ansatz des Hackathons ist ausgesprochen konstruktiv, da die Teilnehmenden in kürzester Zeit in Gruppenarbeit und unter Vorgabe eines Themas ein hilfreiches Produkt erschaffen. Somit wird nicht nur die Teamarbeit, sondern auch das Arbeiten unter realen Bedingungen mit Projektmanagement und Deadlines gefördert. Unterstützt werden sie dabei von Trainer*innen, die ihnen mit Rat und Tat zur Seite stehen.
 
 ### Die SuperHacker*innen und ihre Projekte 
-Im SuperHackathon wurde die Teilnehmenden, die kurz vor Abschluss des Bootcamps stehen mit denen gemischt, die erst am Anfang ihrer Trainings sind. In 5 Teams wurden Konzepte erstellt, Aufgaben verteilt, Prototypen gebaut und natürlich wie wild gecodet, um nach nur 3 Tagen Ergebnisse zu präsentieren, die sich sehen lassen können. 
+Im SuperHackathon wurde die Teilnehmenden, die kurz vor Abschluss des Bootcamps stehen mit denen gemischt, die erst am Anfang ihrer Trainings sind. In 5 Teams wurden Konzepte erstellt, Aufgaben verteilt, Prototypen gebaut und natürlich wie wild gecodet, um nach nur 3 Tagen die vorläufigen Ergebnisse zu präsentieren, die sich bereits jetzt -auch wenn sie noch nicht responsive sind- sehen lassen können.
 
 
 Die 5 Themen drehten sich um Alltagsprobleme und aktuelle Fragestellungen:
 1. FundPot: Hilf dem lokalen Handel mit deiner Spende!
-[Schaue hier](https://fundpot.herokuapp.com/)
+[Schau dir hier den Prototyp an (noch nicht mobile-friendly)](https://fundpot.herokuapp.com/)
 2. Super(Synergy): Eine Austauschplattform für super(code) Alumni und Teilnehmende
-[Schaue hier](https://radiant-fjord-28085.herokuapp.com/)
+[Schau dir hier den Prototyp an (noch nicht mobile-friendly)](https://radiant-fjord-28085.herokuapp.com/)
 3. UPSkill: ZERTIFIZIERT in die NEUE Jobwelt. Deine Skills + unser Zertifikat = neuer Job
-[Schaue hier](https://mighty-brook-13289.herokuapp.com/)
+[Schau dir hier den Prototyp an (noch nicht mobile-friendly)](https://mighty-brook-13289.herokuapp.com/)
 4. Save our Food: Wie können wir Lebensmittelverschwendung reduzieren?
 5. Parking Help: Hilf den Autofahrer*innen einen Parkplatz zu finden.
 
