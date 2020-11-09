@@ -115,7 +115,7 @@ const LerneProgrammierenKurse = () => {
         </Collapsible>
 
         <h2>
-          bald: 1 Monat SuperDigital Basics <span>Vollzeilt 4 Wochen</span>
+          bald: 1 Monat SuperDigital Basics <span>Vollzeit 4 Wochen</span>
         </h2>
       </div>
       <style jsx>{`
