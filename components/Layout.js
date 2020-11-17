@@ -38,6 +38,13 @@ class Layout extends Component {
 
         <style jsx global>{`
             @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+            @font-face {
+              font-family: "Neue_Machina_Regular_400";
+              src: url("/Neue_Machina_Regular_400.otf");
+            }
+
             html {
               scroll-behavior: smooth;
             }  

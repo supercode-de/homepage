@@ -2,7 +2,7 @@
 import Link from "next/link";
 const Zukunft = (props) => {
   // const width = useWindowSize().width / 12
-  const pixelSize = 1;
+  const pixelSize = 2.5;
   return (
     <div id="zukunft">
       <h1>
@@ -21,6 +21,19 @@ const Zukunft = (props) => {
           </p>
         </div>
         <div className="info-headline">
+          <span className="lila-box">
+          <h3>
+            <Link href="/workshops">
+              <a>Workshops ⟶</a>
+            </Link>
+          </h3>
+          <p>
+            Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
+            schärfe dein Wissen in einer Programmiersprache.
+          </p>
+          </span>
+        </div>
+        <div className="info-headline">
           <h3>
             <Link href="/kurse">
               <a>Bootcamps ⟶</a>
@@ -31,17 +44,7 @@ const Zukunft = (props) => {
             5 Monaten
           </p>
         </div>
-        <div className="info-headline">
-          <h3>
-            <Link href="/workshops">
-              <a>Workshops ⟶</a>
-            </Link>{" "}
-          </h3>
-          <p>
-            Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
-            schärfe dein Wissen in einer Programmiersprache.
-          </p>
-        </div>
+     
       </div>
       <div className="images">
         <img className="img-one" src="/img/_DSC2652_LowRes 6.png" alt="" />
@@ -52,16 +55,17 @@ const Zukunft = (props) => {
       <style jsx>{`
         #zukunft {
           color: #3dd7ac;
+          font-family:"Neue_Machina_Regular_400";
           background: linear-gradient(
               90deg,
-              #03000f ${props.width - pixelSize}px,
+              #fff ${props.width - pixelSize}px,
               transparent 1%
             ),
             linear-gradient(
-              #03000f ${props.width - pixelSize}px,
+              #fff ${props.width - pixelSize}px,
               transparent 1%
             ),
-            #fff;
+            #3dd7ac;
           background-size: ${props.width}px ${props.width}px;
         }
         h1 {
@@ -69,8 +73,10 @@ const Zukunft = (props) => {
           font-size: 4em;
           letter-spacing: 2px;
           color: #3dd7ac;
-          width: ${props.width * 5}px;
+          text-transform: uppercase;
+          width: ${props.width * 5.5}px;
           margin: 0;
+          line-height:65px;
         }
         h1 span {
           color: transparent;
@@ -80,7 +86,7 @@ const Zukunft = (props) => {
         }
         .infos {
           display: flex;
-          margin: ${props.width}px 0 0;
+          margin: ${props.width-30}px 0 0;
         }
         .info-one {
           width: ${props.width * 3}px;
@@ -90,6 +96,21 @@ const Zukunft = (props) => {
           width: ${props.width * 2}px;
           margin-right: ${props.width}px;
         }
+        .lila-box {
+          position:relative;
+        }
+
+        span.lila-box::before{
+          position:absolute;
+          background:url('/img/bling.png') center/cover no-repeat;
+          height: 100%;
+          width: 18%;
+          bottom: 10px;
+          left: -40px;
+          content:'';
+          display:block;
+      }
+
         p {
           font-weight: 200;
         }

@@ -2,8 +2,8 @@ import FooterCallToAction from "../components/FooterCallToAction";
 import UnserCampus from "../components/UnserCampus";
 import FAQ from "../components/FAQ";
 import MeldeDich from "../components/MeldeDich";
-import Header from "../components/Header";
-import HeaderCallToAction from "../components/HeaderCallToAction";
+import Header_neu from "../components/Header_neu";
+import HeaderCallToAction_neu from "../components/HeaderCallToAction_neu";
 import Zukunft from "../components/Zukunft";
 import Weiterbildung from "../components/Weiterbildung";
 import Bewerbungsprozess from "../components/Bewerbungsprozess";
@@ -21,8 +21,8 @@ export default function Home(props) {
       <Layout banner={true}>
         <div className="container">
           <main>
-            <Header width={width} />
-            <HeaderCallToAction />
+            <Header_neu width={width} />
+            <HeaderCallToAction_neu />
             <Zukunft width={width} />
             <UnserCampus width={width} />
             <Weiterbildung />

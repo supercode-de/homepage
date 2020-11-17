@@ -24,22 +24,43 @@ class Navigation extends Component {
           width: this.state.show ? "100%" : "5%",
         }}
       >
-        <img
+        <img className="menu-button"
           src="/menu-button.svg"
           alt="Menu-Button"
           onClick={this.props.toggleJetztAnmelden}
         />
         <div className={`main-navigation ${this.state.show ? "hide" : "hide"}`}>
           <Link href="/">
-            <a className="logo" style={{ color: "#3DD7AC" }}>
+            <a className="logo" style={{ color: "rgb(255, 255, 255)" }}>
               super(code)
             </a>
           </Link>
 
           <ul>
+          <li>
+              <Link href="/">
+                <a><img className="superCode-logo" src="/img/Super-C.png"
+                    alt="" /></a>
+              </Link>
+            </li>
             <li>
               <Link href="/kurse">
                 <a>Kurse</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>Finanzierung</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>Unser Team</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                <a>Outcomes</a>
               </Link>
             </li>
             <li>
@@ -71,16 +92,19 @@ class Navigation extends Component {
             width: 100%;
             text-transform: uppercase;
             justify-content: flex-end;
+            align-items:center;
           }
           li {
             padding-left: 2em;
           }
           #navigation {
-            background: #03000f;
+            // background: #03000f;
             display: flex;
             width: 100%;
-            height: 4vmax;
+            // height: 4vmax;
             transition: width 1s;
+            position:relative;
+            z-index:999;
           }
           a {
             color: #fff;
@@ -102,7 +126,7 @@ class Navigation extends Component {
           }
 
           .main-navigation {
-            background: #03000f;
+            // background: #03000f;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -110,11 +134,15 @@ class Navigation extends Component {
             transition: background 1s, right 1s;
             position: relative;
             padding: 0 2em;
+            position:fixed;
+            top:5;
+            z-index: 999;
           }
 
-          img {
+          .menu-button {
             position: fixed;
             right: 2.5vw;
+            top:9vh;
             height: 4vmax;
             min-height: 50px;
             z-index: 99998;
@@ -127,6 +155,11 @@ class Navigation extends Component {
             padding-top: 4vh;
             height: 4vmax;
             z-index: 99998;
+          }
+          .superCode-logo {           
+            
+            z-index: 99998;
+            cursor: pointer;
           }
 
           @media (max-width: 468px) {
