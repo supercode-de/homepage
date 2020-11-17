@@ -6,29 +6,29 @@ const JetztBewerben = (props) => {
     return (
 
         <div id="unser-campus">
-            
+
             <span className="aside" > 📞 +49 211 7817 233-0 </span>
-            
+
             <div className="twocolumn" >
                 <div className="onecolumn" >
-                <img src="/img/_DSC2765_LowRes.png"
-                    alt="" />
+                    <img src="/img/_DSC2765_LowRes.png"
+                        alt="" />
                     <h1><span className="super"> Programmieren
-                    </span><br/> lernen war noch <span className="circle">nie</span> <br/> <span className="super2"> <span className="after-span">digitaler.</span></span>
+                    </span><br /> lernen war noch <span className="circle">nie</span> <br /> <span className="super2"> <span className="after-span">digitaler.</span></span>
                     </h1>
                 </div>
                 <img src="/img/_DSC2652_LowRes 12.png"
                     alt="" />
-                    
+
             </div>
-          
+
             <img src="/img/_DSC8255_LowRes.png"
-                    alt="" />
+                alt="" />
 
             <div className="arrow">
-                    <a href="#"><p>Erfahre Mehr</p></a>
-                    <Arrow />
-                
+                <a href="#"><p>Erfahre Mehr</p></a>
+                <Arrow />
+
             </div>
             <style jsx > {`
            
@@ -162,16 +162,10 @@ const JetztBewerben = (props) => {
             transform:rotate(0.5deg)
         }
 
-        // h1 span.circle::after{
-        //     position:absolute;
-        //     background:url('/img/Vector54.svg') center/cover no-repeat;
-        //     height: 100%;
-        //     width: 110%;
-        //     right: -14px;
-        //     bottom: 0;
-        //     content:'';
-        //     display:block;
-        // }
+        h1 span.circle {
+            background:url('/img/Vector43.svg') center/contain no-repeat;
+            padding: 10px;
+        }
          
         p{
             color:#fff;

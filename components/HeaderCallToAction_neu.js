@@ -1,12 +1,12 @@
 
-import Typeform from "./TypeForm";
+import Typeform from "./TypeForm_neu";
 
 const HeaderCallToAction_neu = () => {
     return (
         <div id="header-call">
             <h2>Lerne Programmieren und werde <br /> <span className="bling">Junior</span> Full-Stack <span className="bling2">Web-Developer*in!</span><br />– <span className="super">jetzt auch <span className="circle">online!</span></span></h2>
             <div>
-            <Typeform />
+                <Typeform />
             </div>
             <style jsx>{`
             #header-call {
