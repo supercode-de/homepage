@@ -1,8 +1,8 @@
-import Layout from "../components/Layout";
+
 import Popup from 'reactjs-popup';
 const Typeform = (props) => {
     return (
-        <Layout oneComponent={false}>
+        <>
             <Popup trigger={<button> JETZT BEWERBEN</button>} position=" center">
 
 
@@ -11,10 +11,15 @@ const Typeform = (props) => {
                     <iframe id="typeform-full" width="100%" height="100%" frameborder="0" allow="camera; microphone; autoplay; encrypted-media;" src="https://form.typeform.com/to/TkOb8Jcw"></iframe>
                     <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
                 </div>
+
             </Popup>
             <style jsx>{`
                 #typeform {
-                    min-height: 100vh;
+                    position: fixed;
+                    top:10%;
+                    left: 10%;
+                    width: 80%;
+                    height: 80vh;
                     color: #3DD7AC;
                 }
                 a {
@@ -59,20 +64,19 @@ const Typeform = (props) => {
                     text-transform: uppercase;
                     padding: 18px 32px;
                     background: transparent;
-                    border: 1px solid #fff;
+                    border: 2px solid #3DD7AC;
                     color: #fff;
                     justify-self: center;
                     display:inline-block;
-                    width:620px
-                    
+                    width:620px;
+                    outline: none;
                   }
                   button:hover{
                     color:#5d3ede;
-                    background:#fff;
+                    background:#3DD7AC;
                 }
                 iframe{ position: absolute; left:0; right:0; bottom:0; top:0px; border:0; }
                 @media (max-width: 768px) {
-          
                     button{
                         width:420px
                     }
@@ -83,8 +87,9 @@ const Typeform = (props) => {
                     }
                   }
             `}</style>
+        </>
 
-        </Layout >
+
     );
 }
 
