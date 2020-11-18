@@ -1,9 +1,9 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 const Footer = () => {
-    return (
-        <footer id="footer">
-            {/* <div className="footer-grid">
+  return (
+    <footer id="footer">
+      {/* <div className="footer-grid">
                 <div className="link-container">
                     <Link href="/"><a className="line-bottom">Sitemap</a></Link>
                     <Link href="/"><a>Customer Jurney &amp; Experience (CX)</a></Link>
@@ -39,86 +39,92 @@ const Footer = () => {
                     <Link href="/"><a>Pflege</a></Link>
                 </div>
             </div> */}
-            <div className="links">
-                <Link href="/impressum"><a>Impressum</a></Link>
-                <Link href="/leitbild"><a>Leitbild</a></Link>
-                <Link href="/dsgvo"><a>DSGVO</a></Link>
-            </div>
-            <div className="copyright">
-                <p className="white">super(code)</p>
-                <p>&copy; 2002-2020</p>
-            </div>
-            <style jsx>{`
-            #footer {
-                background: #03000F;
-                color: #3DD7AC;
-                font-weight: 200;
-                padding-top: .8em;
-            }
-            .links {
-                display: flex;
-                justify-content: space-around;
-            }
-            .link-container {
-                display: flex;
-                flex-direction: column;
-                align-items: start;
-            }
-            a {
-                text-decoration: none;
-                display: block;
-                padding: .5em 0;
-                color: #3DD7AC;
-            }
-            a:visited {
-                color: #3DD7AC;
-            }
+      <div className="links">
+        <Link href="/impressum">
+          <a>Impressum</a>
+        </Link>
+        <Link href="/leitbild">
+          <a>Leitbild</a>
+        </Link>
+        <Link href="/dsgvo">
+          <a>DSGVO</a>
+        </Link>
+      </div>
+      <div className="copyright">
+        <p className="white">super(code)</p>
+        <p>&copy; 2002-2020</p>
+      </div>
+      <style jsx>
+        {`
+          #footer {
+            background: #03000f;
+            color: #3dd7ac;
+            font-weight: 200;
+            padding-top: 0.8em;
+          }
+          .links {
+            display: flex;
+            justify-content: space-around;
+          }
+          .link-container {
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+          }
+          a {
+            text-decoration: none;
+            display: block;
+            padding: 0.5em 0;
+            color: #3dd7ac;
+          }
+          a:visited {
+            color: #3dd7ac;
+          }
 
-            a:hover {
-                text-decoration: underline;
-                color: #3dd7ac;
-            }
-            a:active {
-                color: #5d3ede;
-            }
-            .line-bottom {
-                padding-bottom: 5px;
-                border-bottom: 1px solid #3DD7AC;
-                margin-bottom: 10px;
-            }
+          a:hover {
+            text-decoration: underline;
+            color: #3dd7ac;
+          }
+          a:active {
+            color: #5d3ede;
+          }
+          .line-bottom {
+            padding-bottom: 5px;
+            border-bottom: 1px solid #3dd7ac;
+            margin-bottom: 10px;
+          }
+          .footer-grid {
+            width: 80%;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+          }
+          .copyright {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 95%;
+            margin: 0 auto;
+          }
+          .white {
+            color: #fff;
+            font-weight: bold;
+            font-size: 1.2em;
+          }
+          @media (max-width: 768px) {
             .footer-grid {
-                width: 80%;
-                margin: 0 auto;
-                display: grid;
-                grid-template-columns: repeat(5, 1fr);
+              grid-template-columns: repeat(2, 1fr);
             }
-            .copyright {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                width: 95%;
-                margin: 0 auto;
+          }
+          @media (max-width: 480px) {
+            .footer-grid {
+              display: block;
             }
-            .white {
-                color: #fff;
-                font-weight: bold;
-                font-size: 1.2em
-            }
-            @media (max-width: 768px) {
-                .footer-grid {
-                    grid-template-columns: repeat(2, 1fr);
-                }
-            }
-            @media (max-width: 480px) {
-                .footer-grid {
-                    display: block;
-                }
-            }
-
-            `}
-            </style>
-        </footer>
-    );
-}
+          }
+        `}
+      </style>
+    </footer>
+  );
+};
 
 export default Footer;

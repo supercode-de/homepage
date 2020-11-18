@@ -14,8 +14,9 @@ import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import Finanzierung from "../components/Finanzierung";
 import Head from "next/head";
-import Blog from "../components/Blog";
+import Blog_neu from "../components/Blog_neu";
 import dates from "../components/data/dates.json";
+import FooterSitemap from "../components/FooterSitemap";
 export default function Home(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -31,12 +32,14 @@ export default function Home(props) {
             {/* <SuperPartner width={width} /> */}
             <SuperStipendium width={width}/>
             <CertquaBonn />
+            <SuperStipendium width={width} />
             <Finanzierung />
             <Bewerbungsprozess width={width} />
-            {/* <Blog /> */}
+            <Blog_neu width={width} />
             <MeldeDich />
             <FAQ width={width} />
             <FooterCallToAction month={dates.VzTzMonth} />
+            <FooterSitemap />
           </main>
           <style jsx>{``}</style>
         </div>
