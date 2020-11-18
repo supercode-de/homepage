@@ -20,8 +20,9 @@ const Zukunft = (props) => {
             Workshops!
           </p>
         </div>
+        
         <div className="info-headline">
-          <span className="lila-box">
+        <span className="lila-box">
           <h3>
             <Link href="/workshops">
               <a>Workshops ⟶</a>
@@ -33,7 +34,9 @@ const Zukunft = (props) => {
           </p>
           </span>
         </div>
+        
         <div className="info-headline">
+        <span className="lila-box2">
           <h3>
             <Link href="/kurse">
               <a>Bootcamps ⟶</a>
@@ -43,15 +46,15 @@ const Zukunft = (props) => {
             Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur
             5 Monaten
           </p>
+          </span>
         </div>
-     
       </div>
       <div className="images">
         <img className="img-one" src="/img/_DSC2652_LowRes 6.png" alt="" />
         <img className="img-two" src="/img/_DSC2652_LowRes 7.png" alt="" />
         {/* <img className="img-three" src="https://unsplash.it/900/600" alt="" /> */}
       </div>
-
+      <img src="/img/_DSC2336_MidRes.png" alt=""/>
       <style jsx>{`
         #zukunft {
           color: #3dd7ac;
@@ -67,6 +70,7 @@ const Zukunft = (props) => {
             ),
             #3dd7ac;
           background-size: ${props.width}px ${props.width}px;
+          position:relative;
         }
         h1 {
           padding: ${props.width * 1.5}px 0 0 ${props.width}px;
@@ -95,21 +99,32 @@ const Zukunft = (props) => {
         .info-headline {
           width: ${props.width * 2}px;
           margin-right: ${props.width}px;
-        }
-        .lila-box {
           position:relative;
         }
 
-        span.lila-box::before{
+        .lila-box::before{
           position:absolute;
-          background:url('/img/bling.png') center/cover no-repeat;
-          height: 100%;
-          width: 18%;
-          bottom: 10px;
-          left: -40px;
-          content:'';
-          display:block;
-      }
+            background:url('/img/Vector60.png') center/contain no-repeat;
+            width: 100%;
+            height: 147%;
+            padding:5% 7%;
+            bottom:-22px;
+            left:-24px;
+            content:'';
+            display:block;
+        }
+
+        .lila-box2::before{
+          position:absolute;
+            background:url('/img/Vector61.png') center/contain no-repeat;
+            width: 100%;
+            height: 147%;
+            padding:5% 7%;
+            bottom:-22px;
+            left:-24px;
+            content:'';
+            display:block;
+        }
 
         p {
           font-weight: 200;
@@ -124,19 +139,18 @@ const Zukunft = (props) => {
           text-decoration: none;
         }
         .images {
-          margin-top: ${props.width}px;
-          position: relative;
+          margin-top: ${props.width*1.2}px;
           text-align: center;
-          padding-bottom: ${props.width * 4}px;
+          padding-bottom: ${props.width * 2.6}px;
+          background: url('img/bg-line.png') top/cover no-repeat;
         }
         .img-one {
           width: ${props.width * 6}px;
         }
         .img-two {
           width: ${props.width * 4}px;
-          position: absolute;
-          top: ${props.width * 2}px;
-          right: 0;
+          margin-left:${props.width-60}px;
+          margin-bottom:${props.width-200}px;
         }
         .img-three {
           position: absolute;
@@ -144,6 +158,15 @@ const Zukunft = (props) => {
           left: ${props.width}px;
           width: ${props.width * 3}px;
           z-index: 20;
+        }
+
+        .images+img{
+          position:absolute;
+          bottom:0;
+          left:${props.width*3.3}px;
+          z-index:99;
+          margin-bottom: -10%;
+          width: ${props.width * 3}px;
         }
         @media (max-width: 768px) {
           .infos {

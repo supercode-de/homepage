@@ -5,9 +5,10 @@ import MeldeDich from "../components/MeldeDich";
 import Header_neu from "../components/Header_neu";
 import HeaderCallToAction_neu from "../components/HeaderCallToAction_neu";
 import Zukunft from "../components/Zukunft";
-import Weiterbildung from "../components/Weiterbildung";
+import Weiterbildung_neu from "../components/Weiterbildung_neu";
 import Bewerbungsprozess from "../components/Bewerbungsprozess";
-import SuperPartner from "../components/SuperPartner";
+// import SuperPartner from "../components/SuperPartner";
+import SuperStipendium from '../components/SuperStipendium';
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import Finanzierung from "../components/Finanzierung";
@@ -25,8 +26,9 @@ export default function Home(props) {
             <HeaderCallToAction_neu />
             <Zukunft width={width} />
             <UnserCampus width={width} />
-            <Weiterbildung />
-            <SuperPartner width={width} />
+            <Weiterbildung_neu />
+            {/* <SuperPartner width={width} /> */}
+            <SuperStipendium width={width}/>
             <Finanzierung />
             <Bewerbungsprozess />
             <Blog />

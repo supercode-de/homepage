@@ -21,9 +21,10 @@ const responsive = {
   },
 };
 const UnserCampus = (props) => {
+  const pixelSize = 2.5;
   return (
     <div id="unser-campus">
-      <span className="aside">lerne programmieren</span>
+      <span className="aside">Super Campus, Super Code, Super You</span>
       <section className="two-column">
         <div className="text-one">
           <h1>
@@ -45,7 +46,9 @@ const UnserCampus = (props) => {
       <img className="img-three" src="/img/_DSC2652_LowRes 13.png" alt="" />
       <img src="/img/campus.svg" alt="" className="campus" />
       <img className="img-four" src="/img/_DSC2652_LowRes 14.png" alt="" />
-      <img className="img-five" src="/img/_DSC2652_LowRes 11.png" alt="" />
+      <div className="bg-container">
+      <img className="img-five" src="/img/_DSC2464_LowRes.png" alt="" />
+      </div>
       <div className="carousel">
         <Carousel
           responsive={responsive}
@@ -67,31 +70,42 @@ const UnserCampus = (props) => {
             <img src="/img/_DSC2652_LowRes 14.png" alt="" />
           </div>
           <div>
-            <img src="/img/_DSC2652_LowRes 11.png" alt="" />
+            <img src="/img/_DSC2464_LowRes.png" alt="" />
           </div>
         </Carousel>
       </div>
-      <img className="img-six" src="/img/_DSC2652_LowRes 15.png" alt="" />
+      <img className="img-six" src="/img/_DSC2451_MidRes.png" alt="" />
       <style jsx>{`
         #unser-campus {
           position: relative;
           background-color: #fff;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: ${props.width}px ${props.width}px;
+          // background-image: linear-gradient(
+          //     to right,
+          //     rgba(255, 0, 0, 0.25) 0,
+          //     rgba(255, 0, 0, 0.25) 1px,
+          //     transparent 1px,
+          //     transparent 100%
+          //   ),
+          //   linear-gradient(
+          //     to bottom,
+          //     rgba(255, 0, 0, 0.25) 0,
+          //     rgba(255, 0, 0, 0.25) 1px,
+          //     transparent 1px,
+          //     transparent 100%
+          //   );
+          // background-position: 0 0, 0 0;
+          // background-size: ${props.width}px ${props.width}px;
+          background: linear-gradient(
+            90deg,
+            #fff ${props.width - pixelSize}px,
+            transparent 1%
+          ),
+          linear-gradient(
+            #fff ${props.width - pixelSize}px,
+            transparent 1%
+          ),
+          #3dd7ac;
+        background-size: ${props.width}px ${props.width}px;
         }
         .two-column {
           display: grid;
@@ -103,8 +117,11 @@ const UnserCampus = (props) => {
         }
         .two-column img {
           align-self: center;
+          margin-top: -25%;
         }
         .text-one {
+          justify-self: center;
+          padding-top:35%;
         }
         h1,
         p,
@@ -120,6 +137,7 @@ const UnserCampus = (props) => {
         }
         h1 {
           font-size: 5em;
+          font-family:"Neue_Machina_Regular_400";
         }
         .hash-tag {
           color: #5d3ede;
@@ -131,6 +149,7 @@ const UnserCampus = (props) => {
           left: 3%;
           top: 30%;
           text-transform: uppercase;
+          color:#5D3EDE;
         }
         .text-two {
           margin-left: 50%;
@@ -154,11 +173,18 @@ const UnserCampus = (props) => {
         .img-five {
           width: 25%;
           transform: translateY(-80px);
+          transform: translateX(20vw);
+        }
+
+        .bg-container {
+          background: url('img/bg-line2.png') left/contain no-repeat;
         }
         .img-six {
-          width: 30%;
-          margin-left: 60%;
-          transform: translateY(40px);
+          width: 25%;
+          margin-left: 70%;
+          transform: translateY(65px);
+          position:relative;
+          z-index:99;
         }
         .campus {
           width: 12%;
