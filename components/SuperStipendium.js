@@ -183,7 +183,7 @@ const SuperStipendium = (props) => {
             }
             .bg-container {
                 background: url('img/bg-line.png') top/cover no-repeat;
-                background-size: 50vh 100vw;
+                background-size: 100% 21%;
                 display:flex;
             }
 

@@ -12,9 +12,9 @@ import SuperStipendium from '../components/SuperStipendium';
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import Finanzierung from "../components/Finanzierung";
-import Head from 'next/head'
-import Blog from '../components/Blog'
-import dates from '../components/data/dates.json'
+import Head from "next/head";
+import Blog from "../components/Blog";
+import dates from "../components/data/dates.json";
 export default function Home(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -30,8 +30,8 @@ export default function Home(props) {
             {/* <SuperPartner width={width} /> */}
             <SuperStipendium width={width}/>
             <Finanzierung />
-            <Bewerbungsprozess />
-            <Blog />
+            <Bewerbungsprozess width={width} />
+            {/* <Blog /> */}
             <MeldeDich />
             <FAQ width={width} />
             <FooterCallToAction month={dates.VzTzMonth} />
@@ -43,11 +43,20 @@ export default function Home(props) {
   } else {
     return (
       <Head>
-        <meta property="og:image:secure" content="https://www.super-code.de/img/page-preview.jpg" />
-        <meta property="og:image" content="http://www.super-code.de/img/page-preview.jpg" />
+        <meta
+          property="og:image:secure"
+          content="https://www.super-code.de/img/page-preview.jpg"
+        />
+        <meta
+          property="og:image"
+          content="http://www.super-code.de/img/page-preview.jpg"
+        />
         <meta property="og:url" content="https://www.super-code.de" />
         <meta property="og:type" content="Website" />
-        <meta property="og:title" content="Super-code.de - Programmieren lernen war noch nie digitaler." />
+        <meta
+          property="og:title"
+          content="Super-code.de - Programmieren lernen war noch nie digitaler."
+        />
         {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}
         <title>Super-code</title>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
