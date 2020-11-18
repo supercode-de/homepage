@@ -27,7 +27,7 @@ class FAQ extends Component {
 
         <style jsx>{`
           #faq {
-            padding: 40px ${this.state.width * 2}px;
+            padding: 10px ${this.state.width}px 50px;
 
             position: relative;
             background-color: #070021;
@@ -47,11 +47,13 @@ class FAQ extends Component {
               );
             background-position: 0 0, 0 0;
             background-size: ${this.state.width}px ${this.state.width}px;
+            font-family: "Neue_Machina_Regular_400";
           }
           h2 {
             font-size: 4em;
             letter-spacing: 2px;
             margin-bottom: 50px;
+            margin-left: -1em;
             display: block;
             color: transparent;
             font-weight: 400;
@@ -62,6 +64,7 @@ class FAQ extends Component {
           .grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
+            grid-gap: 0 5%;
           }
 
           .aside {

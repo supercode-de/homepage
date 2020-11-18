@@ -68,10 +68,12 @@ const MeldeDich = () => {
         span.workshop::after {
           position: absolute;
           background: url("/img/Vector64.svg") center/contain no-repeat;
-          height: 8rem;
+          transform: rotateX(50deg);
+
+          height: 300%;
           width: 105%;
-          right: -5px;
-          bottom: -2.2rem;
+          right: 0;
+          bottom: -100%;
           content: "";
           display: block;
         }

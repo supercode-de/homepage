@@ -34,7 +34,8 @@ const Finanzierung = (props) => {
       <style jsx>
         {`
           #finanzierung {
-            background: #070021;
+            background: url("./img/Gold-Chain.png") top right/contain no-repeat,
+              #070021;
             color: #fff;
             padding: 40px 8%;
             font-family: "Neue_Machina_Regular_400";
