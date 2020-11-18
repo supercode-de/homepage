@@ -101,23 +101,24 @@ const Beratung = (props) => {
                     }
                     .button {
                         background:none;
-                        display:inline-block;
-                        color: #000;
-                        color:#fff;
+                        display: inline-block;
+                        color: #fff;
                         text-decoration: none;
                         text-transform: uppercase;
-                        padding: 5px 10px;
-                        border: 3px solid #fff;
-                        font-size: .8em;
-                        font-weight: 200;
+                        padding: 5px 35px;
+                        border: 1px solid #3dd7ac;
+                        font-size: 0.7em;
+                        font-weight: 600;
+                        line-height: 1.5em;
                         margin: 10px;
-                        transition: top .5s linear, box-shadow .5s linear, left .5s linear;
+                        letter-spacing: 2px;
+                        transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
                         box-shadow: 0 0 0 0 transparent;
                         position: relative;
                         top: 0;
                         left: 0;
                         text-align: center;
-                        min-width:100px;
+                        min-width: 100px;
                     }
                     .button:hover {
                         // margin: 10px 5px 15px 10px;

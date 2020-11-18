@@ -1,113 +1,191 @@
+const Bewerbungsprozess = (props) => {
+  return (
+    <div id="bewerbungsprozess">
+      <span className="aside"> 4 x SUPER </span>
 
-
-const Bewerbungsprozess = () => {
-    return (
-        <div id="bewerbungsprozess">
-
-            <h1>Unser <br /><span>Aufnahmeprozess</span></h1>
-            <div className="path">
-                <figure className="kontakt">
-                    <img src="/img/kontakt.svg" alt="" />
-                    <figcaption>
-                        <h2>#1 Kontakt</h2>
-                        <p>Nimm Kontakt mit uns auf und vereinbare einen Termin mit einem unseren Bildungsberater*innen. Sie helfen dir dabei den perfekten Kurs für dich zu finden.</p>
-                    </figcaption>
-                </figure>
-                <figure className="workshop">
-                    <img src="/img/workshop.svg" alt="" />
-                    <figcaption>
-                        <h2>#2 Workshop</h2>
-                        <p>Komm zu unserem kostenlosen HTML & CSS Workshop. Deine Chance, uns live zu erleben und deine Coding-Skills zu testen.</p>
-                    </figcaption>
-                </figure>
-                <figure className="finanzierung">
-                    <img src="/img/finanzierung.svg" alt="" />
-                    <figcaption>
-                        <h2>#3 Finanzierung</h2>
-                        <p>Finde deinen individuellen Finanzierungsweg. Wir haben 3 verschiedene Modelle. Welcher davon der Richtige für dich ist, erfährst du am besten durch unser Bildungsberatungsteam.</p>
-                    </figcaption>
-                </figure>
-                <figure className="kurse">
-                    <img src="/img/kurse.svg" alt="" />
-                    <figcaption>
-                        <h2>#4 Kurs</h2>
-                        <p>Es geht los! Starte deinen neuen SuperKurs bei uns!  Du erhältst von uns alles was du brauchst, und nach 5-7 Monaten bist du fit für den IT-Arbeitsmarkt!</p>
-                    </figcaption>
-                </figure>
+      <div className="twocolumn">
+        <div className="center">
+          <h2>
+            Unser
+            <span>Aufnahmeprozess</span>
+          </h2>
+          <div className="flex">
+            <div>
+              <span className="super-green">01</span>
             </div>
+            <div>Nimm Kontakt zu uns auf</div>
+            <img src="/img/kontakt.jpg" alt="" />
+          </div>
+          <div className="flex">
+            <div>
+              <span className="super-green">02</span>
+            </div>
+            <div>Teste dich im kostenlosen Workshop</div>
+            <img src="/img/workshop.jpg" alt="" />
+          </div>
 
-            <style jsx>{`
-                #bewerbungsprozess {
-                    padding-top: 10vh;
-                }
-                h1 {
-                    font-size: 4em;
-                    letter-spacing: 2px;
-                    margin: 10vh 10%;
-                    color: #3DD7AC;
-                }
-                .path {
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    background: url(/img/finanzierung-bg.svg) top/contain no-repeat;
-                    min-height: 100vh;
-                    gap: 2vw;
-                    padding: 0 5vw;
-                }
-                span {
-                    color: transparent;
-                    letter-spacing: 3px;
-                    -webkit-text-stroke-width: 1.5px;
-                    -webkit-text-stroke-color: #3DD7AC;
-                }
-                figure {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                }
-                h2 {
-                    font-size: 2.7em;
-                }
-                .kontakt {
-                    margin-top: 88%;
-                }
-                .workshop {
-                    margin-top: 37%;
-                }
-                .finanzierung {
-                    margin-top: 74%;
-                }
-                .kurse {
-                    margin-top: 28%;
-                }
-
-                @media (max-width: 1200px) {
-                    .path {
-                        display: grid;
-                        grid-template-columns: repeat(2, 1fr);
-                        background: none;
-                    }
-                    .kontakt, .workshop, .finanzierung, .kurse  {
-                        margin-top: 0;
-                    }
-                    
-                    
-                }
-                @media (max-width: 768px) {
-                    .path {
-                        display: block;
-                    }
-                    figure {
-                        margin-bottom: 5em;
-                    }
-                    h1 {
-                        font-size: 2.5em;
-                        
-                    }
-                }
-        `}</style>
+          <div className="flex">
+            <div>
+              <span className="super-green">03</span>
+            </div>
+            <div>Kläre mit uns die Finanzierung</div>
+            <img src="/img/finanzierung.jpg" alt="" />
+          </div>
+          <div className="flex">
+            <div>
+              <span className="super-green">04</span>
+            </div>
+            <div>Starte deinen Kurs Web Development</div>
+            <img src="/img/losGehts.jpg" alt="" />
+          </div>
         </div>
-    );
-}
+      </div>
+
+      <style jsx>
+        {`
+          .flex {
+            display: flex;
+            font-family: "Neue_Machina_Regular_400";
+            font-size: 3.5em;
+            color: #fff;
+            line-height: 75px;
+            position: relative;
+            z-index: 99;
+          }
+          .center h2 {
+            font-family: "Neue_Machina_Regular_400";
+            font-size: 4em;
+            color: #fff;
+            text-transform: uppercase;
+          }
+          .center h2 span {
+            display: block;
+            color: transparent;
+            font-weight: 400;
+            letter-spacing: 3px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #ffffff;
+          }
+          .aside {
+            position: absolute;
+            transform: rotate(-90deg);
+            transform-origin: left;
+            color: #fff;
+            font-weight: 300;
+            left: 3%;
+            top: 60%;
+            font-family: "Poppins", sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 3px;
+            text-transform: uppercase;
+            color: #ffffff;
+          }
+          #bewerbungsprozess {
+            padding: 5em 8%;
+
+            position: relative;
+            background-color: #5d3ede;
+            background-image: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              ),
+              linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              );
+            background-position: 0 0, 0 0;
+            background-size: ${props.width}px ${props.width}px;
+          }
+          .twocolumn {
+            display: grid;
+            grid-template-columns: 100%;
+            padding-bottom: 40px;
+          }
+
+          .flex img {
+            max-width: 600px;
+            right: 50px;
+            transform: translateY(-40%);
+            position: absolute;
+            opacity: 0;
+          }
+          .flex:hover img {
+            opacity: 1;
+            z-index: -1;
+          }
+          .center {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-weight: 400;
+          }
+          .super-stroke {
+            color: transparent;
+            letter-spacing: 2px;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #fff;
+            font-weight: 300;
+          }
+
+          .super-green {
+            color: transparent;
+            letter-spacing: 2px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #30e1b9;
+            font-weight: 300;
+            font-size: 0.7em;
+            padding-right: 10px;
+          }
+          @media (max-width: 1040px) {
+            .flex {
+              font-size: 2.3em;
+              line-height: 50px;
+            }
+            h1 {
+              font-size: 2em;
+              line-height: 40px;
+            }
+          }
+          @media (max-width: 768px) {
+            #supercode-usp2 {
+              padding: 60px 0% 60px 6%;
+            }
+            h1 {
+              font-size: 3.5em;
+            }
+            p {
+              font-size: 2em;
+              margin-bottom: 50px;
+            }
+            .super-stroke {
+              color: transparent;
+              letter-spacing: 2px;
+              -webkit-text-stroke-width: 1px;
+              -webkit-text-stroke-color: #fff;
+              font-weight: 300;
+            }
+          }
+          @media (max-width: 568px) {
+            img {
+              display: none;
+            }
+            .twocolumn {
+              grid-template-columns: 100%;
+            }
+          }
+        `}
+      </style>
+    </div>
+  );
+};
 
 export default Bewerbungsprozess;

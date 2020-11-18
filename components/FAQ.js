@@ -1,10 +1,10 @@
-import Collapsible from "./FAQItem"
-import faqData from './data/faq'
-import { useWindowSize } from './functions/windowSize'
-import React, { Component } from 'react';
+import Collapsible from "./FAQItem";
+import faqData from "./data/faq";
+import { useWindowSize } from "./functions/windowSize";
+import React, { Component } from "react";
 
 class FAQ extends Component {
-  state = {}
+  state = {};
 
   componentDidMount() {
     this.setState({ width: window.innerWidth / 12 });
@@ -13,60 +13,78 @@ class FAQ extends Component {
   render() {
     return (
       <div id="faq">
-        <span className="aside">FAQ Yourself</span>
-        {faqData.map((faq, i) =>
-          <Collapsible trigger={faq.question} key={i} > <p>{faq.answer}</p></Collapsible>
-        )
-        }
+        <h2>FAQ</h2>
+
+        <div className="grid">
+          <span className="aside">FAQ Yourself</span>
+          {faqData.map((faq, i) => (
+            <Collapsible trigger={faq.question} key={i}>
+              {" "}
+              <p>{faq.answer}</p>
+            </Collapsible>
+          ))}
+        </div>
+
         <style jsx>{`
-                #faq {
-                    padding: 10vh ${this.state.width * 2}px;
-                    display: grid;
-                    grid-template-columns: 1fr 1fr;
-                    position: relative;
-                    background-color: #03000F;
-                    background-image:
-                      linear-gradient(
-                        to right,
-                        rgba(255, 0, 0, 0.25) 0,
-                        rgba(255, 0, 0, 0.25) 1px,
-                        transparent 1px,
-                        transparent 100%
-                      ),
-                      linear-gradient(
-                        to bottom,
-                        rgba(255, 0, 0, 0.25) 0,
-                        rgba(255, 0, 0, 0.25) 1px,
-                        transparent 1px,
-                        transparent 100%
-                      )
-                    ;
-                    background-position: 0 0, 0 0;
-                    background-size: ${this.state.width}px ${this.state.width}px;
-                }
-                .aside {
-                    position: absolute;
-                    transform: rotate(-90deg);
-                    transform-origin: left;
-                    left: calc(${this.state.width}px - .5em);
-                    top: 30vh;
-                    color: #3DD7AC
-                  }
-                  @media (max-width: 768px) {
-                    #faq {
-                      display: block;
-                      padding:10px
-                    }
-                    .aside{
-                      display:none
-                    }
-                  }
-            `}</style>
-      </div >
+          #faq {
+            padding: 40px ${this.state.width * 2}px;
+
+            position: relative;
+            background-color: #070021;
+            background-image: linear-gradient(
+                to right,
+                rgba(230, 230, 230, 0.25) 0,
+                rgba(230, 230, 230, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              ),
+              linear-gradient(
+                to bottom,
+                rgba(230, 230, 230, 0.25) 0,
+                rgba(230, 230, 230, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              );
+            background-position: 0 0, 0 0;
+            background-size: ${this.state.width}px ${this.state.width}px;
+          }
+          h2 {
+            font-size: 4em;
+            letter-spacing: 2px;
+            margin-bottom: 50px;
+            display: block;
+            color: transparent;
+            font-weight: 400;
+            letter-spacing: 3px;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #3dd7ac;
+          }
+          .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+          }
+
+          .aside {
+            position: absolute;
+            transform: rotate(-90deg);
+            transform-origin: left;
+            left: 2em;
+            top: 50%;
+            color: #fff;
+          }
+          @media (max-width: 768px) {
+            .grid {
+              display: block;
+              padding: 10px;
+            }
+            .aside {
+              display: none;
+            }
+          }
+        `}</style>
+      </div>
     );
   }
 }
-
-
 
 export default FAQ;

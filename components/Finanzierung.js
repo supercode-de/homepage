@@ -2,43 +2,42 @@ import React from "react";
 
 const Finanzierung = (props) => {
   return (
-    <div>
-      <section id="finanzierung">
-        <h2>#Finanzierung</h2>
-        <h1>
-          <span>No Mon€y, no Probl€m!</span>
-          Wähle zwischen 3 verschiedenen Finanzierungsmodellen.
-        </h1>
-        <div className="infos">
-          <div className="info-headline">
-            <h3>Bildungsgutschein </h3>
-            <p>
-              Unsere Kurse sind zertifiziert und könnnen zu 100% durch einen
-              Bildungsgutschein finanziert werden.
-            </p>
-          </div>
-          <div className="info-headline">
-            <h3>Chancen eG </h3>
-            <p>
-              Lerne jetzt und zahle erst wenn du einen Job gefunden hast – der
-              umgekehrte Generationenvertrag der Chancen eG macht es möglich.
-            </p>
-          </div>
-          <div className="info-headline">
-            <h3>Ratenzahlung </h3>
-            <p>
-              Du möchtest die Kurskosten in Raten abbezahlen, kein Problem. Wir
-              bieten dir 3 faire und flexible Modelle.
-            </p>
-          </div>
+    <div id="finanzierung">
+      <h2>#Finanzierung</h2>
+      <h1>
+        <span>No Mon€y, no Probl€m!</span>
+        Wähle zwischen 3 verschiedenen Finanzierungsmodellen.
+      </h1>
+      <div className="infos">
+        <div className="info-headline">
+          <h3>Bildungsgutschein </h3>
+          <p>
+            Unsere Kurse sind zertifiziert und könnnen zu 100% durch einen
+            Bildungsgutschein finanziert werden.
+          </p>
         </div>
-      </section>
+        <div className="info-headline">
+          <h3>Chancen eG </h3>
+          <p>
+            Lerne jetzt und zahle erst wenn du einen Job gefunden hast – der
+            umgekehrte Generationenvertrag der Chancen eG macht es möglich.
+          </p>
+        </div>
+        <div className="info-headline">
+          <h3>Ratenzahlung </h3>
+          <p>
+            Du möchtest die Kurskosten in Raten abbezahlen, kein Problem. Wir
+            bieten dir 3 faire und flexible Modelle.
+          </p>
+        </div>
+      </div>
       <style jsx>
         {`
           #finanzierung {
             background: #070021;
             color: #fff;
-            padding: 40px 6%;
+            padding: 40px 8%;
+            font-family: "Neue_Machina_Regular_400";
           }
           h2 {
             font-size: 2em;
@@ -46,7 +45,6 @@ const Finanzierung = (props) => {
             color: #5d3ede;
             margin-bottom: 100px;
           }
-
           p {
             font-weight: 400;
             color: #ffffff;
@@ -60,8 +58,9 @@ const Finanzierung = (props) => {
           span {
             display: block;
             color: transparent;
+            font-weight: 400;
             letter-spacing: 3px;
-            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #ffffff;
           }
           .infos {
@@ -70,7 +69,6 @@ const Finanzierung = (props) => {
             grid-template-columns: repeat(3, 1fr);
             gap: 20px;
           }
-
           .info-headline h3 {
             color: #5d3ede;
             font-size: 2em;

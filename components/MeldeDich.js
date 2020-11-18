@@ -6,44 +6,93 @@ const MeldeDich = () => {
   return (
     <div id="melde-dich">
       <h1>
-        Melde dich noch heute <br />
-        oder mach’ mit bei unserem kostenlosen Workshop
+        <span className="melde">Melde</span> dich noch heute, <br />
+        oder mach mit bei unserem <br />
+        kostenlosen <span className="workshop">Workshop</span>.
       </h1>
 
       <div className="buttons">
         <Beratung />
         <Link href="/workshops">
-          <a href="">WORKSHOPS</a>
+          <a href="">WORKSHOP</a>
         </Link>
       </div>
       <style jsx>{`
         #melde-dich {
-          background: #5d3ede;
-          border: 12px solid #03000f;
-          width: 80%;
-          margin: 10vh auto;
+          background: #070021;
+          color: #fff;
+          padding: 80px 6% 40px;
+          font-family: "Neue_Machina_Regular_400";
         }
         h1 {
-          font-size: 2em;
-          color: #3dd7ac;
-          text-align: center;
+          font-size: 3.5em;
+          font-weight: 400;
+          letter-spacing: 2px;
+          line-height: 4rem;
         }
+
+        .melde,
+        .workshop {
+          position: relative;
+        }
+
+        span.melde::before {
+          position: absolute;
+          background: url("/img/bling.png") center/contain no-repeat;
+          height: 2rem;
+          width: 20px;
+          bottom: 0.2em;
+          left: -20px;
+          content: "";
+          display: block;
+        }
+        span.melde::after {
+          position: absolute;
+          background: url("/img/bling2.png") center/contain no-repeat;
+          height: 2rem;
+          width: 20px;
+          bottom: 0.2em;
+          right: -20px;
+          content: "";
+          display: block;
+        }
+
+        span.workshop {
+          color: transparent;
+          letter-spacing: 3px;
+          font-weight: 400;
+          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-color: #fff;
+        }
+
+        span.workshop::after {
+          position: absolute;
+          background: url("/img/Vector64.svg") center/contain no-repeat;
+          height: 8rem;
+          width: 105%;
+          right: -5px;
+          bottom: -2.2rem;
+          content: "";
+          display: block;
+        }
+
         .buttons {
           text-align: center;
-          margin-bottom: 2.68em;
           display: flex;
-          justify-content: center;
+          justify-content: flex-end;
         }
         a {
           display: inline-block;
           color: #fff;
           text-decoration: none;
           text-transform: uppercase;
-          padding: 3px 10px;
-          border: 3px solid #fff;
-          font-size: 0.9em;
-          font-weight: 200;
+          padding: 5px 35px;
+          border: 1px solid #3dd7ac;
+          font-size: 0.7em;
+          font-weight: 600;
+          line-height: 1.5em;
           margin: 10px;
+          letter-spacing: 2px;
           transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
           box-shadow: 0 0 0 0 transparent;
           position: relative;
