@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Arrow from "./small/Arrow";
+import Typeform from "./TypeForm_neu";
 
 
 const JetztBewerben = (props) => {
@@ -24,14 +25,18 @@ const JetztBewerben = (props) => {
 
             <img src="/img/_DSC8255_LowRes.png"
                 alt="" />
-
+             <div>
+                <Typeform />
+            </div>
             <div className="arrow">
                 <a href="#"><p>Erfahre Mehr</p></a>
                 <Arrow />
 
             </div>
             <style jsx > {`
-           
+           img+div{
+               display:none;
+           }
             .aside {
                 position: absolute;
                 transform: rotate(-90deg);
@@ -193,21 +198,22 @@ const JetztBewerben = (props) => {
             background:#fff;
         }
       
-
-        
         @media (max-width: 1040px) {
             h1{
                 font-size:2em;
                 line-height:40px
             }
             .twocolumn{
-                grid-template-columns:1fr;
                 margin-bottom:40px   
             }
             .twocolumn>img{
                 width:60%;
                 align-self:center;
                 justify-self:center
+            }
+            .twocolumn+img{
+                width:25%;
+                margin-top: -5vh;
             }
         }
         @media (max-width: 768px) {     
@@ -216,28 +222,37 @@ const JetztBewerben = (props) => {
             }  
             h1{
                 font-size:3em;
+                align-self: center;
+                justify-self: center;
             }
             p{
                 font-size:2em;
                 margin-bottom:50px
             }
-            .twocolumn{
-                grid-template-columns:1fr;
-                
+            .twocolumn+img{
+                display:none;
             }
-            .twocolumn>img{
-                width:80%;
-                align-self:center;
-                justify-self:center
+            .onecolumn img:first-of-type {
+                display:none;
+            }
+            .arrow {
+                display:none;
+            }
+            img+div{
+                display:block;
+                text-align:center;
+                margin-top:-6vh;
+                margin-bottom:-6vh;
             }
         }
         @media (max-width: 468px) { 
             #unser-campus{
-                padding:100px 30px
+                padding:85px 30px
             }       
             h1{
                 font-size:2em;
-                
+                line-height: 29px;
+                text-align:center;
             }
             p{
                 font-size:1.3em
@@ -250,6 +265,19 @@ const JetztBewerben = (props) => {
                 width:100%;
                 align-self:center;
                 justify-self:center
+            }
+            .twocolumn+img{
+                display:none;
+            }
+            .onecolumn img:first-of-type {
+                display:none;
+            }
+            img+div{
+                display:block;
+                text-align:center;
+            }
+            .arrow{
+                display:none;
             }
         }
     ` } </style>

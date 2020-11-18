@@ -48,7 +48,7 @@ class Navigation extends Component {
                 <a>Kurse</a>
               </Link>
             </li>
-            <li>
+            {/* <li>
               <Link href="/">
                 <a>Finanzierung</a>
               </Link>
@@ -62,21 +62,12 @@ class Navigation extends Component {
               <Link href="/">
                 <a>Outcomes</a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/workshops">
                 <a>Workshops</a>
               </Link>
             </li>
-            {/* <li>
-              <Link href="/finfanzierung"><a>finfanzierung</a></Link>
-            </li>
-            <li>
-              <Link href="/team"><a>team</a></Link>
-            </li>
-            <li>
-              <Link href="/outcomes"><a>outcomes</a></Link>
-            </li> */}
             <li>
               <Link href="/#faq">
                 <a>faq</a>
@@ -164,10 +155,13 @@ class Navigation extends Component {
 
           @media (max-width: 468px) {
             .logo {
-              margin-top: -12%;
+              margin-top: -8.5%;
             }
             a {
               font-size: 1.2em;
+            }
+            a img {
+              width:65%;
             }
             ul {
               width: 95%;

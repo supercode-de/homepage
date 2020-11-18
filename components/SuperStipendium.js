@@ -27,7 +27,9 @@ const SuperStipendium = (props) => {
     return (
 
         <div id="super-stipendium">
-            <div className="bg-container">
+            
+            
+            <img className="bg-line" src="img/bg-line.png" alt=""/>
             <span className="aside">Das Super-Stipendium</span>
             <img src="/img/bgLine.png" alt="" className="bg-line" />
             <article className="stipendium-left">
@@ -105,7 +107,7 @@ const SuperStipendium = (props) => {
                     </Carousel>
                 </div>
             </article>
-            </div>
+            
             <style jsx>{`
             .stipendium-right>.stipendium-box1{
                 transition:all .4s
@@ -162,6 +164,14 @@ const SuperStipendium = (props) => {
                 background-size: ${props.width}px ${props.width}px;
                 padding:100px 0;
                 position: relative;
+                z-index:99;
+            }
+
+            .bg-line{
+                width:100%;
+                position:absolute;
+                z-index:-1;
+                top:-3%;
             }
 
             .aside {
@@ -181,11 +191,11 @@ const SuperStipendium = (props) => {
                 text-transform: uppercase;
                 color: #FFFFFF;
             }
-            .bg-container {
-                background: url('img/bg-line.png') top/cover no-repeat;
-                background-size: 100% 21%;
-                display:flex;
-            }
+            // .bg-container {
+            //     background: url('img/bg-line.png') top/cover no-repeat;
+            //     background-size: 100% 21%;
+            //     display:flex;
+            // }
 
             .stipendium-left{
                 padding: 16vh 4% 8vh 8.5%;
