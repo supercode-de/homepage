@@ -8,6 +8,8 @@ import blog4 from '../../markdown/blog4'
 import titleBlog4 from '../../markdown/titleBlog4'
 import blog5 from '../../markdown/blog5'
 import titleBlog5 from '../../markdown/titleBlog5'
+import blog6 from '../../markdown/blog6'
+import titleBlog6 from '../../markdown/titleBlog6'
 
 let blog = [
     { id: 0, title: titleBlog1, text: blog1, pic: '/img/blogs/1.jpg' },
@@ -15,6 +17,7 @@ let blog = [
     { id: 2, title: titleBlog3, text: blog3, pic: '/img/blogs/3.jpg' },
     { id: 3, title: titleBlog4, text: blog4, pic: '/img/blogs/4.jpg' },
     { id: 4, title: titleBlog5, text: blog5, pic: '/img/blogs/5.jpg' },
+    { id: 5, title: titleBlog6, text: blog6, pic: '/img/blogs/6/preview_pic.jpg' },
     // { id: 5, title: titleBlog1, text: blog1 },
 ]
 
