@@ -22,7 +22,7 @@ const FooterCallToAction = (props) => {
           background: #5d3ede;
           color: #3dd7ac;
           margin: 0 auto;
-          padding: 8vh;
+          padding: 3rem;
           display: flex;
           justify-content: space-around;
           font-family: "Neue_Machina_Regular_400";
@@ -58,12 +58,12 @@ const FooterCallToAction = (props) => {
           color: #fff;
           text-decoration: none;
           text-transform: uppercase;
-          padding: 5px 35px;
+          padding: 5px 2rem;
           border: 1px solid #3dd7ac;
           font-size: 0.7em;
           font-weight: 600;
           line-height: 1.5em;
-          margin: 10px;
+          margin: 0.5rem;
           letter-spacing: 2px;
           transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
           box-shadow: 0 0 0 0 transparent;

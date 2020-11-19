@@ -81,11 +81,11 @@ const Blog_neu = (props) => {
             #3dd7ac;
           background-size: ${props.width}px ${props.width}px;
           position: relative;
-          padding: ${props.width * 0.7}px;
         }
         .line {
           background: url("./img/bg-line.png") top center/cover no-repeat;
           width: 100%;
+          padding: ${props.width * 0.7}px;
         }
 
         h1 {
@@ -106,7 +106,8 @@ const Blog_neu = (props) => {
         }
 
         .translate {
-          transform: translateX(150px);
+          transform: translateX(100px);
+          padding: 0 5px;
         }
         .blog-list {
           padding-top: 15vh;
@@ -174,11 +175,22 @@ const Blog_neu = (props) => {
           top: -5px;
           left: 5px;
         }
+
+        @media (max-width: 1040px) {
+          .translate {
+            transform: translateX(50px);
+          }
+        }
+        @media (max-width: 768px) {
+          .translate {
+            transform: translateX(0);
+          }
+        }
         @media (max-width: 468px) {
           a {
             padding-top: 5px;
             font-weight: 400;
-            font-size: 1.2em;
+            font-size: 0.7em;
           }
         }
       `}</style>

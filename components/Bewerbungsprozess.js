@@ -14,14 +14,14 @@ const Bewerbungsprozess = (props) => {
               <span className="super-green">01</span>
             </div>
             <div>Nimm Kontakt zu uns auf</div>
-            <img src="/img/kontakt.jpg" alt="" />
+            <img src="./img/kontakt.jpg" alt="" />
           </div>
           <div className="flex">
             <div>
               <span className="super-green">02</span>
             </div>
             <div>Teste dich im kostenlosen Workshop</div>
-            <img src="/img/workshop.jpg" alt="" />
+            <img src="./img/workshop.jpg" alt="" />
           </div>
 
           <div className="flex">
@@ -29,14 +29,14 @@ const Bewerbungsprozess = (props) => {
               <span className="super-green">03</span>
             </div>
             <div>Kläre mit uns die Finanzierung</div>
-            <img src="/img/finanzierung.jpg" alt="" />
+            <img src="./img/finanzierung.jpg" alt="" />
           </div>
           <div className="flex">
             <div>
               <span className="super-green">04</span>
             </div>
             <div>Starte deinen Kurs Web Development</div>
-            <img src="/img/losGehts.jpg" alt="" />
+            <img src="./img/losGehts.jpg" alt="" />
           </div>
         </div>
       </div>

@@ -107,7 +107,7 @@ const FooterSitemap = () => {
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            align-items: flex-end;
+            align-items: center;
           }
 
           .links {
@@ -146,15 +146,21 @@ const FooterSitemap = () => {
             margin: 0 0 0 auto;
             display: grid;
             grid-template-columns: repeat(6, 1fr);
+            grid-gap: 2rem;
+          }
+          @media (max-width: 1040px) {
+            .sitemap-grid {
+              width: 90%;
+            }
           }
           @media (max-width: 768px) {
             .sitemap-grid {
-              grid-template-columns: repeat(2, 1fr);
+              grid-template-columns: repeat(3, 1fr);
             }
           }
           @media (max-width: 480px) {
             .sitemap-grid {
-              display: block;
+              grid-template-columns: repeat(2, 1fr);
             }
           }
         `}
