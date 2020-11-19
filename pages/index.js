@@ -8,8 +8,8 @@ import Zukunft from "../components/Zukunft";
 import Weiterbildung_neu from "../components/Weiterbildung_neu";
 import Bewerbungsprozess from "../components/Bewerbungsprozess";
 // import SuperPartner from "../components/SuperPartner";
-import SuperStipendium from '../components/SuperStipendium';
-import CertquaBonn from '../components/CertquaBonn';
+import SuperStipendium from "../components/SuperStipendium";
+import CertquaBonn from "../components/CertquaBonn";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import Finanzierung from "../components/Finanzierung";
@@ -28,11 +28,11 @@ export default function Home(props) {
             <HeaderCallToAction_neu />
             <Zukunft width={width} />
             <UnserCampus width={width} />
-            <Weiterbildung_neu />
+            <Weiterbildung_neu width={width} />
             {/* <SuperPartner width={width} /> */}
-            <SuperStipendium width={width}/>
-            <CertquaBonn />
             <SuperStipendium width={width} />
+            <CertquaBonn />
+            {/* <SuperStipendium width={width} /> */}
             <Finanzierung />
             <Bewerbungsprozess width={width} />
             <Blog_neu width={width} />
