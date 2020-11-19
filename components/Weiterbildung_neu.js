@@ -100,6 +100,47 @@ const HeaderCallToAction_neu = () => {
         #header-call div {
           grid-column: 3 / 4;
         }
+        @media (max-width: 1040px) {
+        
+          h2 {
+            font-size:3em;
+          }
+          h2 span.circle::after {
+            height: 27%;
+            width: 30%;
+            left: -5%;
+            bottom: -1%;
+          }
+
+          @media (max-width: 768px) {
+            
+            h2 span.circle::after {
+            height: 21%;
+            width: 23%;
+            left: -2%;
+            bottom: 2%;
+          }
+
+          @media (max-width: 468px) { 
+          
+            h2 {
+              font-size:2.1em;
+              line-height: 37px;
+            }
+            h2 span.circle::after {
+            height: 26%;
+            width: 32%;
+            left: -6%;
+            bottom: 2%;
+            }
+            h2 span.after-span::after {
+            bottom: 1px;
+            }
+            h2 span.after-span::before {
+              bottom: -3px;
+            }
+          }
+        }
       `}</style>
     </div>
   );

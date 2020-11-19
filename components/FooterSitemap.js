@@ -89,6 +89,10 @@ const FooterSitemap = () => {
             <a>Pflege</a>
           </Link>
         </div>
+        <div className="image-container">
+          <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
+          <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
+        </div>
       </div>
 
       <style jsx>
@@ -99,6 +103,13 @@ const FooterSitemap = () => {
             font-size: 1.1em;
             padding: 3em;
           }
+          .image-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: flex-end;
+          }
+
           .links {
             display: flex;
             justify-content: space-around;
@@ -132,9 +143,9 @@ const FooterSitemap = () => {
           }
           .sitemap-grid {
             width: 80%;
-            margin: 0 auto;
+            margin: 0 0 0 auto;
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
+            grid-template-columns: repeat(6, 1fr);
           }
           @media (max-width: 768px) {
             .sitemap-grid {

@@ -199,11 +199,19 @@ const UnserCampus = (props) => {
             transform: rotate(360deg);
           }
         }
+
+        @media (max-width: 1040px) {
+
+        }
+
         @media (max-width: 768px) {
+          #unser-campus {
+            padding: 5% 0;
+          }
           .text-one,
           .text-two {
             padding: 0 ${props.width}px;
-            margin: 0;
+            margin-bottom: -6%;
             width: 100%;
           }
           h1 {
@@ -214,12 +222,18 @@ const UnserCampus = (props) => {
           p {
             width: 100%;
           }
+          p {
+            font-size: 1.8em;
+          }
           .img-two,
           .img-three,
           .img-four,
           .img-five,
-          .img-six {
+          .img-six,.campus , .aside{
             display: none;
+          }
+          .two-column {
+            grid-template-columns: 1fr;
           }
           .carousel {
             display: block;
@@ -231,14 +245,7 @@ const UnserCampus = (props) => {
         }
 
         @media (max-width: 468px) {
-          .campus {
-            width: 32%;
-
-            position: absolute;
-            bottom: 20%;
-            right: 7%;
-            margin: 0;
-          }
+    
           .carousel img {
             height: 23vh;
             width: auto;
@@ -246,14 +253,10 @@ const UnserCampus = (props) => {
           }
           p {
             font-size: 1.3em;
-            width: 120%;
           }
         }
         @media (max-width: 321px) {
-          .campus {
-            width: 32%;
-            bottom: 17%;
-          }
+      
           .carousel img {
             height: 25vh;
           }

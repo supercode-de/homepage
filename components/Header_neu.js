@@ -250,9 +250,8 @@ const JetztBewerben = (props) => {
                 padding:85px 30px
             }       
             h1{
-                font-size:2em;
+                font-size:3em;
                 line-height: 29px;
-                text-align:center;
             }
             p{
                 font-size:1.3em
