@@ -121,8 +121,8 @@ const JetztBewerben = (props) => {
         }
         .twocolumn+img{
             position:absolute;
-            z-index:999;
-            margin-top: -19vh;
+            z-index:2;
+            margin-top: -14vh;
             margin-left: -3.5vw;
         }
 

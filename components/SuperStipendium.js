@@ -171,7 +171,7 @@ const SuperStipendium = (props) => {
                 width:100%;
                 position:absolute;
                 z-index:-1;
-                top:-3%;
+                top: -10%;
             }
 
             .aside {
@@ -191,11 +191,6 @@ const SuperStipendium = (props) => {
                 text-transform: uppercase;
                 color: #FFFFFF;
             }
-            // .bg-container {
-            //     background: url('img/bg-line.png') top/cover no-repeat;
-            //     background-size: 100% 21%;
-            //     display:flex;
-            // }
 
             .stipendium-left{
                 padding: 16vh 4% 8vh 8.5%;
@@ -339,7 +334,9 @@ const SuperStipendium = (props) => {
                 font-weight: 600;
             }
             @media (max-width: 1040px) {
-            
+                .bg-line{
+                    top: 4%;
+                }
             }
 
 

@@ -27,9 +27,10 @@ const HeaderCallToAction_neu = () => {
           justify-items: center;
         }
         h2 {
-          font-size: 4.4em;
-          line-height: 75px;
+          font-size: 5em;
+          line-height: 86px;
           padding: 0 1%;
+          padding-top:2%;
           grid-column-start: span 3;
           justify-self: center;
         }
@@ -83,6 +84,12 @@ const HeaderCallToAction_neu = () => {
         }
         #header-call div {
           grid-column: 3 / 4;
+        }
+
+        @media (min-width: 1200px) {
+            h2 {
+                // font-size: 6em; 
+            }
         }
 
         @media (max-width: 1040px) {

@@ -99,6 +99,7 @@ const Zukunft = (props) => {
         .info-headline {
           width: ${props.width * 2}px;
           margin-right: ${props.width}px;
+          padding: 33px 9px;
           position:relative;
         }
 
@@ -151,6 +152,7 @@ const Zukunft = (props) => {
           width: ${props.width * 4}px;
           margin-left:${props.width-60}px;
           margin-bottom:${props.width-200}px;
+          transform: translateY(4vh);
         }
         .img-three {
           position: absolute;
@@ -232,6 +234,7 @@ const Zukunft = (props) => {
           }
           .img-two {
             margin-left:${props.width-30}px;
+            transform: translateY(-12vh);
           }
         }
 

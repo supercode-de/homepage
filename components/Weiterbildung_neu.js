@@ -23,7 +23,7 @@ const HeaderCallToAction_neu = () => {
           justify-items: center;
         }
         h2 {
-          font-size: 4.4em;
+          font-size: 4.8em;
           line-height: 75px;
           padding: 0 1%;
           grid-column-start: span 3;
@@ -69,8 +69,8 @@ const HeaderCallToAction_neu = () => {
         h2 span.circle::after {
           position: absolute;
           background: url("/img/Vector64.svg") center/contain no-repeat;
-          height: 33%;
-          width: 30%;
+          height: 35%;
+          width: 29%;
           left: -4%;
           bottom: -7%;
           content: "";

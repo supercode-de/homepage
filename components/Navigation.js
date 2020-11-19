@@ -24,18 +24,18 @@ class Navigation extends Component {
           width: this.state.show ? "100%" : "5%",
         }}
       >
-        <img className="menu-button"
-          src="/menu-button.svg"
-          alt="Menu-Button"
-          onClick={this.props.toggleJetztAnmelden}
-        />
+     
         <div className={`main-navigation ${this.state.show ? "hide" : "hide"}`}>
           <Link href="/">
             <a className="logo" style={{ color: "rgb(255, 255, 255)" }}>
               super(code)
             </a>
           </Link>
-
+          <img className="menu-button"
+          src="/menu-button.svg"
+          alt="Menu-Button"
+          onClick={this.props.toggleJetztAnmelden}
+        />
           <ul>
           <li>
               <Link href="/">
@@ -91,17 +91,22 @@ class Navigation extends Component {
           #navigation {
             // background: #03000f;
             display: flex;
+            align-items:center;
             width: 100%;
             // height: 4vmax;
             transition: width 1s;
             position:relative;
+            top: 5vh;
             z-index:999;
           }
           a {
-            color: #fff;
             text-decoration: none;
-            font-size: 0.8em;
+            font-size: 1em;
             letter-spacing: 1.3px;
+            color: #fff;
+            letter-spacing: 2px;
+            -webkit-text-stroke-width: .4px;
+            -webkit-text-stroke-color: #03000f;
             transition: color .5s;
           }
           a:visited {
@@ -133,7 +138,6 @@ class Navigation extends Component {
           .menu-button {
             position: fixed;
             right: 2.5vw;
-            top:9vh;
             height: 4vmax;
             min-height: 50px;
             z-index: 99998;
@@ -154,18 +158,12 @@ class Navigation extends Component {
           }
 
           @media (max-width: 1040px) {
-            .menu-button {
-              top:10vh;
-              }
               .logo {
                 margin-top: -3%;
               }
           }
 
           @media (max-width: 768px) {
-            .menu-button {
-              top:9vh;
-              }
               .logo {
                 margin-top: -4.5%;
               }
