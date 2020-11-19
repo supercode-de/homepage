@@ -238,7 +238,6 @@ const Zukunft = (props) => {
         @media (max-width: 468px) {
           #zukunft {
             padding-bottom:10%;
-            height:100vh;
           }
           h1{
             width: unset;

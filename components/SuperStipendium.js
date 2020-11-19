@@ -357,7 +357,7 @@ const SuperStipendium = (props) => {
                 }
                 .stipendium-left{
                     width: 100%;
-                    
+                    padding: 11vh 4% 8vh 8.5%;
                 }
                 .stipendium-right{
                     display: block;
@@ -391,6 +391,7 @@ const SuperStipendium = (props) => {
                 }
                 .stipendium-left{
                     width: 100%;
+                    padding: 11vh 4% 8vh 8.5%;
                 }
                 .break{
                     display: inline;
@@ -417,6 +418,7 @@ const SuperStipendium = (props) => {
                 }
                 .stipendium-left{
                     width: 100%;
+                    padding: 4vh 4% 8vh 8.5%;
                 }
                 .break{
                     display: inline;

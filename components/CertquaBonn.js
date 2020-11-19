@@ -62,7 +62,7 @@ const CertquaBonn = () => {
         }
         @media (max-width: 1040px) {
           h2 {
-            font-size: 2em;
+            font-size: 1.8em;
           }
           article div:nth-of-type(1) {
             width: 61%;
@@ -71,6 +71,10 @@ const CertquaBonn = () => {
             grid-column-end: 3;
           }
           @media (max-width: 768px) {
+            h2 {
+                font-size: 2em;
+              }
+
             article div:nth-of-type(1) {
               width: 84%;
               justify-self: flex-start;
