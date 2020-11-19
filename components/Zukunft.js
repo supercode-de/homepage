@@ -168,7 +168,54 @@ const Zukunft = (props) => {
           margin-bottom: -10%;
           width: ${props.width * 3}px;
         }
+
+        @media (max-width: 1040px) {
+        
+          h1{
+            font-size: 3em;
+          }
+          h3 {
+            font-size: 1.3em;
+          }
+
+          .lila-box::before{
+              width: 125%;
+              height: 145%;
+              padding: 5% 11%;
+              bottom: -35px;
+              left: -36px;
+              transform: rotateX(3deg);
+          }
+  
+          .lila-box2::before{
+              width: 125%;
+              height: 145%;
+              padding: 5% 7%;
+              bottom: -14px;
+              left: -36px;
+              transform: rotateX(3deg);
+          }
+      }
+
         @media (max-width: 768px) {
+          .images+img{
+            display:none;
+          }
+          .lila-box::before{
+            display:none;
+          }
+          .lila-box2::before{
+            display:none;
+          }
+          h1 {
+            padding: ${props.width * 1.5}px 0 0 ${props.width-23}px;
+          }
+          h3 {
+            font-size: 2em;
+          }
+          p {
+            font-size: 1.8em;
+          }
           .infos {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
@@ -183,8 +230,28 @@ const Zukunft = (props) => {
           .info-one {
             grid-column: 1 / span 2;
           }
+          .img-two {
+            margin-left:${props.width-30}px;
+          }
         }
+
         @media (max-width: 468px) {
+          #zukunft {
+            padding-bottom:10%;
+            height:100vh;
+          }
+          h1{
+            width: unset;
+          }
+          .infos {
+            grid-template-columns: 1fr;
+          }
+          .info-one {
+            grid-column: auto;
+          }
+          img {
+            display:none;
+          }
           p {
             font-size: 1.5em;
           }
@@ -201,7 +268,7 @@ const Zukunft = (props) => {
             right: 0;
           }
           .images {
-            padding-bottom: 135px;
+            display:none;
           }
         }
       `}</style>

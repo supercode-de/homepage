@@ -4,10 +4,10 @@ const HeaderCallToAction_neu = () => {
   return (
     <div id="header-call">
       <h2>
-        Lerne Programmieren und werde <br />{" "}
-        <span className="bling">Junior</span> Full-Stack{" "}
+        Lerne Programmieren und werde <br />
+        <span className="bling">Junior</span> Full-Stack
         <span className="bling2">Web-Developer*in!</span>
-        <br />–{" "}
+        <br />–
         <span className="super">
           jetzt auch <span className="circle">online!</span>
         </span>
@@ -40,7 +40,7 @@ const HeaderCallToAction_neu = () => {
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
-
+        
         .super,
         .cirle,
         .bling,
@@ -51,11 +51,11 @@ const HeaderCallToAction_neu = () => {
         h2 span.circle::after {
           position: absolute;
           background: url("/img/Vector64.svg") center/contain no-repeat;
-          transform: rotateX(70deg);
+          transform: rotateX(36deg);
 
           height: 300%;
-          width: 102%;
-          right: 10px;
+          width: 43%;
+          right: -2px;
           bottom: -100%;
           content: "";
           display: block;
@@ -83,6 +83,44 @@ const HeaderCallToAction_neu = () => {
         }
         #header-call div {
           grid-column: 3 / 4;
+        }
+
+        @media (max-width: 1040px) {
+           
+            h2 {
+                font-size: 3.1em;
+            }
+        }
+        @media (max-width: 768px) {
+           
+            h2 span.bling::before {
+                bottom: -0.1em;
+            }
+            h2 span.bling2::after {
+                bottom: -0.2em;
+            }
+        }
+        @media (max-width: 468px) { 
+            #header-call{
+                padding: 27% 0;
+            }
+            h2 {
+                font-size: 2.2em;
+                padding: 0 6%;
+            }
+            h2 span.bling::before {
+                bottom: -0.5em;
+                width: 1rem;
+                left: -1.2rem;
+            }
+            h2 span.bling2::after {
+                bottom: -0.5em;
+                width: 1rem;
+                right: -1.2rem;
+            }
+            #header-call div {
+            grid-column: 2 / 3;
+            }
         }
       `}</style>
     </div>

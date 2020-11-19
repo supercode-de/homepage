@@ -95,7 +95,7 @@ const SuperStipendium = (props) => {
                         </div>
                         <div className="stipendium-box2">
                             <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /></h5>
-                            <p>Start: 24.05.2021 Ende: 23.12.2021</p>
+                            <p>Start: xx.xx.xxxx Ende: xx.xx.xxxx</p>
                             <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
                             <h5>Inhalte:</h5>
                             <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
@@ -338,6 +338,11 @@ const SuperStipendium = (props) => {
                 line-height: 18px;
                 font-weight: 600;
             }
+            @media (max-width: 1040px) {
+            
+            }
+
+
             @media only screen and (min-width: 300px) and (max-width: 479px) {
                 #myCarousel{
                     display:block
@@ -348,6 +353,7 @@ const SuperStipendium = (props) => {
                 #super-stipendium{
                     display: block;
                     padding-bottom: 2vh;
+                    padding-top:0;
                 }
                 .stipendium-left{
                     width: 100%;
@@ -366,18 +372,21 @@ const SuperStipendium = (props) => {
                     border: 2px solid #30E1B9;
                     border-top: none;
                 }
+                .bg-line {
+                    display:none;
+                }
+                ul li {
+                    font-size: 14px;
+                }
                 }
             @media only screen and (min-width: 480px) and (max-width: 767px) {
-                .myCarousel{
-                    display:none !important;
-                    position:relative;
-                    z-index:30;
-                }
+               
                 .hide{
                     display:block;
                 }
                 #super-stipendium{
                     display: block;
+                    padding-top:0;
                     padding-bottom: 2vh;
                 }
                 .stipendium-left{
@@ -390,12 +399,22 @@ const SuperStipendium = (props) => {
                     width: 100%;
                     padding: 0 2% 0 6%;
                 }
+                .bg-line {
+                    display:none;
+                }
+                ul li {
+                    font-size: 14px;
+                }
             }
+      
             @media only screen and (min-width: 768px) and (max-width: 979px) {
                 #super-stipendium{
                     display: block;
                     padding-bottom: 2vh;
                 }
+                .bg-line {
+                    top:1%;
+                }
                 .stipendium-left{
                     width: 100%;
                 }
@@ -405,6 +424,9 @@ const SuperStipendium = (props) => {
                 .stipendium-right{
                     width: 100%;
                     padding: 0 2% 0 6%;
+                }
+                ul li {
+                    font-size: 14px;
                 }
             }
             @media only screen and (min-width: 980px) and (max-width: 1023px) {
