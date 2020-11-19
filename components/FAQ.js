@@ -53,7 +53,7 @@ class FAQ extends Component {
             font-size: 4em;
             letter-spacing: 2px;
             margin-bottom: 50px;
-            margin-left: -1em;
+            margin-left: -2%;
             display: block;
             color: transparent;
             font-weight: 400;
@@ -75,7 +75,13 @@ class FAQ extends Component {
             top: 50%;
             color: #fff;
           }
+
+          @media (max-width: 1040px) {
+          }
           @media (max-width: 768px) {
+            #faq {
+              padding: 10px ${this.state.width / 2}px 50px;
+            }
             .grid {
               display: block;
               padding: 10px;
@@ -83,6 +89,8 @@ class FAQ extends Component {
             .aside {
               display: none;
             }
+          }
+          @media (max-width: 468px) {
           }
         `}</style>
       </div>

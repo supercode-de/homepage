@@ -153,9 +153,30 @@ class Navigation extends Component {
             cursor: pointer;
           }
 
+          @media (max-width: 1040px) {
+            .menu-button {
+              top:10vh;
+              }
+              .logo {
+                margin-top: -3%;
+              }
+          }
+
+          @media (max-width: 768px) {
+            .menu-button {
+              top:9vh;
+              }
+              .logo {
+                margin-top: -4.5%;
+              }
+          }
+
           @media (max-width: 468px) {
             .logo {
               margin-top: -8.5%;
+            }
+            .menu-button {
+            top:7vh;
             }
             a {
               font-size: 1.2em;
