@@ -52,10 +52,11 @@ const Blog_neu = (props) => {
                   background: `url(${blogitem.pic}) center/cover no-repeat`,
                 }}
               >
-                <div className="translate">
-                  <h3>{blogitem.title.main.slice(0, 100)}</h3>
-                  {/* <p>{blogitem.text.slice(0, 200)}</p> */}
-
+                <div className="title-main-container">
+                  <div className="title-main">
+                    <h3>{blogitem.title.main.slice(0, 100)}</h3>
+                    {/* <p>{blogitem.text.slice(0, 200)}</p> */}
+                  </div>
                   <div className="buttons">
                     <Link href={"/blogs/" + blogitem.id}>
                       <a target="_blank">zum Artikel </a>
@@ -105,21 +106,34 @@ const Blog_neu = (props) => {
           font-weight: 300;
         }
 
-        .translate {
-          transform: translateX(100px);
-          padding: 0 5px;
-        }
         .blog-list {
           padding-top: 15vh;
         }
         // Blog-item-style
         .blog-item {
-          height: 300px;
-          max-width: 200px;
+          height: 500px;
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
-          position: relative;
+          margin-right: 10px;
+        }
+
+        .title-main-container {
+          background: #00000080;
+          height: 100%;
+          width: 100%;
+          opacity: 0;
+          transition: opacity 1.5s;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          padding: 0 10%;
+        }
+
+        .blog-item:hover .title-main-container {
+          opacity: 100;
+          transition: opacity 1.5s;
         }
 
         h3,
