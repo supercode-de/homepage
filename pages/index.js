@@ -4,7 +4,7 @@ import FAQ from "../components/FAQ";
 import MeldeDich from "../components/MeldeDich";
 import Header_neu from "../components/Header_neu";
 import HeaderCallToAction_neu from "../components/HeaderCallToAction_neu";
-import Zukunft from "../components/Zukunft";
+import Zukunft from "../components/Zukunft1";
 import Weiterbildung_neu from "../components/Weiterbildung_neu";
 import Bewerbungsprozess from "../components/Bewerbungsprozess";
 // import SuperPartner from "../components/SuperPartner";
