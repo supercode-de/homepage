@@ -16,7 +16,7 @@ const HeaderCallToAction_neu = () => {
           background: rgb(7, 0, 33);
           color: #fff;
           font-family: "Neue_Machina_Regular_400";
-          padding: 7.2vh 0;
+          padding: 7.2vh 5%;
           position: relative;
           display: grid;
           grid-template-columns: repeat(3, 1fr);

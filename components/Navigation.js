@@ -31,11 +31,7 @@ class Navigation extends Component {
               super(code)
             </a>
           </Link>
-          <img className="menu-button"
-          src="/menu-button.svg"
-          alt="Menu-Button"
-          onClick={this.props.toggleJetztAnmelden}
-        />
+      
           <ul>
           <li>
               <Link href="/">
@@ -73,14 +69,22 @@ class Navigation extends Component {
                 <a>faq</a>
               </Link>
             </li>
+            <li>
+            <img className="menu-button"
+          src="/menu-button.svg"
+          alt="Menu-Button"
+          onClick={this.props.toggleJetztAnmelden}
+        />
+            </li>
           </ul>
+        
         </div>
 
         <style jsx>{`
           ul {
             list-style-type: none;
             display: flex;
-            width: 100%;
+            // width: 100%;
             text-transform: uppercase;
             justify-content: flex-end;
             align-items:center;
@@ -126,7 +130,7 @@ class Navigation extends Component {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            width: 92%;
+            width: 100%;
             transition: background 1s, right 1s;
             position: relative;
             padding: 0 2em;
@@ -136,8 +140,8 @@ class Navigation extends Component {
           }
 
           .menu-button {
-            position: fixed;
-            right: 2.5vw;
+            // position: fixed;
+            // right: 2.5vw;
             height: 4vmax;
             min-height: 50px;
             z-index: 99998;
@@ -145,10 +149,10 @@ class Navigation extends Component {
           }
           .logo {
             color: #3dd7ac;
-            position: fixed;
-            left: 2.5vw;
+            // position: fixed;
+            // left: 2.5vw;
             padding-top: 4vh;
-            height: 4vmax;
+            // height: 4vmax;
             z-index: 99998;
           }
           .superCode-logo {           
@@ -171,7 +175,6 @@ class Navigation extends Component {
 
           @media (max-width: 468px) {
             .logo {
-              // margin-top: -8.5%;
               display:none;
             }
             .menu-button {
@@ -182,9 +185,6 @@ class Navigation extends Component {
             }
             a img {
               width:65%;
-            }
-            ul {
-              width: 95%;
             }
           }
         `}</style>

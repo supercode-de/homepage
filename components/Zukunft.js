@@ -1,61 +1,61 @@
 // import { useWindowSize } from './functions/windowSize'
 import Link from "next/link";
 const Zukunft = (props) => {
-  // const width = useWindowSize().width / 12
-  const pixelSize = 2.5;
-  return (
-    <div id="zukunft">
-      <h1>
-        Denkst du über deine <span>Zukunft</span> nach?
+    // const width = useWindowSize().width / 12
+    const pixelSize = 2.5;
+    return (
+        <div id="zukunft">
+            <h1>
+                Denkst du über deine <span>Zukunft</span> nach?
       </h1>
-      <div className="infos">
-        <div className="info-one">
-          <p>
-            Wir bieten Menschen einen modernen Ansatz für lebenslanges Lernen
-            und den ultimativen Skill Power-Up für eine schöne berufliche
-            Zukunft!
+            <div className="infos">
+                <div className="info-one">
+                    <p>
+                        Wir bieten Menschen einen modernen Ansatz für lebenslanges Lernen
+                        und den ultimativen Skill Power-Up für eine schöne berufliche
+                        Zukunft!
           </p>
-          <p>
-            Teste dich, uns und deine Skills in einem unserer kostenlosen
-            Workshops!
+                    <p>
+                        Teste dich, uns und deine Skills in einem unserer kostenlosen
+                        Workshops!
           </p>
-        </div>
-        
-        <div className="info-headline">
-        <span className="lila-box">
-          <h3>
-            <Link href="/workshops">
-              <a>Workshops ⟶</a>
-            </Link>
-          </h3>
-          <p>
-            Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
-            schärfe dein Wissen in einer Programmiersprache.
+                </div>
+
+                <div className="info-headline lila-box">
+
+                    <h3>
+                        <Link href="/workshops">
+                            <a>Workshops ⟶</a>
+                        </Link>
+                    </h3>
+                    <p>
+                        Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
+                        schärfe dein Wissen in einer Programmiersprache.
           </p>
-          </span>
-        </div>
-        
-        <div className="info-headline">
-        <span className="lila-box2">
-          <h3>
-            <Link href="/kurse">
-              <a>Bootcamps ⟶</a>
-            </Link>
-          </h3>
-          <p>
-            Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur
-            5 Monaten
+
+                </div>
+
+                <div className="info-headline lila-box2">
+
+                    <h3>
+                        <Link href="/kurse">
+                            <a>Bootcamps ⟶</a>
+                        </Link>
+                    </h3>
+                    <p>
+                        Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur
+                        5 Monaten
           </p>
-          </span>
-        </div>
-      </div>
-      <div className="images">
-        <img className="img-one" src="/img/_DSC2652_LowRes 6.png" alt="" />
-        <img className="img-two" src="/img/_DSC2652_LowRes 7.png" alt="" />
-        {/* <img className="img-three" src="https://unsplash.it/900/600" alt="" /> */}
-      </div>
-      <img src="/img/_DSC2336_MidRes.png" alt=""/>
-      <style jsx>{`
+
+                </div>
+            </div>
+            <div className="images">
+                <img className="img-one" src="/img/_DSC2652_LowRes 6.png" alt="" />
+                <img className="img-two" src="/img/_DSC2652_LowRes 7.png" alt="" />
+                {/* <img className="img-three" src="https://unsplash.it/900/600" alt="" /> */}
+            </div>
+            <img src="/img/_DSC2336_MidRes.png" alt="" />
+            <style jsx>{`
         #zukunft {
           color: #3dd7ac;
           font-family:"Neue_Machina_Regular_400";
@@ -73,7 +73,7 @@ const Zukunft = (props) => {
           position:relative;
         }
         h1 {
-          padding: ${props.width * 1.5}px 0 0 ${props.width}px;
+          padding: 100px 0 0 100px;
           font-size: 4em;
           letter-spacing: 2px;
           color: #3dd7ac;
@@ -89,42 +89,27 @@ const Zukunft = (props) => {
           -webkit-text-stroke-color: #3dd7ac;
         }
         .infos {
-          display: flex;
-          margin: ${props.width-30}px 0 0;
+          display: grid;
+          margin: 100px 8%;
+          grid-template-columns:1fr 1fr 1fr;
+          gap:50px
         }
         .info-one {
-          width: ${props.width * 3}px;
-          margin: 0 ${props.width}px;
         }
         .info-headline {
-          width: ${props.width * 2}px;
-          margin-right: ${props.width}px;
-          padding: 33px 9px;
+          padding: 33px 41px;
           position:relative;
+          margin-top: -9vh;
         }
 
-        .lila-box::before{
-          position:absolute;
-            background:url('/img/Vector60.png') center/contain no-repeat;
-            width: 100%;
-            height: 147%;
-            padding:5% 7%;
-            bottom:-22px;
-            left:-24px;
-            content:'';
-            display:block;
+        .lila-box{
+            background:url('/img/Vector60.png') center/100% 100% no-repeat;
+          
         }
 
-        .lila-box2::before{
-          position:absolute;
-            background:url('/img/Vector61.png') center/contain no-repeat;
-            width: 100%;
-            height: 147%;
-            padding:5% 7%;
-            bottom:-22px;
-            left:-24px;
-            content:'';
-            display:block;
+        .lila-box2{
+            background:url('/img/Vector61.png') center/100% 100% no-repeat;
+           
         }
 
         p {
@@ -140,7 +125,7 @@ const Zukunft = (props) => {
           text-decoration: none;
         }
         .images {
-          margin-top: ${props.width*1.2}px;
+          margin-top: ${props.width * 1.2}px;
           text-align: center;
           padding-bottom: ${props.width * 2.6}px;
           background: url('img/bg-line.png') top/cover no-repeat;
@@ -150,8 +135,8 @@ const Zukunft = (props) => {
         }
         .img-two {
           width: ${props.width * 4}px;
-          margin-left:${props.width-60}px;
-          margin-bottom:${props.width-200}px;
+          margin-left:${props.width - 60}px;
+          margin-bottom:${props.width - 200}px;
           transform: translateY(4vh);
         }
         .img-three {
@@ -165,7 +150,7 @@ const Zukunft = (props) => {
         .images+img{
           position:absolute;
           bottom:0;
-          left:${props.width*3.3}px;
+          left:${props.width * 3.3}px;
           z-index:99;
           margin-bottom: -10%;
           width: ${props.width * 3}px;
@@ -181,40 +166,39 @@ const Zukunft = (props) => {
           }
 
           .info-headline {
-            width: ${props.width * 2}px;
+            margin-top: 0;
           }
 
-          .lila-box::before{
-              width: 125%;
-              height: 145%;
-              padding: 5% 11%;
-              bottom: -35px;
-              left: -36px;
-              transform: rotateX(3deg);
+          .lila-box{
+            
           }
   
-          .lila-box2::before{
-              width: 125%;
-              height: 145%;
-              padding: 5% 7%;
-              bottom: -14px;
-              left: -36px;
-              transform: rotateX(3deg);
+          .lila-box2{
+              
+             
           }
+      }
+      @media (max-width: 863px) {
+        .lila-box{
+          background:none
+        }
+        .lila-box2{
+          background:none
+        }
       }
 
         @media (max-width: 768px) {
           .images+img{
             display:none;
           }
-          .lila-box::before{
-            display:none;
+          .lila-box{
+            background:none
           }
-          .lila-box2::before{
-            display:none;
+          .lila-box2{
+            background:none
           }
           h1 {
-            padding: ${props.width * 1.5}px 0 0 ${props.width-23}px;
+            padding: ${props.width * 1.5}px 0 0 ${props.width - 23}px;
           }
           h3 {
             font-size: 2em;
@@ -237,7 +221,7 @@ const Zukunft = (props) => {
             grid-column: 1 / span 2;
           }
           .img-two {
-            margin-left:${props.width-30}px;
+            margin-left:${props.width - 30}px;
             transform: translateY(-12vh);
           }
         }
@@ -278,8 +262,8 @@ const Zukunft = (props) => {
           }
         }
       `}</style>
-    </div>
-  );
+        </div>
+    );
 };
 
 export default Zukunft;
