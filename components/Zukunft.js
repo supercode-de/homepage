@@ -180,6 +180,10 @@ const Zukunft = (props) => {
             font-size: 1.3em;
           }
 
+          .info-headline {
+            width: ${props.width * 2}px;
+          }
+
           .lila-box::before{
               width: 125%;
               height: 145%;

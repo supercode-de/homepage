@@ -19,7 +19,7 @@ const CertquaBonn = () => {
           background: #fff;
           color: #5d3ede;
           font-family: "Neue_Machina_Regular_400";
-          padding: 7.2vh 5%;
+          padding: 7.2vh 6.5%;
         }
         #header-call div {
          display:flex;
