@@ -171,7 +171,8 @@ class Navigation extends Component {
 
           @media (max-width: 468px) {
             .logo {
-              margin-top: -8.5%;
+              // margin-top: -8.5%;
+              display:none;
             }
             .menu-button {
             top:7vh;
