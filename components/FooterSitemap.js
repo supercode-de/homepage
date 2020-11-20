@@ -101,7 +101,8 @@ const FooterSitemap = () => {
             background: #fff;
             color: #3dd7ac;
             font-size: 1.1em;
-            padding: 3em;
+            padding: 3em 5%;
+            width:100%;
           }
           .image-container {
             display: flex;
@@ -142,15 +143,19 @@ const FooterSitemap = () => {
             margin-bottom: 10px;
           }
           .sitemap-grid {
-            width: 80%;
             margin: 0 0 0 auto;
             display: grid;
             grid-template-columns: repeat(6, 1fr);
             grid-gap: 2rem;
           }
           @media (max-width: 1040px) {
+            #sitemap {
+              width:100%;
+            }
+          }
+          @media (max-width: 959px) {
             .sitemap-grid {
-              width: 90%;
+              grid-template-columns: repeat(3, 1fr);
             }
           }
           @media (max-width: 768px) {
