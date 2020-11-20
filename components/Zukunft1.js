@@ -97,7 +97,7 @@ const Zukunft = (props) => {
         .info-one {
         }
         .info-headline {
-          padding: 33px 9px;
+          padding: 33px 41px;
           position:relative;
         }
 
