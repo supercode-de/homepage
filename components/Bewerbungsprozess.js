@@ -174,12 +174,24 @@ const Bewerbungsprozess = (props) => {
               font-weight: 300;
             }
           }
+
           @media (max-width: 568px) {
             img {
               display: none;
             }
             .twocolumn {
               grid-template-columns: 100%;
+            }
+          }
+          @media (max-width: 468px) {
+            .center h2 {
+              font-size:3em;
+            }
+            @media (max-width: 370px) {
+              .center h2 {
+                font-size:2.5em;
+                overflow-wrap: break-word;
+              }
             }
           }
         `}

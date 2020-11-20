@@ -96,6 +96,11 @@ const FooterCallToAction = (props) => {
             height: 5em;
           }
         }
+        @media (max-width: 370px) {
+          .buttons {
+            display:block;
+          }
+        }
       `}</style>
     </div>
   );

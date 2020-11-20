@@ -375,6 +375,11 @@ const SuperStipendium = (props) => {
                 ul li {
                     font-size: 14px;
                 }
+                
+                h1 {
+                    overflow-wrap: break-word;
+                }
+                
                 }
             @media only screen and (min-width: 480px) and (max-width: 767px) {
                

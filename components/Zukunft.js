@@ -185,6 +185,9 @@ const Zukunft = (props) => {
         .lila-box2{
           background:none
         }
+        .info-headline {
+          padding: 0;
+        }
       }
 
         @media (max-width: 768px) {

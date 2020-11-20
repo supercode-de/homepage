@@ -47,7 +47,9 @@ const CertquaBonn = () => {
               }
           }
           @media (max-width: 468px) {
-          
+           h2{
+            font-size: 1.5em;
+            line-height: 42px;
           }
         }
       `}</style>

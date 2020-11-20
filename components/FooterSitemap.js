@@ -165,7 +165,10 @@ const FooterSitemap = () => {
           }
           @media (max-width: 480px) {
             .sitemap-grid {
-              grid-template-columns: repeat(2, 1fr);
+              grid-template-columns: 1fr;
+            }
+            #sitemap {
+              font-size: 1.5em;
             }
           }
         `}

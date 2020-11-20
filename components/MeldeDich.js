@@ -117,6 +117,11 @@ const MeldeDich = () => {
             font-size: 1.2em;
           }
         }
+        @media (max-width: 370px) {
+          .buttons {
+            display:block;
+          }
+        }
       `}</style>
     </div>
   );
