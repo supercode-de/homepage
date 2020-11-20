@@ -37,12 +37,14 @@ const Blog_neu = (props) => {
           <Carousel
             responsive={responsive}
             ssr
+            renderButtonGroupOutside={true}
             showDots={false}
             slidesToSlide={1}
             infinite
             containerClass="container-with-dots"
             itemClass="image-item"
             deviceType={""}
+            swipeable
           >
             {blog.map((blogitem, i) => (
               <div
@@ -112,10 +114,12 @@ const Blog_neu = (props) => {
         // Blog-item-style
         .blog-item {
           height: 500px;
+          // width: 80%;
+
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
-          margin-right: 10px;
+          margin: 0 10px;
         }
 
         .title-main-container {
