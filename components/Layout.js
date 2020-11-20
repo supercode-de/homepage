@@ -95,10 +95,10 @@ class Layout extends Component {
           }
           // Styling Carousel Blog Start
 
-          // #blog .react-multiple-carousel__arrow {
-          //   background: none;
-          //   top: -1px;
-          // }
+          #blog .react-multiple-carousel__arrow {
+            background: none;
+            // top: -1px;
+          }
           #blog .react-multiple-carousel__arrow--right {
             right: 1%;
           }

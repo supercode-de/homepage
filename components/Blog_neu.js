@@ -26,6 +26,7 @@ const responsive = {
 const Blog_neu = (props) => {
   // const width = useWindowSize().width / 12
   const pixelSize = 3;
+
   return (
     <div id="blog">
       <div className="line">
@@ -47,25 +48,33 @@ const Blog_neu = (props) => {
             swipeable
           >
             {blog.map((blogitem, i) => (
-              <div
-                className="blog-item"
-                key={i}
-                style={{
-                  background: `url(${blogitem.pic}) center/cover no-repeat`,
-                }}
-              >
-                <div className="title-main-container">
-                  <div className="title-main">
-                    <h3>{blogitem.title.main.slice(0, 100)}</h3>
-                    {/* <p>{blogitem.text.slice(0, 200)}</p> */}
+              <Link href={"/blogs/" + blogitem.id}>
+                <a target="_blank">
+                  <div
+                    className="blog-item"
+                    key={i}
+                    style={{
+                      background: `url(${blogitem.pic}) center/cover no-repeat`,
+                    }}
+                  >
+                    <div className="title-main-container">
+                      <div className="title-main">
+                        <h3>{blogitem.title.main.slice(0, 100)}</h3>
+                        <p>
+                          {blogitem.text.slice(
+                            blogitem.text.indexOf("##", 10) + 3,
+                            blogitem.text.indexOf("##", 10) + 203
+                          )}
+                          ...
+                        </p>
+                        {console.log(blogitem)}
+
+                        <p className="zum-artikel">zum Artikel</p>
+                      </div>
+                    </div>
                   </div>
-                  <div className="buttons">
-                    <Link href={"/blogs/" + blogitem.id}>
-                      <a target="_blank">zum Artikel </a>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+                </a>
+              </Link>
             ))}
           </Carousel>
         </div>
@@ -84,11 +93,11 @@ const Blog_neu = (props) => {
             #3dd7ac;
           background-size: ${props.width}px ${props.width}px;
           position: relative;
+          padding: ${props.width * 0.7}px 0;
         }
         .line {
           background: url("./img/bg-line.png") top center/cover no-repeat;
           width: 100%;
-          padding: ${props.width * 0.7}px;
         }
 
         h1 {
@@ -99,6 +108,7 @@ const Blog_neu = (props) => {
           max-width: ${props.width * 5}px;
           margin: 0;
           line-height: 4rem;
+          padding: 0 ${props.width * 0.7}px;
         }
         h1 span {
           color: transparent;
@@ -130,24 +140,37 @@ const Blog_neu = (props) => {
           transition: opacity 1.5s;
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          padding: 0 10%;
+          justify-content: flex-end;
+          align-items: flex-start;
         }
-
+        .title-main {
+          padding: 0 5%;
+        }
         .blog-item:hover .title-main-container {
           opacity: 100;
           transition: opacity 1.5s;
         }
 
+        a {
+          text-decoration: none;
+        }
         h3,
         p {
-          color: #3dd7ac;
+          color: #fff;
         }
         h3 {
+          font-size: 1.5em;
           font-weight: 300;
         }
+        .title-main:hover h3 {
+          color: #3dd7ac;
+        }
+        .zum-artikel:hover {
+          color: #3dd7ac;
+        }
+
         p {
+          padding: 10px 0;
           font-weight: 200;
         }
         // a {
@@ -159,57 +182,57 @@ const Blog_neu = (props) => {
         //   color: #3dd7ac;
         // }
 
-        .buttons {
-          text-align: center;
-          display: flex;
-          justify-content: flex-end;
-        }
-        a {
-          background: #070021;
+        // .buttons {
+        //   text-align: center;
+        //   display: flex;
+        //   justify-content: flex-end;
+        // }
+        // a {
+        //   background: #070021;
 
-          display: inline-block;
-          color: #fff;
-          text-decoration: none;
-          text-transform: uppercase;
-          padding: 5px 35px;
-          border: 1px solid #3dd7ac;
-          font-size: 0.7em;
-          font-weight: 600;
-          line-height: 1.5em;
-          margin: 10px;
-          letter-spacing: 2px;
-          transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
-          box-shadow: 0 0 0 0 transparent;
-          position: relative;
-          top: 0;
-          left: 0;
-          text-align: center;
-          min-width: 100px;
-        }
-        a:hover {
-          // margin: 10px 5px 15px 10px;
-          // margin: 10px 10px 15px 15px;
-          box-shadow: -5px 5px 0 0 #fff;
-          top: -5px;
-          left: 5px;
-        }
+        //   display: inline-block;
+        //   color: #fff;
+        //   text-decoration: none;
+        //   text-transform: uppercase;
+        //   padding: 5px 35px;
+        //   border: 1px solid #3dd7ac;
+        //   font-size: 0.7em;
+        //   font-weight: 600;
+        //   line-height: 1.5em;
+        //   margin: 10px;
+        //   letter-spacing: 2px;
+        //   transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
+        //   box-shadow: 0 0 0 0 transparent;
+        //   position: relative;
+        //   top: 0;
+        //   left: 0;
+        //   text-align: center;
+        //   min-width: 100px;
+        // }
+        // a:hover {
+        //   // margin: 10px 5px 15px 10px;
+        //   // margin: 10px 10px 15px 15px;
+        //   box-shadow: -5px 5px 0 0 #fff;
+        //   top: -5px;
+        //   left: 5px;
+        // }
 
         @media (max-width: 1040px) {
-          .translate {
-            transform: translateX(50px);
-          }
+          // .translate {
+          //   transform: translateX(50px);
+          // }
         }
         @media (max-width: 768px) {
-          .translate {
-            transform: translateX(0);
-          }
+          // .translate {
+          //   transform: translateX(0);
+          // }
         }
         @media (max-width: 468px) {
-          a {
-            padding-top: 5px;
-            font-weight: 400;
-            font-size: 0.7em;
-          }
+          // a {
+          //   padding-top: 5px;
+          //   font-weight: 400;
+          //   font-size: 0.7em;
+          // }
         }
       `}</style>
     </div>
