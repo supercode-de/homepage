@@ -7,7 +7,7 @@ const FooterCallToAction = (props) => {
     <div id="call-to-action">
       <h1>
         Worauf wartest du noch?! <br />
-        <span>Die nächsten Kurse starten im {props.month}!</span>
+        <span>Die nächsten Kurse starten im&nbsp;{props.month}!</span>
       </h1>
       <div className="buttons">
         <Link href="/">
@@ -22,20 +22,19 @@ const FooterCallToAction = (props) => {
           background: #5d3ede;
           color: #3dd7ac;
           margin: 0 auto;
-          padding: 3rem;
-          display: flex;
-          justify-content: space-around;
+          padding: 5rem 6% 2rem;
+
           font-family: "Neue_Machina_Regular_400";
         }
         h1 {
           text-transform: uppercase;
-          font-size: 3em;
-          letter-spacing: 2px;
+          font-size: 3.5em;
+          line-height: 3.8rem;
+          letter-spacing: 3px;
           margin: 0;
           display: block;
           color: transparent;
           font-weight: 300;
-          letter-spacing: 3px;
           -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #ffffff;
         }
@@ -51,55 +50,79 @@ const FooterCallToAction = (props) => {
           text-align: center;
           display: flex;
           justify-content: flex-end;
-          align-items: flex-end;
         }
+
         a {
-          display: inline-block;
-          color: #fff;
-          text-decoration: none;
-          text-transform: uppercase;
-          padding: 5px 2rem;
-          border: 1px solid #3dd7ac;
+          margin: 2em 1em;
+          font-family: "Fira Sans", sans-serif;
+          font-style: normal;
+
           font-size: 0.7em;
           font-weight: 600;
           line-height: 1.5em;
-          margin: 0.5rem;
-          letter-spacing: 2px;
-          transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
-          box-shadow: 0 0 0 0 transparent;
-          position: relative;
-          top: 0;
-          left: 0;
           text-align: center;
-          min-width: 100px;
+          // letter-spacing: 2px;
+          letter-spacing: 3.5px;
+          text-transform: uppercase;
+          padding: 10px 3rem;
+
+          background: transparent;
+          border: 1px solid #3dd7ac;
+          text-decoration: none;
+          color: #fff;
+          display: inline-block;
+          // min-width: 100px;
+          // display: flex;
+          // justify-content: center;
+          // align-items: center;
         }
         a:hover {
-          // margin: 10px 5px 15px 10px;
-          // margin: 10px 10px 15px 15px;
-          box-shadow: -5px 5px 0 0 #fff;
-          top: -5px;
-          left: 5px;
+          color: #5d3ede;
+          background: #3dd7ac;
         }
+
+        // a {
+        //   display: inline-block;
+        //   color: #fff;
+        //   text-decoration: none;
+        //   text-transform: uppercase;
+        //   padding: 5px 2rem;
+        //   border: 1px solid #3dd7ac;
+        //   font-size: 0.7em;
+        //   font-weight: 600;
+        //   line-height: 1.5em;
+        //   margin: 0.5rem;
+        //   letter-spacing: 2px;
+        //   transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
+        //   box-shadow: 0 0 0 0 transparent;
+        //   position: relative;
+        //   top: 0;
+        //   left: 0;
+        //   text-align: center;
+        //   min-width: 100px;
+        // }
+        // a:hover {
+        //   // margin: 10px 5px 15px 10px;
+        //   // margin: 10px 10px 15px 15px;
+        //   box-shadow: -5px 5px 0 0 #fff;
+        //   top: -5px;
+        //   left: 5px;
+        // }
         @media (max-width: 468px) {
           a {
-            padding-top: 5px;
             font-weight: 400;
             font-size: 1.2em;
+          }
+          .buttons {
+            display: block;
           }
         }
         @media (max-width: 768px) {
           #call-to-action {
             display: block;
           }
-          .buttons {
-            margin-top: 1em;
-            height: 5em;
-          }
         }
         @media (max-width: 370px) {
-          .buttons {
-            display:block;
-          }
         }
       `}</style>
     </div>

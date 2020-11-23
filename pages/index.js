@@ -34,8 +34,9 @@ export default function Home(props) {
             <CertquaBonn />
             <Finanzierung />
             <Bewerbungsprozess width={width} />
-            <Blog_neu width={width} />
             <MeldeDich />
+            <Blog_neu width={width} />
+
             <FAQ width={width} />
             <FooterCallToAction month={dates.VzTzMonth} />
             <FooterSitemap />

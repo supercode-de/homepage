@@ -37,14 +37,15 @@ const Finanzierung = (props) => {
             background: url("./img/Gold-Chain.png") top right/contain no-repeat,
               #070021;
             color: #fff;
-            padding: 40px 8%;
+            padding: 50px 6%;
             font-family: "Neue_Machina_Regular_400";
           }
           h2 {
             font-size: 2em;
             letter-spacing: 2px;
             color: #5d3ede;
-            margin-bottom: 100px;
+            font-weight: 300;
+            margin-bottom: 5rem;
           }
           p {
             font-weight: 400;
@@ -52,7 +53,7 @@ const Finanzierung = (props) => {
             font-size: 18px;
           }
           h1 {
-            font-size: 4em;
+            font-size: 3.5em;
             letter-spacing: 2px;
             color: #ffffff;
           }
@@ -67,19 +68,19 @@ const Finanzierung = (props) => {
           .infos {
             // width: 80%;
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 20px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
           }
           .info-headline h3 {
             color: #5d3ede;
-            font-size: 2em;
+            font-size: 1.5em;
             font-weight: 300;
           }
           .info-headline p {
             color: #3dd7ac;
             font-style: italic;
-            font-weight: 600;
-            margin-right: 60px;
+            font-weight: 500;
+            font-size: 1em;
           }
 
           @media (max-width: 936px) {

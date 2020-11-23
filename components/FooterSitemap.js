@@ -102,7 +102,7 @@ const FooterSitemap = () => {
             color: #3dd7ac;
             font-size: 1.1em;
             padding: 3em 5%;
-            width:100%;
+            width: 100%;
           }
           .image-container {
             display: flex;
@@ -150,7 +150,7 @@ const FooterSitemap = () => {
           }
           @media (max-width: 1040px) {
             #sitemap {
-              width:100%;
+              width: 100%;
             }
           }
           @media (max-width: 959px) {
@@ -165,7 +165,7 @@ const FooterSitemap = () => {
           }
           @media (max-width: 480px) {
             .sitemap-grid {
-              grid-template-columns: 1fr;
+              grid-template-columns: repeat(2, 1fr);
             }
             #sitemap {
               font-size: 1.5em;

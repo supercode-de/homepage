@@ -47,7 +47,7 @@ const UnserCampus = (props) => {
       <img src="/img/campus.svg" alt="" className="campus" />
       <img className="img-four" src="/img/_DSC2652_LowRes 14.png" alt="" />
       <div className="bg-container">
-      <img className="img-five" src="/img/_DSC2464_LowRes.png" alt="" />
+        <img className="img-five" src="/img/_DSC2464_LowRes.png" alt="" />
       </div>
       <div className="carousel">
         <Carousel
@@ -96,16 +96,13 @@ const UnserCampus = (props) => {
           // background-position: 0 0, 0 0;
           // background-size: ${props.width}px ${props.width}px;
           background: linear-gradient(
-            90deg,
-            #fff ${props.width - pixelSize}px,
-            transparent 1%
-          ),
-          linear-gradient(
-            #fff ${props.width - pixelSize}px,
-            transparent 1%
-          ),
-          #3dd7ac;
-        background-size: ${props.width}px ${props.width}px;
+              90deg,
+              #fff ${props.width - pixelSize}px,
+              transparent 1%
+            ),
+            linear-gradient(#fff ${props.width - pixelSize}px, transparent 1%),
+            #3dd7ac;
+          background-size: ${props.width}px ${props.width}px;
         }
         .two-column {
           display: grid;
@@ -121,7 +118,7 @@ const UnserCampus = (props) => {
         }
         .text-one {
           justify-self: center;
-          padding-top:35%;
+          padding-top: 35%;
         }
         h1,
         p,
@@ -130,14 +127,16 @@ const UnserCampus = (props) => {
           width: ${props.width * 3}px;
         }
         h1 span {
+          font-weight: 400;
           color: transparent;
           letter-spacing: 3px;
-          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-width: 2px;
           -webkit-text-stroke-color: #3dd7ac;
         }
         h1 {
-          font-size: 5em;
-          font-family:"Neue_Machina_Regular_400";
+          text-transform: uppercase;
+          font-size: 4em;
+          font-family: "Neue_Machina_Regular_400";
         }
         .hash-tag {
           color: #5d3ede;
@@ -149,7 +148,7 @@ const UnserCampus = (props) => {
           left: 3%;
           top: 30%;
           text-transform: uppercase;
-          color:#5D3EDE;
+          color: #5d3ede;
         }
         .text-two {
           margin-left: 50%;
@@ -177,14 +176,14 @@ const UnserCampus = (props) => {
         }
 
         .bg-container {
-          background: url('img/bg-line2.png') left/contain no-repeat;
+          background: url("img/bg-line2.png") left/contain no-repeat;
         }
         .img-six {
           width: 25%;
           margin-left: 70%;
           transform: translateY(65px);
-          position:relative;
-          z-index:99;
+          position: relative;
+          z-index: 99;
         }
         .campus {
           width: 12%;
@@ -201,7 +200,6 @@ const UnserCampus = (props) => {
         }
 
         @media (max-width: 1040px) {
-
         }
 
         @media (max-width: 768px) {
@@ -229,7 +227,9 @@ const UnserCampus = (props) => {
           .img-three,
           .img-four,
           .img-five,
-          .img-six,.campus , .aside{
+          .img-six,
+          .campus,
+          .aside {
             display: none;
           }
           .two-column {
@@ -245,7 +245,6 @@ const UnserCampus = (props) => {
         }
 
         @media (max-width: 468px) {
-    
           .carousel img {
             height: 23vh;
             width: auto;
@@ -256,7 +255,6 @@ const UnserCampus = (props) => {
           }
         }
         @media (max-width: 321px) {
-      
           .carousel img {
             height: 25vh;
           }

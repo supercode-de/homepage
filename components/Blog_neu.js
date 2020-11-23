@@ -67,7 +67,7 @@ const Blog_neu = (props) => {
                           )}
                           ...
                         </p>
-                        {console.log(blogitem)}
+                        {/* {console.log(blogitem)} */}
 
                         <p className="zum-artikel">zum Artikel</p>
                       </div>

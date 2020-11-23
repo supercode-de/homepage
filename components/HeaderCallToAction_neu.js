@@ -5,14 +5,14 @@ const HeaderCallToAction_neu = () => {
     <div id="header-call">
       <h2>
         Lerne Programmieren und werde <br />
-        <span className="bling">Junior</span> Full-Stack
-        <span className="bling2">Web-Developer*in!</span>
-        <br />–
+        <span className="bling">Junior</span> Full-Stack Web-Developer*in
+        <span className="bling2">!</span>
+        <br />–{"  "}
         <span className="super">
           jetzt auch <span className="circle">online!</span>
         </span>
       </h2>
-      <div>
+      <div className="buttons">
         <Typeform />
       </div>
       <style jsx>{`
@@ -20,19 +20,12 @@ const HeaderCallToAction_neu = () => {
           background: rgb(7, 0, 33);
           color: #fff;
           font-family: "Neue_Machina_Regular_400";
-          padding: 7.2vh 5%;
-          position: relative;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          justify-items: center;
+          padding: 2rem 7%;
         }
         h2 {
-          font-size: 5em;
-          line-height: 86px;
+          font-size: 3.8em;
+          line-height: 4.5rem;
           padding: 0 1%;
-          padding-top:2%;
-          grid-column-start: span 3;
-          justify-self: center;
         }
         h2 span.super {
           color: transparent;
@@ -41,9 +34,9 @@ const HeaderCallToAction_neu = () => {
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
-        
+
         .super,
-        .cirle,
+        .circle,
         .bling,
         .bling2 {
           position: relative;
@@ -55,9 +48,9 @@ const HeaderCallToAction_neu = () => {
           transform: rotateX(36deg);
 
           height: 300%;
-          width: 43%;
-          right: -2px;
-          bottom: -100%;
+          width: 105%;
+          right: 0;
+          bottom: -105%;
           content: "";
           display: block;
         }
@@ -82,52 +75,45 @@ const HeaderCallToAction_neu = () => {
           content: "";
           display: block;
         }
-        #header-call div {
-          grid-column: 3 / 4;
+        .buttons {
+          display: flex;
+          justify-content: flex-end;
         }
 
         @media (min-width: 1200px) {
-            h2 {
-                // font-size: 6em; 
-            }
+          h2 {
+            // font-size: 6em;
+          }
         }
 
         @media (max-width: 1040px) {
-           
-            h2 {
-                font-size: 3em;
-            }
+          h2 {
+            font-size: 3em;
+          }
         }
         @media (max-width: 768px) {
-           
-            h2 span.bling::before {
-                bottom: -0.1em;
-            }
-            h2 span.bling2::after {
-                bottom: -0.2em;
-            }
+          h2 span.bling::before {
+            bottom: -0.1em;
+          }
+          h2 span.bling2::after {
+            bottom: -0.2em;
+          }
         }
-        @media (max-width: 468px) { 
-            #header-call{
-                padding: 27% 0;
-            }
-            h2 {
-                font-size: 2.2em;
-                padding: 0 6%;
-            }
-            h2 span.bling::before {
-                bottom: -0.5em;
-                width: 1rem;
-                left: -1.2rem;
-            }
-            h2 span.bling2::after {
-                bottom: -0.5em;
-                width: 1rem;
-                right: -1.2rem;
-            }
-            #header-call div {
-            grid-column: 2 / 3;
-            }
+        @media (max-width: 468px) {
+          h2 {
+            font-size: 2.2em;
+            padding: 0 6%;
+          }
+          h2 span.bling::before {
+            bottom: -0.5em;
+            width: 1rem;
+            left: -1.2rem;
+          }
+          h2 span.bling2::after {
+            bottom: -0.5em;
+            width: 1rem;
+            right: -1.2rem;
+          }
         }
       `}</style>
     </div>

@@ -2,10 +2,10 @@ const HeaderCallToAction_neu = () => {
   return (
     <div id="header-call">
       <h2>
-        IT Weiterbildung - <br />{" "}
+        IT Weiterbildung&nbsp;- <br />
         <span className="super">
-          zertifiziert, intensiv &{" "}
-          <span className="after-span">praxisnah.</span>
+          zertifiziert, intensiv & <span className="after-span">praxisnah</span>
+          <nobr />.
           <br /> Wähle das Format, was dir am <br />
           <span className="circle">besten</span> passt
         </span>
@@ -16,29 +16,22 @@ const HeaderCallToAction_neu = () => {
           background: rgb(7, 0, 33);
           color: #fff;
           font-family: "Neue_Machina_Regular_400";
-          padding: 7.2vh 5%;
-          position: relative;
-          display: grid;
-          grid-template-columns: repeat(3, 1fr);
-          justify-items: center;
+          padding: 3vh 2% 3vh 6%;
         }
         h2 {
-          font-size: 4.8em;
-          line-height: 75px;
-          padding: 0 1%;
-          grid-column-start: span 3;
-          justify-self: center;
+          font-size: 3.5em;
+          line-height: 3.9rem;
         }
         h2 span.super {
           color: transparent;
           letter-spacing: 2px;
-          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
 
-        h2,
-        .cirle,
+      
+        .circle,
         .after-span {
           position: relative;
         }
@@ -47,7 +40,7 @@ const HeaderCallToAction_neu = () => {
           position: absolute;
           background: url("/img/vector41.svg") center/cover no-repeat;
           height: 2px;
-          width: 70%;
+          width: 105%;
           right: 0;
           bottom: 4px;
           content: "";
@@ -58,7 +51,7 @@ const HeaderCallToAction_neu = () => {
           position: absolute;
           background: url("/img/vector41.svg") center/cover no-repeat;
           height: 2px;
-          width: 50%;
+          width: 80%;
           right: 0;
           bottom: 0px;
           content: "";
@@ -69,10 +62,10 @@ const HeaderCallToAction_neu = () => {
         h2 span.circle::after {
           position: absolute;
           background: url("/img/Vector64.svg") center/contain no-repeat;
-          height: 35%;
-          width: 29%;
-          left: -4%;
-          bottom: -7%;
+          height: 300%;
+          width: 105%;
+          right: 0;
+          bottom: -100%;
           content: "";
           display: block;
         }
@@ -105,21 +98,21 @@ const HeaderCallToAction_neu = () => {
           h2 {
             font-size:3em;
           }
-          h2 span.circle::after {
-            height: 27%;
-            width: 30%;
-            left: -5%;
-            bottom: -1%;
-          }
+          // h2 span.circle::after {
+          //   height: 27%;
+          //   width: 30%;
+          //   left: -5%;
+          //   bottom: -1%;
+          // }
 
           @media (max-width: 768px) {
             
-            h2 span.circle::after {
-            height: 21%;
-            width: 23%;
-            left: -2%;
-            bottom: 2%;
-          }
+          //   h2 span.circle::after {
+          //   height: 21%;
+          //   width: 23%;
+          //   left: -2%;
+          //   bottom: 2%;
+          // }
 
           @media (max-width: 468px) { 
           
@@ -127,12 +120,12 @@ const HeaderCallToAction_neu = () => {
               font-size:2.1em;
               line-height: 37px;
             }
-            h2 span.circle::after {
-            height: 26%;
-            width: 32%;
-            left: -6%;
-            bottom: 2%;
-            }
+            // h2 span.circle::after {
+            // height: 26%;
+            // width: 32%;
+            // left: -6%;
+            // bottom: 2%;
+            // }
             h2 span.after-span::after {
             bottom: 1px;
             }
