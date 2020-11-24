@@ -381,6 +381,13 @@ const SuperStipendium = (props) => {
                 }
                 
                 }
+                @media (max-width: 320px) {
+                h1 {
+                    font-size: 3em;
+                    line-height: 36px;
+                }
+                }
+
             @media only screen and (min-width: 480px) and (max-width: 767px) {
                
                 .hide{

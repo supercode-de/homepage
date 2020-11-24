@@ -133,6 +133,12 @@ const HeaderCallToAction_neu = () => {
               bottom: -3px;
             }
           }
+          @media (max-width: 320px) {
+          h2 {
+            font-size: 2em;
+            line-height: 1.9rem;
+          }
+          }
         }
       `}</style>
     </div>

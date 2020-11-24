@@ -171,6 +171,15 @@ class Navigation extends Component {
               .logo {
                 margin-top: -4.5%;
               }
+              ul {
+                padding-left: 0;
+              }
+          }
+
+          @media (max-width: 520px) {
+            .main-navigation {
+              width:unset;
+            }
           }
 
           @media (max-width: 468px) {
@@ -186,6 +195,17 @@ class Navigation extends Component {
             a img {
               width:65%;
             }
+          }
+          @media (max-width: 400px) {
+            a img {
+              display:none;
+            }
+          }
+          @media (max-width: 349px) {
+            ul li {
+              padding-left:1em;
+            }
+           
           }
         `}</style>
       </nav>
