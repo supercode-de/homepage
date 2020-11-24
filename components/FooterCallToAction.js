@@ -7,7 +7,10 @@ const FooterCallToAction = (props) => {
     <div id="call-to-action">
       <h1>
         Worauf wartest du noch?! <br />
-        <span>Die nächsten Kurse starten im&nbsp;{props.month}!</span>
+        <span>
+          Die nächsten Kurse starten <br />
+          im&nbsp;{props.month}!
+        </span>
       </h1>
       <div className="buttons">
         <Link href="/">

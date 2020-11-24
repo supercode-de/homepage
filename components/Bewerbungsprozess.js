@@ -140,11 +140,12 @@ const Bewerbungsprozess = (props) => {
           .super-green {
             color: transparent;
             letter-spacing: 2px;
-            -webkit-text-stroke-width: 1px;
+
+            -webkit-text-stroke-width: 0.7px;
             -webkit-text-stroke-color: #30e1b9;
-            font-weight: 300;
+            font-weight: 200;
             font-size: 0.7em;
-            padding-right: 10px;
+            padding-right: 20px;
           }
           @media (max-width: 1040px) {
             .flex {

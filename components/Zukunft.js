@@ -5,11 +5,11 @@ const Zukunft = (props) => {
   const pixelSize = 2.5;
   return (
     <div id="zukunft">
-      <h1>
-        Denkst du über deine <span>Zukunft</span> nach?
-      </h1>
       <div className="infos">
         <div className="info-one">
+          <h1>
+            Denkst du über deine <span>Zukunft</span> nach?
+          </h1>
           <p>
             Wir bieten Menschen einen modernen Ansatz für lebenslanges Lernen
             und den ultimativen Skill Power-Up für eine schöne berufliche
@@ -20,29 +20,31 @@ const Zukunft = (props) => {
             Workshops!
           </p>
         </div>
-
-        <div className="info-headline lila-box">
-          <h3>
-            <Link href="/workshops">
-              <a>Workshops ⟶</a>
-            </Link>
-          </h3>
-          <p>
-            Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
-            schärfe dein Wissen in einer Programmiersprache.
-          </p>
+        <div>
+          <div className="info-headline lila-box">
+            <h3>
+              <Link href="/workshops">
+                <a>Workshops ⟶</a>
+              </Link>
+            </h3>
+            <p>
+              Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
+              schärfe dein Wissen in einer Programmiersprache.
+            </p>
+          </div>
         </div>
-
-        <div className="info-headline lila-box2">
-          <h3>
-            <Link href="/kurse">
-              <a>Bootcamps ⟶</a>
-            </Link>
-          </h3>
-          <p>
-            Intensiv, praxisnah und euphorisierend – wir machen dich fit in nur
-            5 Monaten
-          </p>
+        <div>
+          <div className="info-headline lila-box2">
+            <h3>
+              <Link href="/kurse">
+                <a>Bootcamps ⟶</a>
+              </Link>
+            </h3>
+            <p>
+              Intensiv, praxisnah und euphorisierend – wir machen dich fit in
+              nur 5 Monaten
+            </p>
+          </div>
         </div>
       </div>
       <div className="images">
@@ -64,36 +66,43 @@ const Zukunft = (props) => {
             #3dd7ac;
           background-size: ${props.width}px ${props.width}px;
           position: relative;
+          padding: 100px ${props.width}px 0 ${props.width * 1.8}px;
         }
         h1 {
-          padding: 100px 0 0 100px;
-          font-size: 4em;
+          font-size: 3.3em;
+          line-height: 55px;
           letter-spacing: 2px;
           color: #3dd7ac;
           text-transform: uppercase;
-          width: ${props.width * 5.5}px;
           margin: 0;
-          line-height: 65px;
         }
         h1 span {
           font-weight: 400;
           color: transparent;
           letter-spacing: 3px;
-          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #3dd7ac;
         }
         .infos {
           display: grid;
-          margin: 100px 8%;
-          grid-template-columns: 1fr 1fr 1fr;
-          gap: 50px;
+          grid-template-columns: 4.3fr 2.5fr 2.5fr;
+          gap: 20px 30px;
         }
+        .infos > div {
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: flex-end;
+        }
+
         .info-one {
         }
         .info-headline {
-          padding: 33px 41px;
+          padding: 4rem 2rem 2rem;
           position: relative;
-          margin-top: -9vh;
+        }
+        .info-headline p {
+          font-style: italic;
         }
 
         .lila-box {
@@ -104,29 +113,30 @@ const Zukunft = (props) => {
           background: url("/img/Vector61.png") center/100% 100% no-repeat;
         }
 
-        p {
-          font-weight: 200;
-        }
         h3 {
           color: #5d3ede;
-          font-size: 2em;
+          font-size: 1.5em;
           margin: 0;
+          font-weight: 200;
         }
+        p {
+          font-size: 1.1em;
+          font-weight: 200;
+        }
+
         a {
           color: #5d3ede;
           text-decoration: none;
         }
         .images {
           margin-top: ${props.width * 1.2}px;
-          text-align: center;
           padding-bottom: ${props.width * 2.6}px;
-          background: url("img/bg-line.png") top/cover no-repeat;
         }
         .img-one {
-          width: ${props.width * 6}px;
+          width: ${props.width * 5}px;
         }
         .img-two {
-          width: ${props.width * 4}px;
+          width: ${props.width * 3}px;
           margin-left: ${props.width - 60}px;
           margin-bottom: ${props.width - 200}px;
           transform: translateY(4vh);
@@ -189,13 +199,13 @@ const Zukunft = (props) => {
             background: none;
           }
           h1 {
-            padding: ${props.width * 1.5}px 0 0 ${props.width - 23}px;
+            // padding: ${props.width * 1.5}px 0 0 ${props.width - 23}px;
           }
           h3 {
             font-size: 2em;
           }
           p {
-            font-size: 1.8em;
+            font-size: 1.7em;
           }
           .infos {
             display: grid;

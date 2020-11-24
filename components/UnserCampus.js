@@ -130,12 +130,13 @@ const UnserCampus = (props) => {
           font-weight: 400;
           color: transparent;
           letter-spacing: 3px;
-          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #3dd7ac;
         }
         h1 {
           text-transform: uppercase;
-          font-size: 4em;
+          font-size: 3.3em;
+          line-height: 55px;
           font-family: "Neue_Machina_Regular_400";
         }
         .hash-tag {

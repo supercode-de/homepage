@@ -69,7 +69,7 @@ const Finanzierung = (props) => {
             // width: 80%;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
-            gap: 30px;
+            gap: 40px;
           }
           .info-headline h3 {
             color: #5d3ede;

@@ -95,10 +95,10 @@ const Blog_neu = (props) => {
           position: relative;
           padding: ${props.width * 0.7}px 0;
         }
-        .line {
-          background: url("./img/bg-line.png") top center/cover no-repeat;
-          width: 100%;
-        }
+        // .line {
+        //   background: url("./img/bg-line.png") top center/cover no-repeat;
+        //   width: 100%;
+        // }
 
         h1 {
           font-size: 4em;
