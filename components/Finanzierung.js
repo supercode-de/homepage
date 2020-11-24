@@ -50,7 +50,7 @@ const Finanzierung = (props) => {
           p {
             font-weight: 400;
             color: #ffffff;
-            font-size: 18px;
+            font-size: 1em;
           }
           h1 {
             font-size: 3.5em;
@@ -80,7 +80,12 @@ const Finanzierung = (props) => {
             color: #3dd7ac;
             font-style: italic;
             font-weight: 500;
-            font-size: 1em;
+          }
+
+          @media (max-width: 1024px) {
+            #finanzierung {
+              background-size: 70%;
+            }
           }
 
           @media (max-width: 936px) {
@@ -88,6 +93,9 @@ const Finanzierung = (props) => {
               display: grid;
               grid-template-columns: repeat(1, 1fr);
               gap: 20px;
+            }
+            p {
+              font-size: 1.5em;
             }
           }
 

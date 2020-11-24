@@ -6,8 +6,9 @@ const HeaderCallToAction_neu = () => {
         <span className="super">
           zertifiziert, intensiv & <span className="after-span">praxisnah</span>
           <nobr />.
-          <br /> Wähle das Format, was dir am <br />
-          <span className="circle">besten</span> passt
+          <br /> Wähle das Format, was dir am{" "}
+          <span className="circle">besten</span>
+          passt.
         </span>
       </h2>
 
@@ -20,7 +21,7 @@ const HeaderCallToAction_neu = () => {
         }
         h2 {
           font-size: 3.5em;
-          line-height: 3.9rem;
+          line-height: 1.2em ;
         }
         h2 span.super {
           color: transparent;

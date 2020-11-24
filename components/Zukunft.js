@@ -205,7 +205,7 @@ const Zukunft = (props) => {
             font-size: 2em;
           }
           p {
-            font-size: 1.7em;
+            font-size: 1.1em;
           }
           .infos {
             display: grid;

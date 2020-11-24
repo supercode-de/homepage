@@ -24,7 +24,7 @@ const HeaderCallToAction_neu = () => {
         }
         h2 {
           font-size: 3.8em;
-          line-height: 4.5rem;
+          line-height: 1.3em;
           padding: 0 1%;
         }
         h2 span.super {

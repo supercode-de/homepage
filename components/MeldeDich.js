@@ -8,7 +8,7 @@ const MeldeDich = () => {
       <h1>
         <span className="melde">Melde</span> dich noch heute, <br />
         oder mach mit bei unserem <br />
-        kostenlosen <span className="workshop">Workshop</span>.
+        kostenlosen <span className="workshop">Workshop.</span>
       </h1>
 
       <div className="buttons">
@@ -28,7 +28,7 @@ const MeldeDich = () => {
           font-size: 3.5em;
           font-weight: 400;
           letter-spacing: 2px;
-          line-height: 4rem;
+          line-height: 3.8rem;
         }
 
         .melde,
@@ -110,17 +110,22 @@ const MeldeDich = () => {
           color: #5d3ede;
           background: #3dd7ac;
         }
+        @media (max-width: 863px) {
+          h1 {
+            line-height: 2.2rem;
+          }
+        }
 
         @media (max-width: 468px) {
           a {
             font-weight: 400;
             font-size: 1.2em;
           }
-        }
-        @media (max-width: 370px) {
           .buttons {
             display: block;
           }
+        }
+        @media (max-width: 370px) {
         }
       `}</style>
     </div>

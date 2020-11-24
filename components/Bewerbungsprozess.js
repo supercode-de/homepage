@@ -150,18 +150,15 @@ const Bewerbungsprozess = (props) => {
           @media (max-width: 1040px) {
             .flex {
               font-size: 2.3em;
-              line-height: 50px;
+              line-height: 2.3rem;
             }
-            h1 {
-              font-size: 2em;
-              line-height: 40px;
+            .center h2 {
+              font-size: 3.2em;
+              line-height: 3.2rem;
             }
           }
           @media (max-width: 768px) {
-            #supercode-usp2 {
-              padding: 60px 0% 60px 6%;
-            }
-            h1 {
+            .center h2 {
               font-size: 3.5em;
             }
             p {
@@ -189,11 +186,11 @@ const Bewerbungsprozess = (props) => {
             .center h2 {
               font-size: 3em;
             }
-            @media (max-width: 370px) {
-              .center h2 {
-                font-size: 2.5em;
-                overflow-wrap: break-word;
-              }
+          }
+          @media (max-width: 370px) {
+            .center h2 {
+              font-size: 2.5em;
+              overflow-wrap: break-word;
             }
           }
         `}

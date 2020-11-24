@@ -8,6 +8,7 @@ import Zukunft from "../components/Zukunft";
 import Weiterbildung_neu from "../components/Weiterbildung_neu";
 import Bewerbungsprozess from "../components/Bewerbungsprozess";
 // import SuperPartner from "../components/SuperPartner";
+import SuperStipendium_neu from "../components/SuperStipendium_neu";
 import SuperStipendium from "../components/SuperStipendium";
 import CertquaBonn from "../components/CertquaBonn";
 import { useWindowSize } from "../components/functions/windowSize";
@@ -30,7 +31,7 @@ export default function Home(props) {
             <UnserCampus width={width} />
             <Weiterbildung_neu width={width} />
             {/* <SuperPartner width={width} /> */}
-            <SuperStipendium width={width} />
+            <SuperStipendium_neu width={width} />
             <CertquaBonn />
             <Finanzierung />
             <Bewerbungsprozess width={width} />

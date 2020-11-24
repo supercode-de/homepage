@@ -32,7 +32,7 @@ const FooterCallToAction = (props) => {
         h1 {
           text-transform: uppercase;
           font-size: 3.5em;
-          line-height: 3.8rem;
+          line-height: 1.2em;
           letter-spacing: 3px;
           margin: 0;
           display: block;
@@ -111,6 +111,12 @@ const FooterCallToAction = (props) => {
         //   top: -5px;
         //   left: 5px;
         // }
+
+        @media (max-width: 1024px) {
+          h1 {
+            font-size: 3em;
+          }
+        }
         @media (max-width: 468px) {
           a {
             font-weight: 400;

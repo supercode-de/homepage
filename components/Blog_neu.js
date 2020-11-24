@@ -107,7 +107,7 @@ const Blog_neu = (props) => {
           text-transform: uppercase;
           max-width: ${props.width * 5}px;
           margin: 0;
-          line-height: 4rem;
+          line-height: 1.2em;
           padding: 0 ${props.width * 0.7}px;
         }
         h1 span {

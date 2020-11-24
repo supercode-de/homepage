@@ -19,7 +19,7 @@ const CertquaBonn = () => {
           background: #fff;
           color: #5d3ede;
           font-family: "Neue_Machina_Regular_400";
-          padding: 10vh 6.5%;
+          padding: 3rem 6.5%;
         }
         #header-call div {
           display: flex;
@@ -33,7 +33,7 @@ const CertquaBonn = () => {
         }
         h2 {
           font-size: 2.3em;
-          line-height: 3rem;
+          line-height: 1.4em;
           font-weight: 500;
         }
         @media (max-width: 1040px) {
@@ -49,12 +49,10 @@ const CertquaBonn = () => {
         @media (max-width: 468px) {
           h2 {
             font-size: 1.5em;
-            line-height: 42px;
           }
         }
         @media (max-width: 320px) {
-          h2{
-            line-height: 28px;
+          h2 {
           }
         }
       `}</style>
