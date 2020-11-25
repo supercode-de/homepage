@@ -70,7 +70,7 @@ const Zukunft = (props) => {
         }
         h1 {
           font-size: 3.3em;
-          line-height: 55px;
+          line-height: 1.2em;
           letter-spacing: 2px;
           color: #3dd7ac;
           text-transform: uppercase;

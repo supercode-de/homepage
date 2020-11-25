@@ -55,7 +55,7 @@ const Bewerbungsprozess = (props) => {
           .center h2 {
             font-family: "Neue_Machina_Regular_400";
             font-size: 4.4em;
-            line-height: 4.5rem;
+            line-height: 1.2em;
             color: #fff;
             text-transform: uppercase;
           }
@@ -154,7 +154,6 @@ const Bewerbungsprozess = (props) => {
             }
             .center h2 {
               font-size: 3.2em;
-              line-height: 3.2rem;
             }
           }
           @media (max-width: 768px) {

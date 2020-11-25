@@ -105,7 +105,7 @@ const Blog_neu = (props) => {
           letter-spacing: 2px;
           color: #3dd7ac;
           text-transform: uppercase;
-          max-width: ${props.width * 5}px;
+          max-width: 10em;
           margin: 0;
           line-height: 1.2em;
           padding: 0 ${props.width * 0.7}px;
@@ -119,7 +119,7 @@ const Blog_neu = (props) => {
         }
 
         .blog-list {
-          padding-top: 15vh;
+          padding-top: 10vh;
         }
         // Blog-item-style
         .blog-item {
@@ -217,15 +217,27 @@ const Blog_neu = (props) => {
         //   left: 5px;
         // }
 
+        @media (max-width: 1440px) {
+          h1 {
+            max-width: 9em;
+          }
+        }
+
         @media (max-width: 1040px) {
           // .translate {
           //   transform: translateX(50px);
           // }
+          h1 {
+            max-width: 8.5em;
+          }
         }
         @media (max-width: 768px) {
           // .translate {
           //   transform: translateX(0);
           // }
+          h1 {
+            max-width: 8.9em;
+          }
         }
         @media (max-width: 468px) {
           // a {

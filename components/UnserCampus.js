@@ -136,7 +136,7 @@ const UnserCampus = (props) => {
         h1 {
           text-transform: uppercase;
           font-size: 3.3em;
-          line-height: 55px;
+          line-height: 1.2em;
           font-family: "Neue_Machina_Regular_400";
         }
         .hash-tag {

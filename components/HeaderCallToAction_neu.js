@@ -76,8 +76,11 @@ const HeaderCallToAction_neu = () => {
           display: block;
         }
         .buttons {
+          width: 100%;
+
           display: flex;
           justify-content: flex-end;
+          align-items: center;
         }
 
         @media (min-width: 1200px) {

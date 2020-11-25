@@ -25,7 +25,7 @@ const FooterCallToAction = (props) => {
           background: #5d3ede;
           color: #3dd7ac;
           margin: 0 auto;
-          padding: 5rem 6% 2rem;
+          padding: 4rem 6% 2rem;
 
           font-family: "Neue_Machina_Regular_400";
         }
@@ -52,13 +52,16 @@ const FooterCallToAction = (props) => {
         .buttons {
           text-align: center;
           display: flex;
+          width: 100%;
           justify-content: flex-end;
+          align-items: center;
         }
 
         a {
-          margin: 2em 1em;
+          margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
           font-style: normal;
+          min-width: 16em;
 
           font-size: 0.7em;
           font-weight: 600;
@@ -67,8 +70,8 @@ const FooterCallToAction = (props) => {
           // letter-spacing: 2px;
           letter-spacing: 3.5px;
           text-transform: uppercase;
-          padding: 10px 3rem;
-
+          padding: 10px 0;
+          text-align: center;
           background: transparent;
           border: 1px solid #3dd7ac;
           text-decoration: none;
