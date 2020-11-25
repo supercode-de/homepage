@@ -242,7 +242,7 @@ const SuperStipendium = (props) => {
             );
           background-position: 0 0, 0 0;
           background-size: ${props.width}px ${props.width}px;
-          padding: 4rem 0;
+          padding: 4em 0;
           position: relative;
           z-index: 99;
         }
@@ -273,8 +273,11 @@ const SuperStipendium = (props) => {
         }
 
         .stipendium-left {
-          padding: 16vh 4% 8vh 8.5%;
+          padding: 0 4% 0 8.5%;
           width: 45%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
         }
         h1 {
           font-family: "Neue_Machina_Regular_400";
@@ -431,7 +434,7 @@ const SuperStipendium = (props) => {
           }
           #super-stipendium {
             display: block;
-            padding-bottom: 2vh;
+            padding-bottom: 3em;
             padding-top: 0;
           }
           .stipendium-left {
@@ -476,7 +479,7 @@ const SuperStipendium = (props) => {
           #super-stipendium {
             display: block;
             padding-top: 0;
-            padding-bottom: 2vh;
+            padding-bottom: 3em;
           }
           .stipendium-left {
             width: 100%;
@@ -500,7 +503,7 @@ const SuperStipendium = (props) => {
         @media only screen and (min-width: 768px) and (max-width: 979px) {
           #super-stipendium {
             display: block;
-            padding-bottom: 2vh;
+            padding-bottom: 3em;
           }
           .bg-line {
             top: 1%;
@@ -523,7 +526,7 @@ const SuperStipendium = (props) => {
         @media only screen and (min-width: 980px) and (max-width: 1023px) {
           #super-stipendium {
             display: block;
-            padding-bottom: 2vh;
+            padding-bottom: 3em;
           }
           .stipendium-left {
             width: 100%;
@@ -539,7 +542,7 @@ const SuperStipendium = (props) => {
         @media only screen and (min-width: 1024px) and (max-width: 1199px) {
           #super-stipendium {
             display: block;
-            padding-bottom: 2vh;
+            padding-bottom: 3em;
           }
           .stipendium-left {
             width: 100%;
