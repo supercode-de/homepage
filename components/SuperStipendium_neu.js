@@ -200,8 +200,7 @@ const SuperStipendium = (props) => {
           transform: scale(1.05);
         }
         .stipendium-right > .stipendium-box2:hover {
-          transform: scale(1.19);
-          border-left: 2px solid #30e1b9;
+          transform: scale(1.07);
         }
         .stipendium-right > .stipendium-box1:hover h5:first-of-type {
           color: #30e1b9;
@@ -242,7 +241,7 @@ const SuperStipendium = (props) => {
             );
           background-position: 0 0, 0 0;
           background-size: ${props.width}px ${props.width}px;
-          padding: 4em 0;
+          padding: 7em 0 5em;
           position: relative;
           z-index: 99;
         }
@@ -375,6 +374,7 @@ const SuperStipendium = (props) => {
         }
 
         .stipendium-right {
+          box-sizing: border-box;
           width: 50%;
           display: flex;
           align-items: center;
@@ -383,16 +383,16 @@ const SuperStipendium = (props) => {
         .stipendium-box1 {
           background: #5d3ede;
           border: 2px solid #30e1b9;
-          padding: 2vh 4% 0 2%;
+          padding: 1em 4% 1em 2%;
           width: 50%;
           height: 100%;
         }
         .stipendium-box2 {
           width: 50%;
-          padding: 2vh 4% 0 2%;
+          padding: 1em 4% 1em 2%;
           background: #5d3ede;
           border: 2px solid #30e1b9;
-          border-left: none;
+          margin-left: -2px;
           height: 92%;
         }
         h5 {
@@ -452,7 +452,6 @@ const SuperStipendium = (props) => {
           #myCarousel .stipendium-box2 {
             width: 100%;
             border: 2px solid #30e1b9;
-            border-top: none;
           }
           .bg-line {
             display: none;
@@ -466,9 +465,19 @@ const SuperStipendium = (props) => {
           }
         }
         @media (max-width: 320px) {
+          #super-stipendium {
+            display: block;
+          }
           h1 {
             font-size: 3em;
             line-height: 36px;
+          }
+        }
+
+        @media (max-width: 479px) {
+          .stipendium-box1,
+          .stipendium-box2 {
+            margin: 0;
           }
         }
 
@@ -478,12 +487,10 @@ const SuperStipendium = (props) => {
           }
           #super-stipendium {
             display: block;
-            padding-top: 0;
-            padding-bottom: 3em;
           }
           .stipendium-left {
             width: 100%;
-            padding: 11vh 4% 8vh 8.5%;
+            padding-bottom: 3em;
           }
           .break {
             display: inline;
@@ -503,14 +510,13 @@ const SuperStipendium = (props) => {
         @media only screen and (min-width: 768px) and (max-width: 979px) {
           #super-stipendium {
             display: block;
-            padding-bottom: 3em;
           }
           .bg-line {
             top: 1%;
           }
           .stipendium-left {
             width: 100%;
-            padding: 4vh 4% 8vh 8.5%;
+            padding-bottom: 3em;
           }
           .break {
             display: inline;
@@ -526,10 +532,10 @@ const SuperStipendium = (props) => {
         @media only screen and (min-width: 980px) and (max-width: 1023px) {
           #super-stipendium {
             display: block;
-            padding-bottom: 3em;
           }
           .stipendium-left {
             width: 100%;
+            padding-bottom: 3em;
           }
           .break {
             display: inline;
@@ -542,10 +548,10 @@ const SuperStipendium = (props) => {
         @media only screen and (min-width: 1024px) and (max-width: 1199px) {
           #super-stipendium {
             display: block;
-            padding-bottom: 3em;
           }
           .stipendium-left {
             width: 100%;
+            padding-bottom: 3em;
           }
           .break {
             display: inline;

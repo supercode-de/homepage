@@ -7,8 +7,7 @@ const HeaderCallToAction_neu = () => {
           zertifiziert, intensiv & <span className="after-span">praxisnah</span>
           <nobr />.
           <br /> Wähle das Format, was dir am{" "}
-          <span className="circle">besten</span>
-          passt.
+          <span className="circle">besten</span> passt.
         </span>
       </h2>
 

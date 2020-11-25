@@ -67,6 +67,7 @@ const Bewerbungsprozess = (props) => {
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #ffffff;
           }
+
           .aside {
             position: absolute;
             transform: rotate(-90deg);
@@ -109,7 +110,6 @@ const Bewerbungsprozess = (props) => {
           .twocolumn {
             display: grid;
             grid-template-columns: 100%;
-            padding-bottom: 40px;
           }
 
           .flex img {
@@ -141,7 +141,7 @@ const Bewerbungsprozess = (props) => {
             color: transparent;
             letter-spacing: 2px;
 
-            -webkit-text-stroke-width: 0.7px;
+            -webkit-text-stroke-width: 0.6px;
             -webkit-text-stroke-color: #30e1b9;
             font-weight: 200;
             font-size: 0.7em;
