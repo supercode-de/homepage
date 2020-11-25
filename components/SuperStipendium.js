@@ -50,7 +50,7 @@ const SuperStipendium = (props) => {
             <article className="stipendium-right">
                 <div className="stipendium-box1 hide">
                     <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /></h5>
-                    <p>Start: 16.11.2020 Ende: 21.04.2021</p>
+                    <p>Start: 14.12.2020 Ende: 24.05.2021</p>
                     <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
                     <h5>Inhalte:</h5>
                     <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
@@ -84,7 +84,7 @@ const SuperStipendium = (props) => {
                     >
                         <div className="stipendium-box1">
                             <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit</h5>
-                            <p>Start: 16.11.2020 Ende: 21.04.2021</p>
+                            <p>Start: 14.12.2020 Ende: 24.05.2021</p>
                             <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
                             <h5>Inhalte:</h5>
                             <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
