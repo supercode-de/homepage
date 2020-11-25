@@ -55,7 +55,7 @@ const SuperStipendium = (props) => {
           <h5>
             Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br />
           </h5>
-          <p>Start: 16.11.2020 Ende: 21.04.2021</p>
+          <p>Start: 14.12.2020 Ende: 24.05.2021</p>
           <p>
             Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
             Web-Entwicklung verpackt in einem ultra praxisorientierten
@@ -127,7 +127,7 @@ const SuperStipendium = (props) => {
               <h5>
                 Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit
               </h5>
-              <p>Start: 16.11.2020 Ende: 21.04.2021</p>
+              <p>Start: 14.12.2020 Ende: 24.05.2021</p>
               <p>
                 Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
                 Web-Entwicklung verpackt in einem ultra praxisorientierten
