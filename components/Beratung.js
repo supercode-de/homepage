@@ -101,7 +101,7 @@ const Beratung = (props) => {
                     }
      
                     button {
-                      margin: 2em 1em;
+                      margin: 2em 1em 0;
                       font-family: "Fira Sans", sans-serif;
                       font-style: normal;
             
@@ -120,7 +120,8 @@ const Beratung = (props) => {
                       color: #fff;
                       justify-self: center;
                       display: inline-block;
-                      min-width: 100px;
+                      min-width: 16em;
+
                     }
                     button:hover {
                       color: #5d3ede;

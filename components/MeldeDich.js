@@ -21,14 +21,14 @@ const MeldeDich = () => {
         #melde-dich {
           background: #070021;
           color: #fff;
-          padding: 80px 6% 40px;
+          padding: 3em 6% 2em;
           font-family: "Neue_Machina_Regular_400";
         }
         h1 {
           font-size: 3.5em;
           font-weight: 400;
           letter-spacing: 2px;
-          line-height: 3.8rem;
+          line-height: 1.2em;
         }
 
         .melde,
@@ -81,11 +81,13 @@ const MeldeDich = () => {
         .buttons {
           text-align: center;
           display: flex;
+          width: 100%;
           justify-content: flex-end;
+          align-items: center;
         }
 
         a {
-          margin: 2em 1em;
+          margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
           font-style: normal;
 
@@ -104,7 +106,7 @@ const MeldeDich = () => {
           color: #fff;
           justify-self: center;
           display: inline-block;
-          min-width: 100px;
+          min-width: 16em;
         }
         a:hover {
           color: #5d3ede;
