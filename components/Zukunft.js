@@ -178,10 +178,10 @@ const Zukunft = (props) => {
         }
         @media (max-width: 863px) {
           .lila-box {
-            background: none;
+            // background: none;
           }
           .lila-box2 {
-            background: none;
+            // background: none;
           }
           .info-headline {
             padding: 0;
@@ -193,10 +193,10 @@ const Zukunft = (props) => {
             display: none;
           }
           .lila-box {
-            background: none;
+            // background: none;
           }
           .lila-box2 {
-            background: none;
+            // background: none;
           }
           h1 {
             // padding: ${props.width * 1.5}px 0 0 ${props.width - 23}px;

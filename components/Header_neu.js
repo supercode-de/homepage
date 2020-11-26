@@ -6,6 +6,7 @@ const JetztBewerben = (props) => {
   return (
     <div id="unser-campus">
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
+      {/* <div className="logo-name">super(code)</div> */}
 
       <div className="twocolumn">
         <div className="onecolumn">
@@ -16,7 +17,6 @@ const JetztBewerben = (props) => {
               nie
             </span> <br />{" "}
             <span className="super2">
-              {" "}
               <span className="after-span">digitaler.</span>
             </span>
           </h1>
@@ -36,6 +36,10 @@ const JetztBewerben = (props) => {
       </div>
       <style jsx>
         {`
+          .logo-name {
+            color: #fff;
+            padding-bottom: 60px;
+          }
           img + div {
             display: none;
           }
@@ -56,7 +60,7 @@ const JetztBewerben = (props) => {
             color: #ffffff;
           }
           #unser-campus {
-            padding: 100px 0 100px 10%;
+            padding: 40px 0 100px 10%;
             font-family: "Neue_Machina_Regular_400";
             position: relative;
             background-color: #5d3ede;
@@ -222,7 +226,7 @@ const JetztBewerben = (props) => {
           }
           @media (max-width: 768px) {
             #unser-campus {
-              padding: 100px 6%;
+              padding: 100px 6% 10px;
             }
             h1 {
               font-size: 3em;
@@ -242,12 +246,12 @@ const JetztBewerben = (props) => {
             .arrow {
               display: none;
             }
-            img + div {
-              display: block;
-              text-align: center;
-              margin-top: -6vh;
-              margin-bottom: -6vh;
-            }
+            // img + div {
+            //   display: block;
+            //   text-align: center;
+            //   margin-top: -6vh;
+            //   margin-bottom: -6vh;
+            // }
           }
           @media (max-width: 468px) {
             #unser-campus {
@@ -275,10 +279,10 @@ const JetztBewerben = (props) => {
             .onecolumn img:first-of-type {
               display: none;
             }
-            img + div {
-              display: block;
-              text-align: center;
-            }
+            // img + div {
+            //   display: block;
+            //   text-align: center;
+            // }
             .arrow {
               display: none;
             }

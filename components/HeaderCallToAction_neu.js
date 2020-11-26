@@ -30,7 +30,7 @@ const HeaderCallToAction_neu = () => {
         h2 span.super {
           color: transparent;
           letter-spacing: 2px;
-          -webkit-text-stroke-width: 2px;
+          -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
@@ -106,7 +106,6 @@ const HeaderCallToAction_neu = () => {
           h2 {
             font-size: 2.1em;
             padding: 0 6%;
-            line-height: 3.5rem;
           }
           h2 span.bling::before {
             bottom: -0.5em;
@@ -119,9 +118,6 @@ const HeaderCallToAction_neu = () => {
             right: -1.2rem;
           }
           @media (max-width: 320px) {
-            h2 {
-              line-height: 2.5rem;
-            }
           }
         }
       `}</style>

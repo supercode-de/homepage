@@ -1,4 +1,4 @@
-import Navigation from "./Navigation";
+import Navigation_neu from "./Navigation_neu";
 
 import Footer from "../components/Footer";
 import Banner from "../components/Banner";
@@ -43,7 +43,7 @@ class Layout extends Component {
         {this.props.oneComponent ? (
           ""
         ) : (
-          <Navigation
+          <Navigation_neu
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}
           />

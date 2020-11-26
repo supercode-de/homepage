@@ -27,12 +27,12 @@ class Navigation extends Component {
         <div className={`main-navigation ${this.state.show ? "hide" : "hide"}`}>
           <Link href="/">
             <a className="logo" style={{ color: "rgb(255, 255, 255)" }}>
-              super(code)
+              <img src="/img/Logo.png" alt="SuperCode-Logo" />
             </a>
           </Link>
 
           <ul>
-            <li>
+            {/* <li>
               <Link href="/">
                 <a>
                   <img
@@ -42,7 +42,7 @@ class Navigation extends Component {
                   />
                 </a>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link href="/kurse">
                 <a>Kurse</a>
@@ -155,7 +155,7 @@ class Navigation extends Component {
             color: #3dd7ac;
             // position: fixed;
             // left: 2.5vw;
-            padding-top: 4vh;
+            // padding-top: 4vh;
             // height: 4vmax;
             z-index: 99998;
           }
@@ -166,13 +166,13 @@ class Navigation extends Component {
 
           @media (max-width: 1040px) {
             .logo {
-              margin-top: -3%;
+              // margin-top: -3%;
             }
           }
 
           @media (max-width: 768px) {
             .logo {
-              margin-top: -4.5%;
+              // margin-top: -4.5%;
             }
             ul {
               padding-left: 0;
@@ -187,7 +187,7 @@ class Navigation extends Component {
 
           @media (max-width: 468px) {
             .logo {
-              display: none;
+              // display: none;
             }
             .menu-button {
               top: 7vh;
