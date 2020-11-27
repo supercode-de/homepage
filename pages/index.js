@@ -40,7 +40,7 @@ export default function Home(props) {
 
             <FAQ width={width} />
             <FooterCallToAction month={dates.VzTzMonth} />
-            <FooterSitemap />
+            {/* <FooterSitemap /> */}
           </main>
           <style jsx>{``}</style>
         </div>

@@ -21,7 +21,7 @@ const responsive = {
   },
 };
 const UnserCampus = (props) => {
-  const pixelSize = 2.5;
+  const pixelSize = 1.5;
   return (
     <div id="unser-campus">
       <span className="aside">Super Campus, Super Code, Super You</span>

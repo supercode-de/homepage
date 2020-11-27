@@ -160,7 +160,7 @@ const SuperStipendium = (props) => {
                 Web-Developer Front-End
                 <br /> Umfang: 30 Wochen / Teilzeit <br />
               </h5>
-              <p>Start: xx.xx.xxxx Ende: xx.xx.xxxx</p>
+              <p>Start: 24.05.2021 Ende: 23.12.2021</p>
               <p>
                 Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
                 Front-End Kurs findet abends und online statt! In 30 Wochen
@@ -210,7 +210,7 @@ const SuperStipendium = (props) => {
         .stipendium-right > .stipendium-box2:hover h5:first-of-type {
           color: #30e1b9;
           font-weight: 500;
-          opacity: 1;
+          opacity: 2;
         }
         * {
           margin: 0;
@@ -243,7 +243,7 @@ const SuperStipendium = (props) => {
           background-size: ${props.width}px ${props.width}px;
           padding: 7em 0 5em;
           position: relative;
-          z-index: 99;
+          z-index: 1;
         }
 
         .bg-line {
@@ -425,7 +425,7 @@ const SuperStipendium = (props) => {
           }
         }
 
-        @media only screen and (min-width: 300px) and (max-width: 479px) {
+        @media only screen and (max-width: 479px) {
           #myCarousel {
             display: block;
           }

@@ -6,19 +6,13 @@ const FooterCallToAction = (props) => {
   return (
     <div id="call-to-action">
       <h1>
-        Worauf wartest du noch?! <br />
-        <span>
-          Die nächsten Kurse starten <br />
-          im&nbsp;{props.month}!
-        </span>
+        Worauf wartest du noch?! Die nächsten Kurse starten im {props.month}!
       </h1>
       <div className="buttons">
-        <Link href="/">
-          <a href="">MEHR</a>
+        <Link href="/kurse">
+          <a href="">KURSE</a>
         </Link>
-        <Link href="/">
-          <a href="">KONTAKT</a>
-        </Link>
+        <Beratung />
       </div>
       <style jsx>{`
         #call-to-action {
@@ -61,7 +55,7 @@ const FooterCallToAction = (props) => {
           margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
           font-style: normal;
-          min-width: 16em;
+          min-width: 23em;
 
           font-size: 0.7em;
           font-weight: 600;
@@ -124,6 +118,8 @@ const FooterCallToAction = (props) => {
           a {
             font-weight: 400;
             font-size: 1.2em;
+            width: 16em;
+            min-width: 0;
           }
           .buttons {
             display: block;

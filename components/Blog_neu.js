@@ -25,7 +25,7 @@ const responsive = {
 
 const Blog_neu = (props) => {
   // const width = useWindowSize().width / 12
-  const pixelSize = 3;
+  const pixelSize = 1.5;
 
   return (
     <div id="blog">

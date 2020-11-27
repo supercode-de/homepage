@@ -106,7 +106,7 @@ const MeldeDich = () => {
           color: #fff;
           justify-self: center;
           display: inline-block;
-          min-width: 16em;
+          min-width: 23em;
         }
         a:hover {
           color: #5d3ede;
@@ -122,6 +122,7 @@ const MeldeDich = () => {
           a {
             font-weight: 400;
             font-size: 1.2em;
+            min-width: 15em;
           }
           .buttons {
             display: block;

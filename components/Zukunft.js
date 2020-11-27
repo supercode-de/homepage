@@ -2,7 +2,7 @@
 import Link from "next/link";
 const Zukunft = (props) => {
   // const width = useWindowSize().width / 12
-  const pixelSize = 2.5;
+  const pixelSize = 1.5;
   return (
     <div id="zukunft">
       <div className="infos">

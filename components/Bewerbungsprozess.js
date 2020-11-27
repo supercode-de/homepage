@@ -50,7 +50,7 @@ const Bewerbungsprozess = (props) => {
             color: #fff;
             line-height: 1.2em;
             position: relative;
-            z-index: 99;
+            z-index: 1;
           }
           .center h2 {
             font-family: "Neue_Machina_Regular_400";
@@ -66,6 +66,8 @@ const Bewerbungsprozess = (props) => {
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #ffffff;
+
+            word-break: break-word;
           }
 
           .aside {

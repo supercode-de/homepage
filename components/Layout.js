@@ -1,9 +1,11 @@
 import Navigation_neu from "./Navigation_neu";
 
 import Footer from "../components/Footer";
+import Footer_neu from "../components/Footer_neu";
 import Banner from "../components/Banner";
 import Head from "next/head";
 import JetztAnmdelden from "./JetztAnmelden";
+import NavigationMobile from "./NavigationMobile";
 import React, { Component } from "react";
 
 import Pixel from "./small/facebook/index";
@@ -11,9 +13,13 @@ import Pixel from "./small/facebook/index";
 class Layout extends Component {
   state = {
     isHidden: true,
+    isHiddenMobile: true,
   };
   toggleJetztAnmelden = () => {
     this.setState({ isHidden: !this.state.isHidden });
+  };
+  toggleNavigationMobile = () => {
+    this.setState({ isHiddenMobile: !this.state.isHiddenMobile });
   };
   render() {
     return (
@@ -46,6 +52,8 @@ class Layout extends Component {
           <Navigation_neu
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}
+            toggleNavigationMobile={this.toggleNavigationMobile}
+            isHiddenMobile={this.state.isHiddenMobile}
           />
         )}
         {this.props.oneComponent ? (
@@ -56,8 +64,18 @@ class Layout extends Component {
             isHidden={this.state.isHidden}
           />
         )}
+
+        {this.props.oneComponent ? (
+          ""
+        ) : (
+          <NavigationMobile
+            toggleNavigationMobile={this.toggleNavigationMobile}
+            isHiddenMobile={this.state.isHiddenMobile}
+            toggleJetztAnmelden={this.toggleJetztAnmelden}
+          />
+        )}
         {this.props.children}
-        {this.props.oneComponent ? "" : <Footer />}
+        {this.props.oneComponent ? "" : <Footer_neu />}
 
         <style jsx global>{`
           @import url("https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap");
