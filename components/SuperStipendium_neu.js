@@ -40,14 +40,15 @@ const SuperStipendium = (props) => {
           Monaten zum Web Developer Frontend oder Full Stack und steigerst deine
           Jobchancen im IT-Bereich. Egal, ob dein Studium nicht mehr zu dir
           passt, es in deinem Beruf keine Zukunft gibt oder du einfach etwas
-          ganz Neues lernen willst - Wir unterstützen dich! Von der Beratung bis
-          zum erfolgreichen Kursabschluss stehst du mit deiner Motivation,
-          deiner Geschichte und deinen Fortschritten bei uns im Mittelpunkt. Mit
-          zwei Trainer*innen pro Kurs, einem durchdachten Lehrplan, modernster
-          Technik und guten Job-Kontakten machen wir dich fit für deine Zukunkt
-          als Web Developer. No Money? No Problem! Unsere Kurse können durch die
-          Chancen eG oder einen <span>Bildungsgutschein</span> zu 100%
-          finanziert werden.
+          ganz Neues lernen willst - Wir unterstützen dich! <br />
+          <br />
+          Von der Beratung bis zum erfolgreichen Kursabschluss stehst du mit
+          deiner Motivation, deiner Geschichte und deinen Fortschritten bei uns
+          im Mittelpunkt. Mit zwei Trainer*innen pro Kurs, einem durchdachten
+          Lehrplan, modernster Technik und guten Job-Kontakten machen wir dich
+          fit für deine Zukunkt als Web Developer. No Money? No Problem! Unsere
+          Kurse können durch die Chancen eG oder einen{" "}
+          <span>Bildungsgutschein</span> zu 100% finanziert werden.
         </h4>
       </article>
       <article className="stipendium-right">
@@ -87,7 +88,7 @@ const SuperStipendium = (props) => {
             Web-Developer Front-End
             <br /> Umfang: 30 Wochen / Teilzeit <br />
           </h5>
-          <p>Start: xx.xx.xxxx Ende: xx.xx.xxxx</p>
+          <p>Start: 14.12.2020 Ende: 24.05.2021</p>
           <p>
             Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
             Front-End Kurs findet abends und online statt! In 30 Wochen lernst
