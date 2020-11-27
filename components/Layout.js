@@ -28,14 +28,7 @@ class Layout extends Component {
           <title>Super-code</title>
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link rel="alternate icon" href="/favicon.ico" />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag('event', 'conversion', {'send_to': 'AW-717378602/gPKaCOmuuuoBEKqoidYC'});
-              `,
-            }}
-          />
+
 
         </Head>
         <Pixel name='FACEBOOK_PIXEL_1' />
