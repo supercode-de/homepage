@@ -12,7 +12,7 @@ const JetztBewerben = (props) => {
         <div className="onecolumn">
           <img src="/img/_DSC2765_LowRes.png" alt="" />
           <h1>
-            <span className="super"> Prograiereszn</span>
+            <span className="super"> Programmieren</span>
             <br /> lernen war noch <span className="circle">
               nie
             </span> <br />{" "}
