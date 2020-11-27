@@ -21,9 +21,10 @@ const responsive = {
   },
 };
 const UnserCampus = (props) => {
+  const pixelSize = 1.5;
   return (
     <div id="unser-campus">
-      <span className="aside">lerne programmieren</span>
+      <span className="aside">Super Campus, Super Code, Super You</span>
       <section className="two-column">
         <div className="text-one">
           <h1>
@@ -45,7 +46,9 @@ const UnserCampus = (props) => {
       <img className="img-three" src="/img/_DSC2652_LowRes 13.png" alt="" />
       <img src="/img/campus.svg" alt="" className="campus" />
       <img className="img-four" src="/img/_DSC2652_LowRes 14.png" alt="" />
-      <img className="img-five" src="/img/_DSC2652_LowRes 11.png" alt="" />
+      <div className="bg-container">
+        <img className="img-five" src="/img/_DSC2464_LowRes.png" alt="" />
+      </div>
       <div className="carousel">
         <Carousel
           responsive={responsive}
@@ -67,30 +70,38 @@ const UnserCampus = (props) => {
             <img src="/img/_DSC2652_LowRes 14.png" alt="" />
           </div>
           <div>
-            <img src="/img/_DSC2652_LowRes 11.png" alt="" />
+            <img src="/img/_DSC2464_LowRes.png" alt="" />
           </div>
         </Carousel>
       </div>
-      <img className="img-six" src="/img/_DSC2652_LowRes 15.png" alt="" />
+      <img className="img-six" src="/img/_DSC2451_MidRes.png" alt="" />
       <style jsx>{`
         #unser-campus {
           position: relative;
           background-color: #fff;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
+          // background-image: linear-gradient(
+          //     to right,
+          //     rgba(255, 0, 0, 0.25) 0,
+          //     rgba(255, 0, 0, 0.25) 1px,
+          //     transparent 1px,
+          //     transparent 100%
+          //   ),
+          //   linear-gradient(
+          //     to bottom,
+          //     rgba(255, 0, 0, 0.25) 0,
+          //     rgba(255, 0, 0, 0.25) 1px,
+          //     transparent 1px,
+          //     transparent 100%
+          //   );
+          // background-position: 0 0, 0 0;
+          // background-size: ${props.width}px ${props.width}px;
+          background: linear-gradient(
+              90deg,
+              #fff ${props.width - pixelSize}px,
+              transparent 1%
             ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
+            linear-gradient(#fff ${props.width - pixelSize}px, transparent 1%),
+            #3dd7ac;
           background-size: ${props.width}px ${props.width}px;
         }
         .two-column {
@@ -103,8 +114,11 @@ const UnserCampus = (props) => {
         }
         .two-column img {
           align-self: center;
+          margin-top: -25%;
         }
         .text-one {
+          justify-self: center;
+          padding-top: 35%;
         }
         h1,
         p,
@@ -113,13 +127,17 @@ const UnserCampus = (props) => {
           width: ${props.width * 3}px;
         }
         h1 span {
+          font-weight: 400;
           color: transparent;
           letter-spacing: 3px;
-          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #3dd7ac;
         }
         h1 {
-          font-size: 5em;
+          text-transform: uppercase;
+          font-size: 3.3em;
+          line-height: 1.2em;
+          font-family: "Neue_Machina_Regular_400";
         }
         .hash-tag {
           color: #5d3ede;
@@ -131,6 +149,7 @@ const UnserCampus = (props) => {
           left: 3%;
           top: 30%;
           text-transform: uppercase;
+          color: #5d3ede;
         }
         .text-two {
           margin-left: 50%;
@@ -154,11 +173,18 @@ const UnserCampus = (props) => {
         .img-five {
           width: 25%;
           transform: translateY(-80px);
+          transform: translateX(20vw);
+        }
+
+        .bg-container {
+          background: url("img/bg-line2.png") left/contain no-repeat;
         }
         .img-six {
-          width: 30%;
-          margin-left: 60%;
-          transform: translateY(40px);
+          width: 25%;
+          margin-left: 70%;
+          transform: translateY(65px);
+          position: relative;
+          z-index: 99;
         }
         .campus {
           width: 12%;
@@ -173,11 +199,18 @@ const UnserCampus = (props) => {
             transform: rotate(360deg);
           }
         }
+
+        @media (max-width: 1040px) {
+        }
+
         @media (max-width: 768px) {
+          #unser-campus {
+            padding: 5% 0;
+          }
           .text-one,
           .text-two {
             padding: 0 ${props.width}px;
-            margin: 0;
+            margin-bottom: -6%;
             width: 100%;
           }
           h1 {
@@ -188,12 +221,20 @@ const UnserCampus = (props) => {
           p {
             width: 100%;
           }
+          p {
+            font-size: 1.8em;
+          }
           .img-two,
           .img-three,
           .img-four,
           .img-five,
-          .img-six {
+          .img-six,
+          .campus,
+          .aside {
             display: none;
+          }
+          .two-column {
+            grid-template-columns: 1fr;
           }
           .carousel {
             display: block;
@@ -205,14 +246,6 @@ const UnserCampus = (props) => {
         }
 
         @media (max-width: 468px) {
-          .campus {
-            width: 32%;
-
-            position: absolute;
-            bottom: 20%;
-            right: 7%;
-            margin: 0;
-          }
           .carousel img {
             height: 23vh;
             width: auto;
@@ -220,14 +253,9 @@ const UnserCampus = (props) => {
           }
           p {
             font-size: 1.3em;
-            width: 120%;
           }
         }
         @media (max-width: 321px) {
-          .campus {
-            width: 32%;
-            bottom: 17%;
-          }
           .carousel img {
             height: 25vh;
           }

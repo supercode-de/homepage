@@ -6,65 +6,129 @@ const MeldeDich = () => {
   return (
     <div id="melde-dich">
       <h1>
-        Melde dich noch heute <br />
-        oder mach’ mit bei unserem kostenlosen Workshop
+        <span className="melde">Melde</span> dich noch heute, <br />
+        oder mach mit bei unserem <br />
+        kostenlosen <span className="workshop">Workshop.</span>
       </h1>
 
       <div className="buttons">
         <Beratung />
         <Link href="/workshops">
-          <a href="">WORKSHOPS</a>
+          <a href="">WORKSHOP</a>
         </Link>
       </div>
       <style jsx>{`
         #melde-dich {
-          background: #5d3ede;
-          border: 12px solid #03000f;
-          width: 80%;
-          margin: 10vh auto;
+          background: #070021;
+          color: #fff;
+          padding: 3em 6% 2em;
+          font-family: "Neue_Machina_Regular_400";
         }
         h1 {
-          font-size: 2em;
-          color: #3dd7ac;
-          text-align: center;
+          font-size: 3.5em;
+          font-weight: 400;
+          letter-spacing: 2px;
+          line-height: 1.2em;
         }
+
+        .melde,
+        .workshop {
+          position: relative;
+        }
+
+        span.melde::before {
+          position: absolute;
+          background: url("/img/bling.png") center/contain no-repeat;
+          height: 2rem;
+          width: 20px;
+          bottom: 0.2em;
+          left: -20px;
+          content: "";
+          display: block;
+        }
+        span.melde::after {
+          position: absolute;
+          background: url("/img/bling2.png") center/contain no-repeat;
+          height: 2rem;
+          width: 20px;
+          bottom: 0.2em;
+          right: -20px;
+          content: "";
+          display: block;
+        }
+
+        span.workshop {
+          color: transparent;
+          letter-spacing: 3px;
+          font-weight: 400;
+          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-color: #fff;
+        }
+
+        span.workshop::after {
+          position: absolute;
+          background: url("/img/Vector64.svg") center/contain no-repeat;
+          transform: rotateX(50deg);
+
+          height: 300%;
+          width: 105%;
+          right: 0;
+          bottom: -100%;
+          content: "";
+          display: block;
+        }
+
         .buttons {
           text-align: center;
-          margin-bottom: 2.68em;
           display: flex;
-          justify-content: center;
+          width: 100%;
+          justify-content: flex-end;
+          align-items: center;
         }
+
         a {
-          display: inline-block;
-          color: #fff;
-          text-decoration: none;
-          text-transform: uppercase;
-          padding: 3px 10px;
-          border: 3px solid #fff;
-          font-size: 0.9em;
-          font-weight: 200;
-          margin: 10px;
-          transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
-          box-shadow: 0 0 0 0 transparent;
-          position: relative;
-          top: 0;
-          left: 0;
+          margin: 2em 1em 0;
+          font-family: "Fira Sans", sans-serif;
+          font-style: normal;
+
+          font-size: 0.7em;
+          font-weight: 600;
+          line-height: 1.5em;
           text-align: center;
-          min-width: 100px;
+          // letter-spacing: 2px;
+          letter-spacing: 3.5px;
+          text-transform: uppercase;
+          padding: 10px 50px;
+
+          background: transparent;
+          border: 1px solid #3dd7ac;
+          text-decoration: none;
+          color: #fff;
+          justify-self: center;
+          display: inline-block;
+          min-width: 23em;
         }
         a:hover {
-          // margin: 10px 5px 15px 10px;
-          // margin: 10px 10px 15px 15px;
-          box-shadow: -5px 5px 0 0 #fff;
-          top: -5px;
-          left: 5px;
+          color: #5d3ede;
+          background: #3dd7ac;
         }
+        @media (max-width: 863px) {
+          h1 {
+            line-height: 2.2rem;
+          }
+        }
+
         @media (max-width: 468px) {
           a {
-            padding-top: 5px;
             font-weight: 400;
             font-size: 1.2em;
+            min-width: 15em;
           }
+          .buttons {
+            display: block;
+          }
+        }
+        @media (max-width: 370px) {
         }
       `}</style>
     </div>

@@ -27,42 +27,17 @@ class Navigation extends Component {
         <div className={`main-navigation ${this.state.show ? "hide" : "hide"}`}>
           <Link href="/">
             <a className="logo" style={{ color: "rgb(255, 255, 255)" }}>
-              super(code)
+              <img src="/img/Logo.png" alt="SuperCode-Logo" />
             </a>
           </Link>
 
           <ul>
             <li>
-              <Link href="/">
-                <a>
-                  <img
-                    className="superCode-logo"
-                    src="/img/Super-C.png"
-                    alt=""
-                  />
-                </a>
-              </Link>
-            </li>
-            <li>
               <Link href="/kurse">
                 <a>Kurse</a>
               </Link>
             </li>
-            {/* <li>
-              <Link href="/">
-                <a>Finanzierung</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Unser Team</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/">
-                <a>Outcomes</a>
-              </Link>
-            </li> */}
+
             <li>
               <Link href="/workshops">
                 <a>Workshops</a>
@@ -70,18 +45,20 @@ class Navigation extends Component {
             </li>
             <li>
               <Link href="/#faq">
-                <a>faq</a>
+                <a>FAQ</a>
               </Link>
             </li>
             <li>
-              <img
-                className="menu-button"
-                src="/menu-button.svg"
-                alt="Menu-Button"
-                onClick={this.props.toggleJetztAnmelden}
-              />
+              <a onClick={this.props.toggleJetztAnmelden}>Kontakt</a>
             </li>
           </ul>
+
+          <img
+            className="menu-button"
+            src="/menu-button.svg"
+            alt="Menu-Button"
+            onClick={this.props.toggleNavigationMobile}
+          />
         </div>
 
         <style jsx>{`
@@ -92,6 +69,7 @@ class Navigation extends Component {
             text-transform: uppercase;
             justify-content: flex-end;
             align-items: center;
+            margin-right: 2em;
           }
           li {
             padding-left: 2em;
@@ -116,6 +94,7 @@ class Navigation extends Component {
             -webkit-text-stroke-width: 0.4px;
             -webkit-text-stroke-color: #03000f;
             transition: color 0.5s;
+            cursor: pointer;
           }
           a:visited {
             color: #fff;
@@ -135,6 +114,7 @@ class Navigation extends Component {
             justify-content: space-between;
             align-items: center;
             width: 100%;
+            // box-sizing: border-box;
             transition: background 1s, right 1s;
             position: relative;
             padding: 0 2em;
@@ -150,12 +130,13 @@ class Navigation extends Component {
             min-height: 50px;
             z-index: 99998;
             cursor: pointer;
+            display: none;
           }
           .logo {
             color: #3dd7ac;
             // position: fixed;
             // left: 2.5vw;
-            padding-top: 4vh;
+            // padding-top: 4vh;
             // height: 4vmax;
             z-index: 99998;
           }
@@ -166,48 +147,52 @@ class Navigation extends Component {
 
           @media (max-width: 1040px) {
             .logo {
-              margin-top: -3%;
+              // margin-top: -3%;
             }
           }
 
           @media (max-width: 768px) {
             .logo {
-              margin-top: -4.5%;
+              // margin-top: -4.5%;
             }
             ul {
               padding-left: 0;
+            }
+
+            ul {
+              display: none;
+            }
+            .menu-button {
+              display: unset;
             }
           }
 
           @media (max-width: 520px) {
             .main-navigation {
-              width: unset;
+              // width: unset;
             }
           }
 
           @media (max-width: 468px) {
             .logo {
-              display: none;
+              // display: none;
             }
             .menu-button {
               top: 7vh;
             }
             a {
-              font-size: 1.2em;
+              // font-size: 1.3em;
             }
             a img {
-              width: 65%;
+              // width: #65%;
             }
           }
           @media (max-width: 400px) {
             a img {
-              display: none;
+              // display: none;
             }
           }
           @media (max-width: 349px) {
-            ul li {
-              padding-left: 1em;
-            }
           }
         `}</style>
       </nav>
