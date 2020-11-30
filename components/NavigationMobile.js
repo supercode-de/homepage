@@ -67,7 +67,7 @@ const JetztAnmdelden = (props) => {
           }
 
           .navigation-mobile-container {
-            display: block;
+            // display: block;
           }
           .navigation-mobile-close {
             top: 60px;
