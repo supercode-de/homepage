@@ -240,16 +240,16 @@ const UnserCampus = (props) => {
             display: block;
           }
           .carousel img {
-            height: 20vh;
+            height: 25vh;
             width: auto;
           }
         }
 
         @media (max-width: 468px) {
           .carousel img {
-            height: 23vh;
+            height: 35vh;
             width: auto;
-            margin-bottom: 50px;
+            // margin-bottom: 50px;
           }
           p {
             font-size: 1.3em;

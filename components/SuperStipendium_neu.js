@@ -55,7 +55,7 @@ const SuperStipendium = (props) => {
         <div className="stipendium-box1 hide">
           <h5>Web-Developer Full-Stack</h5>
           <p>
-            Umfang: 22 Wochen / Vollzeit <br />
+            Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
             Start: 14.12.2020 Ende: 24.05.2021
           </p>
           <p>
@@ -77,9 +77,8 @@ const SuperStipendium = (props) => {
           </p>
           <h5>Trainer*innen:</h5>
           <p>2 Trainer*innen pro Tag</p>
-          <h5>Umfang:</h5>
+          <h5>Tage und Uhrzeit:</h5>
           <p>
-            _22 Wochen Vollzeit <br />
             _Montag bis Freitag <br />
             _09:00 - 18:00 Uhr
           </p>
@@ -87,7 +86,7 @@ const SuperStipendium = (props) => {
         <div className="stipendium-box2 hide">
           <h5>Web-Developer Front-End</h5>
           <p>
-            Umfang: 30 Wochen / Teilzeit <br />
+            Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
             Start: 14.12.2020 Ende: 24.05.2021
           </p>
           <p>
@@ -101,13 +100,12 @@ const SuperStipendium = (props) => {
             Javascript Frameworks und Libraries, CMS <br />
             <br />
             Plus Skills: Grundlagen Projekt-Management & Präsentation, Design &
-            UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.
+            UX, Learn-To-Learn, Abschlussprojekt.
           </p>
           <h5>Trainer*innen:</h5>
           <p>2 Trainer*innen pro Tag</p>
-          <h5>Umfang:</h5>
+          <h5>Tage und Uhrzeit:</h5>
           <p>
-            _30 Wochen Teilzeit <br />
             _3 Abende und jeden 2. Samstag <br />
             _In der Woche: 18:00 - 21:00 Uhr <br />
             _Samstags: 09:00 - 18:00 Uhr
@@ -128,7 +126,7 @@ const SuperStipendium = (props) => {
             <div className="stipendium-box1">
               <h5>Web-Developer Full-Stack</h5>
               <p>
-                Umfang: 22 Wochen / Vollzeit <br />
+                Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
                 Start: 14.12.2020 Ende: 24.05.2021
               </p>
               <p>
@@ -151,9 +149,8 @@ const SuperStipendium = (props) => {
               </p>
               <h5>Trainer*innen:</h5>
               <p>2 Trainer*innen pro Tag</p>
-              <h5>Umfang:</h5>
+              <h5>Tage und Uhrzeit:</h5>
               <p>
-                _22 Wochen Vollzeit <br />
                 _Montag bis Freitag <br />
                 _09:00 - 18:00 Uhr
               </p>
@@ -161,7 +158,7 @@ const SuperStipendium = (props) => {
             <div className="stipendium-box2">
               <h5>Web-Developer Front-End</h5>
               <p>
-                Umfang: 30 Wochen / Teilzeit <br />
+                Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
                 Start: 24.05.2021 Ende: 23.12.2021
               </p>
               <p>
@@ -175,14 +172,12 @@ const SuperStipendium = (props) => {
                 Javascript Frameworks und Libraries, CMS <br />
                 <br />
                 Plus Skills: Grundlagen Projekt-Management & Präsentation,
-                Design & UX, Learn-To-Learn, Bewerbungscoaching,
-                Abschlussprojekt.
+                Design & UX, Learn-To-Learn, Abschlussprojekt.
               </p>
               <h5>Trainer*innen:</h5>
               <p>2 Trainer*innen pro Tag</p>
-              <h6>Umfang:</h6>
+              <h6>Tage und Uhrzeit:</h6>
               <p>
-                _30 Wochen Teilzeit <br />
                 _3 Abende und jeden 2. Samstag <br />
                 _In der Woche: 18:00 - 21:00 Uhr <br />
                 _Samstags: 09:00 - 18:00 Uhr
@@ -381,7 +376,7 @@ const SuperStipendium = (props) => {
           width: 50%;
           display: flex;
           align-items: center;
-          padding: 9vh 3% 4vh 0;
+          padding: 9vh 0 4vh 0;
         }
         .stipendium-box1 {
           background: #5d3ede;
