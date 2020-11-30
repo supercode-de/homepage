@@ -1,7 +1,6 @@
 import Arrow from "./small/Arrow";
 import Telefon from "./small/Telefon";
 
-
 const DsgvoHeader = (props) => {
   const pixelSize = 1; // Width of Lines in Background
   const opts = {
@@ -14,7 +13,7 @@ const DsgvoHeader = (props) => {
     <div id="dsgvo">
       <h1>Datenschutz</h1>
 
-      <Telefon />
+      <Telefon color="#fff" />
       <Arrow />
 
       <style jsx>{`

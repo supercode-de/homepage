@@ -13,9 +13,7 @@ const Header_neu = (props) => {
           <img src="/img/_DSC2765_LowRes.png" alt="" />
           <h1>
             <span className="super"> Programmieren</span>
-            <br /> lernen war noch <span className="circle">
-              nie
-            </span> <br />{" "}
+            <br /> lernen war noch <span className="circle">nie</span>
             <span className="super2">
               <span className="after-span">digitaler.</span>
             </span>
@@ -145,7 +143,7 @@ const Header_neu = (props) => {
             z-index: 2;
             margin-top: -14vh;
             margin-left: -3.5vw;
-            width: 25%;
+            width: 340px;
           }
 
           h1 {

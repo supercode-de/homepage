@@ -6,9 +6,8 @@ const MeldeDich = () => {
   return (
     <div id="melde-dich">
       <h1>
-        <span className="melde">Melde</span> dich noch heute, <br />
-        oder mach mit bei unserem <br />
-        kostenlosen <span className="workshop">Workshop.</span>
+        <span className="melde">Melde</span> dich noch heute, oder mach mit bei
+        unserem kostenlosen <span className="workshop">Workshop.</span>
       </h1>
 
       <div className="buttons">
@@ -21,7 +20,7 @@ const MeldeDich = () => {
         #melde-dich {
           background: #070021;
           color: #fff;
-          padding: 3em 6% 2em;
+          padding: 3em 4em 2em;
           font-family: "Neue_Machina_Regular_400";
         }
         h1 {
@@ -29,6 +28,7 @@ const MeldeDich = () => {
           font-weight: 400;
           letter-spacing: 2px;
           line-height: 1.2em;
+          max-width: 850px;
         }
 
         .melde,
@@ -113,9 +113,6 @@ const MeldeDich = () => {
           background: #3dd7ac;
         }
         @media (max-width: 863px) {
-          h1 {
-            line-height: 2.2rem;
-          }
         }
 
         @media (max-width: 468px) {

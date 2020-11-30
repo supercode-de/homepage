@@ -1,17 +1,15 @@
 import Arrow from "./small/Arrow";
 import Telefon from "./small/Telefon";
 
-
 const LeitBildHeader = (props) => {
-    const pixelSize = 1; // Width of Lines in Background
-    return (
-        <div id="impressum">
-            <h1>Leitbild</h1>
+  const pixelSize = 1; // Width of Lines in Background
+  return (
+    <div id="impressum">
+      <h1>Leitbild</h1>
 
-            <div className="aside">📞 +49 211 7817 233-0</div>
-            <Telefon color="#fff" />
-            <Arrow />
-            <style jsx>{`
+      <Telefon color="#fff" />
+      <Arrow />
+      <style jsx>{`
         #impressum {
           background: linear-gradient(
               90deg,
@@ -51,8 +49,8 @@ const LeitBildHeader = (props) => {
           }
         }
       `}</style>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default LeitBildHeader;

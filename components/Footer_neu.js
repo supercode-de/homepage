@@ -145,6 +145,7 @@ const Footer = () => {
             letter-spacing: 2px;
             // -webkit-text-stroke-width: 0.5px;
             // -webkit-text-stroke-color: #ffffff;
+            margin: 1em 0;
           }
 
           a {
@@ -184,7 +185,6 @@ const Footer = () => {
           @media (max-width: 568px) {
             .footer-grid {
               grid-template-columns: 1fr;
-              padding-bottom: 2em;
             }
             .copyright {
               justify-content: center;
