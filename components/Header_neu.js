@@ -108,6 +108,7 @@ const Header_neu = (props) => {
             // left: 40vw;
             color: #fff;
             font-size: 1.2rem;
+            // font-weight: 500;
             width: 20vw;
             height: 3.5rem;
             display: felx;

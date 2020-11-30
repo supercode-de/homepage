@@ -184,7 +184,8 @@ const Zukunft = (props) => {
             // background: none;
           }
           .info-headline {
-            padding: 0;
+            // padding: 0;
+            padding: 35px 10px 15px;
           }
         }
 
