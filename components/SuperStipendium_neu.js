@@ -126,10 +126,11 @@ const SuperStipendium = (props) => {
             itemClass="carousel-item-padding-20-px"
           >
             <div className="stipendium-box1">
-              <h5>
-                Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit
-              </h5>
-              <p>Start: 14.12.2020 Ende: 24.05.2021</p>
+              <h5>Web-Developer Full-Stack</h5>
+              <p>
+                Umfang: 22 Wochen / Vollzeit <br />
+                Start: 14.12.2020 Ende: 24.05.2021
+              </p>
               <p>
                 Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
                 Web-Entwicklung verpackt in einem ultra praxisorientierten
@@ -158,11 +159,11 @@ const SuperStipendium = (props) => {
               </p>
             </div>
             <div className="stipendium-box2">
-              <h5>
-                Web-Developer Front-End
-                <br /> Umfang: 30 Wochen / Teilzeit <br />
-              </h5>
-              <p>Start: 24.05.2021 Ende: 23.12.2021</p>
+              <h5>Web-Developer Front-End</h5>
+              <p>
+                Umfang: 30 Wochen / Teilzeit <br />
+                Start: 24.05.2021 Ende: 23.12.2021
+              </p>
               <p>
                 Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
                 Front-End Kurs findet abends und online statt! In 30 Wochen
