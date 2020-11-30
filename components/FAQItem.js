@@ -256,6 +256,9 @@ class Collapsible extends Component {
             padding: 10px 30px 5px 0;
             font-size: 1.4em;
           }
+          .Collapsible__trigger:hover {
+            cursor: pointer;
+          }
           .Collapsible__trigger:after,
           .Collapsible__trigger.is-closed:before {
             position: absolute;

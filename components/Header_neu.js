@@ -5,9 +5,9 @@ import Typeform from "./TypeForm_neu";
 const Header_neu = (props) => {
   return (
     <div id="header">
+      <div className="super-code">super(code)</div>
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
       {/* <div className="logo-name">super(code)</div> */}
-      <div className="super-code">super(code)</div>
       <div className="twocolumn">
         <div className="onecolumn">
           <img src="/img/_DSC2765_LowRes.png" alt="" />
@@ -102,16 +102,10 @@ const Header_neu = (props) => {
           .super-code {
             position: absolute;
             top: 30px;
+
             left: 7rem;
-            // left: 40vw;
             color: #fff;
             font-size: 1.3rem;
-            // font-weight: 500;
-            height: 3.5rem;
-            display: felx;
-            align-items: center;
-            justify-content: flex-start;
-            // text-align: center;
             font-family: "Fira Sans", sans-serif;
             font-weight: bold;
           }

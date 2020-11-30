@@ -83,7 +83,7 @@ class Navigation extends Component {
             // height: 4vmax;
             transition: width 1s;
             position: relative;
-            top: 5vh;
+            top: 40px;
             z-index: 999;
           }
           a {
