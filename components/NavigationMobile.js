@@ -100,6 +100,7 @@ const JetztAnmdelden = (props) => {
             text-transform: uppercase;
             justify-content: flex-end;
             align-items: center;
+            padding: 0;
           }
           ul li {
             margin: 20px 0;
