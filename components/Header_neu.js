@@ -101,18 +101,19 @@ const Header_neu = (props) => {
 
           .super-code {
             position: absolute;
-            top: 2vh;
+            top: 30px;
             left: 7rem;
             // left: 40vw;
             color: #fff;
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             // font-weight: 500;
-            width: 20vw;
             height: 3.5rem;
             display: felx;
             align-items: center;
             justify-content: flex-start;
             // text-align: center;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: bold;
           }
 
           .twocolumn {
@@ -150,9 +151,8 @@ const Header_neu = (props) => {
             font-family: "Neue_Machina_Regular_400";
             font-size: 4em;
             color: #fff;
-            line-height: 60px;
-            margin-top: 3vh;
-            margin-left: 3vw;
+            line-height: 1.2em;
+            margin: 3vh 3vw;
           }
           h1 span.super,
           h1 span.super2 {
@@ -223,11 +223,10 @@ const Header_neu = (props) => {
 
           @media (max-width: 1040px) {
             h1 {
-              font-size: 2em;
-              line-height: 40px;
+              font-size: 2.5em;
             }
             .twocolumn {
-              margin-bottom: 40px;
+              // margin-bottom: 40px;
             }
             .twocolumn > img {
               width: 60%;
@@ -244,13 +243,16 @@ const Header_neu = (props) => {
               padding: 100px 6% 10px;
             }
             h1 {
-              font-size: 3em;
+              font-size: 4em;
               align-self: center;
               justify-self: center;
             }
             p {
               font-size: 2em;
               margin-bottom: 50px;
+            }
+            .twocolumn img:nth-child(2) {
+              margin-top: 50px;
             }
             .twocolumn + img {
               display: none;
@@ -268,20 +270,17 @@ const Header_neu = (props) => {
             //   margin-bottom: -6vh;
             // }
           }
-          @media (max-width: 468px) {
+          @media (max-width: 644px) {
             #header {
               padding: 85px 30px;
             }
-            h1 {
-              font-size: 3em;
-              line-height: 29px;
-            }
+
             p {
-              font-size: 1.3em;
+              // font-size: 1.3em;
             }
             .twocolumn {
               grid-template-columns: 1fr;
-              margin-bottom: 10px;
+              margin-bottom: 0;
             }
             .twocolumn > img {
               width: 100%;
@@ -300,6 +299,11 @@ const Header_neu = (props) => {
             // }
             .arrow {
               display: none;
+            }
+          }
+          @media (max-width: 468px) {
+            h1 {
+              font-size: 2.8em;
             }
           }
         `}
