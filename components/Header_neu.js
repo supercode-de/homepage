@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import Arrow from "./small/Arrow";
 import Typeform from "./TypeForm_neu";
 
-const JetztBewerben = (props) => {
+const Header_neu = (props) => {
   return (
-    <div id="unser-campus">
+    <div id="header">
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
       {/* <div className="logo-name">super(code)</div> */}
-
+      <div className="super-code">super(code)</div>
       <div className="twocolumn">
         <div className="onecolumn">
           <img src="/img/_DSC2765_LowRes.png" alt="" />
@@ -59,8 +59,8 @@ const JetztBewerben = (props) => {
             text-transform: uppercase;
             color: #ffffff;
           }
-          #unser-campus {
-            padding: 40px 0 100px 10%;
+          #header {
+            padding: 40px 0 40px 10%;
             font-family: "Neue_Machina_Regular_400";
             position: relative;
             background-color: #5d3ede;
@@ -101,10 +101,24 @@ const JetztBewerben = (props) => {
             color: #fff;
           }
 
+          .super-code {
+            position: absolute;
+            top: 2vh;
+            left: 7rem;
+            // left: 40vw;
+            color: #fff;
+            font-size: 1.2rem;
+            width: 20vw;
+            height: 3.5rem;
+            display: felx;
+            align-items: center;
+            justify-content: flex-start;
+            // text-align: center;
+          }
+
           .twocolumn {
             display: grid;
             grid-template-columns: 60% 40%;
-            padding-bottom: 40px;
             margin-bottom: 100px;
           }
 
@@ -117,19 +131,20 @@ const JetztBewerben = (props) => {
             grid-template-columns: 1fr;
           }
           .onecolumn img:first-of-type {
-            margin-left: 8vw;
-            margin-top: -3vh;
-            width: 42%;
+            margin-left: 11vw;
+            margin-top: 3vh;
+            width: 40%;
           }
           .twocolumn img:nth-child(2) {
-            width: 90%;
-            margin-top: 5.5vh;
+            width: 80%;
+            margin-top: 10vh;
           }
           .twocolumn + img {
             position: absolute;
             z-index: 2;
             margin-top: -14vh;
             margin-left: -3.5vw;
+            width: 25%;
           }
 
           h1 {
@@ -137,7 +152,8 @@ const JetztBewerben = (props) => {
             font-size: 4em;
             color: #fff;
             line-height: 60px;
-            margin-top: 4.5vh;
+            margin-top: 3vh;
+            margin-left: 3vw;
           }
           h1 span.super,
           h1 span.super2 {
@@ -225,7 +241,7 @@ const JetztBewerben = (props) => {
             }
           }
           @media (max-width: 768px) {
-            #unser-campus {
+            #header {
               padding: 100px 6% 10px;
             }
             h1 {
@@ -254,7 +270,7 @@ const JetztBewerben = (props) => {
             // }
           }
           @media (max-width: 468px) {
-            #unser-campus {
+            #header {
               padding: 85px 30px;
             }
             h1 {
@@ -293,4 +309,4 @@ const JetztBewerben = (props) => {
   );
 };
 
-export default JetztBewerben;
+export default Header_neu;

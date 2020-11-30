@@ -101,7 +101,7 @@ class Navigation extends Component {
           }
 
           a:hover {
-            text-decoration: underline;
+            // text-decoration: underline;
             color: #3dd7ac;
           }
           a:active {

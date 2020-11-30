@@ -53,10 +53,11 @@ const SuperStipendium = (props) => {
       </article>
       <article className="stipendium-right">
         <div className="stipendium-box1 hide">
-          <h5>
-            Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br />
-          </h5>
-          <p>Start: 14.12.2020 Ende: 24.05.2021</p>
+          <h5>Web-Developer Full-Stack</h5>
+          <p>
+            Umfang: 22 Wochen / Vollzeit <br />
+            Start: 14.12.2020 Ende: 24.05.2021
+          </p>
           <p>
             Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
             Web-Entwicklung verpackt in einem ultra praxisorientierten
@@ -84,11 +85,11 @@ const SuperStipendium = (props) => {
           </p>
         </div>
         <div className="stipendium-box2 hide">
-          <h5>
-            Web-Developer Front-End
-            <br /> Umfang: 30 Wochen / Teilzeit <br />
-          </h5>
-          <p>Start: 14.12.2020 Ende: 24.05.2021</p>
+          <h5>Web-Developer Front-End</h5>
+          <p>
+            Umfang: 30 Wochen / Teilzeit <br />
+            Start: 14.12.2020 Ende: 24.05.2021
+          </p>
           <p>
             Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
             Front-End Kurs findet abends und online statt! In 30 Wochen lernst
@@ -399,8 +400,8 @@ const SuperStipendium = (props) => {
         h5 {
           font-family: "Neue_Machina_Regular_400";
           color: #ffffff;
-          opacity: 0.7;
-          font-size: 30px;
+          // opacity: 0.7;
+          font-size: 1.2em;
           // line-height: 18px;
         }
         h5:nth-of-type(1) {
@@ -412,6 +413,7 @@ const SuperStipendium = (props) => {
           font-size: 14px;
           margin-bottom: 25px;
           line-height: 20px;
+          opacity: 0.8;
         }
         h6 {
           font-family: "Neue_Machina_Regular_400";
