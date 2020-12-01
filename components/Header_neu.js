@@ -2,20 +2,18 @@ import React, { useState, useEffect } from "react";
 import Arrow from "./small/Arrow";
 import Typeform from "./TypeForm_neu";
 
-const JetztBewerben = (props) => {
+const Header_neu = (props) => {
   return (
-    <div id="unser-campus">
+    <div id="header">
+      <div className="super-code">super(code)</div>
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
       {/* <div className="logo-name">super(code)</div> */}
-
       <div className="twocolumn">
         <div className="onecolumn">
           <img src="/img/_DSC2765_LowRes.png" alt="" />
           <h1>
             <span className="super"> Programmieren</span>
-            <br /> lernen war noch <span className="circle">
-              nie
-            </span> <br />{" "}
+            <br /> lernen war noch <span className="circle">nie</span>
             <span className="super2">
               <span className="after-span">digitaler.</span>
             </span>
@@ -59,8 +57,8 @@ const JetztBewerben = (props) => {
             text-transform: uppercase;
             color: #ffffff;
           }
-          #unser-campus {
-            padding: 40px 0 100px 10%;
+          #header {
+            padding: 40px 0 40px 10%;
             font-family: "Neue_Machina_Regular_400";
             position: relative;
             background-color: #5d3ede;
@@ -101,10 +99,20 @@ const JetztBewerben = (props) => {
             color: #fff;
           }
 
+          .super-code {
+            position: absolute;
+            top: 30px;
+
+            left: 7rem;
+            color: #fff;
+            font-size: 1.3rem;
+            font-family: "Fira Sans", sans-serif;
+            font-weight: bold;
+          }
+
           .twocolumn {
             display: grid;
             grid-template-columns: 60% 40%;
-            padding-bottom: 40px;
             margin-bottom: 100px;
           }
 
@@ -117,27 +125,28 @@ const JetztBewerben = (props) => {
             grid-template-columns: 1fr;
           }
           .onecolumn img:first-of-type {
-            margin-left: 8vw;
-            margin-top: -3vh;
-            width: 42%;
+            margin-left: 11vw;
+            margin-top: 3vh;
+            width: 40%;
           }
           .twocolumn img:nth-child(2) {
-            width: 90%;
-            margin-top: 5.5vh;
+            width: 80%;
+            margin-top: 10vh;
           }
           .twocolumn + img {
             position: absolute;
             z-index: 2;
             margin-top: -14vh;
             margin-left: -3.5vw;
+            width: 340px;
           }
 
           h1 {
             font-family: "Neue_Machina_Regular_400";
             font-size: 4em;
             color: #fff;
-            line-height: 60px;
-            margin-top: 4.5vh;
+            line-height: 1.2em;
+            margin: 3vh 3vw;
           }
           h1 span.super,
           h1 span.super2 {
@@ -208,11 +217,10 @@ const JetztBewerben = (props) => {
 
           @media (max-width: 1040px) {
             h1 {
-              font-size: 2em;
-              line-height: 40px;
+              font-size: 2.5em;
             }
             .twocolumn {
-              margin-bottom: 40px;
+              // margin-bottom: 40px;
             }
             .twocolumn > img {
               width: 60%;
@@ -225,17 +233,20 @@ const JetztBewerben = (props) => {
             }
           }
           @media (max-width: 768px) {
-            #unser-campus {
+            #header {
               padding: 100px 6% 10px;
             }
             h1 {
-              font-size: 3em;
+              font-size: 4em;
               align-self: center;
               justify-self: center;
             }
             p {
               font-size: 2em;
               margin-bottom: 50px;
+            }
+            .twocolumn img:nth-child(2) {
+              margin-top: 50px;
             }
             .twocolumn + img {
               display: none;
@@ -253,20 +264,17 @@ const JetztBewerben = (props) => {
             //   margin-bottom: -6vh;
             // }
           }
-          @media (max-width: 468px) {
-            #unser-campus {
+          @media (max-width: 644px) {
+            #header {
               padding: 85px 30px;
             }
-            h1 {
-              font-size: 3em;
-              line-height: 29px;
-            }
+
             p {
-              font-size: 1.3em;
+              // font-size: 1.3em;
             }
             .twocolumn {
               grid-template-columns: 1fr;
-              margin-bottom: 10px;
+              margin-bottom: 0;
             }
             .twocolumn > img {
               width: 100%;
@@ -287,10 +295,15 @@ const JetztBewerben = (props) => {
               display: none;
             }
           }
+          @media (max-width: 468px) {
+            h1 {
+              font-size: 2.8em;
+            }
+          }
         `}
       </style>
     </div>
   );
 };
 
-export default JetztBewerben;
+export default Header_neu;

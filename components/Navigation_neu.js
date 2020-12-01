@@ -70,6 +70,7 @@ class Navigation extends Component {
             justify-content: flex-end;
             align-items: center;
             margin-right: 2em;
+            padding-left: 0;
           }
           li {
             padding-left: 2em;
@@ -82,7 +83,7 @@ class Navigation extends Component {
             // height: 4vmax;
             transition: width 1s;
             position: relative;
-            top: 5vh;
+            top: 40px;
             z-index: 999;
           }
           a {
@@ -101,7 +102,7 @@ class Navigation extends Component {
           }
 
           a:hover {
-            text-decoration: underline;
+            // text-decoration: underline;
             color: #3dd7ac;
           }
           a:active {
@@ -117,7 +118,7 @@ class Navigation extends Component {
             // box-sizing: border-box;
             transition: background 1s, right 1s;
             position: relative;
-            padding: 0 2em;
+            padding: 0 25px;
             position: fixed;
             top: 5;
             z-index: 999;
@@ -146,19 +147,9 @@ class Navigation extends Component {
           }
 
           @media (max-width: 1040px) {
-            .logo {
-              // margin-top: -3%;
-            }
           }
 
           @media (max-width: 768px) {
-            .logo {
-              // margin-top: -4.5%;
-            }
-            ul {
-              padding-left: 0;
-            }
-
             ul {
               display: none;
             }
@@ -168,29 +159,11 @@ class Navigation extends Component {
           }
 
           @media (max-width: 520px) {
-            .main-navigation {
-              // width: unset;
-            }
           }
 
           @media (max-width: 468px) {
-            .logo {
-              // display: none;
-            }
-            .menu-button {
-              top: 7vh;
-            }
-            a {
-              // font-size: 1.3em;
-            }
-            a img {
-              // width: #65%;
-            }
           }
           @media (max-width: 400px) {
-            a img {
-              // display: none;
-            }
           }
           @media (max-width: 349px) {
           }

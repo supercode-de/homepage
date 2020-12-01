@@ -42,7 +42,6 @@ const JetztAnmdelden = (props) => {
         {`
           #navigation-mobile {
             position: fixed;
-            padding: 5em;
             background: #03000f;
             top: 0;
             bottom: 0;
@@ -50,10 +49,10 @@ const JetztAnmdelden = (props) => {
             overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
+            height: 200vh;
             z-index: 99998;
             display: flex;
             justify-content: center;
-            align-items: center;
             font-family: "Neue_Machina_Regular_400";
           }
           .isHidden {
@@ -67,7 +66,11 @@ const JetztAnmdelden = (props) => {
           }
 
           .navigation-mobile-container {
-            display: block;
+            padding: 5em;
+            // display: block;
+            height: 100vh;
+            display: flex;
+            align-items: center;
           }
           .navigation-mobile-close {
             top: 60px;
@@ -100,6 +103,7 @@ const JetztAnmdelden = (props) => {
             text-transform: uppercase;
             justify-content: flex-end;
             align-items: center;
+            padding: 0;
           }
           ul li {
             margin: 20px 0;

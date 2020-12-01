@@ -53,10 +53,11 @@ const SuperStipendium = (props) => {
       </article>
       <article className="stipendium-right">
         <div className="stipendium-box1 hide">
-          <h5>
-            Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br />
-          </h5>
-          <p>Start: 14.12.2020 Ende: 24.05.2021</p>
+          <h5>Web-Developer Full-Stack</h5>
+          <p>
+            Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
+            Start: 14.12.2020 Ende: 24.05.2021
+          </p>
           <p>
             Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
             Web-Entwicklung verpackt in einem ultra praxisorientierten
@@ -76,19 +77,18 @@ const SuperStipendium = (props) => {
           </p>
           <h5>Trainer*innen:</h5>
           <p>2 Trainer*innen pro Tag</p>
-          <h5>Umfang:</h5>
+          <h5>Tage und Uhrzeit:</h5>
           <p>
-            _22 Wochen Vollzeit <br />
             _Montag bis Freitag <br />
             _09:00 - 18:00 Uhr
           </p>
         </div>
         <div className="stipendium-box2 hide">
-          <h5>
-            Web-Developer Front-End
-            <br /> Umfang: 30 Wochen / Teilzeit <br />
-          </h5>
-          <p>Start: 14.12.2020 Ende: 24.05.2021</p>
+          <h5>Web-Developer Front-End</h5>
+          <p>
+            Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
+            Start: 14.12.2020 Ende: 24.05.2021
+          </p>
           <p>
             Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
             Front-End Kurs findet abends und online statt! In 30 Wochen lernst
@@ -100,13 +100,12 @@ const SuperStipendium = (props) => {
             Javascript Frameworks und Libraries, CMS <br />
             <br />
             Plus Skills: Grundlagen Projekt-Management & Präsentation, Design &
-            UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.
+            UX, Learn-To-Learn, Abschlussprojekt.
           </p>
           <h5>Trainer*innen:</h5>
           <p>2 Trainer*innen pro Tag</p>
-          <h5>Umfang:</h5>
+          <h5>Tage und Uhrzeit:</h5>
           <p>
-            _30 Wochen Teilzeit <br />
             _3 Abende und jeden 2. Samstag <br />
             _In der Woche: 18:00 - 21:00 Uhr <br />
             _Samstags: 09:00 - 18:00 Uhr
@@ -125,10 +124,11 @@ const SuperStipendium = (props) => {
             itemClass="carousel-item-padding-20-px"
           >
             <div className="stipendium-box1">
-              <h5>
-                Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit
-              </h5>
-              <p>Start: 14.12.2020 Ende: 24.05.2021</p>
+              <h5>Web-Developer Full-Stack</h5>
+              <p>
+                Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
+                Start: 14.12.2020 Ende: 24.05.2021
+              </p>
               <p>
                 Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
                 Web-Entwicklung verpackt in einem ultra praxisorientierten
@@ -149,19 +149,18 @@ const SuperStipendium = (props) => {
               </p>
               <h5>Trainer*innen:</h5>
               <p>2 Trainer*innen pro Tag</p>
-              <h5>Umfang:</h5>
+              <h5>Tage und Uhrzeit:</h5>
               <p>
-                _22 Wochen Vollzeit <br />
                 _Montag bis Freitag <br />
                 _09:00 - 18:00 Uhr
               </p>
             </div>
             <div className="stipendium-box2">
-              <h5>
-                Web-Developer Front-End
-                <br /> Umfang: 30 Wochen / Teilzeit <br />
-              </h5>
-              <p>Start: 24.05.2021 Ende: 23.12.2021</p>
+              <h5>Web-Developer Front-End</h5>
+              <p>
+                Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
+                Start: 24.05.2021 Ende: 23.12.2021
+              </p>
               <p>
                 Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
                 Front-End Kurs findet abends und online statt! In 30 Wochen
@@ -173,14 +172,12 @@ const SuperStipendium = (props) => {
                 Javascript Frameworks und Libraries, CMS <br />
                 <br />
                 Plus Skills: Grundlagen Projekt-Management & Präsentation,
-                Design & UX, Learn-To-Learn, Bewerbungscoaching,
-                Abschlussprojekt.
+                Design & UX, Learn-To-Learn, Abschlussprojekt.
               </p>
               <h5>Trainer*innen:</h5>
               <p>2 Trainer*innen pro Tag</p>
-              <h6>Umfang:</h6>
+              <h6>Tage und Uhrzeit:</h6>
               <p>
-                _30 Wochen Teilzeit <br />
                 _3 Abende und jeden 2. Samstag <br />
                 _In der Woche: 18:00 - 21:00 Uhr <br />
                 _Samstags: 09:00 - 18:00 Uhr
@@ -379,7 +376,7 @@ const SuperStipendium = (props) => {
           width: 50%;
           display: flex;
           align-items: center;
-          padding: 9vh 3% 4vh 0;
+          padding: 9vh 0 4vh 0;
         }
         .stipendium-box1 {
           background: #5d3ede;
@@ -399,8 +396,8 @@ const SuperStipendium = (props) => {
         h5 {
           font-family: "Neue_Machina_Regular_400";
           color: #ffffff;
-          opacity: 0.7;
-          font-size: 30px;
+          // opacity: 0.7;
+          font-size: 1.2em;
           // line-height: 18px;
         }
         h5:nth-of-type(1) {
@@ -412,6 +409,7 @@ const SuperStipendium = (props) => {
           font-size: 14px;
           margin-bottom: 25px;
           line-height: 20px;
+          opacity: 0.8;
         }
         h6 {
           font-family: "Neue_Machina_Regular_400";

@@ -5,8 +5,7 @@ const HeaderCallToAction_neu = () => {
         IT Weiterbildung&nbsp;- <br />
         <span className="super">
           zertifiziert, intensiv & <span className="after-span">praxisnah</span>
-          <nobr />.
-          <br /> Wähle das Format, was dir am{" "}
+          <nobr />. Wähle das Format, was dir am{" "}
           <span className="circle">besten</span> passt.
         </span>
       </h2>
@@ -20,7 +19,8 @@ const HeaderCallToAction_neu = () => {
         }
         h2 {
           font-size: 3.5em;
-          line-height: 1.2em ;
+          line-height: 1.2em;
+          max-width: 1100px;
         }
         h2 span.super {
           color: transparent;
@@ -30,7 +30,6 @@ const HeaderCallToAction_neu = () => {
           font-weight: 300;
         }
 
-      
         .circle,
         .after-span {
           position: relative;
@@ -94,51 +93,47 @@ const HeaderCallToAction_neu = () => {
           grid-column: 3 / 4;
         }
         @media (max-width: 1040px) {
-        
-          h2 {
-            font-size:3em;
-          }
+          // h2 {
+          //   font-size: 3em;
+          // }
           // h2 span.circle::after {
           //   height: 27%;
           //   width: 30%;
           //   left: -5%;
           //   bottom: -1%;
           // }
-
-          @media (max-width: 768px) {
-            
+        }
+        @media (max-width: 768px) {
           //   h2 span.circle::after {
           //   height: 21%;
           //   width: 23%;
           //   left: -2%;
           //   bottom: 2%;
           // }
-
-          @media (max-width: 468px) { 
-          
-            h2 {
-              font-size:2.1em;
-              line-height: 37px;
-            }
-            // h2 span.circle::after {
-            // height: 26%;
-            // width: 32%;
-            // left: -6%;
-            // bottom: 2%;
-            // }
-            h2 span.after-span::after {
-            bottom: 1px;
-            }
-            h2 span.after-span::before {
-              bottom: -3px;
-            }
-          }
-          @media (max-width: 320px) {
-          h2 {
-            font-size: 2em;
-            line-height: 1.9rem;
-          }
-          }
+        }
+        @media (max-width: 468px) {
+          // h2 {
+          //   font-size: 2.1em;
+          //   line-height: 37px;
+          // }
+          // h2 span.circle::after {
+          // height: 26%;
+          // width: 32%;
+          // left: -6%;
+          // bottom: 2%;
+          // }
+          // h2 span.after-span::after {
+          // bottom: 1px;
+          // }
+          // h2 span.after-span::before {
+          //   bottom: -3px;
+          // }
+        }
+        @media (max-width: 320px) {
+          // h2 {
+          //   font-size: 2em;
+          //   line-height: 1.9rem;
+          // }
         }
       `}</style>
     </div>

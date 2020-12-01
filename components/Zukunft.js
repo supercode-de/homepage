@@ -66,7 +66,7 @@ const Zukunft = (props) => {
             #3dd7ac;
           background-size: ${props.width}px ${props.width}px;
           position: relative;
-          padding: 100px ${props.width}px 0 ${props.width * 1.8}px;
+          padding: 100px ${props.width}px 5px ${props.width * 1.8}px;
         }
         h1 {
           font-size: 3.3em;
@@ -184,7 +184,8 @@ const Zukunft = (props) => {
             // background: none;
           }
           .info-headline {
-            padding: 0;
+            // padding: 0;
+            padding: 35px 10px 15px;
           }
         }
 

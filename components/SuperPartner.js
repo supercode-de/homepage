@@ -73,7 +73,6 @@ const SuperPartner = (props) => {
               <img src="/img/Erasmus_Partnerlabel_BB_web.jpg" alt="super7000" />
             </a>
           </Link>
-
         </Carousel>
         {/* </div> */}
       </div>
@@ -97,25 +96,22 @@ const SuperPartner = (props) => {
           padding: 8vh 10%;
           display: flex;
           flex-direction: column;
-          background-image:
-                linear-gradient(
-                to right,
-                rgba(255, 0, 0, 0.25) 0,
-                rgba(255, 0, 0, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-                ),
-                linear-gradient(
-                to bottom,
-                rgba(255, 0, 0, 0.25) 0,
-                rgba(255, 0, 0, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-                )
-            ;
-            background-position: 0 0, 0 0;
-            background-size: ${props.width}px ${props.width}px;
-          
+          background-image: linear-gradient(
+              to right,
+              rgba(255, 0, 0, 0.25) 0,
+              rgba(255, 0, 0, 0.25) 1px,
+              transparent 1px,
+              transparent 100%
+            ),
+            linear-gradient(
+              to bottom,
+              rgba(255, 0, 0, 0.25) 0,
+              rgba(255, 0, 0, 0.25) 1px,
+              transparent 1px,
+              transparent 100%
+            );
+          background-position: 0 0, 0 0;
+          background-size: ${props.width}px ${props.width}px;
         }
         h1 {
           font-size: 2rem;
@@ -126,12 +122,11 @@ const SuperPartner = (props) => {
           width: 175px !important;
           display: block;
           margin: 0 auto;
-          transition: transform .5s;
+          transition: transform 0.5s;
         }
-        
-        
+
         img:hover {
-          transform: scale(1.05)
+          transform: scale(1.05);
           // box-shadow: 2px 2px 0 #000
         }
         .partner-container {
@@ -140,23 +135,23 @@ const SuperPartner = (props) => {
           align-items: center;
           grid-gap: 5%;
         }
-        
-      #qualitat {
-        margin-top:100px
-      }
-      #qualitat div{
-          border:4px solid #03000f;
-          padding:20px;
-          text-align:center
-      }
-      p {
+
+        #qualitat {
+          margin-top: 100px;
+        }
+        #qualitat div {
+          border: 4px solid #03000f;
+          padding: 20px;
+          text-align: center;
+        }
+        p {
           font-weight: 400;
-          color:#03000f;
-          font-size:20px
-      }
-      h3{
-          color:#3DD7AC
-      }
+          color: #03000f;
+          font-size: 20px;
+        }
+        h3 {
+          color: #3dd7ac;
+        }
         @media (max-width: 768px) {
           #call-to-action {
             display: block;
@@ -165,19 +160,17 @@ const SuperPartner = (props) => {
             margin-top: 1em;
             height: 5em;
           }
-          @media (max-width: 468px) {
-            .partner-container{
-              
-              grid-template-columns: repeat(3,1fr);
-              grid-gap: 10%;
-              margin-top: -5%;
-
-              
+        }
+        @media (max-width: 468px) {
+          .partner-container {
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10%;
+            margin-top: -5%;
           }
           img {
-            margin-top:20px;
+            margin-top: 20px;
             width: 120%;
-        }
+          }
         }
       `}</style>
     </div>
