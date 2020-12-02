@@ -1,19 +1,16 @@
-
 const blog3 = `# “Crazy, cool people!””
-## Ein Interview mit Adriaan van der Bergh, unserem Super-Master Trainer und
-Innovation-Geek
+## Ein Interview mit Adriaan van der Bergh, unserem Super-Master Trainer und Innovation-Geek
 
 Er kommt mit einem selbstfahrenden Longboard zur Arbeit, begeistert seine
 Kursteilnehmer*innen mit technischen Gimmicks und hat diesen coolen, undefinierbaren
 Akzent. Wer ist dieser sympathische, junggebliebene Typ mit dem Pferdeschwanz und den
 Geschichten aus aller Welt? Hier im Blog-interview lernt ihr ihn ein bisschen kennen.
 
-![blog3](/img/blogs/image6.png )
+![blog3](/img/blogs/image6.png)
 
-Unser Super-Master-Trainer Adriaan in seinem Raumschiff
+_Unser Super-Master-Trainer Adriaan in seinem Raumschiff_
 
-_Hallo Adriaan. Du bist ausgebildeter Lehrer, zertifizierter Entwickler und unterrichtest nun
-Webentwicklung bei SuperCode. Wie kam es zu dieser Kombination?_
+### Hallo Adriaan. Du bist ausgebildeter Lehrer, zertifizierter Entwickler und unterrichtest nun Webentwicklung bei SuperCode. Wie kam es zu dieser Kombination?
 
 Naja, ein Geek war ich eigentlich schon als Kind. Ich bin in Südafrika in den 70er Jahren
 geboren und aufgewachsen und das Land war geprägt von Restriktionen und der Apartheid.
@@ -42,8 +39,7 @@ Ach ja, parallel machte ich mein Masterstudium Education in Technology und grün
 kleine Firma für educational Web-Apps, für die ich immerhin 10.000 User in den USA finden
 konnte.
 
-_Wow, das ist eine spannende Lebensgeschichte. Wie bist du dann zu SuperCode
-gekommen?_
+### Wow, das ist eine spannende Lebensgeschichte. Wie bist du dann zu SuperCode gekommen?
 
 Ich wollte schon länger einen beruflichen Wechsel und habe mich viel mit Webentwicklung
 beschäftigt. Ursprünglich habe ich einen Coworking Space gesucht, um an meinen
@@ -52,8 +48,7 @@ habe mir die Homepage angeschaut und dachte: coole Firma, coole Leute, das passt
 Also habe ich mich als Master-Trainer beworben, Gespräche geführt und Anfang des Jahres
 ging es dann los!
 
-_Du bist seit Januar 2020 unser Super-Master-Trainer für den Teilzeit-Kurs Web-Entwicklung
-und hast auch noch andere Aufgaben übernommen. Wie fühlst du dich?_
+### Du bist seit Januar 2020 unser Super-Master-Trainer für den Teilzeit-Kurs Web-Entwicklung und hast auch noch andere Aufgaben übernommen. Wie fühlst du dich?
 
 Ich fühle mich sehr gut, weil die Lern- und Arbeitsatmosphäre modern und locker ist. In der
 Erwachsenenbildung sind wir alle auf Augenhöhe. Ich mag es, über neue
@@ -68,8 +63,7 @@ Kombination aus analogem und digitalem Lernen vereinfacht die Interaktion und er
 schnelles Feedback. Ich gebe auch regelmäßig interne Workshops für die anderen
 Trainer*innen im Bereich Methodik und Didaktik.
 
-_Wie war für dich die Umstellung der Kurse auf 100% online remote im Zuge der Corona-
-Krise?_
+### Wie war für dich die Umstellung der Kurse auf 100% online remote im Zuge der Corona-Krise?
 
 In kürzester Zeit haben wir alles auf reines online-Training umgestellt. Für mich persönlich
 war das kein Problem, weil mein Kurs bereits vorher zwei Tage die Woche auch online
@@ -86,7 +80,7 @@ Wir haben es sogar geschafft am Hackathon der Bundesregierung teilzunehmen und h
 in Gruppenarbeit zwei tolle Projekte an den Start gebracht. Für die Teilnehmenden war das
 eine gute Übung online zusammen zu arbeiten.
 
-_Was gefällt dir am Besten bei Supercode?_
+### Was gefällt dir am Besten bei Supercode?
 
 Crazy cool people, die viel Spaß bei der Arbeit haben! SuperCode ist eine junge, frische
 Firma, wo jede*r gehört wird und jede*r sich einbringen kann. Alle sind offen gegenüber
@@ -105,7 +99,6 @@ Das Interview führte Natalie Streich
 
 
 
-`
+`;
 
-
-export default blog3
+export default blog3;

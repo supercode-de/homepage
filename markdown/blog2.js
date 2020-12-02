@@ -1,16 +1,14 @@
-
 const blog2 = `# "Als Web-Entwicklerin werde ich mein ganzes Leben lang lernen - und ich habe gelernt wie das geht!"
 
 
-Ein Interview mit Rihab al-Yasiri über ihren Berufseinstieg als frisch gebackene
-SuperWebentwicklerin
+## Ein Interview mit Rihab al-Yasiri über ihren Berufseinstieg als frisch gebackene SuperWebentwicklerin
 
 Rihab war Teilnehmerin unseres ersten Bootcamps Webentwicklung und arbeitet seit März
 2020 bei der Provinzial Versicherung als Webentwicklerin. Hier im Interview berichtet sie von
 ihren Ups and Downs beim Coden, ihren Erfolg beim Hackathon der Provinzial und ihren
 Erfahrungen bei der Jobsuche.
 
-Hallo Rihab. Wie fühlst du dich in deiner neuen Position?
+### Hallo Rihab. Wie fühlst du dich in deiner neuen Position?
 
 Ich fühle mich super und wie eine richtige Entwicklerin! Dieses Gefühlt hat mir lange gefehlt -
 und das obwohl ich seit dem Wintersemester 2018 Informatik studiere. In den letzten Jahren
@@ -26,7 +24,7 @@ wollte andere Menschen treffen und gemeinsam das Coden lernen. Ich habe mich sof
 total wohl gefühlt. Am Bootcamp teilzunehmen war die beste Entscheidung meines Lebens.
 Für den Berufseinstieg habe ich dadurch ganz andere Möglichkeiten bekommen.";
 
-Dann hattest du also schon Vorkenntnisse als du das Bootcamp begonnen hast?
+### Dann hattest du also schon Vorkenntnisse als du das Bootcamp begonnen hast?
 
 Ja, ich konnte schon etwas HTML, CSS und JAVA aus meinem Studium. Daher war der
 Einstieg für mich etwas leichter als für die anderen Teilnehmer*innen. Als wir dann aber
@@ -35,8 +33,7 @@ total spannend, weil ich immer gerne Neues lerne und andererseits auch anstrenge
 Glück waren die Trainer sehr empathisch und haben nach komplexen Programminhalten
 dann auch mal andere Themen wie Design-Thinking durchgenommen.
 
-Es heißt ja nicht ohne Grund “Bootcamp Webentwicklung” ;-). Was waren deine Ups and
-Downs in der Zeit bei uns?
+### Es heißt ja nicht ohne Grund “Bootcamp Webentwicklung” ;-). Was waren deine Ups and Downs in der Zeit bei uns?
 
 Ich habe mich jeden einzelnen Tag auf das Training gefreut. Wir waren alle in der gleichen
 Situation, halfen uns gegenseitig und ich konnte alles fragen. Wir waren wie eine Familie,
@@ -49,9 +46,7 @@ In den 3 Monaten Bootcamp hatte ich quasi kein Leben. Alles dreht sich ums Coden
 haben jeden Tag Projekte gemacht. Aber ich wusste, worauf ich mich einlasse und alles hat
 funktioniert. Das hat mir sehr viel Freude gemacht.
 
-Im November 2019 hast du am Hackathon der Provinzial Versicherung - deinem jetzigen
-Arbeitgeber - teilgenommen und den ersten Platz im Bereich "I love Versicherung" gemacht.
-Was kannst du daraus mitnehmen?
+### Im November 2019 hast du am Hackathon der Provinzial Versicherung - deinem jetzigen Arbeitgeber - teilgenommen und den ersten Platz im Bereich "I love Versicherung" gemacht. Was kannst du daraus mitnehmen?
 
 Das war eine tolle Erfahrung! Mit zwei anderen Supercode-Teilnehmern erstellten wir
 innerhalb von 3 Tagen ein Konzept mit Design, wie man junge Leute ansprechen und das
@@ -60,8 +55,7 @@ z.B. für Sportübungen oder Umweltschutz Punkte bekommt. Damit haben wir sogar
 gewonnen und einen 500 Euro Gutschein bekommen! Für Konzeption und Teamarbeit war
 das eine sehr gute Übung.
 
-Dann kam die Jobsuche. Wie war das für dich? Was waren deine ersten Schritte im
-Bewerbungsverlauf?
+### Dann kam die Jobsuche. Wie war das für dich? Was waren deine ersten Schritte im Bewerbungsverlauf?
 
 Direkt nach dem Bootcamp habe ich eine Teilzeitstelle als Webentwickerin bei einer
 Spedition bekommen. Sérgio, der Geschäftsführer von Supercode hatte mich empfohlen.
@@ -85,14 +79,13 @@ und manche Frauen abschreckt. Mich persönlich stört das nicht, aber es ist sch
 sich der Bereich auch gut für Frauen eignet und sich mit Homeoffice vieles vereinbaren
 lässt.
 
-Fühlst du dich gut gewappnet für deine weitere Karriere als Webentwicklerin?
+### Fühlst du dich gut gewappnet für deine weitere Karriere als Webentwicklerin?
 
 Absolut! Ich habe jetzt genug Erfahrung und keine Angst mehr vor Jobwechsel. Ich habe
 sehr viel von erfahrenen Programmierern gelernt und bin sehr dankbar dafür. Ich bin viel
 selbstbewusster geworden und ich möchte der Welt zeigen, was ich kann!
 
 
-`
+`;
 
-
-export default blog2
+export default blog2;
