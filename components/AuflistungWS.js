@@ -3,7 +3,7 @@ import React, { Component } from "react";
 
 import JetztAnmdelden from "./JetztAnmelden";
 
-class Bewerbungsprozess extends Component {
+class Auflistung extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -17,56 +17,39 @@ class Bewerbungsprozess extends Component {
 
   render() {
     return (
-      <div id="bewerbungsprozess">
+      <div id="auflistung">
         {this.props.oneComponent ? null : (
           <JetztAnmdelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}
           />
         )}
-        <span className="aside"> 4 x SUPER </span>
 
         <div className="twocolumn">
           <div className="center">
-            <h2>
-              Unser
-              <span>Aufnahme&shy;prozess</span>
-            </h2>
             <div className="flex">
               <div>
                 <span className="super-green">01</span>
               </div>
-              <div
-                className="flex-hover kontakt"
-                onClick={() => {
-                  this.toggleJetztAnmelden();
-                }}
-              >
+              <div className="flex-hover">
                 <a>
-                  <div>Nimm Kontakt zu uns auf</div>
+                  <div>
+                    <span className="super-stroke">immer 2</span> Trainer*innen
+                  </div>
                 </a>
               </div>
-              <img
-                src="./img/kontakt.jpg"
-                alt="SuperCode Full Stack Developer Lernen Bildungsgutschein, Frauen Fullstack Programmieren Kostenlos lernen"
-              />
+              <img src="./img/kontakt.jpg" alt="" />
             </div>
-
             <div className="flex">
               <div>
                 <span className="super-green">02</span>
               </div>
               <div className="flex-hover">
-                <Link href="/workshops">
-                  <a>
-                    <div>Teste dich im kostenlosen Workshop</div>
-                  </a>
-                </Link>
+                <a>
+                  <div>modern, praxisnah und zertifiziert</div>
+                </a>
               </div>
-              <img
-                src="./img/workshop.jpg"
-                alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
-              />
+              <img src="./img/workshop.jpg" alt="" />
             </div>
 
             <div className="flex">
@@ -74,16 +57,14 @@ class Bewerbungsprozess extends Component {
                 <span className="super-green">03</span>
               </div>
               <div className="flex-hover">
-                <Link href="#finanzierung">
-                  <a>
-                    <div>Kläre mit uns die Finanzierung</div>
-                  </a>
-                </Link>
+                <a>
+                  <div>
+                    <span className="super-stroke">Online</span> und/oder{" "}
+                    <span className="super-stroke">vor Ort</span>
+                  </div>
+                </a>
               </div>
-              <img
-                src="./img/finanzierung.jpg"
-                alt="Fortbildung Frontend Web-Designern Entwicklern, Full Stack Developer Lernen Bildungsgutschein"
-              />
+              <img src="./img/finanzierung.jpg" alt="" />
             </div>
 
             <div className="flex">
@@ -91,69 +72,54 @@ class Bewerbungsprozess extends Component {
                 <span className="super-green">04</span>
               </div>
               <div className="flex-hover">
-                <Link href="/kurse">
-                  <a>
-                    <div>Starte deinen Kurs Web Development</div>
-                  </a>
-                </Link>
+                <a>
+                  <div>
+                    kleine <span className="super-stroke">Lerngruppen</span>
+                  </div>
+                </a>
               </div>
-              <img
-                src="./img/losGehts.jpg"
-                alt="SuperCode Weiterbildung Codingschule Düsseldorf, IT Umschulung Förderung Arbeitsargentur"
-              />
+              <img src="./img/losGehts.jpg" alt="" />
+            </div>
+
+            <div className="flex">
+              <div>
+                <span className="super-green">05</span>
+              </div>
+              <div className="flex-hover">
+                <a>
+                  <div>
+                    <span className="super-stroke">Faire</span>{" "}
+                    Finanzierungs&shy;möglichkeiten
+                  </div>
+                </a>
+              </div>
+              <img src="./img/losGehts.jpg" alt="" />
+            </div>
+
+            <div className="flex">
+              <div>
+                <span className="super-green">06</span>
+              </div>
+              <div className="flex-hover">
+                <a>
+                  <div>
+                    Wir begleiten dich{" "}
+                    <span className="super-stroke">von Anfang bis Ende</span>
+                  </div>
+                </a>
+              </div>
+              <img src="./img/losGehts.jpg" alt="" />
             </div>
           </div>
         </div>
 
         <style jsx>
           {`
-            .flex {
-              display: flex;
-              font-family: "Neue_Machina_Regular_400";
-              font-size: 3.5em;
-              color: #fff;
-              line-height: 1.2em;
-              position: relative;
-              z-index: 1;
-            }
-            .center h2 {
-              font-family: "Neue_Machina_Regular_400";
-              font-size: 4.4em;
-              line-height: 1.2em;
-              color: #fff;
-              text-transform: uppercase;
-            }
-            .center h2 span {
-              display: block;
-              color: transparent;
-              font-weight: 400;
-              letter-spacing: 3px;
-              -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: #ffffff;
-            }
-
-            .aside {
-              position: absolute;
-              transform: rotate(-90deg);
-              transform-origin: left;
-              color: #fff;
-              font-weight: 300;
-              left: 3%;
-              top: 60%;
-              font-family: "Poppins", sans-serif;
-              font-style: normal;
-              font-weight: normal;
-              font-size: 12px;
-              line-height: 18px;
-              letter-spacing: 3px;
-              text-transform: uppercase;
-              color: #ffffff;
-            }
-            #bewerbungsprozess {
-              padding: 5em 8%;
+            #auflistung {
+              padding: 6em 8%;
 
               position: relative;
-              background-color: #5d3ede;
+              background: rgb(7, 0, 33);
               background-image: linear-gradient(
                   to right,
                   rgba(255, 255, 255, 0.25) 0,
@@ -176,6 +142,23 @@ class Bewerbungsprozess extends Component {
               grid-template-columns: 100%;
             }
 
+            .center {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+            }
+            .flex {
+              display: flex;
+              font-family: "Neue_Machina_Regular_400";
+              font-size: 4em;
+              font-weight: 600;
+
+              color: #fff;
+              line-height: 1.2em;
+              position: relative;
+              z-index: 1;
+            }
+
             .flex img {
               max-width: 0;
               transform: translateY(-40%);
@@ -188,16 +171,10 @@ class Bewerbungsprozess extends Component {
               z-index: -1;
             }
 
-            .center {
-              display: flex;
-              flex-direction: column;
-              justify-content: center;
-              font-weight: 400;
-            }
             .super-stroke {
               color: transparent;
               letter-spacing: 2px;
-              -webkit-text-stroke-width: 2px;
+              -webkit-text-stroke-width: 0.5px;
               -webkit-text-stroke-color: #fff;
               font-weight: 300;
             }
@@ -229,9 +206,6 @@ class Bewerbungsprozess extends Component {
                 font-size: 2.5em;
                 line-height: 1.2em;
               }
-              .center h2 {
-                font-size: 3.2em;
-              }
             }
             @media (max-width: 768px) {
               .center h2 {
@@ -241,19 +215,9 @@ class Bewerbungsprozess extends Component {
                 font-size: 2em;
                 margin-bottom: 50px;
               }
-              .super-stroke {
-                color: transparent;
-                letter-spacing: 2px;
-                -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: #fff;
-                font-weight: 300;
-              }
             }
 
             @media (max-width: 568px) {
-              img {
-                display: none;
-              }
               .twocolumn {
                 grid-template-columns: 100%;
               }
@@ -266,6 +230,7 @@ class Bewerbungsprozess extends Component {
             @media (max-width: 370px) {
               .center h2 {
                 font-size: 2.5em;
+                overflow-wrap: break-word;
               }
             }
           `}
@@ -275,4 +240,4 @@ class Bewerbungsprozess extends Component {
   }
 }
 
-export default Bewerbungsprozess;
+export default Auflistung;

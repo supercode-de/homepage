@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Arrow from "./small/Arrow";
 import Typeform from "./TypeForm_neu";
+import Typewriter from "typewriter-effect";
 
 const Header_neu = (props) => {
   return (
@@ -15,7 +16,21 @@ const Header_neu = (props) => {
             <span className="super"> Programmieren</span>
             <br /> lernen war noch <span className="circle">nie</span>
             <span className="super2">
-              <span className="after-span">digitaler.</span>
+              <span className="after-span">
+                <Typewriter
+                  options={{
+                    strings: [
+                      "digitaler.",
+                      "persönlicher.",
+                      "einfacher.",
+                      "intuitiver.",
+                      "motivierender.",
+                    ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
+              </span>
             </span>
           </h1>
         </div>

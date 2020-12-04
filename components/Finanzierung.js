@@ -6,8 +6,7 @@ const Finanzierung = (props) => {
       <h2>#Finanzierung</h2>
       <h1>
         <span className="stroke">No Mon€y, no Probl€m!</span>
-        Wähle zwischen 3 verschiedenen{" "}
-        <span className="break">Finanzierungsmodellen.</span>
+        Wähle zwischen 3 verschiedenen Finanzierungs&shy;modellen.
       </h1>
       <div className="infos">
         <div className="info-headline">
@@ -66,9 +65,7 @@ const Finanzierung = (props) => {
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #ffffff;
           }
-          span.break {
-            word-break: break-word;
-          }
+
           .infos {
             // width: 80%;
             display: grid;

@@ -1,74 +1,86 @@
 [
-    {
-        "img": "/img/_DSC3289_LowRes.png",
-        "name": "Rihab Al-Yasiri",
-        "job": "arbeitet jetzt bei Provinzial als Web-Developerin",
-        "text": "“Ich hatte noch nie so viel Spaß in einem Kurs. Ich habe mich sehr schnell wohl gefühlt, und alles war super organisiert.”"
-    },
-    {
-        "img": "/img/Jascha-Hell.png",
-        "name": "Jascha Hell",
-        "job": "arbeitet jetzt bei Esentri als Projekt Manager IT",
-        "text": "“Das Bootcamp war super! Viel gesehen, viel gelernt, viel gelacht. Kann ich nur jedem ans Herz legen, der einen Einblick in die Materie Webentwicklung sucht.”"
-    },
-    {
-        "img": "/img/_DSC3661_LowRes.png",
-        "name": "Abdulrahman Karbouj",
-        "job": "arbeitet jetzt bei Edatasystems als Web-Developer",
-        "text": "“Das Bootcamp hat mir super gefallen. Der größte Pluspukt war, dass ich hier auf eine Gruppe Gleichgesinnter und Super Trainer gestoßen bin.”"
-    },
-    {
-        "img": "/img/absolvent/Natalie.png",
-        "name": "Natalie Streich",
-        "job": "arbeitet jetzt bei Supercode als Bewerbungscoach und Qualitätsmanagerin",
-        "text": "“Die Stimmung, die Mitarbeiter*innen und die Location haben mir auf Anhieb gefallen. Ich kann jetzt eigene Webseiten programmieren und IT-Fachkräfte noch besser bei der Jobsuche beraten.”"
-    },
-    {
-        "img": "/img/absolvent/Edward-Agyeman.png",
-        "name": "Edward Agyeman",
-        "job": "arbeitet jetzt bei SuperCode als Assistant Trainer Webentwicklung",
-        "text": "“Ich kann SuperCode jedem empfehlen der Lust hat Web Development zu lernen. Der Kurs ist zwar sehr intensiv, aber es lohnt sich! Und jetzt bin ich Assistant Trainer und gebe mein Wissen an Andere weiter.”"
-    },
-    {
-        "img": "/img/absolvent/Ariane-Bischoff.png",
-        "name": "Ariane Bischoff",
-        "job": "Selbstständig",
-        "text": "“Als freiberufliche Projekt-Managerin habe ich jetzt einen guten Überblick über die  Bedarfe eine Webseite und kann mich mit Programmierer*innen auf Augenhöhe unterhalten. Vielen Dank, SuperCode!”"
-    },
-    {
-        "img": "/img/absolvent/Georg.png",
-        "name": "Georg Treitz",
-        "job": "arbeitet jetzt bei SuperCode als Main Trainer Webentwicklung",
-        "text": "“Ich hätte nie gedacht, wie schnell die Zeit im Bootcamp vergeht und wie viel Spaß mir Programmieren macht! Es war die beste Entscheidung diese Weiterbildung zu machen!”"
-    },
-    {
-        "img": "/img/absolvent/Matthias.png",
-        "name": "Matthias Höh",
-        "job": "absolviert momentan ein Praktikum als Webentwickler bei SuperCode",
-        "text": "“Als Physikingenieur und Hobby-Programmierer wollte ich mir ein gutes Coding-Fundament aufbauen und genau das habe ich im Full-Stack-Bootcamp bekommen. Optimal!”"
-    },
-    {
-        "img": "/img/absolvent/Elaine-Wong.png",
-        "name": "Elaine Wong",
-        "job": "arbeitet jetzt bei SuperCode als Assistant Trainerin Webentwicklung",
-        "text": "“Im Bootcamp hatte ich viel Spaß und habe viel gelernt - die Trainer sind immer hilfsbereit und geben nützliche Tipps. Zukünftige Teilnehmerinnen kann ich nur ermutigen den Weg in die IT zu wagen!”"
-    },
-    {
-        "img": "/img/absolvent/Eric.png",
-        "name": "Eric Noack",
-        "job": "arbeitet jetzt bei SuperCode als Flex Trainer Webentwicklung",
-        "text": "“Bei SuperCode kann ich einfach so sein, wie ich bin! Die Trainer*innen haben mich total motiviert und mir den Weg in die IT ermöglicht. Außerdem gibt’s freien Kaffee! ;-)”"
-    },
-    {
-        "img": "/img/absolvent/Oliver.png",
-        "name": "Oliver Köhnen",
-        "job": "arbeitet als Online-Marketing- Manager bei DJH Rheinland e.V.",
-        "text": "“Als Ergänzung zu meinem Job habe ich am Teilzeit-Bootcamp teilgenommen. Ich kann jetzt einiges daraus anwenden und bleibe am Ball. Programmieren ist echt etwas, das mich bereichert und mir neue Perspektiven aufgezeigt hat.”"
-    },
-    {
-        "img": "/img/absolvent/Hakan-Gezer.png",
-        "name": "Hakan Gezer",
-        "job": "arbeitet jetzt bei SuperCode als Assistant Trainer Webentwicklung",
-        "text": "“Im Bootcamp hatte ich schon innerhalb kürzester Zeit die ersten Erfolgserlebnisse. Die Gruppendynamik hat mir gut gefallen, komplexe Projekte wurden super erklärt und die Trainer*innen waren sehr kompetent.”"
-    }
+  {
+    "img": "/img/_DSC3289_LowRes.png",
+    "name": "Rihab Al-Yasiri",
+    "job": "arbeitet jetzt bei Provinzial als Web-Developerin",
+    "text": "“Ich hatte noch nie so viel Spaß in einem Kurs. Ich habe mich sehr schnell wohl gefühlt, und alles war super organisiert.”"
+  },
+  {
+    "img": "/img/Jascha-Hell.png",
+    "name": "Jascha Hell",
+    "job": "arbeitet jetzt bei Esentri als Projekt Manager IT",
+    "text": "“Das Bootcamp war super! Viel gesehen, viel gelernt, viel gelacht. Kann ich nur jedem ans Herz legen, der einen Einblick in die Materie Webentwicklung sucht.”"
+  },
+  {
+    "img": "/img/_DSC3661_LowRes.png",
+    "name": "Abdulrahman Karbouj",
+    "job": "arbeitet jetzt bei Edatasystems als Web-Developer",
+    "text": "“Das Bootcamp hat mir super gefallen. Der größte Pluspukt war, dass ich hier auf eine Gruppe Gleichgesinnter und Super Trainer gestoßen bin.”"
+  },
+  {
+    "img": "/img/absolvent/Natalie.png",
+    "name": "Natalie Streich",
+    "job": "arbeitet jetzt bei Supercode als Bewerbungscoach und Qualitätsmanagerin",
+    "text": "“Die Stimmung, die Mitarbeiter*innen und die Location haben mir auf Anhieb gefallen. Ich kann jetzt eigene Webseiten programmieren und IT-Fachkräfte noch besser bei der Jobsuche beraten.”"
+  },
+  {
+    "img": "/img/absolvent/Edward-Agyeman.png",
+    "name": "Edward Agyeman",
+    "job": "arbeitet jetzt bei SuperCode als Assistant Trainer Webentwicklung",
+    "text": "“Ich kann SuperCode jedem empfehlen der Lust hat Web Development zu lernen. Der Kurs ist zwar sehr intensiv, aber es lohnt sich! Und jetzt bin ich Assistant Trainer und gebe mein Wissen an Andere weiter.”"
+  },
+  {
+    "img": "/img/absolvent/Ariane-Bischoff.png",
+    "name": "Ariane Bischoff",
+    "job": "Selbstständig",
+    "text": "“Als freiberufliche Projekt-Managerin habe ich jetzt einen guten Überblick über die  Bedarfe eine Webseite und kann mich mit Programmierer*innen auf Augenhöhe unterhalten. Vielen Dank, SuperCode!”"
+  },
+  {
+    "img": "/img/absolvent/Georg.png",
+    "name": "Georg Treitz",
+    "job": "arbeitet jetzt bei SuperCode als Main Trainer Webentwicklung",
+    "text": "“Ich hätte nie gedacht, wie schnell die Zeit im Bootcamp vergeht und wie viel Spaß mir Programmieren macht! Es war die beste Entscheidung diese Weiterbildung zu machen!”"
+  },
+  {
+    "img": "/img/absolvent/Matthias.png",
+    "name": "Matthias Höh",
+    "job": "absolviert momentan ein Praktikum als Webentwickler bei SuperCode",
+    "text": "“Als Physikingenieur und Hobby-Programmierer wollte ich mir ein gutes Coding-Fundament aufbauen und genau das habe ich im Full-Stack-Bootcamp bekommen. Optimal!”"
+  },
+  {
+    "img": "/img/absolvent/Elaine-Wong.png",
+    "name": "Elaine Wong",
+    "job": "arbeitet jetzt bei SuperCode als Assistant Trainerin Webentwicklung",
+    "text": "“Im Bootcamp hatte ich viel Spaß und habe viel gelernt - die Trainer sind immer hilfsbereit und geben nützliche Tipps. Zukünftige Teilnehmerinnen kann ich nur ermutigen den Weg in die IT zu wagen!”"
+  },
+  {
+    "img": "/img/absolvent/Eric.png",
+    "name": "Eric Noack",
+    "job": "arbeitet jetzt bei SuperCode als Flex Trainer Webentwicklung",
+    "text": "“Bei SuperCode kann ich einfach so sein, wie ich bin! Die Trainer*innen haben mich total motiviert und mir den Weg in die IT ermöglicht. Außerdem gibt’s freien Kaffee! ;-)”"
+  },
+  {
+    "img": "/img/absolvent/Oliver.png",
+    "name": "Oliver Köhnen",
+    "job": "arbeitet als Online-Marketing- Manager bei DJH Rheinland e.V.",
+    "text": "“Als Ergänzung zu meinem Job habe ich am Teilzeit-Bootcamp teilgenommen. Ich kann jetzt einiges daraus anwenden und bleibe am Ball. Programmieren ist echt etwas, das mich bereichert und mir neue Perspektiven aufgezeigt hat.”"
+  },
+  {
+    "img": "/img/absolvent/Hakan-Gezer.png",
+    "name": "Hakan Gezer",
+    "job": "arbeitet jetzt bei SuperCode als Assistant Trainer Webentwicklung",
+    "text": "“Im Bootcamp hatte ich schon innerhalb kürzester Zeit die ersten Erfolgserlebnisse. Die Gruppendynamik hat mir gut gefallen, komplexe Projekte wurden super erklärt und die Trainer*innen waren sehr kompetent.”"
+  },
+  {
+    "img": "/img/absolvent/Natalia.png",
+    "name": "Natalia Weber",
+    "job": "arbeitet als Online Merchandiser bei vente-privee.com",
+    "text": "“Mit dem Bootcamp macht man auch als Einsteigerin die richtigen Schritte auf das digitale Universum zu. Am Ende war ich glücklich, weil ich es geschafft habe diesem Universum ein Stück näher zu kommen.”"
+  },
+  {
+    "img": "/img/absolvent/Klaus.png",
+    "name": "Klaus Knippertz",
+    "job": "arbeitet jetzt bei Blanko GmbH als IT-Projektmanager",
+    "text": "“Mein Sprung ins kalte Wasser hat sich gelohnt. Bei SuperCode konnte ich mit vielen netten Mitstreiter*innen und engagierten Trainer*innen in die Welt von HTML, CSS, Javascript & Co eintauchen und meine Kenntnisse erweitern. Jetzt bin ich als IT-Projektmanager tätig und kann die neuen Skills gut einsetzen.”"
+  }
 ]
