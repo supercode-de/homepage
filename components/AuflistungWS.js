@@ -89,7 +89,7 @@ class Auflistung extends Component {
                 <a>
                   <div>
                     <span className="super-stroke">Faire</span>{" "}
-                    <span className="break">Finanzierungsmöglichkeiten</span>
+                    Finanzierungs&shy;möglichkeiten
                   </div>
                 </a>
               </div>
@@ -189,9 +189,7 @@ class Auflistung extends Component {
               font-size: 0.7em;
               padding-right: 20px;
             }
-            .break {
-              word-break: break-all;
-            }
+
             a {
               text-decoration: none;
               color: #fff;

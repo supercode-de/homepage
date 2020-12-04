@@ -30,7 +30,7 @@ class Bewerbungsprozess extends Component {
           <div className="center">
             <h2>
               Unser
-              <span>Aufnahmeprozess</span>
+              <span>Aufnahme&shy;prozess</span>
             </h2>
             <div className="flex">
               <div>
@@ -46,8 +46,12 @@ class Bewerbungsprozess extends Component {
                   <div>Nimm Kontakt zu uns auf</div>
                 </a>
               </div>
-              <img src="./img/kontakt.jpg" alt="" />
+              <img
+                src="./img/kontakt.jpg"
+                alt="SuperCode Full Stack Developer Lernen Bildungsgutschein, Frauen Fullstack Programmieren Kostenlos lernen"
+              />
             </div>
+
             <div className="flex">
               <div>
                 <span className="super-green">02</span>
@@ -59,7 +63,10 @@ class Bewerbungsprozess extends Component {
                   </a>
                 </Link>
               </div>
-              <img src="./img/workshop.jpg" alt="" />
+              <img
+                src="./img/workshop.jpg"
+                alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
+              />
             </div>
 
             <div className="flex">
@@ -73,8 +80,12 @@ class Bewerbungsprozess extends Component {
                   </a>
                 </Link>
               </div>
-              <img src="./img/finanzierung.jpg" alt="" />
+              <img
+                src="./img/finanzierung.jpg"
+                alt="Fortbildung Frontend Web-Designern Entwicklern, Full Stack Developer Lernen Bildungsgutschein"
+              />
             </div>
+
             <div className="flex">
               <div>
                 <span className="super-green">04</span>
@@ -86,7 +97,10 @@ class Bewerbungsprozess extends Component {
                   </a>
                 </Link>
               </div>
-              <img src="./img/losGehts.jpg" alt="" />
+              <img
+                src="./img/losGehts.jpg"
+                alt="SuperCode Weiterbildung Codingschule Düsseldorf, IT Umschulung Förderung Arbeitsargentur"
+              />
             </div>
           </div>
         </div>
@@ -116,8 +130,6 @@ class Bewerbungsprozess extends Component {
               letter-spacing: 3px;
               -webkit-text-stroke-width: 1px;
               -webkit-text-stroke-color: #ffffff;
-
-              word-break: break-word;
             }
 
             .aside {
@@ -254,7 +266,6 @@ class Bewerbungsprozess extends Component {
             @media (max-width: 370px) {
               .center h2 {
                 font-size: 2.5em;
-                overflow-wrap: break-word;
               }
             }
           `}

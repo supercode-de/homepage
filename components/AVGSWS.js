@@ -2,11 +2,14 @@ const AVGS = () => {
   return (
     <div id="avgs">
       <h2>
-        #Förderung durch einen Aktivierungs- und Vermittlungsgutschein (AVGS)
+        #Förderung durch einen Aktivierungs- und Vermittlungs&shy;gutschein
+        (AVGS)
       </h2>
       <div className="infos">
         <div className="info-headline">
-          <h3>Was ist ein Aktivierungs- und Vermittlungsgutschein (AVGS)?</h3>
+          <h3>
+            Was ist ein Aktivierungs- und Vermittlungs&shy;gutschein (AVGS)?
+          </h3>
           <p>
             Der Aktivierungs- und Vermittlungsgutschein, kurz AVGS, ermöglicht
             es dir, beruflich weiter zu kommen und wird von der Agentur für
@@ -20,7 +23,7 @@ const AVGS = () => {
         </div>
         <div className="info-headline">
           <h3>
-            Wie erhalte ich einen Aktivierungs- und Vermittlungsgutschein
+            Wie erhalte ich einen Aktivierungs- und Vermittlungs&shy;gutschein
             (AVGS)?
           </h3>
           <p>
@@ -36,7 +39,7 @@ const AVGS = () => {
         <div className="info-headline">
           <h3>
             Und was mache ich dann mit dem Aktivierungs- und
-            Vermittlungsgutschein (AVGS)?
+            Vermittlungs&shy;gutschein(AVGS)?
           </h3>
           <p>
             Grundsätzlich darfst du mit dem AVGS machen was du willst. Wir
@@ -64,18 +67,15 @@ const AVGS = () => {
           margin-bottom: 5rem;
           text-transform: uppercase;
         }
-        h3 {
-        }
-        p {
-          font-weight: 400;
-          color: #ffffff;
-          font-size: 1em;
-        }
 
         .infos {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           gap: 50px;
+          box-sizing: border-box;
+        }
+        .info-headline {
+          width: 100%;
         }
         .info-headline h3 {
           color: #5d3ede;
@@ -96,12 +96,14 @@ const AVGS = () => {
 
         @media (max-width: 936px) {
           .infos {
+            width: 100%;
             display: grid;
             grid-template-columns: repeat(1, 1fr);
-            gap: 20px;
+            gap: 50px;
+            box-sizing: border-box;
           }
-          p {
-            font-size: 1.5em;
+          .info-headline p {
+            font-size: 1.3em;
           }
         }
 
