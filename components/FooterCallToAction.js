@@ -45,14 +45,14 @@ const FooterCallToAction = (props) => {
         // }
 
         .buttons {
-          text-align: center;
+          // text-align: center;
           display: flex;
           width: 100%;
           justify-content: flex-end;
-          align-items: center;
         }
 
         a {
+          align-items: center;
           margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
           font-style: normal;
@@ -123,7 +123,8 @@ const FooterCallToAction = (props) => {
             min-width: 0;
           }
           .buttons {
-            display: block;
+            flex-direction: column;
+            align-items: center;
           }
         }
         @media (max-width: 768px) {

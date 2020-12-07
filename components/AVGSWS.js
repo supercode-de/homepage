@@ -39,7 +39,7 @@ const AVGS = () => {
         <div className="info-headline">
           <h3>
             Und was mache ich dann mit dem Aktivierungs- und
-            Vermittlungs&shy;gutschein(AVGS)?
+            Vermittlungs&shy;gutschein (AVGS)?
           </h3>
           <p>
             Grundsätzlich darfst du mit dem AVGS machen was du willst. Wir
