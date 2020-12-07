@@ -119,7 +119,9 @@ class Auflistung extends Component {
               padding: 6em 8%;
 
               position: relative;
-              background: rgb(7, 0, 33);
+
+              background: #070021;
+
               background-image: linear-gradient(
                   to right,
                   rgba(255, 255, 255, 0.25) 0,
@@ -135,8 +137,9 @@ class Auflistung extends Component {
                   transparent 100%
                 );
               background-position: 0 0, 0 0;
-              background-size: ${this.props.width}px ${this.props.width}px;
+              background-size: calc(100vw / 12) calc(100vw / 12);
             }
+
             .twocolumn {
               display: grid;
               grid-template-columns: 100%;

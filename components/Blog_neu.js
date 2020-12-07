@@ -84,16 +84,21 @@ const Blog_neu = (props) => {
         #blog {
           color: #3dd7ac;
           font-family: "Neue_Machina_Regular_400";
+
           background: linear-gradient(
               90deg,
-              #fff ${props.width - pixelSize}px,
+              #fff calc(100vw / 12 - ${pixelSize}px),
               transparent 1%
             ),
-            linear-gradient(#fff ${props.width - pixelSize}px, transparent 1%),
+            linear-gradient(
+              #fff calc(100vw / 12 - ${pixelSize}px),
+              transparent 1%
+            ),
             #3dd7ac;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
+
           position: relative;
-          padding: ${props.width * 0.7}px 0;
+          padding: 50px 0;
         }
         // .line {
         //   background: url("./img/bg-line.png") top center/cover no-repeat;
@@ -108,7 +113,7 @@ const Blog_neu = (props) => {
           max-width: 10em;
           margin: 0;
           line-height: 1.2em;
-          padding: 0 ${props.width * 0.7}px;
+          padding: 0 calc(100vw / 12);
         }
         h1 span {
           color: transparent;

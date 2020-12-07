@@ -8,6 +8,7 @@ import WorkITWS from "../components/WorkITWS";
 import AuflistungWS from "../components/AuflistungWS";
 import AVGS from "../components/AVGSWS";
 import AbsolventenWS from "../components/AbsolventenWS";
+import AbsolventenWS_neu from "../components/AbsolventenWS_neu";
 import { useWindowSize } from "../components/functions/windowSize";
 import LerneProgrammierenWS from "../components/LerneProgrammierenWS";
 import UnserCampusKurse from "../components/UnserCampusKurse";
@@ -21,16 +22,17 @@ export default function Workshop() {
       <Layout>
         <div className="container">
           <main>
-            <HeaderWS_neu width={width} />
+            <HeaderWS_neu />
             {/* <HeaderWS width={width} /> */}
             <HeaderCallToActionWS_neu />
             {/* <HeaderCallToActionWS /> */}
-            <AnfängerBisBusinessWS width={width} />
-            <WorkITWS width={width} />
+            <AnfängerBisBusinessWS />
+            <WorkITWS />
 
-            <AuflistungWS width={width} />
+            <AuflistungWS />
             <AVGS />
-            <AbsolventenWS width={width} />
+            {/* <AbsolventenWS_neu /> */}
+            <AbsolventenWS />
 
             {/* <LerneProgrammierenWS /> */}
             {/* <UnserCampusKurse width={width} /> */}

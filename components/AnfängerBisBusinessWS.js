@@ -18,12 +18,15 @@ const AnfängerBisBusiness = (props) => {
 
           background: linear-gradient(
               90deg,
-              #fff ${props.width - pixelSize}px,
+              #fff calc(100vw / 12 - ${pixelSize}px),
               transparent 1%
             ),
-            linear-gradient(#fff ${props.width - pixelSize}px, transparent 1%),
+            linear-gradient(
+              #fff calc(100vw / 12 - ${pixelSize}px),
+              transparent 1%
+            ),
             #3dd7ac;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
           position: relative;
         }
         #starter-business div {

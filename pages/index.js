@@ -25,20 +25,20 @@ export default function Home(props) {
       <Layout banner={true}>
         <div className="container">
           <main>
-            <Header_neu width={width} />
+            <Header_neu />
             <HeaderCallToAction_neu />
             <Zukunft width={width} />
-            <UnserCampus width={width} />
-            <Weiterbildung_neu width={width} />
+            <UnserCampus />
+            <Weiterbildung_neu />
             {/* <SuperPartner width={width} /> */}
-            <SuperStipendium_neu width={width} />
+            <SuperStipendium_neu />
             <CertquaBonn />
             <Finanzierung />
-            <Bewerbungsprozess width={width} />
+            <Bewerbungsprozess />
             <MeldeDich />
-            <Blog_neu width={width} />
+            <Blog_neu />
 
-            <FAQ width={width} />
+            <FAQ />
             <FooterCallToAction month={dates.VzTzMonth} />
             {/* <FooterSitemap /> */}
           </main>

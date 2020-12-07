@@ -9,7 +9,10 @@ const Header_neu = (props) => {
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
       <div className="content">
         <div className="content-img">
-          <img src="/img/_DSC2506_LowRes.png" alt="" />
+          <img
+            src="/img/_DSC2506_LowRes.png"
+            alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
+          />
         </div>
         <div className="content-text">
           <h1>
@@ -54,7 +57,7 @@ const Header_neu = (props) => {
                 transparent 100%
               );
             background-position: 0 0, 0 0;
-            background-size: ${props.width}px ${props.width}px;
+            background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .aside {
             position: absolute;

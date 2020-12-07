@@ -169,7 +169,7 @@ class Bewerbungsprozess extends Component {
                   transparent 100%
                 );
               background-position: 0 0, 0 0;
-              background-size: ${this.props.width}px ${this.props.width}px;
+              background-size: calc(100vw / 12) calc(100vw / 12);
             }
             .twocolumn {
               display: grid;

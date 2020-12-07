@@ -48,25 +48,39 @@ const Zukunft = (props) => {
         </div>
       </div>
       <div className="images">
-        <img className="img-one" src="/img/_DSC2652_LowRes 6.png" alt="" />
-        <img className="img-two" src="/img/_DSC2652_LowRes 7.png" alt="" />
-        {/* <img className="img-three" src="https://unsplash.it/900/600" alt="" /> */}
+        <img
+          className="img-one"
+          src="/img/_DSC2652_LowRes 6.png"
+          alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
+        />
+        <img
+          className="img-two"
+          src="/img/_DSC2652_LowRes 7.png"
+          alt="Full Stack Developer Fernkurs Weiterbildung, Best Web Developer Coding Bootcamp"
+        />
       </div>
-      <img src="/img/_DSC2336_MidRes.png" alt="" />
+      <img
+        src="/img/_DSC2336_MidRes.png"
+        alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
+      />
       <style jsx>{`
         #zukunft {
           color: #3dd7ac;
           font-family: "Neue_Machina_Regular_400";
+
           background: linear-gradient(
               90deg,
-              #fff ${props.width - pixelSize}px,
+              #fff calc(100vw / 12 - ${pixelSize}px),
               transparent 1%
             ),
-            linear-gradient(#fff ${props.width - pixelSize}px, transparent 1%),
+            linear-gradient(
+              #fff calc(100vw / 12 - ${pixelSize}px),
+              transparent 1%
+            ),
             #3dd7ac;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
           position: relative;
-          padding: 100px ${props.width}px 5px ${props.width * 1.8}px;
+          padding: 100px calc(100vw / 12) 5px calc(100vw / 12);
         }
         h1 {
           font-size: 3.3em;
@@ -146,14 +160,14 @@ const Zukunft = (props) => {
           top: ${props.width * 6}px;
           left: ${props.width}px;
           width: ${props.width * 3}px;
-          z-index: 20;
+          z-index: 1;
         }
 
         .images + img {
           position: absolute;
           bottom: 0;
           left: ${props.width * 3.3}px;
-          z-index: 99;
+          z-index: 1;
           margin-bottom: -10%;
           width: ${props.width * 3}px;
         }

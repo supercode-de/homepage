@@ -32,7 +32,7 @@ const WorkIT = (props) => {
       <article className="kurse-content">
         <div className="kurs-boxes">
           <div className="kurs-box kurs-box1 hide">
-            <h4>Kostenloaser HTML & CSS Workshop - Online</h4>
+            <h4>Kostenloser HTML & CSS Workshop - Online</h4>
             <p>
               Umfang: 3 Stunden / 18:00-21:00 Uhr <br />
               Start: immer dienstags - mit Anmeldung
@@ -130,7 +130,7 @@ const WorkIT = (props) => {
           >
             <div className="kurs-box-container">
               <div className="kurs-box kurs-box1">
-                <h4>Kostenloaser HTML & CSS Workshop - Online</h4>
+                <h4>Kostenloser HTML & CSS Workshop - Online</h4>
                 <p>
                   Umfang: 3 Stunden / 18:00-21:00 Uhr <br />
                   Start: immer dienstags - mit Anmeldung
@@ -250,7 +250,8 @@ const WorkIT = (props) => {
               transparent 100%
             );
           background-position: 0 0, 0 0;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
+
           padding: 7em 0 5em;
           position: relative;
           z-index: 1;

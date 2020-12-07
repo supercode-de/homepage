@@ -27,7 +27,7 @@ class FAQ extends Component {
 
         <style jsx>{`
           #faq {
-            padding: 10px ${this.state.width}px 50px;
+            padding: 10px calc(100vw / 12) 50px;
 
             position: relative;
             background-color: #070021;
@@ -46,7 +46,8 @@ class FAQ extends Component {
                 transparent 100%
               );
             background-position: 0 0, 0 0;
-            background-size: ${this.state.width}px ${this.state.width}px;
+            background-size: calc(100vw / 12) calc(100vw / 12);
+
             font-family: "Neue_Machina_Regular_400";
           }
           h2 {

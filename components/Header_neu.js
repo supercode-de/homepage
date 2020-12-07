@@ -11,7 +11,10 @@ const Header_neu = (props) => {
       {/* <div className="logo-name">super(code)</div> */}
       <div className="twocolumn">
         <div className="onecolumn">
-          <img src="/img/_DSC2765_LowRes.png" alt="" />
+          <img
+            src="/img/_DSC2765_LowRes.png"
+            alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
+          />
           <h1>
             <span className="super"> Programmieren</span>
             <br /> lernen war noch <span className="circle">nie</span>
@@ -34,10 +37,16 @@ const Header_neu = (props) => {
             </span>
           </h1>
         </div>
-        <img src="/img/_DSC2652_LowRes 12.png" alt="" />
+        <img
+          src="/img/_DSC2652_LowRes 12.png"
+          alt="Frauen Weiterbildung Programmieren lernen, SuperCode Webentwicklerin Frauen IT"
+        />
       </div>
 
-      <img src="/img/_DSC8255_LowRes.png" alt="" />
+      <img
+        src="/img/_DSC8255_LowRes.png"
+        alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
+      />
       <div>
         <Typeform />
       </div>
@@ -92,7 +101,7 @@ const Header_neu = (props) => {
                 transparent 100%
               );
             background-position: 0 0, 0 0;
-            background-size: ${props.width}px ${props.width}px;
+            background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .arrow {
             position: absolute;
