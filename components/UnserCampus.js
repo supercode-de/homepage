@@ -40,14 +40,34 @@ const UnserCampus = (props) => {
           </p>
           <p className="hash-tag">#superwinwin</p>
         </div>
-        <img className="img-two" src="/img/_DSC2652_LowRes 3.png" alt="" />
+        <img
+          className="img-two"
+          src="/img/_DSC2652_LowRes 3.png"
+          alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
+        />
       </section>
 
-      <img className="img-three" src="/img/_DSC2652_LowRes 13.png" alt="" />
-      <img src="/img/campus.svg" alt="" className="campus" />
-      <img className="img-four" src="/img/_DSC2652_LowRes 14.png" alt="" />
+      <img
+        className="img-three"
+        src="/img/_DSC2652_LowRes 13.png"
+        alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
+      />
+      <img
+        src="/img/campus.svg"
+        alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
+        className="campus"
+      />
+      <img
+        className="img-four"
+        src="/img/_DSC2652_LowRes 14.png"
+        alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
+      />
       <div className="bg-container">
-        <img className="img-five" src="/img/_DSC2464_LowRes.png" alt="" />
+        <img
+          className="img-five"
+          src="/img/_DSC2464_LowRes.png"
+          alt="Frauen Kostenlos Weiterbildung Programmieren lernen, Frauen Programmieren Lernen Fernkurs Bootcamp"
+        />
       </div>
       <div className="carousel">
         <Carousel
@@ -61,48 +81,52 @@ const UnserCampus = (props) => {
           deviceType={""}
         >
           <div>
-            <img src="/img/_DSC2652_LowRes 3.png" alt="" />
+            <img
+              src="/img/_DSC2652_LowRes 3.png"
+              alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
+            />
           </div>
           <div>
-            <img src="/img/_DSC2652_LowRes 13.png" alt="" />
+            <img
+              src="/img/_DSC2652_LowRes 13.png"
+              alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
+            />
           </div>
           <div>
-            <img src="/img/_DSC2652_LowRes 14.png" alt="" />
+            <img
+              src="/img/_DSC2652_LowRes 14.png"
+              alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
+            />
           </div>
           <div>
-            <img src="/img/_DSC2464_LowRes.png" alt="" />
+            <img
+              src="/img/_DSC2464_LowRes.png"
+              alt="Frauen Kostenlos Weiterbildung Programmieren lernen, Frauen Programmieren Lernen Fernkurs Bootcamp"
+            />
           </div>
         </Carousel>
       </div>
-      <img className="img-six" src="/img/_DSC2451_MidRes.png" alt="" />
+      <img
+        className="img-six"
+        src="/img/_DSC2451_MidRes.png"
+        alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
+      />
       <style jsx>{`
         #unser-campus {
           position: relative;
           background-color: #fff;
-          // background-image: linear-gradient(
-          //     to right,
-          //     rgba(255, 0, 0, 0.25) 0,
-          //     rgba(255, 0, 0, 0.25) 1px,
-          //     transparent 1px,
-          //     transparent 100%
-          //   ),
-          //   linear-gradient(
-          //     to bottom,
-          //     rgba(255, 0, 0, 0.25) 0,
-          //     rgba(255, 0, 0, 0.25) 1px,
-          //     transparent 1px,
-          //     transparent 100%
-          //   );
-          // background-position: 0 0, 0 0;
-          // background-size: ${props.width}px ${props.width}px;
+
           background: linear-gradient(
               90deg,
-              #fff ${props.width - pixelSize}px,
+              #fff calc(100vw / 12 - ${pixelSize}px),
               transparent 1%
             ),
-            linear-gradient(#fff ${props.width - pixelSize}px, transparent 1%),
+            linear-gradient(
+              #fff calc(100vw / 12 - ${pixelSize}px),
+              transparent 1%
+            ),
             #3dd7ac;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         .two-column {
           display: grid;

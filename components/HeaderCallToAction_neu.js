@@ -1,4 +1,4 @@
-import Typeform from "./TypeForm_neu";
+import Typeform_neu from "./TypeForm_neu";
 
 const HeaderCallToAction_neu = () => {
   return (
@@ -13,7 +13,7 @@ const HeaderCallToAction_neu = () => {
         </span>
       </h2>
       <div className="buttons">
-        <Typeform />
+        <Typeform_neu />
       </div>
       <style jsx>{`
         #header-call {
