@@ -150,9 +150,13 @@ const AbsolventenWS = (props) => {
           font-weight: 500;
         }
 
+        .alumni-grid article {
+          margin-bottom: 30px;
+        }
+
         .alumni-grid article p {
           font-size: 1.1em;
-          width: 70%;
+          width: 100%;
         }
 
         .alumni-grid article h5 {
@@ -162,7 +166,7 @@ const AbsolventenWS = (props) => {
         .alumni-grid article h6 {
           font-size: 1em;
           font-weight: 500;
-          width: 60%;
+          width: 100%;
         }
 
         .alumni-carousel {

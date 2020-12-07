@@ -93,7 +93,9 @@ const WorkIT = (props) => {
             <h4>
               1 Monat Web-Design <br /> UX & UI Workshop
             </h4>
-            <p>
+            <h5>Weitere Informationen folgen ab Januar 2021</h5>
+
+            {/*    <p>
               Umfang: 4 <br />
               Start: xx.xx.xxxx Ende: xx.xx.xxxx
             </p>
@@ -113,7 +115,7 @@ const WorkIT = (props) => {
             <h5>sonstiges:</h5>
             <p>
               - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt online
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -198,6 +200,8 @@ const WorkIT = (props) => {
                 <h4>
                   1 Monat Web-Design <br /> UX & UI Workshop
                 </h4>
+                <h5>Weitere Informationen folgen ab Januar 2021</h5>
+                {/* 
                 <p>
                   Umfang: 4 <br />
                   Start: xx.xx.xxxx Ende: xx.xx.xxxx
@@ -220,7 +224,7 @@ const WorkIT = (props) => {
                 <p>
                   - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt
                   online
-                </p>
+                </p> */}
               </div>
             </div>
           </Carousel>

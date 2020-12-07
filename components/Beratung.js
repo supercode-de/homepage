@@ -23,9 +23,25 @@ const Beratung = (props) => {
         </button>
 
         <div className="jetzt-anmelden-container">
-          <h1>
-            Hi, wie können wir dir <span>helfen?</span>
-          </h1>
+          <div className="jetzt-anmelden-left">
+            <h1>Hi, wie</h1>
+            <h1>können wir</h1>
+            <h1>
+              dir <span>helfen?</span>
+            </h1>
+            <p>
+              An diesen Zeiten erreichst du uns am besten an folgenden Tagen und
+              Zeiten
+            </p>
+            <p>Montag - Freitag</p>
+            <p>09:00 - 17:00 Uhr</p>
+            <p>
+              Unser Campus befindet sich im super7000 Coworking Space - der
+              Mutter aller Coworking Spaces. Die genaue Adresse lautet
+            </p>
+            <p>Ratherstr. 25</p>
+            <p>40476 Düsseldorf</p>
+          </div>
           <div className="jetzt-anmelden-right">
             <HubspotForm
               portalId="5807040"
@@ -64,24 +80,10 @@ const Beratung = (props) => {
           .jetzt-anmelden-container {
             padding: 150px 10%;
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: 1fr 1fr;
             gap: 50px;
           }
           .jetzt-anmelden-close {
-            // top: 30px;
-            // right: 50px;
-            // cursor: pointer;
-            // position: absolute;
-            // box-shadow: none;
-            // border: none;
-            // border-radius: 0;
-            // padding: 0;
-            // margin: 0;
-            // color:#f0f0f0;
-            // background:none;
-            // font-weight: 300;
-            // font-size: 2.5em;
-
             top: 60px;
             right: 50px;
             cursor: pointer;
@@ -99,13 +101,21 @@ const Beratung = (props) => {
           .jetzt-anmelden-close:hover {
             color: #3dd7ac;
           }
-          h1 {
+          .jetzt-anmelden-left h1 {
             font-size: 4.3em;
             font-style: normal;
             font-weight: 800;
             margin: 0;
             line-height: 1em;
             letter-spacing: -1.5px;
+          }
+          .jetzt-anmelden-left p {
+            font-size: 1.1em;
+            line-height: 1.08;
+            font-weight: 400;
+            letter-spacing: 2px;
+            margin-bottom: 14px;
+            line-height: 24px;
           }
           span {
             color: transparent;
@@ -171,6 +181,9 @@ const Beratung = (props) => {
           //     left: 5px;
           // }
           @media screen and (max-width: 768px) {
+            .jetzt-anmelden-left h1 {
+              font-size: 3.3em;
+            }
             .jetzt-anmelden-container {
               padding: 5% 10%;
               display: block;
@@ -201,6 +214,9 @@ const Beratung = (props) => {
           }
 
           @media (max-width: 568px) {
+            .jetzt-anmelden-left h1 {
+              font-size: 2.3em;
+            }
             .jetzt-anmelden-container {
               padding: 10% 10%;
               display: block;

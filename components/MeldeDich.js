@@ -79,11 +79,9 @@ const MeldeDich = () => {
         }
 
         .buttons {
-          text-align: center;
           display: flex;
           width: 100%;
           justify-content: flex-end;
-          align-items: center;
         }
 
         a {
@@ -122,7 +120,8 @@ const MeldeDich = () => {
             min-width: 15em;
           }
           .buttons {
-            display: block;
+            flex-direction: column;
+            align-items: center;
           }
         }
         @media (max-width: 370px) {
