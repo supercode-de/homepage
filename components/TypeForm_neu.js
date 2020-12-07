@@ -10,7 +10,7 @@ const Typeform = (props) => {
             height="100%"
             frameborder="0"
             allow="camera; microphone; autoplay; encrypted-media;"
-            src="https://form.typeform.com/to/TkOb8Jcw"
+            src="https://form.typeform.com/to/L6u0np35"
           ></iframe>
           <script
             type="text/javascript"
