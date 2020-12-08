@@ -3,22 +3,41 @@ import Beratung from "./Beratung";
 import Link from "next/link";
 
 const FooterCallToAction = (props) => {
+  const pixelSize = 1.5;
+
   return (
     <div id="call-to-action">
       <h1>
-        Worauf wartest du noch?! Die nächsten Kurse starten{" "}
-        {props.bald ? "bald" : "im " + props.month}!
+        Worauf wartest du noch?! Die nächsten{" "}
+        <span className="super">
+          Workshops{" "}
+          <span className="circle">
+            starten&nbsp;bald
+            <nobr />.
+          </span>
+        </span>
       </h1>
       <div className="buttons">
         <Link href="/kurse">
           <a href="">KURSE</a>
         </Link>
-        <Beratung buttonTextColor="#fff" />
+        <Beratung buttonTextColor="#5d3ede" />
       </div>
       <style jsx>{`
         #call-to-action {
-          background: #5d3ede;
-          color: #3dd7ac;
+          background: linear-gradient(
+              90deg,
+              #fff calc(100vw / 12 - ${pixelSize}px),
+              transparent 1%
+            ),
+            linear-gradient(
+              #fff calc(100vw / 12 - ${pixelSize}px),
+              transparent 1%
+            ),
+            #3dd7ac;
+          background-size: calc(100vw / 12) calc(100vw / 12);
+
+          color: #5d3ede;
           margin: 0 auto;
           padding: 4rem 6% 2rem;
 
@@ -31,18 +50,14 @@ const FooterCallToAction = (props) => {
           letter-spacing: 3px;
           margin: 0;
           display: block;
+          font-weight: 500;
+        }
+        .super {
           color: transparent;
           font-weight: 300;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #ffffff;
+          -webkit-text-stroke-color: #5d3ede;
         }
-        // span {
-        //   display: block;
-        //   color: transparent;
-        //   letter-spacing: 3px;
-        //   -webkit-text-stroke-width: 1.5px;
-        //   -webkit-text-stroke-color: #3dd7ac;
-        // }
 
         .buttons {
           // text-align: center;
@@ -70,7 +85,7 @@ const FooterCallToAction = (props) => {
           background: transparent;
           border: 1px solid #3dd7ac;
           text-decoration: none;
-          color: #fff;
+          color: #5d3ede;
           display: inline-block;
           // min-width: 100px;
           // display: flex;
@@ -82,33 +97,22 @@ const FooterCallToAction = (props) => {
           background: #3dd7ac;
         }
 
-        // a {
-        //   display: inline-block;
-        //   color: #fff;
-        //   text-decoration: none;
-        //   text-transform: uppercase;
-        //   padding: 5px 2rem;
-        //   border: 1px solid #3dd7ac;
-        //   font-size: 0.7em;
-        //   font-weight: 600;
-        //   line-height: 1.5em;
-        //   margin: 0.5rem;
-        //   letter-spacing: 2px;
-        //   transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
-        //   box-shadow: 0 0 0 0 transparent;
-        //   position: relative;
-        //   top: 0;
-        //   left: 0;
-        //   text-align: center;
-        //   min-width: 100px;
-        // }
-        // a:hover {
-        //   // margin: 10px 5px 15px 10px;
-        //   // margin: 10px 10px 15px 15px;
-        //   box-shadow: -5px 5px 0 0 #fff;
-        //   top: -5px;
-        //   left: 5px;
-        // }
+        span.circle {
+          position: relative;
+        }
+
+        span.circle::after {
+          position: absolute;
+          background: url("/img/Vector64.svg") center/contain no-repeat;
+          transform: rotateX(67deg);
+
+          height: 300%;
+          width: 105%;
+          right: 0;
+          bottom: -100%;
+          content: "";
+          display: block;
+        }
 
         @media (max-width: 1024px) {
           h1 {

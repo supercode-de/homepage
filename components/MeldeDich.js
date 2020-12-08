@@ -11,7 +11,8 @@ const MeldeDich = () => {
       </h1>
 
       <div className="buttons">
-        <Beratung />
+        <Beratung buttonTextColor="#fff" />
+
         <Link href="/workshops">
           <a href="">WORKSHOP</a>
         </Link>
