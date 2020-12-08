@@ -113,6 +113,10 @@ class Layout extends Component {
           }
           // Styling Carousel Blog Start
 
+          .react-multiple-carousel__arrow {
+            z-index: 1;
+          }
+
           #blog .react-multiple-carousel__arrow {
             background: none;
             // top: -1px;

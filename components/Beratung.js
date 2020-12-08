@@ -141,7 +141,7 @@ const Beratung = (props) => {
             background: transparent;
             border: 1px solid #3dd7ac;
             text-decoration: none;
-            color: #fff;
+            color: ${props.buttonTextColor};
             justify-self: center;
             display: inline-block;
             min-width: 23em;

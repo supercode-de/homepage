@@ -2,20 +2,36 @@ import Link from "next/link";
 import React, { Component } from "react";
 
 class Navigation extends Component {
-  state = { show: true, color: "white" };
-  // listenScrollEvent = e => {
-  //   if (window.scrollY > 2700 && window.scrollY < 4700) {
-  //     this.setState({ color: 'black' })
-  //   } else if (window.scrollY > 7100 && window.scrollY < 8670) {
-  //     this.setState({ color: 'black' })
-  //   } else {
-  //     this.setState({ color: 'white' })
-  //   }
-  // }
+  state = { show: true, color: "white", rotateDeg: 0 };
+  listenScrollEvent = () => {
+    let scrollLimit =
+      Math.max(
+        document.body.scrollHeight,
+        document.body.offsetHeight,
+        document.documentElement.clientHeight,
+        document.documentElement.scrollHeight,
+        document.documentElement.offsetHeight
+      ) - document.documentElement.clientHeight;
 
-  // componentDidMount() {
-  //   window.addEventListener('scroll', this.listenScrollEvent)
-  // }
+    let numberOfRotations = 2;
+    let totalRotation = numberOfRotations * 360;
+
+    this.setState({
+      rotateDeg: (window.scrollY / scrollLimit) * totalRotation,
+    });
+    //   if (window.scrollY > 2700 && window.scrollY < 4700) {
+    //     this.setState({ color: "black" });
+    //   } else if (window.scrollY > 7100 && window.scrollY < 8670) {
+    //     this.setState({ color: "black" });
+    //   } else {
+    //     this.setState({ color: "white" });
+    //   }
+  };
+
+  componentDidMount() {
+    window.addEventListener("scroll", this.listenScrollEvent);
+  }
+
   render() {
     return (
       <nav
@@ -26,8 +42,14 @@ class Navigation extends Component {
       >
         <div className={`main-navigation ${this.state.show ? "hide" : "hide"}`}>
           <Link href="/">
-            <a className="logo" style={{ color: "rgb(255, 255, 255)" }}>
-              <img src="/img/Logo.png" alt="SuperCode-Logo" />
+            <a className="logo">
+              <img
+                src="/img/Bildungsinstitut_Logo.svg"
+                alt="SuperCode-Logo"
+                className="rotate"
+              />
+
+              <img src="/img/SuperCode_Logo.svg" alt="SuperCode-Logo" />
             </a>
           </Link>
 
@@ -86,6 +108,24 @@ class Navigation extends Component {
             top: 40px;
             z-index: 999;
           }
+          .logo {
+            position: relative;
+            height: 80px;
+          }
+          .logo img {
+            height: 80px;
+            width: 80px;
+          }
+          .logo .rotate {
+            transform: rotate(${this.state.rotateDeg}deg);
+          }
+
+          .logo > img {
+            position: absolute;
+            top: 1px;
+            left: -1px;
+          }
+
           a {
             text-decoration: none;
             font-size: 1em;

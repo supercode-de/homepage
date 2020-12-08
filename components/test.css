@@ -1,8 +1,6 @@
 h1:first-child {
-    grid-template-columns: repeat(4, 1fr);
-    flex-direction: column;
-    justify-content: flex-end;
-    transition: transform 1s linear;
-    
+  grid-template-columns: repeat(4, 1fr);
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: transform 1s linear;
 }
-

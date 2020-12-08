@@ -12,7 +12,10 @@ import AbsolventenWS_neu from "../components/AbsolventenWS_neu";
 import { useWindowSize } from "../components/functions/windowSize";
 import LerneProgrammierenWS from "../components/LerneProgrammierenWS";
 import UnserCampusKurse from "../components/UnserCampusKurse";
+import UpToDate from "../components/UpToDate";
 import FooterCallToAction from "../components/FooterCallToAction";
+import FooterCallToActionWS from "../components/FooterCallToActionWS";
+
 import Layout from "../components/Layout";
 import dates from "../components/data/dates.json";
 export default function Workshop() {
@@ -36,7 +39,11 @@ export default function Workshop() {
 
             {/* <LerneProgrammierenWS /> */}
             {/* <UnserCampusKurse width={width} /> */}
+
+            {/* <UpToDate /> */}
+
             <FooterCallToAction month={dates.WorkshopMonth} bald={true} />
+            {/* <FooterCallToActionWS month={dates.WorkshopMonth} bald={true} /> */}
           </main>
 
           <style jsx>{``}</style>
