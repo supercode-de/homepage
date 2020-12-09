@@ -10,56 +10,44 @@ const AVGS = () => {
         />
       </div>
 
-      <h2>
-        #Förderung durch einen Aktivierungs- und Vermittlungs&shy;gutschein
-        (AVGS)
-      </h2>
+      <h2>#Förderung durch einen Bildungs&shy;gutschein (BGS)</h2>
       <div className="infos">
         <div className="info-headline 1">
-          <h3>
-            Was ist ein Aktivierungs- und Vermittlungs&shy;gutschein (AVGS)?
-          </h3>
+          <h3>Was ist ein Bildungs&shy;gutschein?</h3>
         </div>
         <div className="info-text">
           <p>
-            Der Aktivierungs- und Vermittlungsgutschein, kurz AVGS, ermöglicht
-            es dir, beruflich weiter zu kommen und wird von der Agentur für
-            Arbeit oder dem Jobcenter ausgestellt.
+            Der Bildungsgutschein, kurz BGS, ermöglicht es dir, beruflich weiter
+            zu kommen und wird von der Agentur für Arbeit oder dem Jobcenter
+            ausgestellt.
             <br />
             <br />
-            Wenn du arbeitssuchend gemeldet bist, hast du unter bestimmten
-            Voraussetzungen einen Anspruch auf den AVGS und kannst damit
-            kostenlos an einigen unserer Workshops teilnehmen.
+            Egal, ob du gerade arbeitest oder nicht, hast du unter bestimmten
+            Voraussetzungen einen Anspruch auf den BGS und kannst damit
+            kostenlos an unseren Kursen / Weiterbildungen teilnehmen.
           </p>
         </div>
         <div className="info-headline">
-          <h3>
-            Wie erhalte ich einen Aktivierungs- und Vermittlungs&shy;gutschein
-            (AVGS)?
-          </h3>
+          <h3>Wie erhalte ich einen Bildungs&shy;gutschein?</h3>
         </div>
         <div className="info-text">
           <p>
-            Du möchtest an einem unserer AVGS-geförderten Workshops teilnehmen?
+            Du möchtest an einem unserer BGS-geförderten Kurs teilnehmen?
             <br />
             <br />
             Wenn der Kurs für dich der Richtige ist, versorgen wir dich mit
             Info-Material sowie einem Angebot für das Jobcenter / die Agentur
             für Arbeit. Wenn du gute Argumente für deine Teilnahme hast, wird
-            dir in der Regel der AVGS für unseren Workshop ausgestellt.
+            dir in der Regel der BGS für unseren Workshop ausgestellt.
           </p>
         </div>
         <div className="info-headline">
-          <h3>
-            Und was mache ich dann mit dem Aktivierungs- und
-            Vermittlungs&shy;gutschein (AVGS)?
-          </h3>
+          <h3>Und was mache ich dann mit dem Bildungs&shy;gutschein?</h3>
         </div>
         <div className="info-text">
           <p>
-            Grundsätzlich darfst du mit dem AVGS machen was du willst. Wir
-            würden uns natürlich freuen, wenn du damit wieder zu uns kommst.
-            <br />
+            Grundsätzlich darfst du mit dem BGS machen was du willst. Wir würden
+            uns natürlich freuen, wenn du damit wieder zu uns kommst. <br />
             <br />
             Dann bekommst du deinen Vertrag, dein eigenes Mac Book Air und dein
             Kurs bei uns kann starten!

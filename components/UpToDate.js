@@ -1,4 +1,4 @@
-import Carousel from "react-multi-carousel";
+import HubspotForm from "react-hubspot-form";
 
 const responsive = {
   superLargeDesktop: {
@@ -23,21 +23,34 @@ const responsive = {
 const UpToDate = (props) => {
   return (
     <div id="up-to-date">
-      <h1>UP TO DATE</h1>
+      <div className="top-label">
+        <h1>UP</h1>
+        <h1>TO</h1>
+        <h1>DATE</h1>
+      </div>
       <div className="grid">
-        <article className="kurs-boxes-headline">
+        <article className="">
           <h2>
             Werde jetzt Teil des{" "}
             <span className="super">Super(Code)-Kosmos</span> und sei immer auf
             dem <span className="circle">neusten&nbsp;Stand!</span> Mit unserem
             Newsletter bekommst du regelmäßig die{" "}
             <span className="super">spannendsten News</span> sowie{" "}
-            <span className="super">Eventankündigungen</span> direkt in{" "}
-            <span className="bling">dein&nbsp;Postfach!</span>
+            <span className="super">Eventankündigungen</span> direkt&nbsp;in
+            <br /> <span className="bling">dein&nbsp;Postfach!</span>
           </h2>
         </article>
 
-        <article>Email</article>
+        <div className="email-newsletter">
+          <HubspotForm
+            portalId="5807040"
+            formId="ef0bca6d-bc5a-4624-89cb-5fd225d47727"
+            onSubmit={() => console.log("Submit!")}
+            onReady={(form) => console.log("Form ready!")}
+            loading={<div>Loading...</div>}
+            className="email-newsletter-form"
+          />
+        </div>
       </div>
 
       <style jsx>{`
@@ -66,23 +79,39 @@ const UpToDate = (props) => {
           background-size: calc(100vw / 12) calc(100vw / 12);
 
           color: #fff;
-          padding: 7em 8.5% 5em;
+          padding: 4em 8.5% 5em;
           position: relative;
           z-index: 1;
         }
 
         .grid {
           width: 100%;
-          diaplay: grid;
+          display: grid;
           grid-template-columns: 1fr 1fr;
+          gap: 40px;
+        }
+
+        article {
+          width: 100%;
+        }
+        .top-label {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+        }
+        h1 {
+          font-family: "Neue_Machina_Regular_400";
+          color: #3dd7ac;
+          font-size: 3.5em;
+          font-weight: 300;
+          margin-bottom: 50px;
         }
 
         h2 {
           font-family: "Neue_Machina_Regular_400";
-          font-size: 3.5em;
+          font-size: 2.2em;
           color: #fff;
           line-height: 1.2em;
-          font-weight: 300;
         }
 
         h2 span.super {
@@ -111,6 +140,45 @@ const UpToDate = (props) => {
           display: block;
         }
 
+        span.bling {
+          width: 100%;
+        }
+
+        span.bling::before {
+          position: absolute;
+          background: url("/img/bling.png") center/contain no-repeat;
+          height: 100%;
+          width: 20px;
+          left: -20px;
+          bottom: 0;
+          content: "";
+          display: block;
+        }
+        span.bling::after {
+          position: absolute;
+          background: url("/img/bling2.png") center/contain no-repeat;
+          height: 100%;
+          width: 20px;
+          right: -20px;
+          bottom: 0;
+          content: "";
+          display: block;
+        }
+
+        .email-newsletter {
+          width: 100%;
+          display: flex;
+
+          align-items: flex-end;
+        }
+        .email-newsletter * {
+          width: 100%;
+        }
+        @media (max-width: 1040px) {
+          .grid {
+            grid-template-columns: 1fr;
+          }
+        }
         @media (max-width: 768px) {
         }
       `}</style>

@@ -22,10 +22,7 @@ const JetztAnmdelden = (props) => {
           <h1>
             dir <span>helfen?</span>
           </h1>
-          <p>
-            An diesen Zeiten erreichst du uns am besten an folgenden Tagen und
-            Zeiten
-          </p>
+          <p> Du erreichst uns am besten an folgenden Tagen und Zeiten</p>
           <p>Montag - Freitag</p>
           <p>09:00 - 17:00 Uhr</p>
           <p>
@@ -57,7 +54,7 @@ const JetztAnmdelden = (props) => {
             overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
-            z-index: 99999;
+            z-index: 99997;
           }
           .isHidden {
             right: -100%;
