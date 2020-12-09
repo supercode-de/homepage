@@ -161,7 +161,7 @@ class Navigation extends Component {
             padding: 0 25px;
             position: fixed;
             top: 5;
-            z-index: 999;
+            z-index: 99999;
           }
 
           .menu-button {
@@ -179,10 +179,10 @@ class Navigation extends Component {
             // left: 2.5vw;
             // padding-top: 4vh;
             // height: 4vmax;
-            z-index: 99998;
+            z-index: 99999;
           }
           .superCode-logo {
-            z-index: 99998;
+            z-index: 99999;
             cursor: pointer;
           }
 

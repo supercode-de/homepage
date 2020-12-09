@@ -6,9 +6,9 @@ import HeaderCallToActionWS from "../components/HeaderCallToActionWS";
 import AnfängerBisBusinessWS from "../components/AnfängerBisBusinessWS";
 import WorkITWS from "../components/WorkITWS";
 import AuflistungWS from "../components/AuflistungWS";
-import AVGS from "../components/AVGSWS";
+import AVGSWS from "../components/AVGSWS_neu";
 import AbsolventenWS from "../components/AbsolventenWS";
-import AbsolventenWS_neu from "../components/AbsolventenWS_neu";
+import AbsolventenWS_neu_v2 from "../components/AbsolventenWS_neu_v2";
 import { useWindowSize } from "../components/functions/windowSize";
 import LerneProgrammierenWS from "../components/LerneProgrammierenWS";
 import UnserCampusKurse from "../components/UnserCampusKurse";
@@ -33,17 +33,17 @@ export default function Workshop() {
             <WorkITWS />
 
             <AuflistungWS />
-            <AVGS />
-            {/* <AbsolventenWS_neu /> */}
-            <AbsolventenWS />
+            <AVGSWS />
+            <AbsolventenWS_neu_v2 />
+            {/* <AbsolventenWS /> */}
 
             {/* <LerneProgrammierenWS /> */}
             {/* <UnserCampusKurse width={width} /> */}
 
-            {/* <UpToDate /> */}
+            <UpToDate />
 
-            <FooterCallToAction month={dates.WorkshopMonth} bald={true} />
-            {/* <FooterCallToActionWS month={dates.WorkshopMonth} bald={true} /> */}
+            {/* <FooterCallToAction month={dates.WorkshopMonth} bald={true} /> */}
+            <FooterCallToActionWS month={dates.WorkshopMonth} bald={true} />
           </main>
 
           <style jsx>{``}</style>
