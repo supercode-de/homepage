@@ -1,6 +1,28 @@
 // import { useWindowSize } from './functions/windowSize'
 
+import Carousel from "react-multi-carousel";
+
 import data from "./data/team.json";
+
+const responsive = {
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 3,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 const Zukunft = (props) => {
   // const width = useWindowSize().width / 12
@@ -54,6 +76,33 @@ const Zukunft = (props) => {
             alt="SuperCode Team, Bildungsträger"
           />
         </div>
+      </div>
+      <div className="team-carousel">
+        <Carousel
+          responsive={responsive}
+          ssr
+          showDots={false}
+          slidesToSlide={1}
+          infinite
+          containerClass="container-with-dots"
+          itemClass="image-item"
+          deviceType={""}
+        >
+          {data.map((teammitglied) => {
+            return (
+              <div className="carousel-article-container">
+                <div>
+                  <img
+                    src={teammitglied.img}
+                    alt={`${teammitglied.name} ${teammitglied.job}`}
+                  />
+                  <h2>{teammitglied.name}</h2>
+                  <p>{teammitglied.job}</p>
+                </div>
+              </div>
+            );
+          })}
+        </Carousel>
       </div>
 
       <style jsx>{`
@@ -139,14 +188,6 @@ const Zukunft = (props) => {
           animation: spin 15s linear infinite;
         }
 
-        h2,
-        p {
-          margin: 0;
-          padding: 0;
-        }
-        h2 {
-          margin-top: 0.5em;
-        }
         @keyframes spin {
           0% {
             transform: rotate(0);
@@ -156,10 +197,45 @@ const Zukunft = (props) => {
           }
         }
 
-        @media (max-width: 1040px) {
+        h2,
+        p {
+          margin: 0;
+          padding: 0;
         }
-        @media (max-width: 863px) {
+        h2 {
+          margin-top: 0.5em;
         }
+
+        .team-carousel {
+          display: none;
+          padding: 0;
+        }
+
+        .carousel-article-container {
+          padding: 0 20px;
+        }
+
+        .carousel-article-container div {
+          overflow: hidden;
+          text-align: center;
+          width: 100%;
+        }
+
+        .carousel-article-container .img {
+          width: 100%;
+          overflow: hidden;
+        }
+        .carousel-article-container img {
+          width: 100%;
+        }
+
+        .carousel-article-container div p {
+          font-size: 1.8em;
+        }
+        .carousel-article-container div h2 {
+          font-size: 2em;
+        }
+
         @media (max-width: 768px) {
           .infos {
             grid-template-columns: 1fr;
@@ -173,6 +249,13 @@ const Zukunft = (props) => {
 
           .info-img {
             grid-row: 1/2;
+          }
+          .team-grid {
+            display: none;
+          }
+
+          .team-carousel {
+            display: block;
           }
         }
         @media (max-width: 468px) {
