@@ -1,0 +1,72 @@
+[
+  {
+    "img": "/img/team/Kim Reichl Leitung SuperCode.jpg",
+    "name": "Kim Reichl",
+    "job": "Leitung SuperCode"
+  },
+  {
+    "img": "/img/team/Sergio Cardeal CEO SuperCode.jpg",
+    "name": "Sergio Cardeal",
+    "job": "CEO SuperCode"
+  },
+  {
+    "img": "/img/team/Natalie Streich Bewerbungscoaching.jpg",
+    "name": "Natalie Streich",
+    "job": "Bewerbungscoaching"
+  },
+  {
+    "img": "/img/team/Shapour Amir Ebrahimi Bildungsberatung.jpg",
+    "name": "Shapour Amir Ebrahimi",
+    "job": "Bildungsberatung"
+  },
+  {
+    "img": "/img/team/Henri Delfmann Bildungsberatung.jpg",
+    "name": "Henri Delfmann",
+    "job": "Bildungsberatung"
+  },
+  {
+    "img": "/img/team/Lilia Saran Marketing SuperCode.jpg",
+    "name": "Lilia Saran",
+    "job": "Marketing SuperCode"
+  },
+  {
+    "img": "/img/team/Lisa Nuesslein SuperCode Fundraising.jpg",
+    "name": "Lisa Nuesslein",
+    "job": "SuperCode Fundraising"
+  },
+  {
+    "img": "/img/team/Adriaan van de Bergh Trainer Webentwicklung Frontend.jpg",
+    "name": "Adriaan van de Bergh",
+    "job": "Trainer Webentwicklung Frontend"
+  },
+  {
+    "img": "/img/team/Edward Agyeman Trainer Webentwicklung.jpg",
+    "name": "Edward Agyeman",
+    "job": "Trainer Webentwicklung"
+  },
+  {
+    "img": "/img/team/Anass Nebarri Trainer Webentwicklung Full-Stack.jpg",
+    "name": "Anass Nebarri",
+    "job": "Trainer Webentwicklung Full-Stack"
+  },
+  {
+    "img": "/img/team/Elaine Wong Trainer Webentwicklung Full-Stack.jpg",
+    "name": "Elaine Wong",
+    "job": "Trainer Webentwicklung Full-Stack"
+  },
+  {
+    "img": "/img/team/Georg Treitz Trainer Webentwicklung Full-Stack.jpg",
+    "name": "Georg Treitz",
+    "job": "Trainer Webentwicklung Full-Stack"
+  },
+  {
+    "img": "/img/team/Hakan Gezer Trainer Webentwicklung Full-Stack.jpg",
+    "name": "Hakan Gezer",
+    "job": "Trainer Webentwicklung Full-Stack"
+  },
+  {
+    "img": "/img/team/Eric Noack Trainer Webentwicklung.jpg",
+    "name": "Eric Noack",
+    "job": "Trainer Webentwicklung"
+  }
+]

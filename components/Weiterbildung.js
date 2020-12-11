@@ -3,7 +3,7 @@ import Button from "./small/Button";
 import HubspotForm from "react-hubspot-form";
 import Popup1 from "./Beratung";
 import Beratung from "./Beratung";
-import dates from './data/dates.json'
+import dates from "./data/dates.json";
 
 const Weiterbildung = (props) => {
   return (
@@ -31,7 +31,7 @@ const Weiterbildung = (props) => {
               <h4>{dates.VzTermin2} - Platz sichern ⟶</h4>
               <div className="two-column">
                 <Button href="mailto:beratung@super-code.de" text="ANFRAGEN" />
-                <Beratung />
+                <Beratung buttonText="Beratung" />
               </div>
             </div>
             <div>
@@ -81,7 +81,7 @@ const Weiterbildung = (props) => {
               <h4>{dates.TzTermin2} - Platz sichern ⟶</h4>
               <div className="two-column">
                 <Button href="mailto:beratung@super-code.de" text="ANFRAGEN" />
-                <Beratung />
+                <Beratung buttonText="Beratung" />
               </div>
             </div>
             <div>

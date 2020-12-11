@@ -13,7 +13,8 @@ class Navigation extends Component {
         document.documentElement.offsetHeight
       ) - document.documentElement.clientHeight;
 
-    let numberOfRotations = 2;
+    let numberOfRotations =
+      Math.ceil(scrollLimit / document.documentElement.clientHeight / 2) * 0.5;
     let totalRotation = numberOfRotations * 360;
 
     this.setState({
@@ -65,6 +66,13 @@ class Navigation extends Component {
                 <a>Workshops</a>
               </Link>
             </li>
+
+            <li>
+              <Link href="/team">
+                <a>Team</a>
+              </Link>
+            </li>
+
             <li>
               <Link href="/#faq">
                 <a>FAQ</a>
@@ -161,7 +169,7 @@ class Navigation extends Component {
             padding: 0 25px;
             position: fixed;
             top: 5;
-            z-index: 99999;
+            z-index: 999;
           }
 
           .menu-button {
@@ -179,10 +187,10 @@ class Navigation extends Component {
             // left: 2.5vw;
             // padding-top: 4vh;
             // height: 4vmax;
-            z-index: 99999;
+            z-index: 99998;
           }
           .superCode-logo {
-            z-index: 99999;
+            z-index: 99998;
             cursor: pointer;
           }
 

@@ -54,7 +54,7 @@ const JetztAnmdelden = (props) => {
             overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
-            z-index: 99997;
+            z-index: 99999;
           }
           .isHidden {
             right: -100%;

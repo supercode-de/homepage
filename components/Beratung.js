@@ -8,7 +8,7 @@ const Beratung = (props) => {
   return (
     <div id="beratung">
       <button className="button" onClick={() => toggleJetztAnmelden(!isHidden)}>
-        Beratung
+        {props.buttonText}
       </button>
 
       <div

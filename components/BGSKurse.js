@@ -5,7 +5,7 @@ const AVGS = () => {
     <div id="avgs">
       <div className="avgs-img">
         <img
-          src="/img/_DSC2541_LowRes.png"
+          src="/img/_DSC3868_LowRes.png"
           alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
         />
       </div>
