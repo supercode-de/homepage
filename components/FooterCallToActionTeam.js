@@ -8,20 +8,14 @@ const FooterCallToAction = (props) => {
   return (
     <div id="call-to-action">
       <h1>
-        Worauf wartest du noch?! Die nächsten{" "}
-        <span className="super">
-          Workshops{" "}
-          <span className="circle">
-            starten&nbsp;bald
-            <nobr />.
-          </span>
-        </span>
+        Worauf wartest du noch?! <br /> Bewirb{" "}
+        <span className="super">dich jetzt!</span>
       </h1>
       <div className="buttons">
-        <Link href="/kurse">
-          <a href="">KURSE</a>
-        </Link>
-        <Beratung buttonText="Beratung" buttonTextColor="#5d3ede" />
+        <a href="mailto:bewerbung@super-code.de?subject=Initiativ%20Bewerbung">
+          Initiativ
+        </a>
+        <Beratung buttonText="Kontakt" buttonTextColor="#5d3ede" />
       </div>
       <style jsx>{`
         #call-to-action {

@@ -58,10 +58,6 @@ const Header_neu = (props) => {
       </div>
       <style jsx>
         {`
-          .logo-name {
-            color: #fff;
-            padding-bottom: 60px;
-          }
           img + div {
             display: none;
           }
@@ -160,7 +156,7 @@ const Header_neu = (props) => {
           .twocolumn + img {
             position: absolute;
             z-index: 2;
-            margin-top: -14vh;
+            margin-top: -10vh;
             margin-left: -3.5vw;
             width: 340px;
           }

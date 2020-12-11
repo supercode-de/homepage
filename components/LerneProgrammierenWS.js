@@ -1,7 +1,7 @@
 import Button from "./small/Button";
 import Collapsible from "./WeiterbildungItem";
 import Beratung from "./Beratung";
-import dates from './data/dates.json'
+import dates from "./data/dates.json";
 const LerneProgrammierenKurse = () => {
   return (
     <div id="weiterbildung">
@@ -35,7 +35,7 @@ const LerneProgrammierenKurse = () => {
                   text="ANMELDUNG"
                   target="_blank"
                 />
-                <Beratung />
+                <Beratung buttonText="Beratung" />
               </div>
             </div>
             <div>
@@ -68,8 +68,10 @@ const LerneProgrammierenKurse = () => {
         <div className="kurse-infos">
           <div>
             <p>
-              An vier Abenden lernst du die nötigen Grundlagen für die Erstellung einer modernen Webseite mit Hilfe von HTML und CSS. Du lernst intensiv, schnell und ultra praxisorientiert!
-              </p>
+              An vier Abenden lernst du die nötigen Grundlagen für die
+              Erstellung einer modernen Webseite mit Hilfe von HTML und CSS. Du
+              lernst intensiv, schnell und ultra praxisorientiert!
+            </p>
             <h3>Inhalte:</h3>
             <h4>- Design Basics</h4>
             <h4>- UX & UI Basics</h4>
@@ -81,7 +83,7 @@ const LerneProgrammierenKurse = () => {
                 text="ANMELDUNG"
                 target="_blank"
               />
-              <Beratung />
+              <Beratung buttonText="Beratung" />
             </div>
           </div>
           <div>
@@ -90,9 +92,7 @@ const LerneProgrammierenKurse = () => {
             <p>Uhrzeit: 18.00 - 21.00 Uhr</p>
             <p>Lerneinheiten: 16 (je 45 Minuten)</p>
 
-            <p>
-              Level: Anfänger*innen
-              </p>
+            <p>Level: Anfänger*innen</p>
           </div>
           <div>
             <h3>Sonstiges:</h3>

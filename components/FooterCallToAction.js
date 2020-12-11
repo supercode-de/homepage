@@ -13,7 +13,7 @@ const FooterCallToAction = (props) => {
         <Link href="/kurse">
           <a href="">KURSE</a>
         </Link>
-        <Beratung buttonTextColor="#fff" />
+        <Beratung buttonText="Beratung" buttonTextColor="#fff" />
       </div>
       <style jsx>{`
         #call-to-action {

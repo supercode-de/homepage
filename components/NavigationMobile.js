@@ -28,6 +28,13 @@ const JetztAnmdelden = (props) => {
               <a onClick={props.toggleNavigationMobile}>Workshops</a>
             </Link>
           </li>
+
+          <li>
+            <Link href="/team">
+              <a onClick={props.toggleNavigationMobile}>Team</a>
+            </Link>
+          </li>
+
           <li>
             <Link href="/#faq">
               <a onClick={props.toggleNavigationMobile}>FAQ</a>

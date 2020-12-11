@@ -8,8 +8,6 @@ import JetztAnmdelden from "./JetztAnmelden";
 import NavigationMobile from "./NavigationMobile";
 import React, { Component } from "react";
 
-import SidebarScroll from "../components/SidebarScroll";
-
 import Pixel from "./small/facebook/index";
 
 class Layout extends Component {

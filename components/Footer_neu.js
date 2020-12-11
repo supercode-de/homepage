@@ -10,7 +10,7 @@ const Footer = () => {
               <p className="logo">super(code)</p>
             </a>
           </Link>
-          <p className="copy">&copy;&nbsp;2002&#8209;2020</p>
+          <p className="copy">&copy;&nbsp;2019&#8209;2020</p>
         </div>
 
         <div className="social-media">
