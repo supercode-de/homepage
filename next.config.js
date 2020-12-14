@@ -21,6 +21,7 @@ module.exports = {
             '/blogs/2': { page: '/blogs/[blogItem]' },
             '/blogs/3': { page: '/blogs/[blogItem]' },
             '/blogs/4': { page: '/blogs/[blogItem]' },
+            '/blogs/5': { page: '/blogs/[blogItem]' },
         }
     }
 }
