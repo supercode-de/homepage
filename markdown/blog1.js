@@ -1,4 +1,3 @@
-
 const blog1 = `# YouCode, YouTube, YouRock!”
 ## Präsentation der Abschlussprojekte des 2. Bootcamps Webentwicklung Frontend als Youtube-Stream
 
@@ -28,15 +27,14 @@ Wer nun auch Lust auf Webentwicklung bei SuperCode bekommen hat und digitale Kar
 
 Screenshots für den Artikel: 
 
-![blog1](/img/blogs/image1.png )
-![blog1](/img/blogs/image2.png )
-![blog1](/img/blogs/image3.png )
-![blog1](/img/blogs/image4.png )
-![blog1](/img/blogs/image5.png )
+![blog1](/img/blogs/1/1.png )
+![blog1](/img/blogs/1/2.png )
+![blog1](/img/blogs/1/3.png )
+![blog1](/img/blogs/1/4.png )
+![blog1](/img/blogs/1/5.png )
 
 
 
-`
+`;
 
-
-export default blog1
+export default blog1;
