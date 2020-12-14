@@ -6,7 +6,7 @@ Kursteilnehmer*innen mit technischen Gimmicks und hat diesen coolen, undefinierb
 Akzent. Wer ist dieser sympathische, junggebliebene Typ mit dem Pferdeschwanz und den
 Geschichten aus aller Welt? Hier im Blog-interview lernt ihr ihn ein bisschen kennen.
 
-![blog3](/img/blogs/image6.png)
+![blog3](/img/blogs/3/1.png)
 
 _Unser Super-Master-Trainer Adriaan in seinem Raumschiff_
 

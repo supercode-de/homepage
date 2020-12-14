@@ -4,7 +4,7 @@ const blog4 = `# SuperNatalie goes SuperCode
 
 _Gleichermaßen fasziniert von Theorie und Praxis menschlichen Zusammenlebens studierte Natalie Diplom-Soziologie in Frankfurt am Main, um dann den Bildungsbereich als Projektkoordinatorin und Coach aufzumischen. Mit einem Hang zum Schönen und Lustigen(Menschen, Tiere, Layouts, Texte…) widmete sie sich mehr und mehr den Regeln des Bewerbungsmanagement, um ihr Wissen komprimiert und ansprechend weiter zu geben. Nun ist sie im IT-Bereich angekommen, hat bei uns ihre Weiterbildung zur Web-Entwicklerin gemacht und gibt Bewerbungscoaching für IT-Fachkräfte, die ihre Coding-Skills und ihre Persönlichkeit besser in Szene setzen möchten, um ihren Traumjob zu finden._
 
-![blog4](/img/blogs/image4-1.JPG)
+![blog4](/img/blogs/4/1.jpg)
 
 ### Was ich bei SuperCode mache:
 
@@ -22,7 +22,7 @@ Der zweite Punkt, an dem im Coaching intensiv gearbeitet wird, sind der Aufbau v
 
 Klingt kompliziert, lässt sich aber spielerisch und mit Humor trainieren und wenn dann noch die Bewerbungsunterlagen inhaltlich und design-technisch top sind, verwandelt man sich unweigerlich in den perfekte Kandidaten für seinen Traumjob.
 
-![blog4](/img/blogs/image4-2.png)
+![blog4](/img/blogs/4/2.png)
 
 
 ### Und wie lange dauert das Ganze?
@@ -34,7 +34,7 @@ Das Bewerbungscoaching umfasst  7 Steps, die alle aufeinander aufbauen. Insgesam
 Tatsächlich war es wie eine Eingebung, die leuchtreklamen-mäßig in meinem Kopf erschien: Web-Development!
 Ohne wirklich zu wissen, was das bedeutet, recherchierte ich im Internet nach Kursen und fand den kostenlosen Schnupper-Workshop HTML/CSS von SuperCode, an dem ich dann im September 2019 teilnahm. Die Stimmung, die MitarbeiterInnen und die Location haben mir auf Anhieb gefallen und aus einer Laune heraus fragte ich Sergio, dem Workshopleiter und Geschäftsführer, ob er nicht zufällig jemanden für Bewerbungstraining braucht. Und wie der Zufall so will, stand gerade schon das Grundkonzept für ein Bewerbungstraining für IT-Fachkräfte und wir hatten ein Match! Nach wenigen weiteren Terminen war schnell klar: wir möchten zusammen arbeiten! Und nun - 3 Monate später - mache ich den Teilzeit-Kurs Web-Entwicklung Frontend und kümmere mich um die Umsetzung des Super- Bewerbungstraining, schreibe Konzepte für neue Bildungsangebote und achte darauf, dass die Qualitätsregeln eingehalten werden. 
 
-![blog4](/img/blogs/image4-3.JPG)
+![blog4](/img/blogs/4/3.jpg)
 
 ### Gibt es etwas, das dir am Besten bei SuperCode gefällt?
 
