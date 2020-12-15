@@ -56,12 +56,6 @@ let blog = [
     text: blog7,
     pic: "/img/blogs/7/preview_pic.jpg",
   },
-  {
-    id: 7,
-    title: { main: `test`, sub: "test" },
-    text: `test`,
-    pic: "/img/blogs/7/preview_pic.jpg",
-  },
 ];
 
 export default blog;
