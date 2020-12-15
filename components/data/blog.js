@@ -1,4 +1,3 @@
-
 import blog1 from "../../markdown/blog1";
 import titleBlog1 from "../../markdown/titleBlog1";
 import blog2 from "../../markdown/blog2";
@@ -13,7 +12,7 @@ import blog6 from "../../markdown/blog6";
 import titleBlog6 from "../../markdown/titleBlog6";
 import blog7 from "../../markdown/blog7";
 import titleBlog7 from "../../markdown/titleBlog7";
-
+// console.log({ blog7, titleBlog7 });
 let blog = [
   {
     id: 0,
@@ -57,7 +56,6 @@ let blog = [
     text: blog7,
     pic: "/img/blogs/7/preview_pic.jpg",
   },
-  // { id: 5, title: titleBlog1, text: blog1 },
 ];
 
 export default blog;
