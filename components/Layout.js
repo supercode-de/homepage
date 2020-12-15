@@ -43,6 +43,8 @@ class Layout extends Component {
           <title>Super-code</title>
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link rel="alternate icon" href="/favicon.ico" />
+
+
         </Head>
         <Pixel name="FACEBOOK_PIXEL_1" />
         {this.props.banner ? <Banner /> : <Banner />}
