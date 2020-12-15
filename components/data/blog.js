@@ -12,7 +12,7 @@ import blog6 from "../../markdown/blog6";
 import titleBlog6 from "../../markdown/titleBlog6";
 import blog7 from "../../markdown/blog7";
 import titleBlog7 from "../../markdown/titleBlog7";
-
+// console.log({ blog7, titleBlog7 });
 let blog = [
   {
     id: 0,

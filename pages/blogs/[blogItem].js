@@ -13,7 +13,6 @@ const blogItem = (props) => {
   const router = useRouter();
   const { blogItem } = router.query;
   const [blogs, setBlogs] = useState(BlogData);
-
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
