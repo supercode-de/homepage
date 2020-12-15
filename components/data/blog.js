@@ -56,7 +56,12 @@ let blog = [
     text: blog7,
     pic: "/img/blogs/7/preview_pic.jpg",
   },
-  // { id: 5, title: titleBlog1, text: blog1 },
+  {
+    id: 7,
+    title: titleBlog7,
+    text: blog7,
+    pic: "/img/blogs/7/preview_pic.jpg",
+  },
 ];
 
 export default blog;
