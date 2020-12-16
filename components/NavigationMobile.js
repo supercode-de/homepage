@@ -53,7 +53,6 @@ const JetztAnmdelden = (props) => {
             top: 0;
             bottom: 0;
             color: #3dd7ac;
-            overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
             height: 200vh;

@@ -208,7 +208,7 @@ const UnserCampus = (props) => {
           margin-left: 70%;
           transform: translateY(65px);
           position: relative;
-          z-index: 99;
+          z-index: 1;
         }
         .campus {
           width: 12%;
@@ -228,6 +228,9 @@ const UnserCampus = (props) => {
         }
 
         @media (max-width: 768px) {
+          .text-one {
+            padding-top: 0;
+          }
           #unser-campus {
             padding: 5% 0;
           }

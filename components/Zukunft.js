@@ -204,6 +204,10 @@ const Zukunft = (props) => {
         }
 
         @media (max-width: 768px) {
+          .images {
+            padding-bottom: 50px;
+          }
+
           .images + img {
             display: none;
           }

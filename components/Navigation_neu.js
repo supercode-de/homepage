@@ -14,7 +14,7 @@ class Navigation extends Component {
       ) - document.documentElement.clientHeight;
 
     let numberOfRotations =
-      Math.ceil(scrollLimit / document.documentElement.clientHeight / 2) * 0.5;
+      Math.ceil(scrollLimit / document.documentElement.clientHeight / 3) * 0.5;
     let totalRotation = numberOfRotations * 360;
 
     this.setState({
