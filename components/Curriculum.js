@@ -30,9 +30,9 @@ const Beratung = (props) => {
               &#10539;
             </button>
             <div className="curriculum-popup-content">
-              <div className="curriculum-popup-image">
+              {/* <div className="curriculum-popup-image">
                 <img src="img/SuperCode Curriculum.jpg" alt="" />
-              </div>
+              </div> */}
               <div className="curriculum-popup-input">
                 <h1>
                   Curriculum <br /> herunter- <br />
@@ -106,7 +106,7 @@ const Beratung = (props) => {
             background: #070021;
             color: #fff;
             position: relative;
-            width: calc(100vw / 12 * 7);
+            width: calc(100vw / 12 * 8);
             padding: 40px;
             border: 1px solid #3dd7ac;
           }
@@ -136,7 +136,8 @@ const Beratung = (props) => {
 
           .curriculum-popup-content {
             display: grid;
-            grid-template-columns: 3fr 2fr;
+            // grid-template-columns: 3fr 2fr;
+            grid-template-columns: 1fr;
             gap: 30px;
           }
 

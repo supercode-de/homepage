@@ -10,7 +10,7 @@ Gruppe 1 (“Tasty”) hatte die Aufgabe, eine Rezepte-Seite mit einem Suchfeld 
 
 ![blog7](/img/blogs/7/1.jpg)
 
-Gruppe 2 (“SuperExchange”) widmete sich sehr ambitioniert und mit minimalem Design der Welt der Kurse, Aktien und Krypto-Währungen. Dafür nutzten sie eine einige Datenbanken für Tageskurse und Finanzen, um den User\*innen unkompliziert und übersichtlich zu mehr Geld zu verhelfen.
+Gruppe 2 (“SuperExchange”) widmete sich sehr ambitioniert und mit minimalem Design der Welt der Kurse, Aktien und Krypto-Währungen. Dafür nutzten sie einige Datenbanken für Tageskurse und Finanzen, um den User\*innen unkompliziert und übersichtlich zu mehr Geld zu verhelfen.
 
 [“SuperExchange”](https://5fcd658863454900075a7583--elegant-euclid-080f22.netlify.app/)
 
