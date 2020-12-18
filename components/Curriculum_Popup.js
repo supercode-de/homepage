@@ -78,7 +78,7 @@ const Typeform = (props) => {
           top: 15%;
           left: 10%;
           width: 80%;
-          max-height: 80vh;
+          max-height: 70vh;
           color: #3dd7ac;
           // overflow-y: scroll;
         }
@@ -111,11 +111,12 @@ const Typeform = (props) => {
           grid-template-columns: 2fr 2fr;
           // grid-template-columns: 1fr;
           gap: 30px;
+          overflow: hidden;
+          max-height: calc(70vh - 80px);
         }
 
         .curriculum-popup-image {
           display: flex;
-          min-height: 550px;
         }
         .curriculum-popup-image img {
           width: 100%;
