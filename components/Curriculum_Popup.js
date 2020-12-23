@@ -17,9 +17,9 @@ const Typeform = (props) => {
             &#10539;
           </button> */}
           <div className="curriculum-popup-content">
-            <div className="curriculum-popup-image">
+            {/* <div className="curriculum-popup-image">
               <img src="img/SuperCode Curriculum.jpg" alt="" />
-            </div>
+            </div> */}
             <div className="curriculum-popup-input">
               <h1>
                 Curriculum <br /> herunter- <br />
@@ -76,8 +76,9 @@ const Typeform = (props) => {
           border: 1px solid #3dd7ac;
           position: fixed;
           top: 15%;
-          left: 10%;
-          width: 80%;
+          left: ${(document.documentElement.clientWidth - 700) / 2}px;
+
+          width: 700px;
           max-height: 70vh;
           color: #3dd7ac;
           // overflow-y: scroll;
@@ -108,8 +109,8 @@ const Typeform = (props) => {
 
         .curriculum-popup-content {
           display: grid;
-          grid-template-columns: 2fr 2fr;
-          // grid-template-columns: 1fr;
+          // grid-template-columns: 2fr 2fr;
+          grid-template-columns: 1fr;
           gap: 30px;
           overflow: hidden;
           max-height: calc(70vh - 80px);
@@ -136,8 +137,8 @@ const Typeform = (props) => {
           line-height: 1.2em;
           color: #fff;
           margin: 0 0 5vh;
-          text-transform: uppercase;
-          font-weight: 300;
+          // text-transform: uppercase;
+          font-weight: 900;
         }
         h1 span.super {
           color: transparent;
@@ -150,43 +151,53 @@ const Typeform = (props) => {
         @media (max-width: 1020px) {
         }
         @media (max-width: 768px) {
+          #curriculum-popup {
+            left: ${(document.documentElement.clientWidth - 500) / 2}px;
+            width: 500px;
+          }
           h1 {
             font-size: 3.3em;
           }
-          .curriculum-popup-content {
-            grid-template-columns: 1fr;
-          }
+          // .curriculum-popup-content {
+          //   grid-template-columns: 1fr;
+          // }
 
-          .curriculum-popup-image {
-            display: none;
-          }
+          // .curriculum-popup-image {
+          //   display: none;
+          // }
         }
         @media (max-width: 620px) {
-          #curriculum-popup {
-            width: calc(100vw / 12 * 9);
-            padding: 40px 0;
-          }
-          .curriculum-popup-input {
-            margin: auto;
-            width: 90%;
-          }
+          // #curriculum-popup {
+          //   width: calc(100vw / 12 * 9);
+          //   padding: 40px 0;
+          // }
+          // .curriculum-popup-input {
+          //   margin: auto;
+          //   width: 90%;
+          // }
           .iframe {
             // width: 80vw !important;
           }
         }
 
         @media (max-width: 568px) {
+          #curriculum-popup {
+            left: ${(document.documentElement.clientWidth - 400) / 2}px;
+            width: 400px;
+          }
           h1 {
             font-size: 2.3em;
           }
         }
         @media (max-width: 468px) {
+          #curriculum-popup {
+            left: ${(document.documentElement.clientWidth - 300) / 2}px;
+            width: 300px;
+          }
           .button {
             font-size: 1.2em;
             width: 16em;
             min-width: 0;
-          }
-          #curriculum-popup {
           }
         }
         @media (max-width: 400px) {
