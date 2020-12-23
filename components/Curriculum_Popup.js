@@ -79,7 +79,7 @@ const Typeform = (props) => {
           left: ${(document.documentElement.clientWidth - 700) / 2}px;
 
           width: 700px;
-          max-height: 70vh;
+          // max-height: 70vh;
           color: #3dd7ac;
           // overflow-y: scroll;
         }
