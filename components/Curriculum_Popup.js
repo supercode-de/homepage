@@ -3,6 +3,10 @@ import Popup from "reactjs-popup";
 import HubspotForm from "react-hubspot-form";
 
 const Typeform = (props) => {
+  console.log({
+    height: document.documentElement.clientHeight,
+    width: document.documentElement.clientWidth,
+  });
   return (
     <>
       <Popup
@@ -21,9 +25,12 @@ const Typeform = (props) => {
               <img src="img/SuperCode Curriculum.jpg" alt="" />
             </div> */}
             <div className="curriculum-popup-input">
-              <h1>
+              <h1 className="three-lines">
                 Curriculum <br /> herunter- <br />
                 <span className="super">laden</span>
+              </h1>
+              <h1 className="one-line">
+                Curriculum herunter<span className="super">laden</span>
               </h1>
               <HubspotForm
                 portalId="5807040"
@@ -81,7 +88,6 @@ const Typeform = (props) => {
           width: 700px;
           // max-height: 70vh;
           color: #3dd7ac;
-          // overflow-y: scroll;
         }
         .popup-close {
           top: 0;
@@ -113,7 +119,7 @@ const Typeform = (props) => {
           grid-template-columns: 1fr;
           gap: 30px;
           overflow: hidden;
-          max-height: calc(70vh - 80px);
+          // max-height: calc(70vh - 80px);
         }
 
         .curriculum-popup-image {
@@ -125,6 +131,7 @@ const Typeform = (props) => {
         }
         .curriculum-popup-input {
           width: 100%;
+          overflow-y: hidden;
         }
         iframe {
           width: 100% !important;
@@ -146,6 +153,9 @@ const Typeform = (props) => {
           -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
+        }
+        .one-line {
+          display: none;
         }
 
         @media (max-width: 1020px) {
@@ -206,6 +216,32 @@ const Typeform = (props) => {
           // .hbspt-form {
           //   width: 300px;
           // }
+        }
+        @media (max-height: ${document.documentElement.clientHeight * 0.15 +
+          600}px) {
+          .one-line {
+            display: block;
+          }
+          .three-lines {
+            display: none;
+          }
+          h1 {
+            font-family: "Neue_Machina_Regular_400";
+            font-size: 2em;
+          }
+        }
+        @media (min-width: ${document.documentElement.clientHeight /
+          2}px) and (max-height: ${document.documentElement.clientHeight *
+            0.15 +
+          600}px) {
+          #curriculum-popup {
+            width: ${document.documentElement.clientWidth -
+            2 * (document.documentElement.clientWidth / 10)}px;
+            left: ${(document.documentElement.clientWidth -
+              (document.documentElement.clientWidth -
+                2 * (document.documentElement.clientWidth / 10))) /
+            2}px;
+          }
         }
       `}</style>
     </>
