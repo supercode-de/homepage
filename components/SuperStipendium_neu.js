@@ -91,7 +91,7 @@ const SuperStipendium = (props) => {
             <h5>Web-Developer Front-End</h5>
             <p>
               Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
-              Start: 14.12.2020 Ende: 24.05.2021
+              Start: 24.05.2021 Ende: 23.12.2021
             </p>
             <p>
               Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
@@ -191,7 +191,7 @@ const SuperStipendium = (props) => {
         </Carousel>
       </div>
 
-      <div className="interest">
+      {/* <div className="interest">
         <h4>
           Du interessierst dich für unsere Bootcamps? Dann hol dir jetzt das{" "}
           <span className="circle">Curriculum</span> oder bewirb dich direkt!
@@ -202,7 +202,7 @@ const SuperStipendium = (props) => {
 
           <Curriculum buttonText="Curriculum" buttonTextColor="#fff" />
         </div>
-      </div>
+      </div> */}
 
       <style jsx>{`
         .aside {
