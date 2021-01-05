@@ -145,11 +145,10 @@ const JetztAnmdelden = (props) => {
             margin-bottom: 14px;
             line-height: 24px;
           }
-
+          .isNotHidden {
+            right: 0;
+          }
           @media screen and (max-width: 768px) {
-            .isNotHidden {
-              right: 0;
-            }
           }
         `}
       </style>

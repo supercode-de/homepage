@@ -54,7 +54,7 @@ class Navigation extends Component {
             </a>
           </Link>
 
-          <ul>
+          <ul className="nav-list">
             <li>
               <Link href="/kurse">
                 <a>Kurse</a>
@@ -171,7 +171,12 @@ class Navigation extends Component {
             top: 5;
             z-index: 999;
           }
-
+          .nav-list {
+            display: ${window.scrollY > 0 ||
+            document.documentElement.clientWidth < 768
+              ? "none"
+              : "flex"};
+          }
           .menu-button {
             // position: fixed;
             // right: 2.5vw;
@@ -179,7 +184,10 @@ class Navigation extends Component {
             min-height: 50px;
             z-index: 99998;
             cursor: pointer;
-            display: none;
+            display: ${window.scrollY > 0 ||
+            document.documentElement.clientWidth < 768
+              ? "unset"
+              : "none"};
           }
           .logo {
             color: #3dd7ac;
@@ -198,12 +206,6 @@ class Navigation extends Component {
           }
 
           @media (max-width: 768px) {
-            ul {
-              display: none;
-            }
-            .menu-button {
-              display: unset;
-            }
           }
 
           @media (max-width: 520px) {
