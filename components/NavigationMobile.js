@@ -53,7 +53,6 @@ const JetztAnmdelden = (props) => {
             top: 0;
             bottom: 0;
             color: #3dd7ac;
-            overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
             height: 200vh;
@@ -146,11 +145,10 @@ const JetztAnmdelden = (props) => {
             margin-bottom: 14px;
             line-height: 24px;
           }
-
+          .isNotHidden {
+            right: 0;
+          }
           @media screen and (max-width: 768px) {
-            .isNotHidden {
-              right: 0;
-            }
           }
         `}
       </style>

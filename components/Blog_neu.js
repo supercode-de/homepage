@@ -22,6 +22,7 @@ const responsive = {
     items: 1,
   },
 };
+let reveserBlog = blog.reverse();
 
 const Blog_neu = (props) => {
   // const width = useWindowSize().width / 12
@@ -47,7 +48,7 @@ const Blog_neu = (props) => {
             deviceType={""}
             swipeable
           >
-            {blog.map((blogitem, i) => (
+            {reveserBlog.map((blogitem, i) => (
               <Link href={"/blogs/" + blogitem.id}>
                 <a target="_blank">
                   <div

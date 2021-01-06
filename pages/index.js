@@ -31,6 +31,7 @@ export default function Home(props) {
             <UnserCampus />
             <Weiterbildung_neu />
             {/* <SuperPartner width={width} /> */}
+            {/* <SuperStipendium width={width} /> */}
             <SuperStipendium_neu />
             <CertquaBonn />
             <Finanzierung />

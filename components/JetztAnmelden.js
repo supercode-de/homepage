@@ -51,7 +51,6 @@ const JetztAnmdelden = (props) => {
             top: 0;
             bottom: 0;
             color: #3dd7ac;
-            overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
             z-index: 99999;
@@ -67,7 +66,7 @@ const JetztAnmdelden = (props) => {
           }
 
           .jetzt-anmelden-container {
-            padding: 150px 10%;
+            padding: 50px 10%;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 50px;
@@ -113,6 +112,10 @@ const JetztAnmdelden = (props) => {
             -webkit-text-stroke-color: #3dd7ac;
           }
           @media screen and (max-width: 768px) {
+            #jetzt-anmelden {
+              overflow-y: scroll;
+            }
+
             .jetzt-anmelden-left h1 {
               font-size: 3.3em;
             }
