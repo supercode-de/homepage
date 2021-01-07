@@ -191,7 +191,7 @@ const SuperStipendium = (props) => {
         </Carousel>
       </div>
 
-      {/* <div className="interest">
+      <div className="interest">
         <h4>
           Du interessierst dich für unsere Bootcamps? Dann hol dir jetzt das{" "}
           <span className="circle">Curriculum</span> oder bewirb dich direkt!
@@ -202,7 +202,7 @@ const SuperStipendium = (props) => {
 
           <Curriculum buttonText="Curriculum" buttonTextColor="#fff" />
         </div>
-      </div> */}
+      </div>
 
       <style jsx>{`
         .aside {
