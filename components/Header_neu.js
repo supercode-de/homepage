@@ -12,7 +12,7 @@ const Header_neu = (props) => {
       <div className="twocolumn">
         <div className="onecolumn">
           <img
-            src="/img/_DSC2765_LowRes.png"
+            src="/webp/_DSC2765_LowRes.webp"
             alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
           />
           <h1>
@@ -38,13 +38,13 @@ const Header_neu = (props) => {
           </h1>
         </div>
         <img
-          src="/img/_DSC2652_LowRes 12.png"
+          src="/webp/_DSC2652_LowRes_12.webp"
           alt="Frauen Weiterbildung Programmieren lernen, SuperCode Webentwicklerin Frauen IT"
         />
       </div>
 
       <img
-        src="/img/_DSC8255_LowRes.png"
+        src="/webp/_DSC8255_LowRes.webp"
         alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
       />
       <div>

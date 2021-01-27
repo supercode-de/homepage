@@ -42,14 +42,14 @@ const UnserCampus = (props) => {
         </div>
         <img
           className="img-two"
-          src="/img/_DSC2652_LowRes 3.png"
+          src="/webp/_DSC2652_LowRes_3.webp"
           alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
         />
       </section>
 
       <img
         className="img-three"
-        src="/img/_DSC2652_LowRes 13.png"
+        src="/webp/_DSC2652_LowRes_13.webp"
         alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
       />
       <img
@@ -59,13 +59,13 @@ const UnserCampus = (props) => {
       />
       <img
         className="img-four"
-        src="/img/_DSC2652_LowRes 14.png"
+        src="/webp/_DSC2652_LowRes_14.webp"
         alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
       />
       <div className="bg-container">
         <img
           className="img-five"
-          src="/img/_DSC2464_LowRes.png"
+          src="/webp/_DSC2464_LowRes.webp"
           alt="Frauen Kostenlos Weiterbildung Programmieren lernen, Frauen Programmieren Lernen Fernkurs Bootcamp"
         />
       </div>
@@ -82,25 +82,25 @@ const UnserCampus = (props) => {
         >
           <div>
             <img
-              src="/img/_DSC2652_LowRes 3.png"
+              src="/webp/_DSC2652_LowRes_3.webp"
               alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
             />
           </div>
           <div>
             <img
-              src="/img/_DSC2652_LowRes 13.png"
+              src="/webp/_DSC2652_LowRes_13.webp"
               alt="SuperCode Online Codingschule Düsseldorf, Geförderte IT Weiterbildungen"
             />
           </div>
           <div>
             <img
-              src="/img/_DSC2652_LowRes 14.png"
+              src="/webp/_DSC2652_LowRes_14.webp"
               alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
             />
           </div>
           <div>
             <img
-              src="/img/_DSC2464_LowRes.png"
+              src="/webp/_DSC2464_LowRes.webp"
               alt="Frauen Kostenlos Weiterbildung Programmieren lernen, Frauen Programmieren Lernen Fernkurs Bootcamp"
             />
           </div>
@@ -108,7 +108,7 @@ const UnserCampus = (props) => {
       </div>
       <img
         className="img-six"
-        src="/img/_DSC2451_MidRes.png"
+        src="/webp/_DSC2451_MidRes.webp"
         alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
       />
       <style jsx>{`
