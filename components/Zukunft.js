@@ -50,17 +50,17 @@ const Zukunft = (props) => {
       <div className="images">
         <img
           className="img-one"
-          src="/img/_DSC2652_LowRes 6.png"
+          src="/webp/_DSC2652_LowRes_6.webp"
           alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
         />
         <img
           className="img-two"
-          src="/img/_DSC2652_LowRes 7.png"
+          src="/webp/_DSC2652_LowRes_7.webp"
           alt="Full Stack Developer Fernkurs Weiterbildung, Best Web Developer Coding Bootcamp"
         />
       </div>
       <img
-        src="/img/_DSC2336_MidRes.png"
+        src="/webp/_DSC2336_MidRes.webp"
         alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
       />
       <style jsx>{`

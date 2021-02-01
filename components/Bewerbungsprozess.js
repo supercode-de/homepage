@@ -47,7 +47,7 @@ class Bewerbungsprozess extends Component {
                 </a>
               </div>
               <img
-                src="./img/kontakt.jpg"
+                src="./webp/kontakt.webp"
                 alt="SuperCode Full Stack Developer Lernen Bildungsgutschein, Frauen Fullstack Programmieren Kostenlos lernen"
               />
             </div>
@@ -64,7 +64,7 @@ class Bewerbungsprozess extends Component {
                 </Link>
               </div>
               <img
-                src="./img/workshop.jpg"
+                src="./webp/workshop.webp"
                 alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
               />
             </div>
@@ -81,7 +81,7 @@ class Bewerbungsprozess extends Component {
                 </Link>
               </div>
               <img
-                src="./img/finanzierung.jpg"
+                src="./webp/finanzierung.webp"
                 alt="Fortbildung Frontend Web-Designern Entwicklern, Full Stack Developer Lernen Bildungsgutschein"
               />
             </div>
@@ -98,7 +98,7 @@ class Bewerbungsprozess extends Component {
                 </Link>
               </div>
               <img
-                src="./img/losGehts.jpg"
+                src="./webp/losGehts.webp"
                 alt="SuperCode Weiterbildung Codingschule Düsseldorf, IT Umschulung Förderung Arbeitsargentur"
               />
             </div>
