@@ -38,14 +38,14 @@ Mein absolutes Lieblingsprojekt war mein Frontend-Abschlussprojekt, da das Team 
 
 _Im IT-Bereich gibt es bisher nur 17-20% Frauen. War das ein Thema für dich?_
 
-Es gibt leider oft ein falsches Bild von Coder\*innen und dazu kommt, dass Mädchen weniger für Technik begeistert werden. Auch ich habe früher gedacht, dass der Bereich Coding sehr technisch und weniger interessant für mich ist. Dann habe ich mich mehr damit beschäftigt und gesehen, dass es um viel mehr geht! Ich konnte mir Vorbilder in meinem Freundeskreis suchen und wurde auch von Männern immer ermutigt, meinen Weg in die IT zu gehen. Trotzdem sollte es mehr weibliche Vorbilder geben, die zeigen, dass Coden nicht nur technisch, sondern auch unglaublich kreativ, kommunikativ und logisch ist.
+Es gibt leider oft ein falsches Bild von Coder\\*innen und dazu kommt, dass Mädchen weniger für Technik begeistert werden. Auch ich habe früher gedacht, dass der Bereich Coding sehr technisch und weniger interessant für mich ist. Dann habe ich mich mehr damit beschäftigt und gesehen, dass es um viel mehr geht! Ich konnte mir Vorbilder in meinem Freundeskreis suchen und wurde auch von Männern immer ermutigt, meinen Weg in die IT zu gehen. Trotzdem sollte es mehr weibliche Vorbilder geben, die zeigen, dass Coden nicht nur technisch, sondern auch unglaublich kreativ, kommunikativ und logisch ist.
 
-_Möchtest du anderen Quereinsteiger \*innen noch etwas mit auf den Weg geben?_
+_Möchtest du anderen Quereinsteiger\\*innen noch etwas mit auf den Weg geben?_
 
-Mein ganz praktischer Rat: Lerne jeden Tag Coden, finde eine\*n Mentor\*in oder Gruppe, die dich unterstützt und mach dir ein Bild deiner Zukunft als Entwickler\*in, das dich in schwierigen Momenten motiviert. Denn ein Karrierewechsel erfordert viel Mut und Durchhaltevermögen. Aber es lohnt sich definitiv! 
+Mein ganz praktischer Rat: Lerne jeden Tag Coden, finde eine\\*n Mentor\\*in oder Gruppe, die dich unterstützt und mach dir ein Bild deiner Zukunft als Entwickler\\*in, das dich in schwierigen Momenten motiviert. Denn ein Karrierewechsel erfordert viel Mut und Durchhaltevermögen. Aber es lohnt sich definitiv! 
 
 Auch die Geschichten von anderen Menschen in ähnlichen Situationen können helfen.   
-Ich habe selbst viele Erfolgsstories von Karrierewechsler\*innen gelesen und habe gesehen, dass man es schaffen kann. Ich freue mich sehr, dass auch ich jetzt mit gutem Beispiel voran gehen kann und Frauen und Männer ermutige, den Schritt in die IT zu wagen. Dafür habe ich meine Erfahrungen auch in einem Blog festgehalten.   
+Ich habe selbst viele Erfolgsstories von Karrierewechsler\\*innen gelesen und habe gesehen, dass man es schaffen kann. Ich freue mich sehr, dass auch ich jetzt mit gutem Beispiel voran gehen kann und Frauen und Männer ermutige, den Schritt in die IT zu wagen. Dafür habe ich meine Erfahrungen auch in einem Blog festgehalten.   
 
 _Vielen Dank für das Interview Emilija und alles Gute für deine Zukunft als Junior Full-Stack-Developerin._
 
