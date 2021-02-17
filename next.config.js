@@ -23,6 +23,7 @@ module.exports = {
       "/blogs/4": { page: "/blogs/[blogItem]" },
       "/blogs/5": { page: "/blogs/[blogItem]" },
       "/blogs/6": { page: "/blogs/[blogItem]" },
+      "/blogs/7": { page: "/blogs/[blogItem]" },
     };
   },
 };
