@@ -12,6 +12,9 @@ import blog6 from "../../markdown/blog6";
 import titleBlog6 from "../../markdown/titleBlog6";
 import blog7 from "../../markdown/blog7";
 import titleBlog7 from "../../markdown/titleBlog7";
+import blog8 from "../../markdown/blog8";
+import titleBlog8 from "../../markdown/titleBlog8";
+
 // console.log({ blog7, titleBlog7 });
 let blog = [
   {
@@ -56,6 +59,13 @@ let blog = [
     text: blog7,
     pic: "/img/blogs/7/preview_pic.jpg",
   },
+  {
+    id: 7,
+    title: titleBlog8,
+    text: blog8,
+    pic: "/img/blogs/8/1.jpg",
+  },
+
 ];
 
 export default blog;
