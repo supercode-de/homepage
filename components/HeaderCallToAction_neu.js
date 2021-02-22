@@ -20,7 +20,7 @@ const HeaderCallToAction_neu = () => {
           background: rgb(7, 0, 33);
           color: #fff;
           font-family: "Neue_Machina_Regular_400";
-          padding: 2rem 7%;
+          padding: 4rem 7% 2rem;
         }
         h2 {
           font-size: 3.8em;
