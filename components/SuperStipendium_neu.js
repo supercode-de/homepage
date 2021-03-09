@@ -61,7 +61,7 @@ const SuperStipendium = (props) => {
             <p>
               Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
               Start: 22.03.2021 Ende: 27.08.2021 <br />
-              Start: 21.06.2021 Ende: 26.11.2021
+              Start: 21.06.2021 Ende: 22.11.2021
             </p>
             <p>
               Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
