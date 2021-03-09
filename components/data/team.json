@@ -35,24 +35,14 @@
     "job": "Projektmanagement & Kooperation"
   },
   {
-    "img": "/img/team/Adriaan van de Bergh Trainer Webentwicklung Frontend.jpg",
-    "name": "Adriaan van de Bergh",
-    "job": "Trainer Webentwicklung Frontend"
-  },
-  {
-    "img": "/img/team/Edward Agyeman Trainer Webentwicklung.jpg",
-    "name": "Edward Agyeman",
-    "job": "Trainer Webentwicklung"
-  },
-  {
     "img": "/img/team/Anass Nebarri Trainer Webentwicklung Full-Stack.jpg",
     "name": "Anass Nebarri",
-    "job": "Trainer Webentwicklung Full-Stack"
+    "job": "Head of Training & Trainer Webentwicklung Full-Stack"
   },
   {
     "img": "/img/team/Elaine Wong Trainer Webentwicklung Full-Stack.jpg",
     "name": "Elaine Wong",
-    "job": "Trainer Webentwicklung Full-Stack"
+    "job": "Trainerin Webentwicklung Full-Stack"
   },
   {
     "img": "/img/team/Georg Treitz Trainer Webentwicklung Full-Stack.jpg",
@@ -60,13 +50,23 @@
     "job": "Trainer Webentwicklung Full-Stack"
   },
   {
-    "img": "/img/team/Hakan Gezer Trainer Webentwicklung Full-Stack.jpg",
-    "name": "Hakan Gezer",
-    "job": "Trainer Webentwicklung Full-Stack"
-  },
-  {
     "img": "/img/team/Eric Noack Trainer Webentwicklung.jpg",
     "name": "Eric Noack",
     "job": "Trainer Webentwicklung"
+  },
+  {
+    "img": "/img/team/David Bigus Trainer Webentwicklung.jpg",
+    "name": "David Bigus",
+    "job": "Trainer Webentwicklung"
+  },
+  {
+    "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.jpg",
+    "name": "Finn Schlottmann",
+    "job": "Trainer Webentwicklung Full-Stack"
+  },
+  {
+    "img": "/img/team/Franzi Hövelmanns Trainerin Webentwicklung & UX.jpg",
+    "name": "Franzi Hövelmanns",
+    "job": "Trainerin Webentwicklung & UX"
   }
 ]
