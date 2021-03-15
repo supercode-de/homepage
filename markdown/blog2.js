@@ -72,7 +72,8 @@ aus dem Bootcamp: In der Projektarbeit haben wir gelernt, die Aufgaben gut zu ve
 regelmäßige Feedback-Meetings zu machen. Dadurch weiß man immer, wo man selbst und
 die anderen gerade stehen und was noch zu tun ist.
 
-Die IT-Branche ist leider immer noch sehr männerdominiert. Merkst du davon etwas?
+### Die IT-Branche ist leider immer noch sehr männerdominiert. Merkst du davon etwas?
+
 Bei der Provinzial bin ich die einzige Frau im Team und auch in der Uni sind viel mehr
 Männer als Frauen. Vielleicht hat es damit zu tun, dass die IT-Branche sehr viel Zeit fordert
 und manche Frauen abschreckt. Mich persönlich stört das nicht, aber es ist schade, weil
