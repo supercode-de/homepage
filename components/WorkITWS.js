@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Carousel from "react-multi-carousel";
 
 const responsive = {
@@ -88,6 +89,11 @@ const WorkIT = (props) => {
               - 2 Trainer*innen pro Workshop <br />
               - Teilnahme erfolgt online <br />- Zertifikat über deine Teilnahme
             </p>
+            <div className="buttons">
+              <Link href="/try-it" >
+                <a>Zum Kurs</a>
+              </Link>
+            </div>
           </div>
           <div className="kurs-box kurs-box3 hide">
             <h4>
@@ -316,9 +322,6 @@ const WorkIT = (props) => {
           width: 100%;
           z-index: 0;
         }
-
-        .kurs-box1 {
-        }
         .kurs-box2 {
           margin-top: 30px;
           margin-left: -2px;
@@ -339,7 +342,31 @@ const WorkIT = (props) => {
           display: none;
           position: relative;
         }
-
+        .buttons {
+          display: flex;
+          justify-content: center;
+          align-content: center;
+        }
+        a {
+          margin: 2em 1em 0;
+          font-family: "Fira Sans", sans-serif;
+          font-size: 0.7em;
+          font-weight: 600;
+          line-height: 1.5em;
+          text-align: center;
+          letter-spacing: 3.5px;
+          text-transform: uppercase;
+          padding: 10px 70px;
+          background: transparent;
+          border: 1px solid #3dd7ac;
+          text-decoration: none;
+          color: #fff;
+          display: inline-block;
+        }
+        a:hover {
+          color: #5d3ede;
+          background: #3dd7ac;
+        }
         h4 {
           font-family: "Neue_Machina_Regular_400";
           color: #ffffff;

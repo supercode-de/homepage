@@ -1,5 +1,3 @@
-
-
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import LeitBildBody from "../components/LeitBildBody";

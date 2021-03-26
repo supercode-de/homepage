@@ -1,4 +1,3 @@
-
 import DsgvoHeader from "../components/DsgvoHeader";
 import DsgvoBody from "../components/DsgvoBody";
 import { useWindowSize } from "../components/functions/windowSize";

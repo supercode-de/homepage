@@ -9,7 +9,7 @@ import Weiterbildung_neu from "../components/Weiterbildung_neu";
 import Bewerbungsprozess from "../components/Bewerbungsprozess";
 // import SuperPartner from "../components/SuperPartner";
 import SuperStipendium_neu from "../components/SuperStipendium_neu";
-import SuperStipendium from "../components/SuperStipendium";
+// import SuperStipendium from "../components/SuperStipendium";
 import CertquaBonn from "../components/CertquaBonn";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
@@ -17,7 +17,7 @@ import Finanzierung from "../components/Finanzierung";
 import Head from "next/head";
 import Blog_neu from "../components/Blog_neu";
 import dates from "../components/data/dates.json";
-import FooterSitemap from "../components/FooterSitemap";
+// import FooterSitemap from "../components/FooterSitemap";
 export default function Home(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;

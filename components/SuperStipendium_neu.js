@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-import Beratung from "./Beratung";
+// import Beratung from "./Beratung";
 import Curriculum from "./Curriculum_Popup";
 import Typeform_neu_small from "./TypeForm_neu_small";
 

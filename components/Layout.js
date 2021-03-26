@@ -1,6 +1,5 @@
 import Navigation_neu from "./Navigation_neu";
-
-import Footer from "../components/Footer";
+// import Footer from "../components/Footer";
 import Footer_neu from "../components/Footer_neu";
 import Banner from "../components/Banner";
 import Head from "next/head";
