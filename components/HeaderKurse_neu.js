@@ -140,18 +140,18 @@ const Header_neu = (props) => {
             position: relative;
           }
 
-          span.circle::after {
-            position: absolute;
-            background: url("/img/Vector64.svg") center/contain no-repeat;
-            transform: rotateX(70deg);
+          // span.circle::after {
+          //   position: absolute;
+          //   background: url("/img/Vector64.svg") center/contain no-repeat;
+          //   transform: rotateX(70deg);
 
-            height: 300%;
-            width: 105%;
-            right: -2%;
-            bottom: -100%;
-            content: "";
-            display: block;
-          }
+          //   height: 300%;
+          //   width: 105%;
+          //   right: -2%;
+          //   bottom: -100%;
+          //   content: "";
+          //   display: block;
+          // }
 
           p {
             color: #fff;

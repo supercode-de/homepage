@@ -80,6 +80,7 @@ const JetztAnmdelden = (props) => {
           }
           .navigation-mobile-close {
             top: 60px;
+            z-index: 99998;
             right: 20px;
             cursor: pointer;
             position: absolute;
