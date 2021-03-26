@@ -1,13 +1,12 @@
-import HeaderKurse from "../components/HeaderKurse";
-import HeaderCallToActionKurse from "../components/HeaderCallToActionKurse";
+// import HeaderKurse from "../components/HeaderKurse";
+// import HeaderCallToActionKurse from "../components/HeaderCallToActionKurse";
 import { useWindowSize } from "../components/functions/windowSize";
-import LerneProgrammierenKurse from "../components/LerneProgrammierenKurse";
-import UnserCampusKurse from "../components/UnserCampusKurse";
-import FooterCallToAction from "../components/FooterCallToAction";
+// import LerneProgrammierenKurse from "../components/LerneProgrammierenKurse";
+// import UnserCampusKurse from "../components/UnserCampusKurse";
+// import FooterCallToAction from "../components/FooterCallToAction";
 import Layout from "../components/Layout";
-import Absolvente from "../components/Absolvente";
+// import Absolvente from "../components/Absolvente";
 import dates from "../components/data/dates.json";
-
 import HeaderKurse_neu from "../components/HeaderKurse_neu";
 import HeaderCallToActionWS_neu from "../components/HeaderCallToActionWS_neu";
 import FEoderFSKurse from "../components/FEoderFSKurse";

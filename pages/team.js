@@ -1,20 +1,18 @@
-import FooterCallToAction from "../components/FooterCallToAction";
-import UnserCampus from "../components/UnserCampus";
+// import FooterCallToAction from "../components/FooterCallToAction";
+// import UnserCampus from "../components/UnserCampus";
 import FAQ from "../components/FAQ";
-import MeldeDich from "../components/MeldeDich";
-import Header from "../components/Header";
-import HeaderCallToAction from "../components/HeaderCallToAction";
-import Zukunft from "../components/Zukunft";
-import Weiterbildung from "../components/Weiterbildung";
-import Bewerbungsprozess from "../components/Bewerbungsprozess";
-import SuperPartner from "../components/SuperPartner";
+// import MeldeDich from "../components/MeldeDich";
+// import Header from "../components/Header";
+// import HeaderCallToAction from "../components/HeaderCallToAction";
+// import Zukunft from "../components/Zukunft";
+// import Weiterbildung from "../components/Weiterbildung";
+// import Bewerbungsprozess from "../components/Bewerbungsprozess";
+// import SuperPartner from "../components/SuperPartner";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
-import Finanzierung from "../components/Finanzierung";
-import dates from "../components/data/dates.json";
-
+// import Finanzierung from "../components/Finanzierung";
+// import dates from "../components/data/dates.json";
 import HeaderTeam from "../components/HeaderTeam";
-
 import Team from "../components/Team";
 import Stellen from "../components/Stellen";
 
