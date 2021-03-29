@@ -71,7 +71,7 @@ let blog = [
     id: 8,
     title: titleBlog9,
     text: blog9,
-    pic: "/img/blogs/9/image1.png",
+    pic: "/img/blogs/9/image5.png",
   },
 
 ];
