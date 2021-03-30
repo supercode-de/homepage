@@ -27,6 +27,7 @@ Für dieses anspruchsvolle Projekt mussten die Teilnehmende einige Daten-Schnitt
 If life gives you lemons...mach einfach eine Cocktail-Webseite draus! Noch besser: Gestalte sie so, dass sie besonders in der mobilen Ansicht großen Appetit auf selbstgemachte Cocktails macht! Das könnte das Motto der dritten Gruppe bei ihrem Projekt FORTY gewesen sein, denn sobald man auf der Startseite ist, überzeugt einen das Design und die ausgesuchten Bilder, sich der Kunst des Cocktail-Mixens zu widmen.    
  
 Die Cocktail-Seite ist in einem schönen schwarz gehalten und bietet neben einer Rubriksuche nach z.B. Rum, Gin oder Wodka, einen Button zur zufälligen Cocktail-Inspiration. Besonders die mobile Version bietet eine schicke Übersicht, die direkt Lust aufs Einkaufen der Zutaten macht und bei Bedarf die Zutaten sogar direkt online bestellt. Zugegriffen wird auf eine Cocktail-Datenschnittstelle (API), die die Daten für die Rezepte liefert. Programmiert ist die Seite mit HTML, CSS sowie Javascript mit React.js. Zukünftig soll es auch noch eine Suche geben, um bekannte Cocktails einzugeben und anschließend seine Favoriten zu speichern. Außerdem ist ein Bewertungssystem für die einzelnen Rezepte in Planung. Der Name der Seite erschließt sich übrigens aus den Haupt-Rubriken der Alkohol-Sorten, die fast alle über 40% Schuss haben. 
+  
 Schau hier: [FORTY](http://tiny.cc/t8evtz)  
 
 
