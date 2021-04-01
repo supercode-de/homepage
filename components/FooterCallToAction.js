@@ -6,7 +6,7 @@ const FooterCallToAction = (props) => {
   return (
     <div id="call-to-action">
       <h1>
-        Worauf wartest du noch?! Die nächsten Kurse starten bald
+        WORAUF WARTEST DU NOCH?! DIE NÄCHSTEN KURSE STARTEN BALD.
         {/* {props.bald ? "bald" : "im " + props.month}! */}
       </h1>
       <div className="buttons">
