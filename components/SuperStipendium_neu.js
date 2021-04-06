@@ -382,11 +382,6 @@ const SuperStipendium = (props) => {
           height: 100%;
           width: 50%;
         }
-        .stipendium-box1,
-        .stipendium-box2{
-          display: flex;
-          align-items: center;
-        }
 
         .stipendium-box2 {
           height: 92%;
