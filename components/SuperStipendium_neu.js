@@ -56,9 +56,9 @@ const SuperStipendium = (props) => {
           </h4>
         </article>
         <article className="stipendium-right">
-          <div className="stipendium-box1 hide">
+          <div className={window.location.pathname !== "/kurse" ? "stipendiumBox1Home" : "stipendium-box1 hide"}>
             <div>
-              <h5>Web-Developer Full-Stack</h5>
+              <h5>Web-Development Full-Stack</h5>
               <p>
                 Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
               Start: 21.06.2021 Ende: 22.11.2021
@@ -71,7 +71,7 @@ const SuperStipendium = (props) => {
             </p>
               <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
             </div>
-            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none" }}>
+            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none"}}>
               <h5>Inhalte:</h5>
               <p>
                 Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
@@ -92,9 +92,9 @@ const SuperStipendium = (props) => {
             </p>
             </div>
           </div>
-          <div className="stipendium-box2 hide">
+          <div className={window.location.pathname !== "/kurse" ? "stipendiumBox2Home" : "stipendium-box2 hide"}>
             <div>
-              <h5>Web-Developer Front-End</h5>
+              <h5>Web-Development Front-End</h5>
               <p>
                 Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
               Start: 24.05.2021 Ende: 23.12.2021
@@ -141,7 +141,7 @@ const SuperStipendium = (props) => {
         >
           <div className="stipendium-box-carousel">
             <div>
-              <h5>Web-Developer Full-Stack</h5>
+              <h5>Web-Development Full-Stack</h5>
               <p>
                 Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
               Start: 21.06.2021 Ende: 22.11.2021
@@ -177,7 +177,7 @@ const SuperStipendium = (props) => {
           </div>
           <div className="stipendium-box-carousel">
             <div>
-              <h5>Web-Developer Front-End</h5>
+              <h5>Web-Development Front-End</h5>
               <p>
                 Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
               Start: 24.05.2021 Ende: 23.12.2021
@@ -372,6 +372,8 @@ const SuperStipendium = (props) => {
 
         .stipendium-box1,
         .stipendium-box2,
+        .stipendiumBox1Home,
+        .stipendiumBox2Home,
         .stipendium-box-carousel {
           background: #5d3ede;
           border: 2px solid #30e1b9;
@@ -388,6 +390,26 @@ const SuperStipendium = (props) => {
           width: 50%;
           margin-left: -2px;
         }
+
+        .stipendiumBox1Home h5, 
+        .stipendiumBox2Home h5{
+          font-size: 1.5rem; 
+        }
+
+        .stipendiumBox1Home, 
+        .stipendiumBox2Home {
+          padding: 3rem 2% 4rem 3%;
+        }
+        .stipendiumBox1Home {
+          // height: 75%;
+          width: 50%;
+        }
+        .stipendiumBox2Home {
+          // height: 65%;
+          width: 50%;
+          // margin-top: 5rem;
+        }
+
         .stipendium-right a {
           color: #fff;
             margin: 2em 1em 0;
