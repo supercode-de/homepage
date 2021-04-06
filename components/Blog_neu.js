@@ -32,7 +32,7 @@ const Blog_neu = (props) => {
     <div id="blog">
       <div className="line">
         <h1>
-          Meine Strasse, mein <span>Blog</span>
+          Meine Straße, mein <span>Blog</span>
         </h1>
 
         <div className="blog-list">
@@ -110,7 +110,6 @@ const Blog_neu = (props) => {
           font-size: 4em;
           letter-spacing: 2px;
           color: #3dd7ac;
-          text-transform: uppercase;
           max-width: 10em;
           margin: 0;
           line-height: 1.2em;

@@ -34,16 +34,15 @@ class Bewerbungsprozess extends Component {
             </h2>
             <div className="flex">
               <div>
-                <span className="super-green">01</span>
+                <span className="super-green" id="one">01</span>
               </div>
               <div
                 className="flex-hover kontakt"
                 onClick={() => {
                   this.toggleJetztAnmelden();
-                }}
-              >
+                }}>
                 <a>
-                  <div>Nimm Kontakt zu uns auf</div>
+                  Nimm Kontakt zu uns auf
                 </a>
               </div>
               <img
@@ -59,7 +58,7 @@ class Bewerbungsprozess extends Component {
               <div className="flex-hover">
                 <Link href="/workshops">
                   <a>
-                    <div>Teste dich im kostenlosen Workshop</div>
+                    Teste dich im kostenlosen Workshop
                   </a>
                 </Link>
               </div>
@@ -76,7 +75,7 @@ class Bewerbungsprozess extends Component {
               <div className="flex-hover">
                 <Link href="#finanzierung">
                   <a>
-                    <div>Kläre mit uns die Finanzierung</div>
+                    Kläre mit uns die Finanzierung
                   </a>
                 </Link>
               </div>
@@ -93,7 +92,7 @@ class Bewerbungsprozess extends Component {
               <div className="flex-hover">
                 <Link href="/kurse">
                   <a>
-                    <div>Starte deinen Kurs Web Development</div>
+                    Starte deinen Kurs Web Development
                   </a>
                 </Link>
               </div>
@@ -105,8 +104,7 @@ class Bewerbungsprozess extends Component {
           </div>
         </div>
 
-        <style jsx>
-          {`
+        <style jsx>{`
             .flex {
               display: flex;
               font-family: "Neue_Machina_Regular_400";
@@ -121,7 +119,6 @@ class Bewerbungsprozess extends Component {
               font-size: 4.4em;
               line-height: 1.2em;
               color: #fff;
-              text-transform: uppercase;
             }
             .center h2 span {
               display: block;
@@ -212,7 +209,9 @@ class Bewerbungsprozess extends Component {
               font-size: 0.7em;
               padding-right: 20px;
             }
-
+            #one {
+              letter-spacing: .3rem;
+            }
             a {
               text-decoration: none;
               color: #fff;

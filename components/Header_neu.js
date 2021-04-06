@@ -17,7 +17,7 @@ const Header_neu = (props) => {
           />
           <h1>
             <span className="super"> Programmieren</span>
-            <br /> lernen war noch <span className="circle">nie</span>
+            <br /> <span className="circle">lernen</span> war noch nie
             <span className="super2">
               <span className="after-span">
                 <Typewriter
@@ -50,14 +50,7 @@ const Header_neu = (props) => {
       <div>
         <Typeform />
       </div>
-      <div className="arrow">
-        <a href="#">
-          <p>Erfahre Mehr</p>
-        </a>
-        <Arrow />
-      </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           img + div {
             display: none;
           }
@@ -205,7 +198,7 @@ const Header_neu = (props) => {
           }
 
           h1 span.circle {
-            background: url("/img/Vector43.svg") center/contain no-repeat;
+            background: url("/img/Vector64.svg") center/contain no-repeat;
             padding: 10px;
           }
 

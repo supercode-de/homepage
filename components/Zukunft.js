@@ -13,7 +13,7 @@ const Zukunft = (props) => {
           <p>
             Wir bieten Menschen einen modernen Ansatz für lebenslanges Lernen
             und den ultimativen Skill Power-Up für eine schöne berufliche
-            Zukunft!
+            Zukunft.
           </p>
           <p>
             Teste dich, uns und deine Skills in einem unserer kostenlosen
@@ -65,7 +65,7 @@ const Zukunft = (props) => {
       />
       <style jsx>{`
         #zukunft {
-          color: #3dd7ac;
+          color: rgb(7, 0, 33);
           font-family: "Neue_Machina_Regular_400";
 
           background: linear-gradient(
@@ -86,16 +86,15 @@ const Zukunft = (props) => {
           font-size: 3.3em;
           line-height: 1.2em;
           letter-spacing: 2px;
-          color: #3dd7ac;
-          text-transform: uppercase;
+          color: rgb(7, 0, 33);
           margin: 0;
         }
         h1 span {
           font-weight: 400;
           color: transparent;
           letter-spacing: 3px;
-          -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #3dd7ac;
+          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-color: rgb(7, 0, 33);
         }
         .infos {
           display: grid;

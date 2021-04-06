@@ -3,7 +3,6 @@ import React from "react";
 const Finanzierung = (props) => {
   return (
     <div id="finanzierung">
-      <h2>#Finanzierung</h2>
       <h1>
         <span className="stroke">No Mon€y, no Probl€m!</span>
         Wähle zwischen 3 verschiedenen Finanzierungs&shy;modellen.

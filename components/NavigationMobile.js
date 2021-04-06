@@ -43,6 +43,11 @@ const JetztAnmdelden = (props) => {
           <li>
             <a onClick={props.toggleJetztAnmelden}>Kontakt</a>
           </li>
+          <li>
+            <Link href="/#blog">
+              <a>Blog</a>
+            </Link>
+          </li>
         </ul>
       </div>
       <style jsx>

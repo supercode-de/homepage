@@ -32,19 +32,19 @@ const SuperStipendium = (props) => {
       <div className="grid">
         <article className="stipendium-left">
           <h1>
-            UNSERE BOOTCAMPS{" "}
+            Unsere Bootcamps{" "}
             <span className="super">
               <br />
-              WEB DEVELOP&shy;MENT!
+              Web Develop&shy;ment!
             </span>
           </h1>
           <h4>
             In einem halben Jahr zum Web Developer - geht das überhaupt? Und ob!
             Durch unsere zertifizierte Intensiv-Weiterbildung wirst du in 5-7
             Monaten zum Web Developer Frontend oder Full Stack und steigerst
-            deine Jobchancen im IT-Bereich. Egal, ob dein Studium nicht mehr zu
+            deine Jobchancen im IT-Bereich. Ganz gleich, ob dein Studium nicht mehr zu
             dir passt, es in deinem Beruf keine Zukunft gibt oder du einfach
-            etwas ganz Neues lernen willst - Wir unterstützen dich! <br />
+            etwas ganz Neues lernen willst - wir unterstützen dich! <br />
             <br />
             Von der Beratung bis zum erfolgreichen Kursabschluss stehst du mit
             deiner Motivation, deiner Geschichte und deinen Fortschritten bei
@@ -57,64 +57,73 @@ const SuperStipendium = (props) => {
         </article>
         <article className="stipendium-right">
           <div className="stipendium-box1 hide">
-            <h5>Web-Developer Full-Stack</h5>
-            <p>
-              Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
-              Start: 22.03.2021 Ende: 27.08.2021 <br />
+            <div>
+              <h5>Web-Developer Full-Stack</h5>
+              <p>
+                Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
               Start: 21.06.2021 Ende: 22.11.2021
             </p>
-            <p>
-              Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
-              Web-Entwicklung verpackt in einem ultra praxisorientierten
-              Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
-              und finde einen Job mit Zukunft.
+              <p>
+                Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
+                Web-Entwicklung verpackt in einem ultra praxisorientierten
+                Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
+                und finde einen Job mit Zukunft.
             </p>
-            <h5>Inhalte:</h5>
-            <p>
-              Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
+              <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
+            </div>
+            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none" }}>
+              <h5>Inhalte:</h5>
+              <p>
+                Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
               Javascript Frameworks und Libraries, CMS <br />
-              <br />
+                <br />
               Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken{" "}
-              <br />
-              <br />
+                <br />
+                <br />
               Plus Skills: Grundlagen Projekt-Management & Präsentation, Design
               & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.
             </p>
-            <h5>Trainer*innen:</h5>
-            <p>2 Trainer*innen pro Tag</p>
-            <h5>Tage und Uhrzeit:</h5>
-            <p>
-              _Montag bis Freitag <br />
+              <h5>Trainer*innen:</h5>
+              <p>2 Trainer*innen pro Tag</p>
+              <h5>Tage und Uhrzeit:</h5>
+              <p>
+                _Montag bis Freitag <br />
               _09:00 - 18:00 Uhr
             </p>
+            </div>
           </div>
           <div className="stipendium-box2 hide">
-            <h5>Web-Developer Front-End</h5>
-            <p>
-              Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
+            <div>
+              <h5>Web-Developer Front-End</h5>
+              <p>
+                Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
               Start: 24.05.2021 Ende: 23.12.2021
             </p>
-            <p>
-              Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
+              <p>
+                Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
               Front-End Kurs findet abends und online statt! In 30 Wochen lernst
               du das Programmieren moderner Websites & Apps.
             </p>
-            <h5>Inhalte:</h5>
-            <p>
-              Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
+              <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
+            </div>
+            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none" }}>
+              <h5>Inhalte:</h5>
+              <p>
+                Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
               Javascript Frameworks und Libraries, CMS <br />
-              <br />
+                <br />
               Plus Skills: Grundlagen Projekt-Management & Präsentation, Design
               & UX, Learn-To-Learn, Abschlussprojekt.
             </p>
-            <h5>Trainer*innen:</h5>
-            <p>2 Trainer*innen pro Tag</p>
-            <h5>Tage und Uhrzeit:</h5>
-            <p>
-              _3 Abende und jeden 2. Samstag <br />
+              <h5>Trainer*innen:</h5>
+              <p>2 Trainer*innen pro Tag</p>
+              <h5>Tage und Uhrzeit:</h5>
+              <p>
+                _3 Abende und jeden 2. Samstag <br />
               _In der Woche: 18:00 - 21:00 Uhr <br />
               _Samstags: 09:00 - 18:00 Uhr
             </p>
+            </div>
           </div>
         </article>
       </div>
@@ -131,63 +140,73 @@ const SuperStipendium = (props) => {
           itemClass="image-item"
         >
           <div className="stipendium-box-carousel">
-            <h5>Web-Developer Full-Stack</h5>
-            <p>
-              Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
-              Start: 22.03.2021 Ende: 27.08.2021
+            <div>
+              <h5>Web-Developer Full-Stack</h5>
+              <p>
+                Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
+              Start: 21.06.2021 Ende: 22.11.2021
             </p>
-            <p>
-              Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
-              Web-Entwicklung verpackt in einem ultra praxisorientierten
-              Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
-              und finde einen Job mit Zukunft.
+              <p>
+                Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
+                Web-Entwicklung verpackt in einem ultra praxisorientierten
+                Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
+                und finde einen Job mit Zukunft.
             </p>
-            <h5>Inhalte:</h5>
-            <p>
-              Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
+              <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
+            </div>
+            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none" }}>
+              <h5>Inhalte:</h5>
+              <p>
+                Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
               Javascript Frameworks und Libraries, CMS <br />
-              <br />
+                <br />
               Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken{" "}
-              <br />
-              <br />
+                <br />
+                <br />
               Plus Skills: Grundlagen Projekt-Management & Präsentation, Design
               & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.
             </p>
-            <h5>Trainer*innen:</h5>
-            <p>2 Trainer*innen pro Tag</p>
-            <h5>Tage und Uhrzeit:</h5>
-            <p>
-              _Montag bis Freitag <br />
+              <h5>Trainer*innen:</h5>
+              <p>2 Trainer*innen pro Tag</p>
+              <h5>Tage und Uhrzeit:</h5>
+              <p>
+                _Montag bis Freitag <br />
               _09:00 - 18:00 Uhr
             </p>
+            </div>
           </div>
           <div className="stipendium-box-carousel">
-            <h5>Web-Developer Front-End</h5>
-            <p>
-              Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
+            <div>
+              <h5>Web-Developer Front-End</h5>
+              <p>
+                Umfang: 30 Wochen (7 Monate) / Teilzeit <br />
               Start: 24.05.2021 Ende: 23.12.2021
             </p>
-            <p>
-              Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
+              <p>
+                Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser
               Front-End Kurs findet abends und online statt! In 30 Wochen lernst
               du das Programmieren moderner Websites & Apps.
             </p>
-            <h5>Inhalte:</h5>
-            <p>
-              Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
+              <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
+            </div>
+            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none" }}>
+              <h5>Inhalte:</h5>
+              <p>
+                Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
               Javascript Frameworks und Libraries, CMS <br />
-              <br />
+                <br />
               Plus Skills: Grundlagen Projekt-Management & Präsentation, Design
               & UX, Learn-To-Learn, Abschlussprojekt.
             </p>
-            <h5>Trainer*innen:</h5>
-            <p>2 Trainer*innen pro Tag</p>
-            <h5>Tage und Uhrzeit:</h5>
-            <p>
-              _3 Abende und jeden 2. Samstag <br />
+              <h5>Trainer*innen:</h5>
+              <p>2 Trainer*innen pro Tag</p>
+              <h5>Tage und Uhrzeit:</h5>
+              <p>
+                _3 Abende und jeden 2. Samstag <br />
               _In der Woche: 18:00 - 21:00 Uhr <br />
               _Samstags: 09:00 - 18:00 Uhr
             </p>
+            </div>
           </div>
         </Carousel>
       </div>
@@ -277,7 +296,6 @@ const SuperStipendium = (props) => {
           color: #fff;
           line-height: 1.2em;
           margin: 0 0 5vh;
-          text-transform: uppercase;
           font-weight: 300;
         }
 
@@ -364,11 +382,41 @@ const SuperStipendium = (props) => {
           height: 100%;
           width: 50%;
         }
+        .stipendium-box1,
+        .stipendium-box2{
+          display: flex;
+          align-items: center;
+        }
 
         .stipendium-box2 {
           height: 92%;
           width: 50%;
           margin-left: -2px;
+        }
+        .stipendium-right a {
+          color: #fff;
+            margin: 2em 1em 0;
+            font-family: "Fira Sans", sans-serif;
+            font-size: 0.7em;
+            font-weight: 600;
+            line-height: 1.5em;
+            text-align: center;
+            letter-spacing: 3.5px;
+            text-transform: uppercase;
+            padding: 10px 0;
+            background: transparent;
+            border: 1px solid #3dd7ac;
+            text-decoration: none;
+            color: ${props.buttonTextColor};
+            justify-self: center;
+            display: inline-block;
+            min-width: 23em;
+            text-align: center;
+        }
+        .stipendium-right a :hover {
+          color: #5d3ede;
+          background: #3dd7ac;
+          cursor: pointer;
         }
 
         .stipendium-box-carousel {

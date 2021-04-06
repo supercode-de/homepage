@@ -29,15 +29,12 @@ const Beratung = (props) => {
             <h1>
               dir <span>helfen?</span>
             </h1>
-            <p>Du erreichst uns am besten an folgenden Tagen und Zeiten</p>
+            <p>Am besten erreichst du uns an folgenden Tagen und Zeiten</p>
             <p>Montag - Freitag</p>
             <p>09:00 - 17:00 Uhr</p>
             <p>
-              Unser Campus befindet sich im super7000 Coworking Space - der
-              Mutter aller Coworking Spaces. Die genaue Adresse lautet
+              Unser Campus befindet sich im super7000 Coworking Space, Ratherstr. 25, 40476 Düsseldorf.
             </p>
-            <p>Ratherstr. 25</p>
-            <p>40476 Düsseldorf</p>
           </div>
           <div className="jetzt-anmelden-right">
             <HubspotForm

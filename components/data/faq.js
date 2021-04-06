@@ -2,12 +2,12 @@ var faq = [
   {
     question: "Für wen ist dieses Bootcamp?",
     answer:
-      "Für alle Menschen die motiviert sind Neues zu lernen! Du solltest außerdem über 18 Jahre alt sein und bestenfalls eine Leidenschaft für den Bereich IT mitbringen.",
+      "Für alle Menschen die, motiviert sind Neues zu lernen! Du solltest außerdem über 18 Jahre alt sein und bestenfalls eine Leidenschaft für den Bereich IT mitbringen.",
   },
   {
     question: "Welcher akademische Grad ist erforderlich?",
     answer:
-      "Lange Rede, kurzer Sinn – Keiner. Wir sind auf der Suche nach wunderbaren Querdenkern*innen, die motiviert sind ein neues Leben zu starten.",
+      "Lange Rede, kurzer Sinn – keiner. Wir sind auf der Suche nach wunderbaren Querdenkern*innen, die motiviert sind, ein neues Leben zu starten.",
   },
   {
     question: "Ist Vorerfahrung im Bereich IT / Coding notwendig?",
@@ -17,7 +17,7 @@ var faq = [
   {
     question: "Was werde ich lernen?",
     answer:
-      "Kurz: Du wirst in der Lage sein moderne Webseiten von Grund auf zu erstellen. Lang: Du wirst in der Lage sein, eine Full-Stack-Programmier-Mentalität zu entwickeln, die es dir ermöglicht, dich frei zwischen Front- & Backend zu bewegen. Du wirst in einem einzigartigen und kreativen Umfeld die neuesten Techniken im Bereich Web-Entwicklung erleben und anwenden. Du wirst fließend in den wichtigsten Programmiersprachen sprechen und deine verrückten Entwicklungsfertigkeiten mit den coolsten Frameworks der Menschheit beschleunigen. Aber vor allem wirst du lernen zu lernen – was im Grunde genommen die nützlichste Fähigkeit in der Welt von morgen ist!",
+      "Kurz: Du wirst in der Lage sein, moderne Webseiten von Grund auf zu erstellen. Lang: Du wirst in der Lage sein, eine Full-Stack-Programmier-Mentalität zu entwickeln, die es dir ermöglicht, dich frei zwischen Front- & Backend zu bewegen. Du wirst in einem einzigartigen und kreativen Umfeld die neuesten Techniken im Bereich Web-Entwicklung erleben und anwenden. Du wirst fließend in den wichtigsten Programmiersprachen sprechen und deine verrückten Entwicklungsfertigkeiten mit den coolsten Frameworks der Menschheit beschleunigen. Aber vor allem wirst du lernen zu lernen – was im Grunde genommen die nützlichste Fähigkeit in der Welt von morgen ist!",
   },
   {
     question: "Wie viel kosten die Bootcamps?",
@@ -32,7 +32,7 @@ var faq = [
   {
     question: "Wie sieht der Tagesablauf aus? ",
     answer:
-      "Bei Vollzeit: findet der Kurs von Montag bis Freitag, von 9 bis ca. 17.30 Uhr statt. Aber in der Praxis wirst du deine Zeit flexibel je nach Projektphase (Einzel- und Gruppenprojekte), einteilen. Im Grunde genommen machen wir dich bereit in einer Endlosschleife von EAT SLEEP CODE REPEAT zu leben, denn für 22 Wochen wird unser SuperKursraum dein Zuhause und deine Kolleg*innen deine Familie sein. Im Teilzeitkurs: ist die Reise etwas entspannter, …etwas 😉 Montags und mittwochs kannst du dich von 18 – 21 Uhr in unserem Live Stream online einwählen und von deinem Cockpit zu hause mit uns durch die schöne Welt der Web-Entwicklung düsen. Freitags (18 – 21 Uhr) und Samstags (ja, Samstags – 09 – ca. 17.30 Uhr) treffen wir uns alle hier vor Ort im SuperKursraum, um gemeinsam an Projekten zu arbeiten. ",
+      "Der Vollzeit Kurs findet von Montag bis Freitag, von 9 bis ca. 17.30 Uhr statt. Aber in der Praxis wirst du deine Zeit flexibel je nach Projektphase (Einzel- und Gruppenprojekte), einteilen. Im Grunde genommen machen wir dich bereit in einer Endlosschleife von EAT SLEEP CODE REPEAT zu leben, denn für 22 Wochen wird unser SuperKursraum dein Zuhause und deine Kolleg*innen deine Familie sein. Im Teilzeitkurs  ist die Reise etwas entspannter. Montags und mittwochs kannst du dich von 18 – 21 Uhr in unserem Live Stream online einwählen und von deinem Cockpit zuhause mit uns durch die schöne Welt der Web-Entwicklung düsen. Freitags (18 – 21 Uhr) und Samstags (ja, Samstags – 09 – ca. 17.30 Uhr) treffen wir uns alle hier vor Ort im SuperKursraum, um gemeinsam an Projekten zu arbeiten. ",
   },
   {
     question: "Gibt es eine Jobgarantie nach dem Bootcamp?",

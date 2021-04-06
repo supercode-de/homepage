@@ -5,7 +5,7 @@ const HeaderCallToAction_neu = () => {
         IT Weiterbildung&nbsp;- <br />
         <span className="super">
           zertifiziert, intensiv & <span className="after-span">praxisnah</span>
-          <nobr />. Wähle das Format, was dir am{" "}
+          <nobr />. Wähle das Format, das dir am{" "}
           <span className="circle">besten</span> passt.
         </span>
       </h2>

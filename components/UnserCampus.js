@@ -38,7 +38,6 @@ const UnserCampus = (props) => {
             nutzen dieses einzigartige Umfeld, um Dich noch schneller in
             passende Jobs zu vermitteln.
           </p>
-          <p className="hash-tag">#superwinwin</p>
         </div>
         <img
           className="img-two"
@@ -62,7 +61,7 @@ const UnserCampus = (props) => {
         src="/webp/_DSC2652_LowRes_14.webp"
         alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
       />
-      <div className="bg-container">
+      <div>
         <img
           className="img-five"
           src="/webp/_DSC2464_LowRes.webp"
@@ -108,7 +107,7 @@ const UnserCampus = (props) => {
       </div>
       <img
         className="img-six"
-        src="/webp/_DSC2451_MidRes.webp"
+        src="/img/_DSC7265_LowRes.png"
         alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
       />
       <style jsx>{`
@@ -147,24 +146,20 @@ const UnserCampus = (props) => {
         h1,
         p,
         .text-two {
-          color: #3dd7ac;
+          color: rgb(7, 0, 33);
           width: ${props.width * 3}px;
         }
         h1 span {
           font-weight: 400;
           color: transparent;
           letter-spacing: 3px;
-          -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #3dd7ac;
+          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-color: rgb(7, 0, 33);
         }
         h1 {
-          text-transform: uppercase;
           font-size: 3.3em;
           line-height: 1.2em;
           font-family: "Neue_Machina_Regular_400";
-        }
-        .hash-tag {
-          color: #5d3ede;
         }
         .aside {
           position: absolute;
@@ -198,10 +193,6 @@ const UnserCampus = (props) => {
           width: 25%;
           transform: translateY(-80px);
           transform: translateX(20vw);
-        }
-
-        .bg-container {
-          background: url("img/bg-line2.png") left/contain no-repeat;
         }
         .img-six {
           width: 25%;

@@ -12,6 +12,7 @@ const CertquaBonn = () => {
       <div>
         <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
         <p>- Certqua Bonn</p>
+        <p>CERTQUA ist eine durch die Deutsche Akkreditierungsstelle GmbH (DAkkS) akkreditierte Zertifizierungsstelle für Managementsysteme sowie für die Zulassung von Trägern und Maßnahmen nach der Akkreditierungs- und Zulassungsverordnung Arbeitsförderung - AZAV.</p>
       </div>
 
       <style jsx>{`
@@ -30,6 +31,10 @@ const CertquaBonn = () => {
           margin-left: 2%;
           color: #3dd7ac;
           font-size: 18px;
+        }
+        p:nth-of-type(2) {
+          width: 70%;
+          font-size: 16px;
         }
         h2 {
           font-size: 2.3em;

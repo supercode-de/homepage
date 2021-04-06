@@ -6,7 +6,7 @@ const MeldeDich = () => {
   return (
     <div id="melde-dich">
       <h1>
-        <span className="melde">Melde</span> dich noch heute, oder mach mit bei
+        <span className="melde">Melde</span> dich noch heute oder mach mit bei
         unserem kostenlosen <span className="workshop">Workshop.</span>
       </h1>
 
@@ -62,8 +62,8 @@ const MeldeDich = () => {
           color: transparent;
           letter-spacing: 3px;
           font-weight: 400;
-          -webkit-text-stroke-width: 0.5px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-color: #3dd7ac;
         }
 
         span.workshop::after {
