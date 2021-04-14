@@ -28,15 +28,7 @@ const Header_neu = (props) => {
           </h1>
         </div>
       </div>
-
-      <div className="arrow">
-        <a href="#">
-          <p>Erfahre Mehr</p>
-        </a>
-        <Arrow />
-      </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #header {
             padding: 100px 0;
             font-family: "Neue_Machina_Regular_400";

@@ -30,8 +30,7 @@ const Header_neu = (props) => {
         </div>
       </div>
 
-      <style jsx>
-        {`
+      <style jsx>{`
           #header {
             font-family: "Neue_Machina_Regular_400";
             position: relative;
