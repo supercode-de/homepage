@@ -35,7 +35,7 @@ const UnserCampus = (props) => {
             arbeiten mehr als 50 Unternehmen in offenen Büros und in Teambüros
             inklusive Telefonzellen, Meetingräumen, Bällebad und der legendären
             Eventfläche auf echtem Kunstrasen für Workshops, Meet-Ups & Co. Wir
-            nutzen dieses einzigartige Umfeld, um Dich noch schneller in
+            nutzen dieses einzigartige Umfeld, um dich noch schneller in
             passende Jobs zu vermitteln.
           </p>
         </div>
