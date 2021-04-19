@@ -55,7 +55,18 @@ const CertquaBonn = () => {
           h2 {
             font-size: 1.5em;
           }
+          p, p:nth-of-type(2) {
+            font-size: 1.5em;
+          }
         }
+        @media (max-width: 540px) {
+          #header-call div {
+            display: block;
+          }
+          p:nth-of-type(2) {
+            width: 100%;
+          }
+      }
         @media (max-width: 320px) {
           h2 {
           }

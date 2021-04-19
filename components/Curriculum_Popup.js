@@ -55,6 +55,7 @@ const Typeform = (props) => {
           border: 1px solid var(--super-green);
           color: #fff;
           display: inline-block;
+          padding: 15px 0;
           width: 100%;
         }
         .button:hover {

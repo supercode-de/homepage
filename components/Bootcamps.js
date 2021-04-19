@@ -91,6 +91,7 @@ const Bootcamps = () => {
                }
                @media (max-width: 540px) {
                    .cards {
+                       margin: 0;
                        width: 100%;
                    }
                }

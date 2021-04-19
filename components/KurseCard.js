@@ -55,6 +55,14 @@ const KurseCard = (props) => {
                         min-height: auto;
                     }
                 }
+                @media (max-width: 540px) {
+                    .buttons {
+                        flex-direction: column;
+                        align-self: center;
+                        margin-top: 2rem;
+                    }
+                    
+                }
             `}
                 
             </style>
