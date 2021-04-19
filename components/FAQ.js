@@ -12,7 +12,7 @@ class FAQ extends Component {
 
   render() {
     return (
-      <div id="faq">
+      <div id="faq" className="blueGitter">
         <h2>FAQ</h2>
 
         <div className="grid">
@@ -28,26 +28,7 @@ class FAQ extends Component {
         <style jsx>{`
           #faq {
             padding: 10px calc(100vw / 12) 50px;
-
             position: relative;
-            background-color: #070021;
-            background-image: linear-gradient(
-                to right,
-                rgba(230, 230, 230, 0.25) 0,
-                rgba(230, 230, 230, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(230, 230, 230, 0.25) 0,
-                rgba(230, 230, 230, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
-
             font-family: "Neue_Machina_Regular_400";
           }
           h2 {
@@ -60,7 +41,7 @@ class FAQ extends Component {
             font-weight: 400;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #3dd7ac;
+            -webkit-text-stroke-color: var(--super-green);
           }
           .grid {
             display: grid;

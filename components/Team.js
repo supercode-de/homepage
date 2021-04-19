@@ -1,7 +1,6 @@
 // import { useWindowSize } from './functions/windowSize'
 
 import Carousel from "react-multi-carousel";
-
 import data from "./data/team.json";
 
 const responsive = {
@@ -28,7 +27,7 @@ const Zukunft = (props) => {
   // const width = useWindowSize().width / 12
   const pixelSize = 1.5;
   return (
-    <div id="zukunft">
+    <div id="zukunft" className="whiteGreenDots">
       <div className="infos">
         <div className="info-text">
           <h1>
@@ -108,18 +107,6 @@ const Zukunft = (props) => {
       <style jsx>{`
         #zukunft {
           font-family: "Neue_Machina_Regular_400";
-
-          background: linear-gradient(
-              90deg,
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #3dd7ac;
-          background-size: calc(100vw / 12) calc(100vw / 12);
           position: relative;
           padding: 10vw calc(100vw / 12);
         }
@@ -135,8 +122,7 @@ const Zukunft = (props) => {
           font-size: 3.3em;
           line-height: 1.2em;
           letter-spacing: 2px;
-          color: #5d3ede;
-          text-transform: uppercase;
+          color: var(--super-lila);          
           margin: 0;
         }
         .info-text h1 span {
@@ -144,11 +130,11 @@ const Zukunft = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #5d3ede;
+          -webkit-text-stroke-color: var(--super-lila);
         }
 
         .info-text p {
-          color: #5d3ede;
+          color: var(--super-lila);
           font-size: 1.2em;
         }
         .info-img {

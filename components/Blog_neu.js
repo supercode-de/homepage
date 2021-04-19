@@ -29,8 +29,8 @@ const Blog_neu = (props) => {
   const pixelSize = 1.5;
 
   return (
-    <div id="blog">
-      <div className="line">
+    <div id="blog" className="whiteGreenDots">
+      <div>
         <h1>
           Meine Straße, mein <span>Blog</span>
         </h1>
@@ -83,33 +83,15 @@ const Blog_neu = (props) => {
 
       <style jsx>{`
         #blog {
-          color: #3dd7ac;
+          color: var(--super-green);
           font-family: "Neue_Machina_Regular_400";
-
-          background: linear-gradient(
-              90deg,
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #3dd7ac;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-
           position: relative;
           padding: 50px 0;
         }
-        // .line {
-        //   background: url("./img/bg-line.png") top center/cover no-repeat;
-        //   width: 100%;
-        // }
-
         h1 {
           font-size: 4em;
           letter-spacing: 2px;
-          color: #3dd7ac;
+          color: var(--super-green);
           max-width: 10em;
           margin: 0;
           line-height: 1.2em;
@@ -119,7 +101,7 @@ const Blog_neu = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: #3dd7ac;
+          -webkit-text-stroke-color: var(--super-green);
           font-weight: 300;
         }
 
@@ -167,11 +149,9 @@ const Blog_neu = (props) => {
           font-size: 1.5em;
           font-weight: 300;
         }
-        .title-main:hover h3 {
-          color: #3dd7ac;
-        }
+        .title-main:hover h3,
         .zum-artikel:hover {
-          color: #3dd7ac;
+          color: var(--super-green);
         }
 
         p {
@@ -179,12 +159,12 @@ const Blog_neu = (props) => {
           font-weight: 200;
         }
         // a {
-        //   color: #3dd7ac;
+        //   color: var(--super-green);
         //   text-decoration: none;
         // }
         // a:hover {
         //   text-decoration: underline;
-        //   color: #3dd7ac;
+        //   color: var(--super-green);
         // }
 
         // .buttons {
@@ -193,14 +173,14 @@ const Blog_neu = (props) => {
         //   justify-content: flex-end;
         // }
         // a {
-        //   background: #070021;
+        //   background: var(--super-blau);
 
         //   display: inline-block;
         //   color: #fff;
         //   text-decoration: none;
         //   text-transform: uppercase;
         //   padding: 5px 35px;
-        //   border: 1px solid #3dd7ac;
+        //   border: 1px solid var(--super-green);
         //   font-size: 0.7em;
         //   font-weight: 600;
         //   line-height: 1.5em;

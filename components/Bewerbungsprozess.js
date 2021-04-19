@@ -17,7 +17,7 @@ class Bewerbungsprozess extends Component {
 
   render() {
     return (
-      <div id="bewerbungsprozess">
+      <div id="bewerbungsprozess" className="lilaGitter">
         {this.props.oneComponent ? null : (
           <JetztAnmdelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}
@@ -148,25 +148,7 @@ class Bewerbungsprozess extends Component {
             }
             #bewerbungsprozess {
               padding: 5em 8%;
-
               position: relative;
-              background-color: #5d3ede;
-              background-image: linear-gradient(
-                  to right,
-                  rgba(255, 255, 255, 0.25) 0,
-                  rgba(255, 255, 255, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                ),
-                linear-gradient(
-                  to bottom,
-                  rgba(255, 255, 255, 0.25) 0,
-                  rgba(255, 255, 255, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                );
-              background-position: 0 0, 0 0;
-              background-size: calc(100vw / 12) calc(100vw / 12);
             }
             .twocolumn {
               display: grid;

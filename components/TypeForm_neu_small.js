@@ -62,27 +62,16 @@ const Typeform = (props) => {
           transform: rotate(180deg);
         }
         .button {
-          margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
-          font-style: normal;
-
-          font-size: 0.7em;
-          font-weight: 600;
-          line-height: 1.5em;
-          text-align: center;
-          // letter-spacing: 2px;
+          font-size: 14px;
           letter-spacing: 3.5px;
-          text-transform: uppercase;
-          padding: 10px 0;
-
           background: transparent;
           border: 1px solid #3dd7ac;
-          text-decoration: none;
           color: #fff;
-          justify-self: center;
           display: inline-block;
-          min-width: 23em;
-          text-align: center;
+          width: 100%;
+          padding: 15px 0;
+          
         }
         .button:hover {
           color: #5d3ede;

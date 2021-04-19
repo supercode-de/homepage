@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
-import Arrow from "./small/Arrow";
-import Typeform from "./TypeForm_neu";
 
 const Header_neu = (props) => {
   return (
-    <div id="header">
+    <div id="header" className="lilaGitter">
       <div className="super-code">super(code)</div>
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
       <div className="content">
@@ -20,7 +18,7 @@ const Header_neu = (props) => {
             <br />
             in die IT-Welt:
             <br />
-            <span className="super circle">Unsere&nbsp;Bootcamps!</span>
+            <span className="super">Unsere&nbsp;Bootcamps!</span>
           </h1>
         </div>
       </div>
@@ -29,23 +27,6 @@ const Header_neu = (props) => {
             padding: 100px 0;
             font-family: "Neue_Machina_Regular_400";
             position: relative;
-            background-color: #5d3ede;
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .aside {
             position: absolute;
@@ -94,25 +75,6 @@ const Header_neu = (props) => {
             bottom: 0;
             right: 0;
           }
-
-          .arrow {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translate(-50%, 0%);
-          }
-          .arrow p {
-            margin: 0 auto;
-            text-align: center;
-          }
-          .arrow a {
-            text-decoration: none;
-          }
-          .arrow a:hover {
-            text-decoration: underline;
-            color: #fff;
-          }
-
           h1 {
             font-family: "Neue_Machina_Regular_400";
             font-size: 4em;
@@ -126,31 +88,6 @@ const Header_neu = (props) => {
             -webkit-text-stroke-width: 0.5px;
             -webkit-text-stroke-color: #fff;
             font-weight: 300;
-          }
-
-          span.circle {
-            position: relative;
-          }
-
-          // span.circle::after {
-          //   position: absolute;
-          //   background: url("/img/Vector64.svg") center/contain no-repeat;
-          //   transform: rotateX(70deg);
-
-          //   height: 300%;
-          //   width: 105%;
-          //   right: -2%;
-          //   bottom: -100%;
-          //   content: "";
-          //   display: block;
-          // }
-
-          p {
-            color: #fff;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 1em;
-            line-height: 30px;
           }
 
           @media (max-width: 1040px) {

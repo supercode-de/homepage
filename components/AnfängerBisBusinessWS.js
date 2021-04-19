@@ -2,7 +2,7 @@ const AnfängerBisBusiness = (props) => {
   const pixelSize = 2.5;
 
   return (
-    <div id="starter-business">
+    <div id="starter-business" className="whiteGreenDots">
       <h1>
         Von <span className="super">Anfänger bis Business &mdash;</span> lerne
         Programmieren, Designen oder agiles Management in einem unserer{" "}
@@ -12,21 +12,9 @@ const AnfängerBisBusiness = (props) => {
       <style jsx>{`
         #starter-business {
           background: #fff;
-          color: #5d3ede;
+          color: var(--super-lila);
           font-family: "Neue_Machina_Regular_400";
           padding: 2rem 0;
-
-          background: linear-gradient(
-              90deg,
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #3dd7ac;
-          background-size: calc(100vw / 12) calc(100vw / 12);
           position: relative;
         }
         #starter-business div {
@@ -45,7 +33,7 @@ const AnfängerBisBusiness = (props) => {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #5d3ede;
+          -webkit-text-stroke-color: var(--super-lila);
           font-weight: 400;
         }
 

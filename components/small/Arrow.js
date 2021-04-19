@@ -17,8 +17,8 @@ const Arrow = () => {
           display: block;
           width: 30px;
           height: 30px;
-          border-bottom: 2px solid #3dd7ac;
-          border-right: 2px solid #3dd7ac;
+          border-bottom: 2px solid var(--super-green);
+          border-right: 2px solid var(--super-green);
           transform: rotate(45deg);
           margin: -10px;
           animation: animate 2s infinite;

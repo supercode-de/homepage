@@ -105,7 +105,7 @@ const AbsolventenWS = (props) => {
           margin: 0;
           padding: 0;
           font-family: "Neue_Machina_Regular_400";
-          color: #3dd7ac;
+          color: var(--super-green);
         }
 
         #absolventen {
@@ -113,7 +113,7 @@ const AbsolventenWS = (props) => {
           background-color: #fff;
 
           background: url("./img/bg-line2.png") top/150% no-repeat,
-            url("./img/bg-line2.png") center/100% no-repeat, #070021;
+            url("./img/bg-line2.png") center/100% no-repeat, var(--super-blau);
 
           padding: 70px 0;
         }
@@ -144,7 +144,7 @@ const AbsolventenWS = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #3dd7ac;
+          -webkit-text-stroke-color: var(--super-green);
         }
 
         .alumni-grid {
@@ -190,7 +190,7 @@ const AbsolventenWS = (props) => {
           height: 100%;
           width: 100%;
           display: none;
-          background: #070021;
+          background: var(--super-blau);
           justify-content: center;
           align-items: center;
         }

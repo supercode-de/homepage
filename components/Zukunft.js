@@ -4,7 +4,7 @@ const Zukunft = (props) => {
   // const width = useWindowSize().width / 12
   const pixelSize = 1.5;
   return (
-    <div id="zukunft">
+    <div id="zukunft" className="whiteGreenDots">
       <div className="infos">
         <div className="info-one">
           <h1>
@@ -65,20 +65,8 @@ const Zukunft = (props) => {
       />
       <style jsx>{`
         #zukunft {
-          color: rgb(7, 0, 33);
+          color: var(--super-blau);
           font-family: "Neue_Machina_Regular_400";
-
-          background: linear-gradient(
-              90deg,
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #3dd7ac;
-          background-size: calc(100vw / 12) calc(100vw / 12);
           position: relative;
           padding: 100px calc(100vw / 12) 5px calc(100vw / 12);
         }
@@ -86,7 +74,7 @@ const Zukunft = (props) => {
           font-size: 3.3em;
           line-height: 1.2em;
           letter-spacing: 2px;
-          color: rgb(7, 0, 33);
+          color: var(--super-blau);
           margin: 0;
         }
         h1 span {
@@ -94,7 +82,7 @@ const Zukunft = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: rgb(7, 0, 33);
+          -webkit-text-stroke-color: var(--super-blau);
         }
         .infos {
           display: grid;
@@ -127,7 +115,7 @@ const Zukunft = (props) => {
         }
 
         h3 {
-          color: #5d3ede;
+          color: var(--super-lila);
           font-size: 1.5em;
           margin: 0;
           font-weight: 200;
@@ -138,7 +126,7 @@ const Zukunft = (props) => {
         }
 
         a {
-          color: #5d3ede;
+          color: var(--super-lila);
           text-decoration: none;
         }
         .images {

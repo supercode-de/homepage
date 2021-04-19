@@ -1,11 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Arrow from "./small/Arrow";
-import Typeform from "./TypeForm_neu";
-import Typewriter from "typewriter-effect";
-
 const Header_neu = (props) => {
   return (
-    <div id="header">
+    <div id="header" className="lilaGitter">
       <div className="header-images-grid">
         <div className="bottom img1">
           <img src="/img/benannt/Master-Trainer Webentwickung.jpg" alt="" />
@@ -34,23 +30,6 @@ const Header_neu = (props) => {
           #header {
             font-family: "Neue_Machina_Regular_400";
             position: relative;
-            background-color: #5d3ede;
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
           }
 
           .header-images-grid {

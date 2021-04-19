@@ -47,15 +47,14 @@ const Beratung = (props) => {
           </div>
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #jetzt-anmelden {
             position: fixed;
             padding: 20px;
-            background: #03000f;
+            background: var(--super-black);
             top: 0;
             bottom: 0;
-            color: #3dd7ac;
+            color: var(--super-green);
             overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
@@ -93,7 +92,7 @@ const Beratung = (props) => {
             font-size: 2.5em;
           }
           .jetzt-anmelden-close:hover {
-            color: #3dd7ac;
+            color: var(--super-green);
           }
           .jetzt-anmelden-left h1 {
             font-size: 4.3em;
@@ -115,7 +114,7 @@ const Beratung = (props) => {
             color: transparent;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1.5px;
-            -webkit-text-stroke-color: #3dd7ac;
+            -webkit-text-stroke-color: var(--super-green);
           }
 
           .button {
@@ -133,7 +132,7 @@ const Beratung = (props) => {
             padding: 10px 50px;
 
             background: transparent;
-            border: 1px solid #3dd7ac;
+            border: 1px solid var(--super-green);
             text-decoration: none;
             color: ${props.buttonTextColor};
             justify-self: center;
@@ -141,8 +140,8 @@ const Beratung = (props) => {
             min-width: 23em;
           }
           .button:hover {
-            color: #5d3ede;
-            background: #3dd7ac;
+            color: var(--super-lila);
+            background: var(--super-green);
             cursor: pointer;
           }
 
@@ -153,7 +152,7 @@ const Beratung = (props) => {
           //     text-decoration: none;
           //     text-transform: uppercase;
           //     padding: 5px 35px;
-          //     border: 1px solid #3dd7ac;
+          //     border: 1px solid var(--super-green);
           //     font-size: 0.7em;
           //     font-weight: 600;
           //     line-height: 1.5em;

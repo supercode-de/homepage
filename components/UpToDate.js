@@ -22,7 +22,7 @@ const responsive = {
 
 const UpToDate = (props) => {
   return (
-    <div id="up-to-date">
+    <div id="up-to-date" className="lilaGitter">
       <div className="top-label">
         <h1>UP</h1>
         <h1>TO</h1>
@@ -59,25 +59,7 @@ const UpToDate = (props) => {
           padding: 0;
         }
 
-        #up-to-date {
-          background-color: #5d3ede;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-
+        #up-to-date {          
           color: #fff;
           padding: 4em 8.5% 5em;
           position: relative;
@@ -101,7 +83,7 @@ const UpToDate = (props) => {
         }
         h1 {
           font-family: "Neue_Machina_Regular_400";
-          color: #3dd7ac;
+          color: var(--super-green);
           font-size: 3.5em;
           font-weight: 300;
           margin-bottom: 50px;

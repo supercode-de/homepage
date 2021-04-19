@@ -251,7 +251,7 @@ class Collapsible extends Component {
             display: flex;
             align-items: center;
             font-weight: 400;
-            color: #3dd7ac;
+            color: var(--super-green);
             position: relative;
             padding: 10px 30px 5px 0;
             font-size: 1.4em;
@@ -270,24 +270,24 @@ class Collapsible extends Component {
             content: " ";
             width: 19px;
             height: 3px;
-            background: #3dd7ac;
+            background: var(--super-green);
           }
           .Collapsible__trigger.is-closed:after {
             content: " ";
             width: 19px;
             height: 3px;
-            background: #3dd7ac;
+            background: var(--super-green);
           }
           .Collapsible__trigger.is-closed:before {
             content: " ";
             width: 3px;
             height: 19px;
-            background: #3dd7ac;
+            background: var(--super-green);
             right: 18px;
             top: 12px;
           }
           .Collapsible__contentInner {
-            color: #3dd7ac;
+            color: var(--super-green);
           }
           @media (max-width: 768px) {
           }

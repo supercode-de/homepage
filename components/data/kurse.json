@@ -1,0 +1,21 @@
+[
+    {
+        "headline": "Web-Development\nFull-Stack",
+        "umfang": "Umfang: 22 Wochen (5 Monate) / Vollzeit",
+        "start": "21.06.2021 Ende: 22.11.2021",
+        "copy": "Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft."
+    },
+    {
+        "headline": "Web-Development\nFront-End",
+        "umfang": "Umfang: 30 Wochen (7 Monate) / Teilzeit",
+        "start": "Start: 24.05.2021 Ende: 23.12.2021",
+        "copy": "Programmieren lernen neben dem Beruf?\nKein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps."
+    },
+    {
+        "headline": "TRY IT -Der IT\nEignungscheck",
+        "umfang": "Umfang: 4 Wochen (1 Monat) / Vollzeit",
+        "start": "Start: 01.05.2021 Ende: 31.05.2021",
+        "copy": "Programmieren lernen neben dem Beruf?\nKein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps."
+    }
+
+]

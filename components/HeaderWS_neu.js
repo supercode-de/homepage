@@ -4,7 +4,7 @@ import Typeform from "./TypeForm_neu";
 
 const Header_neu = (props) => {
   return (
-    <div id="header">
+    <div id="header" className="lilaGitter">
       <div className="super-code">super(code)</div>
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
       <div className="content">
@@ -33,23 +33,6 @@ const Header_neu = (props) => {
             padding: 100px 0;
             font-family: "Neue_Machina_Regular_400";
             position: relative;
-            background-color: #5d3ede;
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .aside {
             position: absolute;

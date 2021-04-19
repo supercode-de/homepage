@@ -4,7 +4,7 @@ import Telefon from "./small/Telefon";
 const Header404 = (props) => {
   const pixelSize = 2; // Width of Lines in Background
   return (
-    <div id="header">
+    <div id="header" className="lilaGitter">
       <div className="super-code">super(code)</div>
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
 
@@ -20,32 +20,12 @@ const Header404 = (props) => {
             <a>zurück.</a>
           </Link>
         </p>
-        {/* <div className="img">
-          <img src="/img/_DSC2571_LowRes 3_neu.png" alt="" />
-        </div> */}
       </div>
 
       <style jsx>{`
         #header {
           font-family: "Neue_Machina_Regular_400";
           position: relative;
-          background-color: #5d3ede;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -98,7 +78,7 @@ const Header404 = (props) => {
           font-size: 8em;
           line-height: 1.2em;
           letter-spacing: 2px;
-          color: #3dd7ac;
+          color: var(--super-green);
           font-weight: 400;
 
           margin-bottom: 1em;
@@ -108,7 +88,7 @@ const Header404 = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 2px;
-          -webkit-text-stroke-color: #3dd7ac;
+          -webkit-text-stroke-color: var(--super-green);
         }
 
         h1 span.lines {
@@ -152,7 +132,7 @@ const Header404 = (props) => {
           -webkit-text-stroke-color: #fff;
         }
         p a:hover {
-          color: #3dd7ac;
+          color: var(--super-green);
           -webkit-text-stroke-width: 0;
         }
 

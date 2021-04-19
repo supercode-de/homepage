@@ -19,7 +19,7 @@ const MeldeDich = () => {
       </div>
       <style jsx>{`
         #melde-dich {
-          background: #070021;
+          background: var(--super-blau);
           color: #fff;
           padding: 3em 4em 2em;
           font-family: "Neue_Machina_Regular_400";
@@ -63,7 +63,7 @@ const MeldeDich = () => {
           letter-spacing: 3px;
           font-weight: 400;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: #3dd7ac;
+          -webkit-text-stroke-color: var(--super-green);
         }
 
         span.workshop::after {
@@ -100,7 +100,7 @@ const MeldeDich = () => {
           padding: 10px 50px;
 
           background: transparent;
-          border: 1px solid #3dd7ac;
+          border: 1px solid var(--super-green);
           text-decoration: none;
           color: #fff;
           justify-self: center;
@@ -108,8 +108,8 @@ const MeldeDich = () => {
           min-width: 23em;
         }
         a:hover {
-          color: #5d3ede;
-          background: #3dd7ac;
+          color: var(--super-lila);
+          background: var(--super-green);
         }
         @media (max-width: 863px) {
         }

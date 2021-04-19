@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
-import Arrow from "./small/Arrow";
 import Typeform from "./TypeForm_neu";
 import Typewriter from "typewriter-effect";
 
 const Header_neu = (props) => {
   return (
-    <div id="header">
+    <div id="header" className="lilaGitter">
       <div className="super-code">super(code)</div>
       <span className="aside"> 📞 +49 211 7817 233-0 </span>
       {/* <div className="logo-name">super(code)</div> */}
@@ -74,23 +73,6 @@ const Header_neu = (props) => {
             padding: 40px 0 40px 10%;
             font-family: "Neue_Machina_Regular_400";
             position: relative;
-            background-color: #5d3ede;
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .arrow {
             position: absolute;
@@ -224,7 +206,7 @@ const Header_neu = (props) => {
             justify-self: center;
           }
           button:hover {
-            color: #5d3ede;
+            color: var(--super-lila);
             background: #fff;
           }
 

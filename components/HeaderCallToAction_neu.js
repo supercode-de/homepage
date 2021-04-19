@@ -17,7 +17,7 @@ const HeaderCallToAction_neu = () => {
       </div>
       <style jsx>{`
         #header-call {
-          background: rgb(7, 0, 33);
+          background: var(--super-blau);
           color: #fff;
           font-family: "Neue_Machina_Regular_400";
           padding: 4rem 7% 2rem;

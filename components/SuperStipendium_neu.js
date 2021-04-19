@@ -25,7 +25,7 @@ const responsive = {
 
 const SuperStipendium = (props) => {
   return (
-    <div id="super-stipendium">
+    <div id="super-stipendium" className="lilaGitter">
       {/* <img className="bg-line" src="img/bg-line.png" alt="" /> */}
       {/* <span className="aside">ARBEITSPLATZ DER ZUKUNFT</span> */}
       <img src="/img/bgLine.png" alt="" className="bg-line" />
@@ -55,23 +55,24 @@ const SuperStipendium = (props) => {
             <span>Bildungsgutschein</span> zu 100% finanziert werden.
           </h4>
         </article>
+
+        
         <article className="stipendium-right">
-          <div className={window.location.pathname !== "/kurse" ? "stipendiumBox1Home" : "stipendium-box1 hide"}>
+          <div className="stipendium-box1">
             <div>
               <h5>Web-Development Full-Stack</h5>
               <p>
                 Umfang: 22 Wochen (5 Monate) / Vollzeit <br />
               Start: 21.06.2021 Ende: 22.11.2021
-            </p>
-              <p>
+            </p>              <p>
                 Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
                 Web-Entwicklung verpackt in einem ultra praxisorientierten
                 Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
                 und finde einen Job mit Zukunft.
             </p>
-              <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
+
             </div>
-            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none"}}>
+            <div>
               <h5>Inhalte:</h5>
               <p>
                 Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
@@ -92,7 +93,7 @@ const SuperStipendium = (props) => {
             </p>
             </div>
           </div>
-          <div className={window.location.pathname !== "/kurse" ? "stipendiumBox2Home" : "stipendium-box2 hide"}>
+          <div className="stipendium-box2">
             <div>
               <h5>Web-Development Front-End</h5>
               <p>
@@ -104,9 +105,9 @@ const SuperStipendium = (props) => {
               Front-End Kurs findet abends und online statt! In 30 Wochen lernst
               du das Programmieren moderner Websites & Apps.
             </p>
-              <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
+
             </div>
-            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none" }}>
+            <div>
               <h5>Inhalte:</h5>
               <p>
                 Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
@@ -152,9 +153,8 @@ const SuperStipendium = (props) => {
                 Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
                 und finde einen Job mit Zukunft.
             </p>
-              <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
             </div>
-            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none" }}>
+            <div>
               <h5>Inhalte:</h5>
               <p>
                 Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
@@ -187,9 +187,8 @@ const SuperStipendium = (props) => {
               Front-End Kurs findet abends und online statt! In 30 Wochen lernst
               du das Programmieren moderner Websites & Apps.
             </p>
-              <a href="/kurse" style={{ display: window.location.pathname !== "/kurse" ? "block" : "none" }}>Zu den Kursen</a>
             </div>
-            <div style={{ display: window.location.pathname == "/kurse" ? "block" : "none" }}>
+            <div>
               <h5>Inhalte:</h5>
               <p>
                 Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
@@ -209,19 +208,6 @@ const SuperStipendium = (props) => {
             </div>
           </div>
         </Carousel>
-      </div>
-
-      <div className="interest">
-        <h4>
-          Du interessierst dich für unsere Bootcamps? Dann hol dir jetzt das{" "}
-          <span className="circle">Curriculum</span> oder bewirb dich direkt!
-        </h4>
-
-        <div className="buttons">
-          <Typeform_neu_small />
-
-          <Curriculum buttonText="Curriculum" buttonTextColor="#fff" />
-        </div>
       </div>
 
       <style jsx>{`
@@ -249,24 +235,6 @@ const SuperStipendium = (props) => {
         }
 
         #super-stipendium {
-          background-color: #5d3ede;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-
           padding: 7em 0 5em;
         }
 
@@ -356,9 +324,8 @@ const SuperStipendium = (props) => {
         h4 {
           color: #fff;
           font-family: "Fira Sans", sans-serif;
-          // font-family: "Neue_Machina_Regular_400";
           font-style: normal;
-          font-weight: normal;
+          font-weight: 300;
           font-size: 18px;
           line-height: 25px;
           justify-self: center;
@@ -372,11 +339,9 @@ const SuperStipendium = (props) => {
 
         .stipendium-box1,
         .stipendium-box2,
-        .stipendiumBox1Home,
-        .stipendiumBox2Home,
         .stipendium-box-carousel {
-          background: #5d3ede;
-          border: 2px solid #30e1b9;
+          background: var(--super-lila);
+          border: 2px solid var(--super-green);
           padding: 1em 4% 1em 2%;
         }
 
@@ -384,32 +349,11 @@ const SuperStipendium = (props) => {
           height: 100%;
           width: 50%;
         }
-
         .stipendium-box2 {
           height: 92%;
           width: 50%;
           margin-left: -2px;
         }
-
-        .stipendiumBox1Home h5, 
-        .stipendiumBox2Home h5{
-          font-size: 1.5rem; 
-        }
-
-        .stipendiumBox1Home, 
-        .stipendiumBox2Home {
-          padding: 3rem 2% 4rem 3%;
-        }
-        .stipendiumBox1Home {
-          // height: 75%;
-          width: 50%;
-        }
-        .stipendiumBox2Home {
-          // height: 65%;
-          width: 50%;
-          // margin-top: 5rem;
-        }
-
         .stipendium-right a {
           color: #fff;
             margin: 2em 1em 0;
@@ -422,7 +366,7 @@ const SuperStipendium = (props) => {
             text-transform: uppercase;
             padding: 10px 0;
             background: transparent;
-            border: 1px solid #3dd7ac;
+            border: 1px solid var(--super-green);
             text-decoration: none;
             color: ${props.buttonTextColor};
             justify-self: center;
@@ -431,8 +375,8 @@ const SuperStipendium = (props) => {
             text-align: center;
         }
         .stipendium-right a :hover {
-          color: #5d3ede;
-          background: #3dd7ac;
+          color: var(--super-lila);
+          background: var(--super-green);
           cursor: pointer;
         }
 
@@ -454,12 +398,12 @@ const SuperStipendium = (props) => {
           transform: scale(1.07);
         }
         .stipendium-right > .stipendium-box1:hover h5:first-of-type {
-          color: #30e1b9;
+          color: var(--super-green);
           font-weight: 500;
           opacity: 1;
         }
         .stipendium-right > .stipendium-box2:hover h5:first-of-type {
-          color: #30e1b9;
+          color: var(--super-green);
           font-weight: 500;
           opacity: 2;
         }
@@ -487,28 +431,13 @@ const SuperStipendium = (props) => {
           line-height: 20px;
           opacity: 0.8;
         }
-
-        .interest {
-          margin-top: 50px;
-          padding: 0 calc(100vw / 24);
-        }
-        .interest h4 {
-          margin-bottom: 20px;
-        }
-        .buttons {
-          display: flex;
-          justify-content: flex-end;
-        }
-
         @media (max-width: 768px) {
           .grid {
             grid-template-columns: 1fr;
           }
         }
         @media (max-width: 468px) {
-          .hide {
-            display: none;
-          }
+
           #myCarousel {
             display: block;
           }

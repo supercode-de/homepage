@@ -85,8 +85,8 @@ export default function Beratungsformular() {
           margin: 0 auto;
           padding-top: 5rem;
           padding: 20px;
-          background: #03000F;
-          color:#3DD7AC;
+          background: var(--super-black);
+          color: var(--super-green);
           border-radius: .5rem;
         }
         
@@ -94,7 +94,7 @@ export default function Beratungsformular() {
             margin: 0;
             font-size: 3em;
             letter-spacing: 2px;
-            color: #3DD7AC;
+            color: var(--super-green);
             text-align: center;
             padding-bottom: 3rem;
         }
@@ -103,7 +103,7 @@ export default function Beratungsformular() {
             color: transparent;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1.5px;
-            -webkit-text-stroke-color: #3DD7AC;
+            -webkit-text-stroke-color: var(--super-green);
         }
         
           @keyframes wave {

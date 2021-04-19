@@ -17,8 +17,8 @@ const FooterCallToAction = (props) => {
       </div>
       <style jsx>{`
         #call-to-action {
-          background: #5d3ede;
-          color: #3dd7ac;
+          background: var(--super-lila);
+          color: var(--super-green);
           margin: 0 auto;
           padding: 4rem 6% 2rem;
 
@@ -41,7 +41,7 @@ const FooterCallToAction = (props) => {
         //   color: transparent;
         //   letter-spacing: 3px;
         //   -webkit-text-stroke-width: 1.5px;
-        //   -webkit-text-stroke-color: #3dd7ac;
+        //   -webkit-text-stroke-color: var(--super-green);
         // }
 
         .buttons {
@@ -68,7 +68,7 @@ const FooterCallToAction = (props) => {
           padding: 10px 0;
           text-align: center;
           background: transparent;
-          border: 1px solid #3dd7ac;
+          border: 1px solid var(--super-green);
           text-decoration: none;
           color: #fff;
           display: inline-block;
@@ -78,8 +78,8 @@ const FooterCallToAction = (props) => {
           // align-items: center;
         }
         a:hover {
-          color: #5d3ede;
-          background: #3dd7ac;
+          color: var(--super-lila);
+          background: var(--super-green);
         }
 
         // a {
@@ -88,7 +88,7 @@ const FooterCallToAction = (props) => {
         //   text-decoration: none;
         //   text-transform: uppercase;
         //   padding: 5px 2rem;
-        //   border: 1px solid #3dd7ac;
+        //   border: 1px solid var(--super-green);
         //   font-size: 0.7em;
         //   font-weight: 600;
         //   line-height: 1.5em;

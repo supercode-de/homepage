@@ -42,15 +42,14 @@ const JetztAnmdelden = (props) => {
           />
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #jetzt-anmelden {
             position: fixed;
             padding: 20px;
-            background: #03000f;
+            background: var(--super-black);
             top: 0;
             bottom: 0;
-            color: #3dd7ac;
+            color: var(--super-green);
             transition: all 0.5s;
             width: 100%;
             z-index: 99999;
@@ -87,7 +86,7 @@ const JetztAnmdelden = (props) => {
             font-size: 2.5em;
           }
           .jetzt-anmelden-close:hover {
-            color: #3dd7ac;
+            color: var(--super-green);
           }
           .jetzt-anmelden-left h1 {
             font-size: 4.3em;
@@ -109,7 +108,7 @@ const JetztAnmdelden = (props) => {
             color: transparent;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1.5px;
-            -webkit-text-stroke-color: #3dd7ac;
+            -webkit-text-stroke-color: var(--super-green);
           }
           @media screen and (max-width: 768px) {
             #jetzt-anmelden {

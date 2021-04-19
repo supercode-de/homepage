@@ -17,7 +17,7 @@ class Auflistung extends Component {
 
   render() {
     return (
-      <div id="auflistung">
+      <div id="auflistung" className="blueGitter">
         {this.props.oneComponent ? null : (
           <JetztAnmdelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}
@@ -113,31 +113,10 @@ class Auflistung extends Component {
           </div>
         </div>
 
-        <style jsx>
-          {`
+        <style jsx>{`
             #auflistung {
               padding: 6em 8%;
-
               position: relative;
-
-              background: #070021;
-
-              background-image: linear-gradient(
-                  to right,
-                  rgba(255, 255, 255, 0.25) 0,
-                  rgba(255, 255, 255, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                ),
-                linear-gradient(
-                  to bottom,
-                  rgba(255, 255, 255, 0.25) 0,
-                  rgba(255, 255, 255, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                );
-              background-position: 0 0, 0 0;
-              background-size: calc(100vw / 12) calc(100vw / 12);
             }
 
             .twocolumn {
@@ -187,7 +166,7 @@ class Auflistung extends Component {
               letter-spacing: 2px;
 
               -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: #30e1b9;
+              -webkit-text-stroke-color: var(--super-green);
               font-weight: 200;
               font-size: 0.7em;
               padding-right: 20px;
@@ -199,7 +178,7 @@ class Auflistung extends Component {
             }
             a:hover {
               text-decoration: line-through;
-              text-decoration-color: #30e1b9;
+              text-decoration-color: var(--super-green);
             }
             .kontakt:hover {
               cursor: pointer;

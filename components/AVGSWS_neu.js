@@ -2,7 +2,7 @@ const AVGS = () => {
   const pixelSize = 1.5;
 
   return (
-    <div id="avgs">
+    <div id="avgs" className="whiteGreenDots">
       <div className="avgs-img">
         <img
           src="/img/_DSC2541_LowRes.png"
@@ -73,18 +73,6 @@ const AVGS = () => {
         }
 
         #avgs {
-          background: linear-gradient(
-              90deg,
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #3dd7ac;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-
           color: #fff;
           padding: 50px 6%;
           font-family: "Neue_Machina_Regular_400";
@@ -104,7 +92,7 @@ const AVGS = () => {
         h2 {
           font-size: 3em;
           letter-spacing: 2px;
-          color: #5d3ede;
+          color: var(--super-lila);
           font-weight: 300;
           margin-bottom: 5rem;
           text-transform: uppercase;
@@ -120,14 +108,14 @@ const AVGS = () => {
           width: 100%;
         }
         .info-headline h3 {
-          color: #5d3ede;
+          color: var(--super-lila);
           font-size: 1.5em;
           font-weight: 300;
 
           margin-bottom: 1px;
         }
         .info-text p {
-          color: #3dd7ac;
+          color: var(--super-green);
           font-size: 1.2em;
           font-weight: 500;
           font-style: italic;

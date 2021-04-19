@@ -23,7 +23,7 @@ const responsive = {
 
 const WorkIT = (props) => {
   return (
-    <div id="kurse">
+    <div id="kurse" className="lilaGitter">
       <span className="aside">Unsere Kurse</span>
       <article className="kurs-boxes-headline">
         <h1>
@@ -244,24 +244,6 @@ const WorkIT = (props) => {
         }
 
         #kurse {
-          background-color: #5d3ede;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-
           padding: 7em 0 5em;
           position: relative;
           z-index: 1;
@@ -316,8 +298,8 @@ const WorkIT = (props) => {
           padding: 0 15%;
         }
         .kurs-box {
-          background: #5d3ede;
-          border: 2px solid #30e1b9;
+          background: var(--super-lila);
+          border: 2px solid var(--super-green);
           padding: 1em 4% 1em 2%;
           width: 100%;
           z-index: 0;
@@ -358,14 +340,14 @@ const WorkIT = (props) => {
           text-transform: uppercase;
           padding: 10px 70px;
           background: transparent;
-          border: 1px solid #3dd7ac;
+          border: 1px solid var(--super-green);
           text-decoration: none;
           color: #fff;
           display: inline-block;
         }
         a:hover {
-          color: #5d3ede;
-          background: #3dd7ac;
+          color: var(--super-lila);
+          background: var(--super-green);
         }
         h4 {
           font-family: "Neue_Machina_Regular_400";
@@ -374,7 +356,7 @@ const WorkIT = (props) => {
           margin-bottom: 14px;
         }
         .kurs-boxes > .kurs-box:hover h4 {
-          color: #30e1b9;
+          color: var(--super-green);
         }
 
         h5 {

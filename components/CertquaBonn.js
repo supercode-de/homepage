@@ -18,7 +18,7 @@ const CertquaBonn = () => {
       <style jsx>{`
         #header-call {
           background: #fff;
-          color: #5d3ede;
+          color: var(--super-lila);
           font-family: "Neue_Machina_Regular_400";
           padding: 3rem 6.5%;
         }
@@ -29,7 +29,7 @@ const CertquaBonn = () => {
 
         p {
           margin-left: 2%;
-          color: #3dd7ac;
+          color: var(--super-green);
           font-size: 18px;
         }
         p:nth-of-type(2) {

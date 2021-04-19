@@ -86,7 +86,21 @@ class Layout extends Component {
             font-family: "Neue_Machina_Regular_400";
             src: url("/Neue_Machina_Regular_400.otf");
           }
-
+          @font-face {
+            font-family: "Neue_Machina_Ultrabold";
+            src: url("/Neue_Machina_Ultrabold.otf")
+          }
+          @font-face {
+            font-family: "Neue_Machina_Light";
+            src: url("/Neue_Machina_Light.otf")
+          }
+          :root {
+            --super-green: #3DD7AC;
+            --super-lila: #5D3EDE;
+            --super-blau: #070021;
+            --super-black: #03000F;
+            --super-yellow: #FFDA1A;
+          }
           html {
             scroll-behavior: smooth;
           }
@@ -112,6 +126,75 @@ class Layout extends Component {
           * {
             box-sizing: border-box;
           }
+          .lilaGitter{
+            background-color: var(--super-lila);
+            background-image: linear-gradient(
+              to right,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              ),
+              linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              );
+            background-size: calc(100vw / 12) calc(100vw / 12);
+          }
+          .blackGitter{
+            background-color: var(--super-black);
+                    background-image: linear-gradient(
+                    to right,
+                    rgba(230, 230, 230, 0.25) 0,
+                    rgba(230, 230, 230, 0.25) 1px,
+                    transparent 1px,
+                    transparent 100%
+                ),
+                linear-gradient(
+                    to bottom,
+                    rgba(230, 230, 230, 0.25) 0,
+                    rgba(230, 230, 230, 0.25) 1px,
+                    transparent 1px,
+                    transparent 100%
+                );
+                    background-size: calc(100vw / 12) calc(100vw / 12);
+          }
+          .blueGitter{
+            background-color: var(--super-blau);
+            background-image: 
+              linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%),
+              linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%);
+            background-size: calc(100vw / 12) calc(100vw / 12);
+          }
+          .whiteGreenDots{
+            background: linear-gradient(
+              90deg,
+              #fff calc(100vw / 12 - 1.5px),
+              transparent 1%
+            ),
+            linear-gradient(
+              #fff calc(100vw / 12 - 1.5px),
+              transparent 1%
+            ),
+            var(--super-green);
+          background-size: calc(100vw / 12) calc(100vw / 12);
+          }
+
+
+
           // Styling Carousel Blog Start
 
           .react-multiple-carousel__arrow {

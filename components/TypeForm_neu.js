@@ -25,7 +25,7 @@ const Typeform = (props) => {
           left: 10%;
           width: 80%;
           height: 80vh;
-          color: #3dd7ac;
+          color: var(--super-green);
         }
         a {
           position: absolute;
@@ -70,7 +70,7 @@ const Typeform = (props) => {
           text-transform: uppercase;
           padding: 18px 32px;
           background: transparent;
-          border: 2px solid #3dd7ac;
+          border: 2px solid var(--super-green);
           color: #fff;
           justify-self: center;
           display: inline-block;
@@ -78,8 +78,8 @@ const Typeform = (props) => {
           outline: none;
         }
         button:hover {
-          color: #5d3ede;
-          background: #3dd7ac;
+          color: var(--super-lila);
+          background: var(--super-green);
         }
         iframe {
           position: absolute;

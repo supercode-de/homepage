@@ -30,11 +30,10 @@ const Finanzierung = (props) => {
           </p>
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #finanzierung {
             background: url("./img/Gold-Chain.png") top right/contain no-repeat,
-              #070021;
+              var(--super-blau);
             color: #fff;
             padding: 50px 6%;
             font-family: "Neue_Machina_Regular_400";
@@ -42,13 +41,12 @@ const Finanzierung = (props) => {
           h2 {
             font-size: 2em;
             letter-spacing: 2px;
-            color: #5d3ede;
+            color: var(--super-lila);
             font-weight: 300;
             margin-bottom: 5rem;
           }
           p {
             font-weight: 400;
-            color: #ffffff;
             font-size: 1em;
           }
           h1 {
@@ -72,12 +70,12 @@ const Finanzierung = (props) => {
             gap: 40px;
           }
           .info-headline h3 {
-            color: #5d3ede;
+            color: var(--super-lila);
             font-size: 1.5em;
             font-weight: 300;
           }
           .info-headline p {
-            color: #3dd7ac;
+            color: var(--super-green);
             font-style: italic;
             font-weight: 500;
           }

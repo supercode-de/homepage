@@ -6,7 +6,7 @@ const FooterCallToAction = (props) => {
   const pixelSize = 1.5;
 
   return (
-    <div id="call-to-action">
+    <div id="call-to-action" className="whiteGreenDots">
       <h1>
         Worauf wartest du noch?! Die nächsten{" "}
         <span className="super">
@@ -25,19 +25,7 @@ const FooterCallToAction = (props) => {
       </div>
       <style jsx>{`
         #call-to-action {
-          background: linear-gradient(
-              90deg,
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #3dd7ac;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-
-          color: #5d3ede;
+          color: var(--super-lila);
           margin: 0 auto;
           padding: 4rem 6% 2rem;
 
@@ -56,7 +44,7 @@ const FooterCallToAction = (props) => {
           color: transparent;
           font-weight: 300;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #5d3ede;
+          -webkit-text-stroke-color: var(--super-lila);
         }
 
         .buttons {
@@ -83,9 +71,9 @@ const FooterCallToAction = (props) => {
           padding: 10px 0;
           text-align: center;
           background: transparent;
-          border: 1px solid #3dd7ac;
+          border: 1px solid var(--super-green);
           text-decoration: none;
-          color: #5d3ede;
+          color: var(--super-lila);
           display: inline-block;
           // min-width: 100px;
           // display: flex;
@@ -93,8 +81,8 @@ const FooterCallToAction = (props) => {
           // align-items: center;
         }
         a:hover {
-          color: #5d3ede;
-          background: #3dd7ac;
+          color: var(--super-lila);
+          background: var(--super-green);
         }
 
         span.circle {
