@@ -95,6 +95,11 @@ const Bootcamps = () => {
                        width: 100%;
                    }
                }
+               @media (max-width: 375px) {
+                   h2 {
+                       font-size: 2.8rem;
+                   }
+               }
             `}
 
             </style>
