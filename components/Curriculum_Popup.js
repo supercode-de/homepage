@@ -52,14 +52,14 @@ const Typeform = (props) => {
           letter-spacing: 3.5px;
           text-transform: uppercase;
           background: transparent;
-          border: 1px solid #3dd7ac;
+          border: 1px solid var(--super-green);
           color: #fff;
           display: inline-block;
           width: 100%;
         }
         .button:hover {
-          color: #5d3ede;
-          background: #3dd7ac;
+          color: var(--super-lila);
+          background: var(--super-green);
           cursor: pointer;
         }
 
@@ -69,14 +69,14 @@ const Typeform = (props) => {
           position: relative;
           width: calc(100vw / 12 * 8);
           padding: 40px;
-          border: 1px solid #3dd7ac;
+          border: 1px solid var(--super-green);
           position: fixed;
           top: 15%;
           left: ${(document.documentElement.clientWidth - 700) / 2}px;
 
           width: 700px;
           // max-height: 70vh;
-          color: #3dd7ac;
+          color: var(--super-green);
         }
         .popup-close {
           top: 0;
@@ -88,7 +88,7 @@ const Typeform = (props) => {
           border-radius: 0;
           padding: 0;
           margin: 0;
-          color: #3dd7ac;
+          color: var(--super-green);
           background: none;
           font-weight: 300;
           font-size: 2em;
@@ -99,7 +99,7 @@ const Typeform = (props) => {
           width: 40px;
         }
         .popup-close:hover {
-          color: #3dd7ac;
+          color: var(--super-green);
         }
 
         .curriculum-popup-content {
@@ -147,7 +147,10 @@ const Typeform = (props) => {
           display: none;
         }
 
-        @media (max-width: 1020px) {
+        @media (max-width: 1440px) {
+          .button {
+            font-size: 12px;
+          }
         }
         @media (max-width: 768px) {
           #curriculum-popup {

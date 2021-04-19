@@ -18,12 +18,15 @@ const KurseCard = (props) => {
             <style jsx>{`
                 .kurseCard {
                     border: 4px solid var(--super-green);
+                    background: var(--super-lila);
                     white-space: pre-line;
+                    display: flex;
+                    flex-direction: column;
                     padding: 43px 28px;
-                    width: 27%;
+                    // width: 27%;
                 }
                 .kurseCard div:first-child {
-                    min-height: 315px;
+                    flex: 1;
                 }
                 .buttons {
                     display: flex;
@@ -39,6 +42,19 @@ const KurseCard = (props) => {
                     line-height: 25px;
                 }
 
+                @media (max-width: 1440px) {
+                    h5 {
+                        font-size: 1.8rem;
+                    }
+                }
+                @media (max-width: 768px) {
+                    p {
+                        font-size: 15.5px;
+                    }
+                    .kurseCard div:first-child {
+                        min-height: auto;
+                    }
+                }
             `}
                 
             </style>

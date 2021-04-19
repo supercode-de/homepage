@@ -28,7 +28,7 @@ const Typeform = (props) => {
           left: 10%;
           width: 80%;
           height: 80vh;
-          color: #3dd7ac;
+          color: var(--super-green);
         }
         a {
           position: absolute;
@@ -66,7 +66,7 @@ const Typeform = (props) => {
           font-size: 14px;
           letter-spacing: 3.5px;
           background: transparent;
-          border: 1px solid #3dd7ac;
+          border: 1px solid var(--super-green);
           color: #fff;
           display: inline-block;
           width: 100%;
@@ -74,8 +74,8 @@ const Typeform = (props) => {
           
         }
         .button:hover {
-          color: #5d3ede;
-          background: #3dd7ac;
+          color: var(--super-lila);
+          background: var(--super-green);
           cursor: pointer;
         }
         iframe {
@@ -86,17 +86,11 @@ const Typeform = (props) => {
           top: 0px;
           border: 0;
         }
-        // @media (max-width: 468px) {
-        //   .button {
-        //     width: 420px;
-        //   }
-        // }
-        // @media (max-width: 568px) {
-        //   .button {
-        //     width: 230px;
-        //   }
-        // }
-
+        @media (max-width: 1440px) {
+          .button {
+            font-size: 12px;
+          }
+        }
         @media (max-width: 468px) {
           .button {
             font-size: 1.2em;

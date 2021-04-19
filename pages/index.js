@@ -1,24 +1,22 @@
-import FooterCallToAction from "../components/FooterCallToAction";
-import UnserCampus from "../components/UnserCampus";
-import FAQ from "../components/FAQ";
-import MeldeDich from "../components/MeldeDich";
+import Head from "next/head";
 import Header_neu from "../components/Header_neu";
 import HeaderCallToAction_neu from "../components/HeaderCallToAction_neu";
 import Zukunft from "../components/Zukunft";
+import UnserCampus from "../components/UnserCampus";
 import Weiterbildung_neu from "../components/Weiterbildung_neu";
-import Bewerbungsprozess from "../components/Bewerbungsprozess";
-// import SuperPartner from "../components/SuperPartner";
-// import SuperStipendium_neu from "../components/SuperStipendium_neu";
-// import SuperStipendium from "../components/SuperStipendium";
+import Bootcamps from "../components/Bootcamps";
 import CertquaBonn from "../components/CertquaBonn";
+import Finanzierung from "../components/Finanzierung";
+import Bewerbungsprozess from "../components/Bewerbungsprozess";
+import MeldeDich from "../components/MeldeDich";
+import Blog_neu from "../components/Blog_neu";
+import FAQ from "../components/FAQ";
+import FooterCallToAction from "../components/FooterCallToAction";
+
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
-import Finanzierung from "../components/Finanzierung";
-import Head from "next/head";
-import Blog_neu from "../components/Blog_neu";
 import dates from "../components/data/dates.json";
-import Bootcamps from "../components/Bootcamps";
-// import FooterSitemap from "../components/FooterSitemap";
+
 export default function Home(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -31,16 +29,12 @@ export default function Home(props) {
             <Zukunft width={width} />
             <UnserCampus />
             <Weiterbildung_neu />
-            {/* <SuperPartner width={width} /> */}
-            {/* <SuperStipendium width={width} /> */}
-            {/* <SuperStipendium_neu /> */}
             <Bootcamps />
             <CertquaBonn />
             <Finanzierung />
             <Bewerbungsprozess />
             <MeldeDich />
             <Blog_neu />
-
             <FAQ />
             <FooterCallToAction month={dates.VzTzMonth} />
             {/* <FooterSitemap /> */}

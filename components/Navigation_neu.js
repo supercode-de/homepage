@@ -111,7 +111,7 @@ class Navigation extends Component {
             padding-left: 2em;
           }
           #navigation {
-            // background: #03000f;
+            // background: var(--super-black);
             display: flex;
             align-items: center;
             width: 100%;
@@ -146,7 +146,7 @@ class Navigation extends Component {
             color: #fff;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 0.4px;
-            -webkit-text-stroke-color: #03000f;
+            -webkit-text-stroke-color: var(--super-black);
             transition: color 0.5s;
             cursor: pointer;
           }
@@ -156,14 +156,14 @@ class Navigation extends Component {
 
           a:hover {
             // text-decoration: underline;
-            color: #3dd7ac;
+            color: #var(--super-green);
           }
           a:active {
-            color: #5d3ede;
+            color: var(--super-lila);
           }
 
           .main-navigation {
-            // background: #03000f;
+            // background: var(--super-black);
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -195,7 +195,7 @@ class Navigation extends Component {
               : "none"};
           }
           .logo {
-            color: #3dd7ac;
+            color: var(--super-green);
             // position: fixed;
             // left: 2.5vw;
             // padding-top: 4vh;

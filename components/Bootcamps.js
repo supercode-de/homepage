@@ -22,20 +22,13 @@ const Bootcamps = () => {
             <style jsx>{`
                 .bootcamps {
                     color: #fff;
-                    padding: 5rem 2% 5rem 6%;
+                    padding: 5rem 6%;
                 }
                 h2 {
                     margin: 0;
                     font-family: "Neue_Machina_Regular_400";
                     font-size: 5rem;
-                    line-height: 5.5rem;
-                }
-                .bootcampInfos,
-                .cards {
-                    display: flex;
-                }
-                .bootcampInfos {
-                    justify-content: space-between;
+                    margin-bottom: 1rem;
                 }
                 .bootcampInfos div p {
                     font-size: 25px;
@@ -47,10 +40,60 @@ const Bootcamps = () => {
                 .copy {
                     width: 60%;
                 }
+                .bootcampInfos{
+                    display: flex;
+                }
+                .bootcampInfos {
+                    justify-content: space-between;
+                }
                 .cards {
-                    justify-content: space-around;
+                    // justify-content: space-around;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+                    grid-auto-rows: 1fr;
+                    gap: 5rem;
                     margin: 7rem 0;
                 }
+                
+
+                @media (max-width: 1440px) {
+                    h2 {
+                        font-size: 4rem;
+                    }
+                    .bootcampInfos div p {
+                        font-size: 20px; 
+                    }
+                }
+                @media (max-width: 1024px) {
+                    .bootcampInfos {
+                        flex-direction: column;
+                    }
+                    .copy {
+                        width: 80%;
+                        align-self: center;
+                    }
+                }
+                @media (max-width: 768px) {
+                    .cards {
+                        width: 80%;
+                        margin: 5rem auto;
+                    }
+                    .copy {
+                        width: 100%;
+                        align-self: none;
+                    }
+                }
+               @media (max-width: 425px) {
+                   h2 {
+                       font-size: 3.2rem
+                   }
+                   
+               }
+               @media (max-width: 540px) {
+                   .cards {
+                       width: 100%;
+                   }
+               }
             `}
 
             </style>
