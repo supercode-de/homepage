@@ -64,7 +64,7 @@ const Typeform = (props) => {
         .button {
           font-family: "Fira Sans", sans-serif;
           font-size: 14px;
-          letter-spacing: 3.5px;
+          letter-spacing: 1px;
           background: transparent;
           border: 1px solid var(--super-green);
           color: #fff;

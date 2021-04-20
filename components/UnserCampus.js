@@ -146,7 +146,7 @@ const UnserCampus = (props) => {
         h1,
         p,
         .text-two {
-          color: rgb(7, 0, 33);
+          color: var(--super-blau);
           width: ${props.width * 3}px;
         }
         h1 span {
@@ -154,7 +154,7 @@ const UnserCampus = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: rgb(7, 0, 33);
+          -webkit-text-stroke-color: var(--super-blau);
         }
         h1 {
           font-size: 3.3em;
@@ -168,7 +168,7 @@ const UnserCampus = (props) => {
           left: 3%;
           top: 30%;
           text-transform: uppercase;
-          color: #5d3ede;
+          color: var(--super-lila);
         }
         .text-two {
           margin-left: 50%;

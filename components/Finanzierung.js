@@ -75,8 +75,7 @@ const Finanzierung = (props) => {
             font-weight: 300;
           }
           .info-headline p {
-            color: var(--super-green);
-            font-style: italic;
+            color: var(--super-green); 
             font-weight: 500;
           }
 

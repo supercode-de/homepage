@@ -36,79 +36,33 @@ const FooterCallToAction = (props) => {
           -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #ffffff;
         }
-        // span {
-        //   display: block;
-        //   color: transparent;
-        //   letter-spacing: 3px;
-        //   -webkit-text-stroke-width: 1.5px;
-        //   -webkit-text-stroke-color: var(--super-green);
-        // }
-
         .buttons {
-          // text-align: center;
           display: flex;
-          width: 100%;
           justify-content: flex-end;
+          width: 100%;
         }
 
         a {
           align-items: center;
           margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
-          font-style: normal;
-          min-width: 23em;
 
-          font-size: 0.7em;
-          font-weight: 600;
-          line-height: 1.5em;
-          text-align: center;
-          // letter-spacing: 2px;
-          letter-spacing: 3.5px;
+          min-width: 23em;
+          font-size: 0.875em;          
+          text-align: center;          
+          letter-spacing: 1px;
           text-transform: uppercase;
-          padding: 10px 0;
-          text-align: center;
+          padding: 15px 0px;          
           background: transparent;
           border: 1px solid var(--super-green);
           text-decoration: none;
           color: #fff;
           display: inline-block;
-          // min-width: 100px;
-          // display: flex;
-          // justify-content: center;
-          // align-items: center;
         }
         a:hover {
           color: var(--super-lila);
           background: var(--super-green);
         }
-
-        // a {
-        //   display: inline-block;
-        //   color: #fff;
-        //   text-decoration: none;
-        //   text-transform: uppercase;
-        //   padding: 5px 2rem;
-        //   border: 1px solid var(--super-green);
-        //   font-size: 0.7em;
-        //   font-weight: 600;
-        //   line-height: 1.5em;
-        //   margin: 0.5rem;
-        //   letter-spacing: 2px;
-        //   transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
-        //   box-shadow: 0 0 0 0 transparent;
-        //   position: relative;
-        //   top: 0;
-        //   left: 0;
-        //   text-align: center;
-        //   min-width: 100px;
-        // }
-        // a:hover {
-        //   // margin: 10px 5px 15px 10px;
-        //   // margin: 10px 10px 15px 15px;
-        //   box-shadow: -5px 5px 0 0 #fff;
-        //   top: -5px;
-        //   left: 5px;
-        // }
 
         @media (max-width: 1024px) {
           h1 {

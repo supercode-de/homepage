@@ -1,22 +1,24 @@
-import kursedata from "../components/data/kurse.json"
+import kurseData from "../components/data/testData.json"
 import KurseCard from "./KurseCard";
-const Bootcamps = () => {
+const Bootcamps = (props) => {
+    console.log("das sind props", props)
+    console.log("das sind kursedata: ", kurseData);
     return (
         <section className="bootcamps lilaGitter">
             <article className="bootcampInfos">
                 <div className="headlines">
-                    <h2>Unsere</h2>
-                    <h2>Bootcamps</h2>
-                    <h2>& Workshops</h2>
+                    <h2>{kurseData[0].headlines.first}</h2>
+                    <h2>{kurseData[0].headlines.second}</h2>
+                    <h2>{kurseData[0].headlines.third}</h2>
                 </div>
                 <div className="copy">
-                    <p>In einem halben Jahr zum Web Developer - geht das überhaupt? Und ob! Durch unsere zertifizierte Intensiv-Weiterbildung wirst du in 5-7 Monaten zum Web Developer Front-end oder Full-Stack und steigerst deine Jobchancen im IT-Bereich. Egal, ob dein Studium nicht mehr zu dir passt, es in deinem Beruf keine Zukunft gibt oder du einfach etwas ganz Neues lernen willst - Wir unterstützen dich!</p>
-                    <p>Von der Beratung bis zum erfolgreichen Kursabschluss stehst du mit deiner Motivation, deiner Geschichte und deinen Fortschritten bei uns im Mittelpunkt. Mit zwei Trainer*innen pro Kurs, einem durchdachten Lehrplan, modernster Technik und guten Job-Kontakten machen wir dich fit für deine Zukunkt als Web Developer. No Money? No Problem! Unsere Kurse können durch die Chancen eG oder einen Bildungsgutschein zu 100% finanziert werden.</p>
+                    <p>{kurseData[0].texte.first}</p>
+                    <p>{kurseData[0].texte.second}</p>
                 </div>
             </article>
 
             <section className="cards">
-                {kursedata.map((item, index) => <KurseCard key={index} data={item} />)}
+                {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
             </section>
 
             <style jsx>{`
@@ -31,7 +33,7 @@ const Bootcamps = () => {
                     margin-bottom: 1rem;
                 }
                 .bootcampInfos div p {
-                    font-size: 25px;
+                    font-size: 1.1em;
                     font-weight: 300;
                 }
                 .headline {

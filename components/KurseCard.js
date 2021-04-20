@@ -23,7 +23,12 @@ const KurseCard = (props) => {
                     display: flex;
                     flex-direction: column;
                     padding: 43px 28px;
+                    transition: background .6s cubic-bezier(0.45, 0, 0.55, 1);
                     // width: 27%;
+                }
+                .kurseCard:hover {
+                    background: var(--super-blau);
+                    transition: background .6s cubic-bezier(0.45, 0, 0.55, 1);
                 }
                 .kurseCard div:first-child {
                     flex: 1;

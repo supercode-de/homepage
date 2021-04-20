@@ -88,17 +88,11 @@ const MeldeDich = () => {
         a {
           margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
-          font-style: normal;
-
-          font-size: 0.7em;
-          font-weight: 600;
-          line-height: 1.5em;
-          text-align: center;
-          // letter-spacing: 2px;
-          letter-spacing: 3.5px;
+          font-size: 0.875em;
+          letter-spacing: 1px;
           text-transform: uppercase;
-          padding: 10px 50px;
-
+          padding: 15px 0px;
+          text-align: center;
           background: transparent;
           border: 1px solid var(--super-green);
           text-decoration: none;

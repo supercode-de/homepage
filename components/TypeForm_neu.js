@@ -61,20 +61,18 @@ const Typeform = (props) => {
         button {
           margin: 2em 1em;
           font-family: "Fira Sans", sans-serif;
-          font-style: normal;
-          font-weight: normal;
           font-size: 14px;
           line-height: 16px;
           text-align: center;
-          letter-spacing: 3.5px;
+          letter-spacing: 1px;
           text-transform: uppercase;
-          padding: 18px 32px;
+          padding: 15px 0px;
           background: transparent;
           border: 2px solid var(--super-green);
           color: #fff;
           justify-self: center;
           display: inline-block;
-          width: 620px;
+          width: 38.75em;
           outline: none;
         }
         button:hover {

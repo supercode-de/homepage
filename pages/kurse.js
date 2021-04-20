@@ -1,7 +1,8 @@
 import HeaderKurse_neu from "../components/HeaderKurse_neu";
 import HeaderCallToActionWS_neu from "../components/HeaderCallToActionWS_neu";
 import FEoderFSKurse from "../components/FEoderFSKurse";
-import SuperStipendium_neu from "../components/SuperStipendium_neu";
+import Bootcamps from "../components/Bootcamps";
+// import SuperStipendium_neu from "../components/SuperStipendium_neu";
 import AuflistungWS from "../components/AuflistungWS";
 import BGSKurse from "../components/BGSKurse";
 import AbsolventenWS_neu_v2 from "../components/AbsolventenWS_neu_v2";
@@ -11,6 +12,7 @@ import FooterCallToActionKurse from "../components/FooterCallToActionKurse";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import dates from "../components/data/dates.json";
+import kurseData from "../components/data/testData.json";
 
 export default function Workshop() {
   if (process.browser) {
@@ -22,7 +24,8 @@ export default function Workshop() {
             <HeaderKurse_neu />
             <HeaderCallToActionWS_neu />
             <FEoderFSKurse />
-            <SuperStipendium_neu />
+            {/* <SuperStipendium_neu /> */}
+            <Bootcamps kurseData={kurseData[0].kurseKursePage}/>
             <AuflistungWS />
             <BGSKurse />
             <AbsolventenWS_neu_v2 />

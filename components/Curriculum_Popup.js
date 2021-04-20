@@ -48,8 +48,8 @@ const Typeform = (props) => {
       <style jsx>{`
         .button {
           font-family: "Fira Sans", sans-serif;
-          font-size: 14px;
-          letter-spacing: 3.5px;
+          font-size: 0.875em;
+          letter-spacing: 1px;
           text-transform: uppercase;
           background: transparent;
           border: 1px solid var(--super-green);

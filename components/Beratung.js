@@ -120,20 +120,13 @@ const Beratung = (props) => {
           .button {
             margin: 2em 1em 0;
             font-family: "Fira Sans", sans-serif;
-            font-style: normal;
-
-            font-size: 0.7em;
-            font-weight: 600;
+            font-size: 0.875em;
             line-height: 1.5em;
-            text-align: center;
-            // letter-spacing: 2px;
-            letter-spacing: 3.5px;
+            letter-spacing: 1px;
             text-transform: uppercase;
-            padding: 10px 50px;
-
+            padding: 15px 0px;
             background: transparent;
             border: 1px solid var(--super-green);
-            text-decoration: none;
             color: ${props.buttonTextColor};
             justify-self: center;
             display: inline-block;

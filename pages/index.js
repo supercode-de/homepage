@@ -16,6 +16,7 @@ import FooterCallToAction from "../components/FooterCallToAction";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import dates from "../components/data/dates.json";
+import kurseData from "../components/data/testData.json";
 
 export default function Home(props) {
   if (process.browser) {
@@ -27,9 +28,9 @@ export default function Home(props) {
             <Header_neu />
             <HeaderCallToAction_neu />
             <Zukunft width={width} />
-            <UnserCampus />
+            <UnserCampus width={width} />
             <Weiterbildung_neu />
-            <Bootcamps />
+            <Bootcamps kurseData={kurseData[0].kurseIndex} />
             <CertquaBonn />
             <Finanzierung />
             <Bewerbungsprozess />

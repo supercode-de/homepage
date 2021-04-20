@@ -95,9 +95,6 @@ const Zukunft = (props) => {
           justify-content: flex-end;
           align-items: flex-end;
         }
-
-        .info-one {
-        }
         .info-headline {
           padding: 4rem 2rem 2rem;
           position: relative;
@@ -113,7 +110,6 @@ const Zukunft = (props) => {
         .lila-box2 {
           background: url("/img/Vector61.png") center/100% 100% no-repeat;
         }
-
         h3 {
           color: var(--super-lila);
           font-size: 1.5em;
