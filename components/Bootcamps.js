@@ -1,4 +1,4 @@
-import kurseData from "../components/data/testData.json"
+import kurseData from "../components/data/kursedata.json"
 import KurseCard from "./KurseCard";
 const Bootcamps = (props) => {
     console.log("das sind props", props)

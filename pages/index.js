@@ -16,7 +16,7 @@ import FooterCallToAction from "../components/FooterCallToAction";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import dates from "../components/data/dates.json";
-import kurseData from "../components/data/testData.json";
+import kurseData from "../components/data/kursedata.json";
 
 export default function Home(props) {
   if (process.browser) {
