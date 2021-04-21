@@ -14,13 +14,7 @@ const HeaderCallToAction_neu = () => {
         #header-call {
           background: var(--super-blau);
           color: #fff;
-          font-family: "Neue_Machina_Regular_400";
           padding: 3vh 2% 3vh 6%;
-        }
-        h2 {
-          font-size: 3.5em;
-          line-height: 1.2em;
-          max-width: 1100px;
         }
         h2 span.super {
           color: transparent;

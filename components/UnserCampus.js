@@ -156,18 +156,12 @@ const UnserCampus = (props) => {
           -webkit-text-stroke-width: 1.5px;
           -webkit-text-stroke-color: var(--super-blau);
         }
-        h1 {
-          font-size: 3.3em;
-          line-height: 1.2em;
-          font-family: "Neue_Machina_Regular_400";
-        }
         .aside {
           position: absolute;
           transform: rotate(-90deg);
           transform-origin: left;
           left: 3%;
           top: 30%;
-          text-transform: uppercase;
           color: var(--super-lila);
         }
         .text-two {

@@ -28,24 +28,12 @@ const Bootcamps = (props) => {
                 }
                 h2 {
                     margin: 0;
-                    font-family: "Neue_Machina_Regular_400";
-                    font-size: 5rem;
-                    margin-bottom: 1rem;
                 }
-                .bootcampInfos div p {
-                    font-size: 1.1em;
-                    font-weight: 300;
-                }
-                .headline {
-                    width: 40%;
-                }
-                .copy {
-                    width: 60%;
-                }
-                .bootcampInfos{
-                    display: flex;
+                .bootcampInfos > * {
+                    width: 100%;
                 }
                 .bootcampInfos {
+                    display: flex;
                     justify-content: space-between;
                 }
                 .cards {

@@ -121,11 +121,24 @@ class Layout extends Component {
           body {
             padding: 0;
             margin: 0;
-            font-family: "Fira Sans", sans-serif;
           }
           * {
             box-sizing: border-box;
+            font-family: "Neue_Machina_Regular_400", sans-serif;
           }
+          a, button {
+            font-family: "Neue_Machina_Regular_400", sans-serif;
+          }
+          p{
+            font-size: 1.125rem;
+            line-height: 1.563rem;
+          }
+          h1, h2 {
+            font-size: 4em;
+            line-height: 1.2em;
+          }
+          
+          // BACKGROUND STYLES 
           .lilaGitter{
             background-color: var(--super-lila);
             background-image: linear-gradient(

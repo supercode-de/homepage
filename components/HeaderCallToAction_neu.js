@@ -19,11 +19,9 @@ const HeaderCallToAction_neu = () => {
         #header-call {
           background: var(--super-blau);
           color: #fff;
-          font-family: "Neue_Machina_Regular_400";
           padding: 4rem 7% 2rem;
         }
         h2 {
-          font-size: 3.8em;
           line-height: 1.3em;
           padding: 0 1%;
         }
@@ -76,19 +74,10 @@ const HeaderCallToAction_neu = () => {
           display: block;
         }
         .buttons {
-          width: 100%;
-
           display: flex;
           justify-content: flex-end;
           align-items: center;
         }
-
-        @media (min-width: 1200px) {
-          h2 {
-            // font-size: 6em;
-          }
-        }
-
         @media (max-width: 1040px) {
           h2 {
             font-size: 3em;

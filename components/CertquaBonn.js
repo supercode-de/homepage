@@ -26,21 +26,14 @@ const CertquaBonn = () => {
           display: flex;
           align-items: center;
         }
-
         p {
           margin-left: 2%;
           color: var(--super-green);
-          font-size: 18px;
         }
         p:nth-of-type(2) {
           width: 70%;
-          font-size: 16px;
         }
-        h2 {
-          font-size: 2.3em;
-          line-height: 1.4em;
-          font-weight: 500;
-        }
+        
         @media (max-width: 1040px) {
           h2 {
             font-size: 1.8em;

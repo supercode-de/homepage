@@ -7,7 +7,7 @@ var faq = [
   {
     question: "Welcher akademische Grad ist erforderlich?",
     answer:
-      "Lange Rede, kurzer Sinn – keiner. Wir sind auf der Suche nach wunderbaren Querdenkern*innen, die motiviert sind, ein neues Leben zu starten.",
+      "Lange Rede, kurzer Sinn – keiner. Wir sind auf der Suche nach wunderbaren Menschen, die motiviert sind, ein neues Leben zu starten.",
   },
   {
     question: "Ist Vorerfahrung im Bereich IT / Coding notwendig?",

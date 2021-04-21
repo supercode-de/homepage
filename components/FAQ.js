@@ -29,17 +29,13 @@ class FAQ extends Component {
           #faq {
             padding: 10px calc(100vw / 12) 50px;
             position: relative;
-            font-family: "Neue_Machina_Regular_400";
           }
           h2 {
-            font-size: 4em;
-            letter-spacing: 2px;
             margin-bottom: 50px;
             margin-left: -2%;
             display: block;
             color: transparent;
             font-weight: 400;
-            letter-spacing: 3px;
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: var(--super-green);
           }

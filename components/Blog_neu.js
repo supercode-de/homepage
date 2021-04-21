@@ -31,10 +31,10 @@ const Blog_neu = (props) => {
   return (
     <div id="blog" className="whiteGreenDots">
       <div>
-        <h1>
-          Meine Straße, mein <span>Blog</span>
-        </h1>
-
+        <h2>Meine</h2>
+        <h2>Straße,</h2>
+        <h2>mein</h2>
+        <h2 className="letterstroke">Blog</h2>
         <div className="blog-list">
           <Carousel
             responsive={responsive}
@@ -88,23 +88,18 @@ const Blog_neu = (props) => {
           position: relative;
           padding: 50px 0;
         }
-        h1 {
-          font-size: 4em;
-          letter-spacing: 2px;
+        h2 {
           color: var(--super-green);
-          max-width: 10em;
           margin: 0;
-          line-height: 1.2em;
           padding: 0 calc(100vw / 12);
         }
-        h1 span {
+        .letterstroke {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
           -webkit-text-stroke-color: var(--super-green);
           font-weight: 300;
         }
-
         .blog-list {
           padding-top: 10vh;
         }

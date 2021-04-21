@@ -6,7 +6,7 @@ const FooterCallToAction = (props) => {
   return (
     <div id="call-to-action">
       <h1>
-        WORAUF WARTEST DU NOCH?! DIE NÄCHSTEN KURSE STARTEN BALD.
+        WORAUF WARTEST DU NOCH?! <br/> DIE NÄCHSTEN KURSE STARTEN BALD.
         {/* {props.bald ? "bald" : "im " + props.month}! */}
       </h1>
       <div className="buttons">
@@ -20,17 +20,10 @@ const FooterCallToAction = (props) => {
           background: var(--super-lila);
           color: var(--super-green);
           margin: 0 auto;
-          padding: 4rem 6% 2rem;
-
-          font-family: "Neue_Machina_Regular_400";
+          padding: 4rem 6%;
         }
         h1 {
-          text-transform: uppercase;
-          font-size: 3.5em;
-          line-height: 1.2em;
-          letter-spacing: 3px;
           margin: 0;
-          display: block;
           color: transparent;
           font-weight: 300;
           -webkit-text-stroke-width: 1px;

@@ -22,14 +22,9 @@ const MeldeDich = () => {
           background: var(--super-blau);
           color: #fff;
           padding: 3em 4em 2em;
-          font-family: "Neue_Machina_Regular_400";
         }
         h1 {
-          font-size: 3.5em;
-          font-weight: 400;
-          letter-spacing: 2px;
-          line-height: 1.2em;
-          max-width: 850px;
+          max-width: 80%;
         }
 
         .melde,
@@ -80,8 +75,8 @@ const MeldeDich = () => {
         }
 
         .buttons {
-          display: flex;
           width: 100%;
+          display: flex;
           justify-content: flex-end;
         }
 

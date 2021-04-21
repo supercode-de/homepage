@@ -35,25 +35,13 @@ const Finanzierung = (props) => {
             background: url("./img/Gold-Chain.png") top right/contain no-repeat,
               var(--super-blau);
             color: #fff;
-            padding: 50px 6%;
-            font-family: "Neue_Machina_Regular_400";
+            padding: 50px 6%; 
           }
           h2 {
-            font-size: 2em;
-            letter-spacing: 2px;
             color: var(--super-lila);
-            font-weight: 300;
             margin-bottom: 5rem;
           }
-          p {
-            font-weight: 400;
-            font-size: 1em;
-          }
-          h1 {
-            font-size: 3.5em;
-            letter-spacing: 2px;
-            color: #ffffff;
-          }
+
           span.stroke {
             display: block;
             color: transparent;

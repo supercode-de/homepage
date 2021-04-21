@@ -24,7 +24,7 @@ class Bewerbungsprozess extends Component {
             isHidden={this.state.isHidden}
           />
         )}
-        <span className="aside"> 4 x SUPER </span>
+        <span className="aside"> 4 x Super </span>
 
         <div className="twocolumn">
           <div className="center">
@@ -107,7 +107,6 @@ class Bewerbungsprozess extends Component {
         <style jsx>{`
             .flex {
               display: flex;
-              font-family: "Neue_Machina_Regular_400";
               font-size: 3.5em;
               color: #fff;
               line-height: 1.2em;
@@ -115,9 +114,6 @@ class Bewerbungsprozess extends Component {
               z-index: 1;
             }
             .center h2 {
-              font-family: "Neue_Machina_Regular_400";
-              font-size: 4.4em;
-              line-height: 1.2em;
               color: #fff;
             }
             .center h2 span {
@@ -134,16 +130,9 @@ class Bewerbungsprozess extends Component {
               transform: rotate(-90deg);
               transform-origin: left;
               color: #fff;
-              font-weight: 300;
               left: 3%;
               top: 60%;
-              font-family: "Poppins", sans-serif;
-              font-style: normal;
-              font-weight: normal;
-              font-size: 12px;
-              line-height: 18px;
               letter-spacing: 3px;
-              text-transform: uppercase;
               color: #ffffff;
             }
             #bewerbungsprozess {
