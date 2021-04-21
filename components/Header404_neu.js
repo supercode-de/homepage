@@ -24,7 +24,6 @@ const Header404 = (props) => {
 
       <style jsx>{`
         #header {
-          font-family: "Neue_Machina_Regular_400";
           position: relative;
           display: flex;
           flex-direction: column;
@@ -36,15 +35,8 @@ const Header404 = (props) => {
           transform: rotate(-90deg);
           transform-origin: left;
           color: #fff;
-          font-weight: 300;
           left: 3%;
           top: 60%;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 12px;
-          line-height: 18px;
-          letter-spacing: 3px;
-          text-transform: uppercase;
           color: #ffffff;
         }
         .super-code {
@@ -77,10 +69,7 @@ const Header404 = (props) => {
           margin: 0;
           font-size: 8em;
           line-height: 1.2em;
-          letter-spacing: 2px;
           color: var(--super-green);
-          font-weight: 400;
-
           margin-bottom: 1em;
         }
         h1 span.super {
