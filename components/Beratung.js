@@ -118,10 +118,8 @@ const Beratung = (props) => {
           }
 
           .button {
-            margin: 2em 1em 0;
             font-family: "Fira Sans", sans-serif;
-            font-size: 0.875em;
-            line-height: 1.5em;
+            font-size: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
             padding: 15px 0px;

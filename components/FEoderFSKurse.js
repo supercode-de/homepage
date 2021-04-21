@@ -14,7 +14,6 @@ const AnfängerBisBusiness = (props) => {
         #starter-business {
           background: #fff;
           color: var(--super-lila);
-          font-family: "Neue_Machina_Regular_400";
           padding: 2rem 0;
           position: relative;
         }
@@ -22,20 +21,15 @@ const AnfängerBisBusiness = (props) => {
           display: flex;
           align-items: center;
         }
-
         h1 {
-          font-size: 4em;
-          line-height: 1.2em;
-          font-weight: 700;
           text-align: center;
           margin: 0 5%;
         }
         span.super {
           color: transparent;
           letter-spacing: 2px;
-          -webkit-text-stroke-width: 1px;
+          -webkit-text-stroke-width: .5px;
           -webkit-text-stroke-color: var(--super-lila);
-          font-weight: 400;
         }
 
         span.circle {

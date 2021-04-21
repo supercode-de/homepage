@@ -104,7 +104,6 @@ const AbsolventenWS = (props) => {
         * {
           margin: 0;
           padding: 0;
-          font-family: "Neue_Machina_Regular_400";
           color: var(--super-green);
         }
 
@@ -134,9 +133,6 @@ const AbsolventenWS = (props) => {
         }
 
         h1 {
-          font-size: 3.6em;
-          line-height: 1em;
-          font-weight: 700;
           margin: 0 7% 100px;
         }
 

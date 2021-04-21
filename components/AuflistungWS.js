@@ -131,7 +131,6 @@ class Auflistung extends Component {
             }
             .flex {
               display: flex;
-              font-family: "Neue_Machina_Regular_400";
               font-size: 4em;
               font-weight: 600;
 

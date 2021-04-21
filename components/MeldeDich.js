@@ -78,10 +78,10 @@ const MeldeDich = () => {
           width: 100%;
           display: flex;
           justify-content: flex-end;
+          gap: 2rem;
         }
 
         a {
-          margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
           font-size: 0.875em;
           letter-spacing: 1px;

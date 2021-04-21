@@ -10,7 +10,7 @@ const AVGS = () => {
         />
       </div>
 
-      <h2>#Förderung durch einen Bildungs&shy;gutschein (BGS)</h2>
+      <h2>Förderung durch einen Bildungs&shy;gutschein (BGS)</h2>
       <div className="infos">
         <div className="info-headline 1">
           <h3>Was ist ein Bildungs&shy;gutschein?</h3>
@@ -56,14 +56,9 @@ const AVGS = () => {
       </div>
 
       <style jsx>{`
-        * {
-          font-family: "Neue_Machina_Regular_400";
-        }
-
         #avgs {
           color: #fff;
           padding: 50px 6%;
-          font-family: "Neue_Machina_Regular_400";
           position: relative;
           z-index: 0;
         }
@@ -78,34 +73,22 @@ const AVGS = () => {
           height: 100%;
         }
         h2 {
-          font-size: 3em;
-          letter-spacing: 2px;
           color: var(--super-lila);
-          font-weight: 300;
           margin-bottom: 5rem;
-          text-transform: uppercase;
         }
-
         .infos {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
           gap: 20px 100px;
           box-sizing: border-box;
         }
-        .info-headline {
-          width: 100%;
-        }
         .info-headline h3 {
           color: var(--super-lila);
           font-size: 1.5em;
-          font-weight: 300;
-
           margin-bottom: 1px;
         }
         .info-text p {
-          color: var(--super-green);
-          font-size: 1.2em;
-          font-weight: 500;
+          color: var(--super-blau);
         }
 
         @media (max-width: 1024px) {

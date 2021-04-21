@@ -71,7 +71,6 @@ const Typeform = (props) => {
           display: inline-block;
           width: 100%;
           padding: 15px 0;
-          
         }
         .button:hover {
           color: var(--super-lila);

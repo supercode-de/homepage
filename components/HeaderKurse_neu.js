@@ -47,23 +47,19 @@ const Header_neu = (props) => {
           .super-code {
             position: absolute;
             top: 30px;
-
             left: 7rem;
             color: #fff;
             font-size: 1.3rem;
             font-family: "Fira Sans", sans-serif;
             font-weight: bold;
           }
-
           .content {
             display: flex;
             flex-direction: column;
             align-items: center;
             position: relative;
-
             padding: 50px 0 80px;
           }
-
           .content-img {
             width: 55%;
           }
@@ -76,10 +72,7 @@ const Header_neu = (props) => {
             right: 0;
           }
           h1 {
-            font-family: "Neue_Machina_Regular_400";
-            font-size: 4em;
             color: #fff;
-            line-height: 1.2em;
             margin: 3vh 3vw;
           }
           h1 span.super {

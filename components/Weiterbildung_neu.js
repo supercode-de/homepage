@@ -16,6 +16,9 @@ const HeaderCallToAction_neu = () => {
           color: #fff;
           padding: 3vh 2% 3vh 6%;
         }
+        h2 {
+          width: 70%;
+        }
         h2 span.super {
           color: transparent;
           letter-spacing: 2px;

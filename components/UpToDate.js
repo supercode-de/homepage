@@ -72,34 +72,25 @@ const UpToDate = (props) => {
           grid-template-columns: 1fr 1fr;
           gap: 40px;
         }
-
-        article {
-          width: 100%;
-        }
         .top-label {
           width: 100%;
           display: flex;
           justify-content: space-between;
         }
         h1 {
-          font-family: "Neue_Machina_Regular_400";
           color: var(--super-green);
-          font-size: 3.5em;
-          font-weight: 300;
           margin-bottom: 50px;
         }
 
         h2 {
-          font-family: "Neue_Machina_Regular_400";
           font-size: 2.2em;
           color: #fff;
-          line-height: 1.2em;
         }
 
         h2 span.super {
           color: transparent;
           letter-spacing: 2px;
-          -webkit-text-stroke-width: 0.5px;
+          -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
