@@ -28,17 +28,10 @@ const FooterCallToAction = (props) => {
           color: var(--super-lila);
           margin: 0 auto;
           padding: 4rem 6% 2rem;
-
-          font-family: "Neue_Machina_Regular_400";
         }
         h1 {
-          text-transform: uppercase;
-          font-size: 3.5em;
-          line-height: 1.2em;
-          letter-spacing: 3px;
           margin: 0;
           display: block;
-          font-weight: 500;
         }
         .super {
           color: transparent;
@@ -51,20 +44,18 @@ const FooterCallToAction = (props) => {
           display: flex;
           width: 100%;
           justify-content: flex-end;
+          gap: 2rem;
+          margin-top: 2rem;
         }
 
         a {
           align-items: center;
-          margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
-          font-style: normal;
           min-width: 23em;
-          font-size: 0.7em;
-          font-weight: 600;
-          line-height: 1.5em;
-          letter-spacing: 3.5px;
+          font-size: 14px;
+          letter-spacing: 1px;
           text-transform: uppercase;
-          padding: 10px 0;
+          padding: 15px 0;
           text-align: center;
           background: transparent;
           border: 1px solid var(--super-green);

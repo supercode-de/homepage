@@ -106,7 +106,6 @@ const Zukunft = (props) => {
 
       <style jsx>{`
         #zukunft {
-          font-family: "Neue_Machina_Regular_400";
           position: relative;
           padding: 10vw calc(100vw / 12);
         }
@@ -149,6 +148,10 @@ const Zukunft = (props) => {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
           gap: 30px;
+        }
+        h2 {
+          font-size: 1.5rem;
+          font-family: "Neue_Machina_Ultrabold";
         }
 
         .team-grid img {

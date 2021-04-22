@@ -34,6 +34,7 @@ const FooterCallToAction = (props) => {
           justify-content: flex-end;
           gap: 2rem;
           width: 100%;
+          margin-top: 2rem;
         }
 
         a {
