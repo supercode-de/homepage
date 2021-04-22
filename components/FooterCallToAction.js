@@ -32,14 +32,13 @@ const FooterCallToAction = (props) => {
         .buttons {
           display: flex;
           justify-content: flex-end;
+          gap: 2rem;
           width: 100%;
         }
 
         a {
           align-items: center;
-          margin: 2em 1em 0;
           font-family: "Fira Sans", sans-serif;
-
           min-width: 23em;
           font-size: 0.875em;          
           text-align: center;          
