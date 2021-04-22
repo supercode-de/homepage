@@ -137,7 +137,7 @@ const Header_neu = (props) => {
           .twocolumn + img {
             position: absolute;
             z-index: 2;
-            margin-top: -10vh;
+            margin-top: -15vh;
             margin-left: -3.5vw;
             width: 340px;
           }

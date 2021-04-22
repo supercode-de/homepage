@@ -187,10 +187,12 @@ const UnserCampus = (props) => {
           width: 25%;
           transform: translateY(-80px);
           transform: translateX(20vw);
+          margin-top: -3%;
         }
         .img-six {
           width: 25%;
           margin-left: 70%;
+          margin-top: -5%;
           transform: translateY(65px);
           position: relative;
           z-index: 1;
