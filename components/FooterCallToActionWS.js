@@ -1,4 +1,3 @@
-import Button from "./small/Button";
 import Beratung from "./Beratung";
 import Link from "next/link";
 

@@ -1,6 +1,7 @@
 import HeaderTeam from "../components/HeaderTeam";
 import Team from "../components/Team";
 import Stellen from "../components/Stellen";
+// import Stellen_neu from "../components/Stellen_neu";
 import FooterCallToActionTeam from "../components/FooterCallToActionTeam";
 
 import { useWindowSize } from "../components/functions/windowSize";
@@ -16,6 +17,7 @@ export default function Home(props) {
             <HeaderTeam />
             <Team />
             <Stellen />
+            {/* <Stellen_neu /> */}
             <FooterCallToActionTeam />
           </main>
         </div>

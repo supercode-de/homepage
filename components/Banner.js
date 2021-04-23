@@ -6,27 +6,21 @@ const Banner = () => {
       <h3>
         Unsere Anmeldephase läuft. <Link href="/#zukunft">erfahre mehr</Link>
       </h3>
-      <style jsx>
-        {`
+      <style jsx>{`
           #banner {
-            background: #3dd7ac;
+            background: var(--super-green);
             text-align: center;
-            padding: 10px 0;
+            padding: 15px 0;
           }
           #banner h3 {
             margin: 0;
-            font-family: "Fira Mono", monospace;
-            font-style: normal;
-            font-weight: bold;
-            line-height: 19px;
             text-transform: uppercase;
-            color: #5d3ede;
-            font-weight: 500;
+            color: var(--super-lila);
             font-size: 0.8em;
             letter-spacing: 1.3px;
           }
           #banner h3 a {
-            color: #5d3ede;
+            color: var(--super-lila);
           }
           @media (max-width: 468px) {
             #banner h3 {

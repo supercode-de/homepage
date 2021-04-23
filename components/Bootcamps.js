@@ -1,8 +1,29 @@
+// import Carousel from "react-multi-carousel";
 import kurseData from "../components/data/kursedata.json"
 import KurseCard from "./KurseCard";
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+    },
+};
 const Bootcamps = (props) => {
-    console.log("das sind props", props)
-    console.log("das sind kursedata: ", kurseData);
+    // console.log("das sind props", props)
+    // console.log("das sind kursedata: ", kurseData);
+    console.log(window.location.pathname)
     return (
         <section className="bootcamps lilaGitter">
             <article className="bootcampInfos">
@@ -16,10 +37,47 @@ const Bootcamps = (props) => {
                     <p>{kurseData[0].texte.second}</p>
                 </div>
             </article>
-
+            {/* {window.location.pathname === "/kurse" ? <section className="cards">
+                {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
+            </section> : <section className="kurse-list">
+                <Carousel
+                    responsive={responsive}
+                    ssr
+                    renderButtonGroupOutside={true}
+                    showDots={false}
+                    slidesToSlide={1}
+                    infinite
+                    containerClass="container-with-dots"
+                    itemClass="image-item"
+                    deviceType={""}
+                    swipeable
+                >
+                    <section className="cards">
+                    {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
+                    </section>
+                </Carousel>
+            </section>} */}
             <section className="cards">
                 {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
             </section>
+            {/* <section className="kurse-list">
+                <Carousel
+                    responsive={responsive}
+                    ssr
+                    renderButtonGroupOutside={true}
+                    showDots={false}
+                    slidesToSlide={1}
+                    infinite
+                    containerClass="container-with-dots"
+                    itemClass="image-item"
+                    deviceType={""}
+                    swipeable
+                >
+                    <section className="cards">
+                    {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
+                    </section>
+                </Carousel>
+            </section> */}
 
             <style jsx>{`
                 .bootcamps {
@@ -35,6 +93,7 @@ const Bootcamps = (props) => {
                 .bootcampInfos {
                     display: flex;
                     justify-content: space-between;
+                    
                 }
                 .cards {
                     // justify-content: space-around;

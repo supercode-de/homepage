@@ -1,14 +1,11 @@
-import Button from "./small/Button";
 import Beratung from "./Beratung";
 import Link from "next/link";
 
 const FooterCallToAction = (props) => {
   return (
     <div id="call-to-action">
-      <h1>
-        WORAUF WARTEST DU NOCH?! <br/> DIE NÄCHSTEN KURSE STARTEN BALD.
-        {/* {props.bald ? "bald" : "im " + props.month}! */}
-      </h1>
+      <h1>Worauf wartest du noch?</h1>
+      <h1>Die nächsten Kurse starten bald.</h1>
       <div className="buttons">
         <Link href="/kurse">
           <a href="">KURSE</a>

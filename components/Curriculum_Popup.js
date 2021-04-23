@@ -1,13 +1,12 @@
 import Popup from "reactjs-popup";
-
 import HubspotForm from "react-hubspot-form";
 
 const Typeform = (props) => {
-  console.log(props);
-  console.log({
-    height: document.documentElement.clientHeight,
-    width: document.documentElement.clientWidth,
-  });
+  console.log("das ist die hubspot form id: ", props.hubspot)
+  // console.log({
+  //   height: document.documentElement.clientHeight,
+  //   width: document.documentElement.clientWidth,
+  // });
   return (
     <>
       <Popup
@@ -35,7 +34,8 @@ const Typeform = (props) => {
               </h1>
               <HubspotForm
                 portalId="5807040"
-                formId="5c9d4947-7d51-448d-845a-231155f27380"
+                // formId="5c9d4947-7d51-448d-845a-231155f27380"
+                formId={props.hubspot}
                 onSubmit={() => console.log("Submit!")}
                 onReady={(form) => console.log("Form ready!")}
                 loading={<div>Loading...</div>}

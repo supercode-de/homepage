@@ -1,6 +1,4 @@
-import Button from "./small/Button";
 import Beratung from "./Beratung";
-import Link from "next/link";
 
 const FooterCallToAction = (props) => {
   const pixelSize = 1.5;
