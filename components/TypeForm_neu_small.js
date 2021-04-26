@@ -87,7 +87,12 @@ const Typeform = (props) => {
         }
         @media (max-width: 1440px) {
           .button {
-            font-size: 12px;
+            font-size: 0.938em;
+          }
+        }
+        @media (max-width: 768px) {
+          .button {
+            font-size: 1.1em;
           }
         }
         @media (max-width: 468px) {
@@ -95,6 +100,11 @@ const Typeform = (props) => {
             font-size: 1.2em;
             width: 16em;
             min-width: 0;
+          }
+        }
+        @media (max-width: 425px) {
+          .button {
+            width: 100%;
           }
         }
       `}</style>

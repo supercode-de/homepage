@@ -224,7 +224,15 @@ class Layout extends Component {
           #blog .react-multiple-carousel__arrow--left {
             left: 1%;
           }
-
+          // .bootcamps .react-multi-carousel-track {
+          //   gap: 2rem;
+          // }
+          .bootcamps .react-multiple-carousel__arrow--right {
+            right: .5%;
+          }
+          .bootcamps .react-multiple-carousel__arrow--left {
+            left: .5%;
+          }
           // Styling Carousel Blog End
           @media (max-width: 768px) {
             body {

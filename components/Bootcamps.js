@@ -1,4 +1,4 @@
-// import Carousel from "react-multi-carousel";
+import Carousel from "react-multi-carousel";
 import kurseData from "../components/data/kursedata.json"
 import KurseCard from "./KurseCard";
 const responsive = {
@@ -12,11 +12,11 @@ const responsive = {
         items: 3,
     },
     tablet: {
-        breakpoint: { max: 1024, min: 464 },
+        breakpoint: { max: 1024, min: 647 },
         items: 2,
     },
     mobile: {
-        breakpoint: { max: 464, min: 0 },
+        breakpoint: { max: 647, min: 0 },
         items: 1,
     },
 };
@@ -37,9 +37,7 @@ const Bootcamps = (props) => {
                     <p>{kurseData[0].texte.second}</p>
                 </div>
             </article>
-            {/* {window.location.pathname === "/kurse" ? <section className="cards">
-                {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
-            </section> : <section className="kurse-list">
+            <section className="kurse-carousel">
                 <Carousel
                     responsive={responsive}
                     ssr
@@ -52,37 +50,17 @@ const Bootcamps = (props) => {
                     deviceType={""}
                     swipeable
                 >
-                    <section className="cards">
-                    {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
-                    </section>
+                    {/* <section className="cards"> */}
+                        {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
+                    {/* </section> */}
                 </Carousel>
-            </section>} */}
-            <section className="cards">
-                {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
             </section>
-            {/* <section className="kurse-list">
-                <Carousel
-                    responsive={responsive}
-                    ssr
-                    renderButtonGroupOutside={true}
-                    showDots={false}
-                    slidesToSlide={1}
-                    infinite
-                    containerClass="container-with-dots"
-                    itemClass="image-item"
-                    deviceType={""}
-                    swipeable
-                >
-                    <section className="cards">
-                    {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
-                    </section>
-                </Carousel>
-            </section> */}
+                
+
 
             <style jsx>{`
                 .bootcamps {
                     color: #fff;
-                    padding: 5rem 6%;
                 }
                 h2 {
                     margin: 0;
@@ -91,19 +69,13 @@ const Bootcamps = (props) => {
                     width: 100%;
                 }
                 .bootcampInfos {
+                    padding: 5rem 6% 0rem;
                     display: flex;
                     justify-content: space-between;
-                    
                 }
-                .cards {
-                    // justify-content: space-around;
-                    display: grid;
-                    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-                    grid-auto-rows: 1fr;
-                    gap: 5rem;
-                    margin: 7rem 0;
+                .kurse-carousel {
+                    padding: 5rem 0;
                 }
-                
 
                 @media (max-width: 1440px) {
                     h2 {

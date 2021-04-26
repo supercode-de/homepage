@@ -12,17 +12,27 @@
         "kurseIndex": [
             {
                 "headline": "Web-Development\nFull-Stack",
+                "headlineID": "fs",
                 "umfang": "Umfang: 22 Wochen (5 Monate) / Vollzeit",
-                "start": "21.06.2021 Ende: 22.11.2021",
+                "start": "Start 21.06.2021 Ende: 22.11.2021",
                 "copy": "Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.",
                 "hubspotFormID": "5c9d4947-7d51-448d-845a-231155f27380"
             },
             {
                 "headline": "Web-Development\nFront-End",
+                "headlineID": "fe",
                 "umfang": "Umfang: 30 Wochen (7 Monate) / Teilzeit",
                 "start": "Start: 24.05.2021 Ende: 23.12.2021",
                 "copy": "Programmieren lernen neben dem Beruf?\nKein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.",
                 "hubspotFormID": "b00baa3e-2b2d-4cf6-9304-1a135924ea7a"
+            },
+            {
+                "headline": "UX/UI-Design",
+                "headlineID": "des",
+                "umfang": "Umfang: 13 Wochen (3 Monat) / Teilzeit",
+                "start": "Start: 23.08.2021 Ende: 25.11.2021",
+                "copy": "Dieser Kurs setzt sich aus insgesamt fünf Themenblöcken zusammen, die perfekt ineinander greifen, um dich innerhalb von drei Monaten in Teilzeit zur gefragten Fachkraft im Bereich UX/UI-Design weiterzubilden.",
+                "hubspotFormID": "9436fb4b-eec5-4783-a8ab-cbd987650f6e"
             },
             {
                 "headline": "TRY IT -Der IT\nEignungscheck",
@@ -30,7 +40,7 @@
                 "start": "Start: 03.08.2021 Ende: 27.08.2021",
                 "copy": "In praxisnahen IT-Projekten bekommst du relevantes IT-Wissen in den Bereichen Coding, Design & UX und IT-Projektmanagement. Du erkundest verschiedene Berufsfelder und planst mit uns deinen Einstieg in die IT-Welt.",
                 "hubspotFormID": "0a45514c-bef0-4a22-ae0a-3e297c837f1f"
-            }
+            }        
         ],
         "kurseKursePage": [
             {
@@ -48,7 +58,7 @@
                 "hubspotFormID": "b00baa3e-2b2d-4cf6-9304-1a135924ea7a"
             },
             {
-                "headline": "UX/UI-Design",
+                "headline": "UI/UX-Design",
                 "umfang": "Umfang: 13 Wochen (3 Monat) / Teilzeit",
                 "start": "Start: 23.08.2021 Ende: 25.11.2021",
                 "copy": "Dieser Kurs setzt sich aus insgesamt fünf Themenblöcken zusammen, die perfekt ineinander greifen, um dich innerhalb von drei Monaten in Teilzeit zur gefragten Fachkraft im Bereich UX/UI-Design weiterzubilden.",
