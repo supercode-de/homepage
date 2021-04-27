@@ -4,20 +4,20 @@
         "aufgaben": {
             "aufgabe1": "Du unterstützt unserer Marketing-Abteilung bei der Erstellung von Werbeclips und Social-Media-Posts.",
             "aufgabe2": "Du erstellst eigenständig Motion-Design-Videos mit dem Tool deiner Wahl.",
-            "aufgabe3": "Du begeisterst uns mit deiner Kreativität und bringst deine Ideen mit ein. ",
+            "aufgabe3": "Du begeisterst uns mit deiner Kreativität und bringst deine Ideen mit ein.",
             "aufgabe4": "",
             "aufgabe5": ""
         },
         "profil": {
             "profil1": "(Basis-)kenntnisse der gängigen Motion-Design-Tools wie After Effects, illustrator oder Photoshop.",
             "profil2": "Gerne Studierende von Studiengängen im kreativen Bereich.",
-            "profil3": "Motivierte Quereinsteiger*innen sind ebenfalls herzlich Willkommen",
-            "profil4": "Ein gutes Auge für audiovisuelle Gestaltung und eine ausgeprägte Kreativität",
-            "profil5": "Da du Teil des Teams bist, sind uns Team- und Kommunikationsfähigkeit sehr wichtig",
+            "profil3": "Motivierte Quereinsteiger*innen sind ebenfalls herzlich Willkommen.",
+            "profil4": "Ein gutes Auge für audiovisuelle Gestaltung und eine ausgeprägte Kreativität.",
+            "profil5": "Da du Teil des Teams bist, sind uns Team- und Kommunikationsfähigkeit sehr wichtig.",
             "profil6": "",
             "profil7": ""
         },
-        "cta": "Wenn du wertvolle Berufserfahrung sammeln und Teil eines agilen Start-Up-Teams sein möchtest, dann bewirb dich jetzt! Wir unterstützen dich mit unserem Netzwerk und natürlich bekommst du eine SuperZeugnis nach deinem erfolgreichen Praktikum. ",
+        "cta": "Wenn du wertvolle Berufserfahrung sammeln und Teil eines agilen Start-Up-Teams sein möchtest, dann bewirb dich jetzt! Wir unterstützen dich mit unserem Netzwerk und natürlich bekommst du eine SuperZeugnis nach deinem erfolgreichen Praktikum.",
         "className": "stelle-box stelle-box1 hide"
     },
     {
@@ -42,7 +42,7 @@
         "className": "stelle-box stelle-box2 hide"
     },
     {
-        "stelle": "Praktikant*in Motion Design",
+        "stelle": "Praktikant*in Content- & Online-Marketing",
         "aufgaben": {
             "aufgabe1": "Du unterstützt unsere Marketing-Abteilung bei der Erstellung von Social-Media-Posts.",
             "aufgabe2": "Du erstellst eigenständig Content und Grafiken für unsere Posts.",

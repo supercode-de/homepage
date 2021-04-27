@@ -34,15 +34,68 @@ const WorkIT = (props) => {
         <div className="stelle-boxes">
           <div className="stelle-box stelle-box1 hide">
             <h4>Praktikant*in Motion Design</h4>
-            <h5>Weitere Informationen folgen </h5>
+            <div className="aufgaben">
+              <h3>Deine Aufgaben</h3>
+              <p>Du unterstützt unserer Marketing-Abteilung bei der Erstellung von Werbeclips und Social-Media-Posts.</p>
+              <p>Du erstellst eigenständig Motion-Design-Videos mit dem Tool deiner Wahl.</p>
+              <p>Du begeisterst uns mit deiner Kreativität und bringst deine Ideen mit ein.</p>
+            </div>
+            <div className="profil">
+              <h3>Dein Profil</h3>
+              <p>(Basis-)kenntnisse der gängigen Motion-Design-Tools wie After Effects, illustrator oder Photoshop.</p>
+              <p>Gerne Studierende von Studiengängen im kreativen Bereich.</p>
+              <p>Motivierte Quereinsteiger*innen sind ebenfalls herzlich Willkommen.</p>
+              <p>Ein gutes Auge für audiovisuelle Gestaltung und eine ausgeprägte Kreativität.</p>
+              <p>Da du Teil des Teams bist, sind uns Team- und Kommunikationsfähigkeit sehr wichtig.</p>
+            </div>
+            <div className="cta">
+              <p>Wenn du wertvolle Berufserfahrung sammeln und Teil eines agilen Start-Up-Teams sein möchtest, dann bewirb dich jetzt! Wir unterstützen dich mit unserem Netzwerk und natürlich bekommst du eine SuperZeugnis nach deinem erfolgreichen Praktikum.</p>
+            </div>
           </div>
+
           <div className="stelle-box stelle-box2 hide">
-            <h4>Main Trainer*in Web-Entwicklung</h4>
-            <h5>Weitere Informationen folgen </h5>
+            <h4>Main-Trainer*in Web-Entwicklung Teilzeit (19 Stunden)</h4>
+            <div className="aufgaben">
+              <h3>Deine Aufgaben</h3>
+              <p>Als Main Trainer*in leitest du unsere siebenmonatigen Bootcamps in Teilzeit und wirst jeweils durch eine*n Assistant Trainer*in unterstützt.</p>
+              <p>Gemeinsam verwandelt ihr pro Kurs bis zu 17 motivierte Coder*innen zu Super-Coder*innen.</p>
+              <p>Unser Curriculum umfasst HTML, CSS, JavaScript, GIT und alle wichtigen Skills, um als Webentwickler*in auf dem Arbeitsmarkt Fuß zu fassen. Dein Job ist es die Inhalte verständlich und mit viel Freude und Geduld zu vermitteln.</p>
+              <p>Du wirst durch unseren erfahrenen Head of Trainer gecoacht und angeleitet. Gemeinsam mit ihm wirst du den Lehrplan aktiv mitgestalten und weiterentwickeln.</p>
+              <p>Etwas Orga, wie z.B. die Pflege von Anwesenheitslisten und die Durchführung von Evaluationen gehört ebenfalls in deinen Bereich.</p>
+            </div>
+            <div className="profil">
+              <h3>Dein Profil</h3>
+              <p>Am allerwichtigsten: Empathie und Freude daran mit Menschen zu arbeiten, deren Bedürfnisse zu verstehen und sie als Trainer*in auf Augenhöhe zu begleiten.</p>
+              <p>Gute kommunikative Fähigkeiten und Leidenschaft fürs Coden.</p>
+              <p>Bereitschaft mit modernen, alternativen und praxisnahen Bildungskonzepten zu arbeiten.</p>
+              <p>2-3 Jahre Erfahrung mit HTML, CSS und JavaScript.</p>
+              <p>Kenntnisse in MongoDB, Express und React wären super.</p>
+              <p>Abgeschlossenes Studium oder Ausbildung (auch fachfremd / zwingend erforderlich als Trainer*in)</p>
+              <p>Idealerweise bringst du bereits erste Erfahrungen als Trainer*in, Coach*in, oder Dozent*in im Bereich IT mit.</p>
+            </div>
+            <div className="cta">
+              <p>Wenn du Coding liebst und Spaß daran hast Menschen zu begeistern, dann bewirb dich jetzt!</p>
+            </div>
           </div>
           <div className="stelle-box stelle-box3 hide">
-            <h4>Assistant Trainer*in Web-entwicklung</h4>
-            <h5>Weitere Informationen folgen </h5>
+            <h4>Praktikant*in Content- & Online-Marketing</h4>
+            <div className="aufgaben">
+              <h3>Deine Aufgaben</h3>
+              <p>Du unterstützt unsere Marketing-Abteilung bei der Erstellung von Social-Media-Posts.</p>
+              <p>Du erstellst eigenständig Content und Grafiken für unsere Posts.</p>
+              <p>Du begeisterst uns mit deiner Kreativität und bringst deine Ideen mit ein.</p>
+            </div>
+            <div className="profil">
+              <h3>Dein Profil</h3>
+              <p>Gute Kenntnisse von den Funktionen von Facebook, Twitter, Instagram und Co.</p>
+              <p>Gerne Studierende von Studiengängen im Medien-Bereich.</p>
+              <p>Motivierte Quereinsteiger*innen sind ebenfalls herzlich Willkommen.</p>
+              <p>Erste Erfahrungen mit Zielgruppenanalyse und Identifikation der richtigen Kanäle.</p>
+              <p>Da du Teil des Teams bist, ist uns Team- und Kommunikationsfähigkeit sehr wichtig.</p>
+            </div>
+            <div className="cta">
+              <p>Wenn du wertvolle Berufserfahrung sammeln und Teil eines agilen Start-Up-Teams sein möchtest, dann bewirb dich jetzt! Wir unterstützen dich mit unserem Netzwerk und natürlich bekommst du eine SuperZeugnis nach deinem erfolgreichen Praktikum.</p>
+            </div>
           </div>
         </div>
 
@@ -60,21 +113,6 @@ const WorkIT = (props) => {
             <div className="stelle-box-container">
               <div className="stelle-box stelle-box1">
                 <h4>Praktikant*in Motion Design</h4>
-                <h5>Deine Aufgaben:
-                Du unterstützt unserer Marketing-Abteilung bei der Erstellung von Werbeclips und Social-Media-Posts.
-                Du erstellst eigenständig Motion-Design-Videos mit dem Tool deiner Wahl.
-                Du begeisterst uns mit deiner Kreativität und bringst deine Ideen mit ein.
-
-                Dein Profil:
-                (Basis-)kenntnisse der gängigen Motion-Design-Tools wie After Effects, illustrator oder Photoshop.
-                Gerne Studierende von Studiengängen im kreativen Bereich.
-                Motivierte Quereinsteiger*innen sind ebenfalls herzlich Willkomme.n
-                Ein gutes Auge für audiovisuelle Gestaltung und eine ausgeprägte Kreativität
-                Da du Teil des Teams bist, sind uns Team- und Kommunikationsfähigkeit sehr wichtig
-
-
-                Wenn du wertvolle Berufserfahrung sammeln und Teil eines agilen Start-Up-Teams sein möchtest, dann bewirb dich jetzt! Wir unterstützen dich mit unserem Netzwerk und natürlich bekommst du eine SuperZeugnis nach deinem erfolgreichen Praktikum.
-</h5>
               </div>
             </div>
             <div className="stelle-box-container">
@@ -98,14 +136,15 @@ const WorkIT = (props) => {
           margin: 0;
           padding: 0;
         }
-
+        h1, h3, h4, p {
+          color: #fff;
+        }
         #stellen {
           padding: 7em 0 5em;
           position: relative;
           z-index: 1;
         }
         h1 {
-          color: #fff;
           margin: 0 8.5% 1em;
         }
 
@@ -164,29 +203,20 @@ const WorkIT = (props) => {
         }
 
         h4 {
-          font-family: "Neue_Machina_Regular_400";
-          color: #ffffff;
           font-size: 1.6em;
-          margin-bottom: 14px;
+          margin-bottom: 1.5rem;
         }
         .stelle-boxes > .stelle-box:hover h4 {
           color: var(--super-green);
         }
-
         h5 {
-          font-family: "Neue_Machina_Regular_400";
-          color: #ffffff;
           font-size: 1.2em;
         }
-
         p {
-          font-family: "Fira Sans", sans-serif;
-          color: #ffffff;
-          font-size: 14px;
-          margin-bottom: 25px;
+          font-size: 15px;
           line-height: 20px;
-          opacity: 0.8;
-        }
+          margin-bottom: 1rem;
+        }      
 
         @media (max-width: 768px) {
           .hide {
