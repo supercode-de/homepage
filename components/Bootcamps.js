@@ -35,6 +35,7 @@ const Bootcamps = (props) => {
                 <div className="copy">
                     <p>{kurseData[0].texte.first}</p>
                     <p>{kurseData[0].texte.second}</p>
+                    <p>{kurseData[0].texte.third}</p>
                 </div>
             </article>
             <section className="kurse-carousel">
@@ -75,6 +76,9 @@ const Bootcamps = (props) => {
                 }
                 .kurse-carousel {
                     padding: 5rem 0;
+                }
+                .copy p:nth-of-type(3) {
+                    font-family: "Neue_Machina_Ultrabold";
                 }
 
                 @media (max-width: 1440px) {

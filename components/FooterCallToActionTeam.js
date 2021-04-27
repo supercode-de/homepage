@@ -9,6 +9,14 @@ const FooterCallToAction = (props) => {
         Worauf wartest du noch?! <br /> Bewirb{" "}
         <span className="super">dich jetzt!</span>
       </h1>
+        <section className="bewirbDich">
+          <p>Dein Lebenslauf ist nicht ganz geradlinig und du hast spannende Lücken? Du hast dich erst vor Kurzem neu orientiert und möchtest nun im IT-Bildungsbereich durchstarten? Du hast Lust auf ein junges Team, wo du im Hoodie oder Hemd aufkreuzen kannst?</p>
+          <p>Perfekt! Nimm Kontakt zu uns auf und schreibe uns kurz, was dich persönlich und fachlich ausmacht, welche beruflichen Erfahrungen du schon hast und welche du machen möchtest und warum du gerne bei uns arbeiten willst. Dann brauchen wir noch deinen Lebenslauf und schwups, melden wir uns so schnell wie möglich bei dir!</p>
+          <p>Wir freuen uns auf deine Kontaktaufnahme.</p>
+          <p>Deine Ansprechperson:</p>
+          <p>Sérgio Cardeal</p>
+          <a href="mailto:bewerbung@super-code.de">bewerbung@super-code.de</a>
+        </section>
       <div className="buttons">
         <a href="mailto:bewerbung@super-code.de?subject=Initiativ%20Bewerbung">
           Initiativ
@@ -78,7 +86,9 @@ const FooterCallToAction = (props) => {
           content: "";
           display: block;
         }
-
+        .bewirbDich {
+          width: 50%;
+        }
         @media (max-width: 1024px) {
           h1 {
             font-size: 3em;
