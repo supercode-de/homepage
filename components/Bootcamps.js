@@ -1,6 +1,7 @@
-import Carousel from "react-multi-carousel";
+// import Carousel from "react-multi-carousel";
 import kurseData from "../components/data/kursedata.json"
 import KurseCard from "./KurseCard";
+console.log(kurseData);
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -38,7 +39,16 @@ const Bootcamps = (props) => {
                     <p>{kurseData[0].texte.third}</p>
                 </div>
             </article>
-            <section className="kurse-carousel">
+
+            <section className="cards">
+                {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
+            </section>
+
+
+
+            {/* Das Carousel scheint Probleme zu haben mit dem Hubspot/Typeform Kram, daher bleibt es erstmal auskommentiert */}
+
+            {/* <section className="kurse-carousel">
                 <Carousel
                     responsive={responsive}
                     ssr
@@ -51,12 +61,12 @@ const Bootcamps = (props) => {
                     deviceType={""}
                     swipeable
                 >
-                    {/* <section className="cards"> */}
+                    <section className="cards">
                         {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
-                    {/* </section> */}
+                    </section>
                 </Carousel>
-            </section>
-                
+            </section> */}
+
 
 
             <style jsx>{`
@@ -74,9 +84,14 @@ const Bootcamps = (props) => {
                     display: flex;
                     justify-content: space-between;
                 }
-                .kurse-carousel {
+                .cards {
+                    display: grid;
+                    grid-template-columns: repeat(3, 1fr);
                     padding: 5rem 0;
                 }
+                // .kurse-carousel {
+                //     padding: 5rem 0;
+                // }
                 .copy p:nth-of-type(3) {
                     font-family: "Neue_Machina_Ultrabold";
                 }
