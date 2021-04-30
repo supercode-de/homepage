@@ -53,7 +53,7 @@ const WerdeTeilTeam = () => {
                                 <span className="super-green">05</span>
                             </div>
                             <div>
-                                Platz <span className="super-stroke">eigene Projekte</span>
+                                Platz für <span className="super-stroke">eigene Projekte</span>
                             </div>
                         </div>
 
