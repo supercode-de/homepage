@@ -6,6 +6,7 @@ import FooterCallToActionTeam from "../components/FooterCallToActionTeam";
 
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
+import WerdeTeilTeam from "../components/WerdeTeilTeam";
 
 export default function Home(props) {
   if (process.browser) {
@@ -16,6 +17,7 @@ export default function Home(props) {
           <main>
             <HeaderTeam />
             <Team />
+            <WerdeTeilTeam />
             <Stellen />
             {/* <Stellen_neu /> */}
             <FooterCallToActionTeam />

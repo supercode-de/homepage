@@ -2,6 +2,7 @@
 
 import Carousel from "react-multi-carousel";
 import data from "./data/team.json";
+import WerdeTeilTeam from "./WerdeTeilTeam";
 
 const responsive = {
   superLargeDesktop: {
@@ -103,25 +104,6 @@ const Zukunft = (props) => {
           })}
         </Carousel>
       </div>
-      <section className="stellenInfo">
-        <h2>Werde Teil unseres <span className="super">Super-Teams!</span></h2>
-        <div>
-          <p>Wir sind immer auf der Suche nach neuen, motivierten Menschen! Wir sind jung, dynamisch, international und haben Lust etwas zu verändern! Hilf uns dabei unsere Vision von digitaler Bildung umzusetzen und dadurch die Welt zu einem chancengerechteren Ort zu machen.</p>
-          <p>SuperCode steht für moderne didaktische und methodische Bildung, eine nachhaltige und gemeinwohlorientierte Unternehmensführung, Ehrlichkeit und Transparenz. Wir sind ein Team aus qualifizierten und praxiserfahrenen Expert*innen, die Spaß an ihrer Arbeit haben und an das glauben, was sie machen. Wir sind mit vielen Firmen aus der Region gut vernetzt, nutzen immer den neuesten Tech-Stack und legen viel Wert darauf, dass sich jede*r einbringen und mit ihrer/seiner Persönlichkeit entfalten kann. </p>
-        </div>
-
-        <h2>Was wir dir bieten:</h2>
-        <ul>
-          <li>ein tolles Team voller IT-Enthusiast*innen in einem wundervollen agilen Arbeitsumfeld</li>
-          <li>Eine Tätigkeit in einem innovativen Feld mit nachhaltigen sozialen Auswirkungen und den neuesten Tech-Tools</li>
-          <li>Flexible Beschäftigungsformen (Festanstellung, Freiberufler, Homeoffice)</li>
-          <li>Ein faires Gehalt, angepasst an deine Kenntnisse und Erfahrungen</li>
-          <li>Raum und Zeit für eigene Projekte</li>
-          <li>Interne Schulungen sowie externe zertifizierte Fortbildungen</li>
-          <li>Team-Events mit allen</li>
-          <li>Einen Grund morgens mit guter Laune aufzustehen!</li>
-        </ul>
-      </section>
 
       <style jsx>{`
         #zukunft {
@@ -193,25 +175,7 @@ const Zukunft = (props) => {
           width: 70%;
           animation: spin 15s linear infinite;
         }
-        .stellenInfo {
-          margin-top: 10rem;
-        }
-        .stellenInfo > * {
-          color: var(--super-lila);
-        }
-        .stellenInfo div {
-          width: 70%;
-          margin-left: 5rem;
-        }
-        .stellenInfo ul {
-          margin-left: 5rem;
-          padding: 0;
-        }
-        .stellenInfo ul li {
-          font-size: 1.125rem;
-          margin-bottom: 1rem;
-          list-style-position: inside
-        }
+        
 
         @keyframes spin {
           0% {
