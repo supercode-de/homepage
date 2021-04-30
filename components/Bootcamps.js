@@ -105,6 +105,10 @@ const Bootcamps = (props) => {
                     }
                 }
                 @media (max-width: 1024px) {
+                    .cards {
+                        grid-template-columns: repeat(2, 1fr);
+                        row-gap: 5rem;
+                    }
                     .bootcampInfos {
                         flex-direction: column;
                     }
@@ -115,12 +119,17 @@ const Bootcamps = (props) => {
                 }
                 @media (max-width: 768px) {
                     .cards {
-                        width: 80%;
+                        width: 100%;
                         margin: 5rem auto;
                     }
                     .copy {
                         width: 100%;
                         align-self: none;
+                    }
+                }
+                @media (max-width: 580px) {
+                    .cards {
+                        grid-template-columns: 1fr;
                     }
                 }
                @media (max-width: 425px) {
