@@ -211,6 +211,9 @@ class Layout extends Component {
             display: flex;
             justify-content: space-between;
           }
+          .accordion__button:hover {
+            cursor: pointer;
+          }
           .accordion__heading,
           .accordion__panel {
             padding: 2rem 3rem;
