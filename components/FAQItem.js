@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 
 class Collapsible extends Component {
   constructor(props) {
+    console.log(props);
     super(props);
 
     this.timeout = undefined;
@@ -245,7 +246,7 @@ class Collapsible extends Component {
         <style jsx>{`
           .Collapsible {
             width: 98%;
-            padding-bottom: 2em;
+            margin-bottom: 2em;
           }
           .Collapsible__trigger {
             display: flex;

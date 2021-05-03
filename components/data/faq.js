@@ -22,7 +22,7 @@ var faq = [
   {
     question: "Wie viel kosten die Bootcamps?",
     answer:
-      "Der Preis ist stark abhängig vom Finanzierungsweg und dem Kursformat, für das du dich entscheidest. Melde dich einfach bei uns und wir finden den Weg, der am besten zu dir passt. Grundsätzlich gilt: Ein Kurs kann bei entsprechender Förderung 0 € kosten – maximal bis zu 11.000 €.",
+      "Der Preis ist stark abhängig vom Finanzierungsweg und dem Kursformat, für das du dich entscheidest. Melde dich einfach bei uns und wir finden den Weg, der am besten zu dir passt. Grundsätzlich gilt: Ein Kurs kann bei entsprechender Förderung 0 € kosten – maximal bis zu 13.560 €.",
   },
   {
     question: "Wie lange dauern die Bootcamps?",

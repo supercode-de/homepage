@@ -1,4 +1,7 @@
 import 'react-multi-carousel/lib/styles.css';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+library.add(faChevronDown)
 import Router from "next/router";
 // import withFBQ from "next-fbq";
 import withAnalytics from "next-analytics";

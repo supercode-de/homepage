@@ -1,6 +1,7 @@
 import HeaderTeam from "../components/HeaderTeam";
 import Team from "../components/Team";
 import Stellen from "../components/Stellen";
+import Stellen_test from "../components/Stellen_test"
 // import Stellen_neu from "../components/Stellen_neu";
 import FooterCallToActionTeam from "../components/FooterCallToActionTeam";
 
@@ -18,7 +19,8 @@ export default function Home(props) {
             <HeaderTeam />
             <Team />
             <WerdeTeilTeam />
-            <Stellen />
+            {/* <Stellen /> */}
+            <Stellen_test/>
             {/* <Stellen_neu /> */}
             <FooterCallToActionTeam />
           </main>
