@@ -219,6 +219,11 @@ class Layout extends Component {
             padding: 2rem 3rem;
             background: var(--super-lila);
           }
+          .accordion__heading:hover,
+          .accordion__heading:hover +
+          .accordion__panel {
+            background: var(--super-blau);
+          }
           .accordion__heading {
             color: #fff;
             font-size: 1.875rem;
