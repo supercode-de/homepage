@@ -3,6 +3,7 @@ import ReactMarkdown from "react-markdown";
 
 const BlogDetails = (props) => {
   const pixelSize = 2;
+  console.log("props", props)
   return (
     <div id="blogDetails">
       <section>
@@ -20,7 +21,7 @@ const BlogDetails = (props) => {
         <article className="left">
           <div className="hide"></div>
           <div className="text-container">
-            <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
+            {/* <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown> */}
           </div>
           <Link href={"/blogs/" + props.previousLink}>
             <div className="arrow-left">
@@ -35,7 +36,7 @@ const BlogDetails = (props) => {
             </div>
           </Link>
           <div className="text-container">
-            <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
+            {/* <ReactMarkdown>{props.titleNext.main}</ReactMarkdown> */}
           </div>
         </article>
       </footer>
