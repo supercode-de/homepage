@@ -119,16 +119,18 @@ const Beratung = (props) => {
 
           .button {
             font-family: "Fira Sans", sans-serif;
-            font-size: 14px;
+            font-size: 15px;
             letter-spacing: 1px;
             text-transform: uppercase;
             padding: 15px 0px;
             background: transparent;
             border: 1px solid var(--super-green);
+            border-color: ${props.buttonStrokeColor};
             color: ${props.buttonTextColor};
             justify-self: center;
             display: inline-block;
             min-width: 23em;
+            width: ${props.buttonWidth};
           }
           .button:hover {
             color: var(--super-lila);
@@ -213,6 +215,7 @@ const Beratung = (props) => {
             .button {
               font-size: 1.2em;
               width: 16em;
+              width: ${props.buttonWidth};
               min-width: 0;
             }
           }

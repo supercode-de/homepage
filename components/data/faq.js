@@ -22,7 +22,7 @@ var faq = [
   {
     question: "Wie viel kosten die Bootcamps?",
     answer:
-      "Der Preis ist stark abhängig vom Finanzierungsweg und dem Kursformat, für das du dich entscheidest. Melde dich einfach bei uns und wir finden den Weg, der am besten zu dir passt. Grundsätzlich gilt: Ein Kurs kann bei entsprechender Förderung 0 € kosten – maximal bis zu 11.000 €.",
+      "Der Preis ist stark abhängig vom Finanzierungsweg und dem Kursformat, für das du dich entscheidest. Melde dich einfach bei uns und wir finden den Weg, der am besten zu dir passt. Grundsätzlich gilt: Ein Kurs kann bei entsprechender Förderung 0 € kosten – maximal bis zu 13.560 €.",
   },
   {
     question: "Wie lange dauern die Bootcamps?",
@@ -37,7 +37,7 @@ var faq = [
   {
     question: "Gibt es eine Jobgarantie nach dem Bootcamp?",
     answer:
-      "Es wird oft gesagt, dass die einzigen Dinge, die im Leben garantiert werden, Tod und Steuern sind. Deshalb wäre es eine große Verantwortungslosigkeit, etwas zu garantieren, das nicht ausschließlich von uns abhängt. Was wir dir klar versichern können, ist, dass wir dir eine erstklassige Ausbildung in einem Bereich anbieten, in dem die Arbeitslosenquote praktisch null ist, begleitet von einer bedingungslosen Unterstützung für deine schnelle Eingliederung in einen Arbeitsmarkt, der nach neuen Talenten sucht. Unsere Zahlen sprechen für sich: Einen Monat nach Ende unserer Bootcamps sind in der Regel mehr als 50% unserer SuperAlumni bereits vermittelt, und nach 6 Wochen bis zu 90 % – Müssen wir noch mehr sagen?! Ok. INSIDER-TIPP: SuperCode ist immer auf der Suche nach talentierten  Trainern*innen. Wenn du während des Bootcamps auffällst, kann es sogar sein, dass du uns nie wieder verlassen wirst.",
+      "Es wird oft gesagt, dass die einzigen Dinge, die im Leben garantiert werden, Tod und Steuern sind. Deshalb wäre es eine große Verantwortungslosigkeit, etwas zu garantieren, das nicht ausschließlich von uns abhängt. Was wir dir klar versichern können, ist, dass wir dir eine erstklassige Ausbildung in einem Bereich anbieten, in dem die Arbeitslosenquote praktisch null ist, begleitet von einer bedingungslosen Unterstützung für deine schnelle Eingliederung in einen Arbeitsmarkt, der nach neuen Talenten sucht. Unsere Zahlen sprechen für sich: Einen Monat nach Ende unserer Bootcamps sind in der Regel mehr als 50% unserer SuperAlumni bereits vermittelt, und nach 6 Wochen bis zu 75 % – Müssen wir noch mehr sagen?! Ok. INSIDER-TIPP: SuperCode ist immer auf der Suche nach talentierten  Trainern*innen. Wenn du während des Bootcamps auffällst, kann es sogar sein, dass du uns nie wieder verlassen wirst.",
   },
   {
     question: "Wie kann ich während des Aufnahmeprozesses Fragen stellen?",

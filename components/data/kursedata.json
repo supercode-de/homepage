@@ -7,7 +7,8 @@
         },
         "texte": {
             "first": "In einem halben Jahr zum Web Developer - geht das überhaupt? Und ob! Durch unsere zertifizierte Intensiv-Weiterbildung wirst du in 5-7 Monaten zum Web Developer Front-end oder Full-Stack und steigerst deine Jobchancen im IT-Bereich. Egal, ob dein Studium nicht mehr zu dir passt, es in deinem Beruf keine Zukunft gibt oder du einfach etwas ganz Neues lernen willst - Wir unterstützen dich!",
-            "second": "Von der Beratung bis zum erfolgreichen Kursabschluss stehst du mit deiner Motivation, deiner Geschichte und deinen Fortschritten bei uns im Mittelpunkt. Mit zwei Trainer*innen pro Kurs, einem durchdachten Lehrplan, modernster Technik und guten Job-Kontakten machen wir dich fit für deine Zukunkt als Web Developer. No Money? No Problem! Unsere Kurse können durch die Chancen eG oder einen Bildungsgutschein zu 100% finanziert werden."
+            "second": "Von der Beratung bis zum erfolgreichen Kursabschluss stehst du mit deiner Motivation, deiner Geschichte und deinen Fortschritten bei uns im Mittelpunkt. Mit zwei Trainer*innen pro Kurs, einem durchdachten Lehrplan, modernster Technik und guten Job-Kontakten machen wir dich fit für deine Zukunkt als Web Developer.",
+            "third": "No Money? No Problem! Unsere Kurse können durch die Chancen eG oder einen Bildungsgutschein zu 100% finanziert werden."
         },
         "kurseIndex": [
             {
@@ -33,14 +34,7 @@
                 "start": "Start: 23.08.2021 Ende: 25.11.2021",
                 "copy": "Dieser Kurs setzt sich aus insgesamt fünf Themenblöcken zusammen, die perfekt ineinander greifen, um dich innerhalb von drei Monaten in Teilzeit zur gefragten Fachkraft im Bereich UX/UI-Design weiterzubilden.",
                 "hubspotFormID": "9436fb4b-eec5-4783-a8ab-cbd987650f6e"
-            },
-            {
-                "headline": "TRY IT -Der IT\nEignungscheck",
-                "umfang": "Umfang: 4 Wochen (1 Monat) / Vollzeit",
-                "start": "Start: 03.08.2021 Ende: 27.08.2021",
-                "copy": "In praxisnahen IT-Projekten bekommst du relevantes IT-Wissen in den Bereichen Coding, Design & UX und IT-Projektmanagement. Du erkundest verschiedene Berufsfelder und planst mit uns deinen Einstieg in die IT-Welt.",
-                "hubspotFormID": "0a45514c-bef0-4a22-ae0a-3e297c837f1f"
-            }        
+            }     
         ],
         "kurseKursePage": [
             {

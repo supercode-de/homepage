@@ -26,60 +26,70 @@ let blog = [
     title: titleBlog1,
     text: blog1,
     pic: "/img/blogs/1/preview_pic.jpg",
+    url: "abschlussprojekte-frontend-bootcamp",
   },
   {
     id: 1,
     title: titleBlog2,
     text: blog2,
     pic: "/img/blogs/2/preview_pic.jpg",
+    url: "interview-mit-alumni-rihab-al-yasiri",
   },
   {
     id: 2,
     title: titleBlog3,
     text: blog3,
     pic: "/img/blogs/3/preview_pic.jpg",
+    url: "interview-mit-main-trainer-adriaan-van-der-bergh",
   },
   {
     id: 3,
     title: titleBlog4,
     text: blog4,
     pic: "/img/blogs/4/preview_pic.jpg",
+    url: "natalie-streich-fängt-bei-supercode-an",
   },
   {
     id: 4,
     title: titleBlog5,
     text: blog5,
     pic: "/img/blogs/5/preview_pic.jpg",
+    url: "hackathon-bei-supercode",
   },
   {
     id: 5,
     title: titleBlog6,
     text: blog6,
     pic: "/img/blogs/6/preview_pic.jpg",
+    url: "corona-lockdown-light-digitale-bildung-remote",
   },
   {
     id: 6,
     title: titleBlog7,
     text: blog7,
     pic: "/img/blogs/7/preview_pic.jpg",
+    url: "frontend-abschlussprojekt-im-fullstack-web-development-bootcamp",
   },
   {
     id: 7,
     title: titleBlog8,
     text: blog8,
     pic: "/img/blogs/8/1.jpg",
+    url: "interview-mit-alumni-emilija-sekulic",
   },
   {
     id: 8,
     title: titleBlog9,
     text: blog9,
     pic: "/img/blogs/9/image5.png",
+    url: "abschlussprüfung-frontend",
   },
   {
     id: 9,
     title: titleBlog10,
     text: blog10,
     pic: "/img/blogs/10/02.png",
+    url: "women-in-tech-frauen-in-der-it"
   }
 
 ];

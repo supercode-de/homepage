@@ -206,7 +206,31 @@ class Layout extends Component {
           background-size: calc(100vw / 12) calc(100vw / 12);
           }
 
-
+          // styling accordion auf team seite für stellenausschreibungen
+          .accordion__button {
+            display: flex;
+            justify-content: space-between;
+          }
+          .accordion__button:hover {
+            cursor: pointer;
+          }
+          .accordion__heading,
+          .accordion__panel {
+            padding: 2rem 3rem;
+            background: var(--super-lila);
+          }
+          .accordion__heading {
+            color: #fff;
+            font-size: 1.875rem;
+          }
+          .accordion__item {
+            border: 4px solid var(--super-green);
+            margin-bottom: 3rem;
+          }
+          .accordion__button[aria-expanded='true'] svg,
+          .accordion__button[aria-selected='true'] svg{
+              transform: rotate(180deg);
+          }
 
           // Styling Carousel Blog Start
 
