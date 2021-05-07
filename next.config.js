@@ -22,7 +22,7 @@ module.exports = {
       '/blogs/Lockdown-light:-Bildung-goes-digital---again!': { page: "/blogs/[blogItem]" },
       '/blogs/Cocktails,-Curry-und-Kryptowährung---Halbzeit-beim-Fullstack-Bootcamp-Webentwicklung': { page: "/blogs/[blogItem]" },
       '/blogs/"Coden-ist-nicht-nur-technisch,-sondern-auch-unglaublich-kreativ,-kommunikativ-und-logisch."': { page: "/blogs/[blogItem]" },
-      "/blogs/“Ist-das-Kunst-oder-kann-das-web?”": { page: "/blogs/[blogItem]" },
+      "/blogs/“Ist-das-Kunst-oder-kann-das-web”": { page: "/blogs/[blogItem]" },
       '/blogs/Wie-sich-die-IT-Branche-durch-Women-in-Tech-erneuern-lässt': { page: "/blogs/[blogItem]" },
     };
   },
