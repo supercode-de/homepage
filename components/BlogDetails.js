@@ -21,22 +21,22 @@ const BlogDetails = (props) => {
         <article className="left">
           <div className="hide"></div>
           <div className="text-container">
-            {/* <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown> */}
+            <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
           </div>
-          <Link href={"/blogs/" + props.previousLink}>
+          <Link href={"/blogs/" + props.titlePrevious.main.replace(/ /g, "-")}>
             <div className="arrow-left">
               <a>←</a>
             </div>
           </Link>
         </article>
         <article className="right">
-          <Link href={"/blogs/" + props.nextLink}>
+          <Link href={"/blogs/" + props.titleNext.main.replace(/ /g, "-")}>
             <div className="arrow-right">
               <a>→</a>
             </div>
           </Link>
           <div className="text-container">
-            {/* <ReactMarkdown>{props.titleNext.main}</ReactMarkdown> */}
+            <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
           </div>
         </article>
       </footer>

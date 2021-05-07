@@ -15,8 +15,18 @@ const blogItem = (props) => {
     setBlogs(BlogData)
     // Filtern die Daten nach der URL 
     setThisBlog(blogs.filter((singleBlog) => {
-      return singleBlog.title.main.replace(/ /g, "-") === blogItem
+      // console.log(singleBlog.title.main.replace(/ /g, "-") === blogItem)
+
+      if (singleBlog.title.main.lastIndexOf('?') === -1) {
+        return singleBlog.title.main.replace(/ /g, "-") === blogItem
+      } else {
+        // blogItem does not continue after ?
+        return singleBlog.title.main.replace(/ /g, "-").slice(0, singleBlog.title.main.indexOf('?')) === blogItem
+      }
     }))
+    console.log(thisBlog)
+    console.log(blogItem)
+    console.log(blogs)
   }, [blogs, blogItem]);
 
   if (process.browser) {
@@ -32,23 +42,26 @@ const blogItem = (props) => {
             // in thisBlog[0].id ist die aktuelle ID (das was bisher in unserem routerQuery / blogItem war)
             // damit müssten wir weiter arbeiten können.
 
-            // titleNext={
-            //   blogItem == blogs.length - 1
-            //     ? blogs[0].title
-            //     : blogs[blogItem * 1 + 1].title
-            // }
-            // titlePrevious={
-            //   blogItem == 0
-            //     ? blogs[blogs.length - 1].title
-            //     : blogs[blogItem * 1 - 1].title
-            // }
+            titleNext={
+              thisBlog[0].id == blogs.length - 1 ?
+                blogs[0].title :
+                blogs[thisBlog[0].id * 1 + 1].title
+              // blogItem == blogs.length - 1
+              //   ? blogs[0].title
+              //   : blogs[blogItem * 1 + 1].title
+            }
+            titlePrevious={
+              thisBlog[0].id == 0
+                ? blogs[blogs.length - 1].title
+                : blogs[thisBlog[0].id * 1 - 1].title
+            }
             text={blogs[thisBlog[0].id].text}
-            // nextLink={
-            //   blogItem < blogs.length - 1
-            //     ? blogItem * 1 + 1
-            //     : blogItem * 1 + 1 - blogs.length
-            // }
-            previousLink={blogItem == 0 ? blogs.length - 1 : blogItem * 1 - 1}
+          // nextLink={
+          //   blogItem < blogs.length - 1
+          //     ? blogItem * 1 + 1
+          //     : blogItem * 1 + 1 - blogs.length
+          // }
+          // previousLink={blogItem == 0 ? blogs.length - 1 : blogItem * 1 - 1}
           />
         ) : (
           ""
