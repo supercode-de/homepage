@@ -16,7 +16,7 @@ module.exports = {
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       "/blogs/YouCode-YouTube-YouRock!": { page: "/blogs/[blogItem]" },
       '/blogs/Als-Web-Entwicklerin-werde-ich-mein-ganzes-Leben-lang-lernen---und-ich-habe-gelernt-wie-das-geht!': { page: "/blogs/[blogItem]" },
-      '/blogs/Crazy,-cool-people!': { page: "/blogs/[blogItem]" },
+      '/blogs/Crazy-cool-people!': { page: "/blogs/[blogItem]" },
       '/blogs/SuperNatalie-goes-SuperCode': { page: "/blogs/[blogItem]" },
       '/blogs/Hack-your-Life---1.-SuperHackathon-bei-SuperCode-in-Düsseldorf': { page: "/blogs/[blogItem]" },
       '/blogs/Lockdown-light:-Bildung-goes-digital---again!': { page: "/blogs/[blogItem]" },
