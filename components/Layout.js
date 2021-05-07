@@ -237,6 +237,14 @@ class Layout extends Component {
               transform: rotate(180deg);
           }
 
+          // media queries für die accordion Styles
+          @media (max-width: 320px) {
+            .accordion__heading {
+              padding: 1.125rem;
+              font-size: 1.2rem;
+            }
+          }
+
           // Styling Carousel Blog Start
 
           .react-multiple-carousel__arrow {
