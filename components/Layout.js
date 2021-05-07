@@ -271,12 +271,15 @@ class Layout extends Component {
             left: .5%;
           }
           // Styling Carousel Blog End
+
           @media (max-width: 768px) {
             body {
               font-size: 10px;
             }
           }
-        `}</style>
+          
+        `}
+        </style>
       </div>
     );
   }
