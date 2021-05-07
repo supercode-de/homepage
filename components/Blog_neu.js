@@ -49,7 +49,7 @@ const Blog_neu = (props) => {
             swipeable
           >
             {reveserBlog.map((blogitem, i) => (
-              <Link href={"/blogs/" + blogitem.title.main.replace(/ /g, "-").replace(/\?|\#|”|“|"/g, "")}>
+              <Link href={"/blogs/" + blogitem.title.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,/g, "")}>
                 <a target="_blank">
                   <div
                     className="blog-item"
