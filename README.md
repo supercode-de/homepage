@@ -17,6 +17,8 @@ das Array erweitern und zusätzliche Dateien in
 `./markdown/`   
 erstellen.  
 Zusätzlich muss in der `next.config.js` eine neue Route eingefügt werden.  
+Den Link aus dem Browser Fenster kopieren!
+Falls es Probleme gibt: Es liegt an Sonderzeichen. Die müssen in diversen Dateien (momentan: Bloag_neu, [blogItem], BlogDetails) dann noch in den .replace(/\?|\#|”|“|"|,|\./g, "") hinzugefügt werden.
 
 ### Fuer das Absolventen-Carousell:
  `./components/data/absolvente.json`

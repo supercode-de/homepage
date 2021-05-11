@@ -67,17 +67,17 @@ const Typeform = (props) => {
         #curriculum-popup {
           background: #070021;
           color: #fff;
-          position: relative;
           width: calc(100vw / 12 * 8);
           padding: 40px;
           border: 1px solid var(--super-green);
           position: fixed;
-          top: 15%;
-          left: ${(document.documentElement.clientWidth - 700) / 2}px;
-
+          transform: translate(-50%, -50%);
+          left: 50%;
+          top: 50%;
           width: 700px;
           // max-height: 70vh;
           color: var(--super-green);
+          z-index: 999;
         }
         .popup-close {
           top: 0;
@@ -219,7 +219,7 @@ const Typeform = (props) => {
           // }
         }
         @media (max-height: ${document.documentElement.clientHeight * 0.15 +
-          600}px) {
+        600}px) {
           .one-line {
             display: block;
           }
@@ -232,16 +232,16 @@ const Typeform = (props) => {
           }
         }
         @media (min-width: ${document.documentElement.clientHeight /
-          2}px) and (max-height: ${document.documentElement.clientHeight *
-            0.15 +
-          600}px) {
+        2}px) and (max-height: ${document.documentElement.clientHeight *
+        0.15 +
+        600}px) {
           #curriculum-popup {
             width: ${document.documentElement.clientWidth -
-            2 * (document.documentElement.clientWidth / 10)}px;
+        2 * (document.documentElement.clientWidth / 10)}px;
             left: ${(document.documentElement.clientWidth -
-              (document.documentElement.clientWidth -
-                2 * (document.documentElement.clientWidth / 10))) /
-            2}px;
+          (document.documentElement.clientWidth -
+            2 * (document.documentElement.clientWidth / 10))) /
+        2}px;
           }
         }
       `}</style>
