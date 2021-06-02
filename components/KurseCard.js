@@ -1,7 +1,7 @@
 import Curriculum from "./Curriculum_Popup";
 import Typeform_neu_small from "./TypeForm_neu_small";
 const KurseCard = (props) => {
-    const { headline, umfang, start, copy, hubspotFormID, headlineID } = props.data
+    const { headline, umfang, start, copy, hubspotFormID, headlineID, typeformFormularID } = props.data
     return (
         <section className="kurseCard">
             <div className="headlines">
@@ -13,7 +13,7 @@ const KurseCard = (props) => {
                 <p>{copy}</p>
             </div>
             <div className="buttons">
-                <Typeform_neu_small />
+                <Typeform_neu_small typeformFormularID={typeformFormularID} />
                 <Curriculum buttonText="Curriculum" hubspot={hubspotFormID} />
             </div>
             <style jsx>{`
