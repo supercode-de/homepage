@@ -11,7 +11,7 @@ export default function Workshop() {
     return (<Layout>
       <div id="header">
         <div id="waving">👋</div>
-        <h1>YEAH!<br />Willkommen bei unserem HTML<br />& CSS Workshop für Anfänger</h1>
+        <h1>YEAH!<br />Willkommen bei unserem HTML<br />& CSS Workshop für Anfänger*innen</h1>
         {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
         <Telefon color="#fff" />
         <Arrow />

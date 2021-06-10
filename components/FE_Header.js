@@ -1,4 +1,4 @@
-const FSHeader = (props) => {
+const FE_Header = (props) => {
   return (
     <header>
       <div className='super-code'>super(code)</div>
@@ -12,9 +12,9 @@ const FSHeader = (props) => {
           <img src='/img/_DSC7143_LowRes.png' alt='' />
         </div>
         <div className='headline'>
-          <h1>Full–Stack</h1>
+          <h1>Front–End</h1>
           <h1 className='letterstroke'>
-            Boot <br /> –camp
+            BOOT <br /> –CAMP
           </h1>
         </div>
       </section>
@@ -147,4 +147,4 @@ const FSHeader = (props) => {
   );
 };
 
-export default FSHeader;
+export default FE_Header;

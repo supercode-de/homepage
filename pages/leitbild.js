@@ -12,7 +12,6 @@ export default function Home(props) {
                     <main>
                         <LeitBildHeader width={width} />
                         <LeitBildBody width={width} />
-
                     </main>
                     <style jsx>{``}</style>
                 </div>

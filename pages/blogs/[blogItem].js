@@ -18,15 +18,15 @@ const blogItem = (props) => {
       // console.log(singleBlog.title.main.replace(/ /g, "-") === blogItem)
 
       if (singleBlog.title.main.lastIndexOf('?') === -1) {
-        return singleBlog.title.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|\./g, "") === blogItem
+        return singleBlog.title.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|:|\./g, "") === blogItem
       } else {
         // blogItem does not continue after ?
-        return singleBlog.title.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|\./g, "").slice(0, singleBlog.title.main.indexOf('?')) === blogItem
+        return singleBlog.title.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|:|\./g, "").slice(0, singleBlog.title.main.indexOf('?')) === blogItem
       }
     }))
-    console.log(thisBlog)
-    console.log(blogItem)
-    console.log(blogs)
+    // console.log(thisBlog)
+    // console.log(blogItem)
+    // console.log(blogs)
   }, [blogs, blogItem]);
 
   if (process.browser) {

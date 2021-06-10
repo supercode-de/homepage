@@ -4,19 +4,19 @@ const HeaderCallToAction_neu = () => {
       <section className='headerFlex'>
         <section>
           <h3>
-            – 22 Wochen = <span className='circle'> 5 Monate</span>
+            – 30 Wochen = 7<span className='circle'> Monate</span>
           </h3>
-          <h3>– Tägliches Training</h3>
+          <h3>– Teilzeit neben dem Job</h3>
           <h3>
-            – 2 Trainer*innen <span className='after-span'>jeden Tag.</span>
+            – 2 Trainer*innen <span className='after-span'>zeitgleich</span>
           </h3>
         </section>
         <section>
+          <h3>–Moderner Campus</h3>
           <h3>
-            –<span className='bling'>Moderner </span>
-            <span className='bling2'>Campus</span>
+            – <span className='bling'>MacBook als</span>
+            <span className='bling2'>Leihgabe</span>
           </h3>
-          <h3>– MacBook als Leihgabe</h3>
           <h3>– Vor Ort & online</h3>
         </section>
       </section>

@@ -1,4 +1,4 @@
-const FSHeader = (props) => {
+const UX_UI_Header = (props) => {
   return (
     <header>
       <div className='super-code'>super(code)</div>
@@ -12,9 +12,9 @@ const FSHeader = (props) => {
           <img src='/img/_DSC7143_LowRes.png' alt='' />
         </div>
         <div className='headline'>
-          <h1>Full–Stack</h1>
+          <h1>UX/ UI- Design</h1>
           <h1 className='letterstroke'>
-            Boot <br /> –camp
+            BOOT <br /> –CAMP
           </h1>
         </div>
       </section>
@@ -43,7 +43,7 @@ const FSHeader = (props) => {
             padding: 40px 0 40px 5%;
             font-family: 'Neue_Machina_Regular_400';
             position: relative;
-            background-color: #5d3ede;
+            background-color: var(--super-green);
             background-image: linear-gradient(
                 to right,
                 rgba(255, 255, 255, 0.25) 0,
@@ -74,7 +74,7 @@ const FSHeader = (props) => {
           h1 {
             font-family: 'Neue_Machina_Regular_400';
             font-size: 9.5rem;
-            color: #fff;
+            color: var(--super-yellow);
             line-height: 0.9em;
             margin: 0;
           }
@@ -82,7 +82,7 @@ const FSHeader = (props) => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-yellow);
             font-weight: 300;
           }
           .header-flex {
@@ -103,7 +103,7 @@ const FSHeader = (props) => {
             position: absolute;
             height: 180px;
             width: 180px;
-            background: var(--super-yellow);
+            background: var(--super-lila);
             border-radius: 50%;
             transform: rotate(-10deg) translate(50%, 50%);
             bottom: 0;
@@ -147,4 +147,4 @@ const FSHeader = (props) => {
   );
 };
 
-export default FSHeader;
+export default UX_UI_Header;

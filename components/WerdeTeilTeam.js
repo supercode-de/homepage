@@ -12,70 +12,6 @@ const WerdeTeilTeam = () => {
                     <p>SuperCode steht für moderne didaktische und methodische Bildung, eine nachhaltige und gemeinwohlorientierte Unternehmensführung, Ehrlichkeit und Transparenz. Wir sind ein Team aus qualifizierten und praxiserfahrenen Expert*innen, die Spaß an ihrer Arbeit haben und an das glauben, was sie machen. Wir sind mit vielen Firmen aus der Region gut vernetzt, nutzen immer den neuesten Tech-Stack und legen viel Wert darauf, dass sich jede*r einbringen und mit ihrer/seiner Persönlichkeit entfalten kann. </p>
                 </div>
             </article>
-            {/* <article className="was-wir-bieten">
-                <div className="twocolumn">
-                    <div className="center">
-                        <div className="flex">
-                            <div>
-                                <span className="super-green">01</span>
-                            </div>
-                            <div>
-                                <span className="super-stroke">Tolles Team</span> voller IT Enthusiast*innen
-                            </div>
-                        </div>
-                        <div className="flex">
-                            <div>
-                                <span className="super-green">02</span>
-                            </div>
-                            <div>Tätigkeit in einem <span className="super-stroke">innovativen Feld</span></div>
-                        </div>
-
-                        <div className="flex">
-                            <div>
-                                <span className="super-green">03</span>
-                            </div>
-                            <div>
-                                <span className="super-stroke">Flexible</span> Beschäftigungsformen (Fest, Frei, Remote)
-                            </div>
-                        </div>
-
-                        <div className="flex">
-                            <div>
-                                <span className="super-green">04</span>
-                            </div>
-                            <div>
-                                Faires Gehalt, angepasst an <span className="super-stroke">deine Kenntnisse</span>
-                            </div>
-                        </div>
-
-                        <div className="flex">
-                            <div>
-                                <span className="super-green">05</span>
-                            </div>
-                            <div>
-                                Platz für <span className="super-stroke">eigene Projekte</span>
-                            </div>
-                        </div>
-
-                        <div className="flex">
-                            <div>
-                                <span className="super-green">06</span>
-                            </div>
-                            <div>
-                                Super <span className="super-stroke">Team-Events</span>
-                            </div>
-                        </div>
-                        <div className="flex">
-                            <div>
-                                <span className="super-green">07</span>
-                            </div>
-                            <div>
-                                Einen Grund morgens <span className="super-stroke">mit guter Laune</span> aufzustehen!
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </article> */}
 
             <section className="grid-container">
                 <div>
@@ -151,31 +87,8 @@ const WerdeTeilTeam = () => {
                 .grid-container {
                     display: grid;
                     grid-template-columns: 0.1fr 1.7fr;
-                    align-items: end;
                     row-gap: 1rem;
-                    padding: 0 7% 5rem;
-                }
-                // .grid-container div:nth-of-type(odd) {
-                //     border: 1px solid orange;
-                //     align-self: end;
-                // }
-                // .grid-container div:nth-of-type(even) {
-                //     border: 1px solid red;
-                //     align-self: end;
-                // }
-                .twocolumn {
-                    display: grid;
-                    grid-template-columns: 100%;
-                }
-                .center {
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                }
-                .flex {
-                    font-size: 2.65rem;
-                    color: #fff;
-                    line-height: 1.2em;
+                    padding: 0 5% 5rem;
                 }
                 .super-stroke {
                     color: transparent;
@@ -195,10 +108,7 @@ const WerdeTeilTeam = () => {
                     // padding-right: 20px;
                 }
                 @media (max-width: 1040px) {
-                    .flex {
-                    font-size: 2.5em;
-                    line-height: 1.2em;
-                    }
+
                 }
                 @media (max-width: 768px) {
                     .info,  {
@@ -212,14 +122,34 @@ const WerdeTeilTeam = () => {
                     }
                 }
 
-                @media (max-width: 568px) {
-                    .twocolumn {
-                    grid-template-columns: 100%;
+                @media (max-width: 580px) {
+                    h3 {
+                        font-size: 1.5rem;
+                    }
+                    .grid-container {
+                        grid-template-columns: 0.2fr 1.6fr;
+                    }
+                    .grid-HL {
+                        font-size: 1.7rem;
                     }
                 }
-                @media (max-width: 320px) {
-                    .flex {
-                        font-size: 2em;
+                @media (max-width: 425px) { 
+                    h3 {
+                        font-size: 1.3rem;
+                    }
+                    .grid-container {
+                        grid-template-columns: 0.3fr 1.5fr;
+                    }
+                    .grid-HL {
+                        font-size: 1.5rem;
+                    }
+                }
+                @media (max-width: 375px) {
+                    h3 {
+                        font-size: 1.2rem;
+                    }
+                    .grid-HL {
+                        font-size: 1.3rem;
                     }
                 }
         `}</style>

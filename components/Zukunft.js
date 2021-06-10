@@ -178,20 +178,8 @@ const Zukunft = (props) => {
           .images + img {
             display: none;
           }
-          .lila-box {
-            // background: none;
-          }
-          .lila-box2 {
-            // background: none;
-          }
-          h1 {
-            // padding: ${props.width * 1.5}px 0 0 ${props.width - 23}px;
-          }
           h3 {
             font-size: 2em;
-          }
-          p {
-            font-size: 1.1em;
           }
           .infos {
             display: grid;
@@ -228,9 +216,6 @@ const Zukunft = (props) => {
           }
           img {
             display: none;
-          }
-          p {
-            font-size: 1.5em;
           }
           a {
             font-size: 1.2em;

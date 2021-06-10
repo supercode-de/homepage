@@ -25,35 +25,14 @@ const FE_Praxis = () => {
               window.screen.width == 425 ||
               window.screen.width == 375 ||
               window.screen.width == 320
-                ? '/img/Group149.svg'
-                : '/img/Group149.svg'
+                ? '/img/fe-inhalte.svg'
+                : '/img/fe-inhalte.svg'
             }
             alt='Inhalte des Kurses als Grafik'
           />
         </div>
       </div>
-      <div className='plus-skills-infos'>
-        <p>
-          Neben den Basics in Grafikdesign und Projektmanagement, stärken wir
-          eure Präsentationsskills, Teamfähigkeit und die Fähigkeit des
-          selbstständigen Lernens. Das Bewerbungscoaching unterstützt euch bei
-          der Jobsuche mit durchdesignten Unterlagen und optimalen
-          Digital-Profilen.
-        </p>
 
-        <div className='plus-skill-img'>
-          <img
-            src={
-              window.screen.width == 425 ||
-              window.screen.width == 375 ||
-              window.screen.width == 320
-                ? '/img/Group176.svg'
-                : '/img/Group176.svg'
-            }
-            alt='Inhalte der plus-skills als Grafik'
-          />
-        </div>
-      </div>
       <style jsx>
         {`
           .fsPraxis {
@@ -65,7 +44,7 @@ const FE_Praxis = () => {
             font-weight: 300;
           }
           .praxis-Img {
-            width: 90%;
+            width: 98%;
           }
           .praxis-Img img {
             width: 100%;
@@ -73,21 +52,6 @@ const FE_Praxis = () => {
             user-select: none;
           }
 
-          .plus-skill-img img {
-            width: 100%;
-            pointer-events: none;
-            user-select: none;
-          }
-
-          .plus-skills-infos {
-            display: flex;
-          }
-          .plus-skills-infos p {
-            align-self: center;
-          }
-          .plus-skill-img {
-            padding-right: 7%;
-          }
           h2 {
             font-size: 5.25rem;
             font-family: 'Neue_Machina_Light';

@@ -63,20 +63,20 @@ const Blog = () => {
       <style jsx>{`
         #blog {
           padding: 10vh 8%;
-          background: #03000f;
+          background: var(--super-black);
         }
         h2 {
           margin: 0;
           padding: 0 0 10vh;
-          color: #3dd7ac;
+          color: var(--super-green);
           font-size: 5em;
-          border-bottom: 1px solid #5d3ede;
+          border-bottom: 1px solid var(--super-lila);
         }
         h2 span {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: #3dd7ac;
+          -webkit-text-stroke-color: var(--super-green);
         }
         .translate {
           transform: translateX(150px);
@@ -96,7 +96,7 @@ const Blog = () => {
 
         h3,
         p {
-          color: #3dd7ac;
+          color: var(--super-green);
         }
         h3 {
           font-weight: 300;
@@ -110,7 +110,7 @@ const Blog = () => {
         }
         a:hover {
           text-decoration: underline;
-          color: #3dd7ac;
+          color: var(--super-green);
         }
       `}</style>
     </div>
