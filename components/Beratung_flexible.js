@@ -3,16 +3,16 @@ import React, { useState } from 'react';
 
 import HubspotForm from 'react-hubspot-form';
 
-const Beratung = (props) => {
+const Beratung_flexible = (props) => {
   const [isHidden, toggleJetztAnmelden] = useState(true);
   return (
-    <div id='beratung'>
+    <div id='beratung1'>
       <button className='button' onClick={() => toggleJetztAnmelden(!isHidden)}>
         {props.buttonText}
       </button>
 
       <div
-        id='jetzt-anmelden'
+        id='jetzt-anmelden1'
         className={isHidden ? 'isHidden' : 'isNotHidden'}
       >
         <button
@@ -50,7 +50,11 @@ const Beratung = (props) => {
       </div>
       <style jsx>
         {`
-          #jetzt-anmelden {
+          #beratung1 {
+            z-index: 99999;
+            position: relative;
+          }
+          #jetzt-anmelden1 {
             position: fixed;
             padding: 20px;
             background: var(--super-black);
@@ -60,7 +64,7 @@ const Beratung = (props) => {
             overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
-            z-index: 999999;
+            z-index: 9999;
           }
           .isHidden {
             right: -100%;
@@ -121,7 +125,7 @@ const Beratung = (props) => {
 
           .button {
             font-family: 'Fira Sans', sans-serif;
-            font-size: 15px;
+            font-size: ${props.buttonFontSize};
             letter-spacing: 1px;
             text-transform: uppercase;
             padding: 15px 0px;
@@ -129,9 +133,10 @@ const Beratung = (props) => {
             border: 1px solid var(--super-green);
             border-color: ${props.buttonStrokeColor};
             color: ${props.buttonTextColor};
+            position: relative;
             justify-self: center;
             display: inline-block;
-            min-width: 23em;
+            min-width: ${props.buttonMinWidth};
             width: ${props.buttonWidth};
           }
           .button:hover {
@@ -245,4 +250,4 @@ const Beratung = (props) => {
   );
 };
 
-export default Beratung;
+export default Beratung_flexible;

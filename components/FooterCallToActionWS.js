@@ -1,26 +1,26 @@
-import Beratung from "./Beratung";
-import Link from "next/link";
+import Beratung from './Beratung';
+import Link from 'next/link';
 
 const FooterCallToAction = (props) => {
   const pixelSize = 1.5;
 
   return (
-    <div id="call-to-action" className="whiteGreenDots">
+    <div id='call-to-action' className='whiteGreenDots'>
       <h1>
-        Worauf wartest du noch?! Die nächsten{" "}
-        <span className="super">
-          Workshops{" "}
-          <span className="circle">
+        Worauf wartest du noch?! Die nächsten{' '}
+        <span className='super'>
+          Workshops{' '}
+          <span className='circle'>
             starten&nbsp;bald
             <nobr />.
           </span>
         </span>
       </h1>
-      <div className="buttons">
-        <Link href="/kurse">
-          <a href="">KURSE</a>
+      <div className='buttons'>
+        <Link href='/kurse'>
+          <a href=''>KURSE</a>
         </Link>
-        <Beratung buttonText="Beratung" buttonTextColor="#5d3ede" />
+        <Beratung buttonText='Beratung' buttonTextColor='#5d3ede' />
       </div>
       <style jsx>{`
         #call-to-action {
@@ -49,7 +49,7 @@ const FooterCallToAction = (props) => {
 
         a {
           align-items: center;
-          font-family: "Fira Sans", sans-serif;
+          font-family: 'Fira Sans', sans-serif;
           min-width: 23em;
           font-size: 14px;
           letter-spacing: 1px;
@@ -73,14 +73,14 @@ const FooterCallToAction = (props) => {
 
         span.circle::after {
           position: absolute;
-          background: url("/img/Vector64.svg") center/contain no-repeat;
+          background: url('/img/Vector64.svg') center/contain no-repeat;
           transform: rotateX(67deg);
 
           height: 300%;
           width: 105%;
           right: 0;
           bottom: -100%;
-          content: "";
+          content: '';
           display: block;
         }
 
