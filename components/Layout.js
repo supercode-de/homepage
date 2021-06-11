@@ -210,13 +210,14 @@ class Layout extends Component {
               display: flex;
               justify-content: space-between;
               width: 100%;
+              padding: 20px 0;
             }
             .accordion__button:hover {
               cursor: pointer;
             }
 
             .accordion__button svg {
-              width: 7%;
+              width: 10%;
             }
 
             // .accordion__heading {
