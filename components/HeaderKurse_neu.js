@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Telefon_neu from './small/Telefon_neu';
-const Header_neu = (props) => {
+const HeaderKurse_neu = (props) => {
   return (
     <div id='header' className='lilaGitter'>
       <div className='super-code'>super(code)</div>
@@ -22,7 +22,7 @@ const Header_neu = (props) => {
             <span className='super'>Unsere&nbsp;Bootcamps!</span>
           </h1>
         </div>
-        <Telefon_neu position='left' />
+        <Telefon_neu position={window.screen.width > 585 ? 'left' : '-28px'} />
       </div>
       <style jsx>
         {`
@@ -122,4 +122,4 @@ const Header_neu = (props) => {
   );
 };
 
-export default Header_neu;
+export default HeaderKurse_neu;
