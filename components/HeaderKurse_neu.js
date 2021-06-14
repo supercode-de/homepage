@@ -1,31 +1,34 @@
-import React, { useState, useEffect } from "react";
-
+import React, { useState, useEffect } from 'react';
+import Telefon_neu from './small/Telefon_neu';
 const Header_neu = (props) => {
   return (
-    <div id="header" className="lilaGitter">
-      <div className="super-code">super(code)</div>
-      <span className="aside"> 📞 +49 211 7817 233-0 </span>
-      <div className="content">
-        <div className="content-img">
+    <div id='header' className='lilaGitter'>
+      <div className='super-code'>super(code)</div>
+      {/* <span className="aside"> 📞 +49 211 7817 233-0 </span> */}
+
+      <div className='content'>
+        <div className='content-img'>
           <img
-            src="/img/_DSC4066_LowRes.png"
-            alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
+            src='/img/_DSC4066_LowRes.png'
+            alt='Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp'
           />
         </div>
-        <div className="content-text">
+        <div className='content-text'>
           <h1>
             Dein Einstieg
             <br />
             in die IT-Welt:
             <br />
-            <span className="super">Unsere&nbsp;Bootcamps!</span>
+            <span className='super'>Unsere&nbsp;Bootcamps!</span>
           </h1>
         </div>
+        <Telefon_neu position='left' />
       </div>
-      <style jsx>{`
+      <style jsx>
+        {`
           #header {
             padding: 100px 0;
-            font-family: "Neue_Machina_Regular_400";
+            font-family: 'Neue_Machina_Regular_400';
             position: relative;
           }
           .aside {
@@ -50,7 +53,7 @@ const Header_neu = (props) => {
             left: 7rem;
             color: #fff;
             font-size: 1.3rem;
-            font-family: "Fira Sans", sans-serif;
+            font-family: 'Fira Sans', sans-serif;
             font-weight: bold;
           }
           .content {
