@@ -40,8 +40,9 @@ export default function Workshop() {
                 <h3>
                   – einen{' '}
                   <a
-                    href='https://www.figma.com
+                    href='https://www.figma.com 
 '
+                    target='_blank'
                   >
                     Figma.com
                   </a>{' '}
