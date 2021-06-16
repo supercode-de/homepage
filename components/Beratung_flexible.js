@@ -64,7 +64,7 @@ const Beratung_flexible = (props) => {
             overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
-            z-index: 9999;
+            z-index: 99999;
           }
           .isHidden {
             right: -100%;
@@ -133,11 +133,12 @@ const Beratung_flexible = (props) => {
             border: 1px solid var(--super-green);
             border-color: ${props.buttonStrokeColor};
             color: ${props.buttonTextColor};
-            position: relative;
+            // position: relative;
             justify-self: center;
             display: inline-block;
             min-width: ${props.buttonMinWidth};
             width: ${props.buttonWidth};
+            margin: 0 15px;
           }
           .button:hover {
             color: var(--super-lila);
