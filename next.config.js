@@ -16,7 +16,7 @@ module.exports = {
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       '/404': { page: '/404' },
       '/fullstack': { page: '/fullstack-kurs' },
-
+      '/supercodeworkshop': { page: '/supercodeworkshop' },
       '/uxuidesignworkshop': { page: '/uxuidesignworkshop' },
 
       '/blogs/YouCode-YouTube-YouRock!': { page: '/blogs/[blogItem]' },

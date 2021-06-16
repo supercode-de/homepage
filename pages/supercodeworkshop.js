@@ -1,44 +1,278 @@
-import Layout from "../components/Layout";
-import { useWindowSize } from '../components/functions/windowSize'
-import HubspotForm from 'react-hubspot-form'
-import Arrow from "../components/small/Arrow";
-import Telefon from "../components/small/Telefon";
+import Layout from '../components/Layout';
+import { useWindowSize } from '../components/functions/windowSize';
+import HubspotForm from 'react-hubspot-form';
+import Arrow from '../components/small/Arrow';
+import Telefon from '../components/small/Telefon';
+import Beratung from '../components/Beratung';
+import Beratung_flexible from '../components/Beratung_flexible';
+import Button from '../components/small/Button';
+import Link from 'next/link';
 
 export default function Workshop() {
   const pixelSize = 1;
   if (process.browser) {
-    const width = useWindowSize().width / 12
-    return (<Layout>
-      <div id="header">
-        <div id="waving">👋</div>
-        <h1>YEAH!<br />Willkommen bei unserem HTML<br />& CSS Workshop für Anfänger*innen</h1>
-        {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-        <Telefon color="#fff" />
-        <Arrow />
-      </div>
-      <div id="sign-up">
-        <div id="notice">
-          <p>DSGVO First!</p>
-          <p>
-            Aus Datenschutzgründen müsst ihr unser online Kontaktformular ausfüllen.<br />
-            Anschließend werdet ihr zum Workshop-Video-Chat weitergeleitet.
-          </p>
+    const width = useWindowSize().width / 12;
+    return (
+      <Layout>
+        <div id='headr'>
+          <header className='lilaGitter'>
+            {/* <div id='header'></div> */}
+            {/* <div id='waving'>👋</div> */}
+
+            <h1 className='headline'>
+              <span className='stroke'>Yeah!</span>
+            </h1>
+            <h1 className='willkommen'>
+              <span className='after-span'> Willkommen</span>
+            </h1>
+            {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
+            <Telefon color='#fff' />
+            <h2>kostenloser HTML & CSS Workshop!</h2>
+          </header>
+          <section className='headerCTA'>
+            <span id='index-finger'>☝️</span>
+            <h3 id='reibungslos'>
+              Für einen <span className='circle'>reibungslosen </span> Ablauf
+              benötigst du:
+            </h3>
+            <article>
+              <div>
+                <h3>
+                  – einen{' '}
+                  <a
+                    href='https://replit.com/ 
+'
+                    target='_blank'
+                  >
+                    Repl.it
+                  </a>{' '}
+                  Account
+                </h3>
+                <h3>
+                  – <span className='strich'>bestenfalls</span> zwei Monitore
+                </h3>
+              </div>
+              <div>
+                <h3>– eine ruhige Umgebung</h3>
+                <h3>– Gute Laune :) </h3>
+              </div>
+            </article>
+            <h3 className='ps'>
+              PS: Am besten lässt du dein Mirkofon auf stumm und aktivierst es
+              wenn du etwas sagen möchtest.
+            </h3>
+          </section>
+          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
+          <Telefon color='#fff' />
         </div>
-        <div id="form">
-          <HubspotForm
-            portalId='5807040'
-            formId='e48452f8-ff46-4ff5-b946-f9fc138ed732'
-            onSubmit={() => console.log('Submit!')}
-            onReady={(form) => console.log('Form ready!')}
-            loading={<div>Loading...</div>}
-          />
+        <div id='sign-up'>
+          <div id='notice'>
+            <p>DSGVO First!</p>
+            <p>
+              Aus Datenschutzgründen müsst ihr unser online Kontaktformular
+              ausfüllen.
+              <br />
+              Anschließend werdet ihr zum Workshop-Video-Chat weitergeleitet.
+            </p>
+          </div>
+          <div id='form'>
+            <HubspotForm
+              portalId='5807040'
+              formId='e48452f8-ff46-4ff5-b946-f9fc138ed732'
+              onSubmit={() => console.log('Submit!')}
+              onReady={(form) => console.log('Form ready!')}
+              loading={<div>Loading...</div>}
+            />
+          </div>
         </div>
-      </div>
-      <style jsx>{`
+        <section className='footerCTA'>
+          <h2>Worauf wartest du noch? Die nächsten Kurse starten bald. </h2>
+          <div className='buttons'>
+            <Beratung_flexible
+              buttonText='KONTAKT'
+              buttonTextColor='#fff'
+              buttonWidth='200px'
+            />
+            <Link href='https://www.super-code.de/'>
+              <button className='website'> Website</button>
+            </Link>
+          </div>
+        </section>
+        <style jsx>{`
+        * {
+          font-family: "Neue_Machina_Regular_400";
+        }
+
+       
+        header{
+          padding:100px 0;
+          text-align:center;
+          
+        }
+        header h2{
+          font-size:1.8rem;
+          color:#fff;
+          position:relative;
+          top:-45px;
+        }
+        .headline{
+          color:#3DD7AC;
+          font-size:7.5rem;
+          margin-top:0;
+          position:relative;
+          top:100px;
+        }
+        .willkommen{
+          color:#3DD7AC;
+          font-size:8rem;
+          font-family:"Neue_Machina_Ultrabold"
+          font-weight:ultra-bold;
+        }
+        .headline .stroke{
+              color: transparent;
+              letter-spacing: 3px;
+              -webkit-text-stroke-width: 0.1px;
+              -webkit-text-stroke-color: #3DD7AC;
+        }
+        .after-span {
+          padding-bottom: 2rem;
+          padding-right: 2rem;
+          display:inline-block;
+          position:relative;
+         
+        }
+        .willkommen .after-span {
+          content: '';
+          background: url('/img/vector127.svg') 0px 120px / contain no-repeat;
+        }
+        .strich {
+          padding-bottom: 2rem;
+          padding-right: 2rem;
+          display:inline-block;
+          position:relative;
+          content: '';
+          background: url('/img/striche.svg') -16px 30px / contain no-repeat;
+        }
+     
+        .headerCTA{
+          color:#fff;
+          background: var(--super-black);
+          padding: 100px 0;
+        }
+        .headerCTA #reibungslos{
+          // font-family: "Neue_Machina_Regular_400"
+          font-size:2.1rem;
+          padding-left:2%;
+         
+      
+        }
+        .headerCTA article{
+      display:flex;
+      justify-content:space-between;
+     
+      
+        }
+        .headerCTA article div{
+    width:50%;
+    padding-left:5%;
+    
+        }
+        .headerCTA article h3{
+     font-size:2rem;
+    
+        }
+        .headerCTA #reibungslos{
+          // font-family: "Neue_Machina_Regular_400"
+          font-size:2.1rem;
+          padding-left:2%;
+          width:90%;
+          margin:auto;
+          margin-bottom:40px;
+          
+         
+      
+        }
+        .ps{
+          width:85%;
+          margin:auto;
+          font-size:1.3rem;
+          margin-top:30px;
+      }
+        #index-finger{
+          font-size: 4rem;
+        }
+        .footerCTA{
+          color:#fff;
+          background: var(--super-lila);
+          padding: 120px 0;
+        }
+        .footerCTA h2{
+        
+           font-size: 3.3rem;
+           width:80%;
+           margin:auto;
+         
+        }
+
+        .circle {
+          position: relative;
+        }
+        .circle::after {
+          position: absolute;
+          background: url('/img/Vector64.svg') center/contain no-repeat;
+          height: 285%;
+          width: 100%;
+          right: 2%;
+          bottom: -81%;
+          content: '';
+          display: block;
+        }
+        .headerCTA article h3 a{
+          color:#fff;
+         
+             }
+
+             #index-finger{
+              font-size: 4rem;
+              position:relative;
+              top:50px;
+            }
+        .website {
+          font-family: 'Fira Sans', sans-serif;
+          font-size: 15px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+          padding: 10px 0px;
+          background: transparent;
+          border: 1px solid var(--super-green);
+         
+          color: #fff;
+          justify-self: center;
+          display: inline-block;
+          min-width: 200px;
+          width: 50px;
+        }
+        .website:hover {
+          color: var(--super-lila);
+          background: var(--super-green);
+          cursor: pointer;
+        }
+        .buttons{
+          display:flex;
+          justifiy-content: center;
+        padding-left:60%;
+        margin-:auto;
+        text-align:right;
+        }
+        //=========== Alter Code ========
         #header {
-            background:       linear-gradient(90deg, #03000F ${width - pixelSize}px,
+            background:       linear-gradient(90deg, #03000F ${
+              width - pixelSize
+            }px,
                               transparent 1%),
-                              linear-gradient(#03000F ${width - pixelSize}px, transparent 1%),
+                              linear-gradient(#03000F ${
+                                width - pixelSize
+                              }px, transparent 1%),
                               #fff;
             background-size: ${width}px ${width}px;
             padding: 10vh 2rem;
@@ -90,14 +324,14 @@ export default function Workshop() {
           border-radius: .5rem;
         }
         
-        h1 {
-            margin: 0;
-            font-size: 3em;
-            letter-spacing: 2px;
-            color: #3DD7AC;
-            text-align: center;
-            padding-bottom: 3rem;
-        }
+        // h1 {
+        //     margin: 0;
+        //     font-size: 4em;
+        //     letter-spacing: 2px;
+        //     color: #3DD7AC;
+        //     text-align: center;
+        //     padding-bottom: 3rem;
+        // }
         // .aside {
         //     position: absolute;
         //     transform: rotate(-90deg);
@@ -106,13 +340,13 @@ export default function Workshop() {
         //     top: 30vh;
         //     color: #fff
         //   }
-        h1 span {
-            display: block;
-            color: transparent;
-            letter-spacing: 3px;
-            -webkit-text-stroke-width: 1.5px;
-            -webkit-text-stroke-color: #3DD7AC;
-        }
+        // h1 span {
+        //     display: block;
+        //     color: transparent;
+        //     letter-spacing: 3px;
+        //     -webkit-text-stroke-width: 1.5px;
+        //     -webkit-text-stroke-color: #3DD7AC;
+        // }
         
           @keyframes wave {
             0% {
@@ -128,9 +362,104 @@ export default function Workshop() {
                 width: 90%;
                 margin: 0 auto;
             }
+            .headline{
+              color:#3DD7AC;
+              font-size:2.8rem;
+              margin-top:0;
+              position:relative;
+              top:10px;
+            }
+            .willkommen{
+              color:#3DD7AC;
+              font-size:3rem;
+              font-family:"Neue_Machina_Ultrabold"
+              font-weight:ultra-bold;
+            }
+            #index-finger{
+              font-size: 3rem;
+            }
+            .headerCTA #reibungslos{
+              // font-family: "Neue_Machina_Regular_400"
+              font-size:1.5rem;
+              padding-left:2%;
+             
+          
+            }
+         
+            .headerCTA article div{
+        width:50%;
+        padding-left:5%;
+        
+            }
+            .headerCTA article h3{
+         font-size:1rem;
+        
+            }
+            .footerCTA{
+              color:#fff;
+              background: var(--super-lila);
+              padding: 120px 0;
+            }
+            .footerCTA h2{
+            
+               font-size: 2rem;
+               width:80%;
+               margin:auto;
+             
+            }
+            .buttons{
+            
+            padding-left:15%;
+            margin:auto;
+            text-align:center;
+            }
+          }
+          @media (max-width: 575px) {
+            .buttons{
+              display:flex;
+              justifiy-content: center;
+            padding:0;
+            margin-:auto;
+            text-align:right;
+            }
+          }
+            @media (max-width: 425px) {
+              header h2{
+                font-size:1.8rem;
+                color:#fff;
+                position:relative;
+                top:-45px;
+              }
+              .headline{
+                color:#3DD7AC;
+                font-size:2.5rem;
+                margin-top:0;
+                position:relative;
+                top:0;
+              }
+              .willkommen{
+                color:#3DD7AC;
+                font-size:2rem;
+                font-family:"Neue_Machina_Ultrabold"
+                font-weight:ultra-bold;
+              }
+              .headerCTA article h3{
+                font-size:1rem;
+               
+                   }
+                   .headerCTA #reibungslos{
+                     font-size:1.3rem;
+                   }
+                   
+                  #form{
+                    width:100%;
+                  }
+            }
         }
       `}</style>
-    </Layout>
-    )
-  } else { return "" }
-} 
+      </Layout>
+    );
+  } else {
+    return '';
+  }
+}
