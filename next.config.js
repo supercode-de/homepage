@@ -15,6 +15,10 @@ module.exports = {
       '/leitbild': { page: '/leitbild' },
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       '/404': { page: '/404' },
+      '/fullstack': { page: '/fullstack-kurs' },
+
+      '/uxuidesignworkshop': { page: '/uxuidesignworkshop' },
+
       '/blogs/YouCode-YouTube-YouRock!': { page: '/blogs/[blogItem]' },
       '/blogs/Als-Web-Entwicklerin-werde-ich-mein-ganzes-Leben-lang-lernen---und-ich-habe-gelernt-wie-das-geht!':
         { page: '/blogs/[blogItem]' },
