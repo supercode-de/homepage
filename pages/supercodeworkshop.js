@@ -83,19 +83,7 @@ export default function Workshop() {
             />
           </div>
         </div>
-        <section className='footerCTA'>
-          <h2>Worauf wartest du noch? Die nächsten Kurse starten bald. </h2>
-          <div className='buttons'>
-            <Beratung_flexible
-              buttonText='KONTAKT'
-              buttonTextColor='#fff'
-              buttonWidth='200px'
-            />
-            <Link href='https://www.super-code.de/'>
-              <button className='website'> Website</button>
-            </Link>
-          </div>
-        </section>
+     
         <style jsx>{`
         * {
           font-family: "Neue_Machina_Regular_400";
