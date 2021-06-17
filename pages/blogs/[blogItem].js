@@ -24,9 +24,9 @@ const blogItem = (props) => {
         return singleBlog.title.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|:|\./g, "").slice(0, singleBlog.title.main.indexOf('?')) === blogItem
       }
     }))
-    console.log(thisBlog)
-    console.log(blogItem)
-    console.log(blogs)
+    // console.log(thisBlog)
+    // console.log(blogItem)
+    // console.log(blogs)
   }, [blogs, blogItem]);
 
   if (process.browser) {

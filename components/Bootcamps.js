@@ -1,7 +1,7 @@
 // import Carousel from "react-multi-carousel";
 import kurseData from "../components/data/kursedata.json"
 import KurseCard from "./KurseCard";
-console.log(kurseData);
+// console.log(kurseData);
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -24,7 +24,7 @@ const responsive = {
 const Bootcamps = (props) => {
     // console.log("das sind props", props)
     // console.log("das sind kursedata: ", kurseData);
-    console.log(window.location.pathname)
+    // console.log(window.location.pathname)
     return (
         <section className="bootcamps lilaGitter">
             <article className="bootcampInfos">

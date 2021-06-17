@@ -64,5 +64,10 @@ var faq = [
     answer:
       "Sende uns deine vollständigen Kontaktdaten – wir melden uns dann zeitnah bei dir, um dich kennenzulernen. Aber denk daran, dich zu beeilen: Wir haben eine begrenzte Anzahl von freien Plätzen und diejenigen, die zuerst – erfolgreich – am Ende des Bewerbungsprozesses ankommen, kommen auch in den entsprechenden Kurs. ",
   },
+  {
+    question: "Wie macht ihr das mit Corona?",
+    answer:
+    "Sonnenstudios sind geöffnet, Kinos bleiben zu… Du blickst bei den Corona-Verordnung nicht mehr durch? Wir auch nicht, aber Sicherheit geht vor! Wir nehmen unsere Verantwortung als Bildungsträger sehr ernst und haben unsere Beratungsangebote und Kurse bis auf Weiteres in die Weiten des World Wide Web verlagert. Ja, online Training kann richtig Spaß machen! Mit erprobten und neuen Tools, die auch wirklich funktionieren, betreuen wir euch einzeln und in Gruppen auch online optimal und coden zusammen. Damit gewähren wir eine Unterrichtsgarantie und ganz nebenbei wirst du auf den tatsächlichen Berufsalltag im IT-Bereich vorbereitet. Denn der gilt als Vorreiter für Homeoffice und Remote-Arbeit."
+  }
 ];
 export default faq;

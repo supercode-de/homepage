@@ -2,7 +2,7 @@ import Popup from "reactjs-popup";
 import HubspotForm from "react-hubspot-form";
 
 const Typeform = (props) => {
-  console.log("das ist die hubspot form id: ", props.hubspot)
+  // console.log("das ist die hubspot form id: ", props.hubspot)
   // console.log({
   //   height: document.documentElement.clientHeight,
   //   width: document.documentElement.clientWidth,

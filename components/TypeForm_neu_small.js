@@ -1,5 +1,7 @@
 import Popup from "reactjs-popup";
 const Typeform = (props) => {
+  const { typeformFormularID } = props
+  // console.log("WICHTIG", typeformFormularID)
   return (
     <>
       <Popup
@@ -13,7 +15,7 @@ const Typeform = (props) => {
             height="100%"
             frameborder="0"
             allow="camera; microphone; autoplay; encrypted-media;"
-            src="https://form.typeform.com/to/L6u0np35"
+            src={`https://form.typeform.com/to/${typeformFormularID}`}
           ></iframe>
           <script
             type="text/javascript"
