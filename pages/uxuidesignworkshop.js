@@ -85,8 +85,9 @@ export default function Workshop() {
               loading={<div>Loading...</div>}
             />
           </div>
+          <div className='test'></div>
         </div>
-        <section className='footerCTA'>
+        {/* <section className='footerCTA'>
           <h2>Worauf wartest du noch? Die nächsten Kurse starten bald. </h2>
           <div className='buttons'>
             <Beratung_flexible
@@ -98,10 +99,14 @@ export default function Workshop() {
               <button className='website'> Website</button>
             </Link>
           </div>
-        </section>
+        </section> */}
         <style jsx>{`
         * {
           font-family: "Neue_Machina_Regular_400";
+        }
+        .test{
+            width:100%;
+            position:absolute;
         }
         #arrow-img{
             position:absolute;
@@ -303,7 +308,7 @@ export default function Workshop() {
             padding: 10vh 2rem;
         }
         #sign-up {
-          position: relative;
+          
           background-color: #fff;
           background-image:
             linear-gradient(
@@ -325,8 +330,8 @@ export default function Workshop() {
           background-size: ${width}px ${width}px;
         //   display: grid;
         //   grid-template-columns: 50% 50%;
-        display:flex;
-          justify-content: center;
+         display:flex;
+         justify-content:center;
           padding-bottom: 5rem;
           padding-top: 15rem;
         }
