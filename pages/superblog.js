@@ -1,3 +1,6 @@
+
+import { useWindowSize } from "../components/functions/windowSize";
+import Layout from "../components/Layout";
 export default function Superblog() {
     if (process.browser) {
       const width = useWindowSize().width / 12;

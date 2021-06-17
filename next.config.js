@@ -13,6 +13,7 @@ module.exports = {
       "/impressum": { page: "/impressum" },
       "/team": { page: "/team" },
       "/leitbild": { page: "/leitbild" },
+      "/blog" : {page: "/superblog"},
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       "/blogs/YouCode-YouTube-YouRock!": { page: "/blogs/[blogItem]" },
       '/blogs/Als-Web-Entwicklerin-werde-ich-mein-ganzes-Leben-lang-lernen---und-ich-habe-gelernt-wie-das-geht!': { page: "/blogs/[blogItem]" },
