@@ -113,6 +113,7 @@ class Layout extends Component {
           }
           section .right h2 {
             color: #000;
+            font-size: 2.5rem;
           }
           section .right img {
             width: 80% !important;
