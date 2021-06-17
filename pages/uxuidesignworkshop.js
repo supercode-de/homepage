@@ -62,9 +62,13 @@ export default function Workshop() {
           {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
           <Telefon color='#fff' />
         </div>
+        <div id='arrow-img'>
+          <img src='/img/Arrow24.svg' alt='' />
+        </div>
         <div id='sign-up'>
           <div id='notice'>
-            <p>DSGVO First!</p>
+            <h4 id='hier'>Hier gehts zur Anmeldung!</h4>
+            <p>Aber, DSGVO First! ;)</p>
             <p>
               Aus Datenschutzgründen müsst ihr unser online Kontaktformular
               ausfüllen.
@@ -99,6 +103,16 @@ export default function Workshop() {
         * {
           font-family: "Neue_Machina_Regular_400";
         }
+        #arrow-img{
+            position:absolute;
+            z-index:3;
+           bottom:-750px;
+       
+          }
+          #hier{
+              font-size:1.6rem;
+              color:#000;
+          }
         header{
           padding:100px 0;
           text-align:center;
@@ -309,9 +323,12 @@ export default function Workshop() {
           ;
           background-position: 0 0, 0 0;
           background-size: ${width}px ${width}px;
-          display: grid;
+        //   display: grid;
+        //   grid-template-columns: 50% 50%;
+        display:flex;
           justify-content: center;
           padding-bottom: 5rem;
+          padding-top: 15rem;
         }
         #notice {
           font-weight: bold;
