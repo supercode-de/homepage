@@ -30,7 +30,7 @@ export default function Workshop() {
             <h2>kostenloser HTML & CSS Workshop!</h2>
           </header>
           <section className='headerCTA'>
-            <span id='index-finger'>☝️</span>
+            {/* <span id='index-finger'>☝️</span> */}
             <h3 id='reibungslos'>
               Für einen <span className='circle'>reibungslosen </span> Ablauf
               benötigst du:
@@ -48,9 +48,7 @@ export default function Workshop() {
                   </a>{' '}
                   Account
                 </h3>
-                <h3>
-                  – <span className='strich'>bestenfalls</span> zwei Monitore
-                </h3>
+                <h3>– bestenfalls zwei Monitore</h3>
               </div>
               <div>
                 <h3>– eine ruhige Umgebung</h3>
@@ -147,11 +145,11 @@ export default function Workshop() {
         }
         .strich {
           padding-bottom: 2rem;
-          padding-right: 2rem;
+          padding-right: 0.9rem;
           display:inline-block;
           position:relative;
           content: '';
-          background: url('/img/striche.svg') -16px 30px / contain no-repeat;
+          background: url('/img/striche.svg') -7px 30px / contain no-repeat;
         }
      
         .headerCTA{
