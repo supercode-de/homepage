@@ -13,6 +13,7 @@ module.exports = {
       '/impressum': { page: '/impressum' },
       '/team': { page: '/team' },
       '/leitbild': { page: '/leitbild' },
+      '/blog': {page: '/superblog'},
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       '/404': { page: '/404' },
       '/fullstack': { page: '/fullstack-kurs' },
