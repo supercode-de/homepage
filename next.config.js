@@ -13,20 +13,10 @@ module.exports = {
       '/impressum': { page: '/impressum' },
       '/team': { page: '/team' },
       '/leitbild': { page: '/leitbild' },
-<<<<<<< HEAD
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       '/full-stack': { page: '/fullstack-kurs' },
       '/front-end': { page: '/frontend-kurs' },
       '/404': { page: '/404' },
-=======
-      '/blog': {page: '/superblog'},
-      // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
-      '/404': { page: '/404' },
-      '/fullstack': { page: '/fullstack-kurs' },
-      '/supercodeworkshop': { page: '/supercodeworkshop' },
-      '/uxuidesignworkshop': { page: '/uxuidesignworkshop' },
-
->>>>>>> df676c529057b833c2f65fce5e7bf2e631110f43
       '/blogs/YouCode-YouTube-YouRock!': { page: '/blogs/[blogItem]' },
       '/blogs/Als-Web-Entwicklerin-werde-ich-mein-ganzes-Leben-lang-lernen---und-ich-habe-gelernt-wie-das-geht!':
         { page: '/blogs/[blogItem]' },
@@ -35,11 +25,7 @@ module.exports = {
       '/blogs/Hack-your-Life---1-SuperHackathon-bei-SuperCode-in-Düsseldorf': {
         page: '/blogs/[blogItem]',
       },
-<<<<<<< HEAD
       '/blogs/Lockdown-light:-Bildung-goes-digital---again!': {
-=======
-      '/blogs/Lockdown-light-Bildung-goes-digital---again!': {
->>>>>>> df676c529057b833c2f65fce5e7bf2e631110f43
         page: '/blogs/[blogItem]',
       },
       '/blogs/Cocktails-Curry-und-Kryptowährung---Halbzeit-beim-Fullstack-Bootcamp-Webentwicklung':

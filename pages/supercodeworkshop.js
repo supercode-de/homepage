@@ -11,24 +11,6 @@ import Link from 'next/link';
 export default function Workshop() {
   const pixelSize = 1;
   if (process.browser) {
-<<<<<<< HEAD
-    const width = useWindowSize().width / 12
-    return (<Layout>
-      <div id="header">
-        <div id="waving">👋</div>
-        <h1>YEAH!<br />Willkommen bei unserem HTML<br />& CSS Workshop für Anfänger*innen</h1>
-        {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-        <Telefon color="#fff" />
-        <Arrow />
-      </div>
-      <div id="sign-up">
-        <div id="notice">
-          <p>DSGVO First!</p>
-          <p>
-            Aus Datenschutzgründen müsst ihr unser online Kontaktformular ausfüllen.<br />
-            Anschließend werdet ihr zum Workshop-Video-Chat weitergeleitet.
-          </p>
-=======
     const width = useWindowSize().width / 12;
     return (
       <Layout>
@@ -82,7 +64,6 @@ export default function Workshop() {
           </section>
           {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
           <Telefon color='#fff' />
->>>>>>> df676c529057b833c2f65fce5e7bf2e631110f43
         </div>
         <div id='sign-up'>
           <div id='notice'>
