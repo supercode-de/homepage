@@ -26,7 +26,7 @@ const FooterCallToAction = (props) => {
           </div>
           <div className="buttons">
             <Beratung buttonText="Kontakt" buttonTextColor="#5d3ede" buttonWidth="100%" buttonStrokeColor="#5d3ede"/>
-            <a href="mailto:bewerbung@super-code.de?subject=Initiativ%20Bewerbung">Initiativ Bewerbung</a>
+            <a href="mailto:bewerbung@super-code.de?subject=Initiativ%20Bewerbung">Initiativbewerbung</a>
           </div>
         </article>
 

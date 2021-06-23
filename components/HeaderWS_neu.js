@@ -1,55 +1,61 @@
-import React, { useState, useEffect } from "react";
-import Arrow from "./small/Arrow";
-import Typeform from "./TypeForm_neu";
+import React, { useState, useEffect } from 'react';
+import Arrow from './small/Arrow';
+import Typeform from './TypeForm_neu';
+import Telefon_neu from './small/Telefon_neu';
 
-const Header_neu = (props) => {
+const HeaderWS_neu = (props) => {
   return (
-    <div id="header" className="lilaGitter">
-      <div className="super-code">super(code)</div>
-      <span className="aside"> 📞 +49 211 7817 233-0 </span>
-      <div className="content">
-        <div className="content-img">
+    <div id='header' className='lilaGitter'>
+      <div className='super-code'>super(code)</div>
+      <Telefon_neu position={window.screen.width > 585 ? ' left' : '-3px'} />
+      <div className='content'>
+        {/* <span className='aside'> 📞 +49 211 7817 233-0 </span> */}
+        <div className='content-img'>
           <img
-            src="/img/_DSC2506_LowRes.png"
-            alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
+            src='/img/_DSC2506_LowRes.png'
+            alt='Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp'
           />
         </div>
-        <div className="content-text">
+        <div className='content-text'>
           <h1>
             Dein Einstieg
             <br />
             in die IT-Welt:
             <br />
-            <span className="super">
+            <span className='super'>
               Unsere
               <br />
-              <span className="circle">Workshops!</span>
+              <span className='circle'>Workshops!</span>
             </span>
           </h1>
         </div>
       </div>
-      <style jsx>{`
+      <style jsx>
+        {`
           #header {
             padding: 100px 0;
-            font-family: "Neue_Machina_Regular_400";
+            font-family: 'Neue_Machina_Regular_400';
             position: relative;
           }
-          .aside {
-            position: absolute;
-            transform: rotate(-90deg);
-            transform-origin: left;
-            color: #fff;
-            font-weight: 300;
-            left: 3%;
-            top: 60%;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 18px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: #ffffff;
+          .telefon {
+            position: relative;
           }
+          // .aside {
+          //   position: absolute;
+          //   transform: rotate(-90deg);
+          //   transform-origin: left;
+          //   color: #fff;
+          //   font-weight: 300;
+          //   left: 3%;
+          //   top: 60%;
+          //   font-style: normal;
+          //   font-weight: normal;
+          //   font-size: 12px;
+          //   line-height: 18px;
+          //   letter-spacing: 3px;
+          //   text-transform: uppercase;
+          //   color: #ffffff;
+          // }
           .super-code {
             position: absolute;
             top: 30px;
@@ -57,7 +63,7 @@ const Header_neu = (props) => {
             left: 7rem;
             color: #fff;
             font-size: 1.3rem;
-            font-family: "Fira Sans", sans-serif;
+            font-family: 'Fira Sans', sans-serif;
             font-weight: bold;
           }
 
@@ -101,7 +107,7 @@ const Header_neu = (props) => {
           }
 
           h1 {
-            font-family: "Neue_Machina_Regular_400";
+            font-family: 'Neue_Machina_Regular_400';
             font-size: 4em;
             color: #fff;
             line-height: 1.2em;
@@ -121,14 +127,14 @@ const Header_neu = (props) => {
 
           span.circle::after {
             position: absolute;
-            background: url("/img/Vector64.svg") center/contain no-repeat;
+            background: url('/img/Vector64.svg') center/contain no-repeat;
             transform: rotateX(45deg);
 
             height: 200%;
             width: 105%;
             right: -2%;
             bottom: -55%;
-            content: "";
+            content: '';
             display: block;
           }
 
@@ -176,4 +182,4 @@ const Header_neu = (props) => {
   );
 };
 
-export default Header_neu;
+export default HeaderWS_neu;

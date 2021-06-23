@@ -12,9 +12,9 @@ const BlogDetails = (props) => {
           <h2>{props.title.sub}</h2>
         </article>
         <article className="right">
-          <p>
+          <div>
             <ReactMarkdown>{props.text}</ReactMarkdown>
-          </p>
+          </div>
         </article>
       </section>
       <footer>
@@ -52,6 +52,10 @@ const BlogDetails = (props) => {
         section .right {
           overflow-y: auto;
           height: 90vh;
+          padding: 0 5%;
+        }
+        section .right div h2 {
+          color: red;
         }
 
         section .left {
@@ -84,7 +88,7 @@ const BlogDetails = (props) => {
         }
 
         section .left h1 {
-          font-size: 3em;
+          font-size: 2em;
           font-weight: 400;
           padding: 0 8%;
           color: transparent;
@@ -93,7 +97,7 @@ const BlogDetails = (props) => {
           -webkit-text-stroke-color: #fff;
         }
         section .left h2 {
-          font-size: 2em;
+          font-size: 1.5em;
           font-weight: 400;
           padding: 0 8%;
           color: #fff;
@@ -215,6 +219,7 @@ const BlogDetails = (props) => {
           section .left,
           section .right {
             width: 100%;
+            height: auto;
           }
           section .left p {
             padding-bottom: 150px;

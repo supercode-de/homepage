@@ -1,8 +1,8 @@
-import Link from "next/link";
-import React, { Component } from "react";
+import Link from 'next/link';
+import React, { Component } from 'react';
 
 class Navigation extends Component {
-  state = { show: true, color: "white", rotateDeg: 0 };
+  state = { show: true, color: 'white', rotateDeg: 0 };
   listenScrollEvent = () => {
     let scrollLimit =
       Math.max(
@@ -30,51 +30,51 @@ class Navigation extends Component {
   };
 
   componentDidMount() {
-    window.addEventListener("scroll", this.listenScrollEvent);
+    window.addEventListener('scroll', this.listenScrollEvent);
   }
 
   render() {
     return (
       <nav
-        id="navigation"
+        id='navigation'
         style={{
-          width: this.state.show ? "100%" : "5%",
+          width: this.state.show ? '100%' : '5%',
         }}
       >
-        <div className={`main-navigation ${this.state.show ? "hide" : "hide"}`}>
-          <Link href="/">
-            <a className="logo">
+        <div className={`main-navigation ${this.state.show ? 'hide' : 'hide'}`}>
+          <Link href='/'>
+            <a className='logo'>
               <img
-                src="/img/Bildungsinstitut_Logo.svg"
-                alt="SuperCode-Logo"
-                className="rotate"
+                src='/img/Bildungsinstitut_Logo.svg'
+                alt='SuperCode-Logo'
+                className='rotate'
               />
 
-              <img src="/img/SuperCode_Logo.svg" alt="SuperCode-Logo" />
+              <img src='/img/SuperCode_Logo.svg' alt='SuperCode-Logo' />
             </a>
           </Link>
 
-          <ul className="nav-list">
+          <ul className='nav-list'>
             <li>
-              <Link href="/kurse">
+              <Link href='/kurse'>
                 <a>Kurse</a>
               </Link>
             </li>
 
             <li>
-              <Link href="/workshops">
+              <Link href='/workshops'>
                 <a>Workshops</a>
               </Link>
             </li>
 
             <li>
-              <Link href="/team">
+              <Link href='/team'>
                 <a>Team</a>
               </Link>
             </li>
 
             <li>
-              <Link href="/#faq">
+              <Link href='/#faq'>
                 <a>FAQ</a>
               </Link>
             </li>
@@ -82,16 +82,16 @@ class Navigation extends Component {
               <a onClick={this.props.toggleJetztAnmelden}>Kontakt</a>
             </li>
             <li>
-              <Link href="/#blog">
+              <Link href='/#blog'>
                 <a>Blog</a>
               </Link>
             </li>
           </ul>
 
           <img
-            className="menu-button"
-            src="/menu-button.svg"
-            alt="Menu-Button"
+            className='menu-button'
+            src='/menu-button.svg'
+            alt='Menu-Button'
             onClick={this.props.toggleNavigationMobile}
           />
         </div>
@@ -174,13 +174,13 @@ class Navigation extends Component {
             padding: 0 25px;
             position: fixed;
             top: 5;
-            z-index: 999;
+            z-index: 99;
           }
           .nav-list {
             display: ${window.scrollY > 0 ||
             document.documentElement.clientWidth < 768
-              ? "none"
-              : "flex"};
+              ? 'none'
+              : 'flex'};
           }
           .menu-button {
             // position: fixed;
@@ -191,8 +191,8 @@ class Navigation extends Component {
             cursor: pointer;
             display: ${window.scrollY > 0 ||
             document.documentElement.clientWidth < 768
-              ? "unset"
-              : "none"};
+              ? 'unset'
+              : 'none'};
           }
           .logo {
             color: var(--super-green);

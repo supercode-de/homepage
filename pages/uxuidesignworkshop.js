@@ -11,29 +11,11 @@ import Link from 'next/link';
 export default function Workshop() {
   const pixelSize = 1;
   if (process.browser) {
-<<<<<<< HEAD
-    const width = useWindowSize().width / 12
-    return (<Layout>
-      <div id="header">
-        <div id="waving">👋</div>
-        <h1>YEAH!<br />Willkommen bei unserem HTML<br />& CSS Workshop für Anfänger*innen</h1>
-        {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-        <Telefon color="#fff" />
-        <Arrow />
-      </div>
-      <div id="sign-up">
-        <div id="notice">
-          <p>DSGVO First!</p>
-          <p>
-            Aus Datenschutzgründen müsst ihr unser online Kontaktformular ausfüllen.<br />
-            Anschließend werdet ihr zum Workshop-Video-Chat weitergeleitet.
-          </p>
-=======
     const width = useWindowSize().width / 12;
     return (
       <Layout>
         <div id='headr'>
-          <header className='lilaGitter'>
+          <header className=''>
             {/* <div id='header'></div> */}
             {/* <div id='waving'>👋</div> */}
 
@@ -44,8 +26,8 @@ export default function Workshop() {
               <span className='after-span'> Willkommen</span>
             </h1>
             {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-            <Telefon color='#fff' />
-            <h2>kostenloser HTML & CSS Workshop!</h2>
+
+            <h2>kostenloser UX & UI-Design Workshop!</h2>
           </header>
           <section className='headerCTA'>
             <span id='index-finger'>☝️</span>
@@ -58,16 +40,16 @@ export default function Workshop() {
                 <h3>
                   – einen{' '}
                   <a
-                    href='https://replit.com/ 
+                    href='https://www.figma.com 
 '
                     target='_blank'
                   >
-                    Repl.it
+                    Figma.com
                   </a>{' '}
                   Account
                 </h3>
                 <h3>
-                  – <span className='strich'>bestenfalls</span> zwei Monitore
+                  – <span className='strich'> bestenfalls</span> zwei Monitore
                 </h3>
               </div>
               <div>
@@ -82,7 +64,6 @@ export default function Workshop() {
           </section>
           {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
           <Telefon color='#fff' />
->>>>>>> df676c529057b833c2f65fce5e7bf2e631110f43
         </div>
         <div id='sign-up'>
           <div id='notice'>
@@ -121,28 +102,49 @@ export default function Workshop() {
         * {
           font-family: "Neue_Machina_Regular_400";
         }
-
-       
         header{
           padding:100px 0;
           text-align:center;
-          
+        
         }
+        header {
+            padding: 40px 0 40px 5%;
+            font-family: 'Neue_Machina_Regular_400';
+            position: relative;
+            background-color: var(--super-green);
+            background-image: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              ),
+              linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              );
+            background-position: 0 0, 0 0;
+            background-size: calc(100vw / 12) calc(100vw / 12);
+          }
+
         header h2{
           font-size:1.8rem;
           color:#fff;
           position:relative;
           top:-45px;
         }
-        .headline{
-          color:#3DD7AC;
+        .headline .stroke{
+        color: black;
           font-size:7.5rem;
           margin-top:0;
           position:relative;
           top:100px;
         }
         .willkommen{
-          color:#3DD7AC;
+          color:var(--super-yellow);
           font-size:8rem;
           font-family:"Neue_Machina_Ultrabold"
           font-weight:ultra-bold;
@@ -151,7 +153,7 @@ export default function Workshop() {
               color: transparent;
               letter-spacing: 3px;
               -webkit-text-stroke-width: 0.1px;
-              -webkit-text-stroke-color: #3DD7AC;
+              -webkit-text-stroke-color: var(--super-yellow);
         }
         .after-span {
           padding-bottom: 2rem;
@@ -162,13 +164,14 @@ export default function Workshop() {
         }
         .willkommen .after-span {
           content: '';
-          background: url('/img/vector127.svg') 0px 120px / contain no-repeat;
+          background: url('/img/stricheWeiss.svg') 0px 120px / contain no-repeat;
         }
         .strich {
           padding-bottom: 2rem;
           padding-right: 2rem;
           display:inline-block;
           position:relative;
+          
           content: '';
           background: url('/img/striche.svg') -16px 30px / contain no-repeat;
         }
@@ -176,29 +179,7 @@ export default function Workshop() {
         .headerCTA{
           color:#fff;
           background: var(--super-black);
-          padding: 100px 0;
-        }
-        .headerCTA #reibungslos{
-          // font-family: "Neue_Machina_Regular_400"
-          font-size:2.1rem;
-          padding-left:2%;
-         
-      
-        }
-        .headerCTA article{
-      display:flex;
-      justify-content:space-between;
-     
-      
-        }
-        .headerCTA article div{
-    width:50%;
-    padding-left:5%;
-    
-        }
-        .headerCTA article h3{
-     font-size:2rem;
-    
+          padding: 120px 0;
         }
         .headerCTA #reibungslos{
           // font-family: "Neue_Machina_Regular_400"
@@ -211,14 +192,37 @@ export default function Workshop() {
          
       
         }
+        .headerCTA article{
+      display:flex;
+      justify-content:space-between;
+     
+      
+        }
+
         .ps{
-          width:85%;
-          margin:auto;
-          font-size:1.3rem;
-          margin-top:30px;
-      }
+            width:85%;
+            margin:auto;
+            font-size:1.3rem;
+            margin-top:30px;
+        }
+        .headerCTA article div{
+    width:50%;
+    padding-left:5%;
+    
+        }
+        .headerCTA article h3{
+     font-size:2rem;
+    
+        }
+        .headerCTA article h3 a{
+     color:#fff;
+    
+        }
+
         #index-finger{
           font-size: 4rem;
+          position:relative;
+          top:50px;
         }
         .footerCTA{
           color:#fff;
@@ -246,16 +250,7 @@ export default function Workshop() {
           content: '';
           display: block;
         }
-        .headerCTA article h3 a{
-          color:#fff;
-         
-             }
 
-             #index-finger{
-              font-size: 4rem;
-              position:relative;
-              top:50px;
-            }
         .website {
           font-family: 'Fira Sans', sans-serif;
           font-size: 15px;
@@ -381,19 +376,19 @@ export default function Workshop() {
                 width: 90%;
                 margin: 0 auto;
             }
-            .headline{
-              color:#3DD7AC;
-              font-size:2.8rem;
-              margin-top:0;
-              position:relative;
-              top:10px;
-            }
-            .willkommen{
-              color:#3DD7AC;
-              font-size:3rem;
-              font-family:"Neue_Machina_Ultrabold"
-              font-weight:ultra-bold;
-            }
+            .headline .stroke{
+              
+                font-size:2.8rem;
+                margin-top:0;
+                position:relative;
+                top:0px;
+              }
+              .willkommen{
+               
+                font-size:3rem;
+                font-family:"Neue_Machina_Ultrabold"
+                font-weight:ultra-bold;
+              }
             #index-finger{
               font-size: 3rem;
             }
@@ -450,14 +445,14 @@ export default function Workshop() {
                 top:-45px;
               }
               .headline{
-                color:#3DD7AC;
+               
                 font-size:2.5rem;
                 margin-top:0;
                 position:relative;
                 top:0;
               }
               .willkommen{
-                color:#3DD7AC;
+          
                 font-size:2rem;
                 font-family:"Neue_Machina_Ultrabold"
                 font-weight:ultra-bold;

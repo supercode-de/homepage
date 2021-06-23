@@ -1,5 +1,6 @@
-import Link from "next/link";
-import Carousel from "react-multi-carousel";
+import Link from 'next/link';
+import Carousel from 'react-multi-carousel';
+import Beratung_flexible from './Beratung_flexible';
 
 const responsive = {
   superLargeDesktop: {
@@ -23,16 +24,16 @@ const responsive = {
 
 const WorkIT = (props) => {
   return (
-    <div id="kurse" className="lilaGitter">
-      <span className="aside">Unsere Kurse</span>
-      <article className="kurs-boxes-headline">
+    <div id='kurse' className='lilaGitter'>
+      <span className='aside'>Unsere Kurse</span>
+      <article className='kurs-boxes-headline'>
         <h1>
-          <span className="super">Work IT,</span> Baby!
+          <span className='super'>Work IT,</span> Baby!
         </h1>
       </article>
-      <article className="kurse-content">
-        <div className="kurs-boxes">
-          <div className="kurs-box kurs-box1 hide">
+      <article className='kurse-content'>
+        <div className='kurs-boxes'>
+          <div className='kurs-box kurs-box1 hide'>
             <h4>Kostenloser HTML & CSS Workshop - Online</h4>
             <p>
               Umfang: 3 Stunden / 18:00-21:00 Uhr <br />
@@ -61,8 +62,30 @@ const WorkIT = (props) => {
             <p>
               - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt online
             </p>
+            <div className='buttons'>
+              <Link
+                className='zumKurs'
+                href='https://www.eventbrite.de/o/supercode-20262218583'
+                target='_blank'
+              >
+                <a
+                  href='https://www.eventbrite.de/o/supercode-20262218583'
+                  target='_blank'
+                >
+                  Zum Kurs
+                </a>
+              </Link>
+              {/* 
+              <Beratung_flexible
+                buttonText='Beratung'
+                // buttonMinWidth='23em'
+                buttonWidth='12rem'
+                buttonTextColor='#fff'
+                buttonFontSize='14px'
+              /> */}
+            </div>
           </div>
-          <div className="kurs-box kurs-box2 hide">
+          <div className='kurs-box kurs-box2 hide'>
             <h4>Try-IT-Trainingscenter</h4>
             <p>
               Umfang: 4 Wochen in Vollzeit <br />
@@ -89,19 +112,32 @@ const WorkIT = (props) => {
               - 2 Trainer*innen pro Workshop <br />
               - Teilnahme erfolgt online <br />- Zertifikat über deine Teilnahme
             </p>
-            <div className="buttons">
-              <Link href="/try-it" >
-                <a>Zum Kurs</a>
+            <div className='buttons'>
+              <Link href='https://www.eventbrite.de/o/supercode-20262218583'>
+                <a
+                  href='https://www.eventbrite.de/o/supercode-20262218583'
+                  target='_blank'
+                >
+                  Zum Kurs
+                </a>
               </Link>
+              {/* <Beratung_flexible
+                buttonText='Beratung'
+                // buttonMinWidth='23em'
+                buttonWidth='12rem'
+                buttonTextColor='#fff'
+                buttonFontSize='14px'
+              /> */}
             </div>
           </div>
-          <div className="kurs-box kurs-box3 hide">
+          {/* 
+          <div className='kurs-box kurs-box3 hide'>
             <h4>
               1 Monat Web-Design <br /> UX & UI Workshop
             </h4>
             <h5>Weitere Informationen folgen ab Mai 2021</h5>
 
-            {/*    <p>
+               <p>
               Umfang: 4 <br />
               Start: xx.xx.xxxx Ende: xx.xx.xxxx
             </p>
@@ -121,23 +157,24 @@ const WorkIT = (props) => {
             <h5>sonstiges:</h5>
             <p>
               - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt online
-            </p> */}
+            </p> 
           </div>
+            */}
         </div>
 
-        <div id="myCarousel">
+        <div id='myCarousel'>
           <Carousel
             responsive={responsive}
             ssr
             showDots={false}
             slidesToSlide={1}
             infinite
-            containerClass="container-with-dots"
-            deviceType={""}
-            itemClass="carousel-item-padding-20-px"
+            containerClass='container-with-dots'
+            deviceType={''}
+            itemClass='carousel-item-padding-20-px'
           >
-            <div className="kurs-box-container">
-              <div className="kurs-box kurs-box1">
+            <div className='kurs-box-container'>
+              <div className='kurs-box kurs-box1'>
                 <h4>Kostenloser HTML & CSS Workshop - Online</h4>
                 <p>
                   Umfang: 3 Stunden / 18:00-21:00 Uhr <br />
@@ -168,10 +205,27 @@ const WorkIT = (props) => {
                   - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt
                   online
                 </p>
+                <div className='buttons'>
+                  <Link href='https://www.eventbrite.de/o/supercode-20262218583'>
+                    <a
+                      href='https://www.eventbrite.de/o/supercode-20262218583'
+                      target='_blank'
+                    >
+                      Zum Kurs
+                    </a>
+                  </Link>
+                  {/* <Beratung_flexible
+                buttonText='Beratung'
+                // buttonMinWidth='23em'
+                buttonWidth='12rem'
+                buttonTextColor='#fff'
+                buttonFontSize='14px'
+              /> */}
+                </div>
               </div>
             </div>
-            <div className="kurs-box-container">
-              <div className="kurs-box kurs-box2">
+            <div className='kurs-box-container'>
+              <div className='kurs-box kurs-box2'>
                 <h4>Try-IT-Trainingscenter</h4>
                 <p>
                   Umfang: 4 Wochen in Vollzeit <br />
@@ -199,15 +253,32 @@ const WorkIT = (props) => {
                   - Teilnahme erfolgt online <br />- Zertifikat über deine
                   Teilnahme
                 </p>
+                <div className='buttons'>
+                  <Link href='https://www.eventbrite.de/o/supercode-20262218583'>
+                    <a
+                      href='https://www.eventbrite.de/o/supercode-20262218583'
+                      target='_blank'
+                    >
+                      Zum Kurs
+                    </a>
+                  </Link>
+                  {/* <Beratung_flexible
+                buttonText='Beratung'
+                // buttonMinWidth='23em'
+                buttonWidth='12rem'
+                buttonTextColor='#fff'
+                buttonFontSize='14px'
+              /> */}
+                </div>
               </div>
             </div>
-            <div className="kurs-box-container">
-              <div className="kurs-box kurs-box3">
+            {/* 
+            <div className='kurs-box-container'>
+              <div className='kurs-box kurs-box3'>
                 <h4>
                   1 Monat Web-Design <br /> UX & UI Workshop
                 </h4>
                 <h5>Weitere Informationen folgen ab Mai 2021</h5>
-                {/* 
                 <p>
                   Umfang: 4 <br />
                   Start: xx.xx.xxxx Ende: xx.xx.xxxx
@@ -230,9 +301,10 @@ const WorkIT = (props) => {
                 <p>
                   - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt
                   online
-                </p> */}
+                </p> 
               </div>
             </div>
+                */}
           </Carousel>
         </div>
       </article>
@@ -246,7 +318,7 @@ const WorkIT = (props) => {
         #kurse {
           padding: 7em 0 5em;
           position: relative;
-          z-index: 1;
+          z-index: 0;
         }
 
         .aside {
@@ -257,7 +329,7 @@ const WorkIT = (props) => {
           font-weight: 300;
           left: 3%;
           top: 60%;
-          font-family: "Poppins", sans-serif;
+          font-family: 'Poppins', sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 12px;
@@ -265,10 +337,11 @@ const WorkIT = (props) => {
           letter-spacing: 3px;
           text-transform: uppercase;
           color: #ffffff;
+          z-index: 0;
         }
 
         h1 {
-          font-family: "Neue_Machina_Regular_400";
+          font-family: 'Neue_Machina_Regular_400';
           font-size: 3.5em;
           color: #fff;
           line-height: 1.2em;
@@ -289,24 +362,31 @@ const WorkIT = (props) => {
         }
 
         .kurs-boxes {
+          position: relative;
           box-sizing: border-box;
           display: flex;
           align-items: flex-start;
-          position: relative;
+          margin: auto;
+          z-index: 0;
         }
         .kurs-box-container {
           padding: 0 15%;
+          z-index: 0;
         }
         .kurs-box {
           background: var(--super-lila);
           border: 2px solid var(--super-green);
-          padding: 1em 4% 1em 2%;
+          padding: 2em 5% 2em 2%;
           width: 100%;
-          z-index: 0;
+          z-index: -1;
+          margin: 0 35px;
+        }
+        .kurs-box1 {
         }
         .kurs-box2 {
-          margin-top: 30px;
+          // margin-top: 30px;
           margin-left: -2px;
+          z-index: -1;
         }
         .kurs-box3 {
           margin-left: -2px;
@@ -325,20 +405,27 @@ const WorkIT = (props) => {
           position: relative;
         }
         .buttons {
+          position: relative;
           display: flex;
-          justify-content: center;
+          justify-content: space-around;
           align-content: center;
+          gap: 3rem;
+        }
+
+        .buttons a {
+          margin-top: 0;
         }
         a {
           margin: 2em 1em 0;
-          font-family: "Fira Sans", sans-serif;
-          font-size: 0.7em;
+          font-family: 'Fira Sans', sans-serif;
+          font-size: 0.73em;
           font-weight: 600;
           line-height: 1.5em;
           text-align: center;
           letter-spacing: 3.5px;
           text-transform: uppercase;
-          padding: 10px 70px;
+          padding: 14px 40px;
+          // width: 22rem;
           background: transparent;
           border: 1px solid var(--super-green);
           text-decoration: none;
@@ -350,7 +437,7 @@ const WorkIT = (props) => {
           background: var(--super-green);
         }
         h4 {
-          font-family: "Neue_Machina_Regular_400";
+          font-family: 'Neue_Machina_Regular_400';
           color: #ffffff;
           font-size: 1.6em;
           margin-bottom: 14px;
@@ -360,13 +447,13 @@ const WorkIT = (props) => {
         }
 
         h5 {
-          font-family: "Neue_Machina_Regular_400";
+          font-family: 'Neue_Machina_Regular_400';
           color: #ffffff;
           font-size: 1.2em;
         }
 
         p {
-          font-family: "Fira Sans", sans-serif;
+          font-family: 'Fira Sans', sans-serif;
           color: #ffffff;
           font-size: 14px;
           margin-bottom: 25px;
@@ -383,6 +470,7 @@ const WorkIT = (props) => {
           }
           .kurs-box {
             margin: 0;
+            z-inex: 1;
           }
           .kurse-content {
             padding: 0 5%;

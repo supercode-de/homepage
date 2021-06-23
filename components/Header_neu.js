@@ -1,31 +1,32 @@
-import React, { useState, useEffect } from "react";
-import Typeform from "./TypeForm_neu";
-import Typewriter from "typewriter-effect";
+import React, { useState, useEffect } from 'react';
+import Typeform from './TypeForm_neu';
+import Typewriter from 'typewriter-effect';
+import Telefon_neu from './small/Telefon_neu';
 
 const Header_neu = (props) => {
   return (
-    <div id="header" className="lilaGitter">
-      <div className="super-code">super(code)</div>
-      <span className="aside"> 📞 +49 211 7817 233-0 </span>
-      <div className="twocolumn">
-        <div className="onecolumn">
+    <div id='header' className='lilaGitter'>
+      <div className='super-code'>super(code)</div>
+      <Telefon_neu position='left' />
+      <div className='twocolumn'>
+        <div className='onecolumn'>
           <img
-            src="/webp/_DSC2765_LowRes.webp"
-            alt="Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp"
+            src='/webp/_DSC2765_LowRes.webp'
+            alt='Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp'
           />
           <h1>
-            <span className="super"> Programmieren</span>
-            <br /> <span className="circle">lernen</span> war noch nie
-            <span className="super2">
-              <span className="after-span">
+            <span className='super'> Programmieren</span>
+            <br /> <span className='circle'>lernen</span> war noch nie
+            <span className='super2'>
+              <span className='after-span'>
                 <Typewriter
                   options={{
                     strings: [
-                      "digitaler.",
-                      "persönlicher.",
-                      "einfacher.",
-                      "intuitiver.",
-                      "motivierender.",
+                      'digitaler.',
+                      'persönlicher.',
+                      'einfacher.',
+                      'intuitiver.',
+                      'motivierender.',
                     ],
                     autoStart: true,
                     loop: true,
@@ -36,19 +37,20 @@ const Header_neu = (props) => {
           </h1>
         </div>
         <img
-          src="/webp/_DSC2652_LowRes_12.webp"
-          alt="Frauen Weiterbildung Programmieren lernen, SuperCode Webentwicklerin Frauen IT"
+          src='/webp/_DSC2652_LowRes_12.webp'
+          alt='Frauen Weiterbildung Programmieren lernen, SuperCode Webentwicklerin Frauen IT'
         />
       </div>
 
       <img
-        src="/webp/_DSC8255_LowRes.webp"
-        alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
+        src='/webp/_DSC8255_LowRes.webp'
+        alt='Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter'
       />
       <div>
         <Typeform />
       </div>
-      <style jsx>{`
+      <style jsx>
+        {`
           img + div {
             display: none;
           }
@@ -79,28 +81,28 @@ const Header_neu = (props) => {
           }
           h1 span.super2::after {
             position: absolute;
-            background: url("/img/vector41.svg") center/cover no-repeat;
+            background: url('/img/vector41.svg') center/cover no-repeat;
             height: 2px;
             width: 70%;
             right: 0;
             bottom: 4px;
-            content: "";
+            content: '';
             display: block;
           }
           h1 span.super2::before {
             position: absolute;
-            background: url("/img/vector41.svg") center/cover no-repeat;
+            background: url('/img/vector41.svg') center/cover no-repeat;
             height: 2px;
             width: 50%;
             right: 0;
             bottom: 0px;
-            content: "";
+            content: '';
             display: block;
             transform: rotate(0.5deg);
           }
 
           h1 span.circle {
-            background: url("/img/Vector64.svg") center/contain no-repeat;
+            background: url('/img/Vector64.svg') center/contain no-repeat;
             padding: 10px;
           }
           .super-code {
@@ -109,7 +111,7 @@ const Header_neu = (props) => {
             left: 7rem;
             color: #fff;
             font-size: 1.3rem;
-            font-family: "Fira Sans", sans-serif;
+            font-family: 'Fira Sans', sans-serif;
             font-weight: bold;
           }
           .twocolumn {

@@ -75,6 +75,7 @@ class Layout extends Component {
         )}
         {this.props.children}
         {this.props.oneComponent ? '' : <Footer_neu />}
+<<<<<<< HEAD
 
         <style jsx global>
           {`
@@ -139,6 +140,72 @@ class Layout extends Component {
               line-height: 1.2em;
             }
 
+=======
+
+        <style jsx global>
+          {`
+            @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+            @font-face {
+              font-family: 'Neue_Machina_Regular_400';
+              src: url('/Neue_Machina_Regular_400.otf');
+            }
+            @font-face {
+              font-family: 'Neue_Machina_Ultrabold';
+              src: url('/Neue_Machina_Ultrabold.otf');
+            }
+            @font-face {
+              font-family: 'Neue_Machina_Light';
+              src: url('/Neue_Machina_Light.otf');
+            }
+            :root {
+              --super-green: #3dd7ac;
+              --super-lila: #5d3ede;
+              --super-blau: #070021;
+              --super-black: #03000f;
+              --super-yellow: #ffda1a;
+            }
+            html {
+              scroll-behavior: smooth;
+            }
+            .image-item-partner {
+              align-self: center;
+            }
+            section .right h1 {
+              font-size: 2em;
+              color: #000;
+            }
+            section .right h2 {
+              color: #000;
+            }
+            section .right img {
+              width: 80% !important;
+            }
+            html,
+            body {
+              padding: 0;
+              margin: 0;
+            }
+            * {
+              box-sizing: border-box;
+              font-family: 'Neue_Machina_Regular_400', sans-serif;
+            }
+            a,
+            button {
+              font-family: 'Neue_Machina_Regular_400', sans-serif;
+            }
+            p {
+              font-size: 1.125rem;
+              line-height: 1.563rem;
+            }
+            h1,
+            h2 {
+              font-size: 4em;
+              line-height: 1.2em;
+            }
+
+>>>>>>> df676c529057b833c2f65fce5e7bf2e631110f43
             // BACKGROUND STYLES
             .lilaGitter {
               background-color: var(--super-lila);
@@ -209,10 +276,29 @@ class Layout extends Component {
             .accordion__button {
               display: flex;
               justify-content: space-between;
+<<<<<<< HEAD
+=======
+              width: 100%;
+              padding: 20px 0;
+>>>>>>> df676c529057b833c2f65fce5e7bf2e631110f43
             }
             .accordion__button:hover {
               cursor: pointer;
             }
+<<<<<<< HEAD
+=======
+
+            .accordion__button svg {
+              width: 10%;
+            }
+
+            // .accordion__heading {
+            //   display: flex;
+            //   justify-content: space-between;
+
+            // }
+
+>>>>>>> df676c529057b833c2f65fce5e7bf2e631110f43
             .accordion__heading,
             .accordion__panel {
               padding: 2rem 3rem;
@@ -234,6 +320,7 @@ class Layout extends Component {
             .accordion__button[aria-selected='true'] svg {
               transform: rotate(180deg);
             }
+<<<<<<< HEAD
 
             // media queries für die accordion Styles
             @media (max-width: 320px) {
@@ -249,6 +336,23 @@ class Layout extends Component {
               z-index: 1;
             }
 
+=======
+
+            // media queries für die accordion Styles
+            @media (max-width: 320px) {
+              .accordion__heading {
+                padding: 1.125rem;
+                font-size: 1.2rem;
+              }
+            }
+
+            // Styling Carousel Blog Start
+
+            .react-multiple-carousel__arrow {
+              z-index: 1;
+            }
+
+>>>>>>> df676c529057b833c2f65fce5e7bf2e631110f43
             #blog .react-multiple-carousel__arrow {
               background: none;
               // top: -1px;
