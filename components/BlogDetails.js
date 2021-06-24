@@ -1,57 +1,74 @@
-import Link from "next/link";
-import ReactMarkdown from "react-markdown";
+import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 
 const BlogDetails = (props) => {
   const pixelSize = 2;
   // console.log("props", props)
   return (
-    <div id="blogDetails">
+    <div id='blogDetails'>
       <section>
-        <article className="left">
+        <article className='left'>
           <h1>{props.title.main}</h1>
           <h2>{props.title.sub}</h2>
         </article>
-        <article className="right">
+        <article className='right'>
           <div>
             <ReactMarkdown>{props.text}</ReactMarkdown>
           </div>
         </article>
       </section>
+
       <footer>
-        <article className="left">
-          <div className="hide"></div>
-          <div className="text-container">
+        <article className='left'>
+          <div className='hide'></div>
+          <Link
+            href={
+              '/blogs/' +
+              props.titlePrevious.main
+                .replace(/ /g, '-')
+                .replace(/\?|\#|”|“|"|,|:|\./g, '')
+            }
+          >
+            <div className='arrow-left'>
+              <img src='/img/arrowLeft.svg' alt='' />
+              {/* <a>←</a> */}
+            </div>
+          </Link>
+          <div className='text-container'>
             <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
           </div>
-          <Link href={"/blogs/" + props.titlePrevious.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|:|\./g, "")}>
-            <div className="arrow-left">
-              <a>←</a>
-            </div>
-          </Link>
         </article>
-        <article className="right">
-          <Link href={"/blogs/" + props.titleNext.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|:|\./g, "")}>
-            <div className="arrow-right">
-              <a>→</a>
-            </div>
-          </Link>
-          <div className="text-container">
+        <article className='right'>
+          <div className='text-container'>
             <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
           </div>
+          <Link
+            href={
+              '/blogs/' +
+              props.titleNext.main
+                .replace(/ /g, '-')
+                .replace(/\?|\#|”|“|"|,|:|\./g, '')
+            }
+          >
+            <div className='arrow-right'>
+              {/* <a>→</a> */}
+              <img src='/img/arrowRight.svg' alt='' />
+            </div>
+          </Link>
         </article>
       </footer>
       <style jsx>{`
         section {
-          display: flex;
+          // display: flex;
         }
 
         .left,
         .right {
-          width: 50%;
+          // width: 50%;
         }
         section .right {
-          overflow-y: auto;
-          height: 90vh;
+          // overflow-y: auto;
+          // height: 90vh;
           padding: 0 5%;
         }
         section .right div h2 {
@@ -60,7 +77,7 @@ const BlogDetails = (props) => {
 
         section .left {
           height: 90vh;
-          display: flex;
+          // display: flex;
           flex-direction: column;
           justify-content: center;
           align-items: center;
@@ -145,7 +162,8 @@ const BlogDetails = (props) => {
           align-items: center;
         }
         .arrow-left {
-          background: rgba(243, 243, 243);
+          // background: rgba(243, 243, 243);
+          background: #000;
           transition background 0.5s;
         }
         .arrow-right {
