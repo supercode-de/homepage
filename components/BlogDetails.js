@@ -1,57 +1,84 @@
-import Link from "next/link";
-import ReactMarkdown from "react-markdown";
+import Link from 'next/link';
+import ReactMarkdown from 'react-markdown';
 
 const BlogDetails = (props) => {
   const pixelSize = 2;
   // console.log("props", props)
   return (
-    <div id="blogDetails">
+    <div id='blogDetails'>
       <section>
-        <article className="left">
+        {/* <article className='left'>
           <h1>{props.title.main}</h1>
           <h2>{props.title.sub}</h2>
-        </article>
-        <article className="right">
+        </article> */}
+        <article className='right page'>
           <p>
             <ReactMarkdown>{props.text}</ReactMarkdown>
           </p>
         </article>
       </section>
       <footer>
-        <article className="left">
-          <div className="hide"></div>
-          <div className="text-container">
+        <article className='left'>
+          <div className='hide'></div>
+          <div className='text-container'>
             <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
           </div>
-          <Link href={"/blogs/" + props.titlePrevious.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|:|\./g, "")}>
-            <div className="arrow-left">
+          <Link
+            href={
+              '/blogs/' +
+              props.titlePrevious.main
+                .replace(/ /g, '-')
+                .replace(/\?|\#|”|“|"|,|:|\./g, '')
+            }
+          >
+            <div className='arrow-left'>
               <a>←</a>
             </div>
           </Link>
         </article>
-        <article className="right">
-          <Link href={"/blogs/" + props.titleNext.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|:|\./g, "")}>
-            <div className="arrow-right">
+        <article className='right'>
+          <Link
+            href={
+              '/blogs/' +
+              props.titleNext.main
+                .replace(/ /g, '-')
+                .replace(/\?|\#|”|“|"|,|:|\./g, '')
+            }
+          >
+            <div className='arrow-right'>
               <a>→</a>
             </div>
           </Link>
-          <div className="text-container">
+          <div className='text-container'>
             <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
           </div>
         </article>
       </footer>
       <style jsx>{`
         section {
-          display: flex;
+          // display: flex;
+          background-color:#000;
+         
         }
 
         .left,
         .right {
-          width: 50%;
+          // width: 50%;
+       
         }
         section .right {
-          overflow-y: auto;
-          height: 90vh;
+          // overflow-y: auto;
+          // height: 90vh;
+          padding: 100px 5%;
+           color: #fff ;
+        }
+        section .right div h2 {
+          
+          color: #fff;
+        }
+        section .page div h2 {
+         
+          color: #fff !important;
         }
 
         section .left {
@@ -81,6 +108,7 @@ const BlogDetails = (props) => {
           padding-top: 30px;
           padding-left: 80px;
           margin-top: 0;
+    
         }
 
         section .left h1 {
@@ -104,7 +132,8 @@ const BlogDetails = (props) => {
           padding-top: 50px;
           padding: 20px 6%;
           line-height: 2;
-          color: rgba(0, 0, 0, 0.5);
+          // color: rgba(0, 0, 0, 0.5);
+          
         }
 
         section p span {
@@ -115,11 +144,13 @@ const BlogDetails = (props) => {
           padding-left: 50px;
           padding-top: 30px;
           margin-top: 0;
+          color: #555;
         }
 
         section .right h2 span {
           font-size: 0.7em;
-          color: rgba(0, 0, 0, 0.5);
+          // color: rgba(0, 0, 0, 0.5);
+          color: #fff;
         }
 
         footer {
@@ -131,6 +162,7 @@ const BlogDetails = (props) => {
         footer .right {
           display: flex;
           justify-content: space-between;
+          width: 50%;
         }
 
         .arrow-left,
@@ -149,14 +181,14 @@ const BlogDetails = (props) => {
             transition background 0.5s;
         }
         .arrow-left:hover {
-          cursor: pointer;
-          background: #ccc;
-          transition background 0.5s;
+         cursor: pointer;
+        //   background: #ccc;
+        //   transition background 0.5s;
         }
         .arrow-right:hover {
           cursor: pointer;
-          background: #333;
-          transition background 0.5s;
+          // background: #333;
+          // transition background 0.5s;
         }
      
         .arrow-left a {
@@ -186,17 +218,21 @@ const BlogDetails = (props) => {
           padding-left: 20px;
           padding-top: 10px;
           padding-bottom: 10px;
+          background-color:#000;
+          color:#fff;
         }
 
         .text-container h2 {
           margin-bottom: 0;
           font-size: 1.2em;
+          color: #fff;
         }
 
         .text-container p {
           margin: 0;
           font-size: 0.8em;
-          color: rgba(0, 0, 0, 0.6);
+          // color: rgba(0, 0, 0, 0.5);
+          
         }
         .right img {
           width: 80% !important;
