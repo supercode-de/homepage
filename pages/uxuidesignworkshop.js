@@ -79,7 +79,7 @@ export default function Workshop() {
           <div id='form'>
             <HubspotForm
               portalId='5807040'
-              formId='e48452f8-ff46-4ff5-b946-f9fc138ed732'
+              formId='900d6ea0-0379-4182-a786-61c2092c9e75'
               onSubmit={() => console.log('Submit!')}
               onReady={(form) => console.log('Form ready!')}
               loading={<div>Loading...</div>}
