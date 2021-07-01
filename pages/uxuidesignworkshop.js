@@ -1,4 +1,4 @@
-import Layout from '../components/Layout';
+import Layout_workshop from '../components/Layout_workshop';
 import { useWindowSize } from '../components/functions/windowSize';
 import HubspotForm from 'react-hubspot-form';
 import Arrow from '../components/small/Arrow';
@@ -13,7 +13,7 @@ export default function Workshop() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout>
+      <Layout_workshop>
         <div id='headr'>
           <header className=''>
             {/* <div id='header'></div> */}
@@ -490,7 +490,7 @@ export default function Workshop() {
             }
         }
       `}</style>
-      </Layout>
+      </Layout_workshop>
     );
   } else {
     return '';
