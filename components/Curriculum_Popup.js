@@ -1,5 +1,5 @@
-import Popup from "reactjs-popup";
-import HubspotForm from "react-hubspot-form";
+import Popup from 'reactjs-popup';
+import HubspotForm from 'react-hubspot-form';
 
 const Typeform = (props) => {
   // console.log("das ist die hubspot form id: ", props.hubspot)
@@ -10,36 +10,36 @@ const Typeform = (props) => {
   return (
     <>
       <Popup
-        trigger={<button className="button">{props.buttonText}</button>}
-        position=" center"
+        trigger={<button className='button'>{props.buttonText}</button>}
+        position=' center'
       >
-        <div id="curriculum-popup">
+        <div id='curriculum-popup'>
           {/* <button
             className="popup-close"
             onClick={() => toggleJetztAnmelden(!isHidden)}
           >
             &#10539;
           </button> */}
-          <div className="curriculum-popup-content">
+          <div className='curriculum-popup-content'>
             {/* <div className="curriculum-popup-image">
               <img src="img/SuperCode Curriculum.jpg" alt="" />
             </div> */}
-            <div className="curriculum-popup-input">
-              <h1 className="three-lines">
+            <div className='curriculum-popup-input'>
+              <h1 className='three-lines'>
                 Curriculum <br /> herunter- <br />
-                <span className="super">laden</span>
+                <span className='super'>laden</span>
               </h1>
-              <h1 className="one-line">
-                Curriculum herunter<span className="super">laden</span>
+              <h1 className='one-line'>
+                Curriculum herunter<span className='super'>laden</span>
               </h1>
               <HubspotForm
-                portalId="5807040"
+                portalId='5807040'
                 // formId="5c9d4947-7d51-448d-845a-231155f27380"
                 formId={props.hubspot}
-                onSubmit={() => console.log("Submit!")}
-                onReady={(form) => console.log("Form ready!")}
+                onSubmit={() => console.log('Submit!')}
+                onReady={(form) => console.log('Form ready!')}
                 loading={<div>Loading...</div>}
-                className="email-newsletter-form"
+                className='email-newsletter-form'
               />
             </div>
           </div>
@@ -47,7 +47,7 @@ const Typeform = (props) => {
       </Popup>
       <style jsx>{`
         .button {
-          font-family: "Fira Sans", sans-serif;
+          font-family: 'Fira Sans', sans-serif;
           font-size: 0.875em;
           letter-spacing: 1px;
           text-transform: uppercase;
@@ -129,7 +129,7 @@ const Typeform = (props) => {
         }
 
         h1 {
-          font-family: "Neue_Machina_Regular_400";
+          font-family: 'Neue_Machina_Regular_400';
           font-size: 2.5em;
           line-height: 1.2em;
           color: #fff;
@@ -155,7 +155,8 @@ const Typeform = (props) => {
         }
         @media (max-width: 768px) {
           #curriculum-popup {
-            left: ${(document.documentElement.clientWidth - 500) / 2}px;
+            // left: ${(document.documentElement.clientWidth - 500) / 2}px;
+            left: 50%;
             width: 500px;
           }
           h1 {
@@ -188,7 +189,8 @@ const Typeform = (props) => {
 
         @media (max-width: 568px) {
           #curriculum-popup {
-            left: ${(document.documentElement.clientWidth - 400) / 2}px;
+            // left: ${(document.documentElement.clientWidth - 400) / 2}px;
+            left: 50%;
             width: 400px;
           }
           h1 {
@@ -197,7 +199,8 @@ const Typeform = (props) => {
         }
         @media (max-width: 468px) {
           #curriculum-popup {
-            left: ${(document.documentElement.clientWidth - 300) / 2}px;
+            // left: ${(document.documentElement.clientWidth - 300) / 2}px;
+            left: 50%;
             width: 300px;
           }
           .button {
@@ -219,7 +222,7 @@ const Typeform = (props) => {
           // }
         }
         @media (max-height: ${document.documentElement.clientHeight * 0.15 +
-        600}px) {
+          600}px) {
           .one-line {
             display: block;
           }
@@ -227,22 +230,14 @@ const Typeform = (props) => {
             display: none;
           }
           h1 {
-            font-family: "Neue_Machina_Regular_400";
+            font-family: 'Neue_Machina_Regular_400';
             font-size: 2em;
           }
         }
         @media (min-width: ${document.documentElement.clientHeight /
-        2}px) and (max-height: ${document.documentElement.clientHeight *
-        0.15 +
-        600}px) {
-          #curriculum-popup {
-            width: ${document.documentElement.clientWidth -
-        2 * (document.documentElement.clientWidth / 10)}px;
-            left: ${(document.documentElement.clientWidth -
-          (document.documentElement.clientWidth -
-            2 * (document.documentElement.clientWidth / 10))) /
-        2}px;
-          }
+          2}px) and (max-height: ${document.documentElement.clientHeight *
+            0.15 +
+          600}px) {
         }
       `}</style>
     </>
