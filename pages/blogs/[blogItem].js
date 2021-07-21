@@ -32,7 +32,7 @@ const blogItem = (props) => {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout>
+      <Layout color='#fff'>
         {/* Erst wenn etwas in thisBlog ist geht es weiter */}
         {thisBlog.length !== 0 ? (
           <BlogDetails

@@ -9,7 +9,7 @@ Der Kurs bestand aus 16 Teilnehmenden, darunter 13 Männer und 3 Frauen, die inn
 
 Die Teams für die Abschlussarbeiten bestanden aus jeweils 4 Leuten, die unter sich die Rollen der Projektmanager*innen, Entwickler*innen und Moderator*innen aufgeteilt hatten. In nur einer Woche Projektarbeit programmierten sie insgesamt vier professionelle Webseiten mit responsivem Layout, Animationen und vielen Funktionen mittels HTML, CSS, JavaScript und React.js:
 
-1. Astrein Schreinerei: Neue Homepage
+ 1. Astrein Schreinerei: Neue Homepage
 2. SuperDigital e.V.: Neue Homepage
 3. SuperCode GmbH: Landingpage
 4. Code for Good!: Projektplattform 

@@ -108,10 +108,10 @@ class Layout extends Component {
             }
             section .right h1 {
               font-size: 2em;
-              color: #000;
+              color: #fff;
             }
             section .right h2 {
-              color: #000;
+              color: #fff;
             }
             section .right img {
               width: 80% !important;
@@ -132,6 +132,7 @@ class Layout extends Component {
             p {
               font-size: 1.125rem;
               line-height: 1.563rem;
+              color: #fff;
             }
             h1,
             h2 {

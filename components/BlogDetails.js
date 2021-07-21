@@ -5,12 +5,12 @@ const BlogDetails = (props) => {
   const pixelSize = 2;
   // console.log("props", props)
   return (
-    <div id='blogDetails'>
+    <div id='blogDetails ' className='blackGitter'>
       <section>
-        <article className='left'>
+        {/* <article className='left'>
           <h1>{props.title.main}</h1>
           <h2>{props.title.sub}</h2>
-        </article>
+        </article> */}
         <article className='right'>
           <p>
             <ReactMarkdown>{props.text}</ReactMarkdown>
@@ -32,31 +32,38 @@ const BlogDetails = (props) => {
             }
           >
             <div className='arrow-left'>
-              <a>←</a>
+              <img src='/img/Arrow18.svg' alt='' />
+              {/* <a>←</a> */}
             </div>
           </Link>
         </article>
         <article className='right'>
-          <Link
-            href={
-              '/blogs/' +
-              props.titleNext.main
-                .replace(/ /g, '-')
-                .replace(/\?|\#|”|“|"|,|:|\./g, '')
-            }
-          >
-            <div className='arrow-right'>
-              <a>→</a>
-            </div>
-          </Link>
           <div className='text-container'>
             <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
+            <Link
+              href={
+                '/blogs/' +
+                props.titleNext.main
+                  .replace(/ /g, '-')
+                  .replace(/\?|\#|”|“|"|,|:|\./g, '')
+              }
+            >
+              <div className='arrow-right'>
+                {/* <a>→</a> */}
+                <img src='/img/Arrow19.svg' alt='' />
+              </div>
+            </Link>
           </div>
         </article>
       </footer>
       <style jsx>{`
+#blogDetails{
+  color:#fff;
+}
+
         section {
-          display: flex;
+          // display: flex;
+         
         }
 
         .left,
@@ -137,7 +144,7 @@ const BlogDetails = (props) => {
         }
 
         footer {
-          background: rgba(243, 243, 243);
+          
           display: flex;
         }
 
@@ -155,21 +162,22 @@ const BlogDetails = (props) => {
           align-items: center;
         }
         .arrow-left {
-          background: rgba(243, 243, 243);
+          // background: rgba(243, 243, 243);
+          // background: #000;
           transition background 0.5s;
         }
         .arrow-right {
-            background: #000;
+            // background: #000;
             transition background 0.5s;
         }
         .arrow-left:hover {
           cursor: pointer;
-          background: #ccc;
-          transition background 0.5s;
+         
+         
         }
         .arrow-right:hover {
           cursor: pointer;
-          background: #333;
+          
           transition background 0.5s;
         }
      

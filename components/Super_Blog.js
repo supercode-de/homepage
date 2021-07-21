@@ -5,10 +5,27 @@ const SuperBlog = () => {
   return (
     <section className='blog-header blackGitter'>
       <article className='blog-hl'>
-        <h2>Meine</h2>
-        <h2>Straße,</h2>
-        <h2>mein</h2>
-        <h2 className='letterstroke'>Blog</h2>
+        <div>
+          <h2>Meine</h2>
+          <h2>Straße,</h2>
+          <h2>
+            mein <span className='letterstroke'>Blog</span>
+          </h2>
+        </div>
+        <div>
+          <div className='blog-hi-gallery'>
+            <div>
+              <img src='/img/image33.jpg' alt='' />
+            </div>
+            <div>
+              <img src='/img/image35.jpg' alt='' />
+            </div>
+          </div>
+
+          <div>
+            <img src='/img/image34.jpg' alt='' />
+          </div>
+        </div>
       </article>
       <section className='blog-gallery'>
         {reverseBlog.map((item, i) => {
@@ -48,6 +65,11 @@ const SuperBlog = () => {
         }
         .blog-hl {
           margin: 5% 12rem;
+          display: flex;
+        }
+        .blog-hi-gallery {
+          display: flex;
+          align-items: baseline;
         }
         .letterstroke {
           color: transparent;
