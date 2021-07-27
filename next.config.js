@@ -18,6 +18,7 @@ module.exports = {
       '/fullstack': { page: '/fullstack-kurs' },
       '/supercodeworkshop': { page: '/supercodeworkshop' },
       '/uxuidesignworkshop': { page: '/uxuidesignworkshop' },
+      '/danke': { page: '/danke' },
 
       '/blogs/YouCode-YouTube-YouRock!': { page: '/blogs/[blogItem]' },
       '/blogs/Als-Web-Entwicklerin-werde-ich-mein-ganzes-Leben-lang-lernen---und-ich-habe-gelernt-wie-das-geht!':
