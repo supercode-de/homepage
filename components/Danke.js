@@ -10,7 +10,7 @@ const Danke = (props) => {
   useEffect(() => {
     setTimeout(() => {
       router.push('/');
-    }, 3000);
+    }, 4000);
   }, []);
   return (
     <div id='header' className='lilaGitter'>
