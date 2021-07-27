@@ -10,7 +10,7 @@ const Danke = (props) => {
   useEffect(() => {
     setTimeout(() => {
       router.push('/');
-    }, 5000);
+    }, 3000);
   }, []);
   return (
     <div id='header' className='lilaGitter'>
@@ -19,7 +19,7 @@ const Danke = (props) => {
 
       <div className='content'>
         <h1>
-          <span className='super'>Danke</span>
+          <span className='lines'>Danke</span>
         </h1>
 
         <p>
