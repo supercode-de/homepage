@@ -99,7 +99,7 @@ export default function Workshop() {
           font-size:8rem;
           font-family:"Neue_Machina_Ultrabold"
           font-weight:ultra-bold;
-          margin-top:80px;
+          margin-top:55px;
         }
 
         .stroke{
