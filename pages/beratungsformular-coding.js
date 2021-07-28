@@ -92,7 +92,7 @@ export default function Workshop() {
           font-size:7.5rem;
           margin-top:0;
           position:relative;
-          top:100px;
+          top:110px;
         }
         .willkommen{
           color:#3DD7AC;
