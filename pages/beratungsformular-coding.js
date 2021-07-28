@@ -78,7 +78,7 @@ export default function Workshop() {
         header{
           padding:100px 0;
           text-align:center;
-          padding-bottom:220px;
+          padding-bottom:195px;
           
         }
         header h2{
@@ -99,7 +99,7 @@ export default function Workshop() {
           font-size:8rem;
           font-family:"Neue_Machina_Ultrabold"
           font-weight:ultra-bold;
-          margin-top:55px;
+          margin-top:48px;
         }
 
         .stroke{
