@@ -9,6 +9,7 @@ module.exports = {
       '/workshops': { page: '/workshops' },
       '/supercodeworkshop': { page: '/supercodeworkshop' },
       '/beratung-coding': { page: '/beratungsformular-coding' },
+      '/beratungformular': { page: '/beratungsformular-coding' },
       '/beratung-design': { page: '/beratungsformular-design' },
       '/dsgvo': { page: '/dsgvo' },
       '/impressum': { page: '/impressum' },
