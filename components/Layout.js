@@ -107,14 +107,16 @@ class Layout extends Component {
               align-self: center;
             }
             section .right h1 {
-              font-size: 2em;
+              font-size: 4em;
               color: #fff;
             }
             section .right h2 {
               color: #fff;
             }
+       
             section .right img {
-              width: 80% !important;
+              width: 100% !important;
+              t
             }
             html,
             body {
@@ -129,16 +131,64 @@ class Layout extends Component {
             button {
               font-family: 'Neue_Machina_Regular_400', sans-serif;
             }
+
+            a{
+              color:#fff;
+            }
+li{
+  color:#fff;
+}
+
+img{
+  margin:30px 0;
+}
+
             p {
               font-size: 1.125rem;
               line-height: 1.563rem;
               color: #fff;
+              text-align: left;
+             
+            }
+
+            section .right p{
+              width:88%;
+              margin:auto;
             }
             h1,
             h2 {
-              font-size: 4em;
-              line-height: 1.2em;
+              font-size: 3.2em;
+              line-height: 1.1em;
+              
             }
+            
+       
+            h1{
+              width:88%;
+              margin:auto;
+              margin-top:150px;
+
+            }
+            h2{
+              text-align:left;
+            }
+
+            section .right h2{
+          
+            }
+
+            h3{
+              color:#fff;
+            }
+
+          
+            // h1:after{
+            //   content:attr(data-text);
+            //   color:red;
+            //   transform:translateX(-100%);
+            //   position:absolute;
+            // }
+            
 
             // BACKGROUND STYLES
             .lilaGitter {
