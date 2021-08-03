@@ -20,9 +20,7 @@ const BlogDetails = (props) => {
       <footer>
         <article className='left'>
           <div className='hide'></div>
-          <div className='text-container'>
-            <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
-          </div>
+          <div className='text-container'></div>
           <Link
             href={
               '/blogs/' +
@@ -33,13 +31,13 @@ const BlogDetails = (props) => {
           >
             <div className='arrow-left'>
               <img src='/img/Arrow18.svg' alt='' />
-              {/* <a>←</a> */}
             </div>
           </Link>
+          <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
         </article>
         <article className='right'>
+          <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
           <div className='text-container'>
-            <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
             <Link
               href={
                 '/blogs/' +
@@ -49,7 +47,6 @@ const BlogDetails = (props) => {
               }
             >
               <div className='arrow-right'>
-                {/* <a>→</a> */}
                 <img src='/img/Arrow19.svg' alt='' />
               </div>
             </Link>
@@ -57,23 +54,21 @@ const BlogDetails = (props) => {
         </article>
       </footer>
       <style jsx>{`
-#blogDetails{
-  color:#fff;
-}
+        #blogDetails {
+          color: #fff;
+        }
 
         section {
-          // display: flex;
-         
+          //  display: flex;
         }
 
         .left,
         .right {
-          width: 50%;
         }
-        section .right {
-          overflow-y: auto;
-          height: 90vh;
-        }
+        // section .right {
+        //   overflow-y: auto;
+        //   height: 90vh;
+        // }
 
         section .left {
           height: 90vh;
@@ -144,8 +139,8 @@ const BlogDetails = (props) => {
         }
 
         footer {
-          
           display: flex;
+          justify-content: space-between;
         }
 
         footer .left,
@@ -154,37 +149,27 @@ const BlogDetails = (props) => {
           justify-content: space-between;
         }
 
-        .arrow-left,
-        .arrow-right {
-          width: 10vh;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
         .arrow-left {
-          // background: rgba(243, 243, 243);
-          // background: #000;
-          transition background 0.5s;
+          position: relative;
+          top: 40px;
+          left: 5%;
         }
         .arrow-right {
-            // background: #000;
-            transition background 0.5s;
+          position: relative;
+          top: -60px;
+          right: 5%;
         }
         .arrow-left:hover {
           cursor: pointer;
-         
-         
         }
         .arrow-right:hover {
           cursor: pointer;
-          
-          transition background 0.5s;
         }
-     
-        .arrow-left a {
-          color: #000;
-          text-decoration: none;
-        }
+
+        // .arrow-left a {
+        //   color: #000;
+        //   text-decoration: none;
+        // }
         .arrow-right a {
           color: #fff;
           text-decoration: none;
