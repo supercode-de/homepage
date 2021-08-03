@@ -1,8 +1,8 @@
 // import { useWindowSize } from './functions/windowSize'
 
-import Carousel from "react-multi-carousel";
-import data from "./data/team.json";
-import WerdeTeilTeam from "./WerdeTeilTeam";
+import Carousel from 'react-multi-carousel';
+import data from './data/team.json';
+import WerdeTeilTeam from './WerdeTeilTeam';
 
 const responsive = {
   superLargeDesktop: {
@@ -28,11 +28,11 @@ const Zukunft = (props) => {
   // const width = useWindowSize().width / 12
   const pixelSize = 1.5;
   return (
-    <div id="zukunft" className="whiteGreenDots">
-      <div className="infos">
-        <div className="info-text">
+    <div id='zukunft' className='whiteGreenDots'>
+      <div className='infos'>
+        <div className='info-text'>
           <h1>
-            <span className="super">Hallo Welt!</span>
+            <span className='super'>Hallo Welt!</span>
             <br />
             Wir sind SuperCode!
           </h1>
@@ -49,54 +49,56 @@ const Zukunft = (props) => {
             Netzwerk führen dich zum SuperJob!
           </p>
         </div>
-        <div className="info-img">
+        <div className='info-img'>
           <img
-            src="/img/Workshop html css javascript.png"
-            alt="Workshop html css javascript"
+            src='/img/Workshop html css javascript.png'
+            alt='Workshop html css javascript'
           />
         </div>
       </div>
-      <div className="team-grid">
-        <div className="placeholder"></div>
+      <div className='team-grid'>
+        <div className='placeholder'></div>
         {data.map((teammitglied) => {
           return (
             <div>
               <img
+                className='teamImg'
                 src={teammitglied.img}
                 alt={`${teammitglied.name} ${teammitglied.job}`}
               />
-              <h2 className="teamname">{teammitglied.name}</h2>
+
+              <h2 className='teamname'>{teammitglied.name}</h2>
               <p>{teammitglied.job}</p>
             </div>
           );
         })}
-        <div className="rotating-text">
+        <div className='rotating-text'>
           <img
-            src="/img/SuperTeam-Circle.svg"
-            alt="SuperCode Team, Bildungsträger"
+            src='/img/SuperTeam-Circle.svg'
+            alt='SuperCode Team, Bildungsträger'
           />
         </div>
       </div>
-      <div className="team-carousel">
+      <div className='team-carousel'>
         <Carousel
           responsive={responsive}
           ssr
           showDots={false}
           slidesToSlide={1}
           infinite
-          containerClass="container-with-dots"
-          itemClass="image-item"
-          deviceType={""}
+          containerClass='container-with-dots'
+          itemClass='image-item'
+          deviceType={''}
         >
           {data.map((teammitglied) => {
             return (
-              <div className="carousel-article-container">
+              <div className='carousel-article-container'>
                 <div>
                   <img
                     src={teammitglied.img}
                     alt={`${teammitglied.name} ${teammitglied.job}`}
                   />
-                  <h2 className="teamname">{teammitglied.name}</h2>
+                  <h2 className='teamname'>{teammitglied.name}</h2>
                   <p>{teammitglied.job}</p>
                 </div>
               </div>
@@ -120,7 +122,7 @@ const Zukunft = (props) => {
 
         .info-text h1 {
           letter-spacing: 2px;
-          color: var(--super-lila);          
+          color: var(--super-lila);
           margin: 0;
         }
         .super {
@@ -147,12 +149,20 @@ const Zukunft = (props) => {
           display: grid;
           grid-template-columns: repeat(4, 1fr);
           gap: 30px;
+          // margin: 0;
+          // padding: 0;
         }
         .teamname {
           font-size: 1.5rem;
-          font-family: "Neue_Machina_Ultrabold";
+          font-family: 'Neue_Machina_Ultrabold';
         }
-
+        // .teamImgWrapper {
+        //   width: 100%;
+        // }
+        .teamImg {
+          width: 100%;
+          object-fit: cover;
+        }
         .team-grid img {
           width: 100%;
           display: flex;
@@ -175,7 +185,6 @@ const Zukunft = (props) => {
           width: 70%;
           animation: spin 15s linear infinite;
         }
-        
 
         @keyframes spin {
           0% {
@@ -223,6 +232,15 @@ const Zukunft = (props) => {
         }
         .carousel-article-container div h2 {
           font-size: 2em;
+        }
+
+        @media (max-width: 1030px) {
+          .team-grid {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+          }
         }
 
         @media (max-width: 768px) {
