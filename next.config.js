@@ -17,7 +17,7 @@ module.exports = {
       '/leitbild': { page: '/leitbild' },
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       '/404': { page: '/404' },
-      '/fullstackk': { page: '/fullstack_kurs' },
+      '/fullstack': { page: '/fullstack_kurs' },
       '/supercodeworkshop': { page: '/supercodeworkshop' },
       '/uxuidesignworkshop': { page: '/uxuidesignworkshop' },
       '/danke': { page: '/danke' },
