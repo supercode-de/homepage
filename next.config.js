@@ -18,6 +18,7 @@ module.exports = {
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       '/404': { page: '/404' },
       '/fullstack': { page: '/fullstack_kurs' },
+      '/uxui': { page: '/ux-ui-kurs' },
       '/supercodeworkshop': { page: '/supercodeworkshop' },
       '/uxuidesignworkshop': { page: '/uxuidesignworkshop' },
       '/danke': { page: '/danke' },
