@@ -89,7 +89,7 @@ const SuperBlog = () => {
         .blog-hi-gallery {
           display: flex;
           align-items: baseline;
-          margin-bottom: 15px;
+          margin-bottom: -45px;
         }
         .blog-hi-gallery div:nth-of-type(1) {
           margin-right: 15px;
