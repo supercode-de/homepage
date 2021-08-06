@@ -100,7 +100,7 @@ export default function UX_UI_Tagesablauf() {
             }
             .tagesablauf-header span.circle::after {
               position: absolute;
-              background: url('/img/Vector64.svg') center/contain no-repeat;
+              background: url('/img/Vector64-lila.svg') center/contain no-repeat;
               height:135%;
               width: 100%;
               right: 28%;
