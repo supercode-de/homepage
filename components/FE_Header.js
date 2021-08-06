@@ -1,4 +1,4 @@
-const UX_UI_Header = (props) => {
+const FE_Header = (props) => {
   return (
     <header>
       <div className='super-code'>super(code)</div>
@@ -9,10 +9,10 @@ const UX_UI_Header = (props) => {
             START <br />
             {props.datum}
           </div>
-          <img src='/img/_DSC3141_LowRes.png' alt='' />
+          <img src='/img/_DSC7143_LowRes.png' alt='' />
         </div>
         <div className='headline'>
-          <h1>UX/ UI- Design</h1>
+          <h1>Front–End</h1>
           <h1 className='letterstroke'>
             Boot <br /> –camp
           </h1>
@@ -43,7 +43,7 @@ const UX_UI_Header = (props) => {
             padding: 40px 0 40px 5%;
             font-family: 'Neue_Machina_Regular_400';
             position: relative;
-            background-color: var(--super-green);;
+            background-color: #5d3ede;
             background-image: linear-gradient(
                 to right,
                 rgba(255, 255, 255, 0.25) 0,
@@ -74,7 +74,7 @@ const UX_UI_Header = (props) => {
           h1 {
             font-family: 'Neue_Machina_Regular_400';
             font-size: 9.5rem;
-            color: var(--super-yellow);
+            color: #fff;
             line-height: 0.9em;
             margin: 0;
           }
@@ -82,7 +82,7 @@ const UX_UI_Header = (props) => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color: var(--super-yellow);
+            -webkit-text-stroke-color: #fff;
             font-weight: 300;
           }
           .header-flex {
@@ -105,7 +105,7 @@ const UX_UI_Header = (props) => {
             position: absolute;
             height: 180px;
             width: 180px;
-            background: var(--super-lila);
+            background: var(--super-yellow);
             border-radius: 50%;
             transform: rotate(-10deg) translate(50%, 50%);
             bottom: 0;
@@ -214,4 +214,4 @@ const UX_UI_Header = (props) => {
   );
 };
 
-export default UX_UI_Header;
+export default FE_Header;

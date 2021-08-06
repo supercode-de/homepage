@@ -11,7 +11,7 @@ const Typeform = (props) => {
     <>
       <Popup
         trigger={<button className='button'>{props.buttonText}</button>}
-        position=' center'
+        position='center'
       >
         <div id='curriculum-popup'>
           {/* <button
@@ -53,10 +53,10 @@ const Typeform = (props) => {
           text-transform: uppercase;
           background: transparent;
           border: 1px solid var(--super-green);
-          color: #fff;
+          color: ${props.buttonTextColor};
           display: inline-block;
           padding: 15px 0;
-          width: 100%;
+          width: ${props.buttonWidth ? props.buttonWidth : '100%'};
         }
         .button:hover {
           color: var(--super-lila);
@@ -71,13 +71,15 @@ const Typeform = (props) => {
           padding: 40px;
           border: 1px solid var(--super-green);
           position: fixed;
-          transform: translate(-50%, -50%);
+          // transform: 
+          //   window.screen.width <= 1300 ? '' : 'translate(-50%, -50%)'
+          // };
           left: 50%;
-          top: 50%;
-          width: 700px;
+          top: 7%;
+          width: 500px;
           // max-height: 70vh;
           color: var(--super-green);
-          z-index: 999;
+          z-index: 99999;
         }
         .popup-close {
           top: 0;
@@ -102,7 +104,7 @@ const Typeform = (props) => {
         .popup-close:hover {
           color: var(--super-green);
         }
-
+    
         .curriculum-popup-content {
           display: grid;
           // grid-template-columns: 2fr 2fr;
@@ -134,7 +136,7 @@ const Typeform = (props) => {
           line-height: 1.2em;
           color: #fff;
           margin: 0 0 5vh;
-          // text-transform: uppercase;
+
           font-weight: 900;
         }
         h1 span.super {
@@ -152,12 +154,20 @@ const Typeform = (props) => {
           .button {
             font-size: 0.938em;
           }
+          #curriculum-popup {
+          
+            left: ${(document.documentElement.clientWidth - 500) / 2}px;
+            width: 400px;
+          }
+
+        
         }
         @media (max-width: 768px) {
           #curriculum-popup {
-            // left: ${(document.documentElement.clientWidth - 500) / 2}px;
-            left: 50%;
-            width: 500px;
+            // left: 50%;
+            // top: 50%;
+            left: ${(document.documentElement.clientWidth - 500) / 2}px;
+            width: 400px;
           }
           h1 {
             font-size: 3.3em;
@@ -169,19 +179,17 @@ const Typeform = (props) => {
           //   grid-template-columns: 1fr;
           // }
 
-          // .curriculum-popup-image {
-          //   display: none;
-          // }
+       
         }
         @media (max-width: 620px) {
-          // #curriculum-popup {
-          //   width: calc(100vw / 12 * 9);
-          //   padding: 40px 0;
-          // }
-          // .curriculum-popup-input {
-          //   margin: auto;
-          //   width: 90%;
-          // }
+          #curriculum-popup {
+            width: calc(100vw / 12 * 9);
+            padding: 40px 0;
+          }
+          .curriculum-popup-input {
+            margin: auto;
+            width: 90%;
+          }
           .iframe {
             // width: 80vw !important;
           }
@@ -189,8 +197,7 @@ const Typeform = (props) => {
 
         @media (max-width: 568px) {
           #curriculum-popup {
-            // left: ${(document.documentElement.clientWidth - 400) / 2}px;
-            left: 50%;
+            left: ${(document.documentElement.clientWidth - 400) / 2}px;
             width: 400px;
           }
           h1 {
@@ -199,8 +206,7 @@ const Typeform = (props) => {
         }
         @media (max-width: 468px) {
           #curriculum-popup {
-            // left: ${(document.documentElement.clientWidth - 300) / 2}px;
-            left: 50%;
+            left: ${(document.documentElement.clientWidth - 300) / 2}px;
             width: 300px;
           }
           .button {
@@ -216,13 +222,11 @@ const Typeform = (props) => {
         }
         @media (max-width: 400px) {
         }
-        @media (max-width: 350px) {
-          // .hbspt-form {
-          //   width: 300px;
-          // }
+    
         }
-        @media (max-height: ${document.documentElement.clientHeight * 0.15 +
-          600}px) {
+        @media (max-height: ${
+          document.documentElement.clientHeight * 0.15 + 600
+        }px) {
           .one-line {
             display: block;
           }
@@ -234,10 +238,23 @@ const Typeform = (props) => {
             font-size: 2em;
           }
         }
-        @media (min-width: ${document.documentElement.clientHeight /
-          2}px) and (max-height: ${document.documentElement.clientHeight *
-            0.15 +
-          600}px) {
+        @media (min-width: ${
+          document.documentElement.clientHeight / 2
+        }px) and (max-height: ${
+        document.documentElement.clientHeight * 0.15 + 600
+      }px) {
+          #curriculum-popup {
+            width: ${
+              document.documentElement.clientWidth -
+              2 * (document.documentElement.clientWidth / 10)
+            }px;
+            left: ${
+              (document.documentElement.clientWidth -
+                (document.documentElement.clientWidth -
+                  2 * (document.documentElement.clientWidth / 10))) /
+              2
+            }px;
+          }
         }
       `}</style>
     </>

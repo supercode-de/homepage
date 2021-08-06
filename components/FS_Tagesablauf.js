@@ -32,11 +32,11 @@ export default function FS_Tagesablauf() {
       </article>
       <div className='tagesablauf_imgContainer'>
         {/* <div>
-            <img src='/img/Group153.svg' alt='' />
-          </div>
-          <div className='img-wrapper'>
-            <img src='/img/_DSC2141_LowRes.png' alt='' />
-          </div> */}
+          <img src='/img/Group153.svg' alt='' />
+        </div>
+        <div className='img-wrapper'>
+          <img src='/img/_DSC2141_LowRes.png' alt='' />
+        </div> */}
         <div>
           <img
             src={
@@ -50,138 +50,138 @@ export default function FS_Tagesablauf() {
       </div>
       <style jsx>
         {`
-              .tagesablauf {
-                padding:50px 0 100px 0;
-              }
-  
+            .tagesablauf {
+              padding:50px 0 100px 0;
+            }
+
+          .tagesablauf-header{
+            color: #fff;
+            padding:0 6% 62px 6%;
+            font-size:4rem;
+          }
+h2{
+  color:#fff;
+  margin-bottom:0;
+}
+          h2 .stroke {
+            color: transparent;
+            -webkit-text-stroke-width: 0.1px;
+            -webkit-text-stroke-color: #fff;
+            
+          }
+          .circle {
+            position: relative;
+          }
+          .tagesablauf-header span.circle::after {
+            position: absolute;
+            background: url('/img/Vector64.svg') center/contain no-repeat;
+            height:135%;
+            width: 100%;
+            right: 28%;
+            bottom: -20%;
+            content: '';
+            display: block;
+          }
+
+          .eat-sleep-header{
+            font-size:2.5rem;
+            color:#fff;
+            margin-bottom:0;
+            line-height:38px;
+          }
+          .tagesablauf article {
+            display: flex;
+            padding-right: 1%;
+          }
+          .tagesablauf article > div {
+            width: 47%;
+          }
+          .tagesablauf-txt{
+            padding 0 0 0 4%;
+          }
+          .tagesablauf-txt p{
+        color: #fff;
+        width:85%;
+        font-size:0.95rem;
+        line-height:19px;
+          }
+          .tagesablauf article > div img {
+            width: 100%;
+          }
+          .tagesablauf_imgContainer {
+            // display: grid;
+            // grid-template-columns: 78% 22%;
+            padding-top:100px;
+            padding-left:1%;
+            
+          }
+          .tagesablauf_imgContainer div{
+            width:45%;
+            margin:auto;
+          }
+
+          .tagesablauf_imgContainer img {
+            width: 100%;
+          }
+          .img-wrapper{
+            padding: 0 0 10% 0;
+          }
+          .img-wrapper div{
+          padding-right:0;
+          }
+          @media (max-width: 768px) {
             .tagesablauf-header{
-              color: #fff;
-              padding:0 6% 62px 6%;
-              font-size:4rem;
+              font-size:3rem;
             }
-  h2{
-    color:#fff;
-    margin-bottom:0;
-  }
-            h2 .stroke {
-              color: transparent;
-              -webkit-text-stroke-width: 0.1px;
-              -webkit-text-stroke-color: #fff;
-              
-            }
-            .circle {
-              position: relative;
-            }
-            .tagesablauf-header span.circle::after {
-              position: absolute;
-              background: url('/img/Vector64.svg') center/contain no-repeat;
-              height:135%;
-              width: 100%;
-              right: 28%;
-              bottom: -20%;
-              content: '';
-              display: block;
-            }
-  
-            .eat-sleep-header{
-              font-size:2.5rem;
-              color:#fff;
-              margin-bottom:0;
-              line-height:38px;
+            // .tagesablauf_imgContainer {
+            //   display:block;
+            // }
+            .tagesablauf_imgContainer div{
+              width:60%;
+             
             }
             .tagesablauf article {
-              display: flex;
+              display: block;
               padding-right: 1%;
             }
             .tagesablauf article > div {
-              width: 47%;
-            }
-            .tagesablauf-txt{
-              padding 0 0 0 4%;
-            }
-            .tagesablauf-txt p{
-          color: #fff;
-          width:85%;
-          font-size:0.95rem;
-          line-height:19px;
-            }
-            .tagesablauf article > div img {
-              width: 100%;
-            }
-            .tagesablauf_imgContainer {
-              // display: grid;
-              // grid-template-columns: 78% 22%;
-              padding-top:100px;
-              padding-left:1%;
+              width: 90%;
+              margin:auto;
               
             }
+            .tagesablauf article > div p{
+              width:100%;
+            }
+            // .img-wrapper{
+            //   display:none;
+            // }
+          }
+          @media (max-width: 520px) {
             .tagesablauf_imgContainer div{
-              width:45%;
-              margin:auto;
+              width:80%;
+             
             }
-  
-            .tagesablauf_imgContainer img {
-              width: 100%;
+          }
+          @media (max-width: 425px) {
+            .tagesablauf article {
+              display: block;
+              padding-right: 1%;
             }
-            .img-wrapper{
-              padding: 0 0 10% 0;
+            .tagesablauf-header{
+              font-size:2rem;
             }
-            .img-wrapper div{
-            padding-right:0;
+            .tagesablauf article > div {
+              width: 90%;
+              
             }
-            @media (max-width: 768px) {
-              .tagesablauf-header{
-                font-size:3rem;
-              }
-              // .tagesablauf_imgContainer {
-              //   display:block;
-              // }
-              .tagesablauf_imgContainer div{
-                width:60%;
-               
-              }
-              .tagesablauf article {
-                display: block;
-                padding-right: 1%;
-              }
-              .tagesablauf article > div {
-                width: 90%;
-                margin:auto;
-                
-              }
-              .tagesablauf article > div p{
-                width:100%;
-              }
-              // .img-wrapper{
-              //   display:none;
-              // }
+            // .img-wrapper{
+            //   display:none;
+            // }
+            .tagesablauf_imgContainer{
+              display:block;
             }
-            @media (max-width: 520px) {
-              .tagesablauf_imgContainer div{
-                width:80%;
-               
-              }
-            }
-            @media (max-width: 425px) {
-              .tagesablauf article {
-                display: block;
-                padding-right: 1%;
-              }
-              .tagesablauf-header{
-                font-size:2rem;
-              }
-              .tagesablauf article > div {
-                width: 90%;
-                
-              }
-              // .img-wrapper{
-              //   display:none;
-              // }
-              .tagesablauf_imgContainer{
-                display:block;
-              }
-          
-          `}
+        
+        `}
       </style>
     </section>
   );
