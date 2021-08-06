@@ -1,22 +1,22 @@
-import React from "react";
+import React from 'react';
 //import './jetzt-anmelden.css'
-import HubspotForm from "react-hubspot-form";
+import HubspotForm from 'react-hubspot-form';
 
 const JetztAnmdelden = (props) => {
   return (
     <div
-      id="jetzt-anmelden"
-      className={props.isHidden ? "isHidden" : "isNotHidden"}
+      id='jetzt-anmelden'
+      className={props.isHidden ? 'isHidden' : 'isNotHidden'}
     >
       <button
-        className="jetzt-anmelden-close"
+        className='jetzt-anmelden-close'
         onClick={props.toggleJetztAnmelden}
       >
         &#10539;
       </button>
 
-      <div className="jetzt-anmelden-container">
-        <div className="jetzt-anmelden-left">
+      <div className='jetzt-anmelden-container'>
+        <div className='jetzt-anmelden-left'>
           <h1>Hi, wie</h1>
           <h1>können wir</h1>
           <h1>
@@ -32,17 +32,18 @@ const JetztAnmdelden = (props) => {
           <p>Ratherstr. 25</p>
           <p>40476 Düsseldorf</p>
         </div>
-        <div className="jetzt-anmelden-right">
+        <div className='jetzt-anmelden-right'>
           <HubspotForm
-            portalId="5807040"
-            formId="4fb004bc-0372-4848-b17d-923a1b059392"
-            onSubmit={() => console.log("Submit!")}
-            onReady={(form) => console.log("Form ready!")}
+            portalId='5807040'
+            formId='4fb004bc-0372-4848-b17d-923a1b059392'
+            onSubmit={() => console.log('Submit!')}
+            onReady={(form) => console.log('Form ready!')}
             loading={<div>Loading...</div>}
           />
         </div>
       </div>
-      <style jsx>{`
+      <style jsx>
+        {`
           #jetzt-anmelden {
             position: fixed;
             padding: 20px;
@@ -52,6 +53,7 @@ const JetztAnmdelden = (props) => {
             color: var(--super-green);
             transition: all 0.5s;
             width: 100%;
+            overflow-y: scroll;
             z-index: 99999;
           }
           .isHidden {
