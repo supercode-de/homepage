@@ -1,42 +1,42 @@
-import React from "react";
+import React from 'react';
 //import './navigation-mobile.css'
-import Link from "next/link";
+import Link from 'next/link';
 
 const JetztAnmdelden = (props) => {
   return (
     <div
-      id="navigation-mobile"
-      className={props.isHiddenMobile ? "isHidden" : "isNotHidden"}
+      id='navigation-mobile'
+      className={props.isHiddenMobile ? 'isHidden' : 'isNotHidden'}
     >
       <button
-        className="navigation-mobile-close"
+        className='navigation-mobile-close'
         onClick={props.toggleNavigationMobile}
       >
         &#10539;
       </button>
 
-      <div className="navigation-mobile-container">
+      <div className='navigation-mobile-container'>
         <ul>
           <li>
-            <Link href="/kurse">
+            <Link href='/kurse'>
               <a onClick={props.toggleNavigationMobile}>Kurse</a>
             </Link>
           </li>
 
           <li>
-            <Link href="/workshops">
+            <Link href='/workshops'>
               <a onClick={props.toggleNavigationMobile}>Workshops</a>
             </Link>
           </li>
 
           <li>
-            <Link href="/team">
+            <Link href='/team'>
               <a onClick={props.toggleNavigationMobile}>Team</a>
             </Link>
           </li>
 
           <li>
-            <Link href="/#faq">
+            <Link href='/#faq'>
               <a onClick={props.toggleNavigationMobile}>FAQ</a>
             </Link>
           </li>
@@ -44,7 +44,7 @@ const JetztAnmdelden = (props) => {
             <a onClick={props.toggleJetztAnmelden}>Kontakt</a>
           </li>
           <li>
-            <Link href="/#blog">
+            <Link href='/superblog'>
               <a>Blog</a>
             </Link>
           </li>
@@ -64,7 +64,7 @@ const JetztAnmdelden = (props) => {
             z-index: 99998;
             display: flex;
             justify-content: center;
-            font-family: "Neue_Machina_Regular_400";
+            font-family: 'Neue_Machina_Regular_400';
           }
           .isHidden {
             right: -100%;

@@ -5,12 +5,17 @@ const SuperBlog = () => {
   return (
     <section className='blog-header blackGitter'>
       <article className='blog-hl'>
-        <div>
+        <div className='blog-header-container'>
           <h2>Meine</h2>
           <h2>Straße,</h2>
           <h2>
             mein <span className='letterstroke'>Blog</span>
           </h2>
+          <p>
+            Hier erfährst du einiges über das Geschehen hinter den Kulissen bei
+            SuperCode, spannende Insights zu unseren Kursen , Mitarbeitenden,
+            Teilnehmenden sowie die neuesten Trends der IT Branche!
+          </p>
         </div>
         <div>
           <div className='blog-hi-gallery'>
@@ -22,7 +27,7 @@ const SuperBlog = () => {
             </div>
           </div>
 
-          <div>
+          <div className='blog-hi-gallery-2ndRow'>
             <img src='/img/image34.jpg' alt='' />
           </div>
         </div>
@@ -62,14 +67,40 @@ const SuperBlog = () => {
         h2 {
           color: #fff;
           margin: 0;
+          line-height: 67px;
         }
         .blog-hl {
-          margin: 5% 12rem;
+          margin: 5% 6rem;
           display: flex;
+          justify-content: space-between;
         }
+        .blog-header-container {
+          width: 50%;
+          margin-right: 5%;
+          padding-top: 140px;
+          color: #fff;
+        }
+        .blog-header-container p {
+          width: 120%;
+          padding-top: 22px;
+          font-size: 1.1rem;
+        }
+
         .blog-hi-gallery {
           display: flex;
           align-items: baseline;
+          margin-bottom: 15px;
+        }
+        .blog-hi-gallery div:nth-of-type(1) {
+          margin-right: 15px;
+        }
+        .blog-hi-gallery img,
+        .blog-hi-gallery-2ndRow img {
+          width: 100%;
+        }
+        .blog-hi-gallery-2ndRow {
+          width: 65%;
+          margin: auto;
         }
         .letterstroke {
           color: transparent;
@@ -101,6 +132,10 @@ const SuperBlog = () => {
           margin: 2rem 0;
           font-size: 1.5rem;
         }
+
+        figcaption p {
+          margin-bottom: 50px;
+        }
         a {
           display: block;
           font-family: 'Fira Sans', sans-serif;
@@ -113,6 +148,12 @@ const SuperBlog = () => {
           border: 2px solid var(--super-green);
           color: #fff;
           text-decoration: none;
+          // margin-top: 20px;
+          // transform: translateY(-30px);
+        }
+
+        a:hover {
+          background-color: var(--super-green);
         }
       `}</style>
     </section>
