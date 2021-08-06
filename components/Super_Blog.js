@@ -155,6 +155,46 @@ const SuperBlog = () => {
         a:hover {
           background-color: var(--super-green);
         }
+
+        @media (max-width: 765px) {
+          h2 {
+            line-height: 30px;
+          }
+          .blog-gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            width: 90%;
+            margin: 0 auto;
+            padding: 5% 0;
+            row-gap: 4rem;
+            column-gap: 2rem;
+            color: #fff;
+          }
+          .blog-hl {
+            display: flex;
+            flex-direction: column;
+            // justify-content: space-between;
+          }
+        }
+        @media (max-width: 585px) {
+          h2 {
+            font-size: 2.5rem;
+            line-height: 34px;
+          }
+          .blog-gallery {
+            margin: 0 5%;
+          }
+          .blog-header-container {
+            width: 100%;
+            margin-right: 5%;
+            padding-top: 140px;
+            color: #fff;
+          }
+          .blog-header-container p {
+            padding-top: 22px;
+            font-size: 1.1rem;
+          }
+        }
       `}</style>
     </section>
   );
