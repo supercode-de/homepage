@@ -119,6 +119,12 @@ const HeaderCallToAction_neu = () => {
         .jetzt-bewerben h4 {
           color: #fff;
         }
+        @media (max-width: 1540px) {
+          h3 span.circle::after {
+            width: 119%;
+            right: -12px;
+            bottom: -110%;
+          }
         @media (max-width: 1440px) {
           h3 {
             font-size: 2.8rem;
@@ -129,7 +135,7 @@ const HeaderCallToAction_neu = () => {
           }
           h3 span.circle::after {
             width: 119%;
-            right: -20px;
+            right: -16px;
             bottom: -110%;
           }
           .headerFlex section:first-child .after-span {
