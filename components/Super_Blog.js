@@ -64,6 +64,9 @@ const SuperBlog = () => {
         .blog-header {
           padding: 50px 0;
         }
+        img {
+          margin: 30px 0;
+        }
         h2 {
           color: #fff;
           margin: 0;

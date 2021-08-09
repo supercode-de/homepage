@@ -492,9 +492,9 @@ class Layout extends Component {
               color:#fff;
             }
             
-            img{
-              margin:30px 0;
-            }
+            // img{
+            //   margin:30px 0;
+            // }
             p {
               font-size: 1.125rem;
               line-height: 1.563rem;
