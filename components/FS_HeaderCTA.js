@@ -143,7 +143,7 @@ const HeaderCallToAction_neu = () => {
             top: 60px;
           }
           h3 span.circle::after {
-            right: -12px;
+            right: -8px;
           }
           .headerFlex section:first-child .after-span {
             background: url('/img/vector127.svg') 0px 27px / contain no-repeat;
