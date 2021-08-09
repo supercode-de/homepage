@@ -15,8 +15,8 @@ const HeaderCallToAction_neu = () => {
         </section>
         <section>
           <h3>
-            –<span className='bling'>Moderner </span>
-            <span className='bling2'>Campus</span>
+            –<span className='bling'>Moderne </span>
+            <span className='bling2'>Tools</span>
           </h3>
           <h3>– MacBook als Leihgabe</h3>
           <h3>– Vor Ort & online</h3>

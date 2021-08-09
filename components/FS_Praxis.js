@@ -76,7 +76,7 @@ const UX_UI_Praxis = () => {
         <p>
           Neben den Basics in Grafikdesign und Projektmanagement, stärken wir
           eure Präsentationsskills, Teamfähigkeit und die Fähigkeit des
-          selbstständigen Lernens. Und das alles neben deinem Job in Teilzeit!
+          selbstständigen Lernens.
         </p>
       </div>
       {window.screen.width > 768 ? (
@@ -169,13 +169,14 @@ const UX_UI_Praxis = () => {
               <div>
                 <h3 className='colorHeader2'>Plus Skills</h3>
                 <p>
-                  Plus SkillsNeben den Basics in Grafikdesign und
-                  Projektmanagement, stärken wir eure Präsentationsskills,
-                  Teamfähigkeit und die Fähigkeit des selbstständigen Lernens.
-                  Das Bewerbungscoaching unterstützt euch bei der Jobsuche mit
-                  durchdesignten Unterlagen und optimalen Digital-Profilen.
-                  Design & UX, Learn to learn, Project Management
-                  Basics,Presentation Basics,Bewerbungscoaching
+                  Neben den Basics in Grafikdesign und Projektmanagement,
+                  stärken wir eure Präsentationsskills, Teamfähigkeit und die
+                  Fähigkeit des selbstständigen Lernens. Das Bewerbungscoaching
+                  unterstützt euch bei der Jobsuche mit durchdesignten
+                  Unterlagen und optimalen Digital-Profilen. Design & UX, Learn
+                  to learn, Project Management Basics,Presentation Basics <br />{' '}
+                  <br />
+                  Bewerbungscoaching
                 </p>
                 <p>90 Unterrichtseinheiten</p>
               </div>
@@ -199,7 +200,7 @@ const UX_UI_Praxis = () => {
                 <h3 className='colorHeader4'> Abschlussprojekt</h3>
                 <p>
                   Reales Projekt, Konzeption & Planung, Projektmanagement,
-                  Prototyping, Design, Front-End-Entwicklung, Testing,
+                  Prototyping, Design, Front- und Backend-Entwicklung, Testing,
                   Präsentation
                 </p>
               </div>

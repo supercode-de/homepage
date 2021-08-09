@@ -60,7 +60,7 @@ export default function FS_TrainerTeam() {
               alt='Portrait von supercode Mitarbeiter'
             />
             <figcaption>Elaine Wong</figcaption>
-            <p className='bold'>Assistant Trainer </p>
+            <p className='bold'>Assistant Trainerin </p>
             <p className='light'>Web-Entwicklung</p>
             <p className='light'>Full-Stack</p>
           </figure>

@@ -60,7 +60,7 @@ const UX_UI_Praxis = () => {
           als Webentwickler*in aus. Da fast jede Website kleinere oder größere
           JavaScripte verwendet, liegt neben HTML & CSS ein starker Fokus auf
           dem Erlernen von JavaScript und der Library React. Ihr lernt die
-          wichtigsten Sprachen und Technologien, um vollwertige Websiten zu
+          wichtigsten Sprachen und Technologien, um vollwertige Webseiten zu
           erstellen.
         </p>
         <p>

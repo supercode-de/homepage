@@ -17,7 +17,7 @@ export default function FE_ZahlenUndFakten() {
             </figcaption>
             <h3> Emilija Sekulic</h3>
             <p>
-              jetzt Webentwicklerin
+              Jetzt Webentwicklerin
               <br /> bei Smartin Advertising
             </p>
           </figure>

@@ -18,7 +18,7 @@ export default function FS_ZahlenUndFakten() {
             <h3> Daniel Rauh</h3>
             <p>
               Jetzt Web-Entwickler
-              <br /> bei Publicis Media
+              <br /> bei LIKWIDCARE
             </p>
           </figure>
         </div>

@@ -26,7 +26,7 @@ export default function FS_Tagesablauf() {
             Mit einem Mix aus Livecoding-Sessions, kurzen Theorieparts,
             Gamification, Gruppenarbeiten, Teambuilding-Projekten und
             Selbstlernphasen lassen wir keine Langeweile aufkommen und nehmen
-            dich mit in die wunderbare Welt des codens.
+            dich mit in die wunderbare Welt des Codens.
           </p>
         </div>
       </article>
