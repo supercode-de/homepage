@@ -127,7 +127,7 @@ const HeaderCallToAction_neu = () => {
           }
           h3 span.circle::after {
             width: 119%;
-            right: -20px;
+            right: -8px;
             bottom: -110%;
           }
           .headerFlex section:first-child .after-span {
