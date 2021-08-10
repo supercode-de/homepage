@@ -494,7 +494,7 @@ class Navigation extends Component {
           .logo {
             position: relative;
             height: 80px;
-            top: -31px;
+            // top: -31px;
           }
           .logo img {
             height: 80px;

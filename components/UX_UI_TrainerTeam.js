@@ -29,7 +29,7 @@ export default function UX_UI_TrainerTeam() {
             />
             <figcaption>Kimberly Maasz</figcaption>
             <p className='bold'>Main Trainerin </p>
-            <p className='light'>UX/UI- Design</p>
+            <p className='light'>UX/UI-Design</p>
           </figure>
 
           <figure>
@@ -40,7 +40,7 @@ export default function UX_UI_TrainerTeam() {
             <figcaption>Finn Schlottmann</figcaption>
             <p className='bold'>Assistant Trainer </p>
             <p className='light'>Web-Entwicklung</p>
-            <p className='light'>& UX/UI- Design</p>
+            <p className='light'>& UX/UI-Design</p>
           </figure>
 
           <figure>
@@ -51,7 +51,7 @@ export default function UX_UI_TrainerTeam() {
             <figcaption>Franziska Hövelmanns</figcaption>
             <p className='bold'>Assistant Trainerin </p>
             <p className='light'>Web-Entwicklung</p>
-            <p className='light'>& UX/UI- Design</p>
+            <p className='light'>& UX/UI-Design</p>
           </figure>
 
           {/* <figure>

@@ -268,14 +268,14 @@ const UX_UI_Praxis = () => {
                   <span>UX:</span> Verstehen und anwenden{' '}
                 </h3>
                 <p>
-                  UX: Verstehen und anwenden Prinzipien des benutzerzentrierten
-                  Designs Projektarbeit: Anwendung von Design Thinking / agilen
-                  Methoden / Design-Sprints / Mindset entwickeln User-Research /
+                  Prinzipien des benutzerzentrierten Designs Projektarbeit:
+                  Anwendung von Design Thinking / agilen Methoden /
+                  Design-Sprints / Mindset entwickeln User-Research /
                   UX-Forschungsmethoden UX-Methoden / Fachbegriffe und
-                  Definitionen(z.b : Pain-Points, User-Stories, User Journey
+                  Definitionen (z.b : Pain-Points, User-Stories, User Journey
                   etc) Low-Fidelity- und High-Fidelity-Design Praxisübungen für
                   Prototyping / Wireframing & Erstellung eines interaktiven
-                  Prototypen in Figma Präsentationen mit Erklärungen
+                  Prototypen in <br /> Figma Präsentationen mit Erklärungen
                 </p>
               </div>
             )}
