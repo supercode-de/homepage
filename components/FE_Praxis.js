@@ -290,8 +290,8 @@ const UX_UI_Praxis = () => {
           .verstehenAnwenden {
             position: absolute;
             z-index: 2;
-            width: 45%;
-            top: 20%;
+            width: 27%;
+            top: 35%;
             right: 7%;
           }
           .verstehenAnwenden > img {
