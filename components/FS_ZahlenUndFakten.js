@@ -26,7 +26,7 @@ export default function FS_ZahlenUndFakten() {
           <figure>
             <img src='/img/absolvent/Emilija Sekulic.png' alt='' />{' '}
             <figcaption>
-              “An alle Karreierewechsler*innen da draußen: Fangt einfach an.
+              “An alle Karrierewechsler*innen da draußen: Fangt einfach an.
               Schreibt die ersten Zeilen in HTML, denn “Hallo Welt” könnte der
               Beginn von etwas Großem sein!”
             </figcaption>

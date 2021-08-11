@@ -87,11 +87,7 @@ const UX_UI_Praxis = () => {
                 }}
               >
                 <div className='verstehenAnwenden text2'>
-                  <img
-                    src='/img/verstehenundanwenden.svg'
-                    alt=''
-                    className='text2'
-                  />
+                  <img src='/img/Front-End.svg' alt='' className='text2' />
                 </div>
                 <div className='inner-bar inner-bar2'></div>
               </div>

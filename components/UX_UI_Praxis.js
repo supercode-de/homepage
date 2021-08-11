@@ -75,7 +75,7 @@ const UX_UI_Praxis = () => {
           Erfolgreiche Digitalprodukte kombinieren ein positives
           Nutzungserlebnis mit einer ansprechenden visuellen UI-Gestaltung der
           Anwendung. Daher liegt der Fokus gleichermaßen auf dem Verstehen und
-          Anwenden von UX-Prinzipien und -Methoden sowie auf der UI- Gestaltung
+          Anwenden von UX-Prinzipien und -Methoden sowie auf der UI-Gestaltung
           von Benutzeroberflächen (UI).
         </p>
         <p>
@@ -252,9 +252,9 @@ const UX_UI_Praxis = () => {
                 </h3>
                 <p>
                   Unterschiede, Nutzen & Entstehung, Grundlagen des Design
-                  Thinking Anwendungsgebiete, Best practice Beispiel-Webseiten,
-                  UX-Communities Grundlagen von HTML & CSS Responsive Design &
-                  Mobile first Produktionszyklus für Digitalprodukte
+                  Thinking, Anwendungsgebiete, Best practice Beispiel-Webseiten,
+                  UX-Communities, Grundlagen von HTML & CSS, Responsive Design &
+                  Mobile first, Produktionszyklus für Digitalprodukte
                 </p>
                 <p>Tools: Figma, Trello</p>
                 <p>19 Unterrichtseinheiten</p>
@@ -268,15 +268,16 @@ const UX_UI_Praxis = () => {
                   <span>UX:</span> Verstehen und anwenden{' '}
                 </h3>
                 <p>
-                  Prinzipien des benutzerzentrierten Designs Projektarbeit:
+                  Prinzipien des benutzerzentrierten Designs, Projektarbeit:
                   Anwendung von Design Thinking / agilen Methoden /
-                  Design-Sprints / Mindset entwickeln User-Research /
-                  UX-Forschungsmethoden UX-Methoden / Fachbegriffe und
-                  Definitionen (z.b : Pain-Points, User-Stories, User Journey
-                  etc) Low-Fidelity- und High-Fidelity-Design Praxisübungen für
-                  Prototyping / Wireframing & Erstellung eines interaktiven
-                  Prototypen in <br /> Figma Präsentationen mit Erklärungen
+                  Design-Sprints / Mindset entwickeln, User-Research /
+                  UX-Forschungsmethoden UX-Methoden, / Fachbegriffe und
+                  Definitionen (z.B. : Pain-Points, User-Stories, User Journey
+                  etc.) Low-Fidelity- und High-Fidelity-Design, Praxisübungen
+                  für Prototyping / Wireframing & Erstellung eines interaktiven
+                  Prototypen in <br /> Figma, Präsentationen mit Erklärungen
                 </p>
+                <p>80 Unterrichtseinheiten</p>
               </div>
             )}
             {text3 && (
@@ -291,6 +292,7 @@ const UX_UI_Praxis = () => {
                   (Komponenten / Grid & Raster / Responsive Design &
                   Designsysteme, ggf. Animations)
                 </p>
+                <p>80 Unterrichtseinheiten</p>
               </div>
             )}
             {text4 && (
@@ -304,6 +306,7 @@ const UX_UI_Praxis = () => {
                   Bewerbungen, UX-fokussierter Lebenslauf, Basics Jobsuche
                   UX/UI-Bereich
                 </p>
+                <p>9 Unterrichtseinheiten</p>
               </div>
             )}
             {text5 && (
@@ -316,6 +319,7 @@ const UX_UI_Praxis = () => {
                   Erstellung eines vollständig animierten interaktiven Prototyps
                   / Testing & Präsentation des Produkts: Rollenspiel für Kunden
                 </p>
+                <p>57 Unterrichtseinheiten</p>
               </div>
             )}
           </article>

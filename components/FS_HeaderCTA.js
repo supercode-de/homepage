@@ -10,13 +10,13 @@ const HeaderCallToAction_neu = () => {
           </h3>
           <h3>– Tägliches Training</h3>
           <h3>
-            – 2 Trainer*innen <span className='after-span'>jeden Tag.</span>
+            – 2 Trainer*innen <span className='after-span'>jeden Tag</span>
           </h3>
         </section>
         <section>
           <h3>
-            –<span className='bling'>Moderner </span>
-            <span className='bling2'>Campus</span>
+            –<span className='bling'>Moderne </span>
+            <span className='bling2'>Tools</span>
           </h3>
           <h3>– MacBook als Leihgabe</h3>
           <h3>– Vor Ort & online</h3>

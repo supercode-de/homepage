@@ -70,7 +70,7 @@ const UX_UI_Praxis = () => {
           als Webentwickler*in aus. Da fast jede Website kleinere oder größere
           JavaScripte verwendet, liegt neben HTML & CSS ein starker Fokus auf
           dem Erlernen von JavaScript und der Library React. Ihr lernt die
-          wichtigsten Sprachen und Technologien, um vollwertige Websiten zu
+          wichtigsten Sprachen und Technologien, um vollwertige Webseiten zu
           erstellen.
         </p>
         <p>
@@ -169,13 +169,10 @@ const UX_UI_Praxis = () => {
               <div>
                 <h3 className='colorHeader2'>Plus Skills</h3>
                 <p>
-                  Neben den Basics in Grafikdesign und Projektmanagement,
-                  stärken wir eure Präsentationsskills, Teamfähigkeit und die
-                  Fähigkeit des selbstständigen Lernens. Das Bewerbungscoaching
-                  unterstützt euch bei der Jobsuche mit durchdesignten
-                  Unterlagen und optimalen Digital-Profilen. Design & UX, Learn
-                  to learn, Project Management Basics,Presentation Basics <br />{' '}
-                  <br />
+                  Das Bewerbungscoaching unterstützt euch bei der Jobsuche mit
+                  durchdesignten Unterlagen und optimalen Digital-Profilen.
+                  Design & UX, Learn to learn, Project Management
+                  Basics,Presentation Basics <br /> <br />
                   Bewerbungscoaching
                 </p>
                 <p>90 Unterrichtseinheiten</p>
