@@ -502,6 +502,7 @@ class Layout extends Component {
               text-align: left;
              
             }
+         
             section .right p{
               width:88%;
               margin:auto;
@@ -674,10 +675,56 @@ class Layout extends Component {
               left: 0.5%;
             }
             // Styling Carousel Blog End
+            #footter  p {
+              font-size: 1.2rem;
+              padding-left:5%;
+              width:100%;
+            }
 
             @media (max-width: 768px) {
               body {
                 font-size: 10px;
+              }
+              #footter  p {
+                font-size: 0.8rem;
+                padding-left:5%;
+                line-height:18px;
+              }
+              h1{
+                font-size:2rem;
+
+              }
+              h2{
+font-size:2rem;
+              }
+                   section .right p{
+                width:100%;
+                margin:auto;
+              }
+            }
+            @media (max-width: 568px) {
+   
+              h1{
+                font-size:1.4rem;
+
+              }
+              h2{
+font-size:1.4rem;
+              }
+            }
+            @media (max-width: 498px) {
+   
+              h1{
+                font-size:1.2rem;
+                // line-height:40px;
+
+              }
+              h2{
+font-size:1.1rem;
+              }
+              section .right p{
+                width:100%;
+                margin:auto;
               }
             }
           `}

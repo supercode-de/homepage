@@ -17,10 +17,10 @@ const BlogDetails = (props) => {
           </p>
         </article>
       </section>
-      <footer>
+      <footer id='footter'>
         <article className='left'>
           <div className='hide'></div>
-          <div className='text-container'></div>
+          {/* <div className='text-container'></div> */}
           <Link
             href={
               '/blogs/' +
@@ -37,20 +37,20 @@ const BlogDetails = (props) => {
         </article>
         <article className='right'>
           <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
-          <div className='text-container'>
-            <Link
-              href={
-                '/blogs/' +
-                props.titleNext.main
-                  .replace(/ /g, '-')
-                  .replace(/\?|\#|”|“|"|,|:|\./g, '')
-              }
-            >
-              <div className='arrow-right'>
-                <img src='/img/Arrow19.svg' alt='' />
-              </div>
-            </Link>
-          </div>
+          {/* <div className='text-container'> */}
+          <Link
+            href={
+              '/blogs/' +
+              props.titleNext.main
+                .replace(/ /g, '-')
+                .replace(/\?|\#|”|“|"|,|:|\./g, '')
+            }
+          >
+            <div className='arrow-right'>
+              <img src='/img/Arrow19.svg' alt='' />
+            </div>
+          </Link>
+          {/* </div> */}
         </article>
       </footer>
       <style jsx>{`
@@ -152,12 +152,20 @@ const BlogDetails = (props) => {
         .arrow-left {
           position: relative;
           top: 40px;
+          width: 100px;
           left: 5%;
         }
         .arrow-right {
           position: relative;
-          top: -60px;
+          top: -20px;
+          width: 70px;
+
           right: 5%;
+        }
+
+        .arrow-left img,
+        .arrow-right img {
+          width: 100%;
         }
         .arrow-left:hover {
           cursor: pointer;
@@ -208,6 +216,7 @@ const BlogDetails = (props) => {
         .right img {
           width: 80% !important;
         }
+
         @media (max-width: 880px) {
           article {
             font-size: 14px;
@@ -226,6 +235,12 @@ const BlogDetails = (props) => {
           section .left p {
             padding-bottom: 150px;
           }
+          .arrow-left,
+          .arrow-right {
+            width: 20%;
+          }
+          .arrow-right {
+          }
         }
         @media (max-width: 580px) {
           section .left h1 {
@@ -239,6 +254,11 @@ const BlogDetails = (props) => {
           }
           .hide {
             display: block;
+          }
+        }
+        @media (max-width: 450px) {
+          .arrow-right {
+            top: -5px;
           }
         }
       `}</style>
