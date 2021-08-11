@@ -137,6 +137,7 @@ export default function UX_UI_TrainerTeam() {
             font-size: 1.3rem;
             margin: 0;
             font-weight: lighter;
+            width: 100%;
           }
 
           figcaption {
@@ -161,8 +162,13 @@ export default function UX_UI_TrainerTeam() {
             position: absolute;
             top: -40%;
             right: 0;
+            width: 23%;
 
             animation: spin 15s linear infinite;
+          }
+
+          .rotating-text img {
+            width: 100%;
           }
           @keyframes spin {
             0% {

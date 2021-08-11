@@ -60,7 +60,7 @@ export default function FS_TrainerTeam() {
               alt='Portrait von supercode Mitarbeiter'
             />
             <figcaption>Elaine Wong</figcaption>
-            <p className='bold'>Assistant Trainerin </p>
+            <p className='bold'>Assistant Trainerin</p>
             <p className='light'>Web-Entwicklung</p>
             <p className='light'>Full-Stack</p>
           </figure>
@@ -138,6 +138,7 @@ export default function FS_TrainerTeam() {
             font-size: 1.3rem;
             margin: 0;
             font-weight: lighter;
+            width: 100%;
           }
 
           figcaption {
@@ -147,6 +148,9 @@ export default function FS_TrainerTeam() {
             padding-bottom: 3px;
             font-weight: 100;
           }
+          // figcaption > p {
+          //   font-size: 0.1rem;
+          // }
 
           .gridContainer {
             display: grid;
@@ -161,9 +165,14 @@ export default function FS_TrainerTeam() {
           .rotating-text {
             position: absolute;
             top: -40%;
-            right: 0;
+            right: 4%;
+            width: 23%;
 
             animation: spin 15s linear infinite;
+          }
+
+          .rotating-text img {
+            width: 100%;
           }
           @keyframes spin {
             0% {
