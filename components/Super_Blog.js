@@ -17,7 +17,7 @@ const SuperBlog = () => {
             Teilnehmenden sowie die neuesten Trends der IT Branche!
           </p>
         </div>
-        <div>
+        <div className='galleryImgs'>
           <div className='blog-hi-gallery'>
             <div>
               <img src='/img/image33.jpg' alt='' />
@@ -176,7 +176,10 @@ const SuperBlog = () => {
           .blog-hl {
             display: flex;
             flex-direction: column;
+            width: 60%;
             // justify-content: space-between;
+          }
+          blog-hi-gallery {
           }
         }
         @media (max-width: 585px) {
@@ -196,6 +199,35 @@ const SuperBlog = () => {
           .blog-header-container p {
             padding-top: 22px;
             font-size: 1.1rem;
+          }
+        }
+        @media (max-width: 475px) {
+          h2 {
+            font-size: 2.5rem;
+            line-height: 34px;
+          }
+          .galleryImgs {
+            display: none;
+          }
+
+          .blog-gallery {
+            margin: 0 5%;
+            grid-template-columns: 1fr;
+          }
+          .blog-hl {
+            margin-left: 5%;
+            margin-right: 5%;
+          }
+
+          .blog-header-container {
+            width: 100%;
+            margin-right: 5%;
+            padding-top: 140px;
+            color: #fff;
+          }
+          .blog-header-container p {
+            padding-top: 22px;
+            font-size: 1rem;
           }
         }
       `}</style>
