@@ -121,6 +121,9 @@ export default function Accordion() {
 
       <style jsx>
         {`
+          .accordion p {
+            color: #000;
+          }
           .accordion__wrapper {
             margin: 25px 0;
           }

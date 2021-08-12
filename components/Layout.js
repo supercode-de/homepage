@@ -632,6 +632,10 @@ class Layout extends Component {
               color: #fff;
               font-size: 1.875rem;
             }
+
+            // .accordion> p{
+            //   color.#000;
+            // }
             .accordion__item {
               border: 4px solid var(--super-green);
               margin-bottom: 3rem;
