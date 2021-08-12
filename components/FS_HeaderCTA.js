@@ -64,7 +64,6 @@ const HeaderCallToAction_neu = () => {
           content: '';
           display: block;
         }
-      
 
         h3 span.bling {
           padding-left: 0.7rem;
@@ -346,6 +345,7 @@ const HeaderCallToAction_neu = () => {
           section h3 {
             font-size: 0.7rem;
           }
+        }
         @media (max-width: 360px) {
           section h3 {
             font-size: 0.65rem;

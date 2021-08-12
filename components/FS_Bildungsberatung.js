@@ -73,8 +73,8 @@ export default function FS_Bildungsberatung() {
           position: absolute;
           background: url('/img/Vector64.svg') center/contain no-repeat;
           height:190%;
-          width: 100%;
-          right: -25%;
+          width: 89%;
+          right: -19%;
           bottom: -38%;
           content: '';
           display: block;

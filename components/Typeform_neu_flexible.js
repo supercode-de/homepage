@@ -110,6 +110,11 @@ const Typeform_neu_flexible = (props) => {
             left: 15%;
             top: 5px;
           }
+          // @media (max-width: 380px) {
+          //   button {
+          //     right: 15%;
+          //     top: 5px;
+          //   }
         }
       `}</style>
     </>

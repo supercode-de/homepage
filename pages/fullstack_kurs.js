@@ -23,8 +23,6 @@ export default function FullstackKurse(props) {
           <FS_Bildungsberatung />
           <FooterCallToAction_neu />
         </div>
-        {/*
-         */}
       </Layout>
     );
   } else {
