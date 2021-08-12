@@ -6,14 +6,14 @@ export default function FS_TrainerTeam() {
           <span>Super</span>
           Trainer*innen
         </h2>
-        <p>
+        <p className='txt'>
           Unsere Trainer*innen sind praxiserfahrene Webentwickler*innen, die
           sich laufend fachlich und pädagogisch fortbilden. Durch unseren
           Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich pro Tag,
           wirst du spielerisch programmieren lernen und deine eigenen Webseiten
           bauen.
         </p>
-        <p>
+        <p className='txt'>
           Ergänzend zum Training im Bootcamp bieten wir individuelle Termine
           beim Flex-Trainer an. Im One-on-One-Coaching geht der/die Trainer*in
           gezielt auf deine Fragen ein, wiederholt noch nicht verstandenes
@@ -235,7 +235,7 @@ export default function FS_TrainerTeam() {
 
           @media (max-width: 585px) {
             .fsTrainer h2 {
-              font-size: 0.9rem;
+              font-size: 1.8rem;
               // line-height: 20px;
               margin-bottom: 10px;
             }
@@ -256,7 +256,7 @@ export default function FS_TrainerTeam() {
 
           @media (max-width: 480px) {
             .fsTrainer h2 {
-              font-size: 0.1rem;
+              font-size: 1.6rem;
               // line-height: 20px;
               margin-bottom: 10px;
             }
@@ -274,12 +274,16 @@ export default function FS_TrainerTeam() {
               font-weight: 100;
             }
           }
-          @media (max-width: 425px) {
+          @media (max-width: 430px) {
             .fsTrainer h2 {
-              font-size: 1.8rem;
+              font-size: 1.4rem;
               line-height: 28px;
               margin-bottom: 0;
             }
+            .fsTrainer .txt {
+              line-height: 15px;
+            }
+
             .fsTrainer p {
               font-size: 1rem;
               width: 95%;

@@ -87,7 +87,8 @@ export default function FS_ZahlenUndFakten() {
 
       <style jsx>{`
         .zahlenUndFakten {
-          margin: 7% 0 0 0;
+          margin: 0 0 0 0;
+          padding-top: 40px;
         }
         .zahlenUndFakten > h2 {
           padding-left: 6%;
@@ -254,6 +255,9 @@ export default function FS_ZahlenUndFakten() {
           .zahlenUndFakten-infos h2 {
             font-size: 2rem;
           }
+          .zahlenUndFakten .zahlenUndFakten_Header {
+            font-size: 2rem;
+          }
 
           .vermittlung-newJob h2 {
             font-size: 2rem;
@@ -357,6 +361,16 @@ export default function FS_ZahlenUndFakten() {
           }
           .vermittlung-newJob {
             padding: 0;
+          }
+        }
+        @media (max-width: 468px) {
+          .absolvent_2 figcaption {
+            padding-bottom: 10px;
+          }
+        }
+        @media (max-width: 368px) {
+          .absolvent_1 figcaption {
+            padding-bottom: 10px;
           }
         }
       `}</style>

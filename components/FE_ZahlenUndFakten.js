@@ -87,10 +87,12 @@ export default function FE_ZahlenUndFakten() {
 
       <style jsx>{`
         .zahlenUndFakten {
-          margin: 7% 0 0 0;
+          margin: 0 0 0 0;
+          padding-top: 40px;
         }
         .zahlenUndFakten_Header {
           font-size: 4rem;
+          margin-top: 0;
         }
         .zahlenUndFakten > h2 {
           padding-left: 6%;
@@ -254,7 +256,7 @@ export default function FE_ZahlenUndFakten() {
           .bling2 {
             display: none;
           }
-          .zahlenUndFakten_Header {
+          .zahlenUndFakten .zahlenUndFakten_Header {
             font-size: 2rem;
           }
           .zahlenUndFakten-infos h2 {
@@ -312,12 +314,19 @@ export default function FE_ZahlenUndFakten() {
         @media (max-width: 550px) {
           .zahlenUndFakten_Header {
             font-size: 1.8rem;
+            // padding-top: 50px;
+          }
+          .absolvent_2 figcaption {
+            padding-bottom: 19px;
           }
         }
 
         @media (max-width: 468px) {
           .zahlenUndFakten-infos h2 {
             font-size: 2rem;
+          }
+          .absolvent_2 figcaption {
+            padding-bottom: 22px;
           }
           .vermittlung-newJob h2 {
             font-size: 2rem;
@@ -363,6 +372,8 @@ export default function FE_ZahlenUndFakten() {
           }
           .vermittlung-newJob {
             padding: 0;
+          }
+          @media (max-width: 468px) {
           }
         }
       `}</style>

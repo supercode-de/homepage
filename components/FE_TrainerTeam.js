@@ -233,7 +233,7 @@ export default function FE_TrainerTeam() {
           }
           @media (max-width: 585px) {
             .fsTrainer h2 {
-              font-size: 0.9rem;
+              font-size: 1.8rem;
               // line-height: 20px;
               margin-bottom: 10px;
             }
@@ -253,7 +253,7 @@ export default function FE_TrainerTeam() {
           }
           @media (max-width: 480px) {
             .fsTrainer h2 {
-              font-size: 0.1rem;
+              font-size: 1.4rem;
               color: #fff;
               // line-height: 20px;
               margin-bottom: 10px;

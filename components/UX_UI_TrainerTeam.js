@@ -6,14 +6,14 @@ export default function UX_UI_TrainerTeam() {
           <span>Super</span>
           Trainer*innen
         </h2>
-        <p>
+        <p className='txt'>
           Unsere Trainer*innen sind praxiserfahrene UX/UI-Designer*innen, die
           sich laufend fachlich und pädagogisch fortbilden. Durch unseren
           Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich an den
           vollen Tagen, wirst du spielerisch UX/UI-Design lernen und deine
           eigenen Prototypen bauen.
         </p>
-        <p>
+        <p className='txt'>
           Ergänzend zum Training im Bootcamp bieten wir individuelle Termine
           beim Flex-Trainer an. Im One-on-One-Coaching geht der/die Trainer*in
           gezielt auf deine Fragen ein, wiederholt noch nicht verstandenes
@@ -231,7 +231,7 @@ export default function UX_UI_TrainerTeam() {
 
           @media (max-width: 585px) {
             .fsTrainer h2 {
-              font-size: 0.9rem;
+              font-size: 1.8rem;
               // line-height: 20px;
               margin-bottom: 10px;
             }
@@ -262,7 +262,7 @@ export default function UX_UI_TrainerTeam() {
 
           @media (max-width: 480px) {
             .fsTrainer h2 {
-              font-size: 0.9rem;
+              font-size: 1.6rem;
               // line-height: 20px;
               margin-bottom: 10px;
             }
@@ -283,7 +283,7 @@ export default function UX_UI_TrainerTeam() {
 
           @media (max-width: 425px) {
             .fsTrainer h2 {
-              font-size: 0.8rem;
+              font-size: 1.4rem;
 
               margin-bottom: 0;
             }
@@ -292,6 +292,10 @@ export default function UX_UI_TrainerTeam() {
               width: 95%;
               // margin-bottom: 30px;
               line-height: 10px;
+            }
+
+            .fsTrainer .txt {
+              line-height: 15px;
             }
 
             figcaption {

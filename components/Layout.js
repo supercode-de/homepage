@@ -588,6 +588,7 @@ class Layout extends Component {
               background-size: calc(100vw / 12) calc(100vw / 12);
             }
             .whiteGreenDots {
+             
               background: linear-gradient(
                   90deg,
                   #fff calc(100vw / 12 - 1.5px),
@@ -596,6 +597,7 @@ class Layout extends Component {
                 linear-gradient(#fff calc(100vw / 12 - 1.5px), transparent 1%),
                 var(--super-green);
               background-size: calc(100vw / 12) calc(100vw / 12);
+              
             }
 
             // styling accordion auf team seite für stellenausschreibungen
@@ -730,6 +732,9 @@ font-size:1.1rem;
                 width:100%;
                 margin:auto;
               }
+            }
+          
+
             }
           `}
         </style>
