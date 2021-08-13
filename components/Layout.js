@@ -707,6 +707,8 @@ font-size:2rem;
                 width:100%;
                 margin:auto;
               }
+           
+
             }
             @media (max-width: 568px) {
    
@@ -717,6 +719,8 @@ font-size:2rem;
               h2{
 font-size:1.4rem;
               }
+           
+           
             }
             @media (max-width: 498px) {
    
@@ -732,10 +736,11 @@ font-size:1.1rem;
                 width:100%;
                 margin:auto;
               }
+          
             }
           
 
-            }
+            
           `}
         </style>
       </div>
