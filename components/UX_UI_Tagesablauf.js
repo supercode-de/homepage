@@ -209,7 +209,7 @@ export default function UX_UI_Tagesablauf() {
                 
               }
               .img-wrapper{
-                display:none;
+                // display:none;
               }
               .tagesablauf_imgContainer{
                 display:block;
