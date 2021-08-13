@@ -4,11 +4,22 @@ import Typeform_neu_flexible from './Typeform_neu_flexible';
 export default function FooterCallToAction_neu() {
   return (
     <div id='call-to-action' className='footerCTA'>
-      <h2>
-        {' '}
-        <span className='stroke'>Worauf wartest du noch? </span>
-        Die nächsten <br /> Kurse <span className='circle'>starten </span> bald.
-      </h2>
+      {window.screen.width >= 455 ? (
+        <h2>
+          {' '}
+          <span className='stroke'>Worauf wartest du noch? </span>
+          Die nächsten <br /> Kurse <span className='circle'>
+            starten{' '}
+          </span>{' '}
+          bald.
+        </h2>
+      ) : (
+        <h2 className='textMobile'>
+          {' '}
+          DU interessierst dich für unsere kursangebote? dann Informiere dich
+          jetzt oder meld dich direkt bei uns!
+        </h2>
+      )}
       <div className='buttons'></div>
       <div className='termine'>
         {/* <h3>27.09.2021 – max. 16 Teilnehmende</h3>
@@ -78,6 +89,7 @@ export default function FooterCallToAction_neu() {
             bottom: -20px;
           }
         }
+
         @media (max-width: 768px) {
           h2 {
             font-size: 2rem;
@@ -92,6 +104,12 @@ export default function FooterCallToAction_neu() {
             display: block;
             bottom: -20px;
           }
+        }
+
+        .textMobile {
+          text-transform: uppercase;
+          font-weight: 400;
+          font-size: 1.3rem;
         }
 
         @media (max-width: 425px) {
