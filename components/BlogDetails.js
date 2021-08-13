@@ -260,6 +260,9 @@ const BlogDetails = (props) => {
           .arrow-right {
             top: -5px;
           }
+          section {
+            margin-top: -60px;
+          }
         }
       `}</style>
     </div>

@@ -740,6 +740,13 @@ font-size:1.1rem;
             }
           
 
+            @media (max-width: 458px) {
+
+              section .right h1 {
+                font-size: 2.2em;
+               
+              }
+            }
             
           `}
         </style>
