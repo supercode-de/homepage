@@ -98,7 +98,7 @@ const Typeform_neu_flexible = (props) => {
         @media (max-width: 568px) {
           button {
             width: 280px;
-            height: 30px;
+            height: 55px;
             font-size: 0.6rem;
             left: 10%;
             top: 20px;
@@ -109,6 +109,7 @@ const Typeform_neu_flexible = (props) => {
           button {
             left: 15%;
             top: 5px;
+            height: 55px;
           }
           // @media (max-width: 380px) {
           //   button {
