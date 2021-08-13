@@ -157,6 +157,10 @@ h2{
             // }
           }
           @media (max-width: 520px) {
+            .tagesablauf {
+              padding:50px 0 70px 0;
+            }
+
             .tagesablauf_imgContainer div{
               width:80%;
              

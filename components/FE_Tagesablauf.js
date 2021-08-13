@@ -137,6 +137,10 @@ export default function FS_Tagesablauf() {
                     padding-right:0;
                     }
                     @media (max-width: 768px) {
+                      .tagesablauf {
+                        padding:50px 0 70px 0;
+                      }
+
                       .tagesablauf-header{
                         font-size:3rem;
                       }
