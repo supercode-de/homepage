@@ -241,6 +241,14 @@ export default function Accordion() {
             pointer-events: none;
             line-height: 1.3;
           }
+          @media (max-width: 424px) {
+            #gestaltung {
+              transform: rotate(0deg);
+              width: 30%;
+              position: relative;
+              left: 48%;
+            }
+          }
         `}
       </style>
     </div>

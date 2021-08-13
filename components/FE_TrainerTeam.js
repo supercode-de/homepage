@@ -285,6 +285,11 @@ export default function FE_TrainerTeam() {
           }
 
           @media (max-width: 425px) {
+            .fsTrainer {
+              padding: 40px 0 100px 6%;
+
+              // overflow: hidden;
+            }
             .fsTrainer h2 {
               font-size: 1.8rem;
               line-height: 28px;

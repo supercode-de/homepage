@@ -282,6 +282,11 @@ export default function UX_UI_TrainerTeam() {
           }
 
           @media (max-width: 425px) {
+            .fsTrainer {
+              padding: 40px 0 100px 6%;
+
+              // overflow: hidden;
+            }
             .fsTrainer h2 {
               font-size: 1.4rem;
 
