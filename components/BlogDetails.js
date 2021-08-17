@@ -36,32 +36,24 @@ const BlogDetails = (props) => {
             <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
           </article>
         </Link>
-        <article className='right'>
-          <Link
-            href={
-              '/blogs/' +
-              props.titleNext.main
-                .replace(/ /g, '-')
-                .replace(/\?|\#|”|“|"|,|:|\./g, '')
-            }
-          >
+        <Link
+          href={
+            '/blogs/' +
+            props.titleNext.main
+              .replace(/ /g, '-')
+              .replace(/\?|\#|”|“|"|,|:|\./g, '')
+          }
+        >
+          <article className='right'>
             <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
-          </Link>
-          {/* <div className='text-container'> */}
-          <Link
-            href={
-              '/blogs/' +
-              props.titleNext.main
-                .replace(/ /g, '-')
-                .replace(/\?|\#|”|“|"|,|:|\./g, '')
-            }
-          >
+
+            {/* <div className='text-container'> */}
             <div className='arrow-right'>
               <img src='/img/Arrow19.svg' alt='' />
             </div>
-          </Link>
-          {/* </div> */}
-        </article>
+            {/* </div> */}
+          </article>
+        </Link>
       </footer>
       <style jsx>{`
         #blogDetails {
