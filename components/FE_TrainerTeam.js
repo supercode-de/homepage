@@ -243,6 +243,9 @@ export default function FE_TrainerTeam() {
               margin-bottom: 3px;
               line-height: 13px;
             }
+            .fsTrainer .txt {
+              line-height: 22px;
+            }
             figcaption {
               font-size: 1.2rem;
               color: var(--super-green);

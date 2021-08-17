@@ -18,25 +18,35 @@ const BlogDetails = (props) => {
         </article>
       </section>
       <footer id='footter'>
-        <article className='left'>
-          <div className='hide'></div>
-          {/* <div className='text-container'></div> */}
+        <Link
+          href={
+            '/blogs/' +
+            props.titlePrevious.main
+              .replace(/ /g, '-')
+              .replace(/\?|\#|”|“|"|,|:|\./g, '')
+          }
+        >
+          <article className='left'>
+            <div className='hide'></div>
+            {/* <div className='text-container'></div> */}
+            <div className='arrow-left'>
+              <img src='/img/Arrow18.svg' alt='' />
+            </div>
+
+            <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
+          </article>
+        </Link>
+        <article className='right'>
           <Link
             href={
               '/blogs/' +
-              props.titlePrevious.main
+              props.titleNext.main
                 .replace(/ /g, '-')
                 .replace(/\?|\#|”|“|"|,|:|\./g, '')
             }
           >
-            <div className='arrow-left'>
-              <img src='/img/Arrow18.svg' alt='' />
-            </div>
+            <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
           </Link>
-          <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
-        </article>
-        <article className='right'>
-          <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
           {/* <div className='text-container'> */}
           <Link
             href={
@@ -147,6 +157,7 @@ const BlogDetails = (props) => {
         footer .right {
           display: flex;
           justify-content: space-between;
+          cursor: pointer;
         }
 
         .arrow-left {

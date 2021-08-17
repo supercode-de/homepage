@@ -84,7 +84,7 @@ const SuperBlog = () => {
           color: #fff;
         }
         .blog-header-container p {
-          width: 120%;
+          width: 95%;
           padding-top: 22px;
           font-size: 1.1rem;
         }

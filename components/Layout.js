@@ -468,7 +468,8 @@ class Layout extends Component {
             }
             section .right img {
               width: 100% !important;
-              t
+              margin-top: 40px;
+              margin-bottom: 40px;
             }
             html,
             body {
@@ -484,14 +485,14 @@ class Layout extends Component {
               font-family: 'Neue_Machina_Regular_400', sans-serif;
             }
 
-            a{
-              color:#fff;
+            a {
+              color: #fff;
             }
 
-            li{
-              color:#fff;
+            li {
+              color: #fff;
             }
-            
+
             // img{
             //   margin:30px 0;
             // }
@@ -500,12 +501,21 @@ class Layout extends Component {
               line-height: 1.563rem;
               color: #fff;
               text-align: left;
-             
             }
-         
-            section .right p{
-              width:88%;
-              margin:auto;
+
+            p h3 {
+              font-family: 'Neue_Machina_Ultrabold';
+              font-size: 1.2rem;
+              line-height: 28px;
+            }
+
+            p em {
+              font-style: normal;
+            }
+
+            section .right p {
+              width: 88%;
+              margin: auto;
             }
             h1,
             h2 {
@@ -513,23 +523,20 @@ class Layout extends Component {
               line-height: 1.1em;
             }
 
-
-            h1{
-              width:88%;
-              margin:auto;
-              margin-top:150px;
-
+            h1 {
+              width: 88%;
+              margin: auto;
+              margin-top: 150px;
             }
-            h2{
-              text-align:left;
+            h2 {
+              text-align: left;
             }
 
-            section .right h2{
-          
+            section .right h2 {
             }
 
-            h3{
-              color:#fff;
+            h3 {
+              color: #fff;
             }
 
             // BACKGROUND STYLES
@@ -588,7 +595,6 @@ class Layout extends Component {
               background-size: calc(100vw / 12) calc(100vw / 12);
             }
             .whiteGreenDots {
-             
               background: linear-gradient(
                   90deg,
                   #fff calc(100vw / 12 - 1.5px),
@@ -597,7 +603,6 @@ class Layout extends Component {
                 linear-gradient(#fff calc(100vw / 12 - 1.5px), transparent 1%),
                 var(--super-green);
               background-size: calc(100vw / 12) calc(100vw / 12);
-              
             }
 
             // styling accordion auf team seite für stellenausschreibungen
@@ -681,73 +686,59 @@ class Layout extends Component {
               left: 0.5%;
             }
             // Styling Carousel Blog End
-            #footter  p {
+            #footter p {
               font-size: 1.2rem;
-              padding-left:5%;
-              width:100%;
+              padding-left: 5%;
+              width: 100%;
             }
 
             @media (max-width: 768px) {
               body {
                 font-size: 10px;
               }
-              #footter  p {
+              #footter p {
                 font-size: 0.8rem;
-                padding-left:5%;
-                line-height:18px;
+                padding-left: 5%;
+                line-height: 18px;
               }
-              h1{
-                font-size:2rem;
-
+              h1 {
+                font-size: 2rem;
               }
-              h2{
-font-size:2rem;
+              h2 {
+                font-size: 2rem;
               }
-                   section .right p{
-                width:100%;
-                margin:auto;
+              section .right p {
+                width: 100%;
+                margin: auto;
               }
-           
-
             }
             @media (max-width: 568px) {
-   
-              h1{
-                font-size:1.4rem;
-
+              h1 {
+                font-size: 1.4rem;
               }
-              h2{
-font-size:1.4rem;
+              h2 {
+                font-size: 1.4rem;
               }
-           
-           
             }
             @media (max-width: 498px) {
-   
-              h1{
-                font-size:1.2rem;
+              h1 {
+                font-size: 1.2rem;
                 // line-height:40px;
-
               }
-              h2{
-font-size:1.1rem;
+              h2 {
+                font-size: 1.1rem;
               }
-              section .right p{
-                width:100%;
-                margin:auto;
+              section .right p {
+                width: 100%;
+                margin: auto;
               }
-          
             }
-          
 
             @media (max-width: 458px) {
-
               section .right h1 {
                 font-size: 2.2em;
-               
               }
             }
-            
           `}
         </style>
       </div>
