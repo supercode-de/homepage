@@ -44,7 +44,7 @@ const JetztAnmdelden = (props) => {
             <a onClick={props.toggleJetztAnmelden}>Kontakt</a>
           </li>
           <li>
-            <Link href='/superblog'>
+            <Link href='/blogs'>
               <a>Blog</a>
             </Link>
           </li>

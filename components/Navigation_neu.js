@@ -373,7 +373,7 @@ class Navigation extends Component {
               <a onClick={this.props.toggleJetztAnmelden}>Kontakt</a>
             </li>
             <li>
-              <Link href='/#blog'>
+              <Link href='/blogs'>
                 <a>Blog</a>
               </Link>
             </li>
