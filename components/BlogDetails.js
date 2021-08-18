@@ -142,6 +142,7 @@ const BlogDetails = (props) => {
 
         footer {
           display: flex;
+          position: relative;
           justify-content: space-between;
         }
 
@@ -159,11 +160,11 @@ const BlogDetails = (props) => {
           left: 5%;
         }
         .arrow-right {
-          position: relative;
-          top: -20px;
-          width: 70px;
+          position: absolute;
+          bottom: 70px;
+          width: 95px;
 
-          right: 5%;
+          right: 0%;
         }
 
         .arrow-left img,
@@ -238,11 +239,18 @@ const BlogDetails = (props) => {
           section .left p {
             padding-bottom: 150px;
           }
-          .arrow-left,
-          .arrow-right {
+          .arrow-left {
             width: 20%;
           }
           .arrow-right {
+            bottom: 70px;
+            width: 9%;
+          }
+        }
+
+        @media (max-width: 710px) {
+          .arrow-right {
+            bottom: 56px;
           }
         }
         @media (max-width: 580px) {
@@ -258,10 +266,19 @@ const BlogDetails = (props) => {
           .hide {
             display: block;
           }
+          .arrow-right {
+            width: 11%;
+          }
+          .arrow-left {
+            top: 30px;
+          }
         }
         @media (max-width: 450px) {
           .arrow-right {
             top: -5px;
+          }
+          .arrow-left {
+            top: 46px;
           }
           section {
             margin-top: -60px;

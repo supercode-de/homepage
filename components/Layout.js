@@ -687,7 +687,7 @@ class Layout extends Component {
             }
             // Styling Carousel Blog End
             #footter p {
-              font-size: 1.2rem;
+              font-size: 1rem;
               padding-left: 5%;
               width: 100%;
             }
