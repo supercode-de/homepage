@@ -517,6 +517,9 @@ class Layout extends Component {
               width: 88%;
               margin: auto;
             }
+            .willkommenn {
+              line-height: 1.7em;
+            }
             h1,
             h2 {
               font-size: 3.2em;

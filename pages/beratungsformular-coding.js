@@ -22,7 +22,7 @@ export default function Workshop() {
             <h1 className='headline'>
               <span className='stroke'>Willkommen</span>
             </h1>
-            <h1 className='willkommen'>
+            <h1 className='willkommenn'>
               <span className='after-span'>
                 {' '}
                 <span className='stroke'>bei </span> SuperCode
@@ -87,14 +87,14 @@ export default function Workshop() {
           position:relative;
           top:-45px;
         }
-        .headline{
+        #headr .headline{
           color:#3DD7AC;
           font-size:7.5rem;
           margin-top:0;
           position:relative;
           top:120px;
         }
-        .willkommen{
+        .willkommenn{
           color:#3DD7AC;
           font-size:8rem;
           font-family:"Neue_Machina_Ultrabold"
@@ -105,13 +105,13 @@ export default function Workshop() {
         .stroke{
             color: transparent;
             letter-spacing: 3px;
-            -webkit-text-stroke-width: 0.1px;
+            -webkit-text-stroke-width: 0.2px;
             -webkit-text-stroke-color: #3DD7AC;
         }
         .headline .stroke{
               color: transparent;
               letter-spacing: 3px;
-              -webkit-text-stroke-width: 0.1px;
+              -webkit-text-stroke-width: 0.2px;
               -webkit-text-stroke-color: #3DD7AC;
         }
         .after-span {
@@ -121,9 +121,9 @@ export default function Workshop() {
           position:relative;
          
         }
-        .willkommen .after-span {
+        .willkommenn .after-span {
           content: '';
-          background: url('/img/stricheGreen.svg') 0px 120px / contain no-repeat;
+          background: url('/img/stricheGreen.svg') 0px 150px / contain no-repeat;
         }
         .strich {
           padding-bottom: 2rem;
@@ -330,7 +330,7 @@ export default function Workshop() {
               position:relative;
               top:10px;
             }
-            .willkommen{
+            .willkommenn{
               color:#3DD7AC;
               font-size:3rem;
               font-family:"Neue_Machina_Ultrabold"
@@ -399,7 +399,7 @@ export default function Workshop() {
                 position:relative;
                 top:0;
               }
-              .willkommen{
+              .willkommenn{
                 color:#3DD7AC;
                 font-size:2rem;
                 font-family:"Neue_Machina_Ultrabold"
