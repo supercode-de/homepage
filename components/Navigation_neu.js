@@ -415,26 +415,26 @@ class Navigation extends Component {
           }
           @media (max-width: 1300px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 55%;
+              left: 50%;
             }
             .arrowWrapperNoAnimation {
-              left: 55%;
+              left: 50%;
             }
           }
           @media (max-width: 1200px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 50%;
+              left: 46%;
             }
             .arrowWrapperNoAnimation {
-              left: 50%;
+              left: 46%;
             }
           }
           @media (max-width: 1040px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 35%;
+              left: 40%;
             }
             .arrowWrapperNoAnimation {
-              left: 35%;
+              left: 40%;
             }
           }
 
