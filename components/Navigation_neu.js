@@ -226,6 +226,7 @@ class Navigation extends Component {
             display: block;
             width: 40px;
             left: 60vw;
+            right: 40vw;
             cursor: pointer;
             z-index: 10;
 
@@ -255,6 +256,7 @@ class Navigation extends Component {
             padding-left: 29px;
             width: 40px;
             left: 60vw;
+            right: 40vw;
           }
           .arrowWrapperNoAnimation img {
             width: 100%;
@@ -413,9 +415,21 @@ class Navigation extends Component {
           }
 
           @media (max-width: 1040px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 50%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 50%;
+            }
           }
 
           @media (max-width: 768px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 54%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 54%;
+            }
           }
 
           @media (max-width: 520px) {
