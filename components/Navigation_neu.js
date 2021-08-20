@@ -144,13 +144,13 @@ class Navigation extends Component {
                 }
               >
                 <Link href='/fullstack'>
-                  <a id='dropper'>Fullstack Developer</a>
+                  <a id='dropper'>Fullstack Development</a>
                 </Link>
                 <Link href='/frontend'>
-                  <a id='dropper'>Front-End Developer</a>
+                  <a id='dropper'>Front-End Development</a>
                 </Link>
                 <Link href='/uxui'>
-                  <a id='dropper'>UX & UI Designer</a>
+                  <a id='dropper'>UX & UI Design</a>
                 </Link>
               </div>
             </li>
@@ -176,7 +176,7 @@ class Navigation extends Component {
               <a onClick={this.props.toggleJetztAnmelden}>Kontakt</a>
             </li>
             <li>
-              <Link href='/#blog'>
+              <Link href='/blogs'>
                 <a>Blog</a>
               </Link>
             </li>
