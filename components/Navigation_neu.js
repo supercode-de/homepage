@@ -224,8 +224,8 @@ class Navigation extends Component {
           .kurse-link:hover > .arrowWrapper {
             position: absolute;
             display: block;
-            width: 35px;
-            left: 54.3vw;
+            width: 40px;
+            left: 60vw;
             cursor: pointer;
             z-index: 10;
 
@@ -253,8 +253,8 @@ class Navigation extends Component {
             display: block;
 
             padding-left: 29px;
-            width: 35px;
-            left: 54.3vw;
+            width: 40px;
+            left: 60vw;
           }
           .arrowWrapperNoAnimation img {
             width: 100%;
