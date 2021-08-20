@@ -78,7 +78,7 @@ export default function Workshop() {
           width:25%;
             position:absolute;
             z-index:3;
-           bottom:-170px;
+           top:380px;
            left:6%;
        
           }

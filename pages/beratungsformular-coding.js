@@ -70,7 +70,7 @@ export default function Workshop() {
             width:25%;
               position:absolute;
               z-index:3;
-             bottom:-250px;
+              top:480px;
              left:4%;
          
             }
