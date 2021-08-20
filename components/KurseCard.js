@@ -1,6 +1,10 @@
 import Curriculum from './Curriculum_Popup';
-import Typeform_neu_small from './TypeForm_neu_small';
+import { useRouter } from 'next/router';
+import ButtonGreen from './small/ButtonGreen';
+import Link from 'next/dist/client/link';
+import Router from 'next/dist/next-server/server/router';
 const KurseCard = (props) => {
+  const router = useRouter();
   const {
     headline,
     umfang,
@@ -21,7 +25,7 @@ const KurseCard = (props) => {
         <p>{copy}</p>
       </div>
       <div className='buttons'>
-        <Typeform_neu_small typeformFormularID={typeformFormularID} />
+        <button onClick={() => router.push(props.href)}> ZUM KURS</button>
         <Curriculum
           buttonTextColor='#fff'
           buttonText='Curriculum'
@@ -62,11 +66,31 @@ const KurseCard = (props) => {
           .kurseCard:hover {
             background: var(--super-blau);
           }
+          .kurseCard:hover > button {
+            background: var(--super-blau);
+          }
           .buttons {
             min-width: 100%;
             display: flex;
             gap: 1rem;
           }
+
+          button {
+            font-family: 'Fira Sans', sans-serif;
+            font-size: 0.875em;
+            letter-spacing: 1px;
+            width: 100%;
+            background: transparent;
+            border: none;
+            outline: 1px solid var(--super-green);
+            color: #fff;
+          }
+          button:hover {
+            background: var(--super-green);
+            color: var(--super-lila);
+            cursor: pointer;
+          }
+
           h5 {
             font-family: 'Neue_Machina_Ultrabold';
             font-size: 2.5rem;

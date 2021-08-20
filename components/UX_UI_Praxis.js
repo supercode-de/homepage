@@ -76,7 +76,7 @@ const UX_UI_Praxis = () => {
           Nutzungserlebnis mit einer ansprechenden visuellen UI-Gestaltung der
           Anwendung. Daher liegt der Fokus gleichermaßen auf dem Verstehen und
           Anwenden von UX-Prinzipien und -Methoden sowie auf der UI-Gestaltung
-          von Benutzeroberflächen (UI).
+          von Benutzeroberflächen.
         </p>
         <p>
           Als UX-Designer*in findest du heraus, was die Benutzer*innen wirklich
@@ -257,7 +257,6 @@ const UX_UI_Praxis = () => {
                   Mobile first, Produktionszyklus für Digitalprodukte
                 </p>
                 <p>Tools: Figma, Trello</p>
-                <p>19 Unterrichtseinheiten</p>
               </div>
             )}
 
@@ -292,7 +291,6 @@ const UX_UI_Praxis = () => {
                   (Komponenten / Grid & Raster / Responsive Design &
                   Designsysteme, ggf. Animations)
                 </p>
-                <p>80 Unterrichtseinheiten</p>
               </div>
             )}
             {text4 && (
@@ -306,7 +304,6 @@ const UX_UI_Praxis = () => {
                   Bewerbungen, UX-fokussierter Lebenslauf, Basics Jobsuche
                   UX/UI-Bereich
                 </p>
-                <p>9 Unterrichtseinheiten</p>
               </div>
             )}
             {text5 && (
@@ -319,7 +316,6 @@ const UX_UI_Praxis = () => {
                   Erstellung eines vollständig animierten interaktiven Prototyps
                   / Testing & Präsentation des Produkts: Rollenspiel für Kunden
                 </p>
-                <p>57 Unterrichtseinheiten</p>
               </div>
             )}
           </article>

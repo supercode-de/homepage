@@ -146,7 +146,6 @@ const UX_UI_Praxis = () => {
                   Design & UX, Learn to learn, <br /> Project Management Basics,{' '}
                   <br /> Presentation Basics
                 </p>
-                <p>45 Unterrichtseinheiten</p>
               </div>
             )}
 
@@ -158,7 +157,6 @@ const UX_UI_Praxis = () => {
                   line /Terminal, <br /> CSS-Extensions, CSS-Frameworks, CMS,
                   Javascript, REST API, Javascript Frameworks/Libraries
                 </p>
-                <p>594 Unterrichtseinheiten</p>
               </div>
             )}
 
@@ -172,7 +170,6 @@ const UX_UI_Praxis = () => {
                   <br />
                   Präsentation
                 </p>
-                <p>50 Unterrichtseinheiten</p>
               </div>
             )}
           </article>

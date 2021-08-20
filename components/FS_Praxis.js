@@ -169,13 +169,11 @@ const UX_UI_Praxis = () => {
               <div>
                 <h3 className='colorHeader2'>Plus Skills</h3>
                 <p>
+                  Design & UX, Learn to learn, Project Management Basics,
+                  Presentation Basics <br /> <br />
                   Das Bewerbungscoaching unterstützt euch bei der Jobsuche mit
                   durchdesignten Unterlagen und optimalen Digital-Profilen.
-                  Design & UX, Learn to learn, Project Management
-                  Basics,Presentation Basics <br /> <br />
-                  Bewerbungscoaching
                 </p>
-                <p>90 Unterrichtseinheiten</p>
               </div>
             )}
 
@@ -209,7 +207,6 @@ const UX_UI_Praxis = () => {
                   Essentials, Node.js, Express.js, npm, API & Datenbanken, Mongo
                   DB
                 </p>
-                <p>395 Unterrichtseinheiten</p>
               </div>
             )}
           </article>

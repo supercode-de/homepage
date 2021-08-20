@@ -513,6 +513,9 @@ class Layout extends Component {
               font-style: normal;
             }
 
+            button .lnk {
+              text-decoration: none;
+            }
             section .right p {
               width: 88%;
               margin: auto;

@@ -19,19 +19,23 @@ const JetztAnmdelden = (props) => {
         <ul>
           <li>
             <Link href='/fullstack'>
-              <a onClick={props.toggleNavigationMobile}>Fullstack Developer</a>
+              <a onClick={props.toggleNavigationMobile}>
+                Fullstack Developer*in
+              </a>
             </Link>
           </li>
 
           <li>
             <Link href='/frontend'>
-              <a onClick={props.toggleNavigationMobile}>Frontend Developer</a>
+              <a onClick={props.toggleNavigationMobile}>
+                Frontend Developer*in
+              </a>
             </Link>
           </li>
 
           <li>
             <Link href='/uxui'>
-              <a onClick={props.toggleNavigationMobile}>UX & UI Designer</a>
+              <a onClick={props.toggleNavigationMobile}>UX & UI Designer*in</a>
             </Link>
           </li>
           {/* <li>
