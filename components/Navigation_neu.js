@@ -124,6 +124,7 @@ class Navigation extends Component {
                 Kurse
               </a>
               {/* </Link> */}
+
               <div
                 className={
                   this.state.showDropDown
@@ -133,6 +134,7 @@ class Navigation extends Component {
               >
                 <img src='/img/navArrow.svg' alt='' />
               </div>
+
               <div
                 // className='kurseList'
                 ref={this.wrapperRef}
@@ -220,15 +222,20 @@ class Navigation extends Component {
           //   position: relative;
           // }
           .kurse-link:hover > .arrowWrapper {
+            position: absolute;
             display: block;
-            width: 2.6%;
-            left: 54.3%;
+            width: 35px;
+            left: 54.3vw;
             cursor: pointer;
+            z-index: 10;
+
             padding-left: 29px;
             // animation: bounce 1.2s infinite;
           }
           .arrowWrapper {
-            position: absolute;
+            position: relative;
+
+            z-index: 10;
             display: none;
             width: 100%;
             padding-left: 29px;
@@ -244,9 +251,10 @@ class Navigation extends Component {
           .arrowWrapperNoAnimation {
             position: absolute;
             display: block;
+
             padding-left: 29px;
-            width: 2.6%;
-            left: 54.3%;
+            width: 35px;
+            left: 54.3vw;
           }
           .arrowWrapperNoAnimation img {
             width: 100%;
