@@ -278,9 +278,9 @@ class Navigation extends Component {
             justify-content: space-around;
             align-items: center;
             padding-top: 2px;
-            background: ${this.props.dropdownColor
-              ? dropdownColor
-              : 'var(--super-green)'};
+            background: ${
+              this.props.dropdownColor ? dropdownColor : 'var(--super-green)'
+            };
             width: 100vw;
             padding-left: 11%;
             padding-right: 11%;
@@ -301,9 +301,9 @@ class Navigation extends Component {
             justify-content: space-around;
             align-items: center;
             padding-top: 2px;
-            background: ${this.props.dropdownColor
-              ? dropdownColor
-              : 'var(--super-green)'};
+            background: ${
+              this.props.dropdownColor ? dropdownColor : 'var(--super-green)'
+            };
             width: 100vw;
             padding-left: 11%;
             padding-right: 11%;
@@ -350,9 +350,9 @@ class Navigation extends Component {
             letter-spacing: 1.3px;
             color: rgb(255, 255, 255);
             letter-spacing: 2px;
-            -webkit-text-stroke-width: ${this.props.navstroke
-              ? this.props.navstroke
-              : '0.4px'};
+            -webkit-text-stroke-width: ${
+              this.props.navstroke ? this.props.navstroke : '0.4px'
+            };
             -webkit-text-stroke-color: var(--super-black);
             transition: color 0.5s;
             cursor: pointer;
@@ -384,10 +384,11 @@ class Navigation extends Component {
             z-index: 99;
           }
           .nav-list {
-            display: ${window.scrollY > 0 ||
-            document.documentElement.clientWidth < 768
-              ? 'none'
-              : 'flex'};
+            display: ${
+              window.scrollY > 0 || document.documentElement.clientWidth < 768
+                ? 'none'
+                : 'flex'
+            };
           }
           .menu-button {
             // position: fixed;
@@ -396,10 +397,11 @@ class Navigation extends Component {
             min-height: 50px;
             z-index: 99998;
             cursor: pointer;
-            display: ${window.scrollY > 0 ||
-            document.documentElement.clientWidth < 768
-              ? 'unset'
-              : 'none'};
+            display: ${
+              window.scrollY > 0 || document.documentElement.clientWidth < 768
+                ? 'unset'
+                : 'none'
+            };
           }
           .logo {
             color: var(--super-green);
@@ -423,10 +425,17 @@ class Navigation extends Component {
           }
           @media (max-width: 1200px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 46%;
+              left: 46.3%;
             }
             .arrowWrapperNoAnimation {
-              left: 46%;
+              left: 46.3%;
+            }
+          @media (max-width: 1150px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 43%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 43%;
             }
           }
           @media (max-width: 1040px) {
