@@ -222,7 +222,7 @@ class Navigation extends Component {
           .kurse-link:hover > .arrowWrapper {
             display: block;
             width: 2.6%;
-            left: 52.3%;
+            left: 54.3%;
             cursor: pointer;
             padding-left: 29px;
             // animation: bounce 1.2s infinite;
@@ -246,7 +246,7 @@ class Navigation extends Component {
             display: block;
             padding-left: 29px;
             width: 2.6%;
-            left: 52.3%;
+            left: 54.3%;
           }
           .arrowWrapperNoAnimation img {
             width: 100%;
