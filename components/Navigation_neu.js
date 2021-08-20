@@ -216,10 +216,13 @@ class Navigation extends Component {
           .arrowWrapper img {
             width: 100%;
           }
-
+          // .kurse-link {
+          //   position: relative;
+          // }
           .kurse-link:hover > .arrowWrapper {
             display: block;
-            width: 2.9%;
+            width: 2.6%;
+            left: 51.6%;
             cursor: pointer;
             padding-left: 29px;
             // animation: bounce 1.2s infinite;
