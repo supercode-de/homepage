@@ -12,7 +12,7 @@ export default function FrontendKurse(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout navstroke='0.1px' banner={true}>
+      <Layout navstroke='0.1px' banner={true} dropdownColor='var(--super-lila)'>
         <div className='ux/ui-kurse'>
           <UX_UI_Header datum='25.10.' />
           <UX_UI_HeaderCTA />

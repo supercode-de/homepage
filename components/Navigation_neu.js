@@ -413,13 +413,28 @@ class Navigation extends Component {
             z-index: 99998;
             cursor: pointer;
           }
-
-          @media (max-width: 1040px) {
+          @media (max-width: 1300px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 55%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 55%;
+            }
+          }
+          @media (max-width: 1200px) {
             .kurse-link:hover > .arrowWrapper {
               left: 50%;
             }
             .arrowWrapperNoAnimation {
               left: 50%;
+            }
+          }
+          @media (max-width: 1040px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 35%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 35%;
             }
           }
 
