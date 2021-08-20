@@ -415,6 +415,14 @@ class Navigation extends Component {
             z-index: 99998;
             cursor: pointer;
           }
+          @media (max-width: 1450px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 57%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 57%;
+            }
+          }
           @media (max-width: 1400px) {
             .kurse-link:hover > .arrowWrapper {
               left: 55%;
@@ -422,13 +430,29 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 55%;
             }
-
+          }
+          @media (max-width: 1350px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 53%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 53%;
+            }
+          }
           @media (max-width: 1300px) {
             .kurse-link:hover > .arrowWrapper {
               left: 51%;
             }
             .arrowWrapperNoAnimation {
               left: 51%;
+            }
+          }
+          @media (max-width: 1250px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 48.3%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 48.3%;
             }
           }
           @media (max-width: 1200px) {
