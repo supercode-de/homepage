@@ -415,12 +415,20 @@ class Navigation extends Component {
             z-index: 99998;
             cursor: pointer;
           }
-          @media (max-width: 1300px) {
+          @media (max-width: 1400px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 50%;
+              left: 55%;
             }
             .arrowWrapperNoAnimation {
-              left: 50%;
+              left: 55%;
+            }
+
+          @media (max-width: 1300px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 51%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 51%;
             }
           }
           @media (max-width: 1200px) {
@@ -432,10 +440,10 @@ class Navigation extends Component {
             }
           @media (max-width: 1150px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 43%;
+              left: 44.2%;
             }
             .arrowWrapperNoAnimation {
-              left: 43%;
+              left: 44.2%;
             }
           }
           @media (max-width: 1040px) {
