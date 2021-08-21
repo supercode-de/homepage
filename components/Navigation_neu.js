@@ -143,13 +143,13 @@ class Navigation extends Component {
                   this.state.showDropDown ? 'kurseList-open ' : 'kurseList '
                 }
               >
-                <Link href='/fullstack'>
+                <Link href='/kurse/fullstack'>
                   <a id='dropper'>Fullstack Development</a>
                 </Link>
-                <Link href='/frontend'>
+                <Link href='/kurse/frontend'>
                   <a id='dropper'>Front-End Development</a>
                 </Link>
-                <Link href='/uxui'>
+                <Link href='/kurse/uxui'>
                   <a id='dropper'>UX & UI Design</a>
                 </Link>
               </div>
