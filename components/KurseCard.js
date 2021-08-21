@@ -128,6 +128,11 @@ const KurseCard = (props) => {
             .buttons {
               flex-direction: column;
             }
+            button {
+              padding-top: 15px;
+              padding-bottom: 15px;
+              font-size: 1.2em;
+            }
           }
           @media (max-width: 375px) {
             h5 {
