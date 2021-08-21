@@ -1,7 +1,7 @@
 // import Carousel from "react-multi-carousel";
 import kurseData from '../components/data/kursedata.json';
 import KurseCard from './KurseCard';
-const hrefs = ['/fullstack', '/frontend', '/uxui'];
+const hrefs = ['/kurse/fullstack', '/kurse/frontend', '/kurse/uxui'];
 // console.log(kurseData);
 const responsive = {
   superLargeDesktop: {

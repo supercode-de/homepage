@@ -18,7 +18,7 @@ const JetztAnmdelden = (props) => {
       <div className='navigation-mobile-container'>
         <ul>
           <li>
-            <Link href='/fullstack'>
+            <Link href='/kurse/fullstack'>
               <a onClick={props.toggleNavigationMobile}>
                 Fullstack Development
               </a>
@@ -26,13 +26,13 @@ const JetztAnmdelden = (props) => {
           </li>
 
           <li>
-            <Link href='/frontend'>
+            <Link href='/kurse/frontend'>
               <a onClick={props.toggleNavigationMobile}>Frontend Development</a>
             </Link>
           </li>
 
           <li>
-            <Link href='/uxui'>
+            <Link href='/kurse/uxui'>
               <a onClick={props.toggleNavigationMobile}>UX & UI Design</a>
             </Link>
           </li>
