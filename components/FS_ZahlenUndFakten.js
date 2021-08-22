@@ -209,7 +209,7 @@ export default function FS_ZahlenUndFakten() {
           line-height: 18px;
         }
         .vorerfahrung-container h2 {
-          margin: 50px 0 10px 0;
+          margin: 100px 0 10px 0;
         }
         .vermittlung {
           display: flex;
@@ -243,6 +243,9 @@ export default function FS_ZahlenUndFakten() {
           font-size: 3.8rem;
           color: var(--super-lila);
         }
+        .vermittlung-newJob h2 {
+          margin-top: 30px;
+        }
         .vermittlung-newJob h2 span {
           display: inline;
         }
@@ -258,7 +261,7 @@ export default function FS_ZahlenUndFakten() {
             background: url('/img/Vector64.svg') center/contain no-repeat;
             height: 145%;
             width: 100%;
-            right: 45%;
+            right: 40%;
             bottom: -24%;
             content: '';
             display: block;
