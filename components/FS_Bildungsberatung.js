@@ -57,7 +57,8 @@ export default function FS_Bildungsberatung() {
             color: #fff;
             padding-left: 6%;
             margin: 0 0 50px 0;
-            font-size: 4rem;
+            font-size: 5rem;
+            line-height:74px;
           }
           h2 .stroke {
             color: transparent;

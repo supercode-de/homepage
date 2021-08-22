@@ -276,7 +276,6 @@ const UX_UI_Praxis = () => {
                   für Prototyping / Wireframing & Erstellung eines interaktiven
                   Prototypen in <br /> Figma, Präsentationen mit Erklärungen
                 </p>
-                <p>80 Unterrichtseinheiten</p>
               </div>
             )}
             {text3 && (
@@ -662,10 +661,11 @@ const UX_UI_Praxis = () => {
             display: block;
           }
           .neugierCTA h2 {
-            font-size: 2rem;
+            font-size: 3rem;
             width: 80%;
-            margin-top: 100px;
-            margin-bottom: 20px;
+            margin-top: 105px;
+            margin-bottom: 30px;
+            padding-left: 5%;
           }
           .buttons {
             display: flex;

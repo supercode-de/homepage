@@ -110,12 +110,12 @@ export default function UX_UI_TrainerTeam() {
             min-width: 300px;
           }
           .fsTrainer h2 {
-            // font-size: 5rem;
+            font-size: 5rem;
             color: #fff;
             margin-bottom: 5rem;
             position: relative;
             z-index: 9;
-            line-height: 4.5rem;
+            line-height: 76px;
           }
           .fsTrainer h2 span {
             display: block;
@@ -127,6 +127,7 @@ export default function UX_UI_TrainerTeam() {
             color: #fff;
             width: 62%;
             font-size: 1.3rem;
+            line-height: 20px;
           }
 
           figure img {
@@ -160,9 +161,9 @@ export default function UX_UI_TrainerTeam() {
           }
           .rotating-text {
             position: absolute;
-            top: -40%;
-            right: 0;
-            width: 23%;
+            top: -20%;
+            right: -2%;
+            width: 20%;
 
             animation: spin 15s linear infinite;
           }

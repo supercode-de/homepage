@@ -83,7 +83,7 @@ export default function UX_UI_Tagesablauf() {
             .tagesablauf-header{
               color: #fff;
               padding:0 6% 62px 6%;
-              font-size:4.95rem;
+              font-size:5rem;
             }
   h2{
     color:var(--super-lila);

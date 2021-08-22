@@ -94,7 +94,11 @@ export default function FS_ZahlenUndFakten() {
           padding-left: 6%;
           color: var(--super-lila);
         }
-
+        .zahlenUndFaktenHeader {
+          font-size: 5rem;
+          line-height: 74px;
+          margin-bottom: 125px;
+        }
         .zahlenUndFakten h2 span {
           display: block;
           color: transparent;
@@ -115,10 +119,11 @@ export default function FS_ZahlenUndFakten() {
           background: url('/img/Vector64.svg') center/contain no-repeat;
           height: 145%;
           width: 100%;
-          right: 42%;
-          bottom: -30%;
+          right: 38%;
+          bottom: -24%;
           content: '';
           display: block;
+          transform: scale(1.17, 0.95);
         }
 
         span.bling::before {

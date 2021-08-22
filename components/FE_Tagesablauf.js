@@ -61,7 +61,7 @@ export default function FS_Tagesablauf() {
                     .tagesablauf-header{
                       color: #fff;
                       padding:0 6% 62px 6%;
-                      font-size:4rem;
+                      font-size:5rem;
                     }
           h2{
             color:#fff;

@@ -90,16 +90,16 @@ export default function FE_ZahlenUndFakten() {
           margin: 0 0 0 0;
           padding-top: 40px;
         }
-        .zahlenUndFakten_Header {
-          font-size: 4rem;
-          margin-top: 0;
-        }
+
         .zahlenUndFakten > h2 {
           padding-left: 6%;
           color: var(--super-lila);
         }
-        .zahlenUndFaktenHeader {
-          font-size: 3rem;
+        .zahlenUndFakten_Header {
+          font-size: 5rem;
+          line-height: 74px;
+          margin-top: 55px;
+          margin-bottom: 125px;
         }
         .zahlenUndFakten h2 span {
           display: block;
@@ -121,10 +121,11 @@ export default function FE_ZahlenUndFakten() {
           background: url('/img/Vector64.svg') center/contain no-repeat;
           height: 145%;
           width: 100%;
-          right: 42%;
-          bottom: -30%;
+          right: 38%;
+          bottom: -24%;
           content: '';
           display: block;
+          transform: scale(1.17, 0.95);
         }
 
         span.bling::before {

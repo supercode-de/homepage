@@ -215,7 +215,9 @@ const UX_UI_Praxis = () => {
       {window.screen.width <= 768 ? <Accordion_frontend /> : null}
 
       <div className='neugierCTA'>
-        <h2>Bist du neugierig geworden? Hier findest du das Curriculum.</h2>
+        <h2>
+          Bist du neugierig geworden? <br /> Hier findest du das Curriculum.
+        </h2>
         <div className='buttons'>
           <Curriculum
             buttonText='Curriculum'
@@ -430,10 +432,11 @@ const UX_UI_Praxis = () => {
             display: block;
           }
           .neugierCTA h2 {
-            font-size: 2rem;
+            font-size: 3rem;
             width: 80%;
-            margin-top: 40px;
+            margin-top: 105px;
             margin-bottom: 30px;
+            padding-left: 5%;
           }
           .buttons {
             display: flex;

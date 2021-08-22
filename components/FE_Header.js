@@ -9,7 +9,9 @@ const FE_Header = (props) => {
             START <br />
             {props.datum}
           </div>
-          <img src='/img/_DSC7143_LowRes.png' alt='' />
+          <div className='imgWrapper'>
+            <img src='/img/_DSC7143_LowRes.png' alt='' />
+          </div>
         </div>
         <div className='headline'>
           <h1>Front–End</h1>
@@ -40,7 +42,7 @@ const FE_Header = (props) => {
             color: #ffffff;
           }
           header {
-            padding: 40px 0 40px 5%;
+            padding: 75px 0 40px 5%;
             font-family: 'Neue_Machina_Regular_400';
             position: relative;
             background-color: #5d3ede;
@@ -73,10 +75,14 @@ const FE_Header = (props) => {
           }
           h1 {
             font-family: 'Neue_Machina_Regular_400';
-            font-size: 9.5rem;
+            font-size: 8rem;
             color: #fff;
-            line-height: 0.9em;
+            line-height: 0.8em;
             margin: 0;
+          }
+
+          .headline{
+            padding-left:3.5%;
           }
           .letterstroke {
             color: transparent;
@@ -98,6 +104,10 @@ const FE_Header = (props) => {
           .header-flex > * {
             width: 100%;
           }
+
+          .imgWrapper{
+            width:115%;
+          }
           .start-container {
            position: relative;
           }
@@ -109,7 +119,7 @@ const FE_Header = (props) => {
             border-radius: 50%;
             transform: rotate(-10deg) translate(50%, 50%);
             bottom: 0;
-            right: 10%;
+            right: 1%;
             display: flex;
             justify-content: center;
             align-items: center;

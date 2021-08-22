@@ -111,12 +111,12 @@ export default function FE_TrainerTeam() {
             min-width: 300px;
           }
           .fsTrainer h2 {
-            font-size: 4rem;
+            font-size: 5rem;
             color: #fff;
             margin-bottom: 5rem;
             position: relative;
             z-index: 9;
-            line-height: 60px;
+            line-height: 76px;
           }
           .fsTrainer h2 span {
             display: block;
@@ -163,9 +163,9 @@ export default function FE_TrainerTeam() {
           }
           .rotating-text {
             position: absolute;
-            top: -40%;
-            right: 10px;
-            width: 23%;
+            top: -20%;
+            right: -2%;
+            width: 20%;
 
             animation: spin 15s linear infinite;
           }

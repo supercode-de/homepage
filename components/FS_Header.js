@@ -43,7 +43,7 @@ const FSHeader = (props) => {
           }
         
           header {
-            padding: 40px 0 40px 5%;
+            padding: 75px 0 40px 5%;
             font-family: 'Neue_Machina_Regular_400';
             position: relative;
             background-color: #5d3ede;
@@ -75,7 +75,7 @@ const FSHeader = (props) => {
             font-weight: bold;
           }
 .headline{
-  padding-left:3%;
+  padding-left:3.5%;
 }
 
           h1 {
@@ -120,7 +120,7 @@ const FSHeader = (props) => {
             border-radius: 50%;
             transform: rotate(-10deg) translate(50%, 50%);
             bottom: 0;
-            right: 10%;
+            right: 1%;
             display: flex;
             justify-content: center;
             align-items: center;

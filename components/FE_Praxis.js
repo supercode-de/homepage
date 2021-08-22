@@ -393,10 +393,11 @@ const UX_UI_Praxis = () => {
             display: block;
           }
           .neugierCTA h2 {
-            font-size: 2rem;
+            font-size: 3rem;
             width: 80%;
-            margin-top: 40px;
+            margin-top: 105px;
             margin-bottom: 30px;
+            padding-left: 5%;
           }
           .buttons {
             display: flex;
