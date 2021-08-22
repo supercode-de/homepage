@@ -205,7 +205,7 @@ export default function FS_ZahlenUndFakten() {
         .vorerfahrung-container {
         }
         .vorerfahrung-container p {
-          font-size: 1.1rem;
+          font-size: 1.3rem;
           line-height: 18px;
         }
         .vorerfahrung-container h2 {
@@ -233,14 +233,14 @@ export default function FS_ZahlenUndFakten() {
         }
 
         .vermittlung-newJob p {
-          font-size: 1.1rem;
+          font-size: 1.3rem;
           line-height: 18px;
         }
 
         .zahlenUndFakten-infos h2,
         .vermittlung-newJob h2 {
-          line-height: 2.5rem;
-          font-size: 3rem;
+          line-height: 50px;
+          font-size: 3.8rem;
           color: var(--super-lila);
         }
         .vermittlung-newJob h2 span {
@@ -251,6 +251,20 @@ export default function FS_ZahlenUndFakten() {
           width: 100%;
         }
         //==============
+
+        @media (max-width: 2560px) {
+          h2 span.circle::after {
+            position: absolute;
+            background: url('/img/Vector64.svg') center/contain no-repeat;
+            height: 145%;
+            width: 100%;
+            right: 45%;
+            bottom: -24%;
+            content: '';
+            display: block;
+            transform: scale(1.17, 0.95);
+          }
+        }
 
         @media (max-width: 768px) {
           .bling,

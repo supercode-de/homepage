@@ -88,7 +88,7 @@ export default function FS_Tagesablauf() {
                     }
 
                     .eat-sleep-header{
-                      font-size:2.5rem;
+                      font-size:3.5rem;
                       color:#fff;
                       margin-bottom:0;
                       line-height:38px;
@@ -106,7 +106,7 @@ export default function FS_Tagesablauf() {
                     .tagesablauf-txt p{
                   color: #fff;
                   width:85%;
-                  font-size:0.95rem;
+                  font-size:1.3rem;
                   line-height:19px;
                     }
                     .tagesablauf article > div img {
