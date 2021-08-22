@@ -127,7 +127,8 @@ export default function UX_UI_Tagesablauf() {
             .tagesablauf-txt p{
           color: var(--super-lila);
           width:80%;
-          font-size: 
+          font-size: 1.3rem;
+          line-height:19px;
             }
             .tagesablauf article > div img {
               width: 100%;

@@ -240,7 +240,7 @@ export default function FE_ZahlenUndFakten() {
         .zahlenUndFakten-infos h2,
         .vermittlung-newJob h2 {
           line-height: 2.5rem;
-          font-size: 3rem;
+          font-size: 3.8rem;
           color: var(--super-lila);
         }
         .vermittlung-newJob h2 span {
