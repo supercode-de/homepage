@@ -9,7 +9,9 @@ const FSHeader = (props) => {
             START <br />
             {props.datum}
           </div>
-          <img src='/img/_DSC7143_LowRes.png' alt='' />
+          <div className='imgWrapper'>
+            <img src='/img/_DSC7143_LowRes.png' alt='' />
+          </div>
         </div>
         <div className='headline'>
           <h1>Full–Stack</h1>
@@ -39,6 +41,7 @@ const FSHeader = (props) => {
             text-transform: uppercase;
             color: #ffffff;
           }
+        
           header {
             padding: 40px 0 40px 5%;
             font-family: 'Neue_Machina_Regular_400';
@@ -71,11 +74,15 @@ const FSHeader = (props) => {
             font-family: 'Fira Sans', sans-serif;
             font-weight: bold;
           }
+.headline{
+  padding-left:3%;
+}
+
           h1 {
             font-family: 'Neue_Machina_Regular_400';
-            font-size: 9.5rem;
+            font-size: 8rem;
             color: #fff;
-            line-height: 0.9em;
+            line-height: 0.8em;
             margin: 0;
           }
           .letterstroke {
@@ -98,6 +105,10 @@ const FSHeader = (props) => {
           .header-flex > * {
             width: 100%;
           }
+          .imgWrapper{
+            width:115%;
+          }
+
           .start-container {
            position: relative;
           }
