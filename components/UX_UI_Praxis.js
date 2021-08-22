@@ -484,8 +484,9 @@ const UX_UI_Praxis = () => {
           // }
           .fsPraxis p {
             width: 65%;
-            font-size: 1.1rem;
+            font-size: 1.3rem;
             font-weight: 300;
+            line-height: 20px;
           }
           .praxis-Img {
             width: 90%;
