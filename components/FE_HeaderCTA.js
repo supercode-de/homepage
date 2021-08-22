@@ -405,7 +405,7 @@ const HeaderCallToAction_neu = () => {
         section h3 {
           font-weight: 300;
           margin-bottom: 1rem;
-          font-size: 2rem;
+          font-size: 2.6rem;
           font-family: 'Neue_Machina_Regular_400';
         }
         .super,
@@ -462,8 +462,8 @@ const HeaderCallToAction_neu = () => {
         }
 
         .jetzt-bewerben h4 {
-          width: 100%;
-          font-size: 2rem;
+          width: 140%;
+          font-size: 2.6rem;
           position: relative;
           top: 50px;
         }
@@ -493,7 +493,7 @@ const HeaderCallToAction_neu = () => {
           }
 
           .jetzt-bewerben h4 {
-            font-size: 1.7rem;
+            font-size: 2.6rem;
           }
           h3 span.circle::after {
             width: 119%;
@@ -501,7 +501,7 @@ const HeaderCallToAction_neu = () => {
             bottom: -110%;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') 0px 27px / contain no-repeat;
+            background: url('/img/vector127.svg') 0px 37px / contain no-repeat;
           }
         }
         @media (max-width: 1024px) {
