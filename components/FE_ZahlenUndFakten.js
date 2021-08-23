@@ -212,6 +212,7 @@ export default function FE_ZahlenUndFakten() {
         }
         .vorerfahrung-container h2 {
           margin: 100px 0 10px 0;
+          font-family: 'Neue_Machina_Ultrabold';
         }
         .vermittlung {
           display: flex;
@@ -234,12 +235,14 @@ export default function FE_ZahlenUndFakten() {
           line-height: 18px;
         }
         .vermittlung-newJob h2 {
+          font-family: 'Neue_Machina_Ultrabold';
+
           margin-bottom: 10px;
           margin-top: 0px;
         }
         .zahlenUndFakten-infos h2,
         .vermittlung-newJob h2 {
-          line-height: 2.5rem;
+          line-height: 3rem;
           font-size: 3.8rem;
           color: var(--super-lila);
         }
