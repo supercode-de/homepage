@@ -631,7 +631,12 @@ const UX_UI_Praxis = () => {
               font-size: 2rem;
             }
             .fsPraxis h2 {
+              font-family:"Neue_Machina_Ultrabold";
               font-size: 1.8rem;
+              line-height: 20px;
+            }
+            .fsPraxis .neugierCTA_txt {
+              font-size: 2rem;
               line-height: 28px;
             }
             .neugierCTA {
@@ -653,7 +658,7 @@ const UX_UI_Praxis = () => {
           @media (max-width: 440px) {
             h2 {
               font-size: 1.7rem;
-              line-height: 28px;
+              line-height: 20px;
             }
             .fsPraxis h2 {
               font-size: 1.4rem;
@@ -672,6 +677,24 @@ const UX_UI_Praxis = () => {
               display: flex;
               justify-content: space-between;
               width: 90%;
+              padding-right: 0%;
+              padding-left: 7%;
+            }
+          }
+          @media (max-width: 375px) {
+            .fsPraxis h2 {
+              font-size: 1.4rem;
+            }
+            .fsPraxis .neugierCTA_txt {
+              font-size: 1.4rem;
+              line-height: 20px;
+            }
+            .buttons {
+              display: flex;
+              justify-content: flex-end;
+              width: 100%;
+              padding-right: 2.5%;
+              padding-left: 3.7%;
             }
           }
         `}

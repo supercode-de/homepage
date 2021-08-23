@@ -237,7 +237,7 @@ export default function UX_UI_TrainerTeam() {
               margin-bottom: 10px;
             }
             .fsTrainer p {
-              font-size: 0.9rem;
+              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
               line-height: 13px;
@@ -277,7 +277,7 @@ export default function UX_UI_TrainerTeam() {
               line-height: 13px;
             }
             figcaption {
-              font-size: 0.9rem;
+              font-size: 1rem;
               color: var(--super-green);
               padding-top: 7px;
               padding-bottom: 1px;
@@ -293,6 +293,7 @@ export default function UX_UI_TrainerTeam() {
             }
             .fsTrainer h2 {
               font-size: 1.4rem;
+              line-height: 20px;
 
               margin-bottom: 0;
             }

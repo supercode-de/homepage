@@ -237,11 +237,11 @@ export default function FS_TrainerTeam() {
           @media (max-width: 585px) {
             .fsTrainer h2 {
               font-size: 1.8rem;
-              // line-height: 20px;
+              line-height: 20px;
               margin-bottom: 10px;
             }
             .fsTrainer p {
-              font-size: 0.9rem;
+              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
               line-height: 13px;
@@ -265,7 +265,7 @@ export default function FS_TrainerTeam() {
               margin-bottom: 10px;
             }
             .fsTrainer p {
-              font-size: 0.9rem;
+              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
               line-height: 13px;
@@ -285,7 +285,7 @@ export default function FS_TrainerTeam() {
               // overflow: hidden;
             }
             .fsTrainer h2 {
-              font-size: 1.4rem;
+              font-size: 1.8rem;
               line-height: 28px;
               margin-bottom: 0;
             }
@@ -328,6 +328,12 @@ export default function FS_TrainerTeam() {
             //   // .gridContainer gridItem {
             //   //   width: 100%;
             //   // }
+          }
+          @media (max-width: 375px) {
+            .fsTrainer h2 {
+              font-size: 1.4rem;
+              line-height: 20px;
+            }
           }
         `}
       </style>

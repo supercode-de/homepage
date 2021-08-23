@@ -102,7 +102,7 @@ h2{
           .tagesablauf-txt p{
         color: #fff;
         width:85%;
-        font-size:1.3rem;
+        font-size:1rem;
         line-height:19px;
           }
           .tagesablauf article > div img {
@@ -165,6 +165,11 @@ h2{
               width:80%;
              
             }
+            .eat-sleep-header{
+              font-size:2rem;
+               line-height:28px;
+       
+            }
           }
           @media (max-width: 425px) {
             .tagesablauf article {
@@ -183,6 +188,16 @@ h2{
             // }
             .tagesablauf_imgContainer{
               display:block;
+            }
+             @media (max-width: 375px) {
+                .tagesablauf-header{
+                  font-size:1.4rem;
+                }
+              .eat-sleep-header{
+                font-size:1.4rem;
+                line-height:20px;
+         
+              }
             }
         
         `}

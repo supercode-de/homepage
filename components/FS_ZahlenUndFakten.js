@@ -46,7 +46,8 @@ export default function FS_ZahlenUndFakten() {
         </div>
         <div className='vorerfahrung-container'>
           <h2>
-            Brauche ich <br />
+            Brauche ich
+            {/* <br /> */}
             <span>Vorerfahrung?</span>
           </h2>
           <p>
@@ -205,7 +206,7 @@ export default function FS_ZahlenUndFakten() {
         }
 
         .vorerfahrung-container p {
-          font-size: 1.3rem;
+          font-size: 1rem;
           line-height: 18px;
         }
         .vorerfahrung-container h2 {
@@ -235,7 +236,7 @@ export default function FS_ZahlenUndFakten() {
         }
 
         .vermittlung-newJob p {
-          font-size: 1.3rem;
+          font-size: 1rem;
           line-height: 18px;
         }
 
@@ -336,14 +337,15 @@ export default function FS_ZahlenUndFakten() {
 
         @media (max-width: 468px) {
           .zahlenUndFakten-infos h2 {
-            font-size: 2rem;
+            font-size: 1.8rem;
           }
           .zahlenUndFaktenHeader {
-            font-size: 1.6rem;
+            font-size: 1.8rem;
+            line-height: 28px;
           }
 
           .vermittlung-newJob h2 {
-            font-size: 2rem;
+            font-size: 1.8rem;
           }
           .zahlenUndFakten-infos,
           .vermittlung {
@@ -391,16 +393,36 @@ export default function FS_ZahlenUndFakten() {
           .absolvent_2 figcaption {
             padding-bottom: 10px;
           }
+          .zahlenUndFakten-infos h2,
+          .vermittlung-newJob h2 {
+            line-height: 28px;
+            // font-size: 3.8rem;
+            color: var(--super-lila);
+          }
+
           .zahlenUndFakten .zahlenUndFaktenHeader {
-            font-size: 2rem;
+            font-size: 1.8rem;
+            margin-bottom: 20px;
           }
         }
-        @media (max-width: 368px) {
+        @media (max-width: 375px) {
           .absolvent_1 figcaption {
             padding-bottom: 10px;
           }
-          .zahlenUndFaktenHeader {
-            font-size: 1.8rem;
+          .zahlenUndFakten .zahlenUndFaktenHeader {
+            font-size: 1.4rem;
+          }
+          .zahlenUndFakten-infos h2,
+          .vermittlung-newJob h2 {
+            line-height: 20px;
+            font-size: 1.4rem;
+            color: var(--super-lila);
+          }
+          .zahlenUndFakten h2 span {
+            display: block;
+            color: transparent;
+            -webkit-text-stroke-width: 0.2px;
+            -webkit-text-stroke-color: var(--super-lila);
           }
         }
       `}</style>

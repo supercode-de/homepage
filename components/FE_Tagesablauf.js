@@ -106,7 +106,7 @@ export default function FS_Tagesablauf() {
                     .tagesablauf-txt p{
                   color: #fff;
                   width:85%;
-                  font-size:1.3rem;
+                  font-size:1rem;
                   line-height:19px;
                     }
                     .tagesablauf article > div img {
@@ -163,6 +163,14 @@ export default function FS_Tagesablauf() {
                       //   display:none;
                       // }
                     }
+                    @media (max-width: 520px) {
+                    .eat-sleep-header{
+                      font-size:2rem;
+                       line-height:28px;
+               
+                    }
+                  }
+
                     @media (max-width: 425px) {
                       .tagesablauf article {
                         display: block;
@@ -181,6 +189,16 @@ export default function FS_Tagesablauf() {
                       .tagesablauf_imgContainer{
                         display:block;
                       }
+                      @media (max-width: 375px) {
+                        .tagesablauf-header{
+                          font-size:1.4rem;
+                        }
+                      .eat-sleep-header{
+                        font-size:1.4rem;
+                        line-height:20px;
+                 
+                      }
+                    }
         `}
       </style>
     </section>

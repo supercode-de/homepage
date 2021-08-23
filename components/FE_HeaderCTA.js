@@ -283,7 +283,15 @@ const HeaderCallToAction_neu = () => {
           .headerFlex section:first-child .after-span {
             background: url('/img/vector127.svg') -20px 13px / contain no-repeat;
           }
+          .jetzt-bewerben {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            padding-top: 30px;
+            padding-left: 5%;
+          }
           .jetzt-bewerben h4 {
+            display: none;
             top: 25px;
             font-size: 0.8rem;
           }

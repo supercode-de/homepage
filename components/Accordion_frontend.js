@@ -203,7 +203,7 @@ export default function Accordion() {
           }
 
           .accordion-toggle p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             margin: 0;
             padding: 22px 15px;
             pointer-events: none;

@@ -127,7 +127,7 @@ export default function UX_UI_Tagesablauf() {
             .tagesablauf-txt p{
           color: var(--super-lila);
           width:80%;
-          font-size: 1.3rem;
+          font-size: 1rem;
           line-height:19px;
             }
             .tagesablauf article > div img {
@@ -203,7 +203,7 @@ export default function UX_UI_Tagesablauf() {
                 padding-right: 1%;
               }
               .tagesablauf-header{
-                font-size:2rem;
+                font-size:1.8rem;
               }
               .tagesablauf article > div {
                 width: 90%;
@@ -215,7 +215,16 @@ export default function UX_UI_Tagesablauf() {
               .tagesablauf_imgContainer{
                 display:block;
               }
-          
+              @media (max-width: 375px) {
+                .tagesablauf-header{
+                  font-size:1.4rem;
+                }
+              .eat-sleep-header{
+                font-size:1.4rem;
+                color:var(--super-lila);
+                margin-bottom:0;
+              }
+            }
           `}
       </style>
     </section>

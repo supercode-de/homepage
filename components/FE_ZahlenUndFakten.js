@@ -197,7 +197,7 @@ export default function FE_ZahlenUndFakten() {
           padding: 0 5% 0 5.5rem;
         }
         .vorerfahrung-container p {
-          font-size: 1.3rem;
+          font-size: 1rem;
           line-height: 18px;
         }
         .zahlenUndFakten-infos p {
@@ -231,7 +231,7 @@ export default function FE_ZahlenUndFakten() {
           width: 47%;
         }
         .vermittlung-newJob p {
-          font-size: 1.3rem;
+          font-size: 1rem;
           line-height: 18px;
         }
         .vermittlung-newJob h2 {
@@ -333,9 +333,9 @@ export default function FE_ZahlenUndFakten() {
         //=============
 
         @media (max-width: 550px) {
-          .zahlenUndFakten_Header {
+          .zahlenUndFakten .zahlenUndFakten_Header {
             font-size: 1.8rem;
-            // padding-top: 50px;
+            margin-bottom: 20px;
           }
           .absolvent_2 figcaption {
             padding-bottom: 19px;
@@ -343,14 +343,26 @@ export default function FE_ZahlenUndFakten() {
         }
 
         @media (max-width: 468px) {
+          .zahlenUndFakten-infos h2,
+          .vermittlung-newJob h2 {
+            line-height: 28px;
+            // font-size: 3.8rem;
+            color: var(--super-lila);
+          }
+
           .zahlenUndFakten-infos h2 {
-            font-size: 2rem;
+            font-size: 1.8rem;
+          }
+          .zahlenUndFakten .zahlenUndFakten_Header {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            line-height: 28px;
           }
           .absolvent_2 figcaption {
             padding-bottom: 22px;
           }
           .vermittlung-newJob h2 {
-            font-size: 2rem;
+            font-size: 1.8rem;
           }
           .zahlenUndFakten-infos,
           .vermittlung {
@@ -395,6 +407,23 @@ export default function FE_ZahlenUndFakten() {
             padding: 0;
           }
           @media (max-width: 468px) {
+          }
+        }
+        @media (max-width: 375px) {
+          .zahlenUndFakten .zahlenUndFakten_Header {
+            font-size: 1.4rem;
+          }
+          .zahlenUndFakten-infos h2,
+          .vermittlung-newJob h2 {
+            line-height: 20px;
+            font-size: 1.4rem;
+            color: var(--super-lila);
+          }
+          .zahlenUndFakten h2 span {
+            display: block;
+            color: transparent;
+            -webkit-text-stroke-width: 0.2px;
+            -webkit-text-stroke-color: var(--super-lila);
           }
         }
       `}</style>
