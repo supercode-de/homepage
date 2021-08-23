@@ -73,7 +73,7 @@ export default function FS_ZahlenUndFakten() {
             </span>
             Start a new job!
           </h2>
-          <span className='circlee'>. </span>
+
           <p>
             Über 70% unserer Alumnis haben spätestens ein Jahr nach dem Bootcamp
             ihren Wunschjob.
