@@ -297,7 +297,7 @@ export default function FS_TrainerTeam() {
               font-size: 1rem;
               width: 95%;
               margin-bottom: 30px;
-              line-height: 1px;
+              line-height: 15px;
             }
 
             figcaption {

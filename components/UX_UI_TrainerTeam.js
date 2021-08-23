@@ -301,7 +301,7 @@ export default function UX_UI_TrainerTeam() {
               font-size: 0.8rem;
               width: 95%;
               // margin-bottom: 30px;
-              line-height: 10px;
+              line-height: 15px;
             }
 
             .fsTrainer .txt {

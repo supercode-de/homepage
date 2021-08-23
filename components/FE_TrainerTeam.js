@@ -271,7 +271,7 @@ export default function FE_TrainerTeam() {
               font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
-              line-height: 13px;
+              line-height: 15px;
             }
 
             .fsTrainer figure p {
