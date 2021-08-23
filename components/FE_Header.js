@@ -10,7 +10,7 @@ const FE_Header = (props) => {
             {props.datum}
           </div>
           <div className='imgWrapper'>
-            <img src='/img/_DSC7143_LowRes.png' alt='' />
+            <img src='/img/_DSC7143_LowRes.jpg' alt='' />
           </div>
         </div>
         <div className='headline'>
