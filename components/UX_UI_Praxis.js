@@ -564,11 +564,24 @@ const UX_UI_Praxis = () => {
             background: url('/img/Vector64.svg') center/contain no-repeat;
             height: 336%;
             width: 25%;
-            right: 32%;
+            right: 38%;
             bottom: -110%;
             content: '';
             transform: scale(1.1, 0.6);
             display: block;
+          }
+          @media (max-width: 1440px) {
+            .neugierCTA p span.circle::after {
+              position: absolute;
+              background: url('/img/Vector64.svg') center/contain no-repeat;
+              height: 336%;
+              width: 25%;
+              right: 29%;
+              bottom: -110%;
+              content: '';
+              transform: scale(1.1, 0.6);
+              display: block;
+            }
           }
 
           @media (max-width: 1040px) {
