@@ -180,7 +180,7 @@ const UX_UI_Praxis = () => {
       <div className='neugierCTA'>
         <p className='neugierCTA_txt'>
           Bist du neugierig geworden? <br /> Hier findest du das{' '}
-          <span className='circle'> Curriculum</span>.
+          <span className='circle'> Curriculum.</span>
         </p>
         <div className='buttons'>
           <Curriculum
@@ -373,7 +373,7 @@ const UX_UI_Praxis = () => {
           .fsPraxis .neugierCTA_txt {
             font-family: 'Neue_Machina_Light';
             // color: #989898;
-            font-size: 3rem;
+            font-size: 3.3rem;
             width: 80%;
             color: #121e28;
             margin-top: 125px;
