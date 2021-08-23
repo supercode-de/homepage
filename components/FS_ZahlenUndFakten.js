@@ -193,7 +193,7 @@ export default function FS_ZahlenUndFakten() {
           width: 47%;
         }
         .vorerfahrung-container {
-          padding: 0 2.8rem 0 5.5rem;
+          padding: 0 5% 0 5.5rem;
         }
         .zahlenUndFakten-infos p {
           color: var(--super-lila);
