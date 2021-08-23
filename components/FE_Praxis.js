@@ -178,9 +178,10 @@ const UX_UI_Praxis = () => {
       {window.screen.width <= 768 ? <Accordion_frontend /> : null}
 
       <div className='neugierCTA'>
-        <h2>
-          Bist du neugierig geworden? <br /> Hier findest du das Curriculum.
-        </h2>
+        <p className='neugierCTA_txt'>
+          Bist du neugierig geworden? <br /> Hier findest du das{' '}
+          <span className='circle'> Curriculum</span>.
+        </p>
         <div className='buttons'>
           <Curriculum
             buttonText='Curriculum'
@@ -207,6 +208,7 @@ const UX_UI_Praxis = () => {
           //   font-size: 4rem;
           // }
           .fsPraxis p {
+            font-family: 
             width: 65%;
             font-size: 1.3rem;
             font-weight: 300;
@@ -368,6 +370,19 @@ const UX_UI_Praxis = () => {
 
           //=========================
 
+          .fsPraxis .neugierCTA_txt {
+            font-family: 'Neue_Machina_Light';
+            // color: #989898;
+            font-size: 3rem;
+            width: 80%;
+            color: #121e28;
+            margin-top: 125px;
+            margin-bottom: 30px;
+            padding-left: 5%;
+            line-height: 50px;
+            font-weight:200;
+          }
+
           h2 {
             font-size: 4rem;
             font-family: 'Neue_Machina_Light';
@@ -375,6 +390,13 @@ const UX_UI_Praxis = () => {
             margin: 0;
             line-height: 50px;
           }
+          // .neugierCTA_txt {
+          //   font-size: 4rem;
+          //   font-family: 'Neue_Machina_Light';
+          //   color: #03000f;
+          //   margin: 0;
+          //   line-height: 50px;
+          // }
           p {
             color: #121e28;
             // width: 55%;
@@ -394,18 +416,33 @@ const UX_UI_Praxis = () => {
           }
           .neugierCTA {
             display: block;
+            position: relative;
           }
-          .neugierCTA h2 {
-            font-size: 3rem;
-            width: 80%;
-            margin-top: 125px;
-            margin-bottom: 30px;
-            padding-left: 5%;
-          }
+          // .neugierCTA_txt {
+          //   font-size: 5rem;
+          //   width: 80%;
+          //   margin-top: 125px;
+          //   margin-bottom: 30px;
+          //   padding-left: 5%;
+          // }
           .buttons {
             display: flex;
             justify-content: flex-end;
             width: 100%;
+            padding-right: 5%;
+          }
+
+          .neugierCTA p span.circle::after {
+            position: absolute;
+            background: url('/img/Vector64.svg') center/contain no-repeat;
+            height: 336%;
+            width: 25%;
+            right: 32%;
+            bottom: -110%;
+            content: '';
+            
+            transform: scale(1.1, 0.6);
+            display: block;
           }
 
           @media (max-width: 1040px) {

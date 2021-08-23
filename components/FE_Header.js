@@ -129,11 +129,26 @@ const FE_Header = (props) => {
             font-size: 2rem;
             z-index: 9;
           }
-
+          @media (max-width: 1263px) {
+            h1 {
+              font-family: 'Neue_Machina_Regular_400';
+              font-size: 8rem;
+              color: #fff;
+              line-height: 0.8em;
+              margin: 0;
+            }
+          }
           @media (max-width: 1040px) {
+              // h1 {
+              //   font-size: 4em;
+              //   padding-left: 70px;
+              // }
               h1 {
-                font-size: 4em;
-                padding-left: 70px;
+                font-family: 'Neue_Machina_Regular_400';
+                font-size: 8rem;
+                color: #fff;
+                line-height: 0.8em;
+                margin: 0;
               }
             .header-flex {
              gap:0;
@@ -144,6 +159,9 @@ const FE_Header = (props) => {
             }
 
             .header-flex {min-width:90%;}
+            .imgWrapper{
+              width:115%;
+            }
           @media (max-width: 875px) {
             .header-flex {
               flex-direction:column;

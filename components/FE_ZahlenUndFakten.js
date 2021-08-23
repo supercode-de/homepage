@@ -194,7 +194,7 @@ export default function FE_ZahlenUndFakten() {
           width: 47%;
         }
         .vorerfahrung-container {
-          padding: 0 2rem 0 5.5rem;
+          padding: 0 2.8rem 0 5.5rem;
         }
         .vorerfahrung-container p {
           font-size: 1.3rem;

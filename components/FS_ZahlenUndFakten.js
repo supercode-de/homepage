@@ -73,6 +73,7 @@ export default function FS_ZahlenUndFakten() {
             </span>
             Start a new job!
           </h2>
+          <span className='circlee'>. </span>
           <p>
             Über 70% unserer Alumnis haben spätestens ein Jahr nach dem Bootcamp
             ihren Wunschjob.
@@ -114,7 +115,7 @@ export default function FS_ZahlenUndFakten() {
         .bling2 {
           position: relative;
         }
-        h2 span.circle::after {
+        circlee::after {
           position: absolute;
           background: url('/img/Vector64.svg') center/contain no-repeat;
           height: 145%;
@@ -192,7 +193,7 @@ export default function FS_ZahlenUndFakten() {
           width: 47%;
         }
         .vorerfahrung-container {
-          padding: 0 2rem 0 5.5rem;
+          padding: 0 2.8rem 0 5.5rem;
         }
         .zahlenUndFakten-infos p {
           color: var(--super-lila);
@@ -202,8 +203,7 @@ export default function FS_ZahlenUndFakten() {
         .vermittlung img {
           width: 100%;
         }
-        .vorerfahrung-container {
-        }
+
         .vorerfahrung-container p {
           font-size: 1.3rem;
           line-height: 18px;

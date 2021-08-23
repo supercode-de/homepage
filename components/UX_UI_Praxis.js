@@ -320,143 +320,14 @@ const UX_UI_Praxis = () => {
           </article>
         </section>
       ) : null}
-      {/* <section className='plus-skills-infos'>
-        <article>
-          <div>
-            <h3 className='colorHeader1'>UX/UI-Design-Preparation</h3>
-            <p>
-              Unterschiede, Nutzen & Entstehung, Grundlagen des Design Thinking
-              Anwendungsgebiete, Best practice Beispiel-Webseiten,
-              UX-Communities Grundlagen von HTML & CSS Responsive Design &
-              Mobile first Produktionszyklus für Digitalprodukte Tools: Figma,
-              Trello
-            </p>
-          </div>
-          <div>
-            <h3 className='colorHeader2'>
-              UI: Gestaltung von Benutzeroberflächen
-            </h3>
-            <p>
-              Branding- und Design-Grundlagen für UI: Moodboard, UI-Typo als
-              Praxisaufgabe, Designkonzept Webdesign, Accessibility (&
-              Usability) Praxisprojekte: Designerstellung mit Figma (Komponenten
-              / Grid & Raster / Responsive Design & Designsysteme, ggf.
-              Animations)
-            </p>
-          </div>
-          <div>
-            <h3 className='colorHeader3'>UX: Verstehen und anwenden </h3>
-            <p>
-              UX: Verstehen und anwenden Prinzipien des benutzerzentrierten
-              Designs Projektarbeit: Anwendung von Design Thinking / agilen
-              Methoden / Design-Sprints / Mindset entwickeln User-Research /
-              UX-Forschungsmethoden UX-Methoden / Fachbegriffe und
-              Definitionen(z.b : Pain-Points, User-Stories, User Journey etc)
-              Low-Fidelity- und High-Fidelity-Design Praxisübungen für
-              Prototyping / Wireframing & Erstellung eines interaktiven
-              Prototypen in Figma Präsentationen mit Erklärungen
-            </p>
-          </div>
-          <div>
-            <h3>Plus Skills / Get in Job </h3>
-            <p>
-              Learn to learn, Presentation Basics, Portfolio vorbereiten für
-              Bewerbungen, UX-fokussierter Lebenslauf, Basics Jobsuche
-              UX/UI-Bereich
-            </p>
-          </div>
-          <div>
-            <h3>Abschlussprojekt:</h3>
-            <p>
-              {' '}
-              Erstellung eines vollständig animierten interaktiven Prototyps /
-              Testing & Präsentation des Produkts: Rollenspiel für Kunden
-            </p>
-          </div>
-        </article>
-        <div className='img-wrapper'>
-          <img src='/img/Group488.svg' alt='' />
-        </div>
-      </section> */}
+
       {window.screen.width <= 768 ? <Accordion_uxui /> : null}
-      {/* {window.screen.width <= 768 ? (
-        <section className='mobile-section'>
-          <article className='article1'>
-            <div>
-              <img src='/img/Group199.svg' alt='' />
-            </div>
-            <div>
-              <h3 className='colorHeader1'>UX/UI-Design-Preparation</h3>
-              <p>
-                Unterschiede, Nutzen & Entstehung, Grundlagen des Design
-                Thinking Anwendungsgebiete, Best practice Beispiel-Webseiten,
-                UX-Communities Grundlagen von HTML & CSS Responsive Design &
-                Mobile first Produktionszyklus für Digitalprodukte Tools: Figma,
-                Trello
-              </p>
-            </div>
-          </article>
-          <article>
-            <div>
-              <img src='/img/Group200.svg' alt='' />
-            </div>
-            <div>
-              {' '}
-              <h3 className='colorHeader2'>
-                UI: Gestaltung von Benutzeroberflächen
-              </h3>
-              <p>
-                Branding- und Design-Grundlagen für UI: Moodboard, UI-Typo als
-                Praxisaufgabe, Designkonzept Webdesign, Accessibility (&
-                Usability) Praxisprojekte: Designerstellung mit Figma
-                (Komponenten / Grid & Raster / Responsive Design &
-                Designsysteme, ggf. Animations)
-              </p>
-            </div>
-          </article>
-          <article>
-            <div>
-              <img src='/img/Group201.svg' alt='' />
-            </div>
-            <div>
-              <h3 className='colorHeader3'>UX: Verstehen und anwenden </h3>
-              <p>
-                UX: Verstehen und anwenden Prinzipien des benutzerzentrierten
-                Designs Projektarbeit: Anwendung von Design Thinking / agilen
-                Methoden / Design-Sprints / Mindset entwickeln User-Research /
-                UX-Forschungsmethoden UX-Methoden / Fachbegriffe und
-                Definitionen(z.b : Pain-Points, User-Stories, User Journey etc)
-                Low-Fidelity- und High-Fidelity-Design Praxisübungen für
-                Prototyping / Wireframing & Erstellung eines interaktiven
-                Prototypen in Figma Präsentationen mit Erklärungen
-              </p>
-            </div>
-          </article>
-          <article>
-            <div>
-              <img src='/img/Group202.svg' alt='' />
-              <img src='/img/Group203.svg' alt='' />
-            </div>
-            <div>
-              {' '}
-              <h3>Plus Skills / Get in Job </h3>
-              <p>
-                Learn to learn, Presentation BasicsPortfolio vorbereiten für
-                Bewerbungen UX-fokussierten Lebenslauf Basics Jobsuche
-                UX/UI-Bereich
-              </p>
-              <h3>Abschlussprojekt:</h3>
-              <p>
-                {' '}
-                Erstellung eines vollständig animierten interaktiven Prototyps /
-                Testing Präsentation des Produkts: Rollenspiel für Kunden
-              </p>
-            </div>
-          </article>
-        </section>
-      ) : null} */}
+
       <div className='neugierCTA'>
-        <h2>Bist du neugierig geworden? Hier findest du das Curriculum.</h2>
+        <p className='neugierCTA_txt'>
+          Bist du neugierig geworden? <br /> Hier findest du das
+          <span className='circle'> Curriculum</span>.
+        </p>
         <div className='buttons'>
           <Curriculum
             buttonText='Curriculum'
@@ -660,6 +531,7 @@ const UX_UI_Praxis = () => {
           }
           .neugierCTA {
             display: block;
+            position: relative;
           }
           .neugierCTA h2 {
             font-size: 3rem;
@@ -668,10 +540,35 @@ const UX_UI_Praxis = () => {
             margin-bottom: 30px;
             padding-left: 5%;
           }
+          .fsPraxis .neugierCTA_txt {
+            font-family: 'Neue_Machina_Light';
+            // color: #989898;
+            font-size: 3rem;
+            width: 80%;
+            color: #121e28;
+            margin-top: 125px;
+            margin-bottom: 30px;
+            padding-left: 5%;
+            line-height: 50px;
+            font-weight: 200;
+          }
           .buttons {
             display: flex;
             justify-content: flex-end;
             width: 100%;
+            padding-right: 5%;
+          }
+
+          .neugierCTA p span.circle::after {
+            position: absolute;
+            background: url('/img/Vector64.svg') center/contain no-repeat;
+            height: 336%;
+            width: 25%;
+            right: 32%;
+            bottom: -110%;
+            content: '';
+            transform: scale(1.1, 0.6);
+            display: block;
           }
 
           @media (max-width: 1040px) {

@@ -131,7 +131,7 @@ const HeaderCallToAction_neu = () => {
           }
 
           .jetzt-bewerben h4 {
-            font-size: 1.7rem;
+            font-size: 2.6rem;
           }
           h3 span.circle::after {
             width: 119%;
