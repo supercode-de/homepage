@@ -84,6 +84,48 @@ export default function FE_ZahlenUndFakten() {
           </p>
         </div>
       </article>
+      {window.screen.width <= 768 ? (
+        <article className='vermittlung'>
+          <div className='vermittlung-newJob'>
+            <h2>
+              <span>
+                Zufriedenheit
+                <br />
+              </span>
+              Rate mal
+            </h2>
+
+            <p>
+              Während und nach jedem Kurs messen wir anonym die Zufriedenheit
+              unserer Teilnehmenden. Es gibt ein durchweg positives Feedback zum
+              Ablauf, Inhalt, Lehrpersonal, Kursraum und den online Tools.
+            </p>
+            <p>
+              Außerdem gaben rund 90% aller Teilnehmenden an, dass sie mit dem
+              Kurs zufrieden oder sehr zufrieden sind.
+            </p>
+          </div>
+          <div className='vermittlung-newJob'>
+            <h2>
+              <span>
+                Bin ich zu alt
+                <br />
+              </span>
+              oder zu jung
+            </h2>
+
+            <p>
+              Dein Alter ist für’s Coden vollkommen egal, hauptsache du bist
+              motiviert Neues zu lernen und bereit dich in komplexe Themen
+              einzuarbeiten.
+            </p>
+            <p>
+              Der Altersdurchschnitt unser bisherigen Kurse liegt bei 33 Jahren
+              mit einer großen Spanne von 21 - 56.
+            </p>
+          </div>
+        </article>
+      ) : null}
 
       <style jsx>{`
         .zahlenUndFakten {
@@ -280,6 +322,10 @@ export default function FE_ZahlenUndFakten() {
           .zahlenUndFakten .zahlenUndFakten_Header {
             font-size: 2rem;
           }
+          .zahlenUndFakten-infos {
+     
+            margin-bottom: 0px;
+          }
           .zahlenUndFakten-infos h2 {
             font-size: 2rem;
           }
@@ -288,14 +334,19 @@ export default function FE_ZahlenUndFakten() {
           }
           .zahlenUndFakten-infos,
           .vermittlung {
-            display: block;
+            display: flex;
+            flex-direction:column;
           }
           .vorerfahrung-container {
             padding: 0;
           }
           .vermittlung {
-            display: block;
+            display: flex;
             padding: 0;
+          }
+          .vorerfahrung-container h2 {
+            margin: 20px 0 10px 0;
+            font-family: 'Neue_Machina_Ultrabold';
           }
           .vermittlung p {
           }
@@ -324,9 +375,11 @@ export default function FE_ZahlenUndFakten() {
           .vermittlung div:first-of-type {
             padding: 0;
             position: static;
+            order:2;
           }
           .vermittlung-newJob {
             padding: 0;
+            order.1;
           }
         }
 
@@ -366,13 +419,13 @@ export default function FE_ZahlenUndFakten() {
           }
           .zahlenUndFakten-infos,
           .vermittlung {
-            display: block;
+           display: flex;
           }
           .vorerfahrung-container {
             padding: 0;
           }
           .vermittlung {
-            display: block;
+            // display: block;
             padding: 0;
           }
           .vermittlung p {
