@@ -265,7 +265,7 @@ const UX_UI_Header = (props) => {
               margin-bottom:30px;
             }
           }
-          @media (max-width: 355px) {
+          @media (max-width: 360px) {
             .header-flex{
               padding:0 10px;
               

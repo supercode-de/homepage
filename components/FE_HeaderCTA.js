@@ -376,7 +376,7 @@ const HeaderCallToAction_neu = () => {
         }
         @media (max-width: 360px) {
           section h3 {
-            font-size: 0.65rem;
+            font-size: 13px;
           }
           .jetzt-bewerben h4 {
             top: 12px;
