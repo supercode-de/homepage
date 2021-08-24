@@ -449,6 +449,11 @@ export default function FS_ZahlenUndFakten() {
         }
 
         @media (max-width: 468px) {
+          .zahlenUndFakten {
+            margin: 0 0 0 0;
+            padding-top: 10px;
+          }
+
           .absolvent_2 figcaption {
             padding-bottom: 10px;
           }

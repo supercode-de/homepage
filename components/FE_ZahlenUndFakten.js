@@ -396,6 +396,11 @@ export default function FE_ZahlenUndFakten() {
         }
 
         @media (max-width: 468px) {
+          .zahlenUndFakten {
+            margin: 0 0 0 0;
+            padding-top: 10px;
+          }
+
           .zahlenUndFakten-infos h2,
           .vermittlung-newJob h2 {
             line-height: 28px;
