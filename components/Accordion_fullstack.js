@@ -239,7 +239,7 @@ export default function Accordion() {
             margin: 0;
             padding: 22px 15px;
             pointer-events: none;
-            line-height: 1.3;
+            line-height: 1;
           }
           @media (max-width: 424px) {
             #gestaltung {

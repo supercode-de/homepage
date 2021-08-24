@@ -264,7 +264,7 @@ export default function Accordion() {
             margin: 0;
             padding: 22px 15px;
             pointer-events: none;
-            line-height: 1.3;
+            line-height: 1;
           }
           .translate-div {
             padding-left: 0px;
