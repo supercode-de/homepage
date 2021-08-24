@@ -185,7 +185,7 @@ const FE_Header = (props) => {
             // #header {
             //   padding: 100px 6% 10px;
             // }
-            .header-flex {padding:0 55px}
+            .header-flex {padding:0 110px;}
             h1 {
               font-size: 4em;
             }

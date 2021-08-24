@@ -313,6 +313,14 @@ export default function FE_ZahlenUndFakten() {
             transform: scale(1.17, 0.95);
           }
         }
+        @media (max-width: 1024px) {
+        .zahlenUndFakten-infos h2,
+        .vermittlung-newJob h2 {
+          line-height: 3rem;
+          font-size: 3rem;
+          color: var(--super-lila);
+        }
+      }
 
         @media (max-width: 768px) {
           .bling,
