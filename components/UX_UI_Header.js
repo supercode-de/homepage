@@ -195,26 +195,73 @@ const UX_UI_Header = (props) => {
             }
           }
           @media (max-width: 468px) {
-            h1 {
-              font-size: 4em;
-            }
-            .start{
-              height: 100px;
-              width: 100px;
-              font-size: 1rem;
-            }
-            header{
-              padding-bottom:0;
-            }
-            .header-flex{
-              margin-bottom:0;
-            }
-          }
-          @media (max-width: 380px) {
+            // header {
+            //   padding: 75px 0 0px 5%;
+            // }
             .start{
               height: 80px;
               width: 80px;
               font-size: 1rem;
+              right:10%;
+              bottom: -10%;
+            }
+            .headline{
+              margin-right:28%;
+              margin-bottom:-170px;
+              //  width:100%;
+            }
+            .header-flex{
+              padding:0 25px;
+
+            }
+            .imgWrapper{
+              width:100%;
+            }
+            h1 {
+              font-family: 'Neue_Machina_Ultrabold';
+              font-size: 5.6em;
+              line-height:50px;
+              top:-100px;
+              
+            }
+            .letterstroke{
+              width:100%;
+              margin-bottom:30px;
+            }
+          }
+          @media (max-width: 375px) {
+            // header {
+            //   padding: 75px 0 0px 5%;
+            // }
+            .start{
+              height: 80px;
+              width: 80px;
+              font-size: 1rem;
+              right:10%;
+              bottom: -10%;
+            }
+            .headline{
+              margin-right:28%;
+              margin-bottom:-60px;
+              //  width:100%;
+            }
+            .header-flex{
+              padding:0 25px;
+
+            }
+            .imgWrapper{
+              width:100%;
+            }
+            h1 {
+              font-family: 'Neue_Machina_Ultrabold';
+              font-size: 5.6em;
+              line-height:50px;
+              top:-100px;
+              
+            }
+            .letterstroke{
+              width:100%;
+              margin-bottom:30px;
             }
           }
         `}
