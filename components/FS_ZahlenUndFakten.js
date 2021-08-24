@@ -336,7 +336,8 @@ export default function FS_ZahlenUndFakten() {
             font-size: 2rem;
           }
           .zahlenUndFakten .zahlenUndFaktenHeader {
-            font-size: 2.2rem;
+            font-size: 3rem;
+            line-height: 40px;
           }
 
           .vermittlung-newJob h2 {
@@ -405,7 +406,7 @@ export default function FS_ZahlenUndFakten() {
           }
           .zahlenUndFaktenHeader {
             font-size: 1.8rem;
-            line-height: 28px;
+            line-height: 20px;
           }
 
           .vermittlung-newJob h2 {
@@ -469,7 +470,7 @@ export default function FS_ZahlenUndFakten() {
           }
           .zahlenUndFakten-infos h2,
           .vermittlung-newJob h2 {
-            line-height: 28px;
+            line-height: 20px;
             // font-size: 3.8rem;
             color: var(--super-lila);
           }

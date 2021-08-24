@@ -411,7 +411,7 @@ export default function FE_ZahlenUndFakten() {
 
           .zahlenUndFakten-infos h2,
           .vermittlung-newJob h2 {
-            line-height: 28px;
+            line-height: 20px;
             // font-size: 3.8rem;
             color: var(--super-lila);
           }
@@ -422,7 +422,7 @@ export default function FE_ZahlenUndFakten() {
           .zahlenUndFakten .zahlenUndFakten_Header {
             font-size: 1.8rem;
             margin-bottom: 20px;
-            line-height: 28px;
+            line-height: 20px;
           }
           .absolvent_2 figcaption {
             padding-bottom: 22px;

@@ -170,13 +170,13 @@ const FSHeader = (props) => {
             // }
             .header-flex {padding:0 110px;}
             h1 {
-              font-size: 4em;
+              font-size: 4rem;
             }
             .start{
               width:110px;
               height:110px;
               font-size: 1.4rem;
-              bottom: -17%;
+              bottom: -7%;
             
             }
             
