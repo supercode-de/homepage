@@ -349,9 +349,22 @@ const HeaderCallToAction_neu = () => {
           }
         }
         @media (max-width: 387px) {
-          section h3 {
-            font-size: 0.7rem;
+          #header-call {
+            padding: 2rem 3%;
           }
+          section {
+            width: 50%;
+          }
+          section h3 {
+            font-size: 13px;
+            font-family: 'Neue_Machina_Light';
+            letter-spacing: 0.003px;
+            width: 100%;
+          }
+          article .jetzt-bewerben {
+            padding-top: -30px;
+          }
+        }
         @media (max-width: 360px) {
           section h3 {
             font-size: 0.65rem;

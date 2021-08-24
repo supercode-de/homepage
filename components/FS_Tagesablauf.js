@@ -192,6 +192,7 @@ h2{
              @media (max-width: 375px) {
                 .tagesablauf-header{
                   font-size:1.4rem;
+                  padding:0 6% 20px 6%;
                 }
               .eat-sleep-header{
                 font-size:1.4rem;

@@ -234,11 +234,11 @@ const UX_UI_Header = (props) => {
             //   padding: 75px 0 0px 5%;
             // }
             .start{
-              height: 80px;
-              width: 80px;
+              height: 75px;
+              width: 75px;
               font-size: 1rem;
-              right:10%;
-              bottom: -10%;
+              right:12%;
+              bottom: -3%;
             }
             .headline{
               margin-right:28%;
@@ -246,7 +246,8 @@ const UX_UI_Header = (props) => {
               //  width:100%;
             }
             .header-flex{
-              padding:0 25px;
+              padding:0 18px;
+              margin-bottom:0;
 
             }
             .imgWrapper{
@@ -262,6 +263,13 @@ const UX_UI_Header = (props) => {
             .letterstroke{
               width:100%;
               margin-bottom:30px;
+            }
+          }
+          @media (max-width: 355px) {
+            .header-flex{
+              padding:0 10px;
+              
+
             }
           }
         `}

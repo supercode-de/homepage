@@ -10,7 +10,14 @@ const HeaderCallToAction_neu = () => {
           </h3>
           <h3>– Tägliches Training</h3>
           <h3>
-            – 2 Trainer*innen <span className='after-span'>jeden Tag</span>
+            – 2 Trainer*innen
+            {window.screen.width <= 387 ? (
+              <>
+                {' '}
+                <br /> &nbsp;&nbsp; &nbsp;
+              </>
+            ) : null}
+            <span className='after-span'>jeden Tag</span>
           </h3>
         </section>
         <section>
@@ -24,7 +31,7 @@ const HeaderCallToAction_neu = () => {
       </section>
       <article className='jetzt-bewerben'>
         <h4> Bewirb dich jetzt!</h4>
-        <span className='btn'></span>
+        {/* <span className='btn'></span> */}
         <Typeform_neu_flexible width='410px' height='50px' top='50px' />
       </article>
       <style jsx>{`
@@ -287,13 +294,14 @@ const HeaderCallToAction_neu = () => {
             display: block;
             justify-content: center;
             align-items: center;
-            padding-top: 30px;
+            padding-top: -30px;
             padding-left: 5%;
           }
           .jetzt-bewerben h4 {
             display: none;
             top: 25px;
             font-size: 0.8rem;
+            padding-bottom: -30px;
           }
         }
         @media (max-width: 425px) {
@@ -305,7 +313,7 @@ const HeaderCallToAction_neu = () => {
           h3 {
             font-size: 0.75rem;
             wont-weight: 400;
-            margin: 5px 0;
+            margin: 4px 0;
           }
           .headerFlex section:first-child .after-span {
             background: url('/img/vector127.svg') -10px 11px / contain no-repeat;
@@ -341,17 +349,26 @@ const HeaderCallToAction_neu = () => {
             right: -1.1rem;
           }
 
-          .jetzt-bewerben {
-            padding-bottom: 30px;
-          }
           .jetzt-bewerben h4 {
             top: 12px;
             font-size: 0.8rem;
           }
         }
         @media (max-width: 387px) {
+          #header-call {
+            padding: 2rem 3%;
+          }
+          section {
+            width: 50%;
+          }
           section h3 {
-            font-size: 0.7rem;
+            font-size: 13px;
+            font-family: 'Neue_Machina_Light';
+            letter-spacing: 0.003px;
+            width: 100%;
+          }
+          article .jetzt-bewerben {
+            padding-top: -30px;
           }
         }
         @media (max-width: 360px) {

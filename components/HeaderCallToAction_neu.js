@@ -1,18 +1,18 @@
-import Typeform_neu from "./TypeForm_neu";
+import Typeform_neu from './TypeForm_neu';
 
 const HeaderCallToAction_neu = () => {
   return (
-    <div id="header-call">
+    <div id='header-call'>
       <h2>
         Lerne Programmieren und werde <br />
-        <span className="bling">Junior</span> Full-Stack Web-Developer*in
-        <span className="bling2">!</span>
-        <br />–{"  "}
-        <span className="super">
-          jetzt auch <span className="circle">online!</span>
+        <span className='bling'>Junior</span> Full-Stack Web-Developer*in
+        <span className='bling2'>!</span>
+        <br />–{'  '}
+        <span className='super'>
+          jetzt auch <span className='circle'>online!</span>
         </span>
       </h2>
-      <div className="buttons">
+      <div className='buttons'>
         <Typeform_neu />
       </div>
       <style jsx>{`
@@ -42,35 +42,35 @@ const HeaderCallToAction_neu = () => {
 
         h2 span.circle::after {
           position: absolute;
-          background: url("/img/Vector64.svg") center/contain no-repeat;
+          background: url('/img/Vector64.svg') center/contain no-repeat;
           transform: rotateX(36deg);
 
           height: 300%;
           width: 105%;
           right: 0;
           bottom: -105%;
-          content: "";
+          content: '';
           display: block;
         }
 
         h2 span.bling::before {
           position: absolute;
-          background: url("/img/bling.png") center/contain no-repeat;
+          background: url('/img/bling.png') center/contain no-repeat;
           height: 3rem;
           width: 2rem;
           bottom: 0.2em;
           left: -2rem;
-          content: "";
+          content: '';
           display: block;
         }
         h2 span.bling2::after {
           position: absolute;
-          background: url("/img/bling2.png") center/contain no-repeat;
+          background: url('/img/bling2.png') center/contain no-repeat;
           height: 3rem;
           width: 2rem;
           bottom: 0.2em;
           right: -2rem;
-          content: "";
+          content: '';
           display: block;
         }
         .buttons {

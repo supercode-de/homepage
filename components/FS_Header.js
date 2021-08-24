@@ -249,7 +249,8 @@ const FSHeader = (props) => {
               //  width:100%;
             }
             .header-flex{
-              padding:0 25px;
+              padding:0 18px;
+              margin-bottom:0;
 
             }
             .imgWrapper{
@@ -265,6 +266,13 @@ const FSHeader = (props) => {
             .letterstroke{
               width:100%;
               margin-bottom:30px;
+            }
+          }
+          @media (max-width: 355px) {
+            .header-flex{
+              padding:0 10px;
+              
+
             }
           }
         `}

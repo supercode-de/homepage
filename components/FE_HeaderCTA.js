@@ -10,7 +10,14 @@ const HeaderCallToAction_neu = () => {
           </h3>
           <h3>– Teilzeit neben dem Job</h3>
           <h3>
-            – 2 Trainer*innen <span className='after-span'>zeitgleich</span>
+            – 2 Trainer*innen
+            {window.screen.width <= 387 ? (
+              <>
+                {' '}
+                <br /> &nbsp;&nbsp; &nbsp;
+              </>
+            ) : null}
+            <span className='after-span'>zeitgleich</span>
           </h3>
         </section>
         <section>
@@ -349,9 +356,22 @@ const HeaderCallToAction_neu = () => {
             font-size: 0.8rem;
           }
         }
+
         @media (max-width: 387px) {
+          #header-call {
+            padding: 2rem 3%;
+          }
+          section {
+            width: 50%;
+          }
           section h3 {
-            font-size: 0.7rem;
+            font-size: 13px;
+            font-family: 'Neue_Machina_Light';
+            letter-spacing: 0.003px;
+            width: 100%;
+          }
+          article .jetzt-bewerben {
+            padding-top: -30px;
           }
         }
         @media (max-width: 360px) {
