@@ -34,15 +34,17 @@ export default function FS_Bildungsberatung() {
         <p>
           Ganz gleich welcher Weg dich zu SuperCode geführt hat, Shapour und
           Henri sind deine ersten Ansprechpartner und nehmen dich an die Hand im
-          gesamten Aufnahmeprozess. Sie beantworten alle Fragen, helfen dir bei
-          den Formularen und klären mit dir und dem Kostenträger die
-          Finanzierung ab.
+          gesamten Aufnahmeprozess.
+        </p>
+        <p>
+          Sie beantworten alle Fragen, helfen dir bei den Formularen und klären
+          mit dir und dem Kostenträger die Finanzierung ab.
         </p>
 
         <p>
           Beratungsgespräche können telefonisch, online oder vor Ort erfolgen.
-          Wir freuen uns auf dich!
         </p>
+        <p>Wir freuen uns auf dich!</p>
       </div>
       <button className='kontakt-btn'>
         <Beratung buttonText='KONTAKT' buttonTextColor='#fff' />
@@ -160,6 +162,7 @@ export default function FS_Bildungsberatung() {
             }
             .berater-txt p {
              font-size:1rem;
+             line-height:1rem;
             }
           }
           @media (max-width: 425px) {
