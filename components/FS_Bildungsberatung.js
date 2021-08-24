@@ -168,6 +168,7 @@ export default function FS_Bildungsberatung() {
           @media (max-width: 425px) {
             h2{
               font-size:1.8rem;
+              line-height:20px;
             }
             .bildungs-berater{
             

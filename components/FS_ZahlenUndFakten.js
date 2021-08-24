@@ -478,6 +478,7 @@ export default function FS_ZahlenUndFakten() {
           .zahlenUndFakten .zahlenUndFaktenHeader {
             font-size: 1.8rem;
             margin-bottom: 20px;
+            line-height: 20px;
           }
         }
         @media (max-width: 420px) {
