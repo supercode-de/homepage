@@ -263,6 +263,7 @@ export default function FS_TrainerTeam() {
               font-size: 1.6rem;
               // line-height: 20px;
               margin-bottom: 10px;
+              margin-top: 0;
             }
             .fsTrainer p {
               font-size: 1rem;

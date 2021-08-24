@@ -151,11 +151,12 @@ export default function FS_Bildungsberatung() {
           }
           @media (max-width: 460px) {
             .bildungsberatung {
-              padding: 75px 0 116px 0;
+              padding: 35px 0 116px 0;
             }
             h2{
               font-size:1.8rem;
               line-height:28px;
+              
             }
             .berater-txt p {
              font-size:1rem;

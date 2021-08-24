@@ -260,6 +260,7 @@ export default function FE_TrainerTeam() {
               color: #fff;
               // line-height: 20px;
               margin-bottom: 10px;
+              margin-top: 0;
             }
             .fsTrainer h2 span {
               display: block;
