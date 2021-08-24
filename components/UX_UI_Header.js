@@ -271,6 +271,13 @@ const UX_UI_Header = (props) => {
               
 
             }
+            .start{
+              height: 75px;
+              width: 75px;
+              font-size: 1rem;
+              right:15%;
+              bottom: -10%;
+            }
           }
         `}
       </style>

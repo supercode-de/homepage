@@ -361,6 +361,9 @@ const HeaderCallToAction_neu = () => {
           section {
             width: 50%;
           }
+          section:nth-of-type(2) {
+            padding-left: 3%;
+          }
           section h3 {
             font-size: 13px;
             font-family: 'Neue_Machina_Light';
@@ -372,8 +375,11 @@ const HeaderCallToAction_neu = () => {
           }
         }
         @media (max-width: 360px) {
+          section:nth-of-type(2) {
+            padding-left: 8%;
+          }
           section h3 {
-            font-size: 13px;
+            font-size: 11px;
           }
           .jetzt-bewerben h4 {
             top: 12px;

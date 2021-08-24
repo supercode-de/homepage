@@ -409,6 +409,12 @@ export default function FE_ZahlenUndFakten() {
           @media (max-width: 468px) {
           }
         }
+        @media (max-width: 420px) {
+          .absolvent_feedback figcaption {
+            font-size: 0.8rem;
+            line-height: 10px;
+          }
+        }
         @media (max-width: 375px) {
           .zahlenUndFakten .zahlenUndFakten_Header {
             font-size: 1.4rem;

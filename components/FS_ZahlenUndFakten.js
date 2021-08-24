@@ -389,6 +389,7 @@ export default function FS_ZahlenUndFakten() {
             padding: 0;
           }
         }
+
         @media (max-width: 468px) {
           .absolvent_2 figcaption {
             padding-bottom: 10px;
@@ -403,6 +404,12 @@ export default function FS_ZahlenUndFakten() {
           .zahlenUndFakten .zahlenUndFaktenHeader {
             font-size: 1.8rem;
             margin-bottom: 20px;
+          }
+        }
+        @media (max-width: 420px) {
+          .absolvent_feedback figcaption {
+            font-size: 0.8rem;
+            line-height: 10px;
           }
         }
         @media (max-width: 375px) {

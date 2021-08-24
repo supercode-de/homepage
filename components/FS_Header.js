@@ -272,7 +272,13 @@ const FSHeader = (props) => {
             .header-flex{
               padding:0 10px;
               
-
+            }
+            .start{
+              height: 75px;
+              width: 75px;
+              font-size: 1rem;
+              right:15%;
+              bottom: -10%;
             }
           }
         `}

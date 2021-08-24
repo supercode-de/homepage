@@ -349,6 +349,9 @@ const HeaderCallToAction_neu = () => {
           }
         }
         @media (max-width: 387px) {
+          section:nth-of-type(2) {
+            padding-left: 3%;
+          }
           #header-call {
             padding: 2rem 3%;
           }
@@ -366,8 +369,11 @@ const HeaderCallToAction_neu = () => {
           }
         }
         @media (max-width: 360px) {
+          section:nth-of-type(2) {
+            padding-left: 8%;
+          }
           section h3 {
-            font-size: 13px;
+            font-size: 11px;
           }
           .jetzt-bewerben h4 {
             top: 12px;
