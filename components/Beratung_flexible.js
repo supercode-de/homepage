@@ -51,7 +51,7 @@ const Beratung_flexible = (props) => {
       <style jsx>
         {`
           #beratung1 {
-            z-index: 999;
+            // z-index: 999;
             position: relative;
           }
           #jetzt-anmelden1 {
@@ -64,7 +64,7 @@ const Beratung_flexible = (props) => {
             overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
-            z-index: 99999;
+            z-index: 9999;
           }
           .isHidden {
             right: -100%;
@@ -117,7 +117,7 @@ const Beratung_flexible = (props) => {
             line-height: 24px;
           }
           span {
-            color: transparent;
+            // color: transparent;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1.5px;
             -webkit-text-stroke-color: var(--super-green);
@@ -130,6 +130,7 @@ const Beratung_flexible = (props) => {
             text-transform: uppercase;
             padding: 15px 0px;
             background: transparent;
+            z-index: 0;
             border: 1px solid var(--super-green);
             border-color: ${props.buttonStrokeColor};
             color: ${props.buttonTextColor};

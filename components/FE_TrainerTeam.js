@@ -115,7 +115,7 @@ export default function FE_TrainerTeam() {
             color: #fff;
             margin-bottom: 5rem;
             position: relative;
-            z-index: 9;
+            z-index: 0;
             line-height: 76px;
           }
           .fsTrainer h2 span {

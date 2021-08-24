@@ -462,6 +462,7 @@ const UX_UI_Praxis = () => {
             justify-content: flex-end;
             width: 100%;
             padding-right: 5%;
+            z-index: 0;
           }
 
           .neugierCTA p span.circle::after {

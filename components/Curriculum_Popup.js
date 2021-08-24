@@ -79,7 +79,7 @@ const Typeform = (props) => {
           width: 500px;
           // max-height: 70vh;
           color: var(--super-green);
-          z-index: 99999;
+          z-index: 9999;
         }
         .popup-close {
           top: 0;
@@ -111,6 +111,7 @@ const Typeform = (props) => {
           grid-template-columns: 1fr;
           gap: 30px;
           overflow: hidden;
+          z-index:9999;
           // max-height: calc(70vh - 80px);
         }
 
@@ -124,6 +125,7 @@ const Typeform = (props) => {
         .curriculum-popup-input {
           width: 100%;
           overflow-y: hidden;
+          z-index:9999;
         }
         iframe {
           width: 100% !important;
