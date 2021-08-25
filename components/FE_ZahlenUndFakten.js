@@ -395,9 +395,9 @@ export default function FE_ZahlenUndFakten() {
 
         @media (max-width: 550px) {
           .zahlenUndFakten .zahlenUndFakten_Header {
-            font-size: 1.8rem;
+            font-size: 3rem;
             margin-bottom: 20px;
-            line-height: 25px;
+            line-height: 28px;
 
           }
           .absolvent_2 figcaption {

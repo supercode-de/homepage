@@ -403,6 +403,10 @@ export default function FS_ZahlenUndFakten() {
             // font-size: 3.8rem;
             color: var(--super-lila);
           }
+          .zahlenUndFakten .zahlenUndFaktenHeader {
+            font-size: 3rem;
+            line-height: 28px;
+          }
         }
         //=============
 
