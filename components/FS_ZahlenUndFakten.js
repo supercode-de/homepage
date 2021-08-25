@@ -397,6 +397,12 @@ export default function FS_ZahlenUndFakten() {
         }
 
         @media (max-width: 550px) {
+          .zahlenUndFakten-infos h2,
+          .vermittlung-newJob h2 {
+            line-height: 25px;
+            // font-size: 3.8rem;
+            color: var(--super-lila);
+          }
         }
         //=============
 

@@ -397,9 +397,17 @@ export default function FE_ZahlenUndFakten() {
           .zahlenUndFakten .zahlenUndFakten_Header {
             font-size: 1.8rem;
             margin-bottom: 20px;
+            line-height: 25px;
+
           }
           .absolvent_2 figcaption {
             padding-bottom: 19px;
+          }
+          .zahlenUndFakten-infos h2,
+          .vermittlung-newJob h2 {
+            line-height: 25px;
+            // font-size: 3.8rem;
+            color: var(--super-lila);
           }
         }
 
