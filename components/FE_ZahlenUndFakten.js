@@ -520,7 +520,7 @@ export default function FE_ZahlenUndFakten() {
           .zahlenUndFakten h2 span {
             display: block;
             color: transparent;
-            -webkit-text-stroke-width: 0.2px;
+            -webkit-text-stroke-width: 0.4px;
             -webkit-text-stroke-color: var(--super-lila);
           }
         }

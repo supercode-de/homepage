@@ -225,6 +225,12 @@ export default function UX_UI_Tagesablauf() {
                 color:var(--super-lila);
                 margin-bottom:0;
               }
+              h2 .stroke {
+                color: transparent;
+                -webkit-text-stroke-width: 0.4px;
+                -webkit-text-stroke-color: #fff;
+                
+              }
             }
           `}
       </style>

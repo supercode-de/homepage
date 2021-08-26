@@ -199,6 +199,12 @@ export default function FS_Tagesablauf() {
                         line-height:20px;
                  
                       }
+                      h2 .stroke {
+                        color: transparent;
+                        -webkit-text-stroke-width: 0.4px;
+                        -webkit-text-stroke-color: #fff;
+                        
+                      }
                     }
         `}
       </style>
