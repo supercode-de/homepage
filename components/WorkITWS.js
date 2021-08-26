@@ -85,7 +85,7 @@ const WorkIT = (props) => {
               /> */}
             </div>
           </div>
-          <div className='kurs-box kurs-box2 hide'>
+          {/* <div className='kurs-box kurs-box2 hide'>
             <h4>Try-IT-Trainingscenter</h4>
             <p>
               Umfang: 4 Wochen in Vollzeit <br />
@@ -121,7 +121,65 @@ const WorkIT = (props) => {
                   Zum Kurs
                 </a>
               </Link>
-              {/* <Beratung_flexible
+              <Beratung_flexible
+                buttonText='Beratung'
+                // buttonMinWidth='23em'
+                buttonWidth='12rem'
+                buttonTextColor='#fff'
+                buttonFontSize='14px'
+              />
+            </div>
+          </div> */}
+
+          <div className='kurs-box kurs-box3 hide'>
+            <h4>
+              Kostenloser UX & UI-Design
+              <br /> Workshop - Online
+            </h4>
+
+            <p>
+              Umfang: 3 Stunden / 15:00-18:00 Uhr <br />
+              Start: immer donnerstags - mit Anmeldung
+            </p>
+            <p>
+              Tauche ein in die wundervolle Welt der Web-Designs und mache bei
+              uns dein Seepferdchen im Bereich UX & UI-Design, im World Wide
+              Web! Live, in Farbe und immer mit zwei Trainer*innen.
+            </p>
+            <h5>Inhalte:</h5>
+            <p>
+              - Grundlagen zum Thema UX /UI-Design
+              <br />
+              - Übersicht der gängigsten Prototyping Tools <br />- Grundlagen im
+              Bereich Prototyping
+            </p>
+            <h5>Finanzierung:</h5>
+            <p>
+              - kostenlos!
+              <br />
+              <br />
+              Allerdings nehmen wir eine kleine Reservierungsgebühr, die wir am
+              Ende des Workshops rückerstatten.
+            </p>
+            <h5>sonstiges:</h5>
+            <p>
+              - Ein*e Trainer*in pro Workshop <br />- Teilnahme erfolgt online
+            </p>
+            <div className='buttons'>
+              <Link
+                className='zumKurs'
+                href='https://www.eventbrite.de/o/supercode-20262218583'
+                target='_blank'
+              >
+                <a
+                  href='https://www.eventbrite.de/o/supercode-20262218583'
+                  target='_blank'
+                >
+                  Zum Kurs
+                </a>
+              </Link>
+              {/* 
+              <Beratung_flexible
                 buttonText='Beratung'
                 // buttonMinWidth='23em'
                 buttonWidth='12rem'
@@ -130,36 +188,6 @@ const WorkIT = (props) => {
               /> */}
             </div>
           </div>
-          {/* 
-          <div className='kurs-box kurs-box3 hide'>
-            <h4>
-              1 Monat Web-Design <br /> UX & UI Workshop
-            </h4>
-            <h5>Weitere Informationen folgen ab Mai 2021</h5>
-
-               <p>
-              Umfang: 4 <br />
-              Start: xx.xx.xxxx Ende: xx.xx.xxxx
-            </p>
-            <p>
-              Tauche ein in die wundervolle Welt der Web-Entwicklung und mache
-              bei uns dein Seepferdchen im Bereich HTML & CSS. Online, im World
-              Wide Web! Live, in Farbe und immer mit zwei Trainer*innen.
-            </p>
-            <h5>Inhalte:</h5>
-            <p>
-              - Grundlagen zum Thema Web-Entwicklung <br />
-              - Übersicht der gängigsten Programmiersprachen <br />- Grundlagen
-              im Bereich HTML & CSS
-            </p>
-            <h5>Finanzierung:</h5>
-            <p>- AVGS</p>
-            <h5>sonstiges:</h5>
-            <p>
-              - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt online
-            </p> 
-          </div>
-            */}
         </div>
 
         <div id='myCarousel'>

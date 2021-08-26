@@ -27,6 +27,7 @@ const HeaderCallToAction_neu = () => {
         <span className='btn'></span>
         <Typeform_neu_flexible width='410px' height='50px' top='50px' />
       </article>
+
       <style jsx>{`
         #header-call {
           padding: 5rem 6%;
