@@ -1,4 +1,4 @@
-import Typeform_neu_flexible from './Typeform_neu_flexible';
+import Typeform_neu_flexible_uxui from './Typeform_neu_flexible_uxui';
 
 const HeaderCallToAction_neu = () => {
   return (
@@ -25,7 +25,7 @@ const HeaderCallToAction_neu = () => {
       <article className='jetzt-bewerben'>
         <h4> Bewirb dich jetzt!</h4>
         <span className='btn'></span>
-        <Typeform_neu_flexible width='410px' height='50px' top='50px' />
+        <Typeform_neu_flexible_uxui width='410px' height='50px' top='50px' />
       </article>
 
       <style jsx>{`
