@@ -518,7 +518,7 @@ export default function FS_ZahlenUndFakten() {
           .zahlenUndFakten h2 span {
             display: block;
             color: transparent;
-            -webkit-text-stroke-width: 0.4px;
+            -webkit-text-stroke-width: 0.5px;
             -webkit-text-stroke-color: var(--super-lila);
           }
         }

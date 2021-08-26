@@ -227,7 +227,7 @@ export default function UX_UI_Tagesablauf() {
               }
               h2 .stroke {
                 color: transparent;
-                -webkit-text-stroke-width: 0.4px;
+                -webkit-text-stroke-width: 0.5px;
                 -webkit-text-stroke-color: #fff;
                 
               }

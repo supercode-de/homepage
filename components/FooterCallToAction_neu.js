@@ -115,6 +115,11 @@ export default function FooterCallToAction_neu() {
           .termine h3 {
             font-size: 1rem;
           }
+          h2 .stroke {
+            color: transparent;
+            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-color: #fff;
+          }
         }
       `}</style>
     </div>
