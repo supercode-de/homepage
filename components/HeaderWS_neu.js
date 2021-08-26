@@ -170,10 +170,21 @@ const HeaderWS_neu = (props) => {
             }
           }
           @media (max-width: 644px) {
+            .content-img {
+              width: 75%;
+            }
           }
           @media (max-width: 468px) {
             h1 {
               font-size: 2.8em;
+            }
+            .content-img {
+              width: 95%;
+            }
+          }
+          @media (max-width: 375px) {
+            .content-img {
+              width: 100%;
             }
           }
         `}
