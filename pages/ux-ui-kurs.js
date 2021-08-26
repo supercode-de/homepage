@@ -7,7 +7,7 @@ import UX_UI_TrainerTeam from '../components/UX_UI_TrainerTeam';
 
 import UX_UI_Tagesablauf from '../components/UX_UI_Tagesablauf';
 import FS_Bildungsberatung from '../components/FS_Bildungsberatung';
-import FooterCallToAction_neu from '../components/FooterCallToAction_neu_frontend';
+import FooterCallToAction_neu_uxui from '../components/FooterCallToAction_neu_uxui';
 export default function FrontendKurse(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -21,7 +21,7 @@ export default function FrontendKurse(props) {
 
           <UX_UI_Tagesablauf />
           <FS_Bildungsberatung />
-          <FooterCallToAction_neu />
+          <FooterCallToAction_neu_uxui />
         </div>
       </Layout>
     );
