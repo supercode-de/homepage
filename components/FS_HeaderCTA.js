@@ -17,7 +17,7 @@ const HeaderCallToAction_neu = () => {
                 <br /> &nbsp;&nbsp; &nbsp;
               </>
             ) : null}
-            <span className='after-span'>jeden Tag</span>
+            <span className='after-span'> jeden Tag</span>
           </h3>
         </section>
         <section>

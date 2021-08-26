@@ -819,6 +819,13 @@ const UX_UI_Praxis = () => {
               font-size: 1rem;
               width: 80%;
             }
+            .fsPraxis .neugierCTA_txt {
+              font-family: 'Neue_Machina_Light';
+
+              margin-top: 60px;
+              margin-bottom: 30px;
+            }
+
             .mobile-section article p {
               font-size: 0.7rem;
             }

@@ -291,14 +291,15 @@ export default function FS_TrainerTeam() {
               margin-bottom: 0;
             }
             .fsTrainer .txt {
-              line-height: 15px;
+              line-height: 18px;
+              font-size: 1rem;
             }
 
             .fsTrainer p {
               font-size: 1rem;
               width: 95%;
               margin-bottom: 30px;
-              line-height: 15px;
+              line-height: 18px;
             }
 
             figcaption {
@@ -323,8 +324,8 @@ export default function FS_TrainerTeam() {
             }
             .fsTrainer p {
               font-size: 0.8rem;
-              line-height: 8px;
-              margin-bottom: 8px;
+              line-height: 10px;
+              margin-bottom: 3px;
             }
             //   // .gridContainer gridItem {
             //   //   width: 100%;

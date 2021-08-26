@@ -34,7 +34,7 @@ export default function Accordion() {
 
         <div
           className={toggle2 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle2 ? `260px` : '0px' }}
+          style={{ height: toggle2 ? `140px` : '0px' }}
           // ${heightEl}
           ref={refHeight}
         >
@@ -43,7 +43,6 @@ export default function Accordion() {
             /Terminal, <br /> CSS-Extensions, CSS-Frameworks, CMS, Javascript,
             REST API, Javascript Frameworks/Libraries
           </p>
-          <p>594 Unterrichtseinheiten</p>
         </div>
       </div>
       <div className='accordion__wrapper'>
@@ -58,14 +57,13 @@ export default function Accordion() {
 
         <div
           className={toggle ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle ? `150px` : '0px' }}
+          style={{ height: toggle ? `100px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle ? 'true' : 'false'}>
             Design & UX, Learn to learn, <br /> Project Management Basics,{' '}
             <br /> Presentation Basics
           </p>
-          <p>45 Unterrichtseinheiten</p>
         </div>
       </div>
 
@@ -84,7 +82,7 @@ export default function Accordion() {
 
         <div
           className={toggle5 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle5 ? `230px` : '0px' }}
+          style={{ height: toggle5 ? `60px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle5 ? 'true' : 'false'}>
@@ -93,7 +91,6 @@ export default function Accordion() {
             Prototyping, Design, <br /> Front-End-Entwicklung, Testing, <br />
             Präsentation
           </p>
-          <p>50 Unterrichtseinheiten</p>
         </div>
       </div>
 

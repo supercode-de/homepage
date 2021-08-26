@@ -37,7 +37,7 @@ export default function Accordion() {
 
         <div
           className={toggle ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle ? `280px` : '0px' }}
+          style={{ height: toggle ? `180px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle ? 'true' : 'false'}>
@@ -60,7 +60,7 @@ export default function Accordion() {
 
         <div
           className={toggle2 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle2 ? `425px` : '0px' }}
+          style={{ height: toggle2 ? `300px` : '0px' }}
           // ${heightEl}
           ref={refHeight}
         >
@@ -87,7 +87,7 @@ export default function Accordion() {
 
         <div
           className={toggle3 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle3 ? `200px` : '0px' }}
+          style={{ height: toggle3 ? `170px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle3 ? 'true' : 'false'}>
@@ -109,7 +109,7 @@ export default function Accordion() {
 
         <div
           className={toggle4 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle4 ? `130px` : '0px' }}
+          style={{ height: toggle4 ? `100px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle4 ? 'true' : 'false'}>
@@ -134,7 +134,7 @@ export default function Accordion() {
 
         <div
           className={toggle5 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle5 ? `200px` : '0px' }}
+          style={{ height: toggle5 ? `80px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle5 ? 'true' : 'false'}>

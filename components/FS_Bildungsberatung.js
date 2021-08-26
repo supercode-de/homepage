@@ -162,7 +162,7 @@ export default function FS_Bildungsberatung() {
             }
             .berater-txt p {
              font-size:1rem;
-             line-height:1rem;
+             line-height:18px;
             }
           }
           @media (max-width: 425px) {

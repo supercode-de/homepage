@@ -301,12 +301,13 @@ export default function UX_UI_TrainerTeam() {
             .fsTrainer p {
               font-size: 0.8rem;
               width: 95%;
-              // margin-bottom: 30px;
-              line-height: 15px;
+              margin-bottom: 3px;
+              line-height: 10px;
             }
 
             .fsTrainer .txt {
-              line-height: 15px;
+              line-height: 18px;
+              font-size: 1rem;
             }
 
             figcaption {

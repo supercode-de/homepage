@@ -34,7 +34,7 @@ export default function Accordion() {
 
         <div
           className={toggle2 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle2 ? `260px` : '0px' }}
+          style={{ height: toggle2 ? `140px` : '0px' }}
           // ${heightEl}
           ref={refHeight}
         >
@@ -43,7 +43,6 @@ export default function Accordion() {
             /Terminal, <br /> CSS-Extensions, CSS-Frameworks, CMS, Javascript,
             REST API, Javascript Frameworks/Libraries
           </p>
-          <p>594 Unterrichtseinheiten</p>
         </div>
       </div>
 
@@ -58,13 +57,12 @@ export default function Accordion() {
 
         <div
           className={toggle3 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle3 ? `130px` : '0px' }}
+          style={{ height: toggle3 ? `80px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle3 ? 'true' : 'false'}>
             Essentials, Node.js, Express.js, npm, API & Datenbanken, Mongo DB
           </p>
-          <p>395 Unterrichtseinheiten</p>
         </div>
       </div>
       <div className='accordion__wrapper'>
@@ -79,7 +77,7 @@ export default function Accordion() {
 
         <div
           className={toggle ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle ? `430px` : '0px' }}
+          style={{ height: toggle ? `260px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle ? 'true' : 'false'}>
@@ -90,7 +88,6 @@ export default function Accordion() {
             Digital-Profilen. <br /> <br /> Design & UX, Learn to learn, Project
             Management Basics,Presentation Basics,Bewerbungscoaching
           </p>
-          <p>90 Unterrichtseinheiten</p>
         </div>
       </div>
 
@@ -109,7 +106,7 @@ export default function Accordion() {
 
         <div
           className={toggle5 ? 'accordion-toggle animated' : 'accordion-toggle'}
-          style={{ height: toggle5 ? `200px` : '0px' }}
+          style={{ height: toggle5 ? `70px` : '0px' }}
           ref={refHeight}
         >
           <p aria-hidden={toggle5 ? 'true' : 'false'}>

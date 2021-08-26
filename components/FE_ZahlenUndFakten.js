@@ -11,9 +11,10 @@ export default function FE_ZahlenUndFakten() {
             <img src='/img/absolvent/Emilija Sekulic.png' alt='' />
 
             <figcaption>
-              “An alle Karrierewechsler*innen da draußen: Fangt einfach an.
-              Schreibt die ersten Zeilen in HTML, denn “Hallo Welt” könnte der
-              Beginn von etwas Großem sein!”
+              “An alle Karrierewechsler
+              {window.screen.width <= 420 ? <br /> : null}
+              *innen da draußen: Fangt einfach an. Schreibt die ersten Zeilen in
+              HTML, denn “Hallo Welt” könnte der Beginn von etwas Großem sein!”
             </figcaption>
             <h3> Emilija Sekulic</h3>
             <p>
@@ -47,7 +48,7 @@ export default function FE_ZahlenUndFakten() {
         <div className='vorerfahrung-container'>
           <h2>
             Brauche ich <br />
-            <span>Vorerfahrung?</span>
+            <span className='stroke'>Vorerfahrung?</span>
           </h2>
           <p>
             Von A wie Altenpflege bis Z wie Zoolog*in sind bei unseren
@@ -67,7 +68,7 @@ export default function FE_ZahlenUndFakten() {
         </div>
         <div className='vermittlung-newJob'>
           <h2>
-            <span>
+            <span className='stroke'>
               Vermittlung
               <br />
             </span>
@@ -88,7 +89,7 @@ export default function FE_ZahlenUndFakten() {
         <article className='vermittlung'>
           <div className='vermittlung-newJob'>
             <h2>
-              <span>
+              <span className='stroke'>
                 Zufriedenheit
                 <br />
               </span>
@@ -107,7 +108,7 @@ export default function FE_ZahlenUndFakten() {
           </div>
           <div className='vermittlung-newJob'>
             <h2>
-              <span>
+              <span className='stroke'>
                 Bin ich zu alt
                 <br />
               </span>
@@ -154,6 +155,7 @@ export default function FE_ZahlenUndFakten() {
           top: 50px;
         }
         .circle,
+        .circle2,
         .bling,
         .bling2 {
           position: relative;
@@ -168,6 +170,18 @@ export default function FE_ZahlenUndFakten() {
           content: '';
           display: block;
           transform: scale(1.17, 0.95);
+        }
+        h2 span.circle2::after {
+          position: absolute;
+          background: url('/img/Vector64.svg') center/contain no-repeat;
+          height: 145%;
+          width: 100%;
+          right: 6%;
+          bottom: -24%;
+          content: '';
+          display: block;
+          transform: scale(1.17, 0.95);
+          
         }
 
         span.bling::before {
@@ -301,7 +315,7 @@ export default function FE_ZahlenUndFakten() {
         }
         //==============
         @media (max-width: 2560px) {
-          h2 span.circle::after {
+          h2 .circle::after {
             position: absolute;
             background: url('/img/Vector64.svg') center/contain no-repeat;
             height: 145%;
@@ -363,7 +377,7 @@ export default function FE_ZahlenUndFakten() {
           }
           .absolvent_2 p,
           .absolvent_1 p {
-            font-size: 0.8rem;
+            font-size: 1rem;
             line-height: 18px;
           }
           figure {
@@ -456,8 +470,8 @@ export default function FE_ZahlenUndFakten() {
           }
           .absolvent_2 p,
           .absolvent_1 p {
-            font-size: 0.8rem;
-            line-height: 18px;
+            font-size: 1rem;
+            line-height: 15px;
           }
           figure {
             margin-inline-start: 5px;
@@ -485,8 +499,12 @@ export default function FE_ZahlenUndFakten() {
         }
         @media (max-width: 420px) {
           .absolvent_feedback figcaption {
-            font-size: 0.8rem;
-            line-height: 10px;
+            font-size: 1rem;
+            line-height: 15px;
+          }
+          figure h3{
+          font-size:1rem;
+          margin-bottom:3px;
           }
         }
         @media (max-width: 375px) {
