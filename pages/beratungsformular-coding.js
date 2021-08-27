@@ -318,6 +318,23 @@ export default function Workshop() {
             }
           }
           @media (max-width: 768px) {
+            header{
+              padding: 20px  0 100px 0;
+            }
+          #headr .headline{
+            color:#3DD7AC;
+            font-size:4.5rem;
+            margin-top:0;
+            position:relative;
+            top:120px;
+          }
+          .willkommenn{
+            color:#3DD7AC;
+            font-size:4.5rem;
+            line-height:200px;
+          }
+        }
+
             h1 {
                 font-size: 3em;
                 width: 90%;
@@ -330,13 +347,7 @@ export default function Workshop() {
               position:relative;
               top:10px;
             }
-            .willkommenn{
-              color:#3DD7AC;
-              font-size:3rem;
-              font-family:"Neue_Machina_Ultrabold"
-              font-weight:ultra-bold;
-    
-            }
+            
             #index-finger{
               font-size: 3rem;
             }
@@ -377,6 +388,22 @@ export default function Workshop() {
             }
           }
           @media (max-width: 575px) {
+            header{
+              padding: 20px  0 100px 0;
+            }
+          #headr .headline{
+            color:#3DD7AC;
+            font-size:3.5rem;
+            margin-top:0;
+            position:relative;
+            top:120px;
+          }
+          .willkommenn{
+            color:#3DD7AC;
+            font-size:3rem;
+          }
+        }
+
             .buttons{
               display:flex;
               justifiy-content: center;
@@ -385,7 +412,10 @@ export default function Workshop() {
             text-align:right;
             }
           }
-            @media (max-width: 425px) {
+            @media (max-width: 455px) {
+              header{
+                padding: 20px  0 70px 0;
+              }
               header h2{
                 font-size:1.8rem;
                 color:#fff;
@@ -401,10 +431,23 @@ export default function Workshop() {
               }
               .willkommenn{
                 color:#3DD7AC;
-                font-size:2rem;
+                font-size:2.5rem;
                 font-family:"Neue_Machina_Ultrabold"
                 font-weight:ultra-bold;
+                line-height:170px;
               }
+              .willkommenn .after-span {
+                content: '';
+                background: url('/img/stricheGreen.svg') 0px 100px / contain no-repeat;
+              }
+              #arrow-img{
+                width:25%;
+                  position:absolute;
+                  z-index:3;
+                  top:400px;
+                 left:14%;
+             
+                }
               .headerCTA article h3{
                 font-size:1rem;
                
@@ -417,6 +460,30 @@ export default function Workshop() {
                     width:100%;
                   }
             }
+            @media (max-width: 425px) {
+              header{
+                padding: 20px  0 10px 0;
+              }
+            #headr .headline{
+              color:#3DD7AC;
+              font-size:2.5rem;
+              margin-top:0;
+              position:relative;
+              top:120px;
+            }
+            .willkommenn{
+              color:#3DD7AC;
+              font-size:2rem;
+            }
+            #arrow-img{
+              width:35%;
+                position:absolute;
+                z-index:3;
+                top:300px;
+               left:14%;
+           
+              }
+          }
         }
       `}</style>
       </Layout>
