@@ -105,13 +105,13 @@ export default function Workshop() {
         .stroke{
             color: transparent;
             letter-spacing: 3px;
-            -webkit-text-stroke-width: 0.2px;
+            -webkit-text-stroke-width: 0.7px;
             -webkit-text-stroke-color: #3DD7AC;
         }
         .headline .stroke{
               color: transparent;
               letter-spacing: 3px;
-              -webkit-text-stroke-width: 0.2px;
+              -webkit-text-stroke-width: 0.7px;
               -webkit-text-stroke-color: #3DD7AC;
         }
         .after-span {

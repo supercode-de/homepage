@@ -141,14 +141,14 @@ export default function Workshop() {
         .stroke{
           color: transparent;
           letter-spacing: 3px;
-          -webkit-text-stroke-width: 0.1px;
+          -webkit-text-stroke-width: 0.8px;
           -webkit-text-stroke-color: var(--super-yellow);
         }
 
         .headline .stroke{
               color: transparent;
               letter-spacing: 3px;
-              -webkit-text-stroke-width: 0.1px;
+              -webkit-text-stroke-width: 0.8px;
               -webkit-text-stroke-color: var(--super-yellow);
         }
         .after-span {
@@ -369,6 +369,9 @@ export default function Workshop() {
             }
           }
           @media (max-width: 768px) {
+            header{
+              padding: 20px  0 100px 0;
+            }
             h1 {
                 font-size: 3em;
                 width: 90%;
@@ -381,11 +384,20 @@ export default function Workshop() {
                 position:relative;
                 top:0px;
               }
+              #headr .headline{
+               
+                font-size:4.5rem;
+                margin-top:0;
+                position:relative;
+                top:120px;
+              }
               .willkommen{
                
-                font-size:3rem;
+                font-size:4.5rem;
                 font-family:"Neue_Machina_Ultrabold"
                 font-weight:ultra-bold;
+                line-height:200px;
+                top:120px;
               }
             #index-finger{
               font-size: 3rem;
@@ -427,6 +439,22 @@ export default function Workshop() {
             }
           }
           @media (max-width: 575px) {
+            #headr .headline{
+          
+              font-size:3rem;
+              margin-top:0;
+              position:relative;
+              top:120px;
+              line-height:5px;
+            }
+            .willkommen{
+           line-height:150px;
+              font-size:2.5rem;
+            }
+            .willkommen .after-span {
+              content: '';
+              background: url('/img/stricheYellow.svg') 0px 100px / contain no-repeat;
+            }
             .buttons{
               display:flex;
               justifiy-content: center;
@@ -436,6 +464,16 @@ export default function Workshop() {
             }
           }
             @media (max-width: 425px) {
+              header{
+                padding: 20px  0 15px 0;
+              }
+              #headr .headline{
+            
+                font-size:1.8rem;
+                margin-top:0;
+                position:relative;
+                top:120px;
+              }
               header h2{
                 font-size:1.8rem;
                 color:#fff;
@@ -462,7 +500,14 @@ export default function Workshop() {
                    .headerCTA #reibungslos{
                      font-size:1.3rem;
                    }
-                   
+                   #arrow-img{
+                    width:35%;
+                      position:absolute;
+                      z-index:3;
+                      top:270px;
+                     left:14%;
+                 
+                    }
                   #form{
                     width:100%;
                   }
