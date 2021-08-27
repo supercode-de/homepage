@@ -415,6 +415,39 @@ class Navigation extends Component {
             z-index: 99998;
             cursor: pointer;
           }
+          @media (max-width: 2170px) {
+            .kurse-link:hover > .arrowWrapper {
+              leftt: 71%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 71%;
+            }
+          }
+          @media (max-width: 2070px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 70%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 70%;
+            }
+          }
+          @media (max-width: 2020px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 69.2%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 69.2%;
+            }
+          }
+          @media (max-width: 1970px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 68.2%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 68.2%;
+            }
+          }
+
           @media (max-width: 1920px) {
             .kurse-link:hover > .arrowWrapper {
               left: 67.2%;
