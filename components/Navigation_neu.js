@@ -551,21 +551,94 @@ class Navigation extends Component {
               left: 44.2%;
             }
           }
-          @media (max-width: 1040px) {
+          @media (max-width: 1100px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 40%;
+              left: 42.8%;
             }
             .arrowWrapperNoAnimation {
-              left: 40%;
+              left: 42.8%;
             }
           }
-
-          @media (max-width: 768px) {
+         
+          @media (max-width: 1075px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 54%;
+              left: 40.9%;
             }
             .arrowWrapperNoAnimation {
-              left: 54%;
+              left: 40.9%;
+            }
+          }
+          @media (max-width: 1050px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 39.9%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 39.9%;
+            }
+          }
+          @media (max-width: 1025px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 38.6%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 38.6%;
+            }
+          }
+          @media (max-width: 1000px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 36.7%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 36.7%;
+            }
+          }
+          @media (max-width: 975px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 35.7%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 35.7%;
+            }
+          }
+          @media (max-width: 950px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 33.7%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 33.7%;
+            }
+          }
+          @media (max-width: 925px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 29.7%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 29.7%;
+            }
+          }
+          @media (max-width: 875px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 28%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 28%;
+            }
+          }
+          @media (max-width: 840px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 25%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 25%;
+            }
+          }
+       
+          @media (max-width: 768px) {
+            .kurse-link:hover > .arrowWrapper {
+              left: 24%;
+            }
+            .arrowWrapperNoAnimation {
+              left: 24%;
             }
           }
 
