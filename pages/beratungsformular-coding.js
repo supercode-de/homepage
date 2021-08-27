@@ -459,6 +459,9 @@ export default function Workshop() {
                   #form{
                     width:100%;
                   }
+                  .inputs-list label{
+                    padding:5px;
+                  }
             }
             @media (max-width: 425px) {
               header{
