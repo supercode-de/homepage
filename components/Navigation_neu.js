@@ -10,12 +10,16 @@ class Navigation extends Component {
       color: 'white',
       rotateDeg: 0,
       showDropDown: false,
+      showDropDown_workshops: false,
     };
     // this.wrapperRef = React.createRef();
     // this.setWrapperRef = this.setWrapperRef.bind(this);
     // this.handleClickOutside = this.handleClickOutside.bind(this);
     this.handleClickOutside = this.handleClickOutside.bind(this);
+    this.handleClickOutsideWorkshops =
+      this.handleClickOutsideWorkshops.bind(this);
     this.handleDropdown = this.handleDropdown.bind(this);
+    this.handleDropdownWorkshops = this.handleDropdownWorkshops.bind(this);
   }
 
   listenScrollEvent = () => {
@@ -35,13 +39,6 @@ class Navigation extends Component {
     this.setState({
       rotateDeg: (window.scrollY / scrollLimit) * totalRotation,
     });
-    //   if (window.scrollY > 2700 && window.scrollY < 4700) {
-    //     this.setState({ color: "black" });
-    //   } else if (window.scrollY > 7100 && window.scrollY < 8670) {
-    //     this.setState({ color: "black" });
-    //   } else {
-    //     this.setState({ color: "white" });
-    //   }
   };
 
   componentDidMount() {
@@ -52,37 +49,45 @@ class Navigation extends Component {
   //   document.addEventListener('mousedown', this.handleClickOutside);
   // }
   handleClickOutside(event) {
-    // if (event.target.id !== 'dropper') {
-    //   this.setState((currentState) => {
-    //     return { showDropDown: false };
-    //   });
-    // }
     if (event.target.id !== 'dropper' && !this.state.showDropDown) {
       this.setState((currentState) => {
         return { showDropDown: false };
       });
     }
   }
+  handleClickOutsideWorkshops(event) {
+    if (
+      event.target.id !== 'dropper_workshop' &&
+      !this.state.showDropDown_workshops
+    ) {
+      this.setState((currentState) => {
+        return { showDropDown_workshops: false };
+      });
+    }
+  }
 
   handleDropdown() {
     if (this.state.showDropDown) {
-      this.setState(
-        // (prev) => (
-        {
-          showDropDown: false,
-        }
-        //   console.log(this.state.showDropDown)
-        // )
-      );
+      this.setState({
+        showDropDown: false,
+      });
     } else {
-      this.setState(
-        // (prev) => (
-        {
-          showDropDown: true,
-        }
-        //   console.log(this.state.showDropDown)
-        // )
-      );
+      this.setState({
+        showDropDown: true,
+        showDropDown_workshops: false,
+      });
+    }
+  }
+  handleDropdownWorkshops() {
+    if (this.state.showDropDown_workshops) {
+      this.setState({
+        showDropDown_workshops: false,
+      });
+    } else {
+      this.setState({
+        showDropDown_workshops: true,
+        showDropDown: false,
+      });
     }
   }
 
@@ -110,20 +115,8 @@ class Navigation extends Component {
           </Link>
 
           <ul className='nav-list'>
-            <li
-              className='kurse-link'
-              // onMouseOver={() => this.setState({ showArrow: true })}
-              // onMouseOut={() => this.setState({ showArrow: false })}
-              // onClick={this.handleDropdown}
-            >
-              {/* <Link href='/kurse'> */}
-              <a
-                // className={this.state.showDropDown ? 'dropper' : null}
-                onClick={this.handleDropdown}
-              >
-                Kurse
-              </a>
-              {/* </Link> */}
+            <li className='kurse-link'>
+              <a onClick={this.handleDropdown}>Kurse</a>
 
               <div
                 className={
@@ -155,10 +148,37 @@ class Navigation extends Component {
               </div>
             </li>
 
-            <li>
-              <Link href='/workshops'>
-                <a>Workshops</a>
-              </Link>
+            <li className='workshops-link'>
+              <a onClick={this.handleDropdownWorkshops}>Workshops</a>
+              <div
+                className={
+                  this.state.showDropDown_workshops
+                    ? 'arrowWrapperNoAnimation_workshops'
+                    : 'arrowWrapper_workshops'
+                }
+              >
+                <img src='/img/navArrow.svg' alt='' />
+              </div>
+
+              <div
+                // className='kurseList'
+                ref={this.wrapperRef}
+                id='dropper_workshop'
+                className={
+                  this.state.showDropDown_workshops
+                    ? 'kurseList-open '
+                    : 'kurseList '
+                }
+              >
+                <Link href='/workshops'>
+                  <a id='dropper_workshop'>Kostenloser HTML & CSS Workshop</a>
+                </Link>
+                <Link href='/workshops'>
+                  <a id='dropper_workshop'>
+                    Kostenloser UX & UI-Design Workshop
+                  </a>
+                </Link>
+              </div>
             </li>
 
             <li>
@@ -218,6 +238,9 @@ class Navigation extends Component {
           .arrowWrapper img {
             width: 100%;
           }
+          .arrowWrapper_workshops img {
+            width: 100%;
+          }
           // .kurse-link {
           //   position: relative;
           // }
@@ -233,6 +256,18 @@ class Navigation extends Component {
             padding-left: 29px;
             // animation: bounce 1.2s infinite;
           }
+          .workshops-link:hover > .arrowWrapper_workshops {
+            position: absolute;
+            display: block;
+            width: 40px;
+            // left: 70vw;
+            // right: 40vw;
+            cursor: pointer;
+            z-index: 10;
+
+            padding-left: 29px;
+            // animation: bounce 1.2s infinite;
+          }
           .arrowWrapper {
             position: relative;
 
@@ -242,13 +277,7 @@ class Navigation extends Component {
             padding-left: 29px;
             // animation: bounce 1.2s infinite;
           }
-          // .arrowWrapper:hover {
-          //   display: block;
-          //   width: 100%;
-          //   cursor: pointer;
-          //   padding-left: 20px;
-          //   animation: bounce 2s infinite;
-          // }
+
           .arrowWrapperNoAnimation {
             position: absolute;
             display: block;
@@ -261,10 +290,35 @@ class Navigation extends Component {
           .arrowWrapperNoAnimation img {
             width: 100%;
           }
+          .arrowWrapper_workshops {
+            position: relative;
+
+            z-index: 10;
+            display: none;
+            width: 100%;
+            padding-left: 29px;
+            // animation: bounce 1.2s infinite;
+          }
+
+          .arrowWrapperNoAnimation_workshops {
+            position: absolute;
+            display: block;
+
+            padding-left: 29px;
+            width: 40px;
+            // left: 70vw;
+            // right: 40vw;
+          }
+          .arrowWrapperNoAnimation_workshops img {
+            width: 100%;
+          }
 
           .kurse-link:hover > .arrowWrapper {
             display: block;
           }
+          // .workshops-link:hover > .arrowWrapper_workshops {
+          //   display: block;
+          // }
 
           .kurseList-open {
             position: absolute;
@@ -278,9 +332,9 @@ class Navigation extends Component {
             justify-content: space-around;
             align-items: center;
             padding-top: 2px;
-            background: ${
-              this.props.dropdownColor ? dropdownColor : 'var(--super-green)'
-            };
+            background: ${this.props.dropdownColor
+              ? dropdownColor
+              : 'var(--super-green)'};
             width: 100vw;
             padding-left: 11%;
             padding-right: 11%;
@@ -301,9 +355,9 @@ class Navigation extends Component {
             justify-content: space-around;
             align-items: center;
             padding-top: 2px;
-            background: ${
-              this.props.dropdownColor ? dropdownColor : 'var(--super-green)'
-            };
+            background: ${this.props.dropdownColor
+              ? dropdownColor
+              : 'var(--super-green)'};
             width: 100vw;
             padding-left: 11%;
             padding-right: 11%;
@@ -350,9 +404,9 @@ class Navigation extends Component {
             letter-spacing: 1.3px;
             color: rgb(255, 255, 255);
             letter-spacing: 2px;
-            -webkit-text-stroke-width: ${
-              this.props.navstroke ? this.props.navstroke : '0.4px'
-            };
+            -webkit-text-stroke-width: ${this.props.navstroke
+              ? this.props.navstroke
+              : '0.4px'};
             -webkit-text-stroke-color: var(--super-black);
             transition: color 0.5s;
             cursor: pointer;
@@ -384,11 +438,10 @@ class Navigation extends Component {
             z-index: 99;
           }
           .nav-list {
-            display: ${
-              window.scrollY > 0 || document.documentElement.clientWidth < 768
-                ? 'none'
-                : 'flex'
-            };
+            display: ${window.scrollY > 0 ||
+            document.documentElement.clientWidth < 768
+              ? 'none'
+              : 'flex'};
           }
           .menu-button {
             // position: fixed;
@@ -397,11 +450,10 @@ class Navigation extends Component {
             min-height: 50px;
             z-index: 99998;
             cursor: pointer;
-            display: ${
-              window.scrollY > 0 || document.documentElement.clientWidth < 768
-                ? 'unset'
-                : 'none'
-            };
+            display: ${window.scrollY > 0 ||
+            document.documentElement.clientWidth < 768
+              ? 'unset'
+              : 'none'};
           }
           .logo {
             color: var(--super-green);
@@ -417,10 +469,18 @@ class Navigation extends Component {
           }
           @media (max-width: 2170px) {
             .kurse-link:hover > .arrowWrapper {
-              leftt: 71%;
+              left: 71%;
             }
             .arrowWrapperNoAnimation {
               left: 71%;
+            }
+
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 76.7%;
+            }
+
+            .arrowWrapperNoAnimation_workshops {
+              left: 76.7%;
             }
           }
           @media (max-width: 2070px) {
@@ -430,6 +490,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 70%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 75.7%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 75.7%;
+            }
           }
           @media (max-width: 2020px) {
             .kurse-link:hover > .arrowWrapper {
@@ -438,6 +504,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 69.2%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 74.9%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 74.9%;
+            }
           }
           @media (max-width: 1970px) {
             .kurse-link:hover > .arrowWrapper {
@@ -445,6 +517,12 @@ class Navigation extends Component {
             }
             .arrowWrapperNoAnimation {
               left: 68.2%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 73.9%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 73.9%;
             }
           }
 
@@ -455,6 +533,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 67.2%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 73.8%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 73.8%;
+            }
           }
           @media (max-width: 1870px) {
             .kurse-link:hover > .arrowWrapper {
@@ -462,6 +546,12 @@ class Navigation extends Component {
             }
             .arrowWrapperNoAnimation {
               left: 66.2%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 72.8%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 72.8%;
             }
           }
           @media (max-width: 1820px) {
@@ -471,6 +561,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 65.2%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 72.4%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 72.4%;
+            }
           }
           @media (max-width: 1770px) {
             .kurse-link:hover > .arrowWrapper {
@@ -478,6 +574,12 @@ class Navigation extends Component {
             }
             .arrowWrapperNoAnimation {
               left: 64.2%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 71.4%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 71.4%;
             }
           }
           @media (max-width: 1720px) {
@@ -487,6 +589,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 63.2%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 70.4%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 70.4%;
+            }
           }
           @media (max-width: 1670px) {
             .kurse-link:hover > .arrowWrapper {
@@ -494,6 +602,12 @@ class Navigation extends Component {
             }
             .arrowWrapperNoAnimation {
               left: 62.2%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 69.4%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 69.4%;
             }
           }
           @media (max-width: 1620px) {
@@ -503,6 +617,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 61.2%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 68.5%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 68.5%;
+            }
           }
           @media (max-width: 1570px) {
             .kurse-link:hover > .arrowWrapper {
@@ -510,6 +630,12 @@ class Navigation extends Component {
             }
             .arrowWrapperNoAnimation {
               left: 60.2%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 67.4%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 67.4%;
             }
           }
           @media (max-width: 1520px) {
@@ -519,6 +645,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 58.8%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 67%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 67%;
+            }
           }
           @media (max-width: 1470px) {
             .kurse-link:hover > .arrowWrapper {
@@ -526,6 +658,12 @@ class Navigation extends Component {
             }
             .arrowWrapperNoAnimation {
               left: 57%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 65.2%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 65.2%;
             }
           }
 
@@ -536,52 +674,95 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 55.5%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 63.7%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 63.7%;
+            }
           }
           @media (max-width: 1400px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 54%;
+              left: 55%;
             }
             .arrowWrapperNoAnimation {
-              left: 54%;
+              left: 55%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 63.7%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 63.7%;
             }
           }
           @media (max-width: 1350px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 52.5%;
+              left: 52.9%;
             }
             .arrowWrapperNoAnimation {
-              left: 52.5%;
+              left: 52.9%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 62.2%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 62.2%;
             }
           }
           @media (max-width: 1300px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 51%;
+              left: 51.3%;
             }
             .arrowWrapperNoAnimation {
-              left: 51%;
+              left: 51.3%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 60.8%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 60.8%;
             }
           }
           @media (max-width: 1250px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 48.3%;
+              left: 49.9%;
             }
             .arrowWrapperNoAnimation {
-              left: 48.3%;
+              left: 49.9%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 58.9%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 58.9%;
             }
           }
           @media (max-width: 1200px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 46.3%;
+              left: 47.3%;
             }
             .arrowWrapperNoAnimation {
-              left: 46.3%;
+              left: 47.3%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 57.5%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 57.5%;
+            }
+          }
           @media (max-width: 1150px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 44.2%;
+              left: 44.7%;
             }
             .arrowWrapperNoAnimation {
-              left: 44.2%;
+              left: 44.7%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 56.3%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 56.3%;
             }
           }
           @media (max-width: 1100px) {
@@ -591,14 +772,26 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 42.8%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 54.4%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 54.4%;
+            }
           }
-         
+
           @media (max-width: 1075px) {
             .kurse-link:hover > .arrowWrapper {
               left: 40.9%;
             }
             .arrowWrapperNoAnimation {
               left: 40.9%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 52.4%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 52.4%;
             }
           }
           @media (max-width: 1050px) {
@@ -608,6 +801,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 39.9%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 52.3%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 52.3%;
+            }
           }
           @media (max-width: 1025px) {
             .kurse-link:hover > .arrowWrapper {
@@ -615,6 +814,12 @@ class Navigation extends Component {
             }
             .arrowWrapperNoAnimation {
               left: 38.6%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 51.1%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 51.1%;
             }
           }
           @media (max-width: 1000px) {
@@ -624,6 +829,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 36.7%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 49.2%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 49.2%;
+            }
           }
           @media (max-width: 975px) {
             .kurse-link:hover > .arrowWrapper {
@@ -631,6 +842,12 @@ class Navigation extends Component {
             }
             .arrowWrapperNoAnimation {
               left: 35.7%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 48.2%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 48.2%;
             }
           }
           @media (max-width: 950px) {
@@ -640,13 +857,25 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 33.7%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 46.2%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 46.2%;
+            }
           }
           @media (max-width: 925px) {
             .kurse-link:hover > .arrowWrapper {
-              left: 29.7%;
+              left: 31.3%;
             }
             .arrowWrapperNoAnimation {
-              left: 29.7%;
+              left: 31.3%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 44.7%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 44.7%;
             }
           }
           @media (max-width: 875px) {
@@ -656,6 +885,12 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 28%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 43.1%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 43.1%;
+            }
           }
           @media (max-width: 840px) {
             .kurse-link:hover > .arrowWrapper {
@@ -664,14 +899,26 @@ class Navigation extends Component {
             .arrowWrapperNoAnimation {
               left: 25%;
             }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 40.2%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 40.2%;
+            }
           }
-       
-          @media (max-width: 768px) {
+
+          @media (max-width: 781px) {
             .kurse-link:hover > .arrowWrapper {
               left: 24%;
             }
             .arrowWrapperNoAnimation {
               left: 24%;
+            }
+            .workshops-link:hover > .arrowWrapper_workshops {
+              left: 37.3%;
+            }
+            .arrowWrapperNoAnimation_workshops {
+              left: 37.3%;
             }
           }
 
