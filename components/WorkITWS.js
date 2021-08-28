@@ -254,32 +254,40 @@ const WorkIT = (props) => {
             </div>
             <div className='kurs-box-container'>
               <div className='kurs-box kurs-box2'>
-                <h4>Try-IT-Trainingscenter</h4>
+                <h4>
+                  {' '}
+                  Kostenloser UX & UI-Design
+                  <br /> Workshop - Online
+                </h4>
                 <p>
-                  Umfang: 4 Wochen in Vollzeit <br />
-                  Start: Anfang 2021 (bald mehr Infos)
+                  Umfang: 3 Stunden / 15:00-18:00 Uhr <br />
+                  Start: immer donnerstags - mit Anmeldung
                 </p>
                 <p>
-                  In vier spannenden Praxisprojekte bekommst du kompaktes
-                  IT-Wissen in den Bereichen IT-Projektmanagement, Coding und
-                  Design. Du entscheidest, welcher Bereich dir am meisten liegt
-                  und gemeinsam planen wir deinen weiteren Berufsweg in der IT.
+                  Tauche ein in die wundervolle Welt der Web-Designs und mache
+                  bei uns dein Seepferdchen im Bereich UX & UI-Design, im World
+                  Wide Web! Live, in Farbe und immer mit zwei Trainer*innen.
                 </p>
                 <h5>Inhalte:</h5>
                 <p>
-                  - IT-Projektmanagement Basics <br />
-                  - Grundlagen Design & UX <br />
-                  - Basics Webentwicklung & Programmierung <br />
-                  - IT-Markt-Wissen <br />
-                  - Selbstreflektion und Berufsplanung <br />
+                  - Grundlagen zum Thema UX /UI-Design
+                  <br />
+                  - Übersicht der gängigsten Prototyping Tools <br />-
+                  Grundlagen im Bereich Prototyping
                 </p>
                 <h5>Finanzierung:</h5>
-                <p>- AVGS (vom Jobcenter/Agentur für Arbeit)</p>
+                <p>
+                  {' '}
+                  - kostenlos!
+                  <br />
+                  <br />
+                  Allerdings nehmen wir eine kleine Reservierungsgebühr, die wir
+                  am Ende des Workshops rückerstatten.
+                </p>
                 <h5>sonstiges:</h5>
                 <p>
-                  - 2 Trainer*innen pro Workshop <br />
-                  - Teilnahme erfolgt online <br />- Zertifikat über deine
-                  Teilnahme
+                  - Ein*e Trainer*in pro Workshop <br />- Teilnahme erfolgt
+                  online
                 </p>
                 <div className='buttons'>
                   <Link href='https://www.eventbrite.de/o/supercode-20262218583'>
