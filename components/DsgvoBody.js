@@ -1,8 +1,7 @@
-
 const DsgvoBody = (props) => {
   return (
-    <div id="dsgvo-text">
-      <div id="text-body">
+    <div id='' className='lilaGitter'>
+      <div id='text-body'>
         <h1>DATENSCHUTZERKLÄRUNG</h1>
         <h2>§ 1 Information über die Erhebung personenbezogener Daten</h2>
         <p>
@@ -229,7 +228,7 @@ const DsgvoBody = (props) => {
           personenbezogene Daten in die USA übertragen werden, hat sich Google
           dem EU-US Privacy Shield unterworfen,
           https://www.privacyshield.gov/EU-US-Framework. Rechtsgrundlage für die
-          Nutzung von Google Analytics ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO.{" "}
+          Nutzung von Google Analytics ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO.{' '}
         </p>
         <p>
           (6) Informationen des Drittanbieters: Google Dublin, Google Ireland
@@ -543,6 +542,14 @@ const DsgvoBody = (props) => {
           background-position: 0 0, 0 0;
           background-size: ${props.width}px ${props.width}px;
           
+        }
+
+        h1{
+          margin-top:-50px;
+          color:#fff;
+        }
+        h2{
+          color:#fff;
         }
         #text-body {
           font-size: .8em;

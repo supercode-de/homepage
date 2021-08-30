@@ -1,20 +1,20 @@
 const ImpressumBody = (props) => {
   return (
-    <div id="impressum-text">
-      <div className="text-body">
-        <div className="block">
+    <div id='impressum-text ' className='lilaGitter'>
+      <div className='text-body'>
+        <div className='block'>
           <p>Anbieter dieser Internetseiten ist die SuperCode GmbH & Co. KG</p>
           <p>hallo@super-code.de</p>
         </div>
-        <div className="block">
+        <div className='block'>
           <p>Telefon: 0211 7817 2330</p>
         </div>
-        <div className="block">
+        <div className='block'>
           <p>Geschäftsführer: Sérgio Cardeal</p>
           <p>Handelsregister Nummer: HRA 25439</p>
           <p>Registergericht: Amtsgericht Düsseldorf</p>
         </div>
-        <div className="block">
+        <div className='block'>
           <p>
             Alle Rechte an den Inhalten dieser Webseiten bleiben vorbehalten.
             Jede kommerzielle Verwertung bedarf der vorherigen Zustimmung des
@@ -30,7 +30,7 @@ const ImpressumBody = (props) => {
       <style jsx>{`
         #impressum-text {
           position: relative;
-          background-color: #fff;
+          background-color: #000;
           background-image: linear-gradient(
               to right,
               rgba(255, 0, 0, 0.25) 0,

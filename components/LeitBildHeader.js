@@ -1,13 +1,13 @@
-import Arrow from "./small/Arrow";
-import Telefon from "./small/Telefon";
+import Arrow from './small/Arrow';
+import Telefon from './small/Telefon';
 
 const LeitBildHeader = (props) => {
   const pixelSize = 1; // Width of Lines in Background
   return (
-    <div id="impressum">
-      <h1>Leitbild</h1>
+    <div id='impressum'>
+      <h1>Leitbilddd</h1>
 
-      <Telefon color="#fff" />
+      <Telefon color='#fff' />
       <Arrow />
       <style jsx>{`
         #impressum {
