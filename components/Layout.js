@@ -14,12 +14,19 @@ class Layout extends Component {
   state = {
     isHidden: true,
     isHiddenMobile: true,
+    overflow_y: false,
   };
   toggleJetztAnmelden = () => {
     this.setState({ isHidden: !this.state.isHidden });
   };
   toggleNavigationMobile = () => {
-    this.setState({ isHiddenMobile: !this.state.isHiddenMobile });
+    this.setState({
+      isHiddenMobile: !this.state.isHiddenMobile,
+      overflow_y: !this.state.overflow_y,
+    });
+  };
+  toggleOverflow_y = () => {
+    this.setState({ overflow_y: !this.state.overflow_y });
   };
 
   render() {
@@ -109,6 +116,7 @@ class Layout extends Component {
             html {
               scroll-behavior: smooth;
             }
+
             .image-item-partner {
               align-self: center;
             }
@@ -128,6 +136,7 @@ class Layout extends Component {
             body {
               padding: 0;
               margin: 0;
+              overflow-y: ${this.state.overflow_y ? 'hidden' : null};
             }
             * {
               box-sizing: border-box;

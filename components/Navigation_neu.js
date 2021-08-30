@@ -12,9 +12,7 @@ class Navigation extends Component {
       showDropDown: false,
       showDropDown_workshops: false,
     };
-    // this.wrapperRef = React.createRef();
-    // this.setWrapperRef = this.setWrapperRef.bind(this);
-    // this.handleClickOutside = this.handleClickOutside.bind(this);
+
     this.handleClickOutside = this.handleClickOutside.bind(this);
     this.handleClickOutsideWorkshops =
       this.handleClickOutsideWorkshops.bind(this);
@@ -45,9 +43,7 @@ class Navigation extends Component {
     window.addEventListener('scroll', this.listenScrollEvent);
     document.addEventListener('mousedown', this.handleClickOutside);
   }
-  // componentDidMount() {
-  //   document.addEventListener('mousedown', this.handleClickOutside);
-  // }
+
   handleClickOutside(event) {
     if (event.target.id !== 'dropper' && !this.state.showDropDown) {
       this.setState((currentState) => {
