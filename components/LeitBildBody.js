@@ -2,7 +2,7 @@ const LeitBildBody = (props) => {
   return (
     <div id='' className='lilaGitter'>
       <div className='text-body'>
-        <h2>Leitbild SuperCode GmbH & Co. KG</h2>
+        <h2 className='leitbild'>Leitbild SuperCode GmbH & Co. KG</h2>
         <div className='block'>
           <h3>Unser Ziel</h3>
 
@@ -93,7 +93,7 @@ const LeitBildBody = (props) => {
             
           }
 
-          h2:nth-of-type(1){
+          .leitbild{
             margin-top:-40px;
           }
           h2{
