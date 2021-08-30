@@ -45,16 +45,25 @@ class Navigation extends Component {
   }
 
   handleClickOutside(event) {
-    if (event.target.id !== 'dropper' && !this.state.showDropDown) {
+    // if (event.target.id !== 'dropper' && !this.state.showDropDown) {
+    if (
+      !event.target.classList.contains('dropper') ||
+      (!event.target.classList.contains('dropper_workshop') &&
+        this.state.showDropDown)
+    ) {
       this.setState((currentState) => {
-        return { showDropDown: false };
+        return { showDropDown: false, showDropDown_workshops: false };
       });
     }
   }
   handleClickOutsideWorkshops(event) {
+    // if (
+    //   event.target.id !== 'dropper_workshop' &&
+    //   !this.state.showDropDown_workshops
     if (
-      event.target.id !== 'dropper_workshop' &&
-      !this.state.showDropDown_workshops
+      !event.target.classList.contains('dropper') ||
+      (!event.target.classList.contains('dropper_workshop') &&
+        this.state.showDropDown_workshops)
     ) {
       this.setState((currentState) => {
         return { showDropDown_workshops: false };
@@ -112,7 +121,12 @@ class Navigation extends Component {
 
           <ul className='nav-list'>
             <li className='kurse-link'>
-              <a onClick={this.handleDropdown}>Kurse</a>
+              <a
+                onClick={this.handleDropdown}
+                className='jo bla dropper dropper_workshop'
+              >
+                Kurse
+              </a>
 
               <div
                 className={
@@ -127,25 +141,38 @@ class Navigation extends Component {
               <div
                 // className='kurseList'
                 ref={this.wrapperRef}
-                id='dropper'
+                // id='dropper'
                 className={
-                  this.state.showDropDown ? 'kurseList-open ' : 'kurseList '
+                  this.state.showDropDown
+                    ? 'kurseList-open dropper dropper_workshop'
+                    : 'kurseList '
                 }
               >
                 <Link href='/kurse/fullstack'>
-                  <a id='dropper'>Fullstack Development</a>
+                  <a id='dropper' className='dropper dropper_workshop'>
+                    Fullstack Development
+                  </a>
                 </Link>
                 <Link href='/kurse/frontend'>
-                  <a id='dropper'>Front-End Development</a>
+                  <a id='dropper' className='dropper dropper_workshop'>
+                    Front-End Development
+                  </a>
                 </Link>
                 <Link href='/kurse/uxui'>
-                  <a id='dropper'>UX & UI Design</a>
+                  <a id='dropper' className='dropper dropper_workshop'>
+                    UX & UI Design
+                  </a>
                 </Link>
               </div>
             </li>
 
             <li className='workshops-link'>
-              <a onClick={this.handleDropdownWorkshops}>Workshops</a>
+              <a
+                onClick={this.handleDropdownWorkshops}
+                className='dropper_workshop dropper'
+              >
+                Workshops
+              </a>
               <div
                 className={
                   this.state.showDropDown_workshops
@@ -162,15 +189,17 @@ class Navigation extends Component {
                 id='dropper_workshop'
                 className={
                   this.state.showDropDown_workshops
-                    ? 'kurseList-open '
+                    ? 'kurseList-open dropper dropper_workshop'
                     : 'kurseList '
                 }
               >
                 <Link href='/workshops'>
-                  <a id='dropper_workshop'>Kostenloser HTML & CSS Workshop</a>
+                  <a id='dropper' className='dropper dropper_workshop '>
+                    Kostenloser HTML & CSS Workshop
+                  </a>
                 </Link>
                 <Link href='/workshops'>
-                  <a id='dropper_workshop'>
+                  <a className='dropper_workshop dropper'>
                     Kostenloser UX & UI-Design Workshop
                   </a>
                 </Link>
