@@ -18,6 +18,8 @@ import blog9 from '../../markdown/blog9';
 import titleBlog9 from '../../markdown/titleBlog9';
 import blog10 from '../../markdown/blog10';
 import titleBlog10 from '../../markdown/titleBlog10';
+import blog11 from '../../markdown/blog11';
+import titleBlog11 from '../../markdown/titleBlog11';
 
 // console.log({ blog7, titleBlog7 });
 let blog = [
@@ -90,6 +92,13 @@ let blog = [
     text: blog10,
     pic: '/img/blogs/10/02.png',
     url: 'women-in-tech-frauen-in-der-it',
+  },
+  {
+    id: 10,
+    title: titleBlog11,
+    text: blog11,
+    pic: '/img/blogs/11/preview_pic.jpg',
+    url: 'webentwickler-im-job',
   },
 ];
 

@@ -54,38 +54,6 @@ export default function UX_UI_TrainerTeam() {
             <p className='light'>& UX/UI-Design</p>
           </figure>
 
-          {/* <figure>
-              <img
-                src='/img/team/Elaine Wong Trainer Webentwicklung Full-Stack_neu.jpg'
-                alt='Portrait von supercode Mitarbeiter'
-              />
-              <figcaption>Elaine Wong</figcaption>
-              <p className='bold'>Assistant Trainer </p>
-              <p className='light'>Web-Entwicklung</p>
-              <p className='light'>Full-Stack</p>
-            </figure>
-  
-            <figure>
-              <img
-                src='/img/team/Eric Noack Trainer Webentwicklung.jpg'
-                alt='Portrait von supercode Mitarbeiter'
-              />
-              <figcaption>Eric Noack</figcaption>
-              <p className='bold'>FlexTrainer </p>
-              <p className='light'>Web-Entwicklung</p>
-            </figure>
-  
-            <figure>
-              <img
-                src='/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.jpg'
-                alt='Portrait von supercode Mitarbeiter'
-              />
-              <figcaption>Finn Schlottmann</figcaption>
-              <p className='bold'>Assistant Trainer </p>
-              <p className='light'>Web-Entwicklung</p>
-              <p className='light'>Front-End</p>
-            </figure>
-   */}
           <div className='rotating-text'>
             <img
               src='/img/Trainercircle.svg'
