@@ -2,20 +2,20 @@ const AVGS = () => {
   const pixelSize = 1.5;
 
   return (
-    <div id="avgs" className="whiteGreenDots">
-      <div className="avgs-img">
+    <div id='avgs' className='whiteGreenDots'>
+      <div className='avgs-img'>
         <img
-          src="/img/_DSC3868_LowRes.png"
-          alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
+          src='/img/_DSC3868_LowRes.png'
+          alt='Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter'
         />
       </div>
 
       <h2>Förderung durch einen Bildungs&shy;gutschein (BGS)</h2>
-      <div className="infos">
-        <div className="info-headline 1">
+      <div className='infos'>
+        <div className='info-headline 1'>
           <h3>Was ist ein Bildungs&shy;gutschein?</h3>
         </div>
-        <div className="info-text">
+        <div className='info-text'>
           <p>
             Der Bildungsgutschein, kurz BGS, ermöglicht es dir, beruflich weiter
             zu kommen und wird von der Agentur für Arbeit oder dem Jobcenter
@@ -27,24 +27,24 @@ const AVGS = () => {
             kostenlos an unseren Kursen / Weiterbildungen teilnehmen.
           </p>
         </div>
-        <div className="info-headline">
+        <div className='info-headline'>
           <h3>Wie erhalte ich einen Bildungs&shy;gutschein?</h3>
         </div>
-        <div className="info-text">
+        <div className='info-text'>
           <p>
-            Du möchtest an einem unserer BGS-geförderten Kurs teilnehmen?
+            Du möchtest an einem unserer BGS-geförderten Kurse teilnehmen?
             <br />
             <br />
             Wenn der Kurs für dich der Richtige ist, versorgen wir dich mit
             Info-Material sowie einem Angebot für das Jobcenter / die Agentur
             für Arbeit. Wenn du gute Argumente für deine Teilnahme hast, wird
-            dir in der Regel der BGS für unseren Workshop ausgestellt.
+            dir in der Regel der BGS für unseren Kurs ausgestellt.
           </p>
         </div>
-        <div className="info-headline">
+        <div className='info-headline'>
           <h3>Und was mache ich dann mit dem Bildungs&shy;gutschein?</h3>
         </div>
-        <div className="info-text">
+        <div className='info-text'>
           <p>
             Grundsätzlich darfst du mit dem BGS machen was du willst. Wir würden
             uns natürlich freuen, wenn du damit wieder zu uns kommst. <br />

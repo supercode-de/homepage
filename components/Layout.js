@@ -136,6 +136,9 @@ class Layout extends Component {
             body {
               padding: 0;
               margin: 0;
+            }
+
+            body {
               overflow-y: ${this.state.overflow_y ? 'hidden' : null};
             }
             * {
