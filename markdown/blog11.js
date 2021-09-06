@@ -34,8 +34,7 @@ Das Bewerbungscoaching im Kurs hat mir auch viel gebracht, da wir sehr coole Bew
 
 Ich habe den Seepferdchen-Kurs bei SuperCode gemacht und mich dann direkt für das Bootcamp als Selbstzahler angemeldet. Ich war begeistert von den Trainer*innen und dem ganzen Team. Die praktische Ausrichtung der Kurse hat mir gefallen und ich fand die Vorstellung toll, mit anderen gemeinsam zu lernen. Ich habe auf jeden Fall die richtige Entscheidung getroffen. 
 
-### Du kommst eigentlich aus der Pflege. 
-### Wie kamst du zum Coden? 
+### Du kommst eigentlich aus der Pflege. Wie kamst du zum Coden? 
 
 Das war ein lustiger Zufall: Meine Freundin hatte beruflich eine Codingaufgabe bekommen, obwohl sie eigentlich keine Entwicklerin ist. Dann haben wir zusammen einen Kurs auf Udemy gemacht und haben zusammen in Visual Basic gecodet. Das hat mir riesig Spaß gemacht und als ich dann die Werbung von Supercode in der Bahn gesehen und etwas recherchiert hatte, dachte ich, das ist es! Da ich kein ausgebildeter Pfleger bin, waren meine Aufstiegschancen in dem Bereich auch gering und als ich vor der Wahl stand, mich in der Pflege richtig ausbilden zu lassen oder Webentwicklung zu lernen, stand mein Entschluss fest. 
 
@@ -55,16 +54,18 @@ Herausfordernd war es, mich zu hause abends und am Wochenende in meiner freien Z
 Wenn man wirklich coden will und seine Zukunft im Coding-Bereich sieht, darf man sich nicht davon abbringen lassen und muss es einfach versuchen. Man muss sich selbst vertrauen, an sich glauben und der Rest kommt von alleine. Auch ohne Abschluss kann man in Deutschland arbeiten und die Branche ist recht offen für Quereinsteiger*innen. 
 Natürlich muss man auch viel Arbeit reinstecken, an den richtigen Stellen Gas geben und sich auch neben dem Kurs mit Coding beschäftigen. Aber: Appetit kommt beim Essen und sobald man anfängt zu coden, kommt man in den Flow, probiert Sachen aus und wird dadurch immer besser! 
 
+###
 Vielen Dank für das Interview Daniel und alles Gute für deine Zukunft als Junior Web-Developer.
 
-
+###
 Das Interview führte Natalie Streich im März 2021 via Google-Meet.
 
-
+###
 Daniel wurde vor Kurzem eine Stelle als Entwickler in einem anderen Unternehmen angeboten, die sogar noch besser zu ihm passt. So kann es gehen: Erst Pfleger, dann begehrte IT-Fachkraft, 
 der die Stellen nur so zufliegen ;)
 
-*Bilder: Women in Tech*  
+###
+*Bilder: SuperCode*  
 `;
 
 export default blog11;
