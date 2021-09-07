@@ -32,7 +32,7 @@ Das Bewerbungscoaching im Kurs hat mir auch viel gebracht, da wir sehr coole Bew
 
 ### Wie konntest du im Vorstellungsgespräch überzeugen?  
 
-Ich habe den Seepferdchen-Kurs bei SuperCode gemacht und mich dann direkt für das Bootcamp als Selbstzahler angemeldet. Ich war begeistert von den Trainer*innen und dem ganzen Team. Die praktische Ausrichtung der Kurse hat mir gefallen und ich fand die Vorstellung toll, mit anderen gemeinsam zu lernen. Ich habe auf jeden Fall die richtige Entscheidung getroffen. 
+Es gab Bewerber*innen mit mehr Erfahrung, aber sie haben dann mich genommen. Ich habe wohl mit meiner Persönlichkeit gut ins Team gepasst. Und es hat ihnen gut gefallen, dass ich richtig motiviert für die Projektarbeit mit immer unterschiedlichen Anforderungen rüber kam. Das Gespräch lief locker und es gab wenig technische Fragen. Allerdings wurden mir die Web-Produkte und Templates in javascript zugeschickt und ich sollte ein Feedback dazu geben. Ich habe mich gut zurechtgefunden und dann kam auch schon die Zusage.
 
 ### Du kommst eigentlich aus der Pflege. Wie kamst du zum Coden? 
 
