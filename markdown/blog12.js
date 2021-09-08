@@ -39,7 +39,7 @@ Wir gratulieren ihr herzlich zu ihrem Stipendium und bedanken uns bei allen moti
 
 ## Du möchtest auch UX/UI Design lernen ?  
 
-Nutze deine Skills aus der Design- und Medienbranche und qualifiziere dich zur begehrten UX/UI-Design-Fachkraft. Es sind noch wenige Plätze frei! Informiere dich jetzt über Fördermöglichkeiten und nimm Kontakt zu uns auf:  https://www.super-code.de/kurse/uxui 
+Nutze deine Skills aus der Design- und Medienbranche und qualifiziere dich zur begehrten UX/UI-Design-Fachkraft. Es sind noch wenige Plätze frei! Informiere dich jetzt über Fördermöglichkeiten und nimm Kontakt zu uns auf: https://www.super-code.de/kurse/uxui 
 ###
 Text: Natalie Streich
 ###

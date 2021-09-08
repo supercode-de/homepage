@@ -47,6 +47,9 @@ module.exports = {
       '/blogs/Vom-Pfleger-zum-Webentwickler-in-sieben-Monaten': {
         page: '/blogs/[blogItem]',
       },
+      '/blogs/Mein-Herz-schlug-schon-immer-für-Design': {
+        page: '/blogs/[blogItem]',
+      }
     };
   },
 };
