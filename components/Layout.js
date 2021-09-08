@@ -128,7 +128,7 @@ class Layout extends Component {
               color: #fff;
             }
             section .right img {
-              width: 100% !important;
+              width: 50% !important;
               margin-top: 40px;
               margin-bottom: 40px;
             }

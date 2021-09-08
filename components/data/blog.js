@@ -20,6 +20,8 @@ import blog10 from '../../markdown/blog10';
 import titleBlog10 from '../../markdown/titleBlog10';
 import blog11 from '../../markdown/blog11';
 import titleBlog11 from '../../markdown/titleBlog11';
+import blog12 from '../../markdown/blog12';
+import titleBlog12 from '../../markdown/titleBlog12';
 
 // console.log({ blog7, titleBlog7 });
 let blog = [
@@ -99,6 +101,13 @@ let blog = [
     text: blog11,
     pic: '/img/blogs/11/preview_pic.jpg',
     url: 'webentwickler-im-job',
+  },
+  {
+    id: 11,
+    title: titleBlog12,
+    text: blog12,
+    pic: '/img/blogs/12/sabrina_tillemans.jpg',
+    url: 'super-stipendium-ui&ux',
   },
 ];
 
