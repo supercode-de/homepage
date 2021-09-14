@@ -114,7 +114,7 @@ const UnserCampus = (props) => {
         #unser-campus {
           position: relative;
           background-color: #fff;
-
+          color: var(--super-green);
           background: linear-gradient(
               90deg,
               #fff calc(100vw / 12 - ${pixelSize}px),
@@ -146,7 +146,7 @@ const UnserCampus = (props) => {
         h1,
         p,
         .text-two {
-          color: var(--super-blau);
+          color: var(--super-green);
           width: ${props.width * 3}px;
         }
         h1 span {
@@ -154,7 +154,7 @@ const UnserCampus = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: var(--super-blau);
+          -webkit-text-stroke-color: var(--super-green);
         }
         .aside {
           position: absolute;
