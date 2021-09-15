@@ -1,31 +1,22 @@
 import Collapsible from "./FAQItem";
 import faqData from "./data/faq";
-import { useWindowSize } from "./functions/windowSize";
-import React, { Component } from "react";
 
-class FAQ extends Component {
-  state = {};
+const FAQ = () => {
+  return (
+    <div id="faq" className="blueGitter">
+      <h2>FAQ</h2>
 
-  componentDidMount() {
-    this.setState({ width: window.innerWidth / 12 });
-  }
+      <div className="grid">
+        <span className="aside">FAQ Yourself</span>
+        {faqData.map((faq, i) => (
+          <Collapsible trigger={faq.question} key={i}>
+            {" "}
+            <p>{faq.answer}</p>
+          </Collapsible>
+        ))}
+      </div>
 
-  render() {
-    return (
-      <div id="faq" className="blueGitter">
-        <h2>FAQ</h2>
-
-        <div className="grid">
-          <span className="aside">FAQ Yourself</span>
-          {faqData.map((faq, i) => (
-            <Collapsible trigger={faq.question} key={i}>
-              {" "}
-              <p>{faq.answer}</p>
-            </Collapsible>
-          ))}
-        </div>
-
-        <style jsx>{`
+      <style jsx>{`
           #faq {
             padding: 10px calc(100vw / 12) 50px;
             position: relative;
@@ -58,7 +49,7 @@ class FAQ extends Component {
           }
           @media (max-width: 768px) {
             #faq {
-              padding: 10px ${this.state.width / 2}px 50px;
+              padding: 10px calc(100vw / 12) 50px;
             }
             .grid {
               display: block;
@@ -71,9 +62,8 @@ class FAQ extends Component {
           @media (max-width: 468px) {
           }
         `}</style>
-      </div>
-    );
-  }
+    </div>
+  );
 }
 
 export default FAQ;
