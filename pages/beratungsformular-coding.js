@@ -61,6 +61,9 @@ export default function Workshop() {
         * {
           font-family: "Neue_Machina_Regular_400";
         }
+        .willkommenn {
+          line-height: 1.7em;
+        }
 
         #arrow-img img{
             width:100%;
@@ -224,13 +227,11 @@ export default function Workshop() {
         }
         //=========== Alter Code ========
         #header {
-            background:       linear-gradient(90deg, #03000F ${
-              width - pixelSize
-            }px,
+            background:       linear-gradient(90deg, #03000F ${width - pixelSize
+          }px,
                               transparent 1%),
-                              linear-gradient(#03000F ${
-                                width - pixelSize
-                              }px, transparent 1%),
+                              linear-gradient(#03000F ${width - pixelSize
+          }px, transparent 1%),
                               #fff;
             background-size: ${width}px ${width}px;
             padding: 10vh 2rem;

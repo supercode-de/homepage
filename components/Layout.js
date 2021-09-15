@@ -91,7 +91,7 @@ class Layout extends Component {
 
         <style jsx global>
           {`
-            @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');
+            // @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
             @font-face {
@@ -116,22 +116,65 @@ class Layout extends Component {
             html {
               scroll-behavior: smooth;
             }
+            // FINDE NICHTS ZUGEHÖRIGES!
+            // .image-item-partner {
+            //   align-self: center;
+            // }
 
-            .image-item-partner {
-              align-self: center;
+            // BLOGSTYLES Start
+            // Container in dem der Blogarticle sitzt
+            #blogDetails .right>p {
+              width: 88%;
+              margin: auto;
+              color: #fff;
             }
-            section .right h1 {
+            
+            
+            #blogDetails .right h1 {
               font-size: 4em;
-              color: #fff;
             }
-            section .right h2 {
-              color: #fff;
-            }
-            section .right img {
+            #blogDetails .right img {
               width: 50% !important;
               margin-top: 40px;
               margin-bottom: 40px;
             }
+            #blogDetails .right p {
+              font-size: 1.125rem;
+              line-height: 1.563rem;
+              // color: #fff;
+              text-align: left;
+            }
+            
+
+
+            // Vermuteter Blogstyle
+            #blogDetails .right a {
+              color: #fff;
+            }
+            #blogDetails .right h1,
+            #blogDetails .right h2 {
+              font-size: 3.2em;
+              line-height: 1.1em;
+            }
+
+            #blogDetails .right h1 {
+              margin: auto;
+              margin-top: 150px;
+            }
+            #blogDetails .right h2 {
+              text-align: left;
+            }
+            #blogDetails .right h3 {
+              font-family: 'Neue_Machina_Ultrabold';
+              font-size: 1.2rem;
+              line-height: 28px;
+            }
+
+            #blogDetails .right em {
+              font-style: normal;
+            }
+            // BLOGSTYLES End
+
             html,
             body {
               padding: 0;
@@ -145,70 +188,21 @@ class Layout extends Component {
               box-sizing: border-box;
               font-family: 'Neue_Machina_Regular_400', sans-serif;
             }
-            a,
-            button {
-              font-family: 'Neue_Machina_Regular_400', sans-serif;
-            }
-
-            a {
-              color: #fff;
-            }
-
-            li {
-              color: #fff;
-            }
-
-            // img{
-            //   margin:30px 0;
+            // a,
+            // button {
+            //   font-family: 'Neue_Machina_Regular_400', sans-serif;
             // }
-            p {
-              font-size: 1.125rem;
-              line-height: 1.563rem;
-              color: #fff;
-              text-align: left;
-            }
 
-            p h3 {
-              font-family: 'Neue_Machina_Ultrabold';
-              font-size: 1.2rem;
-              line-height: 28px;
-            }
+           
 
-            p em {
-              font-style: normal;
-            }
-
+            
+            // Keine Ahnung, was das tun soll
             button .lnk {
               text-decoration: none;
             }
-            section .right p {
-              width: 88%;
-              margin: auto;
-            }
-            .willkommenn {
-              line-height: 1.7em;
-            }
-            h1,
-            h2 {
-              font-size: 3.2em;
-              line-height: 1.1em;
-            }
-
-            h1 {
-              width: 88%;
-              margin: auto;
-              margin-top: 150px;
-            }
-            h2 {
-              text-align: left;
-            }
-
-            section .right h2 {
-            }
-
-            h3 {
-              color: #fff;
-            }
+            
+            
+            
 
             // BACKGROUND STYLES
             .lilaGitter {

@@ -103,9 +103,9 @@ class Layout extends Component {
             html {
               scroll-behavior: smooth;
             }
-            .image-item-partner {
-              align-self: center;
-            }
+            // .image-item-partner {
+            //   align-self: center;
+            // }
             section .right h1 {
               font-size: 2em;
               color: #000;

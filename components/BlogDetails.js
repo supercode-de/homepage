@@ -5,7 +5,7 @@ const BlogDetails = (props) => {
   const pixelSize = 2;
   // console.log("props", props)
   return (
-    <div id='blogDetails ' className='blackGitter'>
+    <div id='blogDetails' className='blackGitter'>
       <section>
         {/* <article className='left'>
           <h1>{props.title.main}</h1>
@@ -220,6 +220,13 @@ const BlogDetails = (props) => {
         .right img {
           width: 80% !important;
         }
+        section .right h1 {
+              font-size: 4em;
+              color: #fff;
+            }
+            section .right h2 {
+              color: #fff;
+            }
 
         @media (max-width: 880px) {
           article {
