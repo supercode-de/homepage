@@ -125,19 +125,61 @@ class Layout extends Component {
               box-sizing: border-box;
               font-family: 'Neue_Machina_Regular_400', sans-serif;
             }
-            a,
-            button {
-              font-family: 'Neue_Machina_Regular_400', sans-serif;
+           
+            // BLOGSTYLES Start
+            // Container in dem der Blogarticle sitzt
+            #blogDetails .right>p {
+              width: 88%;
+              margin: auto;
+              color: #fff;
             }
-            p {
+            
+            
+            #blogDetails .right h1 {
+              font-size: 4em;
+            }
+            #blogDetails .right img {
+              width: 50% !important;
+              margin-top: 40px;
+              margin-bottom: 40px;
+            }
+            #blogDetails .right p {
               font-size: 1.125rem;
               line-height: 1.563rem;
+              // color: #fff;
+              text-align: left;
             }
-            h1,
-            h2 {
-              font-size: 4em;
-              line-height: 1.2em;
+            
+
+
+            // Vermuteter Blogstyle
+            #blogDetails .right a {
+              color: #fff;
             }
+            #blogDetails .right h1,
+            #blogDetails .right h2 {
+              font-size: 3.2em;
+              line-height: 1.1em;
+            }
+
+            #blogDetails .right h1 {
+              margin: auto;
+              margin-top: 150px;
+            }
+            #blogDetails .right h2 {
+              text-align: left;
+            }
+            #blogDetails .right h3 {
+              font-family: 'Neue_Machina_Ultrabold';
+              font-size: 1.2rem;
+              line-height: 28px;
+            }
+
+            #blogDetails .right em {
+              font-style: normal;
+            }
+            // BLOGSTYLES End
+
 
             // BACKGROUND STYLES
             .lilaGitter {
