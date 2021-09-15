@@ -181,6 +181,22 @@ class Layout extends Component {
             // BLOGSTYLES End
 
 
+            // Possible nescessary styles
+            h1,
+            h2 {
+              font-size: 3.2em;
+              line-height: 1.1em;
+            }
+            h3 {
+              font-size: 1.2rem;
+              line-height: 28px;
+            }
+            p {
+              font-size: 1.125rem;
+              line-height: 1.563rem;
+              text-align: left;
+            }
+
             // BACKGROUND STYLES
             .lilaGitter {
               background-color: var(--super-lila);
