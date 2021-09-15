@@ -141,7 +141,6 @@ class Layout extends Component {
             #blogDetails .right p {
               font-size: 1.125rem;
               line-height: 1.563rem;
-              // color: #fff;
               text-align: left;
             }
             
@@ -151,11 +150,7 @@ class Layout extends Component {
             #blogDetails .right a {
               color: #fff;
             }
-            #blogDetails .right h1,
-            #blogDetails .right h2 {
-              font-size: 3.2em;
-              line-height: 1.1em;
-            }
+            
 
             #blogDetails .right h1 {
               margin: auto;
@@ -174,6 +169,22 @@ class Layout extends Component {
               font-style: normal;
             }
             // BLOGSTYLES End
+
+            // Possible nescessary styles
+            h1,
+            h2 {
+              font-size: 3.2em;
+              line-height: 1.1em;
+            }
+            h3 {
+              font-size: 1.2rem;
+              line-height: 28px;
+            }
+            p {
+              font-size: 1.125rem;
+              line-height: 1.563rem;
+              text-align: left;
+            }
 
             html,
             body {

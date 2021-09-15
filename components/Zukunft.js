@@ -65,24 +65,21 @@ const Zukunft = (props) => {
       />
       <style jsx>{`
         #zukunft {
-          color: var(--super-blue);
+          color: var(--super-blau);
           font-family: "Neue_Machina_Regular_400";
           position: relative;
           padding: 100px calc(100vw / 12) 5px calc(100vw / 12);
         }
         h1 {
-          color: var(--super-blue);
           margin: 0;
         }
-        p {
-          color: var(--super-blue);
-        }
+ 
         h1 span {
           font-weight: 400;
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: var(--super-blue);
+          -webkit-text-stroke-color: var(--super-blau);
         }
         .infos {
           display: grid;
