@@ -526,25 +526,7 @@ const DsgvoBody = (props) => {
         color: #fff;
       }
         #dsgvo-text {
-          position: relative;
-          background-color: #fff;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: ${props.width}px ${props.width}px;
-          
+          position: relative; 
         }
 
         h1{
