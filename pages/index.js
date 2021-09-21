@@ -1,3 +1,4 @@
+import React, { Suspense } from 'react';
 import Head from 'next/head';
 import Header_neu from '../components/Header_neu';
 import HeaderCallToAction_neu from '../components/HeaderCallToAction_neu';
@@ -9,12 +10,14 @@ import CertquaBonn from '../components/CertquaBonn';
 import Finanzierung from '../components/Finanzierung';
 import Bewerbungsprozess from '../components/Bewerbungsprozess';
 import MeldeDich from '../components/MeldeDich';
-import Blog_neu from '../components/Blog_neu';
+// import Blog_neu from '../components/Blog_neu';
 import FAQ from '../components/FAQ';
 import FooterCallToAction from '../components/FooterCallToAction';
 import Layout from '../components/Layout';
 import dates from '../components/data/dates.json';
 import kurseData from '../components/data/kursedata.json';
+const Blog_neu = React.lazy(() => import('../components/Blog_neu'))
+
 
 export default function Home(props) {
   if (process.browser) {
@@ -32,7 +35,9 @@ export default function Home(props) {
             <Finanzierung />
             <Bewerbungsprozess />
             <MeldeDich />
-            <Blog_neu />
+            <Suspense fallback={<div>Loading ... </div>}>
+              <Blog_neu />
+            </Suspense>
             <FAQ />
             <FooterCallToAction month={dates.VzTzMonth} />
             {/* <FooterSitemap /> */}
