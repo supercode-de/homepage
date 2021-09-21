@@ -20,16 +20,16 @@ const DsgvoHeader = (props) => {
         #dsgvo {
           background: linear-gradient(
               90deg,
-              #03000f ${props.width - pixelSize}px,
+              #03000f calc(100vw / 12 - ${pixelSize}),
               transparent 1%
             ),
             linear-gradient(
-              #03000f ${props.width - pixelSize}px,
+              #03000f calc(100vw / 12 - ${pixelSize}),
               transparent 1%
             ),
             #fff;
-          background-size: ${props.width}px ${props.width}px;
-          height: 90vh;
+          background-size: calc(100vw / 12) calc(100vw / 12);
+          min-height: 90vh;
         }
         h1 {
           margin: 0;
