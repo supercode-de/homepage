@@ -12,7 +12,7 @@ export default function Home(props) {
         <div className='container'>
           <main>
             <Leitbild_Impressum_header headline='Datenschutz' />
-            <DsgvoBody width={width} />
+            <DsgvoBody />
           </main>
           <style jsx>{``}</style>
         </div>
