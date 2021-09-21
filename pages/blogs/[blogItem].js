@@ -3,7 +3,6 @@ import { useRouter } from "next/router";
 import BlogDetails from "../../components/BlogDetails";
 import BlogData from "../../components/data/blog";
 import { useState, useEffect } from "react";
-import { useWindowSize } from "../../components/functions/windowSize";
 
 const blogItem = (props) => {
   const router = useRouter();
@@ -30,13 +29,11 @@ const blogItem = (props) => {
   }, [blogs, blogItem]);
 
   if (process.browser) {
-    const width = useWindowSize().width / 12;
     return (
       <Layout color='#fff'>
         {/* Erst wenn etwas in thisBlog ist geht es weiter */}
         {thisBlog.length !== 0 ? (
           <BlogDetails
-            width={width}
             title={blogs[thisBlog[0].id].title}
             // TODO: Wie finden wir die nächste URL aus dem blogs 
             // in thisBlog[0].id ist die aktuelle ID (das was bisher in unserem routerQuery / blogItem war)
