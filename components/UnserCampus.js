@@ -108,6 +108,7 @@ const UnserCampus = (props) => {
       <img
         className="img-six"
         src="/img/_DSC7265_LowRes.png"
+        loading="lazy"
         alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
       />
       <style jsx>{`
