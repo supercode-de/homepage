@@ -98,7 +98,6 @@ class Navigation extends Component {
 
   render() {
     const { dropdownColor } = this.props;
-
     return (
       <nav
         id='navigation'
@@ -107,6 +106,7 @@ class Navigation extends Component {
         }}
       >
         <div className={`main-navigation ${this.state.show ? 'hide' : 'hide'}`}>
+
           <Link href='/'>
             <a className='logo'>
               <img
@@ -358,8 +358,8 @@ class Navigation extends Component {
             align-items: center;
             padding-top: 2px;
             background: ${this.props.dropdownColor
-              ? dropdownColor
-              : 'var(--super-green)'};
+            ? dropdownColor
+            : 'var(--super-green)'};
             width: 100vw;
             padding-left: 11%;
             padding-right: 11%;
@@ -381,8 +381,8 @@ class Navigation extends Component {
             align-items: center;
             padding-top: 2px;
             background: ${this.props.dropdownColor
-              ? dropdownColor
-              : 'var(--super-green)'};
+            ? dropdownColor
+            : 'var(--super-green)'};
             width: 100vw;
             padding-left: 11%;
             padding-right: 11%;
@@ -430,8 +430,8 @@ class Navigation extends Component {
             color: rgb(255, 255, 255);
             letter-spacing: 2px;
             -webkit-text-stroke-width: ${this.props.navstroke
-              ? this.props.navstroke
-              : '0.4px'};
+            ? this.props.navstroke
+            : '0.4px'};
             -webkit-text-stroke-color: var(--super-black);
             transition: color 0.5s;
             cursor: pointer;
@@ -465,8 +465,8 @@ class Navigation extends Component {
           .nav-list {
             display: ${window.scrollY > 0 ||
             document.documentElement.clientWidth < 768
-              ? 'none'
-              : 'flex'};
+            ? 'none'
+            : 'flex'};
           }
           .menu-button {
             // position: fixed;
@@ -477,8 +477,8 @@ class Navigation extends Component {
             cursor: pointer;
             display: ${window.scrollY > 0 ||
             document.documentElement.clientWidth < 768
-              ? 'unset'
-              : 'none'};
+            ? 'unset'
+            : 'none'};
           }
           .logo {
             color: var(--super-green);

@@ -12,15 +12,12 @@ import MeldeDich from '../components/MeldeDich';
 import Blog_neu from '../components/Blog_neu';
 import FAQ from '../components/FAQ';
 import FooterCallToAction from '../components/FooterCallToAction';
-
-import { useWindowSize } from '../components/functions/windowSize';
 import Layout from '../components/Layout';
 import dates from '../components/data/dates.json';
 import kurseData from '../components/data/kursedata.json';
 
 export default function Home(props) {
   if (process.browser) {
-    const width = useWindowSize().width / 12;
     return (
       <Layout banner={true}>
         <div className='container'>
