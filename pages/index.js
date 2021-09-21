@@ -27,7 +27,7 @@ export default function Home(props) {
           <main>
             <Header_neu />
             <HeaderCallToAction_neu />
-            <Zukunft width={width} />
+            <Zukunft />
             <UnserCampus width={width} />
             <Weiterbildung_neu />
             <Bootcamps kurseData={kurseData[0].kurseIndex} />
