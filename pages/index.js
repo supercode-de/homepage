@@ -16,11 +16,17 @@ import FooterCallToAction from '../components/FooterCallToAction';
 import Layout from '../components/Layout';
 import dates from '../components/data/dates.json';
 import kurseData from '../components/data/kursedata.json';
-const Blog_neu = React.lazy(() => import('../components/Blog_neu'))
+
+import useInView from "react-cool-inview";
+import dynamic from 'next/dynamic'
+const Blog_neu = dynamic(() => import('../components/Blog_neu'))
 
 
 export default function Home(props) {
   if (process.browser) {
+    const { observe, inView } = useInView({
+      onEnter: ({ unobserve }) => unobserve(), // only run once
+    });
     return (
       <Layout banner={true}>
         <div className='container'>
@@ -35,12 +41,11 @@ export default function Home(props) {
             <Finanzierung />
             <Bewerbungsprozess />
             <MeldeDich />
-            <Suspense fallback={<div>Loading ... </div>}>
-              <Blog_neu />
-            </Suspense>
+            <div ref={observe}>
+              {inView && <Blog_neu />}
+            </div>
             <FAQ />
             <FooterCallToAction month={dates.VzTzMonth} />
-            {/* <FooterSitemap /> */}
           </main>
           <style jsx>{``}</style>
         </div>
