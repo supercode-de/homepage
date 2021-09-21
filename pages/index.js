@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Header_neu from '../components/Header_neu';
 import HeaderCallToAction_neu from '../components/HeaderCallToAction_neu';
 import Zukunft from '../components/Zukunft';
@@ -12,8 +11,6 @@ import MeldeDich from '../components/MeldeDich';
 import Blog_neu from '../components/Blog_neu';
 import FAQ from '../components/FAQ';
 import FooterCallToAction from '../components/FooterCallToAction';
-
-import { useWindowSize } from '../components/functions/windowSize';
 import Layout from '../components/Layout';
 import dates from '../components/data/dates.json';
 import kurseData from '../components/data/kursedata.json';
