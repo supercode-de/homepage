@@ -12,7 +12,7 @@ export default function Home(props) {
         <div className='container'>
           <main>
             <Leitbild_Impressum_header headline='Leitbild' />
-            <LeitBildBody width={width} />
+            <LeitBildBody />
           </main>
           <style jsx>{``}</style>
         </div>
