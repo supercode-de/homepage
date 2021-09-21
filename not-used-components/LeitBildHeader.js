@@ -1,5 +1,5 @@
-import Arrow from './small/Arrow';
-import Telefon from './small/Telefon';
+import Arrow from '../components/small/Arrow';
+import Telefon from '../components/small/Telefon';
 
 const LeitBildHeader = (props) => {
   const pixelSize = 1; // Width of Lines in Background

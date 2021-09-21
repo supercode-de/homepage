@@ -8,7 +8,6 @@ import BGSKurse from "../components/BGSKurse";
 import AbsolventenWS_neu_v2 from "../components/AbsolventenWS_neu_v2";
 import UpToDate from "../components/UpToDate";
 import FooterCallToActionKurse from "../components/FooterCallToActionKurse";
-
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import dates from "../components/data/dates.json";
@@ -25,7 +24,7 @@ export default function Workshop() {
             <HeaderCallToActionWS_neu />
             <FEoderFSKurse />
             {/* <SuperStipendium_neu /> */}
-            <Bootcamps kurseData={kurseData[0].kurseKursePage}/>
+            <Bootcamps kurseData={kurseData[0].kurseKursePage} />
             <AuflistungWS />
             <BGSKurse />
             <AbsolventenWS_neu_v2 />
