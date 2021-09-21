@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Header_neu from '../components/Header_neu';
 import HeaderCallToAction_neu from '../components/HeaderCallToAction_neu';
 import Zukunft from '../components/Zukunft';
@@ -11,32 +12,60 @@ import MeldeDich from '../components/MeldeDich';
 import Blog_neu from '../components/Blog_neu';
 import FAQ from '../components/FAQ';
 import FooterCallToAction from '../components/FooterCallToAction';
+
+import { useWindowSize } from '../components/functions/windowSize';
 import Layout from '../components/Layout';
 import dates from '../components/data/dates.json';
 import kurseData from '../components/data/kursedata.json';
 
 export default function Home(props) {
-  return (
-    <Layout banner={true}>
-      <div className='container'>
-        <main>
-          <Header_neu />
-          <HeaderCallToAction_neu />
-          <Zukunft />
-          <UnserCampus />
-          <Weiterbildung_neu />
-          <Bootcamps kurseData={kurseData[0].kurseIndex} />
-          <CertquaBonn />
-          <Finanzierung />
-          <Bewerbungsprozess />
-          <MeldeDich />
-          <Blog_neu />
-          <FAQ />
-          <FooterCallToAction month={dates.VzTzMonth} />
-          {/* <FooterSitemap /> */}
-        </main>
-        <style jsx>{``}</style>
-      </div>
-    </Layout>
-  );
+  if (process.browser) {
+    const width = useWindowSize().width / 12;
+    return (
+      <Layout banner={true}>
+        <div className='container'>
+          <main>
+            <Header_neu />
+            <HeaderCallToAction_neu />
+            <Zukunft />
+            <UnserCampus />
+            <Weiterbildung_neu />
+            <Bootcamps kurseData={kurseData[0].kurseIndex} />
+            <CertquaBonn />
+            <Finanzierung />
+            <Bewerbungsprozess />
+            <MeldeDich />
+            <Blog_neu />
+            <FAQ />
+            <FooterCallToAction month={dates.VzTzMonth} />
+            {/* <FooterSitemap /> */}
+          </main>
+          <style jsx>{``}</style>
+        </div>
+      </Layout>
+    );
+  } else {
+    return (
+      <Head>
+        <meta
+          property='og:image:secure'
+          content='https://www.super-code.de/img/page-preview.jpg'
+        />
+        <meta
+          property='og:image'
+          content='http://www.super-code.de/img/page-preview.jpg'
+        />
+        <meta property='og:url' content='https://www.super-code.de' />
+        <meta property='og:type' content='Website' />
+        <meta
+          property='og:title'
+          content='Super-code.de - Programmieren lernen war noch nie digitaler.'
+        />
+        {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}
+        <title>Super-code</title>
+        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+        <link rel='alternate icon' href='/favicon.ico' />
+      </Head>
+    );
+  }
 }
