@@ -116,7 +116,7 @@ const HeaderWS_neu = (props) => {
           h1 span.super {
             color: transparent;
             letter-spacing: 2px;
-            -webkit-text-stroke-width: 0.5px;
+            -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #fff;
             font-weight: 300;
           }
