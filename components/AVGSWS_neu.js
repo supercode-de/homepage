@@ -94,7 +94,7 @@ const AVGS = () => {
           letter-spacing: 2px;
           color: var(--super-lila);
           font-weight: 300;
-          margin-bottom: 5rem;
+          margin: 5rem 0;
           text-transform: uppercase;
         }
 
