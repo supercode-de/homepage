@@ -49,7 +49,7 @@ const ImpressumBody = (props) => {
     transparent 100%
             );
           background-position: 0 0, 0 0;
-          back g round-size: ${props.width}px ${props.width}px;
+          back g round-size: calc(100vw / 12) calc(100vw / 12);
           
         }
         .text-body {
