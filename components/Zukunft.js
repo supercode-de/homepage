@@ -117,32 +117,32 @@ const Zukunft = (props) => {
         //   text-decoration: none;
         // }
         .images {
-          margin-top: ${props.width * 1.2}px;
-          padding-bottom: ${props.width * 2.6}px;
+          margin-top: calc(100vw / 12 * 1.2);
+          padding-bottom: calc(100vw / 12 * 2.6);
         }
         .img-one {
-          width: ${props.width * 5}px;
+          width: calc(100vw / 12 * 5);
         }
         .img-two {
-          width: ${props.width * 3}px;
-          margin-left: ${props.width - 60}px;
-          margin-bottom: ${props.width - 200}px;
+          width: calc(100vw / 12  * 3);
+          margin-left: calc(100vw / 12  - 60px);
+          margin-bottom: calc(100vw / 12  - 200px);
           transform: translateY(4vh);
         }
         .img-three {
           position: absolute;
-          top: ${props.width * 6}px;
-          left: ${props.width}px;
-          width: ${props.width * 3}px;
+          top: calc(100vw / 12 * 6);
+          left: calc(100vw / 12);
+          width: calc(100vw / 12 * 3);
           z-index: 1;
         }
         .images + img {
           position: absolute;
           bottom: 0;
-          left: ${props.width * 3.3}px;
+          left: calc(100vw / 12 * 3.3);
           z-index: 1;
           margin-bottom: -10%;
-          width: ${props.width * 3}px;
+          width: calc(100vw / 12 * 3);
         }
 
         @media (max-width: 1040px) {
@@ -196,7 +196,7 @@ const Zukunft = (props) => {
             grid-column: 1 / span 2;
           }
           .img-two {
-            margin-left: ${props.width - 30}px;
+            margin-left: calc(100vw / 12 - 30px);
             transform: translateY(-12vh);
           }
         }
