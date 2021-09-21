@@ -1,6 +1,6 @@
 const DsgvoBody = (props) => {
   return (
-    <div id='' className='lilaGitter'>
+    <div id='' className='lilaGitter dsvgo-container'>
       <div id='text-body'>
         <h1>DATENSCHUTZERKLÄRUNG</h1>
         <h2>§ 1 Information über die Erhebung personenbezogener Daten</h2>
@@ -522,6 +522,9 @@ const DsgvoBody = (props) => {
       </div>
 
       <style jsx>{`
+      .dsvgo-container {
+        color: #fff;
+      }
         #dsgvo-text {
           position: relative;
           background-color: #fff;

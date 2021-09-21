@@ -1,6 +1,6 @@
 const ImpressumBody = (props) => {
   return (
-    <div id='impressum-text ' className='lilaGitter'>
+    <div id='impressum-text ' className='lilaGitter impressum-container'>
       <div className='text-body'>
         <div className='block'>
           <p>Anbieter dieser Internetseiten ist die SuperCode GmbH & Co. KG</p>
@@ -28,6 +28,9 @@ const ImpressumBody = (props) => {
         </div>
       </div>
       <style jsx>{`
+      .impressum-container {
+        color: #fff;
+      }
         #impressum-text {
           position: relative;
           background-color: #000;

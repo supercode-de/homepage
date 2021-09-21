@@ -1,6 +1,6 @@
 const LeitBildBody = (props) => {
   return (
-    <div id='' className='lilaGitter'>
+    <div id='' className='lilaGitter leitbild-container'>
       <div className='text-body'>
         <h2 className='leitbild'>Leitbild SuperCode GmbH & Co. KG</h2>
         <div className='block'>
@@ -71,6 +71,9 @@ const LeitBildBody = (props) => {
         </div>
       </div>
       <style jsx>{`
+      .leitbild-container {
+        color: #fff;
+      }
           #impressum-text {
             position: relative;
             background-color: #fff;
@@ -99,7 +102,7 @@ const LeitBildBody = (props) => {
           h2{
             color:#fff;
           }        
-            
+          
 
           .text-body {
             font-size: .8em;
