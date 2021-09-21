@@ -19,53 +19,27 @@ import dates from '../components/data/dates.json';
 import kurseData from '../components/data/kursedata.json';
 
 export default function Home(props) {
-  if (process.browser) {
-    const width = useWindowSize().width / 12;
-    return (
-      <Layout banner={true}>
-        <div className='container'>
-          <main>
-            <Header_neu />
-            <HeaderCallToAction_neu />
-            <Zukunft />
-            <UnserCampus width={width} />
-            <Weiterbildung_neu />
-            <Bootcamps kurseData={kurseData[0].kurseIndex} />
-            <CertquaBonn />
-            <Finanzierung />
-            <Bewerbungsprozess />
-            <MeldeDich />
-            <Blog_neu />
-            <FAQ />
-            <FooterCallToAction month={dates.VzTzMonth} />
-            {/* <FooterSitemap /> */}
-          </main>
-          <style jsx>{``}</style>
-        </div>
-      </Layout>
-    );
-  } else {
-    return (
-      <Head>
-        <meta
-          property='og:image:secure'
-          content='https://www.super-code.de/img/page-preview.jpg'
-        />
-        <meta
-          property='og:image'
-          content='http://www.super-code.de/img/page-preview.jpg'
-        />
-        <meta property='og:url' content='https://www.super-code.de' />
-        <meta property='og:type' content='Website' />
-        <meta
-          property='og:title'
-          content='Super-code.de - Programmieren lernen war noch nie digitaler.'
-        />
-        {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}
-        <title>Super-code</title>
-        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-        <link rel='alternate icon' href='/favicon.ico' />
-      </Head>
-    );
-  }
+  return (
+    <Layout banner={true}>
+      <div className='container'>
+        <main>
+          <Header_neu />
+          <HeaderCallToAction_neu />
+          <Zukunft />
+          <UnserCampus />
+          <Weiterbildung_neu />
+          <Bootcamps kurseData={kurseData[0].kurseIndex} />
+          <CertquaBonn />
+          <Finanzierung />
+          <Bewerbungsprozess />
+          <MeldeDich />
+          <Blog_neu />
+          <FAQ />
+          <FooterCallToAction month={dates.VzTzMonth} />
+          {/* <FooterSitemap /> */}
+        </main>
+        <style jsx>{``}</style>
+      </div>
+    </Layout>
+  );
 }
