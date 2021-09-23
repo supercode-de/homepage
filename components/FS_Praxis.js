@@ -533,8 +533,8 @@ const UX_UI_Praxis = () => {
             color: var(--super-lila);
             font-size: 3rem;
             margin-bottom: 0;
+            line-height: 3rem;
           }
-
           .colorHeader3 span {
             color: transparent;
             letter-spacing: 2px;
@@ -542,7 +542,6 @@ const UX_UI_Praxis = () => {
             -webkit-text-stroke-color: var(--super-lila);
             font-weight: 300;
           }
-
           .colorHeader4 {
             // color: var(--super-lila);
             font-size: 3rem;
