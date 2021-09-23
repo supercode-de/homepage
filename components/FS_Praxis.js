@@ -281,12 +281,12 @@ const UX_UI_Praxis = () => {
             position: absolute;
             text-align: right;
             left: 300px;
-            width: 200px;
+            width: 100%;
           }
 
           .bar-wrapper:hover .inner-bar {
             // animation: progress-animation 5s;
-            width: 100%;
+            width: 102%;
             transform: width 1s;
           }
           .bar-wrapper {
