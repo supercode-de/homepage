@@ -59,7 +59,7 @@ const Typeform_neu_flexible = (props) => {
           transform: rotate(180deg);
         }
         button {
-          position: relative;
+          position: ${!props.position ? "relative" : "static"}; // Sorry musste ich wegen http://localhost:3000/kurse/fullstack einfügen
           margin: 2em 1em;
           font-family: 'Fira Sans', sans-serif;
           font-size: 14px;
