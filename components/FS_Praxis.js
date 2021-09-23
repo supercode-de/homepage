@@ -281,12 +281,12 @@ const UX_UI_Praxis = () => {
             position: absolute;
             text-align: right;
             left: 300px;
-            width: 200px;
+            width: 100%;
           }
 
           .bar-wrapper:hover .inner-bar {
             // animation: progress-animation 5s;
-            width: 100%;
+            width: 102%;
             transform: width 1s;
           }
           .bar-wrapper {
@@ -533,8 +533,8 @@ const UX_UI_Praxis = () => {
             color: var(--super-lila);
             font-size: 3rem;
             margin-bottom: 0;
+            line-height: 3rem;
           }
-
           .colorHeader3 span {
             color: transparent;
             letter-spacing: 2px;
@@ -542,7 +542,6 @@ const UX_UI_Praxis = () => {
             -webkit-text-stroke-color: var(--super-lila);
             font-weight: 300;
           }
-
           .colorHeader4 {
             // color: var(--super-lila);
             font-size: 3rem;

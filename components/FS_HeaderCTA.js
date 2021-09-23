@@ -32,7 +32,7 @@ const HeaderCallToAction_neu = () => {
       <article className='jetzt-bewerben'>
         <h4> Bewirb dich jetzt!</h4>
         {/* <span className='btn'></span> */}
-        <Typeform_neu_flexible width='410px' height='50px' top='50px' />
+        <Typeform_neu_flexible width='410px' height='50px' top='50px' position />
       </article>
       <style jsx>{`
         #header-call {
@@ -105,6 +105,7 @@ const HeaderCallToAction_neu = () => {
         .jetzt-bewerben {
           display: flex;
           padding-top: 30px;
+          align-items: end;
         }
 
         .jetzt-bewerben h4 {
