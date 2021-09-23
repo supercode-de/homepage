@@ -154,7 +154,7 @@ class Layout extends Component {
 
             #blogDetails .right h1 {
               margin: auto;
-              margin-top: 150px;
+              padding-top: 150px;
             }
             #blogDetails .right h2 {
               text-align: left;
