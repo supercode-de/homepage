@@ -1,4 +1,3 @@
-import React, { Suspense } from 'react';
 import Head from 'next/head';
 import Header_neu from '../components/Header_neu';
 import HeaderCallToAction_neu from '../components/HeaderCallToAction_neu';
@@ -41,6 +40,7 @@ export default function Home(props) {
             <Finanzierung />
             <Bewerbungsprozess />
             <MeldeDich />
+            //package installiert, lazyLoading, content wird erst geladen wenn sichtbar
             <div ref={observe}>
               {inView && <Blog_neu />}
             </div>
