@@ -3,9 +3,9 @@ import ReactMarkdown from 'react-markdown';
 
 const BlogDetails = (props) => {
   const pixelSize = 2;
-  // console.log("props", props)
+  console.log("props", props)
   return (
-    <div id='blogDetails' className='blackGitter'>
+    <div id='blogDetails' className={`blackGitter ${props.klasse}`}>
       <section>
         {/* <article className='left'>
           <h1>{props.title.main}</h1>
@@ -56,6 +56,16 @@ const BlogDetails = (props) => {
         </Link>
       </footer>
       <style jsx>{`
+      // Styling für einzelne Blogartikel Start
+      // .blog11>section>article>p>p:nth-of-type(11)  {
+        // funktioniert leider nicht
+      //   width: 100% !important;
+      //   // display: none;
+      //   background: red !important;
+      // } 
+      // Styling für einzelne Blogartikel Ende
+      
+
         #blogDetails {
           color: #fff;
         }
@@ -227,7 +237,7 @@ const BlogDetails = (props) => {
             section .right h2 {
               color: #fff;
             }
-
+        
         @media (max-width: 880px) {
           article {
             font-size: 14px;
@@ -291,6 +301,7 @@ const BlogDetails = (props) => {
             margin-top: -60px;
           }
         }
+        
       `}</style>
     </div>
   );

@@ -26,6 +26,7 @@ const blogItem = (props) => {
     // console.log(thisBlog)
     // console.log(blogItem)
     // console.log(blogs)
+
   }, [blogs, blogItem]);
 
   if (process.browser) {
@@ -34,6 +35,9 @@ const blogItem = (props) => {
         {/* Erst wenn etwas in thisBlog ist geht es weiter */}
         {thisBlog.length !== 0 ? (
           <BlogDetails
+            // Erstellt eine Klasse an Hand von dem Index des Blogeintrags
+            // => Man kann einzelne Elemente ansprechen (war die Hoffnung). Klappt leider nicht ...
+            klasse={`blog${blogs.indexOf(thisBlog[0])}`}
             title={blogs[thisBlog[0].id].title}
             // TODO: Wie finden wir die nächste URL aus dem blogs 
             // in thisBlog[0].id ist die aktuelle ID (das was bisher in unserem routerQuery / blogItem war)
@@ -60,6 +64,7 @@ const blogItem = (props) => {
           // }
           // previousLink={blogItem == 0 ? blogs.length - 1 : blogItem * 1 - 1}
           />
+
         ) : (
           ""
         )}

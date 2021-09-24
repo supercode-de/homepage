@@ -23,6 +23,7 @@ const Blog_neu = dynamic(() => import('../components/Blog_neu'))
 
 export default function Home(props) {
   if (process.browser) {
+    // Vermute wenn wir das process.browser entfernen muss dieser Code Schnipsel in einen useEffect
     const { observe, inView } = useInView({
       onEnter: ({ unobserve }) => unobserve(), // only run once
     });
@@ -42,6 +43,12 @@ export default function Home(props) {
             <MeldeDich />
             //package installiert, lazyLoading, content wird erst geladen wenn sichtbar
             <div ref={observe}>
+              {/* 
+              https://www.better.dev/lazy-loading-next-js 
+              um Performance zu verbessern, lazy loading auf die Blog-Componente gesetzt
+              wenn es erweitert werden soll:
+              inView && <><Blog_neu /><Components... /></>
+              */}
               {inView && <Blog_neu />}
             </div>
             <FAQ />
