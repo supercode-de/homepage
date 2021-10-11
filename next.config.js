@@ -49,6 +49,9 @@ module.exports = {
       },
       '/blogs/Mein-Herz-schlug-schon-immer-für-Design': {
         page: '/blogs/[blogItem]',
+      },
+      '/blogs/How-to-design-with-love-–-Der-neue-UX/UI-Design-Kurs-bei-SuperCode-zeigt-es-dir': {
+        page: '/blogs/[blogItem]',
       }
     };
   },
