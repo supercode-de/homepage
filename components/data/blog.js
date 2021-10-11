@@ -22,6 +22,8 @@ import blog11 from '../../markdown/blog11';
 import titleBlog11 from '../../markdown/titleBlog11';
 import blog12 from '../../markdown/blog12';
 import titleBlog12 from '../../markdown/titleBlog12';
+import blog13 from '../../markdown/blog13';
+import titleBlog13 from '../../markdown/titleBlog13';
 
 // console.log({ blog7, titleBlog7 });
 let blog = [
@@ -109,6 +111,13 @@ let blog = [
     pic: '/img/blogs/12/sabrina_tillemans.jpg',
     url: 'super-stipendium-ui&ux',
   },
+  {
+    id: 12,
+    title: titleBlog13,
+    text: blog13,
+    pic: '/img/blogs/13/ux-01.png',
+    url: 'ui-ux',
+  }
 ];
 
 export default blog;
