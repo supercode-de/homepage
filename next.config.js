@@ -37,7 +37,7 @@ module.exports = {
       '/blogs/Wie-sich-die-IT-Branche-durch-Women-in-Tech-erneuern-lässt': { page: '/blogs/[blogItem]', },
       '/blogs/Vom-Pfleger-zum-Webentwickler-in-sieben-Monaten': { page: '/blogs/[blogItem]', },
       '/blogs/Mein-Herz-schlug-schon-immer-für-Design': { page: '/blogs/[blogItem]', },
-      'blogs/How-to-design-with-love-–-Der-neue-UX-UI-Design-Kurs-bei-SuperCode-zeigt-es-dir': { page: '/blogs/[blogItem]', }
+      '/blogs/How-to-design-with-love-–-Der-neue-UX-UI-Design-Kurs-bei-SuperCode-zeigt-es-dir': { page: '/blogs/[blogItem]', }
     };
   },
 };
