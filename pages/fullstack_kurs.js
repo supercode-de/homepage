@@ -14,7 +14,7 @@ export default function FullstackKurse(props) {
     return (
       <Layout banner={true}>
         <div className='fullstack-kurse'>
-          <FS_Header datum='27.09.' />
+          <FS_Header datum='20.12.' />
           <FS_HeaderCTA />
           <FS_Praxis />
           <FS_TrainerTeam />
