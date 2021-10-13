@@ -39,6 +39,7 @@ export default function FS_Tagesablauf() {
                 ? '/img/Tagesablauf-abends.svg'
                 : '/img/Tagesablauf-mobile-abends.svg'
             }
+          // ALte bilder löschen
           />
         </div>
         <div className=''>
@@ -124,14 +125,23 @@ export default function FS_Tagesablauf() {
                     }
                     .tagesablauf_imgContainer {
                       display: flex;
-                      grid-template-columns: 45% 45%;
+                      flex-wrap: wrap;
+                      justify-content: space-evenly;
+                      // grid-template-columns: 45% 45%;
                       padding: 0 5%;
                       padding-top:70px;
                     text-align:center;
 
                     }
                     .tagesablauf_imgContainer div:nth-of-type(1) {
-                     margin-bottom:30px;
+                      width: 40%;
+                    margin-bottom:30px;
+                    }
+                    .tagesablauf_imgContainer div:nth-of-type(2) {
+                      transform: translate(0, 5em);
+                    }
+                    .tagesablauf_imgContainer div:nth-of-type(3) {
+                      transform: translate(-20em, 4em);
                     }
                     .tagesablauf_imgContainer div {
                     padding:0 20px;
