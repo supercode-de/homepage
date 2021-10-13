@@ -16,23 +16,19 @@ export default function FS_Tagesablauf() {
             repeat!
           </h2>
           <p>
-            Dein Tagesablauf orientiert sich an der modernen Arbeitswelt von
-            IT-Unternehmen aus der Praxis. Mit genug Zeit für Ruhephasen und
-            Austausch in der Gruppe, sowie mehr Praxis als Theorie und
-            individuellen One-on-One-Trainingsstunden, kommst du optimal durch
-            die sieben Monate des Bootcamps.
+            Dein Tagesablauf orientiert sich an der modernen Arbeitswelt von IT-Unternehmen aus der Praxis.Mit genug Zeit für Ruhephasen und Austausch in der Gruppe, sowie mehr Praxis als Theorie und individuellen One-on-One-Trainingsstunden, kommst du optimal durch die sieben Monate des Bootcamps.
           </p>
           <p>
-            Mit einem Mix aus Livecoding-Sessions, kurzen Theorieparts,
-            Gamification, Gruppenarbeiten, Teambuilding-Projekten und
-            Selbstlernphasen lassen wir keine Langeweile aufkommen und nehmen
-            dich mit in die wunderbare Welt des Codens.
+            Mit einem Mix aus Livecoding-Sessions, kurzen Theorieparts, Gamification, Gruppenarbeiten, Teambuilding-Projekten und Selbstlernphasen lassen wir keine Langeweile aufkommen und nehmen dich mit in die wunderbare Welt des Codens.
+          </p>
+          <p>
+            An den Samstagen arbeitest du im Peer-to-Peer Format an spannenden Webprojekten und lernst den Arbeitsalltag als Web-Entwickler*in kennen. Zusätzlich bieten wir dir vier Intensiv-Workshops mit Fachexpert*innen aus der Praxis an, die dich noch tiefer in die Materie mitnehmen.
           </p>
         </div>
       </article>
       <div className='tagesablauf_imgContainer'>
-        <div>
-          {/* <img src='/img/Group153.svg' alt='' /> */}
+        {/* <div>
+         
           <img
             src={
               window.screen.width >= 525
@@ -42,7 +38,7 @@ export default function FS_Tagesablauf() {
           />
         </div>
         <div className=''>
-          {/* <img src='/img/_DSC2141_LowRes.png' alt='' /> */}
+         
           <img
             src={
               window.screen.width >= 525
@@ -50,6 +46,15 @@ export default function FS_Tagesablauf() {
                 : '/img/Tagesablauf-mobile-samstags.svg'
             }
           />
+        </div> */}
+
+        <div>
+          <picture>
+            <source media="(max-width:576px)" srcset="/img/FE-Tagesablauf-Mobile.svg" />
+            <source media="(max-width:768px)" srcset="/img/FE-Tagesablauf-Tablet.svg" />
+
+            <img src="/img/FE-Tagesablauf.svg" alt="" />
+          </picture>
         </div>
       </div>
       <style jsx>

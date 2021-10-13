@@ -81,7 +81,7 @@ export default function FE_ZahlenUndFakten() {
           <p>
             Sie arbeiten als Junior Webentwickler*innen, als Web-Designer*innen,
             IT-Trainer*innen oder in den IT-Bereichen Projektmanagement und
-            Beratung. Unsere Netzwerke und Branchenkontakte helfen dir dabei.
+            Beratung.
           </p>
         </div>
       </article>
