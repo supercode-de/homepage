@@ -46,7 +46,7 @@ export default function FS_Tagesablauf() {
           <img
             src={
               window.screen.width >= 525
-                ? '/img/Tagesablauf-samstags.svg'
+                ? '/img/peerToPeer.svg'
                 : '/img/Tagesablauf-mobile-samstags.svg'
             }
           />
@@ -56,7 +56,7 @@ export default function FS_Tagesablauf() {
           <img
             src={
               window.screen.width >= 525
-                ? '/img/Tagesablauf-samstags.svg'
+                ? '/img/workshopSamstag.svg'
                 : '/img/Tagesablauf-mobile-samstags.svg'
             }
           />
