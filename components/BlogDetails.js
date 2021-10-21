@@ -21,13 +21,9 @@ const BlogDetails = (props) => {
         <Link
           href={
             '/blogs/' +
-            props.titlePrevious.main
-              .replace(/ /g, '-')
-              .replace(/\?|\#|”|“|"|,|:|\./g, '')
-          }
-        >
+            props.titlePrevious.main.replace(/ /g, '-').replace(/\?|\#|”|“|"|,|:|\./g, "")}>
           <article className='left'>
-            <div className='hide'></div>
+            {/* <div className='hide'></div> */}
             {/* <div className='text-container'></div> */}
             <div className='arrow-left'>
               <img src='/img/Arrow18.svg' alt='' />
@@ -39,11 +35,7 @@ const BlogDetails = (props) => {
         <Link
           href={
             '/blogs/' +
-            props.titleNext.main
-              .replace(/ /g, '-')
-              .replace(/\?|\#|”|“|"|,|:|\./g, '')
-          }
-        >
+            props.titleNext.main.replace(/ /g, '-').replace(/\?|\#|”|“|"|,|:|\./g, "")}>
           <article className='right'>
             <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
 
@@ -74,35 +66,33 @@ const BlogDetails = (props) => {
           //  display: flex;
         }
 
-        .left,
-        .right {
-        }
         // section .right {
         //   overflow-y: auto;
         //   height: 90vh;
         // }
 
-        section .left {
-          height: 90vh;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          background: linear-gradient(
-              90deg,
-              #03000f calc(100vw / 12 - ${pixelSize},
-              transparent 1%
-            ),
-            linear-gradient(
-              #03000f calc(100vw / 12 - ${pixelSize},
-              transparent 1%
-            ),
-            #fff;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-        }
-        .hide {
-          display: none;
-        }
+        // section .left {
+        //   height: 90vh;
+        //   display: flex;
+        //   flex-direction: column;
+        //   justify-content: center;
+        //   align-items: center;
+        //   background: linear-gradient(
+        //       90deg,
+        //       #03000f calc(100vw / 12 - ${pixelSize},
+        //       transparent 1%
+        //     ),
+        //     linear-gradient(
+        //       #03000f calc(100vw / 12 - ${pixelSize},
+        //       transparent 1%
+        //     ),#fff;
+        //   background-size: calc(100vw / 12) calc(100vw / 12);
+        // }
+
+        // .hide {
+        //   display: none;
+        // }
+        
         section h3 {
           font-weight: bold;
           font-size: 16px;
@@ -162,40 +152,37 @@ const BlogDetails = (props) => {
           justify-content: space-between;
           cursor: pointer;
         }
+        // .left {
+        //   border: 10px solid red;
+        // }
+        // .arrow-left {
+        //   position: relative;
+        //   top: 40px;
+        //   width: 100px;
+        //   left: 5%;
+        // }
+        // .arrow-right {
+        //   position: absolute;
+        //   bottom: 70px;
+        //   width: 95px;
+        //   right: 0%;
+        // }
 
-        .arrow-left {
-          position: relative;
-          top: 40px;
-          width: 100px;
-          left: 5%;
-        }
-        .arrow-right {
-          position: absolute;
-          bottom: 70px;
-          width: 95px;
+        // .arrow-left img,
+        // .arrow-right img {
+        //   width: 100%;
+        // }
+        // .arrow-left:hover {
+        //   cursor: pointer;
+        // }
+        // .arrow-right:hover {
+        //   cursor: pointer;
+        // }
 
-          right: 0%;
-        }
-
-        .arrow-left img,
-        .arrow-right img {
-          width: 100%;
-        }
-        .arrow-left:hover {
-          cursor: pointer;
-        }
-        .arrow-right:hover {
-          cursor: pointer;
-        }
-
-        // .arrow-left a {
-        //   color: #000;
+        // .arrow-right a {
+        //   color: #fff;
         //   text-decoration: none;
         // }
-        .arrow-right a {
-          color: #fff;
-          text-decoration: none;
-        }
         .social ul {
           list-style: none;
         }

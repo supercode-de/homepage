@@ -30,6 +30,7 @@ const Blog_neu = (props) => {
 
   return (
     <div id="blog" className="whiteGreenDots">
+      {console.log("test1")}
       <div>
         <h2>Meine</h2>
         <h2>Straße,</h2>
@@ -49,6 +50,7 @@ const Blog_neu = (props) => {
             swipeable
           >
             {reverseBlog.map((blogitem, i) => (
+
               <Link href={"/blogs/" + blogitem.title.main.replace(/ /g, "-").replace(/\?|\#|”|“|"|,|:|\./g, "")}>
                 <a target="_blank">
                   <div
