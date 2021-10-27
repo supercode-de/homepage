@@ -58,9 +58,10 @@ const Typeform_neu_flexible = (props) => {
         a:hover {
           transform: rotate(180deg);
         }
+        
+        // Sorry musste ich wegen http://localhost:3000/kurse/fullstack einfügen
+        // Kommentar von Finn, 27.10.21: Ich weiß nicht wer weshalb das position einfügen musste, aber ohne funktioniert es auch sehr gut. Alles was hier jetzt auskommentiert ist, ist eigentlich unnötig, aber ich bräuchte mehr Zeit um das genauer zu debuggen, deshalb bleibt es vorerst drin.
         button {
-          // Sorry musste ich wegen http://localhost:3000/kurse/fullstack einfügen
-          // Kommentar von Finn, 27.10.21: Ich weiß nicht wer weshalb das position einfügen musste, aber ohne funktioniert es auch sehr gut. Alles was hier jetzt auskommentiert ist, ist eigentlich unnötig, aber ich bräuchte mehr Zeit um das genauer zu debuggen, deshalb bleibt es vorerst drin.
           // position: ${!props.position ? "relative" : "static"}; 
           // margin: 2em 1em;
           font-family: 'Fira Sans', sans-serif;

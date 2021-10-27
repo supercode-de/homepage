@@ -104,27 +104,49 @@ const HeaderCallToAction_neu = () => {
 
         .jetzt-bewerben {
           display: flex;
+          align-items: center;
+          width: 70%;
           padding-top: 30px;
+          // align-items: end;
         }
 
         .jetzt-bewerben h4 {
-          width: 140%;
+          width: 130%;
           font-size: 2.6rem;
-          position: relative;
-          top: 50px;
+          // position: relative;
+          // top: 50px;
         }
         .btn {
           display: inline-block;
           width: 40%;
           margin: auto;
         }
-        .jetzt-bewerben:nth-child(2) {
-          width: 60%;
-        }
 
         .jetzt-bewerben h4 {
           color: #fff;
         }
+        // Kommentar von Finn, 27.10.21: Ich lasse den auskommentierten Code erstmal drin, da ich mehr Zeit bräuchte um zu debuggen, was genau mit den CSS Eigenschaftn gemeint sein sollte also wieso hier mit position gearbeitet wurde. Hier drüber steht der Code, der ebenfalls bestens ohne position auskommt.
+        // .jetzt-bewerben {
+        //   display: flex;
+        //   padding-top: 30px;
+        // }
+
+        // .jetzt-bewerben h4 {
+        //   width: 140%;
+        //   font-size: 2.6rem;
+        //   position: relative;
+        //   top: 50px;
+        // }
+        // .btn {
+        //   display: inline-block;
+        //   width: 40%;
+        //   margin: auto;
+        // }
+
+        // .jetzt-bewerben h4 {
+        //   color: #fff;
+        // }
+
         @media (max-width: 1540px) {
           h3 span.circle::after {
             width: 119%;
