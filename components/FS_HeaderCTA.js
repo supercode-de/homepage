@@ -104,23 +104,22 @@ const HeaderCallToAction_neu = () => {
 
         .jetzt-bewerben {
           display: flex;
+          align-items: center;
+          width: 70%;
           padding-top: 30px;
-          align-items: end;
+          // align-items: end;
         }
 
         .jetzt-bewerben h4 {
           width: 130%;
           font-size: 2.6rem;
-          position: relative;
-          top: 50px;
+          // position: relative;
+          // top: 50px;
         }
         .btn {
           display: inline-block;
           width: 40%;
           margin: auto;
-        }
-        .jetzt-bewerben:nth-child(2) {
-          width: 60%;
         }
 
         .jetzt-bewerben h4 {

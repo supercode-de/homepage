@@ -59,23 +59,25 @@ const Typeform_neu_flexible = (props) => {
           transform: rotate(180deg);
         }
         button {
-          position: ${!props.position ? "relative" : "static"}; // Sorry musste ich wegen http://localhost:3000/kurse/fullstack einfügen
-          margin: 2em 1em;
+          // Sorry musste ich wegen http://localhost:3000/kurse/fullstack einfügen
+          // Kommentar von Finn, 27.10.21: Ich weiß nicht wer weshalb das position einfügen musste, aber ohne funktioniert es auch sehr gut. Alles was hier jetzt auskommentiert ist, ist eigentlich unnötig, aber ich bräuchte mehr Zeit um das genauer zu debuggen, deshalb bleibt es vorerst drin.
+          // position: ${!props.position ? "relative" : "static"}; 
+          // margin: 2em 1em;
           font-family: 'Fira Sans', sans-serif;
           font-size: 14px;
-          line-height: 16px;
+          // line-height: 16px;
           text-align: center;
           letter-spacing: 1px;
           text-transform: uppercase;
-          padding: 5px 0px;
+          // padding: 5px 0px;
           background: transparent;
           border: 2px solid var(--super-green);
           color: #fff;
-          justify-self: center;
-          display: inline-block;
+          // justify-self: center;
+          // display: inline-block;
           width: ${props.width ? props.width : '38.75em'};
           height: ${props.height ? props.height : '38.75em'};
-          top: ${props.top ? props.top : '50px'};
+          // top: ${props.top ? props.top : '50px'};
 
           outline: none;
         }
