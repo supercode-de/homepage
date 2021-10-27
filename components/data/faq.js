@@ -27,7 +27,7 @@ var faq = [
   {
     question: "Wie lange dauern die Bootcamps?",
     answer:
-      "Das kommt ganz auf das Kursformat an. Der Vollzeit Kurs ist 22 Wochen lang (5 Monate) und der Teilzeitkurs streckt sich über 30 Wochen (7 Monate).",
+      "Das kommt ganz auf das Kursformat an. Der Vollzeit Kurs Webentwicklung ist 22 Wochen lang (5 Monate) und der Teilzeitkurs streckt sich über 30 Wochen (7 Monate). Der UX/UI-Design-Kurs geht über 3 Monate in Teilzeit und berufsbegleitend.",
   },
   {
     question: "Wie sieht der Tagesablauf aus? ",
