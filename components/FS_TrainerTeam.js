@@ -1,3 +1,5 @@
+import data from './data/team.json';
+
 export default function FS_TrainerTeam() {
   return (
     <section className='fsTrainer blackGitter'>
@@ -21,72 +23,24 @@ export default function FS_TrainerTeam() {
         </p>
       </div>
       <div>
+
+
         <section className='gridContainer'>
-          <figure>
-            <img
-              src='/img/team/Anass Nebarri Trainer Webentwicklung Full-Stack.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Anass Nebbari</figcaption>
-            <p className='bold'>Main Trainer &</p>
-            <p className='light'>Head of Training </p>
-            <p className='light'>Web-Entwicklung</p>
-          </figure>
 
-          <figure>
-            <img
-              src='/img/team/Georg Treitz Trainer Webentwicklung Full-Stack.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Georg Treitz</figcaption>
-            <p className='bold'>Main Trainer </p>
-            <p className='light'>Web-Entwicklung</p>
-            <p className='light'>Full-Stack</p>
-          </figure>
-
-          <figure>
-            <img
-              src='/img/team/Natalie Streich Bewerbungscoaching_neu.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Natalie Streich</figcaption>
-            <p className='bold'>Bewerbungscoach</p>
-            <p className='light'>Schwerpunkt IT</p>
-          </figure>
-
-          <figure>
-            <img
-              src='/img/team/Elaine Wong Trainer Webentwicklung Full-Stack_neu.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Elaine Wong</figcaption>
-            <p className='bold'>Assistant Trainerin</p>
-            <p className='light'>Web-Entwicklung</p>
-            <p className='light'>Full-Stack</p>
-          </figure>
-
-          <figure>
-            <img
-              src='/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Finn Schlottmann</figcaption>
-            <p className='bold'>Assistant Trainer </p>
-            <p className='light'>Web-Entwicklung</p>
-            <p className='light'>Front-End</p>
-          </figure>
-
-          <figure>
-            <img
-              src='/img/team/Eric Noack Trainer Webentwicklung.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Eric Noack</figcaption>
-            <p className='bold'>FlexTrainer </p>
-            <p className='light'>Web-Entwicklung</p>
-            <p className='light'>Front-End</p>
-          </figure>
-
+          {data.map((teammitglied) => {
+            if (teammitglied.team === "fullstack" || teammitglied.team === "coaching") {
+              return (
+                <figure>
+                  <img
+                    src={teammitglied.img}
+                    alt={`${teammitglied.name} ${teammitglied.job}`}
+                  />
+                  <figcaption>{teammitglied.name}</figcaption>
+                  <p className='light'>{teammitglied.job}</p>
+                </figure>
+              );
+            }
+          })}
           <div className='rotating-text'>
             <img
               src='/img/Trainercircle.svg'
@@ -96,8 +50,7 @@ export default function FS_TrainerTeam() {
         </section>
       </div>
 
-      <style jsx>
-        {`
+      <style jsx>{`
           .fsTrainer {
             padding: 40px 0 170px 6%;
             width: 100%;

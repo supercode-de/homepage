@@ -68,8 +68,7 @@ const Bootcamps = (props) => {
                 </Carousel>
             </section> */}
 
-      <style jsx>
-        {`
+      <style jsx>{`
           .bootcamps {
             color: #fff;
           }

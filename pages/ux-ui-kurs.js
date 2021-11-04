@@ -14,7 +14,7 @@ export default function FrontendKurse(props) {
     return (
       <Layout navstroke='0.1px' banner={true} dropdownColor='var(--super-lila)'>
         <div className='ux/ui-kurse'>
-          <UX_UI_Header datum='25.10.' />
+          <UX_UI_Header datum='21.02' />
           <UX_UI_HeaderCTA />
           <UX_UI_Praxis />
           <UX_UI_TrainerTeam />

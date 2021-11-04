@@ -1,3 +1,4 @@
+import data from './data/team.json';
 export default function UX_UI_TrainerTeam() {
   return (
     <section className='fsTrainer blackGitter'>
@@ -22,38 +23,20 @@ export default function UX_UI_TrainerTeam() {
       </div>
       <div>
         <section className='gridContainer'>
-          <figure>
-            <img
-              src='/img/team/Kimberly Maasz Trainer UX-UI-Deseign.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Kimberly Maasz</figcaption>
-            <p className='bold'>Main Trainerin </p>
-            <p className='light'>UX/UI-Design</p>
-          </figure>
-
-          <figure>
-            <img
-              src='/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Finn Schlottmann</figcaption>
-            <p className='bold'>Assistant Trainer </p>
-            <p className='light'>Web-Entwicklung</p>
-            <p className='light'>& UX/UI-Design</p>
-          </figure>
-
-          <figure>
-            <img
-              src='/img/team/Dummie.jpg'
-              alt='Portrait von supercode Mitarbeiter'
-            />
-            <figcaption>Franziska Hövelmanns</figcaption>
-            <p className='bold'>Assistant Trainerin </p>
-            <p className='light'>Web-Entwicklung</p>
-            <p className='light'>& UX/UI-Design</p>
-          </figure>
-
+        {data.map((teammitglied) => {
+            if (teammitglied.team === "uxui") {
+              return (
+                <figure>
+                  <img
+                    src={teammitglied.img}
+                    alt={`${teammitglied.name} ${teammitglied.job}`}
+                  />
+                  <figcaption>{teammitglied.name}</figcaption>
+                  <p className='light'>{teammitglied.job}</p>
+                </figure>
+              );
+            }
+          })}
           <div className='rotating-text'>
             <img
               src='/img/Trainercircle.svg'
@@ -63,8 +46,7 @@ export default function UX_UI_TrainerTeam() {
         </section>
       </div>
 
-      <style jsx>
-        {`
+      <style jsx>{`
           .fsTrainer {
             padding: 40px 0 170px 6%;
             width: 100%;
@@ -130,7 +112,7 @@ export default function UX_UI_TrainerTeam() {
           .rotating-text {
             position: absolute;
             top: -20%;
-            right: -2%;
+            right: 0;
             width: 20%;
 
             animation: spin 15s linear infinite;

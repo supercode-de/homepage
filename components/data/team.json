@@ -2,71 +2,103 @@
   {
     "img": "/img/team/Kim Reichl Leitung SuperCode.jpg",
     "name": "Kim Jeschar",
-    "job": "Leitung"
+    "job": "Leitung",
+    "team": "backoffice"
   },
   {
     "img": "/img/team/Sergio Cardeal CEO SuperCode.jpg",
     "name": "Sergio Cardeal",
-    "job": "CEO"
-  },
-  {
-    "img": "/img/team/Natalie Streich Bewerbungscoaching.jpg",
-    "name": "Natalie Streich",
-    "job": "Bewerbungscoaching"
-  },
-  {
-    "img": "/img/team/Shapour Amir Ebrahimi Bildungsberatung.jpg",
-    "name": "Shapour Amir Ebrahimi",
-    "job": "Bildungsberatung"
-  },
-  {
-    "img": "/img/team/Henri Delfmann Bildungsberatung.jpg",
-    "name": "Henri Delfmann",
-    "job": "Bildungsberatung"
+    "job": "CEO",
+    "team": "backoffice"
   },
   {
     "img": "/img/team/Lilia Saran Marketing SuperCode.jpg",
     "name": "Lilia Saran",
-    "job": "Marketing"
+    "job": "Alumni & Event-Management",
+    "team": "backoffice"
+  },
+  {
+    "img": "/img/team/Laura_Wilmsen_Social_Media.png",
+    "name": "Laura Wilmsen",
+    "job": "Social Media Marketing & Design",
+    "team": "backoffice"
   },
   {
     "img": "/img/team/Lisa Nuesslein SuperCode Fundraising.jpg",
     "name": "Lisa Nüßlein",
-    "job": "Projektmanagement & Kooperation"
+    "job": "Projektmanagement & Kooperation",
+    "team": "backoffice"
+  },
+  {
+    "img": "/img/team/Natalie Streich Bewerbungscoaching.jpg",
+    "name": "Natalie Streich",
+    "job": "Bewerbungscoaching Schwerpunkt IT",
+    "team": "coaching"
+  },
+  {
+    "img": "/img/team/Shapour Amir Ebrahimi Bildungsberatung.jpg",
+    "name": "Shapour Amir Ebrahimi",
+    "job": "Bildungsberatung",
+    "team": "beratung"
+  },
+  {
+    "img": "/img/team/Henri Delfmann Bildungsberatung.jpg",
+    "name": "Henri Delfmann",
+    "job": "Bildungsberatung",
+    "team": "beratung"
   },
   {
     "img": "/img/team/Anass Nebarri Trainer Webentwicklung Full-Stack.jpg",
     "name": "Anass Nebbari",
-    "job": "Head of Training & Trainer Webentwicklung Full-Stack"
+    "job": "Head of Training & Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
   },
   {
     "img": "/img/team/Elaine Wong Trainer Webentwicklung Full-Stack.jpg",
     "name": "Elaine Wong",
-    "job": "Trainerin Webentwicklung Full-Stack"
-  },
-  {
-    "img": "/img/team/Georg Treitz Trainer Webentwicklung Full-Stack.jpg",
-    "name": "Georg Treitz",
-    "job": "Trainer Webentwicklung Full-Stack"
+    "job": "Trainerin Webentwicklung Full-Stack",
+    "team": "fullstack"
   },
   {
     "img": "/img/team/Eric Noack Trainer Webentwicklung.jpg",
     "name": "Eric Noack",
-    "job": "Trainer Webentwicklung"
+    "job": "Trainer Webentwicklung",
+    "team": "fullstack"
   },
   {
-    "img": "/img/team/David Bigus Trainer Webentwicklung.jpg",
-    "name": "David Bigus",
-    "job": "Trainer Webentwicklung"
+    "img": "/img/team/Steffen_Kloempges_Trainer_Fullstack.png",
+    "name": "Steffen Klömpges",
+    "job": "Trainer Web-Entwicklung Full-Stack",
+    "team": "fullstack"
   },
   {
     "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.jpg",
     "name": "Finn Schlottmann",
-    "job": "Trainer Webentwicklung Full-Stack"
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
   },
   {
-    "img": "/img/team/Franzi Hövelmanns Trainerin Webentwicklung & UX.jpg",
+    "img": "/img/team/Frederic_Lahme_Trainer_Frontend.jpg",
+    "name": "Frederic Lahme",
+    "job": "Trainer Webentwicklung Front-End",
+    "team": "frontend"
+  },
+  {
+    "img": "/img/team/Franziska_Hoevelmanns_Trainerin.png",
     "name": "Franzi Hövelmanns",
-    "job": "Trainerin Webentwicklung & UX"
+    "job": "Trainerin Webentwicklung & UX",
+    "team": "frontend"
+  },
+  {
+    "img": "/img/team/Kimberly_Maasz_Trainerin_Design.jpg",
+    "name": "Kimberly Maasz",
+    "job": "Trainerin UX/UI-Design",
+    "team": "uxui"
+  },
+  {
+    "img": "/img/team/Ruben_Wellinger_Trainer_Design.png",
+    "name": "Ruben Wellinger",
+    "job": "Trainer UX/UI-Design",
+    "team": "uxui"
   }
 ]
