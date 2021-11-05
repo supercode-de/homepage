@@ -36,3 +36,6 @@ Deswegen ist auch der Render der Seiten mit `if (process.browser)` aufgebaut.
 **Arrow:** der animierte Pfeil in der Mitte der Seite.
 **Button:** der animierte Button (bewegt sich hoch, box-shadow). Er nutzt die props: _href_ (das Ziel, zu dem der Link führen soll) und _text_ (der Text, der in dem Button stehen soll)
 **Telefon:** das kleine Telefon an der Seite. Die Komponente nutzt props: _color_ es kann eine beliebige Farbe (hex, rgba, benannt) übergeben werden. Wenn nichts übergeben wird ist #fff als Fallback hinterlegt.
+
+### Team
+Wenn Leute aus dem Team entfernt oder dem Team hinzugefügt werden sollen, dann nutzt dafür die Datei "team.json". Dort dann ein neues Objekt hinzufügen oder ein bestehendes löschen. Darauf achten, dass die Werte (img, name, job, team) aktualisiert werden. Der Name "team" dient dem selektieren auf den unterschiedlichen Unterseiten. Auf unserer Teamseite sind alle dargestellt. Auf der fullstack Unterseite sind zb nur die Trainer:innen dargestellt, die dort auch tätig sind, das wird mit einer if-Abfrage erzielt, daher brauchen die Leute ein zugeordnetes Team, sonst funktioniert es nicht. Es gibt folgende Teams: backoffice, fullstack, frontend, beratung, coaching und uxui. Trainer:innen im VZ Kurs gehören zum fullstack Team, Trainer:innen im TZ Kurs zum frontend Team und so weiter.
