@@ -41,15 +41,14 @@ export default function FS_Tagesablauf() {
           <img
             src={
               window.screen.width <= 768
-                ? '/img/Tagesablauf-mobile.svg'
+                ? '/img/TagesablaufMobileFullstack.svg'
                 : '/img/Tagesablauf.svg'
             }
             alt=''
           />
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
             .tagesablauf {
               padding:50px 0 100px 0;
             }
@@ -59,10 +58,10 @@ export default function FS_Tagesablauf() {
             padding:0 6% 62px 6%;
             font-size:5rem;
           }
-h2{
-  color:#fff;
-  margin-bottom:0;
-}
+          h2{
+            color:#fff;
+            margin-bottom:0;
+          }
           h2 .stroke {
             color: transparent;
             -webkit-text-stroke-width: 0.1px;
@@ -100,10 +99,10 @@ h2{
             padding 0 0 0 4%;
           }
           .tagesablauf-txt p{
-        color: #fff;
-        width:85%;
-        font-size:1rem;
-        line-height:19px;
+            color: #fff;
+            width:85%;
+            font-size:1rem;
+            line-height:19px;
           }
           .tagesablauf article > div img {
             width: 100%;
@@ -138,7 +137,6 @@ h2{
             // }
             .tagesablauf_imgContainer div{
               width:60%;
-             
             }
             .tagesablauf article {
               display: block;
@@ -163,12 +161,10 @@ h2{
 
             .tagesablauf_imgContainer div{
               width:80%;
-             
             }
             .eat-sleep-header{
               font-size:2rem;
-               line-height:28px;
-       
+              line-height:28px;
             }
           }
           @media (max-width: 425px) {
@@ -189,7 +185,7 @@ h2{
             .tagesablauf_imgContainer{
               display:block;
             }
-             @media (max-width: 375px) {
+            @media (max-width: 375px) {
                 .tagesablauf-header{
                   font-size:1.4rem;
                   padding:0 6% 20px 6%;
@@ -197,7 +193,6 @@ h2{
               .eat-sleep-header{
                 font-size:1.4rem;
                 line-height:20px;
-         
               }
               h2 .stroke {
                 color: transparent;

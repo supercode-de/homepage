@@ -2,13 +2,13 @@
   {
     "img": "/img/team/Kim Reichl Leitung SuperCode.jpg",
     "name": "Kim Jeschar",
-    "job": "Leitung",
+    "job": "Operative Leitung",
     "team": "backoffice"
   },
   {
     "img": "/img/team/Sergio Cardeal CEO SuperCode.jpg",
     "name": "Sergio Cardeal",
-    "job": "CEO",
+    "job": "Geschäftsführer",
     "team": "backoffice"
   },
   {
@@ -62,7 +62,7 @@
   {
     "img": "/img/team/Eric Noack Trainer Webentwicklung.jpg",
     "name": "Eric Noack",
-    "job": "Trainer Webentwicklung",
+    "job": "Trainer Webentwicklung Full-Stack",
     "team": "fullstack"
   },
   {

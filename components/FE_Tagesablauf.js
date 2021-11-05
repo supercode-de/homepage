@@ -57,8 +57,7 @@ export default function FS_Tagesablauf() {
           </picture>
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
                       .tagesablauf {
                         padding:50px 0 100px 0;
                       }

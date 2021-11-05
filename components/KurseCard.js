@@ -32,8 +32,7 @@ const KurseCard = (props) => {
           hubspot={hubspotFormID}
         />
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           .kurseCard {
             border: 4px solid var(--super-green);
             background: var(--super-lila);
