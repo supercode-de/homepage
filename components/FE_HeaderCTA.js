@@ -1,38 +1,38 @@
-import Typeform_neu_flexible from './Typeform_neu_flexible';
+import Typeform_neu_flexible from "./Typeform_neu_flexible";
 
 const HeaderCallToAction_neu = () => {
   return (
-    <div id='header-call'>
-      <section className='headerFlex'>
+    <div id="header-call">
+      <section className="headerFlex">
         <section>
           <h3>
-            – 30 Wochen = <span className='circle'> 7 Monate</span>
+            – 30 Wochen = <span className="circle"> 7 Monate</span>
           </h3>
-          <h3>– Teilzeit neben dem Job</h3>
+          <h3>– Teilzeit/berufsbegleitend</h3>
           <h3>
             – 2 Trainer*innen
             {window.screen.width <= 387 ? (
               <>
-                {' '}
+                {" "}
                 <br /> &nbsp;&nbsp; &nbsp;
               </>
             ) : null}
-            <span className='after-span'> zeitgleich</span>
+            <span className="after-span"> zeitgleich</span>
           </h3>
         </section>
         <section>
           <h3>
-            –<span className='bling'>Moderne </span>
-            <span className='bling2'>Tools</span>
+            –<span className="bling">Moderne </span>
+            <span className="bling2">Tools</span>
           </h3>
           <h3>– MacBook als Leihgabe</h3>
           <h3>– Vor Ort & online</h3>
         </section>
       </section>
-      <article className='jetzt-bewerben'>
+      <article className="jetzt-bewerben">
         <h4> Bewirb dich jetzt!</h4>
-        <span className='btn'></span>
-        <Typeform_neu_flexible width='410px' height='50px' top='50px' />
+        <span className="btn"></span>
+        <Typeform_neu_flexible width="410px" height="50px" top="50px" />
       </article>
       <style jsx>{`
         #header-call {
@@ -52,7 +52,7 @@ const HeaderCallToAction_neu = () => {
           font-weight: 300;
           margin-bottom: 1rem;
           font-size: 2.6rem;
-          font-family: 'Neue_Machina_Regular_400';
+          font-family: "Neue_Machina_Regular_400";
         }
         .super,
         .circle,
@@ -63,12 +63,12 @@ const HeaderCallToAction_neu = () => {
 
         h3 span.circle::after {
           position: absolute;
-          background: url('/img/Vector64.svg') center/contain no-repeat;
+          background: url("/img/Vector64.svg") center/contain no-repeat;
           height: 336%;
           width: 125%;
           right: -40px;
           bottom: -110%;
-          content: '';
+          content: "";
           display: block;
         }
 
@@ -79,18 +79,18 @@ const HeaderCallToAction_neu = () => {
         h3 span.bling::before,
         h3 span.bling2::after {
           position: absolute;
-          content: '';
+          content: "";
           display: block;
           height: 2.5rem;
           width: 1.3rem;
           bottom: -0.1em;
         }
         h3 span.bling::before {
-          background: url('/img/bling.png') center/contain no-repeat;
+          background: url("/img/bling.png") center/contain no-repeat;
           left: -1rem;
         }
         h3 span.bling2::after {
-          background: url('/img/bling2.png') center/contain no-repeat;
+          background: url("/img/bling2.png") center/contain no-repeat;
           right: -1.5rem;
         }
         .after-span {
@@ -98,8 +98,8 @@ const HeaderCallToAction_neu = () => {
           padding-right: 1rem;
         }
         .headerFlex section:first-child .after-span {
-          content: '';
-          background: url('/img/vector127.svg') 0px 60px / contain no-repeat;
+          content: "";
+          background: url("/img/vector127.svg") 0px 60px / contain no-repeat;
         }
 
         .jetzt-bewerben {
@@ -169,7 +169,7 @@ const HeaderCallToAction_neu = () => {
             bottom: -110%;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') 0px 37px / contain no-repeat;
+            background: url("/img/vector127.svg") 0px 37px / contain no-repeat;
           }
         }
         @media (max-width: 1024px) {
@@ -184,7 +184,7 @@ const HeaderCallToAction_neu = () => {
             right: -8px;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') 0px 27px / contain no-repeat;
+            background: url("/img/vector127.svg") 0px 27px / contain no-repeat;
           }
           h3 span.bling::before,
           h3 span.bling2::after {
@@ -197,7 +197,7 @@ const HeaderCallToAction_neu = () => {
             font-size: 1.5rem;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') -10px 20px / contain no-repeat;
+            background: url("/img/vector127.svg") -10px 20px / contain no-repeat;
           }
 
           .jetzt-bewerben h4 {
@@ -210,7 +210,7 @@ const HeaderCallToAction_neu = () => {
           h3 span.bling::before,
           h3 span.bling2::after {
             position: absolute;
-            content: '';
+            content: "";
             display: block;
             height: 2.1rem;
             width: 1.1rem;
@@ -239,7 +239,7 @@ const HeaderCallToAction_neu = () => {
             bottom: -0.2em;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') -9px 16px / contain no-repeat;
+            background: url("/img/vector127.svg") -9px 16px / contain no-repeat;
           }
           h2 span.circle::after {
             right: -22px;
@@ -263,7 +263,7 @@ const HeaderCallToAction_neu = () => {
           h3 span.bling::before,
           h3 span.bling2::after {
             position: absolute;
-            content: '';
+            content: "";
             display: block;
             height: 1.9rem;
             width: 0.8rem;
@@ -273,11 +273,11 @@ const HeaderCallToAction_neu = () => {
             padding-left: 0.4rem;
           }
           h3 span.bling::before {
-            background: url('/img/bling.png') center/contain no-repeat;
+            background: url("/img/bling.png") center/contain no-repeat;
             left: -0.7rem;
           }
           h3 span.bling2::after {
-            background: url('/img/bling2.png') center/contain no-repeat;
+            background: url("/img/bling2.png") center/contain no-repeat;
             right: -1rem;
           }
           .jetzt-bewerben h4 {
@@ -310,7 +310,7 @@ const HeaderCallToAction_neu = () => {
             font-size: 0.75rem;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') -20px 13px / contain no-repeat;
+            background: url("/img/vector127.svg") -20px 13px / contain no-repeat;
           }
           .jetzt-bewerben {
             display: block;
@@ -337,7 +337,7 @@ const HeaderCallToAction_neu = () => {
             margin: 5px 0;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') -10px 11px / contain no-repeat;
+            background: url("/img/vector127.svg") -10px 11px / contain no-repeat;
           }
           h3 span.bling::before,
           h3 span.bling2::after {
@@ -352,7 +352,7 @@ const HeaderCallToAction_neu = () => {
           h3 span.bling::before,
           h3 span.bling2::after {
             position: absolute;
-            content: '';
+            content: "";
             display: block;
             height: 1.3rem;
             width: 0.8rem;
@@ -362,11 +362,11 @@ const HeaderCallToAction_neu = () => {
             padding-left: 0.4rem;
           }
           h3 span.bling::before {
-            background: url('/img/bling.png') center/contain no-repeat;
+            background: url("/img/bling.png") center/contain no-repeat;
             left: -0.7rem;
           }
           h3 span.bling2::after {
-            background: url('/img/bling2.png') center/contain no-repeat;
+            background: url("/img/bling2.png") center/contain no-repeat;
             right: -1.1rem;
           }
 
@@ -391,7 +391,7 @@ const HeaderCallToAction_neu = () => {
           }
           section h3 {
             font-size: 13px;
-            font-family: 'Neue_Machina_Light';
+            font-family: "Neue_Machina_Light";
             letter-spacing: 0.003px;
             width: 100%;
           }
