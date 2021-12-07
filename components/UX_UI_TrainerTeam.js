@@ -1,29 +1,29 @@
-import data from './data/team.json';
+import data from "./data/team.json";
 export default function UX_UI_TrainerTeam() {
   return (
-    <section className='fsTrainer blackGitter'>
-      <div className='trainerinfos'>
+    <section className="fsTrainer blackGitter">
+      <div className="trainerinfos">
         <h2>
           <span>Super</span>
           Trainer*innen
         </h2>
-        <p className='txt'>
+        <p className="txt">
           Unsere Trainer*innen sind praxiserfahrene UX/UI-Designer*innen, die
           sich laufend fachlich und pädagogisch fortbilden. Durch unseren
           Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich an den
           vollen Tagen, wirst du spielerisch UX/UI-Design lernen und deine
           eigenen Prototypen bauen.
         </p>
-        <p className='txt'>
-          Ergänzend zum Training im Bootcamp bieten wir individuelle Termine
-          beim Flex-Trainer an. Im One-on-One-Coaching geht der/die Trainer*in
-          gezielt auf deine Fragen ein, wiederholt noch nicht verstandenes
-          Unterrichtsmaterial und gibt intensives Feedback zu den Übungen.
+        <p className="txt">
+          Ergänzend zum Training im Bootcamp bieten wir individuelle
+          One-to-One-Termine mit dem Trainerteam. Dabei gehen sie gezielt auf
+          deine Fragen ein, wiederholen noch nicht verstandenes
+          Unterrichtsmaterial und geben intensives Feedback zu den Übungen.
         </p>
       </div>
       <div>
-        <section className='gridContainer'>
-        {data.map((teammitglied) => {
+        <section className="gridContainer">
+          {data.map((teammitglied) => {
             if (teammitglied.team === "uxui") {
               return (
                 <figure>
@@ -32,21 +32,22 @@ export default function UX_UI_TrainerTeam() {
                     alt={`${teammitglied.name} ${teammitglied.job}`}
                   />
                   <figcaption>{teammitglied.name}</figcaption>
-                  <p className='light'>{teammitglied.job}</p>
+                  <p className="light">{teammitglied.job}</p>
                 </figure>
               );
             }
           })}
-          <div className='rotating-text'>
+          <div className="rotating-text">
             <img
-              src='/img/Trainercircle.svg'
-              alt='SuperCode Team, Bildungsträger'
+              src="/img/Trainercircle.svg"
+              alt="SuperCode Team, Bildungsträger"
             />
           </div>
         </section>
       </div>
 
-      <style jsx>{`
+      <style jsx>
+        {`
           .fsTrainer {
             padding: 40px 0 170px 6%;
             width: 100%;
