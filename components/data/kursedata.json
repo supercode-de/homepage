@@ -14,7 +14,7 @@
       {
         "headline": "Web-Development\nFull-Stack",
         "headlineID": "fs",
-        "umfang": "Umfang: 22 Wochen (5 Monate) / Vollzeit",
+        "umfang": "Umfang: 22 Wochen (5 Monate) – Vollzeit",
         "start": "Start 20.12.2021 Ende: 25.05.2022",
         "copy": "Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.",
         "hubspotFormID": "5c9d4947-7d51-448d-845a-231155f27380",
@@ -23,7 +23,7 @@
       {
         "headline": "Web-Development\nFront-End",
         "headlineID": "fe",
-        "umfang": "Umfang: 30 Wochen (7 Monate) / Teilzeit / berufsbegleitend",
+        "umfang": "Umfang: 30 Wochen (7 Monate) – Teilzeit / berufsbegleitend",
         "start": "Start: 28.02.2022 Ende: 15.10.2022",
         "copy": "Programmieren lernen neben dem Beruf?\nKein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.",
         "hubspotFormID": "b00baa3e-2b2d-4cf6-9304-1a135924ea7a",
@@ -32,7 +32,7 @@
       {
         "headline": "UX/UI-Design",
         "headlineID": "des",
-        "umfang": "Umfang: 13 Wochen (3 Monate) / Teilzeit / berufsbegleitend",
+        "umfang": "Umfang: 13 Wochen (3 Monate) – Teilzeit / berufsbegleitend",
         "start": "Start: 21.02.2022 Ende: 27.05.2022",
         "copy": "Dieser Kurs setzt sich aus insgesamt fünf Themenblöcken zusammen, die perfekt ineinander greifen, um dich innerhalb von drei Monaten in Teilzeit zur gefragten Fachkraft im Bereich UX/UI-Design weiterzubilden.",
         "hubspotFormID": "9436fb4b-eec5-4783-a8ab-cbd987650f6e",
@@ -42,7 +42,7 @@
     "kurseKursePage": [
       {
         "headline": "Web-Development\nFull-Stack",
-        "umfang": "Umfang: 22 Wochen (5 Monate) / Vollzeit",
+        "umfang": "Umfang: 22 Wochen (5 Monate) – Vollzeit",
         "start": "Start 20.12.2021 Ende: 25.05.2022",
         "copy": "Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.",
         "hubspotFormID": "5c9d4947-7d51-448d-845a-231155f27380",
@@ -50,7 +50,7 @@
       },
       {
         "headline": "Web-Development\nFront-End",
-        "umfang": "Umfang: 30 Wochen (7 Monate) / Teilzeit / berufsbegleitend",
+        "umfang": "Umfang: 30 Wochen (7 Monate) – Teilzeit / berufsbegleitend",
         "start": "Start: 28.02.2022 Ende: 15.10.2022",
         "copy": "Programmieren lernen neben dem Beruf?\nKein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.",
         "hubspotFormID": "b00baa3e-2b2d-4cf6-9304-1a135924ea7a",
@@ -58,7 +58,7 @@
       },
       {
         "headline": "UI/UX-Design",
-        "umfang": "Umfang: 13 Wochen (3 Monate) / Teilzeit / berufsbegleitend",
+        "umfang": "Umfang: 13 Wochen (3 Monate) – Teilzeit / berufsbegleitend",
         "start": "Start: 21.02.2022 Ende: 27.05.2022",
         "copy": "Dieser Kurs setzt sich aus insgesamt fünf Themenblöcken zusammen, die perfekt ineinander greifen, um dich innerhalb von drei Monaten in Teilzeit/berufsbegleitend zur gefragten Fachkraft im Bereich UX/UI-Design weiterzubilden.",
         "hubspotFormID": "9436fb4b-eec5-4783-a8ab-cbd987650f6e",

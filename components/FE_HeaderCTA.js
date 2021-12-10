@@ -8,7 +8,7 @@ const HeaderCallToAction_neu = () => {
           <h3>
             – 30 Wochen = <span className="circle"> 7 Monate</span>
           </h3>
-          <h3>– Teilzeit/berufsbegleitend</h3>
+          <h3>– Teilzeit / berufsbegleitend</h3>
           <h3>
             – 2 Trainer*innen
             {window.screen.width <= 387 ? (
