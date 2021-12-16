@@ -52,7 +52,7 @@ module.exports = {
       },
       "/blogs/How-to-design-with-love-–-Der-neue-UX-UI-Design-Kurs-bei-SuperCode-zeigt-es-dir":
         { page: "/blogs/[blogItem]" },
-      "/blogs/https://www.super-code.de/blogs/IT-Frauen-WANTED!-Starte-2022-als-Webentwicklerin-mit-dem-SuperStipendium-Frauen-in-Tech!":
+      "/blogs/IT-Frauen-WANTED!-Starte-2022-als-Webentwicklerin-mit-dem-SuperStipendium-Frauen-in-Tech!":
         { page: "/blogs/[blogItem]" },
     };
   },
