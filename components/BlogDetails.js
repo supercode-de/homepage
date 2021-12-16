@@ -1,32 +1,36 @@
-import Link from 'next/link';
-import ReactMarkdown from 'react-markdown';
+import Link from "next/link";
+import ReactMarkdown from "react-markdown";
 
 const BlogDetails = (props) => {
   const pixelSize = 2;
-  console.log("props", props)
+  console.log("props", props);
   return (
-    <div id='blogDetails' className={`blackGitter ${props.klasse}`}>
+    <div id="blogDetails" className={`blackGitter ${props.klasse}`}>
       <section>
         {/* <article className='left'>
           <h1>{props.title.main}</h1>
           <h2>{props.title.sub}</h2>
         </article> */}
-        <article className='right'>
+        <article className="right">
           <p>
             <ReactMarkdown>{props.text}</ReactMarkdown>
           </p>
         </article>
       </section>
-      <footer id='footter'>
+      <footer id="footter">
         <Link
           href={
-            '/blogs/' +
-            props.titlePrevious.main.replace(/ /g, '-').replace(/\?|\#|”|“|"|,|:|\./g, "")}>
-          <article className='left'>
+            "/blogs/" +
+            props.titlePrevious.main
+              .replace(/ /g, "-")
+              .replace(/\?|\#|”|“|"|,|:|\./g, "")
+          }
+        >
+          <article className="left">
             {/* <div className='hide'></div> */}
             {/* <div className='text-container'></div> */}
-            <div className='arrow-left'>
-              <img src='/img/Arrow18.svg' alt='' />
+            <div className="arrow-left">
+              <img src="/img/Arrow18.svg" alt="" />
             </div>
 
             <ReactMarkdown>{props.titlePrevious.main}</ReactMarkdown>
@@ -34,29 +38,32 @@ const BlogDetails = (props) => {
         </Link>
         <Link
           href={
-            '/blogs/' +
-            props.titleNext.main.replace(/ /g, '-').replace(/\?|\#|”|“|"|,|:|\./g, "")}>
-          <article className='right'>
+            "/blogs/" +
+            props.titleNext.main
+              .replace(/ /g, "-")
+              .replace(/\?|\#|”|“|"|,|:|\./g, "")
+          }
+        >
+          <article className="right">
             <ReactMarkdown>{props.titleNext.main}</ReactMarkdown>
 
             {/* <div className='text-container'> */}
-            <div className='arrow-right'>
-              <img src='/img/Arrow19.svg' alt='' />
+            <div className="arrow-right">
+              <img src="/img/Arrow19.svg" alt="" />
             </div>
             {/* </div> */}
           </article>
         </Link>
       </footer>
       <style jsx>{`
-      // Styling für einzelne Blogartikel Start
-      // .blog11>section>article>p>p:nth-of-type(11)  {
+        // Styling für einzelne Blogartikel Start
+        // .blog11>section>article>p>p:nth-of-type(11)  {
         // funktioniert leider nicht
-      //   width: 100% !important;
-      //   // display: none;
-      //   background: red !important;
-      // } 
-      // Styling für einzelne Blogartikel Ende
-      
+        //   width: 100% !important;
+        //   // display: none;
+        //   background: red !important;
+        // }
+        // Styling für einzelne Blogartikel Ende
 
         #blogDetails {
           color: #fff;
@@ -92,7 +99,7 @@ const BlogDetails = (props) => {
         // .hide {
         //   display: none;
         // }
-        
+
         section h3 {
           font-weight: bold;
           font-size: 16px;
@@ -218,13 +225,13 @@ const BlogDetails = (props) => {
           width: 80% !important;
         }
         section .right h1 {
-              font-size: 4em;
-              color: #fff;
-            }
-            section .right h2 {
-              color: #fff;
-            }
-        
+          font-size: 4em;
+          color: #fff;
+        }
+        section .right h2 {
+          color: #fff;
+        }
+
         @media (max-width: 880px) {
           article {
             font-size: 14px;
@@ -288,7 +295,6 @@ const BlogDetails = (props) => {
             margin-top: -60px;
           }
         }
-        
       `}</style>
     </div>
   );
