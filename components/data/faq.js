@@ -17,7 +17,7 @@ var faq = [
   {
     question: "Was werde ich lernen?",
     answer:
-      "Kurz: Du wirst in der Lage sein, moderne Webseiten von Grund auf zu erstellen. Lang: Du wirst in der Lage sein, eine Full-Stack-Programmier-Mentalität zu entwickeln, die es dir ermöglicht, dich frei zwischen Front- & Backend zu bewegen. Du wirst in einem einzigartigen und kreativen Umfeld die neuesten Techniken im Bereich Web-Entwicklung erleben und anwenden. Du wirst fließend in den wichtigsten Programmiersprachen sprechen und deine verrückten Entwicklungsfertigkeiten mit den coolsten Frameworks der Menschheit beschleunigen. Aber vor allem wirst du lernen zu lernen – was im Grunde genommen die nützlichste Fähigkeit in der Welt von morgen ist!",
+      "Kurz: Du wirst in der Lage sein, moderne Webseiten von Grund auf zu erstellen. Lang: Du wirst in der Lage sein, eine Full-Stack-Programmier-Mentalität zu entwickeln, die es dir ermöglicht, dich frei zwischen Front- & Backend zu bewegen. Du wirst in einem einzigartigen und kreativen Umfeld die neuesten Techniken im Bereich Web-Entwicklung erleben und anwenden. Du wirst fließend in den wichtigsten Programmiersprachen sprechen und deine verrückten Entwicklungsfertigkeiten mit den coolsten Frameworks der Menschheit beschleunigen. Aber vor allem wirst du lernen zu lernen – was im Grunde genommen die nützlichste Fähigkeit in der Welt von morgen ist! Im UX/UI-Design-Kurs lernst du alles wichtige über erfolgreiche Digitalprodukte und wirst Prototypen entwickeln, die deine Kund*innen und Nutzer*innen begeistern. ",
   },
   {
     question: "Wie viel kosten die Bootcamps?",
@@ -45,7 +45,7 @@ var faq = [
       "Wir haben tolle SuperBildungsberater*innen, die dir rund um die Uhr zur Verfügung stehen: Schicke uns einfach eine E-Mail an beratung@super-code.de und wir werden zeitnah auf deine Nachricht antworten.",
   },
   {
-    question: "Ist es verpflichtend, bei einem Job-Center registriert zu sein?",
+    question: "Ist es verpflichtend, bei einem Jobcenter registriert zu sein?",
     answer:
       "Nein, ist es nicht. Unsere Kurse sind offen für alle – ob mit oder ohne Bildungsgutschein.",
   },
@@ -67,7 +67,7 @@ var faq = [
   {
     question: "Wie macht ihr das mit Corona?",
     answer:
-    "Sonnenstudios sind geöffnet, Kinos bleiben zu… Du blickst bei den Corona-Verordnung nicht mehr durch? Wir auch nicht, aber Sicherheit geht vor! Wir nehmen unsere Verantwortung als Bildungsträger sehr ernst und haben unsere Beratungsangebote und Kurse bis auf Weiteres in die Weiten des World Wide Web verlagert. Ja, online Training kann richtig Spaß machen! Mit erprobten und neuen Tools, die auch wirklich funktionieren, betreuen wir euch einzeln und in Gruppen auch online optimal und coden zusammen. Damit gewähren wir eine Unterrichtsgarantie und ganz nebenbei wirst du auf den tatsächlichen Berufsalltag im IT-Bereich vorbereitet. Denn der gilt als Vorreiter für Homeoffice und Remote-Arbeit."
-  }
+      "Sonnenstudios sind geöffnet, Kinos bleiben zu… Du blickst bei den Corona-Verordnung nicht mehr durch? Wir auch nicht, aber Sicherheit geht vor! Wir nehmen unsere Verantwortung als Bildungsträger sehr ernst und haben unsere Beratungsangebote und Kurse bis auf Weiteres in die Weiten des World Wide Web verlagert. Ja, online Training kann richtig Spaß machen! Mit erprobten und neuen Tools, die auch wirklich funktionieren, betreuen wir euch einzeln und in Gruppen auch online optimal und coden zusammen. Damit gewähren wir eine Unterrichtsgarantie und ganz nebenbei wirst du auf den tatsächlichen Berufsalltag im IT-Bereich vorbereitet. Denn der gilt als Vorreiter für Homeoffice und Remote-Arbeit.",
+  },
 ];
 export default faq;
