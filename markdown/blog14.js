@@ -7,13 +7,13 @@ Motivierte Frau am PC: Unsere Operative Leitung Kim.
 
 ## Karriere mit Coden – Als Front-End-Developer*in durchstarten  
 
-Als Webentwicklerin wirst du das, was die Web-Designer*innen planen in Code umsetzen und dafür sorgen, dass es funktioniert. Der Kurs Webentwicklung Front-End ist offen für alle Menschen, die motiviert sind, Coden zu lernen und sich weiter zu entwicklen. Im Kurs Webentwicklung Front-End lernst du neben HTML und CSS die Programmiersprache Javascript. In 7 Monaten lernst du alles, was du für deinen Quereinstieg in die Webentwicklung brauchst. Zwei Trainer*innen sorgen für eine optimale Lernbegleitung und ab dem ersten Tag arbeitest du an deinen Praxisprojekten. Und das Ganze berufsbegleitend, denn der Kurs findet 3x in der Woche abends und samstags ganztägig statt.
+Als Webentwicklerin wirst du das, was die Web-Designer&ast;innen planen in Code umsetzen und dafür sorgen, dass es funktioniert. Der Kurs Webentwicklung Front-End ist offen für alle Menschen, die motiviert sind, Coden zu lernen und sich weiter zu entwickeln. Im Kurs Webentwicklung Front-End lernst du neben HTML und CSS die Programmiersprache Javascript. In 7 Monaten lernst du alles, was du für deinen Quereinstieg in die Webentwicklung brauchst. Zwei Trainer&ast;innen sorgen für eine optimale Lernbegleitung und ab dem ersten Tag arbeitest du an deinen Praxisprojekten. Und das Ganze berufsbegleitend, denn der Kurs findet 3x in der Woche abends und samstags ganztägig statt.
 ###
 Als Webentwicklerin hast du nicht nur hervorragende Karrierechancen für einen zukunftsfähigen Job, du profitierst auch von flexiblen Arbeitszeiten, Home Office und flachen Hierarchien.
 
 ## Das SuperStipendium “Frauen in Tech”
 
-Frauen und Technik, ist das wirklich noch ein Thema? Leider ja, denn die Zahlen bilden nach wie vor ab, dass Frauen in Deutschland sowohl im Studiengang Informatik mit nur 18 % und in der IT-Berufsbranche mit nur 15% sehr unterrepräsentiert sind. Lasst uns diese Zahlen gemeinsam ändern und dafür sorgen, dass noch mehr Frauen die Digitalisierung aktiv mitbestimmen. Hier findet ihr noch mehr Hintergründe zu dem Thema.
+Frauen und Technik, ist das wirklich noch ein Thema? Leider ja, denn die Zahlen bilden nach wie vor ab, dass Frauen in Deutschland sowohl im Studiengang Informatik mit nur 18 % und in der IT-Berufsbranche mit nur 15% sehr unterrepräsentiert sind. Lasst uns diese Zahlen gemeinsam ändern und dafür sorgen, dass noch mehr Frauen die Digitalisierung aktiv mitbestimmen. [Hier findet ihr noch mehr Hintergründe zu dem Thema.](https://www.super-code.de/blogs/Wie-sich-die-IT-Branche-durch-Women-in-Tech-erneuern-l%C3%A4sst )
 ###
 Durch die letzten Ausschreibungen konnten wir viele Menschen ermutigen, den Karrierewechsel in die IT-Branche zu starten und den Schritt in die Webentwicklung zu wagen. Die meisten Stipendiat*innen sind mittlerweile im Job und es wird Zeit für die nächste Generation von SuperCoderinnen! 
 
@@ -32,7 +32,7 @@ Lea Heidjann ist Teilnehmerin des aktuellen Kurses Webentwicklung Front-End und 
 
 ### Wie läuft der Kurs und was gefällt dir am besten?
 
-“Ich bin wirklich begeistert! Da ich vor dem Kurs nie gedacht hätte, beruflich in die IT zu gehen, hatte ich auch keine großen Vorkenntnisse. Der Kurs hat mich da abgeholt, wo ich stand und macht mir wirklich viel Spaß. Ich lerne unglaublich viel! Außerdem kann ich mir mittlerweile sehr gut vorstellen auch beruflich weiter in die Richtung zu gehen. Besonders gut gefällt mir die Atmosphäre im Kurs. Ich sehe die Trainer*innen und Teilnehmer*innen zurzeit so häufig, dass ich es fast schon komisch finde, wenn mal ein Abend kein Kurs stattfindet. Super finde ich auch, dass der Praxisanteil so hoch ist. Mittlerweile habe ich ein kleines Repertoire an eigenen Projekten auf GitHub, auf die ich schon ein bisschen stolz bin.”
+“Ich bin wirklich begeistert! Da ich vor dem Kurs nie gedacht hätte, beruflich in die IT zu gehen, hatte ich auch keine großen Vorkenntnisse. Der Kurs hat mich da abgeholt, wo ich stand und macht mir wirklich viel Spaß. Ich lerne unglaublich viel! Außerdem kann ich mir mittlerweile sehr gut vorstellen auch beruflich weiter in die Richtung zu gehen. Besonders gut gefällt mir die Atmosphäre im Kurs. Ich sehe die Trainer&ast;innen und Teilnehmenden zurzeit so häufig, dass ich es fast schon komisch finde, wenn mal ein Abend kein Kurs stattfindet. Super finde ich auch, dass der Praxisanteil so hoch ist. Mittlerweile habe ich ein kleines Repertoire an eigenen Projekten auf GitHub, auf die ich schon ein bisschen stolz bin.”
 
 ### Was rätst du zukünftigen Stipendiat*innen? 
 
