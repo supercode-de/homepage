@@ -5,10 +5,6 @@ const FSHeader = (props) => {
       <span className='aside'> 📞 +49 211 7817 233-0 </span>
       <section className='header-flex'>
         <div className='header-img start-container'>
-          <div className='start'>
-            START <br />
-            {props.datum}
-          </div>
           <div className='imgWrapper'>
             <img src='/img/_DSC7143_LowRes.jpg' alt='' />
           </div>
