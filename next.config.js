@@ -54,6 +54,8 @@ module.exports = {
         { page: "/blogs/[blogItem]" },
       "/blogs/IT-Frauen-WANTED!-Starte-2022-als-Webentwicklerin-mit-dem-SuperStipendium-Frauen-in-Tech!":
         { page: "/blogs/[blogItem]" },
+      "/blogs/Interview-mit-trainer-webentwicklung-steffen":
+        { page: "/blogs/[blogItem]" },
     };
   },
 };
