@@ -70,7 +70,7 @@ Du möchtest auch Teil des Teams werden? Wir sind immer auf der Suche nach motiv
 ##
 
 Das Interview führte Natalie Streich im Januar 2022 via google-meet
-Fotos: Supercode/privat
+Fotos: Supercode/privat 
 
 `;
 
