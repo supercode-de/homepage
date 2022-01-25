@@ -136,7 +136,6 @@ class Layout extends Component {
             #blogDetails .right img {
               width: 50% !important;
               margin-top: 40px;
-              margin-bottom: 40px;
             }
             #blogDetails .right p {
               font-size: 1.125rem;
@@ -412,7 +411,13 @@ class Layout extends Component {
 
             @media (max-width: 458px) {
               #blogDetails .right h1 {
-                font-size: 2.2em;
+                font-size: 2em;
+              }
+              #blogDetails .right h3 {
+                margin-top: 50px;
+              }
+              #blogDetails .right img {
+                width: 70% !important;
               }
             }
           `}
