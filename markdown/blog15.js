@@ -38,9 +38,9 @@ Während meiner Tätigkeit als Physiotherapeut habe ich neben der Betreuung der 
 
 ### Was zeichnet deinen Trainingsstil aus und was ist dir besonders wichtig als Trainer?
 
-Mein Motto ist: Keep it simple. Wer komplizierte Sachen nicht einfach erklären kann, hat meistens keine Ahnung von der Materie. Außerdem ist es wichtig, mit den Teilnehmenden auf einer Ebene zu sein. Wir als Trainer*innen müssen zwar die Kursstruktur einhalten, können aber trotzdem dafür sorgen, dass sich alle wahr- und angenommen fühlen. Wir sitzen alle im selben Boot und und lernen uns mit der Zeit auch privat etwas besser kennen.
+Mein Motto ist: Keep it simple. Wer komplizierte Sachen nicht einfach erklären kann, hat meistens keine Ahnung von der Materie. Außerdem ist es wichtig, mit den Teilnehmenden auf einer Ebene zu sein. Wir als Trainer*innen müssen zwar die Kursstruktur einhalten, können aber trotzdem dafür sorgen, dass sich alle wahr- und angenommen fühlen. Wir sitzen alle im selben Boot und lernen uns mit der Zeit auch privat etwas besser kennen.
 ###
-Mein Ziel ist es, fachlich und menschlich auf ein tolles Level kommen und mit Spaß bei der Sache zu sein. Denn Coding ist ein super kreativer Prozess, der logischen Abläufen folgt.
+Mein Ziel ist es, fachlich und menschlich auf ein tolles Level zukommen und mit Spaß bei der Sache zu sein. Denn Coding ist ein super kreativer Prozess, der logischen Abläufen folgt.
 
 ![blog15](/img/blogs/15/screenshot_group.png)
 
