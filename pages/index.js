@@ -15,6 +15,7 @@ import FooterCallToAction from '../components/FooterCallToAction';
 import Layout from '../components/Layout';
 import dates from '../components/data/dates.json';
 import kurseData from '../components/data/kursedata.json';
+import Cookies from '../components/Cookies.js';
 
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
@@ -55,6 +56,7 @@ export default function Home(props) {
             </div>
             <FAQ />
             <FooterCallToAction month={dates.VzTzMonth} />
+            <Cookies />
           </main>
           <style jsx>{``}</style>
         </div>
