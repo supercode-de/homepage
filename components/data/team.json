@@ -60,7 +60,7 @@
     "team": "fullstack"
   },
   {
-    "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.jpg",
+    "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.png",
     "name": "Finn Schlottmann",
     "job": "Trainer Webentwicklung Full-Stack",
     "team": "fullstack"
@@ -74,7 +74,7 @@
   {
     "img": "/img/team/Franziska_Hoevelmanns_Trainerin.png",
     "name": "Franzi Hövelmanns",
-    "job": "Trainerin Webentwicklung Front-End",
+    "job": "Trainerin Webentwicklung Front-End & Head of Design",
     "team": "frontend"
   },
   {
@@ -88,5 +88,17 @@
     "name": "Ruben Wellinger",
     "job": "Trainer UX/UI-Design",
     "team": "uxui"
+  },
+  {
+    "img": "/img/team/Simon_Hoffmann_Trainer_Fullstack.jpg",
+    "name": "Simon Hoffmann",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
+    "img": "/img/team/Ahmed_Nasr_Trainer_Fullstack.jpg",
+    "name": "Ahmed Nasr",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
   }
 ]
