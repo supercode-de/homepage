@@ -37,7 +37,7 @@ Besonders am Ende, als wir den Backend-Teil gelernt haben und uns auch parallel 
 
 Macht weiter mit dem Coding und bleibt dran! Nach dem Bootcamp hört das Lernen nicht auf und beim Jobeinstieg wird man mit viel Neuem konfrontiert. Wenn man aber die Logik des Codens einmal verstanden hat, kann man schnell umdenken und neues Wissen aufnehmen. Gut sind da natürlich Kontakte mit anderen Coder*innen, die einem helfen können. 
 ###
-Ganz wichtig sind auch eigenen Webprojekte: Sei es eine Katzen-Webseite oder ein Schmuckblog für Halsketten der siebenjährigen Nichte. Hauptsache man macht weiter und wendet das Gelernte weiter an.    
+Ganz wichtig sind auch eigene Webprojekte: Sei es eine Katzen-Webseite oder ein Schmuckblog für Halsketten der siebenjährigen Nichte. Hauptsache man macht weiter und wendet das Gelernte weiter an.    
 ###
 Man kann Webentwicklung in 5 Monaten lernen, sollte sich aber nicht darauf ausruhen. Es ist wie mit jeder anderen Sprache: Man lernt die Vokabeln und dann heißt es machen, machen, machen!  
 
