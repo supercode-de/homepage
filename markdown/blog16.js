@@ -25,13 +25,13 @@ Meine Highlights waren auf jeden Fall die vielen praktischen Übungen, für die 
 ###
 Ich bin echt dankbar für den Kurs bei Supercode. Bereits am Anfang wurde mir mit den Formularen und der Finanzierung über einen Bildungsgutschein sehr geholfen und als der Kurs dann gestartet ist habe ich mich einfach gefreut. Im Kurs selbst lief es für mich durchgehend gut. Und selbst das größte Brett vorm Kopf verschwindet, wenn man dann endlich auf die Lösung kommt. Ich bin von Anfang an entspannt an den Kurs rangegangen. 
 ###
-Super fand ich auch die Unterstützung im Bewerbungscoaching, bei dem wir coole Unterlagen erstellt haben und tolle Tips bekommen haben. So konnte ich meine verschiedenen Berufsfelder gut verpacken und vermarkten und mit einer guten Bewerbung dann einen Job finden. 
+Super fand ich auch die Unterstützung im Bewerbungscoaching, bei dem wir coole Unterlagen erstellt haben und tolle Tipps bekommen haben. So konnte ich meine verschiedenen Berufsfelder gut verpacken und vermarkten und mit einer guten Bewerbung dann einen Job finden. 
 ###
 Ich bin dankbar, dass es sowas wie Supercode gibt und sich Menschen die Zeit dafür nehmen als Trainer*innen anderen etwas beizubringen. 
 
 ### Was waren deine größten Herausforderungen im Kurs?
 
-Besonders am Ende, als wir den Backend-Teil gelernt haben und uns auch parallel um die Jobsuche gekümmert haben, hat mein Kopf manchmal einfach zu gemacht. Alles fühlte sich dann wie Kaugummi an. Dann darf man nicht den Kopf in den Sand stecken, sondern muss einfach weiter machen. Das wichtigste dabei sind Geduld, Ruhe und Ausdauer. Man wird nicht von heute auf morgen zum Superbrain beim Coden und sollte seine Erwartungen anpassen. Es kommt immer wieder neues dazu und man muss sich auch viel selbst aneignen. Das Trainerteam hat uns da super unterstützt und fast alle Fragen beantwortet. 
+Besonders am Ende, als wir den Backend-Teil gelernt haben und uns auch parallel um die Jobsuche gekümmert haben, hat mein Kopf manchmal einfach zu gemacht. Alles fühlte sich dann wie Kaugummi an. Dann darf man nicht den Kopf in den Sand stecken, sondern muss einfach weiter machen. Das Wichtigste dabei sind Geduld, Ruhe und Ausdauer. Man wird nicht von heute auf morgen zum Superbrain beim Coden und sollte seine Erwartungen anpassen. Es kommt immer wieder Neues dazu und man muss sich auch viel selbst aneignen. Das Trainerteam hat uns da super unterstützt und fast alle Fragen beantwortet. 
 
 ### Was gibst du IT-Quereinsteiger*innen mit auf den Weg? 
 
@@ -40,12 +40,6 @@ Macht weiter mit dem Coding und bleibt dran! Nach dem Bootcamp hört das Lernen 
 Ganz wichtig sind auch eigene Webprojekte: Sei es eine Katzen-Webseite oder ein Schmuckblog für Halsketten der siebenjährigen Nichte. Hauptsache man macht weiter und wendet das Gelernte weiter an.    
 ###
 Man kann Webentwicklung in 5 Monaten lernen, sollte sich aber nicht darauf ausruhen. Es ist wie mit jeder anderen Sprache: Man lernt die Vokabeln und dann heißt es machen, machen, machen!  
-
-### Wo siehst du die Herausforderungen beim online Training? 
-
-Beim online Training ist es etwas schwieriger alle Teilnehmenden gleichermaßen im Blick zu behalten. Man bekommt manchmal nicht direkt mit, wenn jemand struggled, da man einfach nicht nebeneinander sitzt. An der Stelle gehen wir proaktiv auf die Leute zu und fragen, ob alles cool ist und wo es hakt. Als Trainer muss man im online Training noch mehr Eigeninitiative zeigen, als wenn man zusammen in einem Raum sitzt.
-###
-Aber der Mehraufwand lohnt sich, denn alle Menschen kommen immer mit einer Geschichte zu uns. Sie können z. B. ihren Job nicht mehr ausführen, sind durch Corona arbeitslos geworden oder möchten einfach einen Neuanfang. Da können wir dann viel mit auf den Weg geben und sie unterstützen, ihren Weg zu finden. 
 
 ### Vielen Dank für das Interview, Özcan und viel Freude in deinem neuen Job!
 
