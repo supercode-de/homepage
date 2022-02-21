@@ -7,7 +7,7 @@ const blog15 = `# “Ich bin dankbar, dass es Supercode gibt und sich Menschen d
 
 ### Hallo Özcan. Gerade einmal einen Monat nach Abschluss des Bootcamps Webentwicklung Full-Stack hast du einen Job in der IT-Branche bekommen. Was machst du da genau?
 
-Ich bin angestellt als Junior Web- und Creation Manager und bin hauptsächlich in der Programmierung tätig. Dafür code ich sogenannte Module, Landingpages und Webseiten, die Nutzer * innen dazu einladen z.B. Whitepaper herunter zu laden oder ihre E-Mail-Adresse zu hinterlassen. Manchmal arbeite ich auch im Designbereich mit der Adobe Creative Cloud, da ich das als gelernter Mediengestalter natürlich auch kann. Mein Arbeitsplatz ist gut ausgestattet und wenn ich möchte kann ich auch hybrid also mal vor Ort, mal im Homeoffice arbeiten.  
+Ich bin angestellt als Junior Web- und Creation Manager und bin hauptsächlich in der Programmierung tätig. Dafür code ich sogenannte Module, Landingpages und Webseiten, die Nutzer * innen dazu einladen z.B. Whitepaper herunterzuladen oder ihre E-Mail-Adresse zu hinterlassen. Manchmal arbeite ich auch im Designbereich mit der Adobe Creative Cloud, da ich das als gelernter Mediengestalter natürlich auch kann. Mein Arbeitsplatz ist gut ausgestattet und wenn ich möchte kann ich auch hybrid also mal vor Ort, mal im Homeoffice arbeiten.  
 
 ### Wie ist denn der Quereinstieg in die IT gelaufen?  
 
