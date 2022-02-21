@@ -7,11 +7,11 @@ const blog15 = `# “Ich bin dankbar, dass es Supercode gibt und sich Menschen d
 
 ### Hallo Özcan. Gerade einmal einen Monat nach Abschluss des Bootcamps Webentwicklung Full-Stack hast du einen Job in der IT-Branche bekommen. Was machst du da genau?
 
-Ich bin angestellt als Junior Web- und Creation Manager und bin hauptsächlich in der Programmierung tätig. Dafür code ich sogenannte Module, Landingpages und Webseiten, die Nutzer * innen dazu einladen z.B. Whitepaper herunterzuladen oder ihre E-Mail-Adresse zu hinterlassen. Manchmal arbeite ich auch im Designbereich mit der Adobe Creative Cloud, da ich das als gelernter Mediengestalter natürlich auch kann. Mein Arbeitsplatz ist gut ausgestattet und wenn ich möchte kann ich auch hybrid also mal vor Ort, mal im Homeoffice arbeiten.  
+Ich bin angestellt als Junior Web- und Creation Manager und bin hauptsächlich in der Programmierung tätig. Dafür code ich sogenannte Module, Landingpages und Webseiten, die Nutzer * innen dazu einladen z.B. Whitepaper herunterzuladen oder ihre E-Mail-Adresse zu hinterlassen. Manchmal arbeite ich auch im Designbereich mit der Adobe Creative Cloud, da ich das als gelernter Mediengestalter natürlich auch kann. Mein Arbeitsplatz ist gut ausgestattet und wenn ich möchte, kann ich auch hybrid, also mal vor Ort, mal im Homeoffice arbeiten.  
 
 ### Wie ist denn der Quereinstieg in die IT gelaufen?  
 
-Als die Jobzusage kam, dachte ich einfach nur: “Endlich!” Jetzt kann ich mal zeigen, was ich drauf habe! Insgesamt hatte ich dann doch einige Bewerbungen geschrieben, bis es geklappt hat. Nun bin erleichtert und glücklich, dass ich es so gut angetroffen habe.   
+Als die Jobzusage kam, dachte ich einfach nur: “Endlich!” Jetzt kann ich mal zeigen, was ich drauf habe! Insgesamt hatte ich dann doch einige Bewerbungen geschrieben, bis es geklappt hat. Nun bin ich erleichtert und glücklich, dass ich es so gut angetroffen habe.   
 ###
 Es läuft echt super! Mein Chef ist sehr zufrieden mit mir und meine Lernkurve ist wohl überdurchschnittlich hoch. Ich arbeite auch mit dem CRM Hubspot und bin dort in einer Community aktiv, in der Lösungen in Hinblick auf Programmierung und Design entwickelt werden. Dort bin ich sogar schon Champion geworden und habe von meinem Chef ein kleines Geschenk bekommen. Das ist natürlich eine schöne Anerkennung nach so kurzer Zeit.        
 
@@ -27,7 +27,7 @@ Ich bin echt dankbar für den Kurs bei Supercode. Bereits am Anfang wurde mir mi
 ###
 Super fand ich auch die Unterstützung im Bewerbungscoaching, bei dem wir coole Unterlagen erstellt haben und tolle Tipps bekommen haben. So konnte ich meine verschiedenen Berufsfelder gut verpacken und vermarkten und mit einer guten Bewerbung dann einen Job finden. 
 ###
-Ich bin dankbar, dass es sowas wie Supercode gibt und sich Menschen die Zeit dafür nehmen als Trainer * innen anderen etwas beizubringen. 
+Ich bin dankbar, dass es sowas wie Supercode gibt und sich Menschen die Zeit dafür nehmen, als Trainer * innen anderen etwas beizubringen. 
 
 ### Was waren deine größten Herausforderungen im Kurs?
 
