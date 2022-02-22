@@ -1,4 +1,4 @@
-const blog15 = `# “Ich bin dankbar, dass es Supercode gibt und sich Menschen die Zeit dafür nehmen, anderen etwas beizubringen.“ 
+const blog16 = `# “Ich bin dankbar, dass es Supercode gibt und sich Menschen die Zeit dafür nehmen, anderen etwas beizubringen.“ 
  *Interview mit unserem ehemaligen Teilnehmer Özcan über seinen erfolgreichen Quereinstieg in die IT nach dem Bootcamp Webentwicklung Full-Stack bei SuperCode in Düsseldorf.* 
 
 ![blog15](/img/blogs/16/oezcan.png)
@@ -47,4 +47,4 @@ Das Interview führte Natalie Streich im Dezember 2021 via google-meet
 
 `;
 
-export default blog15;
+export default blog16;
