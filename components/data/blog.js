@@ -28,6 +28,8 @@ import blog14 from "../../markdown/blog14";
 import titleBlog14 from "../../markdown/titleBlog14";
 import blog15 from "../../markdown/blog15";
 import titleBlog15 from "../../markdown/titleBlog15";
+import blog16 from "../../markdown/blog16";
+import titleBlog16 from "../../markdown/titleBlog16";
 
 // console.log({ blog7, titleBlog7 });
 let blog = [
@@ -135,6 +137,13 @@ let blog = [
     text: blog15,
     pic: "/img/blogs/15/steffen2_1.png",
     url: "trainer-webentwicklung-steffen",
+  },
+  {
+    id: 15,
+    title: titleBlog16,
+    text: blog16,
+    pic: "/img/blogs/16/oezcan.png",
+    url: "alumni-oezcan-interview",
   },
 ];
 

@@ -56,6 +56,8 @@ module.exports = {
         { page: "/blogs/[blogItem]" },
       "/blogs/Es-ist-einfach-total-schön-ein-Teil-der-persönlichen-Weiterentwicklung-von-Menschen-zu-sein":
         { page: "/blogs/[blogItem]" },
+      "/blogs/Ich-bin-dankbar-dass-es-Supercode-gibt-und-sich-Menschen-die-Zeit-dafür-nehmen-anderen-etwas-beizubringen":
+        { page: "/blogs/[blogItem]" },
     };
   },
 };
