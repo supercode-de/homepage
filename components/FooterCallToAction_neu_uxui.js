@@ -22,8 +22,9 @@ export default function FooterCallToAction_neu() {
       )}
       <div className='buttons'></div>
       <div className='termine'>
-        {/* <h3>27.09.2021 – max. 16 Teilnehmende</h3>
-        <h3>20.12.2021 – max. 16 Teilnehmende</h3> */}
+        <h3>18.07.2022 – max. 16 Teilnehmende</h3>
+        <h3>26.09.2022 – max. 16 Teilnehmende</h3>
+        <h3>21.11.2022 – max. 16 Teilnehmende</h3>
         <span className='jetzt-bewerben-btn'>
           <Typeform_neu_flexible_uxui width='280px' height='50px' />
         </span>

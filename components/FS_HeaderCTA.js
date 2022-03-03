@@ -125,6 +125,7 @@ const HeaderCallToAction_neu = () => {
         .jetzt-bewerben h4 {
           color: #fff;
         }
+
         @media (max-width: 1540px) {
           h3 span.circle::after {
             width: 119%;
