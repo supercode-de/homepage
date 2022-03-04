@@ -296,13 +296,11 @@ const UX_UI_Praxis = () => {
               <div>
                 <h3 className="colorHeader4">
                   {" "}
-                  <span>Plus Skills / Get in Job</span>{" "}
+                  <span>Plus Skills / Portfolio</span>{" "}
                 </h3>
                 <p>
-                  Learn to learn, Presentation Basics, Portfolio vorbereiten für
-                  Bewerbungen, UX-fokussierter Lebenslauf, Basics Jobsuche
-                  UX/UI-Bereich
-                </p>
+                  Learn to learn, Presentation Basics, Portfolio Work
+                                  </p>
               </div>
             )}
             {text5 && (

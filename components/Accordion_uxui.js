@@ -113,9 +113,7 @@ export default function Accordion() {
           ref={refHeight}
         >
           <p aria-hidden={toggle4 ? 'true' : 'false'}>
-            Learn to learn, Presentation Basics, Portfolio vorbereiten für
-            Bewerbungen, UX-fokussierter Lebenslauf, Basics Jobsuche
-            UX/UI-Bereich
+            Learn to learn, Presentation Basics, Portfolio Work
           </p>
         </div>
       </div>
