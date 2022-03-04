@@ -1,12 +1,12 @@
-const FSHeaderTermine = () => {
+const FEHeaderTermine = () => {
     return (<div id="header-termine">
         <div>
             <div className="termine-wrapper">
                 <div className="start-termin">
                     <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                    <h2>21. März</h2>
+                    <h2>28. Februar</h2>
                 </div>
-                <div>Anmeldeschluss bis 18. März</div>
+                <div className="line-through">Anmeldeschluss bis 25. Februar</div>
             </div>
         </div>
         <div>
@@ -22,9 +22,9 @@ const FSHeaderTermine = () => {
             <div className="termine-wrapper">
                 <div className="start-termin">
                     <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                    <h2>26. September</h2>
+                    <h2>21. November</h2>
                 </div>
-                <div>Anmeldeschluss bis 23. September</div>
+                <div>Anmeldeschluss bis 18. November</div>
             </div>
         </div>
         <style jsx>
@@ -38,6 +38,16 @@ const FSHeaderTermine = () => {
                     color: white;
                 }
 
+                #header-termine div:nth-of-type(1) .termine-wrapper h2{
+                    text-decoration: line-through;
+                }
+
+                .line-through{
+                    text-decoration: line-through;
+                }
+
+                
+
                 .termine-wrapper div:nth-child(2){
                     margin-top: 15px;
                 }
@@ -46,6 +56,7 @@ const FSHeaderTermine = () => {
                     display:flex;
                     align-items: center;
                 }
+
 
                 .start-termin img{
                     width: 12px;
@@ -82,4 +93,4 @@ const FSHeaderTermine = () => {
     </div>);
 }
 
-export default FSHeaderTermine;
+export default FEHeaderTermine;
