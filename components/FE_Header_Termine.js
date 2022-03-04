@@ -40,13 +40,13 @@ const FEHeaderTermine = () => {
 
                 #header-termine div:nth-of-type(1) .termine-wrapper h2{
                     text-decoration: line-through;
+                    text-decoration-color: #3dd7ac;
                 }
 
                 .line-through{
                     text-decoration: line-through;
+                    text-decoration-color: #3dd7ac;
                 }
-
-                
 
                 .termine-wrapper div:nth-child(2){
                     margin-top: 15px;
