@@ -127,8 +127,8 @@ class Navigation extends Component {
               >
                 Kurse
               </a>
-
-              <div
+              {/* Arrow für das Dropdown */}
+              {/* <div
                 className={
                   this.state.showDropDown
                     ? 'arrowWrapperNoAnimation'
@@ -136,7 +136,7 @@ class Navigation extends Component {
                 }
               >
                 <img src='/img/navArrow.svg' alt='' />
-              </div>
+              </div> */}
 
               <div
                 // className='kurseList'
@@ -173,7 +173,8 @@ class Navigation extends Component {
               >
                 Workshops
               </a>
-              <div
+              {/* Arrow für das Dropdown */}
+              {/* <div
                 className={
                   this.state.showDropDown_workshops
                     ? 'arrowWrapperNoAnimation_workshops'
@@ -181,7 +182,7 @@ class Navigation extends Component {
                 }
               >
                 <img src='/img/navArrow.svg' alt='' />
-              </div>
+              </div> */}
 
               <div
                 // className='kurseList'
@@ -235,6 +236,10 @@ class Navigation extends Component {
           />
         </div>
         <style jsx>{`
+        .dropper_workshop:hover{
+          text-decoration: underline;
+          text-decoration-color: white;
+        }
           ul {
             list-style-type: none;
             display: flex;
