@@ -1,64 +1,70 @@
 import React from 'react';
 //import './jetzt-anmelden.css'
 import HubspotForm from 'react-hubspot-form';
+import { Component } from 'react/cjs/react.production.min';
 
-const JetztBewerben = (props) => {
+class JetztBewerben2 extends Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+            isHidden: true
+        }
+    }
 
-  let toggleFunc = () => {
-    console.log("superarsch")
-    document.getElementById('jetzt-bewerben').classList.toggle('.isNotHidden')
-  }
-  return (
-    <div
-      id='jetzt-bewerben'
-      className={props.isHiddenBewerben ? 'isHidden' : 'isNotHidden'}
-    >
-      <button
-        className='jetzt-bewerben-close'
-        onClick='toggleFunc()'
-      >
-        &#10539;
-      </button>
+    render() {
+        return (<div>
+            <button className="button-HeaderCallToAction" onClick={() => this.setState({ isHidden: false })}>Jetzt bewerben</button>
+            <div
+                id='jetzt-bewerben'
+                className={this.state.isHidden ? 'isHidden' : 'isNotHidden'}
+            >
+                <button
+                    className='jetzt-bewerben-close'
+                    onClick={() => this.setState({ isHidden: true })}
+                >
+                    &#10539;
+                </button>
 
-      <div className='jetzt-bewerben-container'>
-        <div className='jetzt-bewerben-left'>
-          <h1>Schön, dass</h1>
-          <h1>du dich für</h1>
-          <h1>unsere <span>Kurse</span></h1>
-          <h1> interessierst.</h1>
-          <p>Nun brauchen wir von dir ein paar Angaben und Daten, um mit dir gemeinsam darüber zu sprechen, ob unsere
-            Kurse für dich die richtigen sind.</p>
-          <p>Keine Sorge, wir behandeln deine Daten absolute vertraulich und spammen dich auch nicht zu.</p>
-          <p>Bei Fragen kanst du dich natürlich auch gerne per Mail oder Telefon an uns wenden:</p>
-          <a href="mailto:beratung@super-code.de">beratung@super-code.de</a>
-          <a href="tel:+4921178172330">0211 7817 2330</a>
-        </div>
-        <div className='jetzt-bewerben-right'>
-          <HubspotForm
-            region="na1"
-            portalId="5807040"
-            formId="486258ef-3c64-43c6-bcec-0e7f85f422ce"
-            onSubmit={() => console.log('Submit!')}
-            onReady={(form) => console.log('Form ready!')}
-            loading={<div>Loading...</div>}
-          />
-        </div>
-      </div>
-      <style jsx>
-        {`
-          #jetzt-bewerben {
+                <div className='jetzt-bewerben-container'>
+                    <div className='jetzt-bewerben-left'>
+                        <h1>Schön, dass</h1>
+                        <h1>du dich für</h1>
+                        <h1>unsere <span>Kurse</span></h1>
+                        <h1> interessierst.</h1>
+                        <p>Nun brauchen wir von dir ein paar Angaben und Daten, um mit dir gemeinsam darüber zu sprechen, ob unsere
+                            Kurse für dich die richtigen sind.</p>
+                        <p>Keine Sorge, wir behandeln deine Daten absolute vertraulich und spammen dich auch nicht zu.</p>
+                        <p>Bei Fragen kanst du dich natürlich auch gerne per Mail oder Telefon an uns wenden:</p>
+                        <a href="mailto:beratung@super-code.de">beratung@super-code.de</a>
+                        <a href="tel:+4921178172330">0211 7817 2330</a>
+                    </div>
+                    <div className='jetzt-bewerben-right'>
+                        <HubspotForm
+                            region="na1"
+                            portalId="5807040"
+                            formId="486258ef-3c64-43c6-bcec-0e7f85f422ce"
+                            onSubmit={() => console.log('Submit!')}
+                            onReady={(form) => console.log('Form ready!')}
+                            loading={<div>Loading...</div>}
+                        />
+                    </div>
+                </div>
+            </div>
+            <style jsx>
+                {`
+        #jetzt-bewerben {
             position: fixed;
             padding: 20px;
             background: var(--super-black);
             top: 0;
             bottom: 0;
-            right: -100%;
+            // right: -100%;
             color: var(--super-green);
             transition: all 0.5s;
             width: 100%;
             overflow-y: scroll;
             z-index: 99999;
-          }
+        }
           .isHidden {
             right: -100%;
           }
@@ -74,6 +80,27 @@ const JetztBewerben = (props) => {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 50px;
+          }
+          .button-HeaderCallToAction {
+            margin: 2em 1em;
+            font-family: "Fira Sans", sans-serif;
+            font-size: 14px;
+            line-height: 16px;
+            text-align: center;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 15px 0px;
+            background: transparent;
+            border: 2px solid var(--super-green);
+            color: #fff;
+            justify-self: center;
+            display: inline-block;
+            width: 38.75em;
+            outline: none;
+          }
+          .button-HeaderCallToAction:hover {
+            color: var(--super-lila);
+            background: var(--super-green);
           }
           .jetzt-bewerben-close {
             top: 60px;
@@ -124,6 +151,8 @@ const JetztBewerben = (props) => {
           a:hover{
             text-decoration: underline;
         }
+
+    }
           @media screen and (max-width: 768px) {
             #jetzt-bewerben {
               overflow-y: scroll;
@@ -161,6 +190,10 @@ const JetztBewerben = (props) => {
             }
           }
 
+          .button-HeaderCallToAction {
+            width: 30em;
+          }
+
           @media screen and (max-width: 568px) {
             .jetzt-bewerben-left h1 {
               font-size: 2.3em;
@@ -192,9 +225,10 @@ const JetztBewerben = (props) => {
             }
           }
         `}
-      </style>
-    </div>
-  );
-};
+            </style>
+        </div>
+        );
+    }
+}
 
-export default JetztBewerben;
+export default JetztBewerben2;

@@ -1,4 +1,5 @@
 import Typeform_neu_flexible from "./Typeform_neu_flexible";
+import JetztBewerben2 from "./JetztBewerben2";
 
 const HeaderCallToAction_neu = () => {
   return (
@@ -32,9 +33,12 @@ const HeaderCallToAction_neu = () => {
       <article className="jetzt-bewerben">
         <h4> Bewirb dich jetzt!</h4>
         <span className="btn"></span>
-        <Typeform_neu_flexible width="410px" height="50px" top="50px" />
+        <JetztBewerben2 />
+        {/* <Typeform_neu_flexible width="410px" height="50px" top="50px" /> */}
       </article>
       <style jsx>{`
+
+            
         #header-call {
           padding: 5rem 6%;
           background: var(--super-black);
@@ -105,7 +109,7 @@ const HeaderCallToAction_neu = () => {
         .jetzt-bewerben {
           display: flex;
           align-items: center;
-          width: 70%;
+          width: 90%;
           padding-top: 30px;
           // align-items: end;
         }
