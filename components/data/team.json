@@ -100,5 +100,17 @@
     "name": "Ahmed Nasr",
     "job": "Trainer Webentwicklung Full-Stack",
     "team": "fullstack"
+  },
+  {
+    "img": "/img/team/Max_Borret_Trainer_Fullstack.png",
+    "name": "Maximillian Borret",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
+    "img": "/img/team/Stefan_Selinger_Trainer_Fullstack.png",
+    "name": "Stefan Selinger",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
   }
 ]
