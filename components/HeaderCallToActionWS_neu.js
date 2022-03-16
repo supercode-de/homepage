@@ -1,4 +1,4 @@
-import Typeform from "./TypeForm_neu";
+import JetztBewerben2 from './JetztBewerben2';
 
 const HeaderCallToAction_neu = () => {
   return (
@@ -12,7 +12,7 @@ const HeaderCallToAction_neu = () => {
         </span>
       </h2>
       <div className="buttons">
-        <Typeform />
+        <JetztBewerben2 />
       </div>
       <style jsx>{`
         #header-call {
