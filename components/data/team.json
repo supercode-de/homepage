@@ -48,20 +48,14 @@
     "team": "beratung"
   },
   {
-    "img": "/img/team/Eric Noack Trainer Webentwicklung.jpg",
-    "name": "Eric Noack",
-    "job": "Trainer Webentwicklung Full-Stack",
+    "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.png",
+    "name": "Finn Schlottmann",
+    "job": "Developer",
     "team": "fullstack"
   },
   {
     "img": "/img/team/Steffen_Kloempges_Trainer_Fullstack.png",
     "name": "Steffen Klömpges",
-    "job": "Trainer Webentwicklung Full-Stack",
-    "team": "fullstack"
-  },
-  {
-    "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.png",
-    "name": "Finn Schlottmann",
     "job": "Trainer Webentwicklung Full-Stack",
     "team": "fullstack"
   },
