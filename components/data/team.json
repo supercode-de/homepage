@@ -96,7 +96,7 @@
     "team": "fullstack"
   },
   {
-    "img": "/img/team/Ahmed_Nasr_Trainer_Fullstack.jpg",
+    "img": "/img/team/Ahmed_Nasr_Trainer_Fullstack.png",
     "name": "Ahmed Nasr",
     "job": "Trainer Webentwicklung Full-Stack",
     "team": "fullstack"
@@ -112,5 +112,11 @@
     "name": "Stefan Selinger",
     "job": "Trainer Webentwicklung Full-Stack",
     "team": "fullstack"
+  },
+  {
+    "img": "/img/team/Leon_Feelgood_Manager.png",
+    "name": "Leon",
+    "job": "Feelgood Manager & Head of Everything",
+    "team": "feelgood"
   }
 ]
