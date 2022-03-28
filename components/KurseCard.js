@@ -21,7 +21,7 @@ const KurseCard = (props) => {
       </div>
       <div className='text'>
         <p>{umfang}</p>
-        <p>{start}</p>
+        {/* <p>{start}</p> */}
         <p>{copy}</p>
       </div>
       <div className='buttons'>

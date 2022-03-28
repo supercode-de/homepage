@@ -33,6 +33,7 @@ class Layout extends Component {
     return (
       <div id='super-layout'>
         <Head>
+          <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
           <meta
             property='og:image:secure'
             content='https://www.super-code.de/img/page-preview.jpg'
@@ -136,7 +137,6 @@ class Layout extends Component {
             #blogDetails .right img {
               width: 50% !important;
               margin-top: 40px;
-              margin-bottom: 40px;
             }
             #blogDetails .right p {
               font-size: 1.125rem;
@@ -412,7 +412,13 @@ class Layout extends Component {
 
             @media (max-width: 458px) {
               #blogDetails .right h1 {
-                font-size: 2.2em;
+                font-size: 2em;
+              }
+              #blogDetails .right h3 {
+                margin-top: 50px;
+              }
+              #blogDetails .right img {
+                width: 70% !important;
               }
             }
           `}

@@ -48,32 +48,14 @@
     "team": "beratung"
   },
   {
-    "img": "/img/team/Anass Nebarri Trainer Webentwicklung Full-Stack.jpg",
-    "name": "Anass Nebbari",
-    "job": "Head of Training & Trainer Webentwicklung Full-Stack",
-    "team": "fullstack"
-  },
-  {
-    "img": "/img/team/Elaine Wong Trainer Webentwicklung Full-Stack.jpg",
-    "name": "Elaine Wong",
-    "job": "Trainerin Webentwicklung Full-Stack",
-    "team": "fullstack"
-  },
-  {
-    "img": "/img/team/Eric Noack Trainer Webentwicklung.jpg",
-    "name": "Eric Noack",
-    "job": "Trainer Webentwicklung Full-Stack",
+    "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.png",
+    "name": "Finn Schlottmann",
+    "job": "Developer",
     "team": "fullstack"
   },
   {
     "img": "/img/team/Steffen_Kloempges_Trainer_Fullstack.png",
     "name": "Steffen Klömpges",
-    "job": "Trainer Webentwicklung Full-Stack",
-    "team": "fullstack"
-  },
-  {
-    "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.jpg",
-    "name": "Finn Schlottmann",
     "job": "Trainer Webentwicklung Full-Stack",
     "team": "fullstack"
   },
@@ -86,7 +68,7 @@
   {
     "img": "/img/team/Franziska_Hoevelmanns_Trainerin.png",
     "name": "Franzi Hövelmanns",
-    "job": "Trainerin Webentwicklung Front-End",
+    "job": "Trainerin Webentwicklung Front-End & Head of Design",
     "team": "frontend"
   },
   {
@@ -100,5 +82,35 @@
     "name": "Ruben Wellinger",
     "job": "Trainer UX/UI-Design",
     "team": "uxui"
+  },
+  {
+    "img": "/img/team/Simon_Hoffmann_Trainer_Fullstack.jpg",
+    "name": "Simon Hoffmann",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
+    "img": "/img/team/Ahmed_Nasr_Trainer_Fullstack.png",
+    "name": "Ahmed Nasr",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
+    "img": "/img/team/Max_Borret_Trainer_Fullstack.png",
+    "name": "Maximillian Borret",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
+    "img": "/img/team/Stefan_Selinger_Trainer_Fullstack.png",
+    "name": "Stefan Selinger",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
+    "img": "/img/team/Leon_Feelgood_Manager.png",
+    "name": "Leon",
+    "job": "Feelgood Manager & Head of Everything",
+    "team": "feelgood"
   }
 ]

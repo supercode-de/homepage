@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import Beratung from './Beratung';
 import Typeform_neu_flexible from './Typeform_neu_flexible';
+import JetztBewerben2 from './JetztBewerben2';
+
 export default function FooterCallToAction_neu() {
   return (
     <div id='call-to-action' className='footerCTA'>
@@ -14,7 +16,7 @@ export default function FooterCallToAction_neu() {
         <h3>21.03.2022 – max. 16 Teilnehmende</h3>
         <h3>20.06.2022 – max. 16 Teilnehmende</h3>
         <span className='jetzt-bewerben-btn'>
-          <Typeform_neu_flexible width='280px' height='50px' />
+          <JetztBewerben2 />
         </span>
       </div>
       <style jsx>{`

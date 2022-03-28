@@ -138,7 +138,7 @@ const WorkIT = (props) => {
             </h4>
 
             <p>
-              Umfang: 3 Stunden / 15:00-18:00 Uhr <br />
+              Umfang: 3 Stunden / 18:00-21:00 Uhr <br />
               Start: immer donnerstags - mit Anmeldung
             </p>
             <p>
