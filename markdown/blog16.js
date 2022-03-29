@@ -12,7 +12,7 @@ Ich bin angestellt als Junior Web- und Creation Manager und bin hauptsächlich i
 ### Wie ist denn der Quereinstieg in die IT gelaufen?  
 
 Als die Jobzusage kam, dachte ich einfach nur: “Endlich!” Jetzt kann ich mal zeigen, was ich drauf habe! Insgesamt hatte ich dann doch einige Bewerbungen geschrieben, bis es geklappt hat. Nun bin ich erleichtert und glücklich, dass ich es so gut angetroffen habe.   
-###
+
 Es läuft echt super! Mein Chef ist sehr zufrieden mit mir und meine Lernkurve ist wohl überdurchschnittlich hoch. Ich arbeite auch mit dem CRM Hubspot und bin dort in einer Community aktiv, in der Lösungen in Hinblick auf Programmierung und Design entwickelt werden. Dort bin ich sogar schon Champion geworden und habe von meinem Chef ein kleines Geschenk bekommen. Das ist natürlich eine schöne Anerkennung nach so kurzer Zeit.        
 
 ### Was hast du vorher gemacht und wie bist du dann zu Supercode gekommen?
@@ -22,7 +22,7 @@ Ursprünglich habe ich Mediengestalter gelernt, konnte in der Branche aber nie s
 ### Was waren deine Highlights im Kurs und für was bist du dankbar? 
 
 Meine Highlights waren auf jeden Fall die vielen praktischen Übungen, für die man Punkte und ein Feedback bekommen hat. Ich fand es auch gut, so viele verschiedene Menschen aus unterschiedlichen Branchen kennenzulernen.  
-###
+
 Ich bin echt dankbar für den Kurs bei Supercode. Bereits am Anfang wurde mir mit den Formularen und der Finanzierung über einen Bildungsgutschein sehr geholfen und als der Kurs dann gestartet ist habe ich mich einfach gefreut. Im Kurs selbst lief es für mich durchgehend gut. Und selbst das größte Brett vorm Kopf verschwindet, wenn man dann endlich auf die Lösung kommt. Ich bin von Anfang an entspannt an den Kurs rangegangen. 
 ###
 Super fand ich auch die Unterstützung im Bewerbungscoaching, bei dem wir coole Unterlagen erstellt haben und tolle Tipps bekommen haben. So konnte ich meine verschiedenen Berufsfelder gut verpacken und vermarkten und mit einer guten Bewerbung dann einen Job finden. 
@@ -36,9 +36,9 @@ Besonders am Ende, als wir den Backend-Teil gelernt haben und uns auch parallel 
 ### Was gibst du IT-Quereinsteiger * innen mit auf den Weg? 
 
 Macht weiter mit dem Coding und bleibt dran! Nach dem Bootcamp hört das Lernen nicht auf und beim Jobeinstieg wird man mit viel Neuem konfrontiert. Wenn man aber die Logik des Codens einmal verstanden hat, kann man schnell umdenken und neues Wissen aufnehmen. Gut sind da natürlich Kontakte mit anderen Coder * innen, die einem helfen können. 
-###
+
 Ganz wichtig sind auch eigene Webprojekte: Sei es eine Katzen-Webseite oder ein Schmuckblog für Halsketten der siebenjährigen Nichte. Hauptsache man macht weiter und wendet das Gelernte weiter an.    
-###
+
 Man kann Webentwicklung in 5 Monaten lernen, sollte sich aber nicht darauf ausruhen. Es ist wie mit jeder anderen Sprache: Man lernt die Vokabeln und dann heißt es machen, machen, machen!  
 
 ### Vielen Dank für das Interview, Özcan und viel Freude in deinem neuen Job!
