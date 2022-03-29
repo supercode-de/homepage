@@ -1,8 +1,8 @@
 module.exports = {
-  devIndicators: {
-    autoPrerender: false,
-  },
-  exportPathMap: function () {
+  exportPathMap: async function (
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId }
+  ) {
     return {
       "/": { page: "/" },
       "/kurse": { page: "/kurse" },
