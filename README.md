@@ -10,6 +10,10 @@ TzTermin2: der nächste **TZ** Kurs (Startdatum)
 VzTzMonth: der **Monat** für den CallToAction **Index-Seite + Kurs-Seite**   
 WorkshopMont": der **Monat** für den CallToAction **Workshop-Seite**   
 
+### Gendern im Blog
+Wenn gegendert wird bitte wie folgt schreiben:
+Nutzer\\*innen 
+
 ### Um weitere Blog-Einträge hinzuzufügen:
 `./components/data/blog.json`
 
