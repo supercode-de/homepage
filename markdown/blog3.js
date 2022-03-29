@@ -92,13 +92,6 @@ optimaler online Arbeitsbedingungen ist der richtige Kontakt natürlich total gu
 Danke Adriaan für deine Offenheit und die Einblicke in dein Leben und deine Arbeit.
 
 Das Interview führte Natalie Streich
-über Google Meet im April 2020
-
-
-
-
-
-
-`;
+über Google Meet im April 2020`;
 
 export default blog3;

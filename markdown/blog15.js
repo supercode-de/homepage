@@ -27,9 +27,9 @@ Steffen und Natalie im Interview
 
 ### Wie war es für dich als Teilnehmer im Bootcamp Webentwicklung? Was hat dir gefallen?
 
-Ich war total fasziniert, was man mit Code alles noch so machen kann. Layouts nur aus Code heraus zu gestalten fand ich einfach toll. Am liebsten habe ich dabei mit SASS gearbeitet, weil es so schön übersichtlich ist. Die Welt von JavaScript hat es mir dann richtig angetan, denn sobald das ins Spiel kommt, passiert die Magie: Durch schöne Animationen, Loading Screens und alles, was mit den Benutzer * innen interagiert, gibt man Leben in die Webseite!
+Ich war total fasziniert, was man mit Code alles noch so machen kann. Layouts nur aus Code heraus zu gestalten fand ich einfach toll. Am liebsten habe ich dabei mit SASS gearbeitet, weil es so schön übersichtlich ist. Die Welt von JavaScript hat es mir dann richtig angetan, denn sobald das ins Spiel kommt, passiert die Magie: Durch schöne Animationen, Loading Screens und alles, was mit den Benutzer\\*innen interagiert, gibt man Leben in die Webseite!
 
-### Gemeinsam mit dem/der Assistant-Trainer * in leitest du nun die Bootcamps Webentwicklung, in denen bis zu 16 erwachsene IT-Quereinsteiger * innen sitzen. Wie ist das für dich?
+### Gemeinsam mit dem/der Assistant-Trainer\\*in leitest du nun die Bootcamps Webentwicklung, in denen bis zu 16 erwachsene IT-Quereinsteiger\\*innen sitzen. Wie ist das für dich?
 
 Ich kenne beide Perspektiven, das sehe ich als Vorteil. Ich habe über die Jahre selbst an sehr vielen Fortbildungen teilgenommen und konnte gut beobachten, welche Lehrmethoden gut oder weniger gut sind und worauf man achten sollte. Ich konnte mir also viel abgucken.
 

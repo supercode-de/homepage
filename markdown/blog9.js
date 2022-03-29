@@ -17,7 +17,7 @@ Die zweite Gruppe beschäftigte sich mit der Frage, wie man in solch unsicheren 
 
 Mit der Webseite Ex-Change gelingt es den Teilnehmenden eine optisch ansprechende und responsive Plattform über die Finanzwelt zu erschaffen, die auf einen Blick anzeigt, wo es sich lohnen könnte zu investieren, um sein Vermögen zu schützen. Neben einer Suchfunktion für alle gängigen Unternehmensaktien, gibt es eine intuitiv bedienbare Zoom-Funktion, um sich bestimmte Zeiträume als Detailansicht anzeigen zu lassen. Außerdem findet man gute Infos, was Bitcoin & Co eigentlich genau sind, was man damit machen kann und wie die Kurse gerade stehen. Sinnvoll ist auch die News-Kategorie, die wichtige Themen aus der Finanzwelt anzeigt. 
 Für dieses anspruchsvolle Projekt mussten die Teilnehmende einige Daten-Schnittstellen (sogenannte APIs) anzapfen, haben fleißig mit HTML, CSS und Javascript gecodet und das Ergebnis kann sich coding-technisch und optisch absolut sehen lassen. Well done! [Ex-Change](http://tiny.cc/s8evtz)
- 
+
 ![blog9](/img/blogs/9/image6.png)
 
 ![blog9](/img/blogs/9/image3.png)
@@ -25,9 +25,9 @@ Für dieses anspruchsvolle Projekt mussten die Teilnehmende einige Daten-Schnitt
 
 ## *Home of fine drinking: Forty*
 If life gives you lemons...mach einfach eine Cocktail-Webseite draus! Noch besser: Gestalte sie so, dass sie besonders in der mobilen Ansicht großen Appetit auf selbstgemachte Cocktails macht! Das könnte das Motto der dritten Gruppe bei ihrem Projekt FORTY gewesen sein, denn sobald man auf der Startseite ist, überzeugt einen das Design und die ausgesuchten Bilder, sich der Kunst des Cocktail-Mixens zu widmen.    
- 
+
 Die Cocktail-Seite ist in einem schönen schwarz gehalten und bietet neben einer Rubriksuche nach z.B. Rum, Gin oder Wodka, einen Button zur zufälligen Cocktail-Inspiration. Besonders die mobile Version bietet eine schicke Übersicht, die direkt Lust aufs Einkaufen der Zutaten macht und bei Bedarf die Zutaten sogar direkt online bestellt. Zugegriffen wird auf eine Cocktail-Datenschnittstelle (API), die die Daten für die Rezepte liefert. Programmiert ist die Seite mit HTML, CSS sowie Javascript mit React.js. Zukünftig soll es auch noch eine Suche geben, um bekannte Cocktails einzugeben und anschließend seine Favoriten zu speichern. Außerdem ist ein Bewertungssystem für die einzelnen Rezepte in Planung. Der Name der Seite erschließt sich übrigens aus den Haupt-Rubriken der Alkohol-Sorten, die fast alle über 40% Schuss haben. 
-  
+
 Schau hier: [FORTY](http://tiny.cc/t8evtz)  
 
 

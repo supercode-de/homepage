@@ -47,7 +47,7 @@ Lea Heidjann ist Teilnehmerin des aktuellen Kurses Webentwicklung Front-End und 
 ## Gemeinsam für mehr Vielfalt in der IT – Unsere Partnerschaften für das Stipendium 
 
 Der SuperDigital e. V. ist der Träger des Stipendiums. Er motiviert Menschen, sich aktiv an der Gestaltung der digitalen Welt und der Gesellschaft zu beteiligen und Programmierung zu lernen. Neben dem Förderprogramm initiiert der SuperDigital e. V. Workshops und Diskussionsrunden über essentielle Fragen des digitalen Miteinanders. [www.super-digital.xyz](www.super-digital.xyz)
- 
+
 
 SuperCode ist ein IT-Bildungsträger nach AZAV für digitale Bildung in Düsseldorf und bietet zertifizierte Weiterbildungen im Bereich Webentwicklung Full-Stack und Front-End, UX/UI-Design, sowie Bewerbungscoaching Schwerpunkt IT und kostenlose Coding- und Design-Workshops an. SuperCode steht für “Digitale Bildung für alle” und setzt sich für mehr Bildungsgerechtigkeit im digitalen Bereich ein. Durch die qualitativ hochwertigen Weiterbildungsangebote schaffen über 70% der Teilnehmenden den Quereinstieg in die IT-Welt. [www.super-code.de](www.super-code.de)
 

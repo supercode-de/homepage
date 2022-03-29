@@ -58,7 +58,7 @@ module.exports = {
         { page: "/blogs/[blogItem]" },
       "/blogs/Ich-bin-dankbar-dass-es-Supercode-gibt-und-sich-Menschen-die-Zeit-dafür-nehmen-anderen-etwas-beizubringen":
         { page: "/blogs/[blogItem]" },
-      "/blogs/SuperCode-hat-laufen-gelernt-sich-hier-und-da-mal-gestoßen-und-steht-jetzt-selbstbewusst-im-Bildungsmarkt":
+      "/blogs/supercode-hat-laufen-gelernt-sich-hier-und-da-mal-gestoßen-und-steht-jetzt-selbstbewusst-im-bildungsmarkt":
         { page: "/blogs/[blogItem]" }
     };
   },
