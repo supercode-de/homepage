@@ -1,5 +1,19 @@
 # SuperCode Homepage
 
+### Unsere Branches
+Die Website, die LIVE über super-code.de zu erreichen ist läuft über den Master Branch. Hier bitte immer nur die jeweiligen branches mergen und im besten Fall nicht dort selbst arbeiten.
+
+Für Features, die NICHTS mit dem Blog zutun haben bitte folgenden Branch nutzen: main-dev.
+
+Falls ihr einen Blog Artikel einstellen wollte bitte über den blog-dev Branch.
+
+Aktuell (29.03.22) sind folgende Branches auf dem gleichen Stand von dem Master Branch:
+- main-dev
+- blog-dev
+
+Der "alte" Dev Branch ist aktuell in einem nicht funktionalen Stand, das bedeutet, dass der Blog in diesem Branch nicht auf netlify funktioniert. Die Artikel werden lokal angezeigt, auf Netlify aber nicht. Bisher habe ich dafür noch keine Lösung finden können.
+
+
 ### Um Daten für die Kursstarte zu ändern:
 `./components/data/dates.json`
     
@@ -9,6 +23,11 @@ TzTermin1: der **TZ** Kurs, der bereits läuft
 TzTermin2: der nächste **TZ** Kurs (Startdatum)   
 VzTzMonth: der **Monat** für den CallToAction **Index-Seite + Kurs-Seite**   
 WorkshopMont": der **Monat** für den CallToAction **Workshop-Seite**   
+
+### Gendern im Blog
+Wenn gegendert wird bitte wie folgt schreiben:
+Nutzer\\ * innen 
+OHNE Leerzeichen zwischen \\ * und innen. Alles zusammenhängend. Dann brauchen wir im markdown die Leerzeichen nicht mehr zwischen * und den Wortteilen.
 
 ### Um weitere Blog-Einträge hinzuzufügen:
 `./components/data/blog.json`
