@@ -12,7 +12,8 @@ WorkshopMont": der **Monat** für den CallToAction **Workshop-Seite**
 
 ### Gendern im Blog
 Wenn gegendert wird bitte wie folgt schreiben:
-Nutzer\\\*innen 
+Nutzer\\ * innen 
+OHNE Leerzeichen zwischen \\ * und innen. Alles zusammenhängend. Dann brauchen wir im markdown die Leerzeichen nicht mehr zwischen * und den Wortteilen.
 
 ### Um weitere Blog-Einträge hinzuzufügen:
 `./components/data/blog.json`
