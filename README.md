@@ -12,7 +12,7 @@ WorkshopMont": der **Monat** für den CallToAction **Workshop-Seite**
 
 ### Gendern im Blog
 Wenn gegendert wird bitte wie folgt schreiben:
-Nutzer\\*innen 
+Nutzer\\\*innen 
 
 ### Um weitere Blog-Einträge hinzuzufügen:
 `./components/data/blog.json`
