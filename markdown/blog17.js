@@ -2,9 +2,9 @@ const blog17 = `# “SuperCode hat laufen gelernt, sich hier und da mal gestoße
 
 Wir feiern Geburtstag! 🎂 Zum dreijährigen Bestehen von SuperCode führen wir ein Interview mit Sérgio Cardeal über die ersten Schritte, blaue Flecken und den Zauber, nicht immer einen Plan zu haben. 
 
-![blog17](/img/blogs/17/blog17_01.jpg)
+![blog17](/img/blogs/17/blog17_01.png)
 
-Sérgio im SuperCode-Büro in Düsseldorf.
+Sérgio in seinem zweiten Wohnzimmer im Supercode-Büro in Düsseldorf
 
 ### Zunächst einmal, wer bist du und was machst du?
 
@@ -22,7 +22,7 @@ Dieser sollte aber dann kein klassischer Bildungsträger sein, sondern ein moder
 
 ![blog17](/img/blogs/17/blog17_02.png)
 
-SuperCode goes Portugal: Erasmus+ Austausch mit einem portugiesischen IT-Bildungsträger.  
+Kurz nach der Gründung von Supercode 2019: Sérgio mit Bildungsberater Shapour und operativer Leitung Kim  
 
 ### Was hast du vorher gemacht?
 
@@ -40,7 +40,7 @@ Ganz stolz sind wir auf den engen Austausch, den wir mit anderen Bildungsanbiete
 
 ![blog17](/img/blogs/17/blog17_03.png)
 
-Sergio erklärt mit einem schönen MacBook in der Hand die Welt.
+Sergio erklärt mit einem schönen MacBok in der Hand die Welt.
 
 ### Was sind die Ups und Downs der letzten 3 Jahre? 
 
@@ -60,7 +60,7 @@ Von daher blicken wir nur positiv in die Zukunft und bleiben weiterhin schön lo
 
 ![blog17](/img/blogs/17/blog17_04.png)
 
-Zwei fröhliche Männer stehen in einem schönen Büro.
+Zwei Männer stehen knackig in einem schönenen Büro.
 
 ### Was ist der Plan? Auf was bist du stolz und inwiefern bist du hier über dich hinausgewachsen? 
 
@@ -77,7 +77,7 @@ Meine Superkraft ist die Fähigkeit, auch bei totaler Ahnungslosigkeit recht sic
 Vielen Dank für das Interview, Sergio! Wir freuen uns mit dir über das dreijährige Bestehen von Supercode und natürlich freuen wir uns auf alle zukünftigen Entwicklungen! 
 Das Interview führte Laura im März 2022.
 
-Fotos: Jakob Wagner / jakobwagner.eu
+Fotos: Supercode/privat
 `;
 
 export default blog17;

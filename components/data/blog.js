@@ -152,7 +152,7 @@ let blog = [
     id: 16,
     title: titleBlog17,
     text: blog17,
-    pic: "/img/blogs/17/blog17_01.jpg",
+    pic: "/img/blogs/17/blog17_01.png",
     url: "supercode-ceo-3-jahre",
   },
 ];
