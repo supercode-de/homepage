@@ -18,6 +18,7 @@ Live leider noch gar nicht! Durch Corona läuft alles vom Bewerbungsprozess bis 
 ### Mit welchem Tech-Stack arbeitest du jetzt? 
 
 Viel mit Javascript, ansonsten noch Photoshop für die Vorlagen (z.B. zum Exportieren der Bilder), dann mit APIs über den Werbeanbieter. Es gibt ein Template, das ich mit CSS und javascript bearbeite und z.B. APIs oder anderer Funktionen einfüge. Später werde ich auch einige Templates selber machen. 
+
 ### Ist die Arbeit so, wie du dir sie vorgestellt hast? 
 
 Sie ist sogar noch besser! Werbung im Internet ist viel cooler als man denkt und ich bin begeistert von den verschiedenen grafischen Möglichkeiten, die ich dann mit javascript umsetze. Der Prozess von der Umsetzung in Code, über das Feedback, der erneuten Bearbeitung bis zur Freigabe finde ich super und ich kann mich auch mit meinen Ideen einbringen. Ich lerne auch viel über rechtliche Richtlinien, die man z.B. in Google Chrome bei Werbung einhalten muss. Es ist wirklich ein abwechslungsreicher Job, bei dem auch der eigene Kopf gefragt ist.  
@@ -48,23 +49,18 @@ Zwischen den Coding-Einheiten gab es immer mal wieder Workshops zu bestimmten Th
 
 Herausfordernd war es, mich zu hause abends und am Wochenende in meiner freien Zeit nochmal an die Projekte zu setzen und weiter zu arbeiten. Das war neben den acht Stunden Coden täglich schon intensiv. Aber mit ein bisschen Überwindung hat es geklappt und die Mühe hat sich definitiv gelohnt. 
 
-
 ### Möchtest du anderen Quereinsteiger\\*innen noch etwas mit auf den Weg geben? 
 
 Wenn man wirklich coden will und seine Zukunft im Coding-Bereich sieht, darf man sich nicht davon abbringen lassen und muss es einfach versuchen. Man muss sich selbst vertrauen, an sich glauben und der Rest kommt von alleine. Auch ohne Abschluss kann man in Deutschland arbeiten und die Branche ist recht offen für Quereinsteiger\\*innen. 
 Natürlich muss man auch viel Arbeit reinstecken, an den richtigen Stellen Gas geben und sich auch neben dem Kurs mit Coding beschäftigen. Aber: Appetit kommt beim Essen und sobald man anfängt zu coden, kommt man in den Flow, probiert Sachen aus und wird dadurch immer besser! 
 
-###
 Vielen Dank für das Interview Daniel und alles Gute für deine Zukunft als Junior Web-Developer.
 
-###
 Das Interview führte Natalie Streich im März 2021 via Google-Meet.
 
-###
 Daniel wurde vor Kurzem eine Stelle als Entwickler in einem anderen Unternehmen angeboten, die sogar noch besser zu ihm passt. So kann es gehen: Erst Pfleger, dann begehrte IT-Fachkraft, 
 der die Stellen nur so zufliegen ;)
 
-###
 *Bilder: SuperCode*  
 `;
 

@@ -29,9 +29,9 @@ UI-Designer\\*innen haben die Aufgabe diese Interaktion möglichst effizient, ef
 ## SuperCode und UX/UI-Design – Wie passt das zusammen? 
 
 Als junger, frischer IT-Bildungsträger stehen wir für Innovation, Transparenz und moderne Methoden. Der Bereich UX/UI-Design war von Anfang an integraler Bestandteil unserer Bootcamps Webentwicklung Frontend und Full-Stack. Gute Webseiten und Webapps sind nicht nur funktional, sondern eben auch visuell ansprechend und leicht bedienbar. Unsere Erfahrungen in den Bootcamps Webentwicklung zeigen, dass besonders Teilnehmende, die aus der Kreativ- und Medienbranche kommen, ein gutes Gespür für die Nutzerzentrierung von Digitalprodukten haben und auch die gängigen Designtools wie die Adobe Creative Cloud und das Tool Figma gut beherrschen. 
-###
+
 Also fragten wir uns, wie wir diese Menschen so fördern können, dass sie an ihre bisherigen Kenntnisse anknüpfen und diese so erweitern können, um sich zur gefragten Fachkraft im Digital-Sektor weiterzubilden. Voila, das Bootcamp UX/UI-Design war geboren. In Zusammenarbeit mit Fachexpert\\*innen aus der Praxis stellten wir ein Curriculum zusammen, dass alle wichtigen Module enthält, um als UX/UI-Designer\\*in beruflich durchstarten zu können. 
-###
+
 Alle unsere Kurse sind zertifizierte Bildungsangebote, deren Konzeption und Umsetzung regelmäßig geprüft und optimiert werden. Sie sind außerdem förderbar durch einen Bildungsgutschein, durch die Chancen EG oder durch die WEITER.BILDUNG! – Qualifizierungs­offensive der Agentur für Arbeit, die es Firmen ermöglicht ihre Mitarbeitenden kostenlos für die Digitalisierung fit zu machen. Das geht? Ja, das geht! Dazu beraten wir euch gerne.
 
 ![blog13](/img/blogs/13/ux-02.png)
@@ -39,14 +39,14 @@ Alle unsere Kurse sind zertifizierte Bildungsangebote, deren Konzeption und Umse
 ## Gestalte die schönsten Digital-Produkte von morgen!  
 
 Bei uns lernt ihr nicht nur das richtige Mindset zu entwickeln, sondern auch, wie ihr UX richtig anwendet, UIs optimal gestaltet und Prototypen vor den Kund\\*innen erfolgreich präsentiert. Darüber hinaus erstellt ihr ein Portfolio mit Projekten, mit dem ihr Unternehmen euer Können präsentiert. Kurz gesagt: Ihr werdet lernen eure Leidenschaft und eure Liebe für gutes Design endlich sinnbringend einzusetzen und die schönstens Digitalprodukte von morgen mitzugestalten.
-###
+
 Neugierig geworden? Dann schnupper rein in unseren kostenlosen Workshop: [www.eventbrite.de/o/supercode](https://www.eventbrite.de/o/supercode) oder melde dich schnell an.  
-###
+
 Das nächste Bootcamp UX/UI-Design startet schon bald und es sind noch wenige Plätze frei! Jetzt bewerben unter: [www.super-code.de/kurse/uxui](https://www.super-code.de/kurse/uxui) 
 
-###
+
 Text: Natalie Streich
-###
+
 *Bilder: SuperCode*
 
 `;

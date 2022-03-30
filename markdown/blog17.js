@@ -73,7 +73,6 @@ Ich wünsche mir, dass wir als Gesellschaft die Pandemie ohne große Folgen übe
 Meine Superkraft ist die Fähigkeit, auch bei totaler Ahnungslosigkeit recht sicher dazustehen. Und vor allem Sachen zu machen, auch wenn alle sagen, die gehen nicht.
 
 
-
 Vielen Dank für das Interview, Sergio! Wir freuen uns mit dir über das dreijährige Bestehen von Supercode und natürlich freuen wir uns auf alle zukünftigen Entwicklungen! 
 Das Interview führte Laura im März 2022.
 

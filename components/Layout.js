@@ -135,7 +135,7 @@ class Layout extends Component {
               font-size: 4em;
             }
             #blogDetails .right img {
-              width: 50% !important;
+              width: 100%;
               margin-top: 40px;
             }
             #blogDetails .right p {
@@ -144,7 +144,10 @@ class Layout extends Component {
               text-align: left;
             }
             
-
+            #blogDetails .right p p {
+              width: 90%;
+              margin: 0 auto;
+            }
 
             // Vermuteter Blogstyle
             #blogDetails .right a {
@@ -160,9 +163,9 @@ class Layout extends Component {
               text-align: left;
             }
             #blogDetails .right h3 {
-              font-family: 'Neue_Machina_Ultrabold';
-              font-size: 1.2rem;
-              line-height: 28px;
+              font-family: 'Neue_Machina_Light';
+              font-size:3.125rem;
+              line-height: normal;
             }
 
             #blogDetails .right em {
