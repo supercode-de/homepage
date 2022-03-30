@@ -57,7 +57,7 @@ Aber der Mehraufwand lohnt sich, denn alle Menschen kommen immer mit einer Gesch
 Wir haben flache Hierarchien, schnelle Wege über Messenger und damit den direkten Draht zu allen Abteilungen. Das gefällt mir! Generell sind alle gut drauf, bringen eine gute Portion Humor mit und nehmen sich selbst nicht zu ernst. Ich arbeite gerne mit Menschen zusammen, die auch über sich selbst lachen können. Als ich neu im Team war, wurde ich sofort aufgenommen, als hätte ich schon immer dazu gehört. So nach dem Motto. “Wir sind die SuperCode-Familie. Herzlich willkommen, du bist jetzt hier der neue Cousin.”
 
 ### Letzte Frage: Was ist deine geheime Superkraft?
- 
+
 Ich bin der Prototyp der Lerche: Ich stehe morgens sehr früh auf und bin sofort total produktiv. Gegen Abend schwächel ich dann natürlich etwas. Mein treuer Gefährte ist mein Hund Barney, er wärmt meine Füße, wenn ich am Schreibtisch sitze. Im Gegensatz zu mir ist Barney allerdings immer müde…
 
 ![blog15](/img/blogs/15/barny.png)
