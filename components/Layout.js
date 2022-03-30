@@ -91,7 +91,7 @@ class Layout extends Component {
         {this.props.oneComponent ? '' : <Footer_neu />}
 
         <style jsx global>
-          {`
+{`
             // @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700|Fira+Sans:100,200,300,400,500,600,700,800,900&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
@@ -135,7 +135,7 @@ class Layout extends Component {
               font-size: 4em;
             }
             #blogDetails .right img {
-              width: 50% !important;
+              width: 100%;
               margin-top: 40px;
             }
             #blogDetails .right p {
@@ -144,7 +144,11 @@ class Layout extends Component {
               text-align: left;
             }
             
-
+            #blogDetails .right p p {
+              border: 1px solid red;
+              width: 90%;
+              margin: 0 auto;
+            }
 
             // Vermuteter Blogstyle
             #blogDetails .right a {
@@ -158,6 +162,7 @@ class Layout extends Component {
             }
             #blogDetails .right h2 {
               text-align: left;
+              font-size: 50px;
             }
             #blogDetails .right h3 {
               font-family: 'Neue_Machina_Ultrabold';

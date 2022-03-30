@@ -56,49 +56,9 @@ const BlogDetails = (props) => {
         </Link>
       </footer>
       <style jsx>{`
-        // Styling für einzelne Blogartikel Start
-        // .blog11>section>article>p>p:nth-of-type(11)  {
-        // funktioniert leider nicht
-        //   width: 100% !important;
-        //   // display: none;
-        //   background: red !important;
-        // }
-        // Styling für einzelne Blogartikel Ende
-
         #blogDetails {
           color: #fff;
         }
-
-        section {
-          //  display: flex;
-        }
-
-        // section .right {
-        //   overflow-y: auto;
-        //   height: 90vh;
-        // }
-
-        // section .left {
-        //   height: 90vh;
-        //   display: flex;
-        //   flex-direction: column;
-        //   justify-content: center;
-        //   align-items: center;
-        //   background: linear-gradient(
-        //       90deg,
-        //       #03000f calc(100vw / 12 - ${pixelSize},
-        //       transparent 1%
-        //     ),
-        //     linear-gradient(
-        //       #03000f calc(100vw / 12 - ${pixelSize},
-        //       transparent 1%
-        //     ),#fff;
-        //   background-size: calc(100vw / 12) calc(100vw / 12);
-        // }
-
-        // .hide {
-        //   display: none;
-        // }
 
         section h3 {
           font-weight: bold;
@@ -159,37 +119,7 @@ const BlogDetails = (props) => {
           justify-content: space-between;
           cursor: pointer;
         }
-        // .left {
-        //   border: 10px solid red;
-        // }
-        // .arrow-left {
-        //   position: relative;
-        //   top: 40px;
-        //   width: 100px;
-        //   left: 5%;
-        // }
-        // .arrow-right {
-        //   position: absolute;
-        //   bottom: 70px;
-        //   width: 95px;
-        //   right: 0%;
-        // }
-
-        // .arrow-left img,
-        // .arrow-right img {
-        //   width: 100%;
-        // }
-        // .arrow-left:hover {
-        //   cursor: pointer;
-        // }
-        // .arrow-right:hover {
-        //   cursor: pointer;
-        // }
-
-        // .arrow-right a {
-        //   color: #fff;
-        //   text-decoration: none;
-        // }
+        
         .social ul {
           list-style: none;
         }
@@ -222,7 +152,7 @@ const BlogDetails = (props) => {
           color: rgba(0, 0, 0, 0.6);
         }
         .right img {
-          width: 80% !important;
+          max-width: 100%;
         }
         section .right h1 {
           font-size: 4em;
