@@ -145,7 +145,6 @@ class Layout extends Component {
             }
             
             #blogDetails .right p p {
-              border: 1px solid red;
               width: 90%;
               margin: 0 auto;
             }
