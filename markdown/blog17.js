@@ -22,7 +22,7 @@ Dieser sollte aber dann kein klassischer Bildungsträger sein, sondern ein moder
 
 ![blog17](/img/blogs/17/blog17_02.png)
 
-Kurz nach der Gründung von Supercode 2019: Sérgio mit Bildungsberater Shapour und operativer Leitung Kim  
+SuperCode goes Portugal: Erasmus+ Austausch mit einem portugiesischen Bildungsträger.  
 
 ### Was hast du vorher gemacht?
 
@@ -40,7 +40,7 @@ Ganz stolz sind wir auf den engen Austausch, den wir mit anderen Bildungsanbiete
 
 ![blog17](/img/blogs/17/blog17_03.png)
 
-Sergio erklärt mit einem schönen MacBok in der Hand die Welt.
+Sergio erklärt mit einem schönen MacBook in der Hand die Welt.
 
 ### Was sind die Ups und Downs der letzten 3 Jahre? 
 
@@ -60,7 +60,7 @@ Von daher blicken wir nur positiv in die Zukunft und bleiben weiterhin schön lo
 
 ![blog17](/img/blogs/17/blog17_04.png)
 
-Zwei Männer stehen knackig in einem schönenen Büro.
+Zwei Männer stehen knackig in einem schönen Büro.
 
 ### Was ist der Plan? Auf was bist du stolz und inwiefern bist du hier über dich hinausgewachsen? 
 
