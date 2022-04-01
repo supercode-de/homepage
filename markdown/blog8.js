@@ -33,7 +33,7 @@ Da ich schnell in den Beruf einsteigen wollte, waren mir zwei Jahre Ausbildung z
 ### Was waren deine Highlights im Kurs und was war herausfordernd für dich?
 
 Das Beste war, jeden Tag zu coden und jeden Tag war etwas Neues zu lernen. Es gab viele schöne Projekte, die wir im Team bearbeitet haben. Alleine zu Hause hätte ich das nicht geschafft. Vor dem Bootcamp habe ich mich mit den Basics von HTML und CSS beschäftigt und hatte dadurch eine guten Einstieg. 
-
+#####
 Mein absolutes Lieblingsprojekt war mein Frontend-Abschlussprojekt, da das Team einfach super war. Alle hatten ein ernsthaftes Interesse daran, etwas Tolles auf die Beine zu stellen und alle haben sich eingebracht. Auch der interne  [Hackathon](https://www.super-code.de/blogs/4) mit dem anderen Kurs war super, da wir mit fremden Leuten zusammen gearbeitet haben. Ich konnte meine Kenntnisse aus dem Backend-Bereich anwenden und Erfahrungen sammeln. Wer wirklich motiviert ist, Coden zu lernen und bereit ist seine Zeit für einen paar Monate zu investieren ist im Kurs genau richtig und hat auch gute Jobchancen!
 
 ### Im IT-Bereich gibt es bisher nur 17-20% Frauen. War das ein Thema für dich?
@@ -43,7 +43,7 @@ Es gibt leider oft ein falsches Bild von Coder\\*innen und dazu kommt, dass Mäd
 ### Möchtest du anderen Quereinsteiger\\*innen noch etwas mit auf den Weg geben?
 
 Mein ganz praktischer Rat: Lerne jeden Tag Coden, finde eine\\*n Mentor\\*in oder Gruppe, die dich unterstützt und mach dir ein Bild deiner Zukunft als Entwickler\\*in, das dich in schwierigen Momenten motiviert. Denn ein Karrierewechsel erfordert viel Mut und Durchhaltevermögen. Aber es lohnt sich definitiv! 
-
+#####
 Auch die Geschichten von anderen Menschen in ähnlichen Situationen können helfen.   
 Ich habe selbst viele Erfolgsstories von Karrierewechsler\\*innen gelesen und habe gesehen, dass man es schaffen kann. Ich freue mich sehr, dass auch ich jetzt mit gutem Beispiel voran gehen kann und Frauen und Männer ermutige, den Schritt in die IT zu wagen. Dafür habe ich meine Erfahrungen auch in einem [Blog](https://dev.to/emabytes/from-a-full-stack-journalist-to-a-full-stack-developer-2l00) festgehalten.   
 

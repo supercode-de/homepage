@@ -154,18 +154,14 @@ class Layout extends Component {
               color: #fff;
             }
             
-
-            #blogDetails .right h1 {
-              margin: auto;
-              padding-top: 150px;
-            }
             #blogDetails .right h2 {
               text-align: left;
             }
             #blogDetails .right h3 {
               font-family: 'Neue_Machina_Light';
-              font-size:3.125rem;
+              font-size: 1.875rem;
               line-height: normal;
+              margin-top: 60px;
             }
 
             #blogDetails .right em {

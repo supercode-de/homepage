@@ -14,7 +14,7 @@ Als Webentwicklerin hast du nicht nur hervorragende Karrierechancen für einen z
 ## Das SuperStipendium “Frauen in Tech”
 
 Frauen und Technik, ist das wirklich noch ein Thema? Leider ja, denn die Zahlen bilden nach wie vor ab, dass Frauen in Deutschland sowohl im Studiengang Informatik mit nur 18 % und in der IT-Berufsbranche mit nur 15% sehr unterrepräsentiert sind. Lasst uns diese Zahlen gemeinsam ändern und dafür sorgen, dass noch mehr Frauen die Digitalisierung aktiv mitbestimmen. [Hier findet ihr noch mehr Hintergründe zu dem Thema.](https://www.super-code.de/blogs/Wie-sich-die-IT-Branche-durch-Women-in-Tech-erneuern-l%C3%A4sst )
-
+#####
 Durch die letzten Ausschreibungen konnten wir viele Menschen ermutigen, den Karrierewechsel in die IT-Branche zu starten und den Schritt in die Webentwicklung zu wagen. Die meisten Stipendiat*innen sind mittlerweile im Job und es wird Zeit für die nächste Generation von SuperCoderinnen! 
 
 ![blog13](/img/blogs/14/it-frauen-wanted_02.png)
@@ -47,13 +47,13 @@ Lea Heidjann ist Teilnehmerin des aktuellen Kurses Webentwicklung Front-End und 
 ## Gemeinsam für mehr Vielfalt in der IT – Unsere Partnerschaften für das Stipendium 
 
 Der SuperDigital e. V. ist der Träger des Stipendiums. Er motiviert Menschen, sich aktiv an der Gestaltung der digitalen Welt und der Gesellschaft zu beteiligen und Programmierung zu lernen. Neben dem Förderprogramm initiiert der SuperDigital e. V. Workshops und Diskussionsrunden über essentielle Fragen des digitalen Miteinanders. [www.super-digital.xyz](www.super-digital.xyz)
-
+#####
 SuperCode ist ein IT-Bildungsträger nach AZAV für digitale Bildung in Düsseldorf und bietet zertifizierte Weiterbildungen im Bereich Webentwicklung Full-Stack und Front-End, UX/UI-Design, sowie Bewerbungscoaching Schwerpunkt IT und kostenlose Coding- und Design-Workshops an. SuperCode steht für “Digitale Bildung für alle” und setzt sich für mehr Bildungsgerechtigkeit im digitalen Bereich ein. Durch die qualitativ hochwertigen Weiterbildungsangebote schaffen über 70% der Teilnehmenden den Quereinstieg in die IT-Welt. [www.super-code.de](www.super-code.de)
-
+#####
 Der DigiHub Düsseldorf ist ein Innovationszentrum für Start-ups, kleine und mittlere Unternehmen, Konzerne und Universitäten, um neue digitale Geschäftsmodelle, Produkte und Lösungen zu entwickeln. Als unser Partner unterstützen sie das SuperStipendium “Frauen in Tech”. [https://digihub.de](https://digihub.de)
-
+#####
 Der fe:male Innovation Hub bewegt Frauen zum Gründen, um die Digitalwirtschaft mitzugestalten. Das Team unterstützt Frauen mit einem individuellen Mentoring-Programm und  einem hochwertigen Networking-Angebot. Gemeinsam bringen wir das Thema Frauen in Tech voran. [https://femaleinnovationhub.com](https://femaleinnovationhub.com)
-
+#####
 Women in Tech e.V. ist ein gemeinnütziger Verein mit dem Ziel Frauen für technische Berufen zu gewinnen, zu fördern und sichtbarer zu machen. Dazu veranstaltet der Verein digitale und lokale Events, zeigt Role Models auf und bildet ein starkes Netzwerk. Wir freuen uns sehr, dass wir diese engagierte Initative als Partner gewinnen konnten. [https://www.womenintechev.de/](https://www.womenintechev.de/)
 
 ![blog14](/img/blogs/14/it-frauen-wanted_03.png)
@@ -70,8 +70,8 @@ Um möglichst viele motivierte und talentierte Frauen mit unserem Stipendium zu 
 
 Und mit etwas Glück bist du die Gewinnerin, die ab dem 28.02.22 kostenfrei an unserer Weiterbildung Webentwicklung Front-End teilnehmen darf.
 Wir wünschen allen Teilnehmerinnen viel Glück!
-
-*Bilder: SuperCode*
+#####
+Bilder: SuperCode
 Text: Natalie Streich
 
 ## Jetzt schnell bewerben unter [www.super-stipendium.de](www.super-stipendium.de)

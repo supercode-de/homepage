@@ -27,7 +27,7 @@ Sie ist sogar noch besser! Werbung im Internet ist viel cooler als man denkt und
 
 Ich hatte damals den Vorteil, dass ich schon in einem realen Web-Projekt gearbeitet habe. Daher hatte ich finanziell erst mal keinen Druck. Insgesamt habe ich ca. 12 Bewerbungen geschrieben und vier Interviews gehabt. Klar war ich am Anfang etwas nervös, aber das wurde schnell besser und ich konnte viele gute Erfahrungen sammeln. 
 Bei der Stellenanzeige meines jetzigen Arbeitgebers waren die Anforderungen sehr hoch, aber ich habe mich einfach trotzdem beworben. Ich bin selbst überrascht, dass das dann so schnell geklappt hat.  
-
+#####
 Das Bewerbungscoaching im Kurs hat mir auch viel gebracht, da wir sehr coole Bewerbungsunterlagen erstellt haben, mit denen man sich von den anderen Bewerber\\*innen abheben kann. Das ist im Web-Bereich sehr wichtig und man darf auch ruhig mal etwas kreativer sein.
 
 
@@ -46,22 +46,22 @@ Ich habe den Seepferdchen-Kurs bei SuperCode gemacht und mich dann direkt für d
 ### Was waren deine Highlights im Kurs und was war herausfordernd für dich? 
 
 Zwischen den Coding-Einheiten gab es immer mal wieder Workshops zu bestimmten Themen. Die haben mir sehr gut gefallen, weil ich dort noch tiefer in Themen wie z.B. IoT reinzuschnuppern konnte. Der interne Hackathon war auch cool, weil wir in Gruppen richtig intensiv und kreativ arbeiten mussten - so nach dem Motto: “Hier ist das Problem, finde eine Lösung”. Außerdem konnten wir unser Wissen an den anderen Kurs, der gerade erst gestartet war, weitergeben. So konnten wir auch sehen, wie gut wir schon waren.
-
+#####
 Herausfordernd war es, mich zu hause abends und am Wochenende in meiner freien Zeit nochmal an die Projekte zu setzen und weiter zu arbeiten. Das war neben den acht Stunden Coden täglich schon intensiv. Aber mit ein bisschen Überwindung hat es geklappt und die Mühe hat sich definitiv gelohnt. 
 
 ### Möchtest du anderen Quereinsteiger\\*innen noch etwas mit auf den Weg geben? 
 
 Wenn man wirklich coden will und seine Zukunft im Coding-Bereich sieht, darf man sich nicht davon abbringen lassen und muss es einfach versuchen. Man muss sich selbst vertrauen, an sich glauben und der Rest kommt von alleine. Auch ohne Abschluss kann man in Deutschland arbeiten und die Branche ist recht offen für Quereinsteiger\\*innen. 
 Natürlich muss man auch viel Arbeit reinstecken, an den richtigen Stellen Gas geben und sich auch neben dem Kurs mit Coding beschäftigen. Aber: Appetit kommt beim Essen und sobald man anfängt zu coden, kommt man in den Flow, probiert Sachen aus und wird dadurch immer besser! 
-
+#####
 Vielen Dank für das Interview Daniel und alles Gute für deine Zukunft als Junior Web-Developer.
-
+#####
 Das Interview führte Natalie Streich im März 2021 via Google-Meet.
-
+#####
 Daniel wurde vor Kurzem eine Stelle als Entwickler in einem anderen Unternehmen angeboten, die sogar noch besser zu ihm passt. So kann es gehen: Erst Pfleger, dann begehrte IT-Fachkraft, 
 der die Stellen nur so zufliegen ;)
-
-*Bilder: SuperCode*  
+#####
+Bilder: SuperCode
 `;
 
 export default blog11;

@@ -4,11 +4,11 @@ const blog1 = `# YouCode, YouTube, YouRock!”
 ![blog1](/img/blogs/1/1.png)
 
 Am Mittwoch, den 22.04.2020 war es wieder soweit! Unser 2. Bootcamp Webentwicklung ging zu Ende und 16 Teilnehmer*innen zeigten bei der Präsentation der Abschlussprojekte ihre Coding-Skills.
-
+#####
 Was kann man nach 3 Monaten Webentwicklung bei SuperCode? Kann man in so kurzer Zeit ohne Vorkenntnisse zum/zur Webentwickler*in werden? Ja, man kann! Trotz Quarantäne-Vorgaben ließen sich die Teilnehmenden des Bootcamps nicht davon abhalten, ihre neuen Kenntnisse der Welt dort draußen zu offenbaren und nutzen einfach unseren extra eingerichteten Youtube-Live-Stream (LINK). 
-
+#####
 Der Kurs bestand aus 16 Teilnehmenden, darunter 13 Männer und 3 Frauen, die innerhalb kürzester Zeit in 3 Monaten alle wichtigen Skills für die Tätigkeit als Webentwickler*in erwarben. Alle Finanzierungsmodelle wurden genutzt und neben 12 Teilnehmenden mit Bildungsgutschein gab es auch drei Finanzierungen über die Chancen EG und eine Selbstzahlerin. 
-
+#####
 Die Teams für die Abschlussarbeiten bestanden aus jeweils 4 Leuten, die unter sich die Rollen der Projektmanager*innen, Entwickler*innen und Moderator*innen aufgeteilt hatten. In nur einer Woche Projektarbeit programmierten sie insgesamt vier professionelle Webseiten mit responsivem Layout, Animationen und vielen Funktionen mittels HTML, CSS, JavaScript und React.js:
 
 1. Astrein Schreinerei: Neue Homepage
@@ -17,7 +17,6 @@ Die Teams für die Abschlussarbeiten bestanden aus jeweils 4 Leuten, die unter s
 4. Code for Good!: Projektplattform
 
 ![blog1](/img/blogs/1/2.png)
-
 
 In den 10-minütigen Präsentationen stellten sich die Teams kurz vor, präsentierten ihre erstellten Webseiten, gaben Einblicke in den Code und resümierten die Projektarbeit. Währenddessen konnten die rund 30 Zuschauer*innen ihre Fragen im Live-Chat stellen und Feedback geben. Große Begeisterung gab es für die professionelle Realisierung der Projekte, die tolle Design-Umsetzung und die Funktionen vor allem im Formularbereich. 
 
