@@ -147,7 +147,7 @@ const UnserCampus = (props) => {
         h1,
         p,
         .text-two {
-          color: var(--super-blue);
+          color: var(--super-blau);
           width: calc(100vw / 12 * 3);
         }
         h1 span {
@@ -155,7 +155,7 @@ const UnserCampus = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: var(--super-blue);
+          -webkit-text-stroke-color: var(--super-blau);
         }
         .aside {
           position: absolute;

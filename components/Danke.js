@@ -66,9 +66,9 @@ const Danke = (props) => {
           align-items: center;
           min-height: calc(100vh - 39px - 98.18px);
 
-          // height: calc(100vw / 12 * 8);
-          // padding: calc(100vw / 12 * 1.5) calc(100vw / 12);
-          // overflow-y: visible;
+          /*height: calc(100vw / 12 * 8);
+          padding: calc(100vw / 12 * 1.5) calc(100vw / 12);
+          overflow-y: visible;*/
 
           text-align: center;
         }

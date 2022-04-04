@@ -17,9 +17,9 @@ Auch wenn es den klassischen IT-Nerd mit dicken Brillengläsern, blasser Haut un
 ### Worum geht es im Bewerbungscoaching?
 
 Im Coaching-Prozess geht es deshalb zunächst um das Kennenlernen der eigenen Stärken, Schwächen und ungenutzter Potentiale. Nur, wer die Basis seiner Stärken kennt und sich innerlich selbst loben kann, mischt im Bewerbungsprozess oben mit und kann sich im besten Fall seinen Arbeitgeber selbst aussuchen. Grundlage dafür ist in erster Linie Selbstvertrauen und Selbstreflektion, die nicht mal eben um die Ecke kommen, sondern in der systematischen Auseinandersetzung mit sich selbst liegen.
-
+#####
 Der zweite Punkt, an dem im Coaching intensiv gearbeitet wird, sind der Aufbau von Netzwerken und einem professionellen Bewerbungsportfolio. Wer-kennt-wen gilt auch im IT-Bereich und rund 40% der offenen Stellen werden über Beziehungen vergeben. Die IT-Branche boomt und wer up-to-date bleiben möchte, sollte die richtigen Veranstaltungen besuchen, Visitenkarten im richtigen Moment zücken und weder aufgeregt noch verzweifelt wirken.
-
+#####
 Klingt kompliziert, lässt sich aber spielerisch und mit Humor trainieren und wenn dann noch die Bewerbungsunterlagen inhaltlich und design-technisch top sind, verwandelt man sich unweigerlich in den perfekte Kandidaten für seinen Traumjob.
 
 ![blog4](/img/blogs/4/2.png)
@@ -32,7 +32,9 @@ Das Bewerbungscoaching umfasst  7 Steps, die alle aufeinander aufbauen. Insgesam
 ### Warum SuperCode und wie bist du zu SuperCode gekommen?
 
 Tatsächlich war es wie eine Eingebung, die leuchtreklamen-mäßig in meinem Kopf erschien: Web-Development!
-Ohne wirklich zu wissen, was das bedeutet, recherchierte ich im Internet nach Kursen und fand den kostenlosen Schnupper-Workshop HTML/CSS von SuperCode, an dem ich dann im September 2019 teilnahm. Die Stimmung, die MitarbeiterInnen und die Location haben mir auf Anhieb gefallen und aus einer Laune heraus fragte ich Sergio, dem Workshopleiter und Geschäftsführer, ob er nicht zufällig jemanden für Bewerbungstraining braucht. Und wie der Zufall so will, stand gerade schon das Grundkonzept für ein Bewerbungstraining für IT-Fachkräfte und wir hatten ein Match! Nach wenigen weiteren Terminen war schnell klar: wir möchten zusammen arbeiten! Und nun - 3 Monate später - mache ich den Teilzeit-Kurs Web-Entwicklung Frontend und kümmere mich um die Umsetzung des Super- Bewerbungstraining, schreibe Konzepte für neue Bildungsangebote und achte darauf, dass die Qualitätsregeln eingehalten werden. 
+Ohne wirklich zu wissen, was das bedeutet, recherchierte ich im Internet nach Kursen und fand den kostenlosen Schnupper-Workshop HTML/CSS von SuperCode, an dem ich dann im September 2019 teilnahm. Die Stimmung, die MitarbeiterInnen und die Location haben mir auf Anhieb gefallen und aus einer Laune heraus fragte ich Sergio, dem Workshopleiter und Geschäftsführer, ob er nicht zufällig jemanden für Bewerbungstraining braucht. Und wie der Zufall so will, stand gerade schon das Grundkonzept für ein Bewerbungstraining für IT-Fachkräfte und wir hatten ein Match! 
+#####
+Nach wenigen weiteren Terminen war schnell klar: wir möchten zusammen arbeiten! Und nun - 3 Monate später - mache ich den Teilzeit-Kurs Web-Entwicklung Frontend und kümmere mich um die Umsetzung des Super- Bewerbungstraining, schreibe Konzepte für neue Bildungsangebote und achte darauf, dass die Qualitätsregeln eingehalten werden. 
 
 ![blog4](/img/blogs/4/3.jpg)
 
@@ -43,7 +45,7 @@ SuperCode ist ein junges, frisches Unternehmen, das gute Ideen hat und es anders
 ### What‘s your hidden Super-Power?
 
 Von Natur aus gleicht mein Schlaf-Wach-Rhythmus eher dem einer Eule, was bedeutet, dass ich ab Mittags mein Arbeitshoch bekomme, das dann bis spät Abends anhält. Da ich mir meine Arbeitszeit flexibel einteilen kann, kommen ungeahnte Kräfte zum Vorschein und ich arbeite das erste Mal in meinem Berufsleben nicht gegen meinen Rhythmus an.
-
+#####
 Vielen Dank für das Interview und welcome to the team!
 `;
 

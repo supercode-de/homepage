@@ -96,7 +96,6 @@ const HeaderCallToAction_neu = () => {
         @media (max-width: 468px) {
           h2 {
             font-size: 2.1em;
-            padding: 0 6%;
           }
           h2 span.bling::before {
             bottom: -0.5em;
@@ -108,7 +107,8 @@ const HeaderCallToAction_neu = () => {
             width: 1rem;
             right: -1.2rem;
           }
-          @media (max-width: 320px) {
+          .buttons {
+            display: block;
           }
         }
       `}</style>

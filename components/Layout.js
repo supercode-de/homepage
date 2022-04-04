@@ -135,7 +135,7 @@ class Layout extends Component {
               font-size: 4em;
             }
             #blogDetails .right img {
-              width: 50% !important;
+              width: 100%;
               margin-top: 40px;
             }
             #blogDetails .right p {
@@ -144,25 +144,24 @@ class Layout extends Component {
               text-align: left;
             }
             
-
+            #blogDetails .right p p {
+              width: 90%;
+              margin: 0 auto;
+            }
 
             // Vermuteter Blogstyle
             #blogDetails .right a {
               color: #fff;
             }
             
-
-            #blogDetails .right h1 {
-              margin: auto;
-              padding-top: 150px;
-            }
             #blogDetails .right h2 {
               text-align: left;
             }
             #blogDetails .right h3 {
-              font-family: 'Neue_Machina_Ultrabold';
-              font-size: 1.2rem;
-              line-height: 28px;
+              font-family: 'Neue_Machina_Light';
+              font-size: 1.875rem;
+              line-height: normal;
+              margin-top: 60px;
             }
 
             #blogDetails .right em {
@@ -178,7 +177,6 @@ class Layout extends Component {
             }
             h3 {
               font-size: 1.2rem;
-              line-height: 28px;
             }
             p {
               font-size: 1.125rem;
@@ -383,9 +381,12 @@ class Layout extends Component {
               #blogDetails .right h2 {
                 font-size: 2rem;
               }
+              #blogDetails .right h3 {
+                font-size: 1.5rem;
+              }
               #blogDetails .right>p {
                 width: 100%;
-                margin: auto;
+                margin-top: 50px;
               }
             }
             @media (max-width: 568px) {
@@ -398,7 +399,7 @@ class Layout extends Component {
             }
             @media (max-width: 498px) {
               #blogDetails .right h1 {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 // line-height:40px;
               }
               #blogDetails .right h2 {

@@ -1,16 +1,16 @@
-import Telefon from './small/Telefon';
+// import Telefon from './small/Telefon';
 import Beratung_flexible from './Beratung_flexible';
 import Curriculum from './Curriculum_Popup';
 import kurseData from '../components/data/kursedata.json';
 import { useState } from 'react';
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from 'react-accessible-accordion';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import {
+//   Accordion,
+//   AccordionItem,
+//   AccordionItemHeading,
+//   AccordionItemButton,
+//   AccordionItemPanel,
+// } from 'react-accessible-accordion';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Accordion_frontend from './Accordion_frontend';
 
 const UX_UI_Praxis = () => {
@@ -196,19 +196,15 @@ const UX_UI_Praxis = () => {
           />
         </div>
       </div>
-      <style jsx>
-        {`
-          // .accord-con {
-          //   z-index: 99;
-          // }
+      <style jsx>{`
+          /*.accord-con {
+            z-index: 99;
+          }*/
           .fsPraxis {
             padding: 40px 0 40px 2%;
           }
-          // .fsPraxis h2 {
-          //   font-size: 4rem;
-          // }
+
           .fsPraxis p {
-            font-family: 
             width: 65%;
             font-size: 1.3rem;
             font-weight: 300;
@@ -227,8 +223,6 @@ const UX_UI_Praxis = () => {
             height: 70px;
             margin: 0;
             position: relative;
-
-            // padding: 0;
           }
 
           .inner-bar {
@@ -236,8 +230,6 @@ const UX_UI_Praxis = () => {
             height: 102%;
             width: 0%;
             transition: width 0.3s ease-out;
-            // padding: 0;
-            // margin: 0;
             top: -1px;
             left: -1%;
           }
@@ -249,7 +241,7 @@ const UX_UI_Praxis = () => {
           }
 
           .bar-wrapper:hover .inner-bar {
-            // animation: progress-animation 5s;
+            /*animation: progress-animation 5s;*/
             width: 100%;
             transform: width 1s;
           }
@@ -365,14 +357,14 @@ const UX_UI_Praxis = () => {
             margin-right: 5%;
             width: 50%;
             position: relative;
-            // right: 50px;
+            /*right: 50px;*/
           }
 
           //=========================
 
           .fsPraxis .neugierCTA_txt {
             font-family: 'Neue_Machina_Light';
-            // color: #989898;
+            /*color: #989898;*/
             font-size: 3.3rem;
             width: 80%;
             color: #121e28;
@@ -390,16 +382,16 @@ const UX_UI_Praxis = () => {
             margin: 0;
             line-height: 50px;
           }
-          // .neugierCTA_txt {
-          //   font-size: 4rem;
-          //   font-family: 'Neue_Machina_Light';
-          //   color: #03000f;
-          //   margin: 0;
-          //   line-height: 50px;
-          // }
+          /*.neugierCTA_txt {
+            font-size: 4rem;
+            font-family: 'Neue_Machina_Light';
+            color: #03000f;
+            margin: 0;
+            line-height: 50px;
+          }*/
           p {
             color: #121e28;
-            // width: 55%;
+            /*width: 55%;*/
             font-size: 1.563rem;
             font-weight: 300;
           }
@@ -422,13 +414,13 @@ const UX_UI_Praxis = () => {
             display: block;
             position: relative;
           }
-          // .neugierCTA_txt {
-          //   font-size: 5rem;
-          //   width: 80%;
-          //   margin-top: 125px;
-          //   margin-bottom: 30px;
-          //   padding-left: 5%;
-          // }
+          /*.neugierCTA_txt {
+            font-size: 5rem;
+            width: 80%;
+            margin-top: 125px;
+            margin-bottom: 30px;
+            padding-left: 5%;
+          }*/
           .buttons {
             display: flex;
             justify-content: flex-end;
@@ -448,19 +440,19 @@ const UX_UI_Praxis = () => {
             transform: scale(1.1, 0.6);
             display: block;
           }
-          // @media (max-width: 1440px) {
-          //   .neugierCTA p span.circle::after {
-          //     position: absolute;
-          //     background: url('/img/Vector64.svg') center/contain no-repeat;
-          //     height: 336%;
-          //     width: 225%;
-          //     right: 29%;
-          //     bottom: -110%;
-          //     content: '';
-          //     transform: scale(1.1, 0.6);
-          //     display: block;
-          //   }
-          // }
+          /*@media (max-width: 1440px) {
+            .neugierCTA p span.circle::after {
+              position: absolute;
+              background: url('/img/Vector64.svg') center/contain no-repeat;
+              height: 336%;
+              width: 225%;
+              right: 29%;
+              bottom: -110%;
+              content: '';
+              transform: scale(1.1, 0.6);
+              display: block;
+            }
+          }*/
 
           @media (max-width: 1040px) {
             .fsPraxis p {
@@ -576,8 +568,6 @@ const UX_UI_Praxis = () => {
           @media (max-width: 768px) {
             h2 {
               font-size: 3.5rem;
-
-              // line-height: 28px;
             }
             .fsPraxis h2 {
               font-size: 3rem;

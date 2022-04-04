@@ -1,5 +1,5 @@
 const blog5 = `# Hack your Life - 1. SuperHackathon bei SuperCode in Düsseldorf 
-## Teilnehmende der Full-Stack-Kurse Webentwicklung entwickeln gemeinsam Software-Lösungen für alltägliche Probleme 
+### Teilnehmende der Full-Stack-Kurse Webentwicklung entwickeln gemeinsam Software-Lösungen für alltägliche Probleme 
 
 An drei herbstlichen Oktobertagen haben sich die Teilnehmenden der aktuellen Bootcamps Webentwicklung Full-Stack zusammen gesetzt und um den ersten Platz des diesjährigen SuperHackathons gecodet. Organisiert wurde der Hackathon vom Trainerteam, der Geschäftsführung und der Designabteilung von SuperCode, die den Bootcamp-Teilnehmenden dieses Jahr etwas ganz Besonderes bieten wollten.
 
@@ -11,8 +11,7 @@ Hackathon ist eine Verschmelzung von „Hacking“ und „Marathon“ und zielt 
 
 ### Die SuperHacker*innen und ihre Projekte 
 Im SuperHackathon wurde die Teilnehmenden, die kurz vor Abschluss des Bootcamps stehen mit denen gemischt, die erst am Anfang ihrer Trainings sind. In 5 Teams wurden Konzepte erstellt, Aufgaben verteilt, Prototypen gebaut und natürlich wie wild gecodet, um nach nur 3 Tagen die vorläufigen Ergebnisse zu präsentieren, die sich bereits jetzt -auch wenn sie noch nicht responsive sind- sehen lassen können.
-
-
+#####
 Die 5 Themen drehten sich um Alltagsprobleme und aktuelle Fragestellungen:
 1. FundPot: Hilf dem lokalen Handel mit deiner Spende!
 [Schau dir hier den Prototyp an (noch nicht mobile-friendly)](https://fundpot.herokuapp.com/)
@@ -28,12 +27,12 @@ Die 5 Themen drehten sich um Alltagsprobleme und aktuelle Fragestellungen:
 
 ### Show me!
 Am 3. Tag wurden die Projektergebnisse live vorgestellt. Hierbei geht es nicht nur um den reinen Code, sondern auch die Idee dahinter und die Präsentation. Große Begeisterung gab es für die professionelle Realisierung der Projekte im Front- und Backend, die tolle Design-Umsetzung und die Funktionen vor allem im Anlegen von Datensätzen. Doch auch die Präsentationen sorgten für spannende Überraschungen: Das Team von “Save our Food”, das sich mit der Lebensmittelverschwendung in Privathaushalten beschäftigt hatte, zeigte plakativ in einem “Foto-WasteBook”, wie viele Lebensmittel täglich im Müll landen. Um dies zu unterstreichen, zückte Herr K. aus D. einen 10 Euro Schein aus seinem Portmonee, zeigte ihn dem Publikum, öffnete das Fenster und ließ ihn in einfach aus dem Fenster segeln (Spoiler: Er hat ihn nach der Präsentation leider nicht wieder gefunden). 
-
+#### 
 Auch die Gruppe “FundPot”, die Ideen zur Unterstützung des lokale Einzelhandels entwickelt hatten, zeigten ihr Können vor allem im Design-Bereich: Mit eigenem Logo und New-Morphism-Design macht es hier richtig Spaß sein Unternehmensprofil anzulegen. Finn Schlottmann, einer der Teilnehmer sagt dazu: 
 
 ![blog5](/img/blogs/5/5.jpg )
 
-_“Für mich als Grafikdesigner und angehender Webentwickler war der Hackathon einfach großartig! Ich konnte meine Kenntnisse gut einbringen und habe von den Programmierkenntnissen der erfahrenen Teilnehmer*innen super viel gelernt! Ich freue mich schon richtig darauf im Bootcamp noch tiefer ins Coding einzusteigen!”_
+### “Für mich als Grafikdesigner und angehender Webentwickler war der Hackathon einfach großartig! Ich konnte meine Kenntnisse gut einbringen und habe von den Programmierkenntnissen der erfahrenen Teilnehmer*innen super viel gelernt! Ich freue mich schon richtig darauf im Bootcamp noch tiefer ins Coding einzusteigen!”
 
 ### And the Winner is… 
 Die glücklichen Gewinner des SuperHackathons 2020, die den großen Wanderpokal mit nach Hause nehmen durften kamen aus dem Team “Super(Synergy)”, einer Austauschplattform für ehemalige und aktuelle Teilnehmer*innen der Supercode-Bootcamps Webentwicklung. Mit beeindruckenden Features in Front- und Backend kann man hier nicht nur ein User-Profil anlegen, sondern auch Anfragen in einem Blog posten und eigene Projekte mit Links zur Webseite und dem GitHub-Account erstellen. Das Projekt ist bereits so ausgereift, dass Matthias Höh, einer der engagiertesten Teilnehmer im Bootcamp von SuperCode beauftragt wurde, die Inhalte weiter zu entwickeln und sie in der Alumni-Seite von SuperCode umzusetzen. 
@@ -46,13 +45,10 @@ Der diesjährige SuperHackathon ermöglichte für die Teilnehmende nicht nur kre
 ![blog5](/img/blogs/5/7.jpg )
 
 Wer nun auch Lust auf Webentwicklung bei SuperCode bekommen hat und digitale Karriere machen will, meldet sich am besten schnell bei uns. Die neuen Kurse starten im Dezember und es sind noch wenige Plätze frei. 
-
-
+#####
 
 Text: Natalie Streich   
-Fotos: [Jakob Wagner Photography](https://jakobwagner.eu/)
-
-
-`;
+#####
+Fotos: [Jakob Wagner Photography](https://jakobwagner.eu/)`;
 
 export default blog5;

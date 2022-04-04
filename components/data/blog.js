@@ -30,6 +30,9 @@ import blog15 from "../../markdown/blog15";
 import titleBlog15 from "../../markdown/titleBlog15";
 import blog16 from "../../markdown/blog16";
 import titleBlog16 from "../../markdown/titleBlog16";
+import blog17 from "../../markdown/blog17";
+import titleBlog17 from "../../markdown/titleBlog17";
+
 
 // console.log({ blog7, titleBlog7 });
 let blog = [
@@ -144,6 +147,13 @@ let blog = [
     text: blog16,
     pic: "/img/blogs/16/oezcan.png",
     url: "alumni-oezcan-interview",
+  },
+  {
+    id: 16,
+    title: titleBlog17,
+    text: blog17,
+    pic: "/img/blogs/17/blog17_01.png",
+    url: "supercode-ceo-3-jahre",
   },
 ];
 
