@@ -40,6 +40,7 @@ const HeaderCallToAction_neu = () => {
         .bling,
         .bling2 {
           position: relative;
+          z-index: 0;
         }
 
         h2 span.circle::after {
@@ -53,6 +54,7 @@ const HeaderCallToAction_neu = () => {
           bottom: -105%;
           content: '';
           display: block;
+          z-index: -1;
         }
 
         h2 span.bling::before {
