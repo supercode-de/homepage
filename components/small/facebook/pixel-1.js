@@ -14,7 +14,6 @@ export default () =>
             'https://connect.facebook.net/en_US/fbevents.js');
             fbq('init', '353903998812058');
             fbq('track', 'PageView', 'SubmitApplication');
-            console.log("pixel works?");
             `}}
         />
         <noscript dangerouslySetInnerHTML={{
