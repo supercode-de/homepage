@@ -13,10 +13,9 @@ const Banner = () => {
             padding: 15px 0;
           }
           #banner h3 {
-            margin: 0;
             text-transform: uppercase;
             color: var(--super-lila);
-            font-size: 0.8em;
+            font-size: 1em;
             letter-spacing: 1.3px;
           }
           #banner h3 a {

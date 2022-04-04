@@ -7,11 +7,11 @@ const Danke = (props) => {
   const pixelSize = 2; // Width of Lines in Background
   let router = useRouter();
 
-  useEffect(() => {
-    setTimeout(() => {
-      router.push('/');
-    }, 4000);
-  }, []);
+  // useEffect(() => {
+  //   setTimeout(() => {
+  //     router.push('/');
+  //   }, 4000);
+  // }, []);
   return (
     <div id='header' className='lilaGitter'>
       <div className='super-code'>super(code)</div>

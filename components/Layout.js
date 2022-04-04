@@ -177,7 +177,6 @@ class Layout extends Component {
             }
             h3 {
               font-size: 1.2rem;
-              line-height: 28px;
             }
             p {
               font-size: 1.125rem;
@@ -382,9 +381,12 @@ class Layout extends Component {
               #blogDetails .right h2 {
                 font-size: 2rem;
               }
+              #blogDetails .right h3 {
+                font-size: 1.5rem;
+              }
               #blogDetails .right>p {
                 width: 100%;
-                margin: auto;
+                margin-top: 50px;
               }
             }
             @media (max-width: 568px) {
@@ -397,7 +399,7 @@ class Layout extends Component {
             }
             @media (max-width: 498px) {
               #blogDetails .right h1 {
-                font-size: 1.2rem;
+                font-size: 1rem;
                 // line-height:40px;
               }
               #blogDetails .right h2 {
