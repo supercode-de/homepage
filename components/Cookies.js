@@ -1,12 +1,13 @@
 const Cookies = () => {
     let hupspot = () => {
-        var _hsp = window._hsp = window._hsp || []; _hsp.push(['showBanner'])
+        var _hsp = window._hsp = window._hsp || []; _hsp.push(['showBanner']);
+        console.log("cookie klick test")
     }
 
     // onClick="(function(){var _hsp = window._hsp = window._hsp || []; _hsp.push(['showBanner']);})"
 
     return (<div>
-        <button type="button" id="hs_show_banner_button" onClick="(function(){var _hsp = window._hsp = window._hsp || []; _hsp.push(['showBanner']);})">Cookie-Einstellungen</button>
+        <button type="button" id="hs_show_banner_button" onClick={() => hupspot()}>Cookie-Einstellungen</button>
         <style jsx>{`
         #hs_show_banner_button{
             background-color: #00bda5; 

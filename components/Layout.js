@@ -202,9 +202,6 @@ class Layout extends Component {
             //   font-family: 'Neue_Machina_Regular_400', sans-serif;
             // }
 
-           
-
-            
             // Keine Ahnung, was das tun soll
             button .lnk {
               text-decoration: none;
@@ -291,7 +288,7 @@ class Layout extends Component {
             }
 
             .accordion__button svg {
-              width: 10%;
+              width: 3%;
             }
 
             // .accordion__heading {

@@ -61,7 +61,6 @@ export default function FooterCallToAction_neu() {
           display: block;
         }
         .termine {
-          position: relative;
           width: 85%;
           margin: auto;
         }
@@ -69,31 +68,10 @@ export default function FooterCallToAction_neu() {
           color: #fff;
           font-size: 2rem;
         }
-        .jetzt-bewerben-btn {
-          position: absolute;
-          right: -5%;
-          width: 30%;
-          display: inline-block;
-          bottom: -20px;
-        }
-        @media (max-width: 1024px) {
-          jetzt-bewerben-btn {
-            position: absolute;
-            right: 15%;
-            width: 30%;
-            display: inline-block;
-            bottom: -20px;
-          }
-        }
-        @media (max-width: 1063px) {
-          .jetzt-bewerben-btn {
-            position: static;
-            right: 8%;
-            width: 30%;
-            display: block;
-            bottom: -20px;
-          }
-        }
+        .jetzt-bewerben-btn {
+          display: flex;
+          justify-content: flex-end;
+          margin-top: -5vh;
         }
 
         @media (max-width: 910px) {
@@ -103,13 +81,6 @@ export default function FooterCallToAction_neu() {
           .termine h3 {
             font-size: 1.4rem;
           }
-          .jetzt-bewerben-btn {
-            position: static;
-            right: 8%;
-            width: 30%;
-            display: block;
-            bottom: -20px;
-          }
         }
 
         @media (max-width: 768px) {
@@ -118,13 +89,6 @@ export default function FooterCallToAction_neu() {
           }
           .termine h3 {
             font-size: 1.7rem;
-          }
-          .jetzt-bewerben-btn {
-            position: static;
-            right: 5%;
-            width: 30%;
-            display: block;
-            bottom: -20px;
           }
         }
 

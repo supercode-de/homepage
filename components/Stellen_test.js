@@ -26,34 +26,6 @@ const WorkIT = (props) => {
           <AccordionItem>
             <AccordionItemHeading>
               <AccordionItemButton>
-                {stellenData[0].jobbezeichnung}
-                <FontAwesomeIcon icon="chevron-down" />
-              </AccordionItemButton>
-            </AccordionItemHeading>
-            <AccordionItemPanel>
-              <div className="stellen-aufgaben">
-                <h3>Deine Aufgaben</h3>
-                <p>{stellenData[0].aufgabe1}</p>
-                <p>{stellenData[0].aufgabe2}</p>
-                <p>{stellenData[0].aufgabe3}</p>
-              </div>
-              <div className="stellen-profil">
-                <h3>Dein Profil</h3>
-                <p>{stellenData[0].profil1}</p>
-                <p>{stellenData[0].profil2}</p>
-                <p>{stellenData[0].profil3}</p>
-                <p>{stellenData[0].profil4}</p>
-                <p>{stellenData[0].profil5}</p>
-              </div>
-              <div className="stellen-cta">
-                <p className="cta">{stellenData[0].cta}</p>
-                <a href="mailto:bewerbung@super-code.de?subject=Praktikant*in Motion Design">Jetzt bewerben</a>
-              </div>
-            </AccordionItemPanel>
-          </AccordionItem>
-          <AccordionItem>
-            <AccordionItemHeading>
-              <AccordionItemButton>
                 {stellenData[1].jobbezeichnung}
                 <FontAwesomeIcon icon="chevron-down" />
               </AccordionItemButton>
@@ -76,35 +48,6 @@ const WorkIT = (props) => {
               <div className="stellen-cta">
                 <p className="cta">{stellenData[1].cta}</p>
                 <a href="mailto:bewerbung@super-code.de?subject=Main-Trainer*in Web-Entwicklung Teilzeit">Jetzt bewerben</a>
-              </div>
-            </AccordionItemPanel>
-          </AccordionItem>
-          <AccordionItem>
-            <AccordionItemHeading>
-              <AccordionItemButton>
-                {stellenData[2].jobbezeichnung}
-                <FontAwesomeIcon icon="chevron-down" />
-              </AccordionItemButton>
-            </AccordionItemHeading>
-            <AccordionItemPanel>
-              <div className="stellen-aufgaben">
-                <h3>Deine Aufgaben</h3>
-                <p>{stellenData[2].aufgabe1}</p>
-                <p>{stellenData[2].aufgabe2}</p>
-                <p>{stellenData[2].aufgabe3}</p>
-              </div>
-
-              <div className="stellen-profil">
-                <h3>Dein Profil</h3>
-                <p>{stellenData[2].profil1}</p>
-                <p>{stellenData[2].profil2}</p>
-                <p>{stellenData[2].profil3}</p>
-                <p>{stellenData[2].profil4}</p>
-                <p>{stellenData[2].profil5}</p>
-              </div>
-              <div className="stellen-cta">
-                <p className="cta">{stellenData[2].cta}</p>
-                <a href="mailto:bewerbung@super-code.de?subject=Praktikant*in Content und Online-Marketing">Jetzt bewerben</a>
               </div>
             </AccordionItemPanel>
           </AccordionItem>
