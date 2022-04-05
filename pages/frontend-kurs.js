@@ -7,7 +7,7 @@ import FE_Praxis from '../components/FE_Praxis';
 import FE_TrainerTeam from '../components/FE_TrainerTeam';
 import FE_ZahlenUndFakten from '../components/FE_ZahlenUndFakten';
 import FE_Tagesablauf from '../components/FE_Tagesablauf';
-import FS_Bildungsberatung from '../components/FS_Bildungsberatung';
+import Bildungsberatung from '../components/Bildungsberatung';
 import FooterCallToAction_neu from '../components/FooterCallToAction_neu_frontend';
 export default function FrontendKurse(props) {
   if (process.browser) {
@@ -22,7 +22,7 @@ export default function FrontendKurse(props) {
           <FE_TrainerTeam />
           <FE_ZahlenUndFakten />
           <FE_Tagesablauf />
-          <FS_Bildungsberatung />
+          <Bildungsberatung />
           <FooterCallToAction_neu />
         </div>
       </Layout>

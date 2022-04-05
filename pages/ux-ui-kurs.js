@@ -7,7 +7,7 @@ import UX_UI_Praxis from "../components/UX_UI_Praxis";
 import UX_UI_TrainerTeam from "../components/UX_UI_TrainerTeam";
 
 import UX_UI_Tagesablauf from "../components/UX_UI_Tagesablauf";
-import FS_Bildungsberatung from "../components/FS_Bildungsberatung";
+import Bildungsberatung from "../components/Bildungsberatung";
 import FooterCallToAction_neu_uxui from "../components/FooterCallToAction_neu_uxui";
 export default function FrontendKurse(props) {
   if (process.browser) {
@@ -22,7 +22,7 @@ export default function FrontendKurse(props) {
           <UX_UI_TrainerTeam />
 
           <UX_UI_Tagesablauf />
-          <FS_Bildungsberatung />
+          <Bildungsberatung />
           <FooterCallToAction_neu_uxui />
         </div>
       </Layout>
