@@ -9,12 +9,6 @@
     "export": "npm run build && next export",
     "find:unused": "next-unused"
   },
-  "next-unused": {
-    "alias": {},
-    "include": ["not-used-components"],
-    "exclude": [],
-    "entrypoints": []
-  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-regular-svg-icons": "^5.15.4",
@@ -25,7 +19,6 @@
     "next": "^10.2.3",
     "next-analytics": "^2.0.0",
     "next-fbq": "^2.0.0",
-    "next-unused": "0.0.6",
     "react": "16.13.1",
     "react-accessible-accordion": "^3.3.5",
     "react-cool-inview": "^2.0.9",
