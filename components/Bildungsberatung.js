@@ -1,6 +1,6 @@
 import React from 'react';
 import Beratung from './Beratung';
-export default function FS_Bildungsberatung() {
+export default function Bildungsberatung() {
   return (
     <section className='blackGitter bildungsberatung'>
       <h2>

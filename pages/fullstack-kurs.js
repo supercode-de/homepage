@@ -6,7 +6,7 @@ import FS_Praxis from '../components/FS_Praxis';
 import FS_TrainerTeam from '../components/FS_TrainerTeam';
 import FS_ZahlenUndFakten from '../components/FS_ZahlenUndFakten';
 import FS_Tagesablauf from '../components/FS_Tagesablauf';
-import FS_Bildungsberatung from '../components/FS_Bildungsberatung';
+import Bildungsberatung from '../components/Bildungsberatung';
 import FooterCallToAction_neu from '../components/FooterCallToAction_neu';
 export default function FullstackKurse(props) {
   if (process.browser) {
@@ -20,7 +20,7 @@ export default function FullstackKurse(props) {
           <FS_TrainerTeam />
           <FS_ZahlenUndFakten />
           <FS_Tagesablauf />
-          <FS_Bildungsberatung />
+          <Bildungsberatung />
           <FooterCallToAction_neu />
         </div>
         {/*
