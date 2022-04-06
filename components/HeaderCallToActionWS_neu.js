@@ -21,6 +21,7 @@ const HeaderCallToAction_neu = () => {
           font-family: "Neue_Machina_Regular_400";
           padding: 3rem 7% 1rem;
         }
+        
         h2 {
           margin: 0 2%;
         }
