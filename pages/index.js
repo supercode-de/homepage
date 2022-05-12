@@ -19,7 +19,7 @@ import Cookies from '../components/Cookies.js';
 
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
-import KurseRaster from '../components/KurseRaster';
+// import KurseRaster from '../components/KurseRaster';
 const Blog_neu = dynamic(() => import('../components/Blog_neu'))
 
 
