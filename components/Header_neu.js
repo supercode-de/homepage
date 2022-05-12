@@ -50,8 +50,7 @@ const Header_neu = (props) => {
       <div>
         <JetztBewerben2 />
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           img + div {
             display: none;
           }
@@ -84,8 +83,8 @@ const Header_neu = (props) => {
             position: absolute;
             background: url('/img/vector41.svg') center/cover no-repeat;
             height: 2px;
-            width: 70%;
-            right: 0;
+            width: 200%;
+            right: 350px;
             bottom: 4px;
             content: '';
             display: block;
@@ -94,8 +93,8 @@ const Header_neu = (props) => {
             position: absolute;
             background: url('/img/vector41.svg') center/cover no-repeat;
             height: 2px;
-            width: 50%;
-            right: 0;
+            width: 130%;
+            right: 420px;
             bottom: 0px;
             content: '';
             display: block;
@@ -149,6 +148,16 @@ const Header_neu = (props) => {
           .cirle {
             position: relative;
           }
+          @media (max-width: 1024px) {
+            h1 span.super2::after {
+              width: 350%;
+              right: 250px;
+            }
+            h1 span.super2::before {
+              width: 210%;
+              right: 300px;
+            }
+          }
           @media (max-width: 1040px) {
             h1 {
               font-size: 2.5em;
@@ -187,12 +196,14 @@ const Header_neu = (props) => {
             .arrow {
               display: none;
             }
-            // img + div {
-            //   display: block;
-            //   text-align: center;
-            //   margin-top: -6vh;
-            //   margin-bottom: -6vh;
-            // }
+            h1 span.super2::after {
+              width: 80%;
+              right: 130px;
+            }
+            h1 span.super2::before {
+              width: 60%;
+              right: 160px;
+            }
           }
           @media (max-width: 644px) {
             #header {
@@ -217,6 +228,12 @@ const Header_neu = (props) => {
           @media (max-width: 468px) {
             h1 {
               font-size: 2.8em;
+            }
+          }
+          @media (max-width: 425px) {
+            h1 span.super2::after,
+            h1 span.super2::before {
+              display: none;
             }
           }
         `}

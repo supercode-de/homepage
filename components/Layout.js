@@ -112,6 +112,7 @@ class Layout extends Component {
               --super-lila: #5d3ede;
               --super-blau: #070021;
               --super-black: #03000f;
+              --super-white: #fff;
               --super-yellow: #ffda1a;
             }
             html {

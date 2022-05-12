@@ -70,7 +70,7 @@ const Bootcamps = (props) => {
 
       <style jsx>{`
           .bootcamps {
-            color: #fff;
+            color: var(--super-white);
           }
           h2 {
             margin: 0;

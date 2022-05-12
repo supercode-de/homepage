@@ -1,8 +1,8 @@
 import Curriculum from './Curriculum_Popup';
 import { useRouter } from 'next/router';
-import ButtonGreen from './small/ButtonGreen';
-import Link from 'next/dist/client/link';
-import Router from 'next/dist/next-server/server/router';
+// import ButtonGreen from './small/ButtonGreen';
+// import Link from 'next/dist/client/link';
+// import Router from 'next/dist/next-server/server/router';
 const KurseCard = (props) => {
   const router = useRouter();
   const {
@@ -15,24 +15,24 @@ const KurseCard = (props) => {
     typeformFormularID,
   } = props.data;
   return (
-    <section className='kurseCard'>
-      <div className='headlines'>
-        <h5 id={headlineID}>{headline}</h5>
-      </div>
-      <div className='text'>
-        <p>{umfang}</p>
-        {/* <p>{start}</p> */}
-        <p>{copy}</p>
-      </div>
-      <div className='buttons'>
-        <button onClick={() => router.push(props.href)}> ZUM KURS</button>
-        <Curriculum
-          buttonTextColor='#fff'
-          buttonText='Curriculum'
-          hubspot={hubspotFormID}
-        />
-      </div>
-      <style jsx>{`
+      <section className='kurseCard'>
+        <div className='headlines'>
+          <h5 id={headlineID}>{headline}</h5>
+        </div>
+        <div className='text'>
+          <p>{umfang}</p>
+          {/* <p>{start}</p> */}
+          <p>{copy}</p>
+        </div>
+        <div className='buttons'>
+          <button onClick={() => router.push(props.href)}>ZUM KURS</button>
+          <Curriculum
+            buttonTextColor='#fff'
+            buttonText='Curriculum'
+            hubspot={hubspotFormID}
+          />
+        </div>
+        <style jsx>{`
           .kurseCard {
             border: 4px solid var(--super-green);
             background: var(--super-lila);
@@ -41,8 +41,6 @@ const KurseCard = (props) => {
             // flex-direction: column;
             // min-height: 100%;
             padding: 43px 28px;
-            margin: 0 2rem;
-
             // diese grid Styles werden nur gebraucht, wenn das Carousel in Bootcamp.js da ist
             // das dient dazu, die Karten auf eine einheitliche Höhe zu bekommen.
             display: grid;
@@ -82,7 +80,7 @@ const KurseCard = (props) => {
             background: transparent;
             border: none;
             outline: 1px solid var(--super-green);
-            color: #fff;
+            color: var(--super-white);
           }
           button:hover {
             background: var(--super-green);
@@ -141,8 +139,8 @@ const KurseCard = (props) => {
           @media (max-width: 320px) {
           }
         `}
-      </style>
-    </section>
+        </style>
+      </section>
   );
 };
 
