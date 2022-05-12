@@ -38,8 +38,8 @@ export default function Home(props) {
             <Zukunft />
             <UnserCampus />
             <Weiterbildung_neu />
-            <KurseRaster />
-            {/* <Bootcamps kurseData={kurseData[0].kurseIndex} /> */}
+            {/* <KurseRaster /> */}
+            <Bootcamps kurseData={kurseData[0].kurseIndex} />
             <CertquaBonn />
             <Finanzierung />
             <Bewerbungsprozess />
