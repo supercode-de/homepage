@@ -87,6 +87,9 @@ const Bootcamps = (props) => {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             padding: 5rem 0;
+            gap: 50px;
+            width: 90%;
+            margin: 0 auto;
           }
           // .kurse-carousel {
           //     padding: 5rem 0;
