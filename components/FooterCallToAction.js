@@ -1,7 +1,7 @@
 import Beratung from "./Beratung";
 import Link from "next/link";
 
-const FooterCallToAction = (props) => {
+const FooterCallToAction = () => { 
   return (
     <div id="call-to-action">
       <h1>Worauf wartest du noch?</h1>

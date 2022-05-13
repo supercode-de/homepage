@@ -31,9 +31,8 @@ const Finanzierung = (props) => {
       </div>
       <style jsx>{`
           #finanzierung {
-            background: url("./img/Gold-Chain.png") top right/contain no-repeat,
-              var(--super-blau);
-            color: #fff;
+            background: url("./img/Gold-Chain.png") top right/contain no-repeat, var(--super-blau);
+            color: var(--super-white);
             padding: 50px 6%; 
           }
           h2 {
@@ -47,7 +46,7 @@ const Finanzierung = (props) => {
             font-weight: 400;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #ffffff;
+            -webkit-text-stroke-color: var(--super-white);
           }
 
           .infos {

@@ -15,24 +15,24 @@ const KurseCard = (props) => {
     typeformFormularID,
   } = props.data;
   return (
-      <section className='kurseCard'>
-        <div className='headlines'>
-          <h5 id={headlineID}>{headline}</h5>
-        </div>
-        <div className='text'>
-          <p>{umfang}</p>
-          {/* <p>{start}</p> */}
-          <p>{copy}</p>
-        </div>
-        <div className='buttons'>
-          <button onClick={() => router.push(props.href)}>ZUM KURS</button>
-          <Curriculum
-            buttonTextColor='#fff'
-            buttonText='Curriculum'
-            hubspot={hubspotFormID}
-          />
-        </div>
-        <style jsx>{`
+    <section className='kurseCard'>
+      <div className='headlines'>
+        <h5 id={headlineID}>{headline}</h5>
+      </div>
+      <div className='text'>
+        <p>{umfang}</p>
+        {/* <p>{start}</p> */}
+        <p>{copy}</p>
+      </div>
+      <div className='buttons'>
+        <button onClick={() => router.push(props.href)}>ZUM KURS</button>
+        <Curriculum
+          buttonTextColor='#fff'
+          buttonText='Curriculum'
+          hubspot={hubspotFormID}
+        />
+      </div>
+      <style jsx>{`
           .kurseCard {
             border: 4px solid var(--super-green);
             background: var(--super-lila);
@@ -69,6 +69,7 @@ const KurseCard = (props) => {
           .buttons {
             min-width: 100%;
             display: flex;
+            
             gap: 1rem;
           }
 
@@ -139,8 +140,8 @@ const KurseCard = (props) => {
           @media (max-width: 320px) {
           }
         `}
-        </style>
-      </section>
+      </style>
+    </section>
   );
 };
 

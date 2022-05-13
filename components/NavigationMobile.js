@@ -73,6 +73,7 @@ const JetztAnmdelden = (props) => {
             justify-content: center;
             font-family: 'Neue_Machina_Regular_400';
             overflow-y: hidden;
+            // das ist notwendig, weil auf ios safari beim scrollen die adresszeile unten immer eine lücke hat entstehen lassen, so dass man auf die webseite hindurch gucken konnte. das löst es halbwegs
             transform: translate3d(0,0,0);
           }
           .isHidden {

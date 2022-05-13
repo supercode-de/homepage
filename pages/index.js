@@ -57,7 +57,7 @@ export default function Home(props) {
               {inView && <Blog_neu />}
             </div>
             <FAQ />
-            <FooterCallToAction month={dates.VzTzMonth} />
+            <FooterCallToAction/>
             {/* <Cookies /> */}
           </main>
           <style jsx>{``}</style>

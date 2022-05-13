@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import Beratung from './Beratung';
-import Typeform_neu_flexible_uxui from './Typeform_neu_flexible_uxui';
+// import Link from 'next/link';
+// import Beratung from './Beratung';
+// import Typeform_neu_flexible_uxui from './Typeform_neu_flexible_uxui';
 import JetztBewerben2 from './JetztBewerben2'
 
 export default function FooterCallToAction_neu() {
