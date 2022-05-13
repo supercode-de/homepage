@@ -10,12 +10,12 @@ const Cookies = () => {
         <button type="button" id="hs_show_banner_button" onClick={() => hupspot()}>Cookie-Einstellungen</button>
         <style jsx>{`
         #hs_show_banner_button{
-            background-color: #00bda5; 
-            border: 1px solid #00bda5;
+            background-color: var(--super-green); 
+            border: 1px solid var(--super-green);
             border-radius: 3px; 
             padding: 10px 16px; 
             text-decoration: none; 
-            color: #fff;
+            color: var(--super-white);
             font-family: inherit; 
             font-size: inherit; 
             font-weight: normal; 

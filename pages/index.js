@@ -14,7 +14,7 @@ import FAQ from '../components/FAQ';
 import FooterCallToAction from '../components/FooterCallToAction';
 import Layout from '../components/Layout';
 import dates from '../components/data/dates.json';
-import kurseData from '../components/data/kursedata.json';
+// import kurseData from '../components/data/kursedata.json';
 import Cookies from '../components/Cookies.js';
 
 import useInView from "react-cool-inview";
