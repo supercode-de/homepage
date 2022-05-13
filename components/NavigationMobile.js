@@ -58,8 +58,7 @@ const JetztAnmdelden = (props) => {
           </li>
         </ul>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #navigation-mobile {
             position: fixed;
             background: #03000f;
@@ -74,6 +73,7 @@ const JetztAnmdelden = (props) => {
             justify-content: center;
             font-family: 'Neue_Machina_Regular_400';
             overflow-y: hidden;
+            transform: translate3d(0,0,0);
           }
           .isHidden {
             right: -100%;
