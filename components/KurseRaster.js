@@ -25,6 +25,20 @@ const KurseRaster = () => {
         })
         setKurseData(filteredKurseData)
     }
+    const handleFilterChangeFinanzierung = (e) => {
+        console.log(e.target.value)
+        // let filteredKurseData = kurseData.filter(function (singleData) {
+        //     return singleData.finanzierung == e.target.value
+        // })
+        // setKurseData(filteredKurseData)
+    }
+    const handleFilterChangeStandort = (e) => {
+        console.log(e.target.value)
+        // let filteredKurseData = kurseData.filter(function (singleData) {
+        //     return singleData.finanzierung == e.target.value
+        // })
+        // setKurseData(filteredKurseData)
+    }
 
     const handleReset = () => {
         console.log("reset click")
@@ -62,14 +76,14 @@ const KurseRaster = () => {
                     <option value="teilzeit">Teilzeit</option>
                     <option value="teilzeit">Berufsbegleitend</option>
                 </select>
-                <select name="finanzierung" id="finanzierung" onChange={e => handleFilterChange(e)}>
+                <select name="finanzierung" id="finanzierung" onChange={e => handleFilterChangeFinanzierung(e)}>
                     <option value="finanzierung">Finanzierung</option>
                     <option value="bgs">Bildungsgutschein</option>
                     <option value="raten">Raten-Zahlung</option>
                     <option value="chancen-eg">Chancen EG</option>
                     <option value="deutscheBildung-ag">Deutsche Bildung AG</option>
                 </select>
-                <select name="campus" id="campus" onChange={e => handleFilterChange(e)}>
+                <select name="campus" id="campus" onChange={e => handleFilterChangeStandort(e)}>
                     <option value="campus">Campus</option>
                     <option value="remote">Remote</option>
                     <option value="duesseldorf">Düsseldorf</option>

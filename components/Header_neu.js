@@ -79,28 +79,6 @@ const Header_neu = (props) => {
             -webkit-text-stroke-color: #fff;
             font-weight: 300;
           }
-          h1 span.super2::after {
-            position: absolute;
-            background: url('/img/vector41.svg') center/cover no-repeat;
-            height: 2px;
-            width: 200%;
-            right: 350px;
-            bottom: 4px;
-            content: '';
-            display: block;
-          }
-          h1 span.super2::before {
-            position: absolute;
-            background: url('/img/vector41.svg') center/cover no-repeat;
-            height: 2px;
-            width: 130%;
-            right: 420px;
-            bottom: 0px;
-            content: '';
-            display: block;
-            transform: rotate(0.5deg);
-          }
-
           h1 span.circle {
             background: url('/img/Vector64.svg') center/contain no-repeat;
             padding: 10px;
@@ -148,16 +126,6 @@ const Header_neu = (props) => {
           .cirle {
             position: relative;
           }
-          @media (max-width: 1024px) {
-            h1 span.super2::after {
-              width: 350%;
-              right: 250px;
-            }
-            h1 span.super2::before {
-              width: 210%;
-              right: 300px;
-            }
-          }
           @media (max-width: 1040px) {
             h1 {
               font-size: 2.5em;
@@ -196,14 +164,6 @@ const Header_neu = (props) => {
             .arrow {
               display: none;
             }
-            h1 span.super2::after {
-              width: 80%;
-              right: 130px;
-            }
-            h1 span.super2::before {
-              width: 60%;
-              right: 160px;
-            }
           }
           @media (max-width: 644px) {
             #header {
@@ -230,12 +190,7 @@ const Header_neu = (props) => {
               font-size: 2.8em;
             }
           }
-          @media (max-width: 425px) {
-            h1 span.super2::after,
-            h1 span.super2::before {
-              display: none;
-            }
-          }
+
         `}
       </style>
     </div>

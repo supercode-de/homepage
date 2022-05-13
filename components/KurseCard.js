@@ -22,7 +22,7 @@ const KurseCard = (props) => {
         <div className='text'>
           <p>{umfang}</p>
           {/* <p>{start}</p> */}
-          <p>{copy}</p>
+          {/* <p>{copy}</p> */}
         </div>
         <div className='buttons'>
           <button onClick={() => router.push(props.href)}>ZUM KURS</button>
