@@ -58,7 +58,7 @@ export default function Home(props) {
             </div>
             <FAQ />
             <FooterCallToAction month={dates.VzTzMonth} />
-            <Cookies />
+            {/* <Cookies /> */}
           </main>
           <style jsx>{``}</style>
         </div>
