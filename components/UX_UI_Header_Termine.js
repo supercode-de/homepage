@@ -8,6 +8,7 @@ const UXUIHeaderTermine = () => {
                             <img src="/img/FSHeader_Termine_Icon_UXUI.png" alt="" />
                             <h2>18. Juli</h2>
                         </div>
+                        <h3>Es sind keine Plätze mehr verfügbar.</h3>
                     </div>
                 </div>
                 <div>
@@ -16,6 +17,7 @@ const UXUIHeaderTermine = () => {
                             <img src="/img/FSHeader_Termine_Icon_UXUI.png" alt="" />
                             <h2>26. September</h2>
                         </div>
+                        <h3>Es sind keine Plätze mehr verfügbar.</h3>
                     </div>
                 </div>
                 <div>
@@ -24,10 +26,10 @@ const UXUIHeaderTermine = () => {
                             <img src="/img/FSHeader_Termine_Icon_UXUI.png" alt="" />
                             <h2>21. November</h2>
                         </div>
+                        <h3>Es sind keine Plätze mehr verfügbar.</h3>
                     </div>
                 </div>
             </div>
-            <h2>Es sind keine Plätze mehr verfügbar.</h2>
             <style jsx>{`
                 #header-termine{
                     padding: 10vh 0;
@@ -57,13 +59,8 @@ const UXUIHeaderTermine = () => {
                     margin: 0;
                     padding-left: 5px;
                     font-size: 2.2rem;
+                    text-decoration: line-through;
                 }
-h2 {
-    text-align: center;
-    margin: 0;
-    margin-top: 50px;
-    font-size: 2em;
-}
                 @media (max-width: 1040px) {
                     .start-termin h2{
                         font-size: 1.8rem;

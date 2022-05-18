@@ -27,9 +27,10 @@ export default function FooterCallToAction_neu() {
         <h3>18.07.2022 – max. 16 Teilnehmende</h3>
         <h3>26.09.2022 – max. 16 Teilnehmende</h3>
         <h3>21.11.2022 – max. 16 Teilnehmende</h3>
-        <span className='jetzt-bewerben-btn'>
+        <div className="jetzt-bewerben-btn">
           <JetztBewerben2 />
-        </span>
+        </div>
+
       </div>
       <style jsx>{`
         .footerCTA {
@@ -37,7 +38,6 @@ export default function FooterCallToAction_neu() {
           padding-top: 60px;
           padding-bottom: 50px;
         }
-
         h2 {
           color: #fff;
           font-size: 3.7rem;
@@ -71,45 +71,15 @@ export default function FooterCallToAction_neu() {
           font-size: 2rem;
         }
         .jetzt-bewerben-btn {
-          position: absolute;
-          right: -5%;
-          width: 30%;
-          display: inline-block;
-          bottom: -20px;
+          display: flex;
+          justify-content: flex-end;
         }
-        @media (max-width: 1024px) {
-          jetzt-bewerben-btn {
-            position: absolute;
-            right: 15%;
-            width: 30%;
-            display: inline-block;
-            bottom: -20px;
-          }
-        }
-        @media (max-width: 1063px) {
-          .jetzt-bewerben-btn {
-            position: static;
-            right: 8%;
-            width: 30%;
-            display: block;
-            bottom: -20px;
-          }
-        }
-        }
-
         @media (max-width: 910px) {
           h2 {
             font-size: 2rem;
           }
           .termine h3 {
             font-size: 1.4rem;
-          }
-          .jetzt-bewerben-btn {
-            position: static;
-            right: 8%;
-            width: 30%;
-            display: block;
-            bottom: -20px;
           }
         }
 
@@ -119,13 +89,6 @@ export default function FooterCallToAction_neu() {
           }
           .termine h3 {
             font-size: 1.7rem;
-          }
-          .jetzt-bewerben-btn {
-            position: static;
-            right: 5%;
-            width: 30%;
-            display: block;
-            bottom: -20px;
           }
         }
 
