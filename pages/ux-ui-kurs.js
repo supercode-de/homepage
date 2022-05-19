@@ -20,7 +20,6 @@ export default function FrontendKurse(props) {
           <UX_UI_HeaderCTA />
           <UX_UI_Praxis />
           <UX_UI_TrainerTeam />
-
           <UX_UI_Tagesablauf />
           <Bildungsberatung />
           <FooterCallToAction_neu_uxui />
