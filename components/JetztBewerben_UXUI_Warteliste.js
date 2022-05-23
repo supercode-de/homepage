@@ -74,11 +74,15 @@ class JetztBewerben_UXUI_Warteliste extends Component {
           }
 
           .jetzt-bewerben-container {
-            padding: 50px 10%;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 50px;
+            padding: 50px 5%;
+            // display: grid;
+            // grid-template-columns: 1fr 1fr;
+            // gap: 50px;
+            // align-items: center;
+            display: flex;
+            justify-content: space-between;
             align-items: center;
+            gap: 20px;
           }
           .button-HeaderCallToAction {
             margin: 2em 1em;
@@ -119,9 +123,15 @@ class JetztBewerben_UXUI_Warteliste extends Component {
           .jetzt-bewerben-close:hover {
             color: var(--super-green);
           }
+          .jetzt-bewerben-right {
+            width: 40%;
+          }
+          .jetzt-bewerben-left {
+            width: 80%;
+          }
           .jetzt-bewerben-left h1,
           .jetzt-bewerben-right h1{
-            font-size: 4.3em;
+            font-size: 4em;
             font-style: normal;
             font-weight: 800;
             margin: 0;
@@ -160,6 +170,17 @@ class JetztBewerben_UXUI_Warteliste extends Component {
 
             .jetzt-bewerben-left h1 {
               font-size: 3.3em;
+            }
+            .jetzt-bewerben-left,
+            .jetzt-bewerben-right {
+              width: 100%;
+            }
+            .jetzt-bewerben-right {
+              margin-top: 50px;
+            }
+            
+            .jetzt-bewerben-left p {
+              letter-spacing: 0;
             }
             .jetzt-bewerben-container {
               padding: 5% 10%;
