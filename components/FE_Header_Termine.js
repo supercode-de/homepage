@@ -18,7 +18,7 @@ const FEHeaderTermine = () => {
                 <div>Anmeldeschluss bis 17. Juni</div>
             </div>
         </div>
-        <div>
+        {/* <div>
             <div className="termine-wrapper">
                 <div className="start-termin">
                     <img src="/img/FSHeader_Termine_Icon.png" alt="" />
@@ -26,7 +26,7 @@ const FEHeaderTermine = () => {
                 </div>
                 <div>Anmeldeschluss bis 18. November</div>
             </div>
-        </div>
+        </div> */}
         <style jsx>
             {`
                 #header-termine{
