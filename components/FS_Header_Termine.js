@@ -13,9 +13,9 @@ const FSHeaderTermine = () => {
             <div className="termine-wrapper">
                 <div className="start-termin">
                     <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                    <h2>20. Juni</h2>
+                    <h2 className="line-through">20. Juni</h2>
                 </div>
-                <div>Anmeldeschluss bis 17. Juni</div>
+                <div className="line-through">Anmeldeschluss bis 17. Juni</div>
             </div>
         </div>
         <div>
