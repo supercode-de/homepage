@@ -6,25 +6,25 @@ const FSHeaderTermine = () => {
                     <img src="/img/FSHeader_Termine_Icon.png" alt="" />
                     <h2>21. März</h2>
                 </div>
-                <div>Anmeldeschluss bis 18. März</div>
+                <div className="line-through">Anmeldeschluss bis 18. März</div>
             </div>
         </div>
         <div>
             <div className="termine-wrapper">
                 <div className="start-termin">
                     <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                    <h2>20. Juni</h2>
+                    <h2 className="line-through">20. Juni</h2>
                 </div>
-                <div>Anmeldeschluss bis 17. Juni</div>
+                <div className="line-through">Anmeldeschluss bis 17. Juni</div>
             </div>
         </div>
         <div>
             <div className="termine-wrapper">
                 <div className="start-termin">
                     <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                    <h2>26. September</h2>
+                    <h2>19. September</h2>
                 </div>
-                <div>Anmeldeschluss bis 23. September</div>
+                <div>Anmeldeschluss bis 16. September</div>
             </div>
         </div>
         <style jsx>
@@ -36,6 +36,16 @@ const FSHeaderTermine = () => {
                     flex-wrap: wrap;
                     justify-content: space-evenly;
                     color: white;
+                }
+
+                #header-termine div:nth-of-type(1) .termine-wrapper h2{
+                    text-decoration: line-through;
+                    text-decoration-color: #3dd7ac;
+                }
+
+                .line-through{
+                    text-decoration: line-through;
+                    text-decoration-color: #3dd7ac;
                 }
 
                 .termine-wrapper div:nth-child(2){

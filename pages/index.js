@@ -19,7 +19,7 @@ import Cookies from '../components/Cookies.js';
 
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
-import KurseRaster from '../components/KurseRaster';
+// import KurseRaster from '../components/KurseRaster';
 const Blog_neu = dynamic(() => import('../components/Blog_neu'))
 
 
@@ -38,8 +38,8 @@ export default function Home(props) {
             <Zukunft />
             <UnserCampus />
             <Weiterbildung_neu />
-            <KurseRaster />
-            {/* <Bootcamps kurseData={kurseData[0].kurseIndex} /> */}
+            {/* <KurseRaster /> */}
+            <Bootcamps kurseData={kurseData[0].kurseIndex} />
             <CertquaBonn />
             <Finanzierung />
             <Bewerbungsprozess />
@@ -57,8 +57,8 @@ export default function Home(props) {
               {inView && <Blog_neu />}
             </div>
             <FAQ />
-            <FooterCallToAction month={dates.VzTzMonth} />
-            <Cookies />
+            <FooterCallToAction/>
+            {/* <Cookies /> */}
           </main>
           <style jsx>{``}</style>
         </div>

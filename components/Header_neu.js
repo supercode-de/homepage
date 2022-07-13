@@ -190,7 +190,6 @@ const Header_neu = (props) => {
               font-size: 2.8em;
             }
           }
-
         `}
       </style>
     </div>

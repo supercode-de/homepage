@@ -87,6 +87,9 @@ const Bootcamps = (props) => {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             padding: 5rem 0;
+            gap: 50px;
+            width: 90%;
+            margin: 0 auto;
           }
           // .kurse-carousel {
           //     padding: 5rem 0;
@@ -138,8 +141,8 @@ const Bootcamps = (props) => {
           }
           @media (max-width: 540px) {
             .cards {
-              margin: 0;
-              width: 100%;
+              margin: 0 auto;
+              width: 90%;
             }
           }
           @media (max-width: 375px) {

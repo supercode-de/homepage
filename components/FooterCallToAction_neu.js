@@ -1,8 +1,10 @@
-import Link from 'next/link';
-import Beratung from './Beratung';
-import Typeform_neu_flexible from './Typeform_neu_flexible';
+// import Link from 'next/link';
+// import Beratung from './Beratung';
+// import Typeform_neu_flexible from './Typeform_neu_flexible';
 import JetztBewerben2 from './JetztBewerben2';
 
+
+// diese Komponente wird nirgendwo genutzt
 export default function FooterCallToAction_neu() {
   return (
     <div id='call-to-action' className='footerCTA'>
