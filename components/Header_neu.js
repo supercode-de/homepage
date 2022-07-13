@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import Typeform from './TypeForm_neu';
 import Typewriter from 'typewriter-effect';
 import Telefon_neu from './small/Telefon_neu';
-import JetztBewerben2 from './JetztBewerben2';
+import Typeform_neu2022 from './Typeform_neu2022';
 
 const Header_neu = (props) => {
   return (
@@ -48,7 +47,7 @@ const Header_neu = (props) => {
         alt='Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter'
       />
       <div>
-        <JetztBewerben2 />
+        <Typeform_neu2022 />
       </div>
       <style jsx>{`
           img + div {

@@ -1,6 +1,4 @@
-import Typeform_neu_flexible_uxui from "./Typeform_neu_flexible_uxui";
-import JetztBewerben2 from "./JetztBewerben2";
-import JetztBewerben_UXUI_Warteliste from "./JetztBewerben_UXUI_Warteliste"
+import Typeform_neu2022 from './Typeform_neu2022';
 
 const HeaderCallToAction_neu = () => {
   return (
@@ -26,9 +24,7 @@ const HeaderCallToAction_neu = () => {
       </section>
       <article className="jetzt-bewerben">
         <h4> Bewirb dich jetzt!</h4>
-        <JetztBewerben_UXUI_Warteliste />
-        {/* <JetztBewerben2 /> */}
-        {/* <Typeform_neu_flexible_uxui width="410px" height="50px" top="50px" /> */}
+        <Typeform_neu2022 />
       </article>
 
       <style jsx>{`

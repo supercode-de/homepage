@@ -85,6 +85,7 @@ const FooterCallToAction = (props) => {
           color: var(--super-lila);
           display: block;
           margin-top: 2rem;
+          border-radius: 5rem;
         }
         a:hover {
           color: var(--super-lila);

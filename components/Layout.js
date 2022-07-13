@@ -208,6 +208,9 @@ class Layout extends Component {
               text-decoration: none;
             }
             
+            button{
+              border-radius: 5rem; 
+            }
             
             
 

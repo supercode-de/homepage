@@ -1,5 +1,5 @@
 import Popup from "reactjs-popup";
-const Typeform_test = (props) => {
+const Typeform_neu2022 = (props) => {
   return (
     <>
       <Popup trigger={<button>JETZT BEWERBEN</button>} position="center">
@@ -94,4 +94,4 @@ const Typeform_test = (props) => {
   );
 };
 
-export default Typeform_test;
+export default Typeform_neu2022;

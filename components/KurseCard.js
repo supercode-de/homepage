@@ -44,6 +44,7 @@ const KurseCard = (props) => {
             border: 4px solid var(--super-green);
             background: var(--super-lila);
             white-space: pre-line;
+            border-radius: 2rem;
             // display: flex;
             // flex-direction: column;
             // min-height: 100%;
@@ -81,16 +82,16 @@ const KurseCard = (props) => {
 
           button {
             font-family: 'Fira Sans', sans-serif;
+            width: 100%;
             font-size: 0.875em;
-            letter-spacing: 1px;
-            width: 100%;
             background: transparent;
-            border: none;
-            outline: 1px solid var(--super-green);
+            outline: none;
+            border: 1px solid var(--super-green);
             color: var(--super-white);
-            width: 100%;
-            text-transform: uppercase;
             padding: 15px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-radius: 5rem;
           }
           button:hover {
             background: var(--super-green);

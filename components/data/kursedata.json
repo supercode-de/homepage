@@ -34,7 +34,7 @@
         "published": true
       },
       {
-        "headline": "Back-End\nDevelopment",
+        "headline": "Back-End\nDevelopment\n_",
         "headlineID": "backend-dev",
         "umfang": "Vollzeit | 9 Wochen",
         "start": "Start: 28.02.2022 Ende: 15.10.2022",
@@ -45,7 +45,7 @@
         "published": false
       },
       {
-        "headline": "UX/UI-Design",
+        "headline": "UX/UI-\nDesign\n_",
         "headlineID": "uxui-des",
         "umfang": "Vollzeit | 30 Wochen",
         "start": "Start: 28.02.2022 Ende: 03.06.2022",
@@ -56,7 +56,7 @@
         "published": false
       },
       {
-        "headline": "Data-Engineer",
+        "headline": "Data-\nEngineer\n_",
         "headlineID": "data-eng",
         "umfang": "Vollzeit | 30 Wochen",
         "start": "Start: 28.02.2022 Ende: 03.06.2022",
@@ -67,7 +67,7 @@
         "published": false
       },
       {
-        "headline": "Java Developer",
+        "headline": "Java\nDeveloper\n_",
         "headlineID": "java-dev",
         "umfang": "Vollzeit | 30 Wochen",
         "start": "Start: 28.02.2022 Ende: 03.06.2022",

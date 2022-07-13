@@ -48,6 +48,7 @@ const FooterCallToAction = () => {
           text-decoration: none;
           color: #fff;
           display: inline-block;
+          border-radius: 5rem;
         }
         a:hover {
           color: var(--super-lila);

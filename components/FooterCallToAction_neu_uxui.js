@@ -1,7 +1,4 @@
-// import Link from 'next/link';
-// import Beratung from './Beratung';
-// import Typeform_neu_flexible_uxui from './Typeform_neu_flexible_uxui';
-import JetztBewerben2 from './JetztBewerben2'
+import Typeform_neu2022 from './Typeform_neu2022';
 
 export default function FooterCallToAction_neu() {
   return (
@@ -28,7 +25,7 @@ export default function FooterCallToAction_neu() {
         <h3>26.09.2022 – max. 16 Teilnehmende</h3>
         <h3>21.11.2022 – max. 16 Teilnehmende</h3>
         <div className="jetzt-bewerben-btn">
-          <JetztBewerben2 />
+          <Typeform_neu2022 />
         </div>
 
       </div>

@@ -1,5 +1,4 @@
-import Typeform_neu_flexible from "./Typeform_neu_flexible";
-import JetztBewerben2 from "./JetztBewerben2";
+import Typeform_neu2022 from './Typeform_neu2022';
 
 const HeaderCallToAction_neu = () => {
   return (
@@ -33,8 +32,7 @@ const HeaderCallToAction_neu = () => {
       <article className="jetzt-bewerben">
         <h4> Bewirb dich jetzt!</h4>
         <span className="btn"></span>
-        <JetztBewerben2 />
-        {/* <Typeform_neu_flexible width="410px" height="50px" top="50px" /> */}
+        <Typeform_neu2022 />
       </article>
       <style jsx>{`
 

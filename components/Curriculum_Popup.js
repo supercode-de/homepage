@@ -48,15 +48,19 @@ const Typeform = (props) => {
       <style jsx>{`
         .button {
           font-family: 'Fira Sans', sans-serif;
-          font-size: 0.875em;
-          letter-spacing: 1px;
-          text-transform: uppercase;
-          background: transparent;
-          border: 1px solid var(--super-green);
-          color: ${props.buttonTextColor};
-          display: inline-block;
-          padding: 15px 0;
-          width: ${props.buttonWidth ? props.buttonWidth : '100%'};
+            
+            width: 100%;
+            font-size: 0.875em;
+            background: transparent;
+            outline: none;
+            border: 1px solid var(--super-green);
+            color: var(--super-white);
+            color: ${props.buttonColor};
+            padding: 15px 0;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            border-radius: 5rem;
+            margin-bottom: 1rem;
         }
         .button:hover {
           color: var(--super-lila);

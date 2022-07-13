@@ -95,6 +95,7 @@ const MeldeDich = () => {
           justify-self: center;
           display: inline-block;
           min-width: 23em;
+          border-radius: 5rem;
         }
         a:hover {
           color: var(--super-lila);

@@ -30,7 +30,7 @@ class JetztBewerben2 extends Component {
             <h1>Schön, dass</h1>
             <h1>du dich für</h1>
             <h1>unsere <span>Kurse</span></h1>
-            <h1> interessierst.</h1>
+            <h1>interessierst.</h1>
             <p>Nun brauchen wir von dir ein paar Angaben und Daten, um mit dir gemeinsam darüber zu sprechen, ob unsere
               Kurse für dich die richtigen sind.</p>
             <p>Keine Sorge, wir behandeln deine Daten absolute vertraulich und spammen dich auch nicht zu.</p>
@@ -187,10 +187,6 @@ class JetztBewerben2 extends Component {
               width: 4vmax;
               min-width: 50px;
             }
-          }
-
-          .button-HeaderCallToAction {
-            width: 30em;
           }
 
           @media screen and (max-width: 568px) {

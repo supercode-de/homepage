@@ -223,6 +223,7 @@ const UX_UI_Praxis = () => {
           <Curriculum
             buttonText='Curriculum'
             buttonWidth='150px'
+            buttonColor='#000'
             hubspot={kurseData[0].kurseKursePage[0].hubspotFormID}
           />
           <Beratung_flexible
@@ -233,17 +234,11 @@ const UX_UI_Praxis = () => {
           />
         </div>
       </div>
-      <style jsx>
-        {`
-          // .accord-con {
-          //   z-index: 99;
-          // }
+      <style jsx>{`
           .fsPraxis {
             padding: 40px 0 40px 2%;
           }
-          // .fsPraxis h2 {
-          //   font-size: 4rem;
-          // }
+
           .fsPraxis p {
             width: 65%;
             font-size: 1.3rem;

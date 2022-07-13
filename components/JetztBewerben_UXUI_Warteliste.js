@@ -25,17 +25,6 @@ class JetztBewerben_UXUI_Warteliste extends Component {
         </button>
 
         <div className='jetzt-bewerben-container'>
-          <div className='jetzt-bewerben-left'>
-            <h1>Schön, dass du</h1>
-            <h1>dich für</h1>
-            <h1><span>unseren UX/UI-Design</span></h1>
-            <h1><span>Kurs</span> interessierst.</h1>
-            <p>Leider sind alle Termine in diesem Jahr bereits ausgebucht.</p>
-            <p>Aber kein Grund zur Traurigkeit, wir werden demnächst neue Termine und neue Kursreihen im Bereich UX/UI-Design veröffentlichen. Trage dich in unserer Warteliste ein und wir informieren dich, sobald es wieder freie Plätze oder neue Termine gibt.</p>
-            <p>Bei Fragen kannst du dich natürlich auch gerne per Mail oder Telefon an uns wenden: </p>
-            <a href="mailto:beratung@super-code.de">beratung@super-code.de</a>
-            <a href="tel:+4921178172330">0211 7817 2330</a>
-          </div>
           <div className='jetzt-bewerben-right'>
             <h1>Warteliste</h1>
             <HubspotForm
@@ -80,26 +69,23 @@ class JetztBewerben_UXUI_Warteliste extends Component {
             // gap: 50px;
             // align-items: center;
             display: flex;
-            justify-content: space-between;
+            justify-content: center;
             align-items: center;
             gap: 20px;
+            height: 100vh;
           }
           .button-HeaderCallToAction {
-            margin: 2em 1em;
-            font-family: "Fira Sans", sans-serif;
-            font-size: 14px;
-            line-height: 16px;
-            text-align: center;
+            font-family: 'Fira Sans', sans-serif;
+            width: 100%;
+            font-size: 0.875em;
+            background: transparent;
+            outline: none;
+            border: 1px solid var(--super-green);
+            color: var(--super-white);
+            padding: 15px 0;
             letter-spacing: 1px;
             text-transform: uppercase;
-            padding: 15px 0px;
-            background: transparent;
-            border: 2px solid var(--super-green);
-            color: #fff;
-            justify-self: center;
-            display: inline-block;
-            width: 100%;
-            outline: none;
+            border-radius: 5rem;
           }
           .button-HeaderCallToAction:hover {
             color: var(--super-lila);
@@ -209,10 +195,6 @@ class JetztBewerben_UXUI_Warteliste extends Component {
               width: 4vmax;
               min-width: 50px;
             }
-          }
-
-          .button-HeaderCallToAction {
-            width: 30em;
           }
 
           @media screen and (max-width: 568px) {
