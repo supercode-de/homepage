@@ -1,5 +1,7 @@
 import Curriculum from './Curriculum_Popup';
 import { useRouter } from 'next/router';
+import HubspotForm from 'react-hubspot-form';
+import JetztBewerben_UXUI_Warteliste from './JetztBewerben_UXUI_Warteliste';
 // import ButtonGreen from './small/ButtonGreen';
 // import Link from 'next/dist/client/link';
 // import Router from 'next/dist/next-server/server/router';
@@ -7,12 +9,14 @@ const KurseCard = (props) => {
   const router = useRouter();
   const {
     headline,
+    headlineID,
     umfang,
     start,
     copy,
     hubspotFormID,
-    headlineID,
     typeformFormularID,
+    href,
+    published
   } = props.data;
   return (
     <section className='kurseCard'>
@@ -21,16 +25,19 @@ const KurseCard = (props) => {
       </div>
       <div className='text'>
         <p>{umfang}</p>
-        {/* <p>{start}</p> */}
         <p>{copy}</p>
       </div>
       <div className='buttons'>
-        <button onClick={() => router.push(props.href)}>ZUM KURS</button>
-        <Curriculum
-          buttonTextColor='#fff'
-          buttonText='Curriculum'
-          hubspot={hubspotFormID}
-        />
+        {published ?
+          <div>
+            <Curriculum
+              buttonTextColor='#fff'
+              buttonText='Curriculum'
+              hubspot={hubspotFormID} />
+            <button onClick={() => router.push(href)}>ZUM KURS</button>
+          </div>
+          : <JetztBewerben_UXUI_Warteliste />}
+
       </div>
       <style jsx>{`
           .kurseCard {
@@ -43,12 +50,12 @@ const KurseCard = (props) => {
             padding: 43px 28px;
             // diese grid Styles werden nur gebraucht, wenn das Carousel in Bootcamp.js da ist
             // das dient dazu, die Karten auf eine einheitliche Höhe zu bekommen.
-            display: grid;
-            grid-template-rows: 0.3fr 1.1fr minmax(20px, 60px);
-            grid-template-areas:
-              'headlines'
-              'text'
-              'buttons';
+            // display: grid;
+            // grid-template-rows: 0.3fr 1.1fr minmax(20px, 60px);
+            // grid-template-areas:
+            //   'headlines'
+            //   'text'
+            //   'buttons';
           }
           .headlines {
             grid-area: headlines;
@@ -66,12 +73,11 @@ const KurseCard = (props) => {
           .kurseCard:hover > button {
             background: var(--super-blau);
           }
-          .buttons {
-            min-width: 100%;
-            display: flex;
-            
-            gap: 1rem;
-          }
+          // .buttons {
+          //   min-width: 100%;
+          //   display: flex;
+          //   gap: 1rem;
+          // }
 
           button {
             font-family: 'Fira Sans', sans-serif;
@@ -82,6 +88,9 @@ const KurseCard = (props) => {
             border: none;
             outline: 1px solid var(--super-green);
             color: var(--super-white);
+            width: 100%;
+            text-transform: uppercase;
+            padding: 15px 0;
           }
           button:hover {
             background: var(--super-green);

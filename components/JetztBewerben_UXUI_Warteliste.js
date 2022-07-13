@@ -12,7 +12,7 @@ class JetztBewerben_UXUI_Warteliste extends Component {
 
   render() {
     return (<div>
-      <button className="button-HeaderCallToAction" onClick={() => this.setState({ isHidden: false })}>Jetzt bewerben</button>
+      <button className="button-HeaderCallToAction" onClick={() => this.setState({ isHidden: false })}>Warteliste</button>
       <div
         id='jetzt-bewerben'
         className={this.state.isHidden ? 'isHidden' : 'isNotHidden'}
@@ -98,7 +98,7 @@ class JetztBewerben_UXUI_Warteliste extends Component {
             color: #fff;
             justify-self: center;
             display: inline-block;
-            width: 38.75em;
+            width: 100%;
             outline: none;
           }
           .button-HeaderCallToAction:hover {

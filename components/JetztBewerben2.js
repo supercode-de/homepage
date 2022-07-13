@@ -13,7 +13,7 @@ class JetztBewerben2 extends Component {
 
   render() {
     return (<div>
-      <button className="button-HeaderCallToAction" onClick={() => this.setState({ isHidden: false })}>Jetzt bewerben</button>
+      <button className="button-HeaderCallToAction" onClick={() => this.setState({ isHidden: false })}>{this.props.buttonText}</button>
       <div
         id='jetzt-bewerben'
         className={this.state.isHidden ? 'isHidden' : 'isNotHidden'}
@@ -94,7 +94,7 @@ class JetztBewerben2 extends Component {
             color: #fff;
             justify-self: center;
             display: inline-block;
-            width: 38.75em;
+            width: 100%;
             outline: none;
           }
           .button-HeaderCallToAction:hover {

@@ -14,29 +14,67 @@
       {
         "headline": "Web-Development\nFull-Stack",
         "headlineID": "web-dev-fs",
-        "umfang": "Umfang: 22 Wochen (5 Monate) – Vollzeit",
+        "umfang": "Vollzeit | 30 Wochen",
         "start": "Start 21.03.2022 Ende: 26.08.2022",
-        "copy": "Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.",
+        "copy": "Teilnahme kostenlos möglich mit einem Bildunggutschein.",
         "hubspotFormID": "5c9d4947-7d51-448d-845a-231155f27380",
-        "typeformFormularID": "L6u0np35"
+        "typeformFormularID": "L6u0np35",
+        "href": "/kurse/fullstack",
+        "published": true
       },
       {
         "headline": "Web-Development\nFront-End",
         "headlineID": "web-dev-fe",
-        "umfang": "Umfang: 30 Wochen (7 Monate) – Teilzeit / berufsbegleitend",
+        "umfang": "Vollzeit | 13 Wochen",
         "start": "Start: 28.02.2022 Ende: 15.10.2022",
-        "copy": "Programmieren lernen neben dem Beruf?\nKein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.",
+        "copy": "Teilnahme kostenlos möglich mit einem Bildunggutschein.",
         "hubspotFormID": "b00baa3e-2b2d-4cf6-9304-1a135924ea7a",
-        "typeformFormularID": "L6u0np35"
+        "typeformFormularID": "L6u0np35",
+        "href": "/kurse/frontend",
+        "published": true
+      },
+      {
+        "headline": "Back-End\nDevelopment",
+        "headlineID": "backend-dev",
+        "umfang": "Vollzeit | 9 Wochen",
+        "start": "Start: 28.02.2022 Ende: 15.10.2022",
+        "copy": "Teilnahme kostenlos möglich mit einem Bildunggutschein.",
+        "hubspotFormID": "895ca711-4e8d-4301-8c40-caf5a62faea7",
+        "typeformFormularID": "L6u0np35",
+        "href": "/kurse/backend",
+        "published": false
       },
       {
         "headline": "UX/UI-Design",
         "headlineID": "uxui-des",
-        "umfang": "Umfang: 13 Wochen (3 Monate) – Teilzeit / berufsbegleitend",
+        "umfang": "Vollzeit | 30 Wochen",
         "start": "Start: 28.02.2022 Ende: 03.06.2022",
-        "copy": "Dieser Kurs setzt sich aus insgesamt fünf Themenblöcken zusammen, die perfekt ineinander greifen, um dich innerhalb von drei Monaten in Teilzeit zur gefragten Fachkraft im Bereich UX/UI-Design weiterzubilden.",
-        "hubspotFormID": "9436fb4b-eec5-4783-a8ab-cbd987650f6e",
-        "typeformFormularID": "VTxBX6b2"
+        "copy": "Teilnahme kostenlos möglich mit einem Bildunggutschein.",
+        "hubspotFormID": "7d93ef6f-2b1c-4b2c-9a33-940a7a15ea56",
+        "typeformFormularID": "VTxBX6b2",
+        "href": "/kurse/uxui",
+        "published": false
+      },
+      {
+        "headline": "Data-Engineer",
+        "headlineID": "data-eng",
+        "umfang": "Vollzeit | 30 Wochen",
+        "start": "Start: 28.02.2022 Ende: 03.06.2022",
+        "copy": "Teilnahme kostenlos möglich mit einem Bildunggutschein.",
+        "hubspotFormID": "05fc8174-67b5-480c-98b0-f1abcb609880",
+        "typeformFormularID": "VTxBX6b2",
+        "href": "/kurse/data-engineer",
+        "published": false
+      },
+      {
+        "headline": "Java Developer",
+        "headlineID": "java-dev",
+        "umfang": "Vollzeit | 30 Wochen",
+        "start": "Start: 28.02.2022 Ende: 03.06.2022",
+        "copy": "Teilnahme kostenlos möglich mit einem Bildunggutschein.",
+        "hubspotFormID": "68badf5f-5540-4ded-8f37-397782dd37ec",
+        "typeformFormularID": "VTxBX6b2",
+        "href": "/kurse/java-dev"
       }
     ],
     "kurseKursePage": [
