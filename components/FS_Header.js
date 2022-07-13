@@ -16,8 +16,7 @@ const FSHeader = (props) => {
           </h1>
         </div>
       </section>
-      <style jsx>
-        {`
+      <style jsx>{`
           img + div {
             display: none;
           }
@@ -106,7 +105,7 @@ const FSHeader = (props) => {
           }
 
           .start-container {
-           position: relative;
+          position: relative;
           }
           .start {
             position: absolute;
@@ -133,7 +132,7 @@ const FSHeader = (props) => {
                 padding-left: 70px;
               }
             .header-flex {
-             gap:0;
+            gap:0;
             }
             .start{
               width:150px;
@@ -145,7 +144,6 @@ const FSHeader = (props) => {
             .header-flex {
               flex-direction:column;
               padding: 0 100px;
-             
             }
             h1 {
               font-size: 4em;
@@ -156,7 +154,6 @@ const FSHeader = (props) => {
             .start{
               width:140px;
               height:140px;
-             
             }
 
           }
@@ -192,7 +189,7 @@ const FSHeader = (props) => {
             
             }
           }
-         
+
           @media (max-width: 468px) {
             // header {
             //   padding: 75px 0 0px 5%;

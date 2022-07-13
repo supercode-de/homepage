@@ -27,8 +27,7 @@ const FSHeaderTermine = () => {
                 <div>Anmeldeschluss bis 16. September</div>
             </div>
         </div>
-        <style jsx>
-            {`
+        <style jsx>{`
                 #header-termine{
                     padding: 10vh 0;
                     background: #5c3ede;

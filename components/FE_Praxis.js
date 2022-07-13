@@ -186,6 +186,7 @@ const UX_UI_Praxis = () => {
           <Curriculum
             buttonText='Curriculum'
             buttonWidth='150px'
+            buttonColor='#000'
             hubspot={kurseData[0].kurseKursePage[1].hubspotFormID}
           />
           <Beratung_flexible
