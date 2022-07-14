@@ -39,7 +39,7 @@ const SuperBlog = () => {
               <div
                 className='img-background'
                 style={{
-                  background: `url(${item.pic}) 0% 20%/cover no-repeat`,
+                  background: `url(${item.pic}) center/cover no-repeat`,
                 }}
               ></div>
               <figcaption>
