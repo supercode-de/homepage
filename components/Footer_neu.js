@@ -83,8 +83,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #footer {
             background: #03000f;
             color: #fff;
@@ -106,8 +105,10 @@ const Footer = () => {
             align-items: center;
           }
           .copyright .logo {
+            color: #fff;
+            font-size: 1.3rem;
+            font-family: 'Fira Sans',sans-serif;
             font-weight: bold;
-            font-size: 1.6em;
           }
           .copyright .copy {
             font-family: "Neue_Machina_Regular_400";
