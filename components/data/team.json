@@ -130,6 +130,12 @@
     "name": "Leon",
     "job": "Feelgood Manager & Head of Everything",
     "team": "feelgood"
+  },
+  {
+    "img": "/img/team/Leica_Empfangsdame.png",
+    "name": "Leica",
+    "job": "Empfangsdame",
+    "team": "feelgood"
   }
 
 ]

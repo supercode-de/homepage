@@ -1,4 +1,4 @@
-const blog10 = `# Wie sich die IT-Branche durch Women in Tech erneuern lässt
+const blog10 = `## Wie sich die IT-Branche durch Women in Tech erneuern lässt
 *– ein Gastbeitrag von Lucia Hartig, Gründerin und Vorstandsvorsitzende bei Women in Tech e.V., einem Verein zur Förderung von Frauen in technischen Berufen.*
 
 ![blog10](/img/blogs/10/01.png)

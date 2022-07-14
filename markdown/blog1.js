@@ -1,9 +1,10 @@
 const blog1 = `# YouCode, YouTube, YouRock!
-## Präsentation der Abschlussprojekte des 2. Bootcamps Webentwicklung Frontend als Youtube-Stream
+## Präsentation der Abschlussprojekte des 2. Bootcamps Webentwicklung Frontend als Youtube-Stream.
+
+Am Mittwoch, den 22.04.2020 war es wieder soweit! Unser 2. Bootcamp Webentwicklung ging zu Ende und 16 Teilnehmer*innen zeigten bei der Präsentation der Abschlussprojekte ihre Coding-Skills.
 
 ![blog1](/img/blogs/1/1.png)
 
-Am Mittwoch, den 22.04.2020 war es wieder soweit! Unser 2. Bootcamp Webentwicklung ging zu Ende und 16 Teilnehmer*innen zeigten bei der Präsentation der Abschlussprojekte ihre Coding-Skills.
 #####
 Was kann man nach 3 Monaten Webentwicklung bei SuperCode? Kann man in so kurzer Zeit ohne Vorkenntnisse zum/zur Webentwickler*in werden? Ja, man kann! Trotz Quarantäne-Vorgaben ließen sich die Teilnehmenden des Bootcamps nicht davon abhalten, ihre neuen Kenntnisse der Welt dort draußen zu offenbaren und nutzen einfach unseren extra eingerichteten Youtube-Live-Stream (LINK). 
 #####
