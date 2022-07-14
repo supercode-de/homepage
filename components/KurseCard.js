@@ -21,7 +21,7 @@ const KurseCard = (props) => {
   return (
     <section className='kurseCard'>
       <div className='headlines'>
-        <h5 id={headlineID}>{headline}</h5>
+        <h5 id={headlineID}>{headline} <span><br />_</span></h5>
       </div>
       <div className='text'>
         <p>{umfang}</p>
@@ -60,6 +60,9 @@ const KurseCard = (props) => {
           }
           .headlines {
             grid-area: headlines;
+          }
+          .headlines h5 span{
+            opacity: 0;
           }
           .text {
             grid-area: text;
