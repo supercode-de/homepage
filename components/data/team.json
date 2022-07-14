@@ -1,12 +1,12 @@
 [
   {
-    "img": "/img/team/Kim Reichl Leitung SuperCode.jpg",
+    "img": "/img/team/Kim_Jeschar_operative_Leitung.jpg",
     "name": "Kim Jeschar",
     "job": "Operative Leitung",
     "team": "backoffice"
   },
   {
-    "img": "/img/team/Sergio Cardeal CEO SuperCode.jpg",
+    "img": "/img/team/Sergio_Cardeal_CEO.jpg",
     "name": "Sergio Cardeal",
     "job": "Geschäftsführer",
     "team": "backoffice"
@@ -18,40 +18,46 @@
     "team": "backoffice"
   },
   {
-    "img": "/img/team/Laura_Wilmsen_Social_Media.png",
-    "name": "Laura Wilmsen",
-    "job": "Social Media Marketing & Design",
-    "team": "backoffice"
-  },
-  {
-    "img": "/img/team/Lisa Nuesslein SuperCode Fundraising.jpg",
+    "img": "/img/team/Lisa_Nuesslein_Fundraising.jpg",
     "name": "Lisa Nüßlein",
     "job": "Projektmanagement & Kooperation",
     "team": "backoffice"
   },
   {
-    "img": "/img/team/Natalie Streich Bewerbungscoaching.jpg",
+    "img": "/img/team/Laura_Willmsen_Marketing.png",
+    "name": "Laura Wilmsen",
+    "job": "Social Media Marketing & Design",
+    "team": "marketing"
+  },
+  {
+    "img": "/img/team/Finn_Schlottmann_Designer.png",
+    "name": "Finn Schlottmann",
+    "job": "Designer, Developer & Content Creator",
+    "team": "marketing"
+  },
+  {
+    "img": "/img/team/Natalie_Streich_Bewerbungscoaching.jpg",
     "name": "Natalie Streich",
     "job": "Qualitätsmanagement & IT-Bewerbungscoaching",
     "team": "coaching"
   },
   {
-    "img": "/img/team/Shapour Amir Ebrahimi Bildungsberatung.jpg",
+    "img": "/img/team/Shapour_Amir_Ebrahimi_Bildungsberatung.jpg",
     "name": "Shapour Amir Ebrahimi",
     "job": "Bildungsberatung",
     "team": "beratung"
   },
   {
-    "img": "/img/team/Henri Delfmann Bildungsberatung.jpg",
+    "img": "/img/team/Henri_Delfmann_Bildungsberatung.jpg",
     "name": "Henri Delfmann",
     "job": "Bildungsberatung",
     "team": "beratung"
   },
   {
-    "img": "/img/team/Finn Schlottmann Trainer Webentwicklung Full-Stack.png",
-    "name": "Finn Schlottmann",
-    "job": "Developer",
-    "team": "backoffice"
+    "img": "/img/team/Nina_Bartylla_Bildungsberatung.png",
+    "name": "Nina Bartylla",
+    "job": "Bildungsberatung",
+    "team": "beratung"
   },
   {
     "img": "/img/team/Steffen_Kloempges_Trainer_Fullstack.png",
@@ -60,31 +66,7 @@
     "team": "fullstack"
   },
   {
-    "img": "/img/team/Frederic_Lahme_Trainer_Frontend.jpg",
-    "name": "Frederic Lahme",
-    "job": "Trainer Webentwicklung Front-End",
-    "team": "frontend"
-  },
-  {
-    "img": "/img/team/Franziska_Hoevelmanns_Trainerin.png",
-    "name": "Franzi Hövelmanns",
-    "job": "Trainerin Webentwicklung Front-End & Head of Design",
-    "team": "frontend"
-  },
-  {
-    "img": "/img/team/Kimberly_Maasz_Trainerin_Design.jpg",
-    "name": "Kimberly Maasz",
-    "job": "Trainerin UX/UI-Design",
-    "team": "uxui"
-  },
-  {
-    "img": "/img/team/Ruben_Wellinger_Trainer_Design.png",
-    "name": "Ruben Wellinger",
-    "job": "Trainer UX/UI-Design",
-    "team": "uxui"
-  },
-  {
-    "img": "/img/team/Christian_Peters_Trainer_Fullstack.jpg",
+    "img": "/img/team/Christian_Peters_Trainer_Fullstack.png",
     "name": "Christian Peters",
     "job": "Trainer Webentwicklung Full-Stack",
     "team": "fullstack"
@@ -108,9 +90,46 @@
     "team": "fullstack"
   },
   {
+    "img": "/img/team/Julia_Ritz_Trainerin_Frontend.png",
+    "name": "Julia Ritz",
+    "job": "Trainerin Webentwicklung Frontend",
+    "team": "frontend"
+  },
+  {
+    "img": "/img/team/Frederic_Lahme_Trainer_Frontend.jpg",
+    "name": "Frederic Lahme",
+    "job": "Trainer Webentwicklung Front-End",
+    "team": "frontend"
+  },
+  {
+    "img": "/img/team/Franziska_Hoevelmanns_Trainerin.png",
+    "name": "Franzi Hövelmanns",
+    "job": "Trainerin Webentwicklung Front-End & Head of Design",
+    "team": "frontend"
+  },
+  {
+    "img": "/img/team/Lea_Heidjann_Trainerin_Frontend.png",
+    "name": "Lea Heidjann",
+    "job": "Trainerin Webentwicklung Frontend",
+    "team": "frontend"
+  },
+  {
+    "img": "/img/team/Kimberly_Maasz_Trainerin_Design.jpg",
+    "name": "Kimberly Maasz",
+    "job": "Trainerin UX/UI-Design",
+    "team": "uxui"
+  },
+  {
+    "img": "/img/team/Ruben_Wellinger_Trainer_Design.png",
+    "name": "Ruben Wellinger",
+    "job": "Trainer UX/UI-Design",
+    "team": "uxui"
+  },
+  {
     "img": "/img/team/Leon_Feelgood_Manager.png",
     "name": "Leon",
     "job": "Feelgood Manager & Head of Everything",
     "team": "feelgood"
   }
+
 ]

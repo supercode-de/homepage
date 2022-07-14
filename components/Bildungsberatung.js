@@ -14,7 +14,7 @@ export default function Bildungsberatung() {
 
       <article className='bildungs-berater'>
         <figure className='berater_1'>
-          <img src='/img/team/Henri Delfmann.png' alt='' />
+          <img src='/img/team/Henri_Delfmann_bb-section.png' alt='' />
 
           <figcaption className='bold'>
             Henri Delfmann <br /> SuperCode Bildungsberater
@@ -22,7 +22,7 @@ export default function Bildungsberatung() {
         </figure>
         <figure className='berater_2'>
           <img
-            src='/img/team/Shapour Amir Ebrahimi Bildungsberatung_neu.jpg'
+            src='/img/team/Shapour_Amir_Ebrahimi_bb-section.jpg'
             alt=''
           />
           <figcaption className='bold'>
@@ -43,8 +43,7 @@ export default function Bildungsberatung() {
       <button className='kontakt-btn'>
         <Beratung buttonText='KONTAKT' buttonTextColor='#fff' />
       </button>
-      <style jsx>
-        {`
+      <style jsx>{`
           .bildungsberatung {
             padding: 115px 0 116px 0;
           }

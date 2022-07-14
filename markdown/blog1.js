@@ -1,4 +1,4 @@
-const blog1 = `# YouCode, YouTube, YouRock!”
+const blog1 = `# YouCode, YouTube, YouRock!
 ## Präsentation der Abschlussprojekte des 2. Bootcamps Webentwicklung Frontend als Youtube-Stream
 
 ![blog1](/img/blogs/1/1.png)
