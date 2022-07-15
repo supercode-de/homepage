@@ -48,12 +48,7 @@ const Beratung_flexible = (props) => {
           </div>
         </div>
       </div>
-      <style jsx>
-        {`
-          #beratung1 {
-            // z-index: 999;
-            position: relative;
-          }
+      <style jsx>{`
           #jetzt-anmelden1 {
             position: fixed;
             padding: 20px;
@@ -128,7 +123,7 @@ const Beratung_flexible = (props) => {
             font-size: ${props.buttonFontSize};
             letter-spacing: 1px;
             text-transform: uppercase;
-            padding: 15px 0px;
+            padding: 15px 30px;
             background: transparent;
             z-index: 0;
             border: 1px solid var(--super-green);
@@ -147,34 +142,6 @@ const Beratung_flexible = (props) => {
             cursor: pointer;
           }
 
-          // .button {
-          //     background:none;
-          //     display: inline-block;
-          //     color: #fff;
-          //     text-decoration: none;
-          //     text-transform: uppercase;
-          //     padding: 5px 35px;
-          //     border: 1px solid var(--super-green);
-          //     font-size: 0.7em;
-          //     font-weight: 600;
-          //     line-height: 1.5em;
-          //     margin: 10px;
-          //     letter-spacing: 2px;
-          //     transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
-          //     box-shadow: 0 0 0 0 transparent;
-          //     position: relative;
-          //     top: 0;
-          //     left: 0;
-          //     text-align: center;
-          //     min-width: 100px;
-          // }
-          // .button:hover {
-          //     // margin: 10px 5px 15px 10px;
-          //     // margin: 10px 10px 15px 15px;
-          //     box-shadow: -5px 5px 0 0 #fff;
-          //     top: -5px;
-          //     left: 5px;
-          // }
           @media screen and (max-width: 768px) {
             .jetzt-anmelden-left h1 {
               font-size: 3.3em;

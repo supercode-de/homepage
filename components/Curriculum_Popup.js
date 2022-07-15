@@ -47,16 +47,17 @@ const Typeform = (props) => {
       </Popup>
       <style jsx>{`
         .button {
-          font-family: 'Fira Sans', sans-serif;
-            
-            width: 100%;
+            font-family: 'Fira Sans', sans-serif;
+
+            // width: 15%;
+            width: ${props.width};
             font-size: 0.875em;
             background: transparent;
             outline: none;
             border: 1px solid var(--super-green);
             color: var(--super-white);
             color: ${props.buttonColor};
-            padding: 15px 0;
+            padding: 15px 30px;
             letter-spacing: 1px;
             text-transform: uppercase;
             border-radius: 5rem;

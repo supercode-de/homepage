@@ -222,7 +222,6 @@ const UX_UI_Praxis = () => {
         <div className='buttons'>
           <Curriculum
             buttonText='Curriculum'
-            buttonWidth='150px'
             buttonColor='#000'
             hubspot={kurseData[0].kurseKursePage[0].hubspotFormID}
           />
@@ -403,17 +402,15 @@ const UX_UI_Praxis = () => {
             // right: 50px;
           }
 
-          //=========================
-
           h2 {
             font-size: 4rem;
             font-family: 'Neue_Machina_Light';
-            color: #03000f;
+            color: var(--super-black);
             margin: 0;
             line-height: 50px;
           }
           p {
-            color: #121e28;
+            color: var(--super-black);
             // width: 55%;
             font-size: 1.563rem;
             font-weight: 300;
@@ -426,26 +423,20 @@ const UX_UI_Praxis = () => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color: #03000f;
+            -webkit-text-stroke-color: var(--super-black);
             font-weight: 300;
           }
           .neugierCTA {
             display: block;
             position: relative;
           }
-          // .neugierCTA h2 {
-          //   font-size: 3rem;
-          //   width: 80%;
-          //   margin-top: 125px;
-          //   margin-bottom: 30px;
-          //   padding-left: 5%;
-          // }
+
           .fsPraxis .neugierCTA_txt {
             font-family: 'Neue_Machina_Light';
             // color: #989898;
             font-size: 3.3rem;
             width: 80%;
-            color: #121e28;
+            color: var(--super-black);
             margin-top: 125px;
             margin-bottom: 30px;
             padding-left: 5%;
@@ -455,9 +446,9 @@ const UX_UI_Praxis = () => {
           .buttons {
             display: flex;
             justify-content: flex-end;
-            width: 100%;
-            padding-right: 5%;
-            z-index: 0;
+            // width: 100%;
+            // padding-right: 5%;
+            // z-index: 0;
           }
 
           .neugierCTA p span.circle::after {

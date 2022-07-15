@@ -56,11 +56,8 @@ export default function FooterCallToAction_neu() {
           font-size: 2rem;
         }
         .jetzt-bewerben-btn {
-          position: absolute;
-          right: -5%;
-          width: 30%;
-          display: inline-block;
-          bottom: -20px;
+          display: flex;
+          justify-content: flex-end;
         }
 
         @media (max-width: 1063px) {
@@ -80,13 +77,6 @@ export default function FooterCallToAction_neu() {
           }
           .termine h3 {
             font-size: 1.4rem;
-          }
-          .jetzt-bewerben-btn {
-            position: static;
-            right: 8%;
-            width: 30%;
-            display: block;
-            bottom: -20px;
           }
         }
         @media (max-width: 768px) {
