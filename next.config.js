@@ -41,7 +41,7 @@ module.exports = {
       "/blogs/Es-ist-einfach-total-schön-ein-Teil-der-persönlichen-Weiterentwicklung-von-Menschen-zu-sein": { page: "/blogs/[blogItem]" },
       "/blogs/Ich-bin-dankbar-dass-es-Supercode-gibt-und-sich-Menschen-die-Zeit-dafür-nehmen-anderen-etwas-beizubringen": { page: "/blogs/[blogItem]" },
       "/blogs/SuperCode-hat-laufen-gelernt-sich-hier-und-da-mal-gestoßen-und-steht-jetzt-selbstbewusst-im-Bildungsmarkt": { page: "/blogs/[blogItem]" },
-      "Zuerst-denkt-man-das-wäre-niemals-zu-schaffen-und-dann-ist-der-Themenblock-vorüber-und-man-kann-es-plötzlich-doch": { page: "/blogs/[blogItem]" },
+      "/blogs/Zuerst-denkt-man-das-wäre-niemals-zu-schaffen-und-dann-ist-der-Themenblock-vorüber-und-man-kann-es-plötzlich-doch": { page: "/blogs/[blogItem]" },
     };
   },
 };
