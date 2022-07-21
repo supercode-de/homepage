@@ -32,6 +32,8 @@ import blog16 from "../../markdown/blog16";
 import titleBlog16 from "../../markdown/titleBlog16";
 import blog17 from "../../markdown/blog17";
 import titleBlog17 from "../../markdown/titleBlog17";
+import blog18 from "../../markdown/blog18";
+import titleBlog18 from "../../markdown/titleBlog18";
 
 
 // console.log({ blog7, titleBlog7 });
@@ -154,6 +156,13 @@ let blog = [
     text: blog17,
     pic: "/img/blogs/17/Vorschaubild.jpg",
     url: "supercode-ceo-3-jahre",
+  },
+  {
+    id: 17,
+    title: titleBlog18,
+    text: blog18,
+    pic: "/img/blogs/18/blog18_03.png",
+    url: "interview-mit-teilnehmerin-michaela",
   },
 ];
 
