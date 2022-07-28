@@ -90,9 +90,9 @@
     "team": "fullstack"
   },
   {
-    "img": "/img/team/Julia_Ritz_Trainerin_Frontend.png",
-    "name": "Julia Ritz",
-    "job": "Trainerin Webentwicklung Frontend",
+    "img": "/img/team/Julia_Rintz_Trainerin_Frontend.png",
+    "name": "Julia Rintz",
+    "job": "Trainerin Webentwicklung Front-End",
     "team": "frontend"
   },
   {
@@ -110,14 +110,8 @@
   {
     "img": "/img/team/Lea_Heidjann_Trainerin_Frontend.png",
     "name": "Lea Heidjann",
-    "job": "Trainerin Webentwicklung Frontend",
+    "job": "Trainerin Webentwicklung Front-End",
     "team": "frontend"
-  },
-  {
-    "img": "/img/team/Kimberly_Maasz_Trainerin_Design.jpg",
-    "name": "Kimberly Maasz",
-    "job": "Trainerin UX/UI-Design",
-    "team": "uxui"
   },
   {
     "img": "/img/team/Ruben_Wellinger_Trainer_Design.png",
