@@ -19,7 +19,6 @@ module.exports = {
       "/404": { page: "/404" },
       "/kurse/fullstack": { page: "/fullstack_kurs" },
       "/kurse/frontend": { page: "/frontend-kurs" },
-      "/kurse/uxui": { page: "/ux-ui-kurs" },
       "/supercodeworkshop": { page: "/supercodeworkshop" },
       "/uxuidesignworkshop": { page: "/uxuidesignworkshop" },
       "/danke": { page: "/danke" },

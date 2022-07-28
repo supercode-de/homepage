@@ -158,11 +158,11 @@ class Navigation extends Component {
                     Front-End Development
                   </a>
                 </Link>
-                <Link href='/kurse/uxui'>
+                {/* <Link href='/kurse/uxui'>
                   <a id='dropper' className='dropper dropper_workshop'>
                     UX & UI Design
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </li>
 
