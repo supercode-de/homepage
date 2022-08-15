@@ -5,15 +5,6 @@ const VZHeaderTermine = () => {
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2>21. März</h2>
-                    </div>
-                    <div className="line-through">Anmeldeschluss bis 18. März</div>
-                </div>
-            </div>
-            <div>
-                <div className="termine-wrapper">
-                    <div className="start-termin">
-                        <img src="/img/FSHeader_Termine_Icon.png" alt="" />
                         <h2 className="line-through">20. Juni</h2>
                     </div>
                     <div className="line-through">Anmeldeschluss bis 17. Juni</div>
@@ -26,6 +17,15 @@ const VZHeaderTermine = () => {
                         <h2>19. September</h2>
                     </div>
                     <div>Anmeldeschluss bis 16. September</div>
+                </div>
+            </div>
+            <div>
+                <div className="termine-wrapper">
+                    <div className="start-termin">
+                        <img src="/img/FSHeader_Termine_Icon.png" alt="" />
+                        <h2>12. Dezember</h2>
+                    </div>
+                    <div>Anmeldeschluss bis 9. Dezember</div>
                 </div>
             </div>
             <style jsx>{`
