@@ -199,11 +199,11 @@ class Navigation extends Component {
                     Kostenloser HTML & CSS Workshop
                   </a>
                 </Link>
-                <Link href='/workshops'>
+                {/* <Link href='/workshops'>
                   <a className='dropper_workshop dropper'>
                     Kostenloser UX & UI-Design Workshop
                   </a>
-                </Link>
+                </Link> */}
               </div>
             </li>
 
@@ -236,10 +236,6 @@ class Navigation extends Component {
           />
         </div>
         <style jsx>{`
-        .dropper_workshop:hover{
-          text-decoration: underline;
-          text-decoration-color: white;
-        }
           ul {
             list-style-type: none;
             display: flex;
