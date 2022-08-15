@@ -1,5 +1,6 @@
 import React from 'react';
 import Beratung from './Beratung';
+import data from './data/team.json';
 export default function Bildungsberatung() {
   return (
     <section className='blackGitter bildungsberatung'>
@@ -11,25 +12,22 @@ export default function Bildungsberatung() {
           <span className='stroke'>Bildungsberatung </span>
         </span>
       </h2>
+      <section className='bildungs-berater'>
+        {data.map((teammitglied) => {
+          if (teammitglied.team === "beratung") {
+            return (
+              <figure>
+                <img
+                  src={teammitglied.img}
+                  alt={`${teammitglied.name} ${teammitglied.job}`}
+                />
+                <figcaption>{teammitglied.name}</figcaption>
+              </figure>
+            );
+          }
+        })}
+      </section>
 
-      <article className='bildungs-berater'>
-        <figure className='berater_1'>
-          <img src='/img/team/Henri_Delfmann_bb-section.png' alt='' />
-
-          <figcaption className='bold'>
-            Henri Delfmann <br /> SuperCode Bildungsberater
-          </figcaption>
-        </figure>
-        <figure className='berater_2'>
-          <img
-            src='/img/team/Shapour_Amir_Ebrahimi_bb-section.jpg'
-            alt=''
-          />
-          <figcaption className='bold'>
-            Shapour Amir-Ebrahimi <br /> SuperCode Bildungsberater
-          </figcaption>
-        </figure>
-      </article>
       <div className='berater-txt'>
         <p>
           Ganz gleich welcher Weg dich zu SuperCode geführt hat, Shapour und Henri sind deine ersten Ansprechpartner und nehmen dich an die Hand im gesamten Aufnahmeprozess. Sie beantworten alle Fragen, helfen dir bei den Formularen und klären mit dir und dem Kostenträger die Finanzierung ab.
@@ -77,45 +75,43 @@ export default function Bildungsberatung() {
         }
           .bildungs-berater {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            // padding: 0 8% 10% 8%;
+            grid-template-columns: repeat(3, 1fr);
+            width: 80%;
             justify-items: center;
-            padding: 0 7%;
-            column-gap: 2%;
-          }
-          figure {
-            width: 100%;
-            font-size: 1.4rem;
-            font-weight: bolder;
-          }
-          .berater_1 img,
-          .berater_2 img {
-            width: 100%;
-          }
-          .bildungs-berater .berater_2 {
-          }
-          .bildungs-berater .berater_1 {
+            margin: 0 auto;
           }
 
           figcaption {
             color: var(--super-green);
-            padding-top: 50px;
+            padding-top: 1rem;
+            font-size: 1.4rem;
           }
           .berater-txt {
-            padding: 60px 6%;
+            padding: 0 6%;
           }
           .berater-txt p {
             color: #fff;
             margin: 28px auto;
           }
           .kontakt-btn{
-           background:transparent;
-           border:none;
-           display:block;
+            background:transparent;
+            border:none;
+            display:block;
         
-           position:absolute;
-           right:13%;
-       
+            position:absolute;
+            right:13%;
+          }
+          @media (max-width: 1530px) {
+            .bildungs-berater {
+              grid-template-columns: repeat(2, 1fr);
+              row-gap: 50px;
+            }
+          }
+          @media (max-width: 1140px) {
+            .bildungs-berater {
+              grid-template-columns: 1fr;
+              row-gap: 50px;
+            }
           }
           @media (max-width: 905px) {
             h2{
