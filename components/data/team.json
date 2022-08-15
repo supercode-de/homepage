@@ -66,6 +66,12 @@
     "team": "fullstack"
   },
   {
+    "img": "/img/team/Marzio_Costantini_Trainer_Fullstack.png",
+    "name": "Marzio Costantini",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
     "img": "/img/team/Christian_Peters_Trainer_Fullstack.png",
     "name": "Christian Peters",
     "job": "Trainer Webentwicklung Full-Stack",
