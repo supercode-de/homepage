@@ -18,7 +18,7 @@ const Finanzierung = (props) => {
         <div className="info-headline">
           <h3>Bildungskredit</h3>
           <p>
-          Lerne jetzt und zahle erst wenn du einen Job gefunden hast – der umgekehrte Generationen Vertrag der Chancen eG oder Deutsche Bildung AG machen es möglich.
+          Lerne jetzt und zahle erst wenn du einen Job gefunden hast – der umgekehrte Generationen Vertrag der Chancen eG machen es möglich.
           </p>
         </div>
         <div className="info-headline">

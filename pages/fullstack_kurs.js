@@ -9,6 +9,7 @@ import FS_ZahlenUndFakten from '../components/FS_ZahlenUndFakten';
 import FS_Tagesablauf from '../components/FS_Tagesablauf';
 import Bildungsberatung from '../components/Bildungsberatung';
 import FooterCallToAction_neu from '../components/FooterCallToAction_neu';
+import HeaderCTA from '../components/HeaderCTA';
 export default function FullstackKurse(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -17,7 +18,7 @@ export default function FullstackKurse(props) {
         <div className='fullstack-kurse'>
           <FS_Header datum='20.12.' />
           <FS_Header_Termine />
-          <FS_HeaderCTA />
+          <HeaderCTA wochen="22" monate="5"/>
           <FS_Praxis />
           <FS_TrainerTeam />
           <FS_ZahlenUndFakten />
