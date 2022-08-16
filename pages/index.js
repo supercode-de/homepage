@@ -11,12 +11,9 @@ import Bewerbungsprozess from '../components/Bewerbungsprozess';
 import MeldeDich from '../components/MeldeDich';
 // import Blog_neu from '../components/Blog_neu';
 import FAQ from '../components/FAQ';
-import FooterCallToAction from '../components/FooterCallToAction';
+import FooterCallToAction from '../components/FooterCallToAction_Index';
 import Layout from '../components/Layout';
-import dates from '../components/data/dates.json';
 import kurseData from '../components/data/kursedata.json';
-import Cookies from '../components/Cookies.js';
-
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
 // import KurseRaster from '../components/KurseRaster';

@@ -1,52 +1,53 @@
-import data from './data/team.json';
-export default function FE_TrainerTeam() {
-  return (
-    <section className='fsTrainer blackGitter'>
-      <div className='trainerinfos'>
-        <h2>
-          <span>Super</span>
-          Trainer*innen
-        </h2>
-        <p className='txt'>
-          Unsere Trainer*innen sind praxiserfahrene Webentwickler*innen, die
-          sich laufend fachlich und pädagogisch fortbilden. Durch unseren
-          Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich pro Tag,
-          wirst du spielerisch programmieren lernen und deine eigenen Webseiten
-          bauen.
-        </p>
-        <p className='txt'>
-          Ergänzend zum Training im Bootcamp bieten wir individuelle Termine
-          beim Flex-Trainer an. Im One-on-One-Coaching geht der/die Trainer*in
-          gezielt auf deine Fragen ein, wiederholt noch nicht verstandenes
-          Unterrichtsmaterial und gibt intensives Feedback zu den Übungen.
-        </p>
-      </div>
-      <div>
-        <section className='gridContainer'>
-        {data.map((teammitglied) => {
-            if (teammitglied.team === "frontend") {
-              return (
-                <figure>
-                  <img
-                    src={teammitglied.img}
-                    alt={`${teammitglied.name} ${teammitglied.job}`}
-                  />
-                  <figcaption>{teammitglied.name}</figcaption>
-                  <p className='light'>{teammitglied.job}</p>
-                </figure>
-              );
-            }
-          })}
-          <div className='rotating-text'>
-            <img
-              src='/img/Trainercircle.svg'
-              alt='SuperCode Team, Bildungsträger'
-            />
-          </div>
-        </section>
-      </div>
+import teamData from './data/team.json';
+export default function TrainerTeam_Kurse(props) {
+    return (
+        <section className='fsTrainer blackGitter'>
+            <div className='trainerinfos'>
+                <h2>
+                    <span>Super</span>
+                    Trainer*innen
+                </h2>
+                <p className='txt'>
+                    Unsere Trainer*innen sind praxiserfahrene Webentwickler*innen, die
+                    sich laufend fachlich und pädagogisch fortbilden. Durch unseren
+                    Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich pro Tag,
+                    wirst du spielerisch programmieren lernen und deine eigenen Webseiten
+                    bauen.
+                </p>
+                <p className='txt'>
+                    Ergänzend zum Training im Bootcamp bieten wir individuelle Termine
+                    beim Flex-Trainer an. Im One-on-One-Coaching geht der/die Trainer*in
+                    gezielt auf deine Fragen ein, wiederholt noch nicht verstandenes
+                    Unterrichtsmaterial und gibt intensives Feedback zu den Übungen.
+                </p>
+            </div>
+            <div>
+                <section className='gridContainer'>
 
-      <style jsx>{`
+                    {teamData.map((teammitglied) => {
+                        if (teammitglied.team === props.kursForm) {
+                            return (
+                                <figure>
+                                    <img
+                                        src={teammitglied.img}
+                                        alt={`${teammitglied.name} ${teammitglied.job}`}
+                                    />
+                                    <figcaption>{teammitglied.name}</figcaption>
+                                    <p className='light'>{teammitglied.job}</p>
+                                </figure>
+                            );
+                        }
+                    })}
+                    <div className='rotating-text'>
+                        <img
+                            src='/img/Trainercircle.svg'
+                            alt='SuperCode Team, Bildungsträger'
+                        />
+                    </div>
+                </section>
+            </div>
+
+            <style jsx>{`
           .fsTrainer {
             padding: 40px 0 170px 6%;
             width: 100%;
@@ -293,7 +294,7 @@ export default function FE_TrainerTeam() {
             }
           }
         `}
-      </style>
-    </section>
-  );
+            </style>
+        </section>
+    );
 }

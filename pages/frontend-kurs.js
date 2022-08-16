@@ -1,14 +1,14 @@
 import { useWindowSize } from '../components/functions/windowSize';
 import Layout from '../components/Layout';
-import FE_Header from '../components/FE_Header';
+import Header_Kurse from "../components/Header_Kurse";
 import FE_Praxis from '../components/FE_Praxis';
-import FE_TrainerTeam from '../components/FE_TrainerTeam';
 import FE_ZahlenUndFakten from '../components/FE_ZahlenUndFakten';
-import FS_Tagesablauf from '../components/FS_Tagesablauf';
 import Bildungsberatung from '../components/Bildungsberatung';
-import FooterCallToAction_neu from '../components/FooterCallToAction_neu_frontend';
+import FooterCallToAction_neu from '../components/FooterCallToAction_Kurse';
 import HeaderCTA from '../components/HeaderCTA';
 import VZHeaderTermine from '../components/VZHeaderTermine';
+import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
+import TrainerTeam_Kurse from '../components/TrainerTeam_Kurse';
 
 export default function FrontendKurse(props) {
   if (process.browser) {
@@ -16,13 +16,13 @@ export default function FrontendKurse(props) {
     return (
       <Layout banner={true}>
         <div className='fullstack-kurse'>
-          <FE_Header datum='28.02.' />
+          <Header_Kurse kursForm="Frontend"/>
           <VZHeaderTermine />
           <HeaderCTA wochen="13" monate="3"/>
           <FE_Praxis />
-          <FE_TrainerTeam />
+          <TrainerTeam_Kurse kursForm="frontend"/>
           <FE_ZahlenUndFakten />
-          <FS_Tagesablauf />
+          <VZ_Tagesablauf />
           <Bildungsberatung />
           <FooterCallToAction_neu />
         </div>
