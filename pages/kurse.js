@@ -2,7 +2,6 @@ import HeaderKurse_neu from "../components/HeaderKurse_neu";
 import HeaderCallToActionWS_neu from "../components/HeaderCallToActionWS_neu";
 import FEoderFSKurse from "../components/FEoderFSKurse";
 import Bootcamps from "../components/Bootcamps";
-// import SuperStipendium_neu from "../components/SuperStipendium_neu";
 import AuflistungWS from "../components/AuflistungWS";
 import BGSKurse from "../components/BGSKurse";
 import AbsolventenWS_neu_v2 from "../components/AbsolventenWS_neu_v2";
@@ -23,7 +22,6 @@ export default function Workshop() {
             <HeaderKurse_neu />
             <HeaderCallToActionWS_neu />
             <FEoderFSKurse />
-            {/* <SuperStipendium_neu /> */}
             <Bootcamps kurseData={kurseData[0].kurseKursePage} />
             <AuflistungWS />
             <BGSKurse />

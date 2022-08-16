@@ -5,7 +5,7 @@ export default function Tryit(props) {
         return (
             <div className="container">
                 <div id="content">
-                    <iframe src="https://microcamps.netlify.app/"></iframe>
+                    <iframe src="https://tryit.netlify.app/"></iframe>
                 </div>
                 <style jsx>{`
                     #content iframe {

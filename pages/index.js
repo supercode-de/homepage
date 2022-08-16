@@ -9,14 +9,12 @@ import CertquaBonn from '../components/CertquaBonn';
 import Finanzierung from '../components/Finanzierung';
 import Bewerbungsprozess from '../components/Bewerbungsprozess';
 import MeldeDich from '../components/MeldeDich';
-// import Blog_neu from '../components/Blog_neu';
 import FAQ from '../components/FAQ';
 import FooterCallToAction from '../components/FooterCallToAction_Index';
 import Layout from '../components/Layout';
 import kurseData from '../components/data/kursedata.json';
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
-// import KurseRaster from '../components/KurseRaster';
 const Blog_neu = dynamic(() => import('../components/Blog_neu'))
 
 
@@ -35,7 +33,6 @@ export default function Home(props) {
             <Zukunft />
             <UnserCampus />
             <Weiterbildung_neu />
-            {/* <KurseRaster /> */}
             <Bootcamps kurseData={kurseData[0].kurseIndex} />
             <CertquaBonn />
             <Finanzierung />

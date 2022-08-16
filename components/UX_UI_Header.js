@@ -1,4 +1,4 @@
-const UX_UI_Header = (props) => {
+const UX_UI_Header = () => {
   return (
     <header>
       <div className='super-code'>super(code)</div>
