@@ -92,8 +92,6 @@ class Layout extends Component {
 
         <style jsx global>
           {`
-            @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
-
             @font-face {
               font-family: 'Neue_Machina_Regular_400';
               src: url('/Neue_Machina_Regular_400.otf');
@@ -105,6 +103,10 @@ class Layout extends Component {
             @font-face {
               font-family: 'Neue_Machina_Light';
               src: url('/Neue_Machina_Light.otf');
+            }
+            @font-face {
+              font-family: "FiraSans-Regular";
+              src: url('/FiraSans-Regular.otf')
             }
             :root {
               --super-green: #3dd7ac;

@@ -24,8 +24,7 @@ const HeaderKurse_neu = (props) => {
         </div>
         <Telefon_neu position={window.screen.width > 585 ? 'left' : '-28px'} />
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #header {
             padding: 100px 0;
             font-family: 'Neue_Machina_Regular_400';
@@ -53,7 +52,7 @@ const HeaderKurse_neu = (props) => {
             left: 7rem;
             color: #fff;
             font-size: 1.3rem;
-            font-family: 'Fira Sans', sans-serif;
+            font-family: 'FiraSans-Regular', sans-serif;
             font-weight: bold;
           }
           .content {

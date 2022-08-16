@@ -453,7 +453,7 @@ const WorkIT = (props) => {
         }
         a {
           margin: 2em 1em 0;
-          font-family: "Fira Sans", sans-serif;
+          font-family: "FiraSans-Regular", sans-serif;
           font-size: 0.73em;
           font-weight: 600;
           line-height: 1.5em;
@@ -490,7 +490,7 @@ const WorkIT = (props) => {
         }
 
         p {
-          font-family: "Fira Sans", sans-serif;
+          font-family: "FiraSans-Regular", sans-serif;
           color: #ffffff;
           font-size: 14px;
           margin-bottom: 25px;

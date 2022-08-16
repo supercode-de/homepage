@@ -190,23 +190,21 @@ export default function Workshop() {
         }
         .headerCTA article h3 a{
           color:#fff;
-         
-             }
+        }
 
-             #index-finger{
+        #index-finger{
               font-size: 4rem;
               position:relative;
               top:50px;
-            }
+        }
         .website {
-          font-family: 'Fira Sans', sans-serif;
+          font-family: 'FiraSans-Regular', sans-serif;
           font-size: 15px;
           letter-spacing: 1px;
           text-transform: uppercase;
           padding: 10px 0px;
           background: transparent;
           border: 1px solid var(--super-green);
-         
           color: #fff;
           justify-self: center;
           display: inline-block;

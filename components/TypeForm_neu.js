@@ -60,7 +60,7 @@ const Typeform = (props) => {
         }
         button {
           margin: 2em 1em;
-          font-family: "Fira Sans", sans-serif;
+          font-family: "FiraSans-Regular", sans-serif;
           font-size: 14px;
           line-height: 16px;
           text-align: center;

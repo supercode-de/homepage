@@ -263,7 +263,7 @@ const SuperStipendium = (props) => {
             }
             h4{
                 color:#fff;
-                font-family: 'Fira Sans', sans-serif;
+                font-family: 'FiraSans-Regular', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 18px;
@@ -320,7 +320,7 @@ const SuperStipendium = (props) => {
                 margin-bottom: 14px;
             }
             p{
-                font-family: 'Fira Sans', sans-serif;
+                font-family: 'FiraSans-Regular', sans-serif;
                 color: #ffffff;
                 font-size: 14px;
                 margin-bottom: 25px;

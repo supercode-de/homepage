@@ -48,8 +48,7 @@ const Beratung = (props) => {
           </div>
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #jetzt-anmelden {
             position: fixed;
             padding: 20px;
@@ -120,7 +119,7 @@ const Beratung = (props) => {
           }
 
           .button {
-            font-family: 'Fira Sans', sans-serif;
+            font-family: 'FiraSans-Regular', sans-serif;
             font-size: 15px;
             letter-spacing: 1px;
             text-transform: uppercase;

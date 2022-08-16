@@ -1,7 +1,4 @@
 import Carousel from "react-multi-carousel";
-// import Beratung from "./Beratung";
-import Curriculum from "./Curriculum_Popup";
-import Typeform_neu_small from "./TypeForm_neu_small";
 
 const responsive = {
   superLargeDesktop: {
@@ -323,7 +320,7 @@ const SuperStipendium = (props) => {
         }
         h4 {
           color: #fff;
-          font-family: "Fira Sans", sans-serif;
+          font-family: "FiraSans-Regular", sans-serif;
           font-style: normal;
           font-weight: 300;
           font-size: 18px;
@@ -357,7 +354,7 @@ const SuperStipendium = (props) => {
         .stipendium-right a {
           color: #fff;
             margin: 2em 1em 0;
-            font-family: "Fira Sans", sans-serif;
+            font-family: "FiraSans-Regular", sans-serif;
             font-size: 0.7em;
             font-weight: 600;
             line-height: 1.5em;
@@ -423,7 +420,7 @@ const SuperStipendium = (props) => {
           margin-bottom: 14px;
         }
         p {
-          // font-family: "Fira Sans", sans-serif;
+          // font-family: "FiraSans-Regular", sans-serif;
           font-family: "Neue_Machina_Regular_400";
           color: #ffffff;
           font-size: 14px;

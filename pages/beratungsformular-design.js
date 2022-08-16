@@ -1,13 +1,7 @@
 import Layout from '../components/Layout';
 import { useWindowSize } from '../components/functions/windowSize';
 import HubspotForm from 'react-hubspot-form';
-import Arrow from '../components/small/Arrow';
 import Telefon from '../components/small/Telefon';
-import Beratung from '../components/Beratung';
-import Beratung_flexible from '../components/Beratung_flexible';
-import Button from '../components/small/Button';
-import Link from 'next/link';
-
 export default function Workshop() {
   const pixelSize = 1;
   if (process.browser) {
@@ -16,9 +10,6 @@ export default function Workshop() {
       <Layout>
         <div id='headr'>
           <header className=''>
-            {/* <div id='header'></div> */}
-            {/* <div id='waving'>👋</div> */}
-
             <h1 className='headline'>
               <span className='stroke'>Willkommen</span>
             </h1>
@@ -28,10 +19,8 @@ export default function Workshop() {
                 <span className='stroke'>bei</span> SuperCode
               </span>
             </h1>
-            {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
           </header>
 
-          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
           <Telefon color='#fff' />
         </div>
         <div id='arrow-img'>
@@ -248,7 +237,7 @@ export default function Workshop() {
         }
 
         .website {
-          font-family: 'Fira Sans', sans-serif;
+          font-family: 'FiraSans-Regular', sans-serif;
           font-size: 15px;
           letter-spacing: 1px;
           text-transform: uppercase;

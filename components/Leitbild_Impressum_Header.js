@@ -53,7 +53,7 @@ const Danke = (props) => {
           left: 7rem;
           color: #fff;
           font-size: 1.3rem;
-          font-family: 'Fira Sans', sans-serif;
+          font-family: 'FiraSans-Regular', sans-serif;
           font-weight: bold;
           z-index: 2;
         }

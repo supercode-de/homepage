@@ -141,7 +141,7 @@ const SuperBlog = () => {
         }
         a {
           display: block;
-          font-family: 'Fira Sans', sans-serif;
+          font-family: 'FiraSans-Regular', sans-serif;
           font-size: 14px;
           text-align: center;
           letter-spacing: 1px;

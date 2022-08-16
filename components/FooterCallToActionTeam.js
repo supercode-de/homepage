@@ -73,7 +73,7 @@ const FooterCallToAction = (props) => {
 
         a {
           align-items: center;
-          font-family: "Fira Sans", sans-serif;          
+          font-family: "FiraSans-Regular", sans-serif;          
           font-size: 15px;
           letter-spacing: 1px;
           text-transform: uppercase;

@@ -57,7 +57,7 @@ const Typeform = (props) => {
         }
         button {
           margin: 2em 1em;
-          font-family: "Fira Sans", sans-serif;
+          font-family: "FiraSans-Regular", sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 14px;
@@ -74,7 +74,7 @@ const Typeform = (props) => {
           width: 620px;
         }
         button:hover {
-          color: #5d3ede;
+          color: var(--super-lila);
           background: #fff;
         }
         iframe {

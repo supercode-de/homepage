@@ -16,8 +16,7 @@ const FE_Header = (props) => {
           </h1>
         </div>
       </section>
-      <style jsx>
-        {`
+      <style jsx>{`
           img + div {
             display: none;
           }
@@ -66,7 +65,7 @@ const FE_Header = (props) => {
             left: 7rem;
             color: #fff;
             font-size: 1.3rem;
-            font-family: 'Fira Sans', sans-serif;
+            font-family: 'FiraSans-Regular', sans-serif;
             font-weight: bold;
           }
           h1 {

@@ -119,7 +119,7 @@ const Beratung_flexible = (props) => {
           }
 
           .button {
-            font-family: 'Fira Sans', sans-serif;
+            font-family: 'FiraSans-Regular', sans-serif;
             font-size: ${props.buttonFontSize};
             letter-spacing: 1px;
             text-transform: uppercase;

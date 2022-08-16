@@ -134,7 +134,7 @@ const KurseRaster = () => {
                 outline: none;
             }
             .selectOptions #resetBtn {
-                font-family: 'Fira Sans', sans-serif;
+                font-family: 'FiraSans-Regular', sans-serif;
                 font-size: 0.875em;
                 background: none;
                 border: 1px solid var(--super-green);

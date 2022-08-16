@@ -30,8 +30,7 @@ const HeaderWS_neu = (props) => {
           </h1>
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #header {
             padding: 100px 0;
             font-family: 'Neue_Machina_Regular_400';
@@ -40,22 +39,6 @@ const HeaderWS_neu = (props) => {
           .telefon {
             position: relative;
           }
-          // .aside {
-          //   position: absolute;
-          //   transform: rotate(-90deg);
-          //   transform-origin: left;
-          //   color: #fff;
-          //   font-weight: 300;
-          //   left: 3%;
-          //   top: 60%;
-          //   font-style: normal;
-          //   font-weight: normal;
-          //   font-size: 12px;
-          //   line-height: 18px;
-          //   letter-spacing: 3px;
-          //   text-transform: uppercase;
-          //   color: #ffffff;
-          // }
           .super-code {
             position: absolute;
             top: 30px;
@@ -63,7 +46,7 @@ const HeaderWS_neu = (props) => {
             left: 7rem;
             color: #fff;
             font-size: 1.3rem;
-            font-family: 'Fira Sans', sans-serif;
+            font-family: 'FiraSans-Regular', sans-serif;
             font-weight: bold;
           }
 

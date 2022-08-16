@@ -1,12 +1,7 @@
 import Layout_workshop from '../components/Layout_workshop';
 import { useWindowSize } from '../components/functions/windowSize';
 import HubspotForm from 'react-hubspot-form';
-import Arrow from '../components/small/Arrow';
 import Telefon from '../components/small/Telefon';
-import Beratung from '../components/Beratung';
-import Beratung_flexible from '../components/Beratung_flexible';
-import Button from '../components/small/Button';
-import Link from 'next/link';
 
 export default function Workshop() {
   const pixelSize = 1;
@@ -16,8 +11,6 @@ export default function Workshop() {
       <Layout_workshop>
         <div id='headr'>
           <header className=''>
-            {/* <div id='header'></div> */}
-            {/* <div id='waving'>👋</div> */}
 
             <h1 className='headline'>
               <span className='stroke'>Yeah!</span>
@@ -25,7 +18,6 @@ export default function Workshop() {
             <h1 className='willkommen'>
               <span className='after-span'> Willkommen</span>
             </h1>
-            {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
 
             <h2>kostenloser UX & UI-Design Workshop!</h2>
           </header>
@@ -268,7 +260,7 @@ export default function Workshop() {
         }
 
         .website {
-          font-family: 'Fira Sans', sans-serif;
+          font-family: 'FiraSans-Regular', sans-serif;
           font-size: 15px;
           letter-spacing: 1px;
           text-transform: uppercase;

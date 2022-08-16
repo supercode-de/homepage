@@ -146,7 +146,7 @@ const WorkIT = (props) => {
         }
 
         p {
-          font-family: "Fira Sans", sans-serif;
+          font-family: "FiraSans-Regular", sans-serif;
           color: #ffffff;
           font-size: 14px;
           margin-bottom: 25px;

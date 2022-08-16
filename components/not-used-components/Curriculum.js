@@ -51,11 +51,10 @@ const Beratung = (props) => {
           </div>
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           .button {
             margin: 2em 1em 0;
-            font-family: "Fira Sans", sans-serif;
+            font-family: "FiraSans-Regular", sans-serif;
             font-style: normal;
 
             font-size: 0.7em;
@@ -68,7 +67,7 @@ const Beratung = (props) => {
             padding: 10px 0;
 
             background: transparent;
-            border: 1px solid #3dd7ac;
+            border: 1px solid var(--super-green);
             text-decoration: none;
             color: ${props.buttonTextColor};
             justify-self: center;
@@ -77,8 +76,8 @@ const Beratung = (props) => {
             text-align: center;
           }
           .button:hover {
-            color: #5d3ede;
-            background: #3dd7ac;
+            color: var(--super-green);
+            background: var(--super-green);
             cursor: pointer;
           }
 
@@ -99,7 +98,7 @@ const Beratung = (props) => {
             display: flex;
             justify-content: center;
             align-items: center;
-            // background: #07002140;
+
           }
 
           #curriculum-popup {
@@ -108,7 +107,7 @@ const Beratung = (props) => {
             position: relative;
             width: calc(100vw / 12 * 8);
             padding: 40px;
-            border: 1px solid #3dd7ac;
+            border: 1px solid var(--super-green);
           }
           .popup-close {
             top: 0;
@@ -120,7 +119,7 @@ const Beratung = (props) => {
             border-radius: 0;
             padding: 0;
             margin: 0;
-            color: #3dd7ac;
+            color: var(--super-green);
             background: none;
             font-weight: 300;
             font-size: 2em;
@@ -131,7 +130,7 @@ const Beratung = (props) => {
             width: 40px;
           }
           .popup-close:hover {
-            color: #3dd7ac;
+            color: var(--super-green);
           }
 
           .curriculum-popup-content {
@@ -197,9 +196,6 @@ const Beratung = (props) => {
               margin: auto;
               width: 90%;
             }
-            .iframe {
-              // width: 80vw !important;
-            }
           }
 
           @media (max-width: 568px) {
@@ -213,16 +209,9 @@ const Beratung = (props) => {
               width: 16em;
               min-width: 0;
             }
-            #curriculum-popup {
-            }
+
           }
-          @media (max-width: 400px) {
-          }
-          @media (max-width: 350px) {
-            // .hbspt-form {
-            //   width: 300px;
-            // }
-          }
+
         `}
       </style>
     </div>

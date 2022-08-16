@@ -107,12 +107,12 @@ const Footer = () => {
           .copyright .logo {
             color: #fff;
             font-size: 1.3rem;
-            font-family: 'Fira Sans',sans-serif;
+            font-family: 'FiraSans-Regular',sans-serif;
             font-weight: bold;
           }
           .copyright .copy {
             font-family: "Neue_Machina_Regular_400";
-            color: #3dd7ac;
+            color: var(--super-green);
             font-size: 0.7em;
             margin-left: 2em;
           }
@@ -132,8 +132,8 @@ const Footer = () => {
           }
 
           .social-media a svg:hover path {
-            fill: #3dd7ac;
-            stroke: #3dd7ac;
+            fill: var(--super-green);
+            stroke: var(--super-green);
           }
 
           .site-info {
@@ -158,16 +158,14 @@ const Footer = () => {
 
           .site-info a:visited {
             color: #fff;
-
-            // color: #3dd7ac;
           }
 
           .site-info a:hover {
             text-decoration: underline;
-            color: #3dd7ac;
+            color: var(--super-green);
           }
           .site-info a:active {
-            color: #5d3ede;
+            color: var(--super-lila);
           }
           // .copyright {
           //   display: flex;

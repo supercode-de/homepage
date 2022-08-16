@@ -83,7 +83,7 @@ const WorkIT = (props) => {
           margin-bottom: .5rem;
         }
         a {
-          font-family: "Fira Sans", sans-serif;          
+          font-family: "FiraSans-Regular", sans-serif;          
           font-size: 15px;
           letter-spacing: 1px;
           text-transform: uppercase;
