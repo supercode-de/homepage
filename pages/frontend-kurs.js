@@ -4,7 +4,7 @@ import Header_Kurse from "../components/Header_Kurse";
 import FE_Praxis from '../components/FE_Praxis';
 import FE_ZahlenUndFakten from '../components/FE_ZahlenUndFakten';
 import Bildungsberatung from '../components/Bildungsberatung';
-import FooterCallToAction_neu from '../components/FooterCallToAction_Kurse';
+import FooterCallToAction_Kurse from '../components/FooterCallToAction_Kurse';
 import HeaderCTA from '../components/HeaderCTA';
 import VZHeaderTermine from '../components/VZHeaderTermine';
 import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
@@ -24,7 +24,7 @@ export default function FrontendKurse(props) {
           <FE_ZahlenUndFakten />
           <VZ_Tagesablauf />
           <Bildungsberatung />
-          <FooterCallToAction_neu />
+          <FooterCallToAction_Kurse />
         </div>
       </Layout>
     );

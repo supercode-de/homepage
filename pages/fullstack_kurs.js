@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import FS_Praxis from '../components/FS_Praxis';
 import FS_ZahlenUndFakten from '../components/FS_ZahlenUndFakten';
 import Bildungsberatung from '../components/Bildungsberatung';
-import FooterCallToAction_neu from '../components/FooterCallToAction_Kurse';
+import FooterCallToAction_Kurse from '../components/FooterCallToAction_Kurse';
 import HeaderCTA from '../components/HeaderCTA';
 import VZHeaderTermine from '../components/VZHeaderTermine';
 import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
@@ -23,7 +23,7 @@ export default function FullstackKurse(props) {
           <FS_ZahlenUndFakten />
           <VZ_Tagesablauf />
           <Bildungsberatung />
-          <FooterCallToAction_neu />
+          <FooterCallToAction_Kurse />
         </div>
       </Layout>
     );
