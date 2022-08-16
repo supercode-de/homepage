@@ -1,14 +1,16 @@
 import { useWindowSize } from '../components/functions/windowSize';
 import Layout from '../components/Layout';
-import FS_Praxis from '../components/FS_Praxis';
-import FS_ZahlenUndFakten from '../components/FS_ZahlenUndFakten';
-import Bildungsberatung from '../components/Bildungsberatung';
-import FooterCallToAction_Kurse from '../components/FooterCallToAction_Kurse';
-import HeaderCTA from '../components/HeaderCTA';
-import VZHeaderTermine from '../components/VZHeaderTermine';
-import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
+
 import Header_Kurse from '../components/Header_Kurse';
+import VZHeaderTermine from '../components/VZHeaderTermine';
+import HeaderCTA from '../components/HeaderCTA';
+import FS_Praxis from '../components/FS_Praxis';
 import TrainerTeam_Kurse from '../components/TrainerTeam_Kurse';
+import FS_ZahlenUndFakten from '../components/FS_ZahlenUndFakten';
+import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
+import Bildungsberatung from '../components/Bildungsberatung';
+import FooterCallToActionKurse from '../components/FooterCallToActionKurse';
+
 export default function FullstackKurse(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -23,7 +25,7 @@ export default function FullstackKurse(props) {
           <FS_ZahlenUndFakten />
           <VZ_Tagesablauf />
           <Bildungsberatung />
-          <FooterCallToAction_Kurse />
+          <FooterCallToActionKurse />
         </div>
       </Layout>
     );

@@ -1,14 +1,15 @@
 import { useWindowSize } from '../components/functions/windowSize';
 import Layout from '../components/Layout';
+
 import Header_Kurse from "../components/Header_Kurse";
-import FE_Praxis from '../components/FE_Praxis';
-import FE_ZahlenUndFakten from '../components/FE_ZahlenUndFakten';
-import Bildungsberatung from '../components/Bildungsberatung';
-import FooterCallToAction_Kurse from '../components/FooterCallToAction_Kurse';
-import HeaderCTA from '../components/HeaderCTA';
 import VZHeaderTermine from '../components/VZHeaderTermine';
-import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
+import HeaderCTA from '../components/HeaderCTA';
+import FE_Praxis from '../components/FE_Praxis';
 import TrainerTeam_Kurse from '../components/TrainerTeam_Kurse';
+import FE_ZahlenUndFakten from '../components/FE_ZahlenUndFakten';
+import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
+import Bildungsberatung from '../components/Bildungsberatung';
+import FooterCallToActionKurse from '../components/FooterCallToActionKurse';
 
 export default function FrontendKurse(props) {
   if (process.browser) {
@@ -24,7 +25,7 @@ export default function FrontendKurse(props) {
           <FE_ZahlenUndFakten />
           <VZ_Tagesablauf />
           <Bildungsberatung />
-          <FooterCallToAction_Kurse />
+          <FooterCallToActionKurse />
         </div>
       </Layout>
     );

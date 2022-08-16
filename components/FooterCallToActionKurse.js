@@ -1,6 +1,6 @@
 import Typeform_neu2022 from './Typeform_neu2022';
 
-export default function FooterCallToAction_Kurse() {
+const FooterCallToActionKurse = () => {
   return (
     <div id='call-to-action' className='footerCTA'>
       <h2>
@@ -114,3 +114,5 @@ export default function FooterCallToAction_Kurse() {
     </div>
   );
 }
+
+export default FooterCallToActionKurse;
