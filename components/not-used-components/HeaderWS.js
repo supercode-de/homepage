@@ -1,7 +1,5 @@
-import Button from "./small/Button";
-import { useWindowSize } from "./functions/windowSize";
 import Arrow from "./small/Arrow";
-import Telefon from "./small/Telefon";
+import TelefonAside from "../small/TelefonAside";
 
 const HeaderWS = (props) => {
   // const width = useWindowSize().width / 12
@@ -19,20 +17,14 @@ const HeaderWS = (props) => {
               <span>Workshops.</span>
             </h1>
           </div>
-          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-          <Telefon color="#5D3EDE" />
+
+          <TelefonAside/>
         </article>
       </div>
       <Arrow />
       <style jsx>{`
-               #header {
-                background: linear-gradient(90deg, #03000F ${
-        props.width - pixelSize
-        }px, transparent 1%), linear-gradient(#03000F ${
-        props.width - pixelSize
-        }px, transparent 1%) , #fff;
-                background-size: ${props.width}px ${props.width}px;
-                
+            #header {
+                background: var(--super-black);
             }
             .container{
               display:grid;
@@ -44,7 +36,7 @@ const HeaderWS = (props) => {
               margin: 0;
               font-size: 5em;
               letter-spacing: 2px;
-              color: #3DD7AC;
+              color: var(--super-green);
               line-height:4.8rem;
           }
           img{
@@ -55,18 +47,9 @@ const HeaderWS = (props) => {
             color: transparent;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1.5px;
-            -webkit-text-stroke-color: #3DD7AC;
+            -webkit-text-stroke-color: var(--super-green);
         }
-        // .aside {
-        //   position: absolute;
-        //   transform: rotate(-90deg);
-        //   transform-origin: right;
-        //   right: 3%;
-        //   top: 35vh;
-        //   color: #5D3EDE;
-        //   font-size:1.3rem;
-        // }
-            
+
         @media (max-width: 1040px) {
           h1 {
               font-size: 2.5em;

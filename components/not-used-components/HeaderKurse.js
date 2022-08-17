@@ -1,6 +1,5 @@
 import Arrow from "./small/Arrow";
-import Telefon from "./small/Telefon";
-
+import TelefonAside from "../small/TelefonAside";
 const HeaderKurse = (props) => {
   const pixelSize = 1;
 
@@ -16,37 +15,30 @@ const HeaderKurse = (props) => {
               <span>Bootcamps.</span>
             </h1>
           </div>
-          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-          <Telefon color="#5D3EDE" />
+          <TelefonAside />
         </article>
       </div>
       <Arrow />
 
       <style jsx>{`
                #header {
-                background: linear-gradient(90deg, #03000F ${props.width - pixelSize
-        }px, transparent 1%), linear-gradient(#03000F ${props.width - pixelSize
-        }px, transparent 1%) , #fff;
-                background-size: ${props.width}px ${props.width}px;
-                
+                background: var(--super-black);
             }
             .container{
               display:grid;
               grid-template-columns:45% 55%;
               gap:40px;
               padding: 13vh 10%;
-            
-              
             }
             article{
               align-self:Center
-              
+
             }
             h1 {
               margin: 0;
               font-size: 5em;
               letter-spacing: 2px;
-              color: #3DD7AC;
+              color: var(--super-green);
               line-height:4.8rem;
           }
           img{
@@ -57,18 +49,8 @@ const HeaderKurse = (props) => {
             color: transparent;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1.5px;
-            -webkit-text-stroke-color: #3DD7AC;
+            -webkit-text-stroke-color: var(--super-green);
         }
-        // .aside {
-        //   position: absolute;
-        //   transform: rotate(-90deg);
-        //   transform-origin: right;
-        //   right: 3%;
-        //   top: 35vh;
-        //   color: #5D3EDE;
-        //   font-size:1.3rem;
-        // }
-            
               @media (max-width: 1040px) {
                 h1 {
                     font-size: 2.5em;
@@ -87,13 +69,7 @@ const HeaderKurse = (props) => {
                   grid-template-columns:100%;
                  
                 }
-                // .arrow {
-                //   display: flex;
-                //   flex-direction: column;
-                //   justify-content: center;
-                //   align-items: center;
-                //   margin-top: 5px;              
-                // }
+
                 img {
                   position:absolute; 
                   width: 30%;

@@ -1,11 +1,9 @@
-import React, { useState, useEffect } from 'react';
-import Telefon_neu from './small/Telefon_neu';
-const HeaderKurse_neu = (props) => {
+import TelefonAside from './small/TelefonAside';
+TelefonAside
+const HeaderKurse_neu = () => {
   return (
     <div id='header' className='lilaGitter'>
       <div className='super-code'>super(code)</div>
-      {/* <span className="aside"> 📞 +49 211 7817 233-0 </span> */}
-
       <div className='content'>
         <div className='content-img'>
           <img
@@ -22,35 +20,19 @@ const HeaderKurse_neu = (props) => {
             <span className='super'>Unsere&nbsp;Bootcamps!</span>
           </h1>
         </div>
-        <Telefon_neu position={window.screen.width > 585 ? 'left' : '-28px'} />
+        <TelefonAside />
       </div>
       <style jsx>{`
           #header {
             padding: 100px 0;
-            font-family: 'Neue_Machina_Regular_400';
             position: relative;
           }
-          .aside {
-            position: absolute;
-            transform: rotate(-90deg);
-            transform-origin: left;
-            color: #fff;
-            font-weight: 300;
-            left: 3%;
-            top: 60%;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 18px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            color: #ffffff;
-          }
+
           .super-code {
             position: absolute;
             top: 30px;
             left: 7rem;
-            color: #fff;
+            color: var(--super-white);
             font-size: 1.3rem;
             font-family: 'FiraSans-Regular', sans-serif;
             font-weight: bold;
@@ -74,14 +56,14 @@ const HeaderKurse_neu = (props) => {
             right: 0;
           }
           h1 {
-            color: #fff;
+            color: var(--super-white);
             margin: 3vh 3vw;
           }
           h1 span.super {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
             font-weight: 300;
           }
 

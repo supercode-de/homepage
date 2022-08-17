@@ -1,4 +1,4 @@
-import Telefon from "./small/Telefon";
+import TelefonAside from "../small/TelefonAside";
 
 const Header404 = (props) => {
   const pixelSize = 2; // Width of Lines in Background
@@ -9,7 +9,7 @@ const Header404 = (props) => {
         Baby
       </h1>
       <div className="buttons"></div>
-      <Telefon />
+      <TelefonAside />
 
       <img src="/img/_DSC2571_LowRes 3.png" alt="" />
 

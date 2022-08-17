@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import { useEffect } from 'react';
 import { useRouter } from 'next/router';
-import Telefon from './small/Telefon';
+import TelefonAside from './small/TelefonAside';
 
-const Danke = (props) => {
-  const pixelSize = 2; // Width of Lines in Background
+const Danke = () => {
   let router = useRouter();
 
   useEffect(() => {
@@ -15,7 +14,7 @@ const Danke = (props) => {
   return (
     <div id='header' className='lilaGitter'>
       <div className='super-code'>super(code)</div>
-      <span className='aside'> 📞 +49 211 7817 233-0 </span>
+      <TelefonAside />
 
       <div className='content'>
         <h1>
@@ -42,18 +41,16 @@ const Danke = (props) => {
           position: absolute;
           transform: rotate(-90deg);
           transform-origin: left;
-          color: #fff;
           left: 3%;
           top: 60%;
-          color: #ffffff;
+          color: var(--super-white);
         }
         .super-code {
           position: absolute;
           top: 30px;
           left: 7rem;
-          color: #fff;
+          color: var(--super-white);
           font-size: 1.3rem;
-          font-family: 'FiraSans-Regular', sans-serif;
           font-weight: bold;
           z-index: 2;
         }
@@ -65,11 +62,6 @@ const Danke = (props) => {
           justify-content: center;
           align-items: center;
           min-height: calc(100vh - 39px - 98.18px);
-
-          /*height: calc(100vw / 12 * 8);
-          padding: calc(100vw / 12 * 1.5) calc(100vw / 12);
-          overflow-y: visible;*/
-
           text-align: center;
         }
 
@@ -117,7 +109,7 @@ const Danke = (props) => {
           margin: 0;
           font-size: 3em;
           line-height: 1.2em;
-          color: #fff;
+          color: var(--super-white);
           font-weight: 400;
         }
         p a {

@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect';
 import TelefonAside from './small/TelefonAside';
 import Typeform_neu2022 from './Typeform_neu2022';
 
-const Header_neu = (props) => {
+const Header_neu = () => {
   return (
     <div id='header'>
       <div className='super-code'>super(code)</div>

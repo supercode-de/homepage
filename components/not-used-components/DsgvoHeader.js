@@ -1,5 +1,5 @@
 import Arrow from "./small/Arrow";
-import Telefon from "./small/Telefon";
+import TelefonAside from "../small/TelefonAside";
 
 const DsgvoHeader = (props) => {
   const pixelSize = 1; // Width of Lines in Background
@@ -13,21 +13,12 @@ const DsgvoHeader = (props) => {
     <div id="dsgvo">
       <h1>Datenschutz</h1>
 
-      <Telefon color="#fff" />
+      <TelefonAside />
       <Arrow />
 
       <style jsx>{`
         #dsgvo {
-          background: linear-gradient(
-              90deg,
-              #03000f calc(100vw / 12 - ${pixelSize}),
-              transparent 1%
-            ),
-            linear-gradient(
-              #03000f calc(100vw / 12 - ${pixelSize}),
-              transparent 1%
-            ),
-            #fff;
+          background: var(--super-black);
           background-size: calc(100vw / 12) calc(100vw / 12);
           min-height: 90vh;
         }
@@ -37,7 +28,7 @@ const DsgvoHeader = (props) => {
           padding-bottom: 10vh;
           font-size: 5em;
           letter-spacing: 2px;
-          color: #3dd7ac;
+          color: var(--super-green);
           text-align: center;
         }
         @media (max-width: 768px) {

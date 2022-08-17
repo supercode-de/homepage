@@ -1,27 +1,16 @@
 import Arrow from "./small/Arrow";
-import Telefon from "./small/Telefon";
+import TelefonAside from "../small/TelefonAside";
 
-const ImpressumHeader = (props) => {
-  const pixelSize = 1; // Width of Lines in Background
+const ImpressumHeader = () => {
   return (
     <div id="impressum">
       <h1>Impressum</h1>
 
-      <Telefon color="#fff" />
+      <TelefonAside/>
       <Arrow />
       <style jsx>{`
         #impressum {
-          background: linear-gradient(
-              90deg,
-              #03000f ${props.width - pixelSize}px,
-              transparent 1%
-            ),
-            linear-gradient(
-              #03000f ${props.width - pixelSize}px,
-              transparent 1%
-            ),
-            #fff;
-          background-size: ${props.width}px ${props.width}px;
+          background: var(--super-black);
           height: 90vh;
         }
         h1 {
@@ -30,17 +19,10 @@ const ImpressumHeader = (props) => {
           padding-bottom: 10vh;
           font-size: 5em;
           letter-spacing: 2px;
-          color: #3dd7ac;
+          color: var(--super-green);
           text-align: center;
         }
-        // .aside {
-        //   position: absolute;
-        //   transform: rotate(-90deg);
-        //   transform-origin: right;
-        //   right: 3%;
-        //   top: 30vh;
-        //   color: #fff;
-        // }
+
         @media (max-width: 768px) {
           h1 {
             font-size: 3em;

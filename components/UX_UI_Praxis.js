@@ -1,16 +1,7 @@
-import Telefon from "./small/Telefon";
 import Beratung_flexible from "./Beratung_flexible";
 import Curriculum from "./Curriculum_Popup";
 import kurseData from "../components/data/kursedata.json";
 import { useState } from "react";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Accordion_uxui from "./Accordion_uxui";
 
 const UX_UI_Praxis = () => {
