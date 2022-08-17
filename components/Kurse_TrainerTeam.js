@@ -1,5 +1,5 @@
 import teamData from './data/team.json';
-export default function TrainerTeam_Kurse(props) {
+export default function Kurse_TrainerTeam(props) {
     return (
         <section className='fsTrainer'>
             <div className='trainerinfos'>

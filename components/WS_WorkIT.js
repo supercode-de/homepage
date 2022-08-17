@@ -21,7 +21,7 @@ const responsive = {
   },
 };
 
-const WorkIT = () => {
+const WS_WorkIT = () => {
   return (
     <div id="kurse">
       <span className="aside">Unsere Kurse</span>
@@ -398,4 +398,4 @@ const WorkIT = () => {
   );
 };
 
-export default WorkIT;
+export default WS_WorkIT;

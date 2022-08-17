@@ -5,8 +5,7 @@ import Kurse_Header from '../components/Kurse_Header';
 import HeaderTermine_Webdev from '../components/HeaderTermine_Webdev';
 import Kurse_HeaderCTA from '../components/Kurse_HeaderCTA';
 import FS_Praxis from '../components/FS_Praxis';
-import TrainerTeam_Kurse from '../components/TrainerTeam_Kurse';
-import FS_ZahlenUndFakten from '../components/FS_ZahlenUndFakten';
+import Kurse_TrainerTeam from '../components/Kurse_TrainerTeam';
 import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
 import Bildungsberatung from '../components/Bildungsberatung';
 import Kurse_FooterCTA from '../components/Kurse_FooterCTA';
@@ -22,13 +21,12 @@ export default function FullstackKurse(props) {
           <HeaderTermine_Webdev />
           <Kurse_HeaderCTA wochen="22" monate="5"/>
           <FS_Praxis />
-          <TrainerTeam_Kurse kursForm="fullstack"/>
-          {/* <FS_ZahlenUndFakten /> */}
+          <Kurse_TrainerTeam kursForm="fullstack"/>
           <ZahlenUndFakten 
-            alumniName="Daniel Rauh" 
-            alumniAG="LIKWIDCARE"
-            alumniZitat="Der Kurs bei SuperCode hat sich absolut gelohnt. Nun habe ich eine neue Job-Perspektive für die Zukunft und auch viele neue Kontakte und Freunde gewonnen."
-            alumniImg="/img/alumni/Daniel-Rauh.jpg"
+            alumniName="Emilija-Sekulic" 
+            alumniAG="smartin ADVERTISING"
+            alumniZitat="An alle Karrierewechsler*innen da draußen: Fangt einfach an. Schreibt die ersten Zeilen in HTML, denn “Hallo Welt” könnte der Beginn von etwas Großem sein!"
+            alumniImg="/img/alumni/Emilija-Sekulic.png"
           />
           <VZ_Tagesablauf />
           <Bildungsberatung />

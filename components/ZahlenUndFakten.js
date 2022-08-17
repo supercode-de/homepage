@@ -9,18 +9,16 @@ export default function ZahlenUndFakten(props) {
         <span className='bling'></span>
         <div className='absolvent_1'>
           <figure>
-            <img src='/img/alumni/Emilija-Sekulic.png' alt='' />
+            <img src='/img/alumni/Daniel-Rauh.jpg' alt='' />
 
             <figcaption>
-              “An alle Karrierewechsler
-              {window.screen.width <= 420 ? <br /> : null}
-              *innen da draußen: Fangt einfach an. Schreibt die ersten Zeilen in HTML, denn “Hallo Welt” könnte der Beginn von etwas Großem sein!”
+              “Der Kurs bei SuperCode hat sich absolut gelohnt. Nun habe ich eine neue Job-Perspektive für die Zukunft und auch viele neue Kontakte und Freunde gewonnen.”
             </figcaption>
-            <h3>Emilija Sekulic</h3>
+            <h3>Daniel Rauh</h3>
             <p>
-              Jetzt Webentwicklerin
+              Jetzt Webentwickler
             </p>
-            <p>9Elements</p>
+            <p>LIKWIDCARE</p>
           </figure>
         </div>
         <div className='absolvent_2'>

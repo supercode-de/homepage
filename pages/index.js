@@ -1,8 +1,9 @@
 import Head from 'next/head';
 import Index_Header from '../components/Index_Header';
+import Index_HeaderCTA from '../components/Index_HeaderCTA';
 import Zukunft from '../components/Zukunft';
 import UnserCampus from '../components/UnserCampus';
-import Weiterbildung from '../components/Weiterbildung';
+import Index_Weiterbildung from '../components/Index_Weiterbildung';
 import Bootcamps from '../components/Bootcamps';
 import CertquaBonn from '../components/CertquaBonn';
 import Finanzierung from '../components/Finanzierung';
@@ -13,10 +14,10 @@ import Index_FooterCTA from '../components/Index_FooterCTA';
 import Layout from '../components/Layout';
 import kurseData from '../components/data/kursedata.json';
 import useInView from "react-cool-inview";
-import dynamic from 'next/dynamic'
-import Index_HeaderCTA from '../components/Index_HeaderCTA';
-const Index_Blog = dynamic(() => import('../components/Index_Blog'))
 
+
+import dynamic from 'next/dynamic'
+const Index_Blog = dynamic(() => import('../components/Index_Blog'))
 
 export default function Home(props) {
   if (process.browser) {
@@ -32,7 +33,7 @@ export default function Home(props) {
             <Index_HeaderCTA />
             <Zukunft />
             <UnserCampus />
-            <Weiterbildung />
+            <Index_Weiterbildung />
             <Bootcamps kurseData={kurseData[0].kurseIndex} />
             <CertquaBonn />
             <Finanzierung />

@@ -2,7 +2,7 @@ import Layout from '../components/Layout';
 import HeaderWS from '../components/HeaderWS';
 import HeaderCallToActionWS_neu from '../components/HeaderCallToActionWS_neu';
 import AnfängerBisBusinessWS from '../components/AnfängerBisBusinessWS';
-import WorkITWS from '../components/WorkITWS';
+import WS_WorkIT from '../components/WS_WorkIT';
 import WS_Auflistung from '../components/WS_Auflistung';
 import WS_AVGS from '../components/WS_AVGS';
 import Alumni from '../components/Alumni';
@@ -20,7 +20,7 @@ export default function Workshop() {
             <HeaderWS />
             <HeaderCallToActionWS_neu />
             <AnfängerBisBusinessWS />
-            <WorkITWS />
+            <WS_WorkIT />
             <WS_Auflistung />
             <WS_AVGS />
             <Alumni />

@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import LeitBildBody from '../components/LeitBildBody';
+import LeitbildBody from '../components/LeitbildBody';
 import Header_Subpages from '../components/Header_Subpages';
 
 export default function Home(props) {
@@ -9,7 +9,7 @@ export default function Home(props) {
         <div className='container'>
           <main>
             <Header_Subpages headline='Leitbild' />
-            <LeitBildBody />
+            <LeitbildBody />
           </main>
           <style jsx>{``}</style>
         </div>

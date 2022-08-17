@@ -5,9 +5,12 @@ module.exports = {
   ) {
     return {
       "/": { page: "/" },
+      "/404": { page: "/404" },
       "/kurse": { page: "/kurse" },
       "/workshops": { page: "/workshops" },
+      // workshop Unterseiten für die Weiterleitung zum WS Video Call
       "/supercodeworkshop": { page: "/supercodeworkshop" },
+      "/uxuidesignworkshop": { page: "/uxuidesignworkshop" },
       "/beratung-coding": { page: "/beratungsformular-coding" },
       "/beratungsformular": { page: "/beratungsformular-coding" },
       "/beratung-design": { page: "/beratungsformular-design" },
@@ -16,11 +19,8 @@ module.exports = {
       "/team": { page: "/team" },
       "/leitbild": { page: "/leitbild" },
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
-      "/404": { page: "/404" },
       "/kurse/fullstack": { page: "/fullstack_kurs" },
       "/kurse/frontend": { page: "/frontend-kurs" },
-      "/supercodeworkshop": { page: "/supercodeworkshop" },
-      "/uxuidesignworkshop": { page: "/uxuidesignworkshop" },
       "/danke": { page: "/danke" },
       "/blog": { page: "/blog" },
       "/blog/YouCode-YouTube-YouRock!": { page: "/blog/[blogItem]" },
