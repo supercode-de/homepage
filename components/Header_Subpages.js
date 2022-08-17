@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router';
 import TelefonAside from './small/TelefonAside';
 
-const Danke = (props) => {
+const Header_Subpages = (props) => {
   return (
     <div id='header'>
       <div className='super-code'>super(code)</div>
@@ -35,7 +35,7 @@ const Danke = (props) => {
         }
 
         .content {
-          width: 100%;
+          width: 80%;
           text-align: center;
         }
 
@@ -79,4 +79,4 @@ const Danke = (props) => {
   );
 };
 
-export default Danke;
+export default Header_Subpages;

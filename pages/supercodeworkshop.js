@@ -1,9 +1,7 @@
-// import Layout_workshop from '../components/Layout_workshop';
 import Layout from '../components/Layout';
 import { useWindowSize } from '../components/functions/windowSize';
 import HubspotForm from 'react-hubspot-form';
-import Telefon from '../components/small/Telefon';
-
+import TelefonAside from '../components/small/TelefonAside';
 export default function Workshop() {
   const pixelSize = 1;
   if (process.browser) {
@@ -11,16 +9,16 @@ export default function Workshop() {
     return (
       <Layout>
         <div id='headr'>
-          <header className='lilaGitter'>
+          <header>
+          
             <h1 className='headline'>
               <span className='stroke'>Yeah!</span>
             </h1>
             <h1 className='willkommen'>
               <span className='after-span'> Willkommen</span>
             </h1>
-
-            <Telefon color='#fff' />
             <h2>kostenloser HTML & CSS Workshop!</h2>
+          <TelefonAside />
           </header>
           <section className='headerCTA'>
 
@@ -49,12 +47,9 @@ export default function Workshop() {
               </div>
             </article>
             <h3 className='ps'>
-              PS: Am besten lässt du dein Mirkofon auf stumm und aktivierst es
-              wenn du etwas sagen möchtest.
+              PS: Am besten lässt du dein Mikrofon auf stumm und aktivierst es erst, wenn du etwas sagen möchtest.
             </h3>
           </section>
-          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-          <Telefon color='#fff' />
         </div>
         <div id='sign-up'>
           <div id='notice'>
@@ -78,47 +73,35 @@ export default function Workshop() {
         </div>
 
         <style jsx>{`
-        * {
-          font-family: "Neue_Machina_Regular_400";
+        header{
+          padding: 15rem 0;
+          text-align:center;
+          background: var(--super-lila);
         }
 
-       
-        header{
-          padding:100px 0;
-          text-align:center;
-          
+        .headline{
+          color:var(--super-green);
+          font-size:7.5rem;
         }
         header h2{
           font-size:1.8rem;
-          color:#fff;
-          position:relative;
-          top:-45px;
-        }
-        .headline{
-          color:#3DD7AC;
-          font-size:7.5rem;
-          margin-top:0;
-          position:relative;
-          top:100px;
+          color:var(--super-white);
         }
         .willkommen{
-          color:#3DD7AC;
+          color:var(--super-green);
           font-size:8rem;
-          font-family:"Neue_Machina_Ultrabold"
-          font-weight:ultra-bold;
         }
         .headline .stroke{
               color: transparent;
               letter-spacing: 3px;
               -webkit-text-stroke-width: 0.1px;
-              -webkit-text-stroke-color: #3DD7AC;
+              -webkit-text-stroke-color: var(--super-green);
         }
         .after-span {
           padding-bottom: 2rem;
           padding-right: 2rem;
           display:inline-block;
           position:relative;
-         
         }
         .willkommen .after-span {
           content: '';
@@ -139,17 +122,12 @@ export default function Workshop() {
           padding: 100px 0;
         }
         .headerCTA #reibungslos{
-          // font-family: "Neue_Machina_Regular_400"
           font-size:2.1rem;
           padding-left:2%;
-         
-      
         }
         .headerCTA article{
       display:flex;
       justify-content:space-between;
-     
-      
         }
         .headerCTA article div{
     width:50%;
@@ -158,18 +136,14 @@ export default function Workshop() {
         }
         .headerCTA article h3{
      font-size:2rem;
-    
         }
         .headerCTA #reibungslos{
-          // font-family: "Neue_Machina_Regular_400"
           font-size:2.1rem;
           padding-left:2%;
           width:90%;
           margin:auto;
           margin-bottom:40px;
-          
-         
-      
+
         }
         .ps{
           width:85%;
@@ -217,7 +191,6 @@ export default function Workshop() {
               top:50px;
             }
         .website {
-          font-family: 'FiraSans-Regular', sans-serif;
           font-size: 15px;
           letter-spacing: 1px;
           text-transform: uppercase;
@@ -243,40 +216,10 @@ export default function Workshop() {
         margin-:auto;
         text-align:right;
         }
-        //=========== Alter Code ========
-        #header {
-            background:       linear-gradient(90deg, #03000F ${
-              width - pixelSize
-            }px,
-                              transparent 1%),
-                              linear-gradient(#03000F ${
-                                width - pixelSize
-                              }px, transparent 1%),
-                              #fff;
-            background-size: ${width}px ${width}px;
-            padding: 10vh 2rem;
-        }
+
         #sign-up {
           position: relative;
           background-color: #fff;
-          background-image:
-            linear-gradient(
-              to right,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            )
-          ;
-          background-position: 0 0, 0 0;
-          background-size: ${width}px ${width}px;
           display: grid;
           justify-content: center;
           padding-bottom: 5rem;
@@ -286,55 +229,16 @@ export default function Workshop() {
           padding: 5rem 0;
           max-width: 35rem;
         }
-        #waving {
-          text-align: center;
-          font-size: 5rem;
-          padding: 0;
-          margin-bottom: 1rem; 
-          animation: wave 0.45s linear infinite;
-          animation-direction: alternate-reverse;
-        }
+
         #form {
           background: 
           padding-top: 5rem;
           padding: 20px;
-          background: #03000F;
-          color:#3DD7AC;
+          background: var(--super-black);
+          color:var(--super-green);
           border-radius: .5rem;
         }
-        
-        // h1 {
-        //     margin: 0;
-        //     font-size: 4em;
-        //     letter-spacing: 2px;
-        //     color: #3DD7AC;
-        //     text-align: center;
-        //     padding-bottom: 3rem;
-        // }
-        // .aside {
-        //     position: absolute;
-        //     transform: rotate(-90deg);
-        //     transform-origin: right;
-        //     right: 3%;
-        //     top: 30vh;
-        //     color: #fff
-        //   }
-        // h1 span {
-        //     display: block;
-        //     color: transparent;
-        //     letter-spacing: 3px;
-        //     -webkit-text-stroke-width: 1.5px;
-        //     -webkit-text-stroke-color: #3DD7AC;
-        // }
-        
-          @keyframes wave {
-            0% {
-              transform: rotate(-40deg);
-            }
-            100% {
-              transform: rotate(-10deg);
-            }
-          }
+
           @media (max-width: 768px) {
             h1 {
                 font-size: 3em;

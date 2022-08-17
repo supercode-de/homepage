@@ -1,8 +1,7 @@
-// import Layout_workshop from '../components/Layout_workshop';
 import Layout from '../components/Layout';
 import { useWindowSize } from '../components/functions/windowSize';
 import HubspotForm from 'react-hubspot-form';
-import Telefon from '../components/small/Telefon';
+import TelefonAside from '../components/small/TelefonAside';
 
 export default function Workshop() {
   const pixelSize = 1;
@@ -48,12 +47,10 @@ export default function Workshop() {
               </div>
             </article>
             <h3 className='ps'>
-              PS: Am besten lässt du dein Mirkofon auf stumm und aktivierst es
-              wenn du etwas sagen möchtest.
+              PS: Am besten lässt du dein Mikrofon auf stumm und aktivierst es erst, wenn du etwas sagen möchtest.
             </h3>
           </section>
-          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-          <Telefon color='#fff' />
+          <TelefonAside/>
         </div>
         <div id='arrow-img'>
           <img src='/img/Arrow24.svg' alt='' />
@@ -78,85 +75,36 @@ export default function Workshop() {
               loading={<div>Loading...</div>}
             />
           </div>
-          <div className='test'></div>
+
         </div>
-        {/* <section className='footerCTA'>
-          <h2>Worauf wartest du noch? Die nächsten Kurse starten bald. </h2>
-          <div className='buttons'>
-            <Beratung_flexible
-              buttonText='KONTAKT'
-              buttonTextColor='#fff'
-              buttonWidth='200px'
-            />
-            <Link href='https://www.super-code.de/'>
-              <button className='website'> Website</button>
-            </Link>
-          </div>
-        </section> */}
         <style jsx>{`
-        * {
-          font-family: "Neue_Machina_Regular_400";
-        }
-        .test{
-            width:100%;
-            position:absolute;
-        }
         #arrow-img{
             position:absolute;
             z-index:3;
            bottom:-750px;
-       
           }
           #hier{
               font-size:1.6rem;
               color:#000;
           }
         header{
-          padding:100px 0;
+          padding:15rem 0;
           text-align:center;
-        
+          background-color: var(--super-green);
         }
-        header {
-            padding: 40px 0 40px 5%;
-            font-family: 'Neue_Machina_Regular_400';
-            position: relative;
-            background-color: var(--super-green);
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
-          }
-
         header h2{
           font-size:1.8rem;
           color:#fff;
-          position:relative;
-          top:-45px;
         }
         .headline .stroke{
         color: black;
           font-size:7.5rem;
           margin-top:0;
-          position:relative;
-          top:100px;
+
         }
         .willkommen{
           color:var(--super-yellow);
           font-size:8rem;
-          font-family:"Neue_Machina_Ultrabold"
-          font-weight:ultra-bold;
         }
         .headline .stroke{
               color: transparent;
