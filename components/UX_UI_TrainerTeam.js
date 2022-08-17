@@ -46,8 +46,7 @@ export default function UX_UI_TrainerTeam() {
         </section>
       </div>
 
-      <style jsx>
-        {`
+      <style jsx>{`
           .fsTrainer {
             padding: 40px 0 170px 6%;
             width: 100%;

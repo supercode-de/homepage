@@ -52,8 +52,7 @@ export default function UX_UI_Tagesablauf() {
           />
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
               .tagesablauf {
                 padding:50px 0 100px 0;
                 

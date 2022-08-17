@@ -31,7 +31,7 @@ const VZHeaderTermine = () => {
             <style jsx>{`
                 #header-termine{
                     padding: 10vh 0;
-                    background: #5c3ede;
+                    background: var(--super-lila);
                     display:flex;
                     flex-wrap: wrap;
                     justify-content: space-evenly;
@@ -40,12 +40,12 @@ const VZHeaderTermine = () => {
 
                 #header-termine div:nth-of-type(1) .termine-wrapper h2{
                     text-decoration: line-through;
-                    text-decoration-color: #3dd7ac;
+                    text-decoration-color: var(--super-green);
                 }
 
                 .line-through{
                     text-decoration: line-through;
-                    text-decoration-color: #3dd7ac;
+                    text-decoration-color: var(--super-green);
                 }
 
                 .termine-wrapper div:nth-child(2){

@@ -116,10 +116,9 @@ export default function Accordion() {
         </div>
       </div>
 
-      <style jsx>
-        {`
+      <style jsx>{`
           .accordion p {
-            color: #000;
+            color: var(--super-black);
           }
           .accordion__wrapper {
             margin: 25px 0;
@@ -128,11 +127,9 @@ export default function Accordion() {
             width: 90%;
             margin: 60px auto 0;
             border-radius: 3px;
-            // background: #f1f1f1;
           }
 
           .accordion-visible {
-            // background: #7177ca;
             width: 100%;
 
             cursor: pointer;
