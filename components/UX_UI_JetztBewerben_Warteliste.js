@@ -1,9 +1,8 @@
 import React from 'react';
-//import './jetzt-anmelden.css'
 import HubspotForm from 'react-hubspot-form';
 import { Component } from 'react/cjs/react.production.min';
 
-class JetztBewerben2 extends Component {
+class UX_UI_JetztBewerben_Warteliste extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -13,7 +12,7 @@ class JetztBewerben2 extends Component {
 
   render() {
     return (<div>
-      <button className="button-HeaderCallToAction" onClick={() => this.setState({ isHidden: false })}>{this.props.buttonText}</button>
+      <button className="button-HeaderCallToAction" onClick={() => this.setState({ isHidden: false })}>Warteliste</button>
       <div
         id='jetzt-bewerben'
         className={this.state.isHidden ? 'isHidden' : 'isNotHidden'}
@@ -26,23 +25,12 @@ class JetztBewerben2 extends Component {
         </button>
 
         <div className='jetzt-bewerben-container'>
-          <div className='jetzt-bewerben-left'>
-            <h1>Schön, dass</h1>
-            <h1>du dich für</h1>
-            <h1>unsere <span>Kurse</span></h1>
-            <h1>interessierst.</h1>
-            <p>Nun brauchen wir von dir ein paar Angaben und Daten, um mit dir gemeinsam darüber zu sprechen, ob unsere
-              Kurse für dich die richtigen sind.</p>
-            <p>Keine Sorge, wir behandeln deine Daten absolute vertraulich und spammen dich auch nicht zu.</p>
-            <p>Bei Fragen kanst du dich natürlich auch gerne per Mail oder Telefon an uns wenden:</p>
-            <a href="mailto:beratung@super-code.de">beratung@super-code.de</a>
-            <a href="tel:+4921178172330">0211 7817 2330</a>
-          </div>
           <div className='jetzt-bewerben-right'>
+            <h1>Warteliste</h1>
             <HubspotForm
               region="na1"
               portalId="5807040"
-              formId="486258ef-3c64-43c6-bcec-0e7f85f422ce"
+              formId="7d93ef6f-2b1c-4b2c-9a33-940a7a15ea56"
               onSubmit={() => console.log('Submit!')}
               onReady={(form) => console.log('Form ready!')}
               loading={<div>Loading...</div>}
@@ -75,26 +63,28 @@ class JetztBewerben2 extends Component {
           }
 
           .jetzt-bewerben-container {
-            padding: 50px 10%;
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 50px;
+            padding: 50px 5%;
+            // display: grid;
+            // grid-template-columns: 1fr 1fr;
+            // gap: 50px;
+            // align-items: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            height: 100vh;
           }
           .button-HeaderCallToAction {
-            margin: 2em 1em;
-            font-size: 14px;
-            line-height: 16px;
-            text-align: center;
+            width: 100%;
+            font-size: 0.875em;
+            background: transparent;
+            outline: none;
+            border: 1px solid var(--super-green);
+            color: var(--super-white);
+            padding: 15px 0;
             letter-spacing: 1px;
             text-transform: uppercase;
-            padding: 15px 0px;
-            background: transparent;
-            border: 2px solid var(--super-green);
-            color: var(--super-white);
-            justify-self: center;
-            display: inline-block;
-            width: 100%;
-            outline: none;
+            border-radius: 5rem;
           }
           .button-HeaderCallToAction:hover {
             color: var(--super-lila);
@@ -118,8 +108,15 @@ class JetztBewerben2 extends Component {
           .jetzt-bewerben-close:hover {
             color: var(--super-green);
           }
-          .jetzt-bewerben-left h1 {
-            font-size: 4.3em;
+          .jetzt-bewerben-right {
+            width: 40%;
+          }
+          .jetzt-bewerben-left {
+            width: 80%;
+          }
+          .jetzt-bewerben-left h1,
+          .jetzt-bewerben-right h1{
+            font-size: 4em;
             font-style: normal;
             font-weight: 800;
             margin: 0;
@@ -158,6 +155,17 @@ class JetztBewerben2 extends Component {
 
             .jetzt-bewerben-left h1 {
               font-size: 3.3em;
+            }
+            .jetzt-bewerben-left,
+            .jetzt-bewerben-right {
+              width: 100%;
+            }
+            .jetzt-bewerben-right {
+              margin-top: 50px;
+            }
+            
+            .jetzt-bewerben-left p {
+              letter-spacing: 0;
             }
             .jetzt-bewerben-container {
               padding: 5% 10%;
@@ -229,4 +237,4 @@ class JetztBewerben2 extends Component {
   }
 }
 
-export default JetztBewerben2;
+export default UX_UI_JetztBewerben_Warteliste;

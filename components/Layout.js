@@ -1,14 +1,12 @@
-import Navigation_neu from './Navigation_neu';
-// import Footer from "../components/Footer";
-import Footer_neu from '../components/Footer_neu';
-import Banner from '../components/Banner';
 import Head from 'next/head';
-import JetztAnmdelden from './JetztAnmelden';
+import Pixel from './small/facebook/index';
+import Banner from '../components/Banner';
+import Navigation from './Navigation';
+import JetztAnmelden from './JetztAnmelden';
 import NavigationMobile from './NavigationMobile';
+import Footer from './Footer';
 
 import React, { Component } from 'react';
-
-import Pixel from './small/facebook/index';
 
 class Layout extends Component {
   state = {
@@ -58,7 +56,7 @@ class Layout extends Component {
         {this.props.oneComponent ? (
           ''
         ) : (
-          <Navigation_neu
+          <Navigation
             navstroke={this.props.navstroke}
             dropdownColor={this.props.dropdownColor}
             toggleJetztAnmelden={this.toggleJetztAnmelden}
@@ -70,7 +68,7 @@ class Layout extends Component {
         {this.props.oneComponent ? (
           ''
         ) : (
-          <JetztAnmdelden
+          <JetztAnmelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}
           />
@@ -88,7 +86,7 @@ class Layout extends Component {
         )}
 
         {this.props.children}
-        {this.props.oneComponent ? '' : <Footer_neu />}
+        {this.props.oneComponent ? '' : <Footer />}
 
         <style jsx global>
           {`
@@ -142,7 +140,14 @@ class Layout extends Component {
               line-height: 1.563rem;
               text-align: left;
             }
-
+            .super-code {
+              position: absolute;
+              top: 30px;
+              left: 7rem;
+              color: var(--super-white);
+              font-size: 1.3rem;
+              font-family: 'FiraSans-Regular', sans-serif;
+            }
             button{
               border-radius: 5rem; 
             }
@@ -213,7 +218,7 @@ class Layout extends Component {
               background-size: calc(100vw / 12) calc(100vw / 12);
             }
 
-            img:not(#tagesablauf, .menu-button, #arrow-img img) {
+            img:not(#tagesablauf, .menu-button, #arrow-img img, .start-termin img) {
               border-radius: 50px;
             }
 

@@ -1,4 +1,3 @@
-import Button from "./small/Button";
 import Beratung from "./Beratung";
 import Link from "next/link";
 
@@ -20,7 +19,7 @@ const MeldeDich = () => {
       <style jsx>{`
         #melde-dich {
           background: var(--super-blau);
-          color: #fff;
+          color: var(--super-white);
           padding: 3em 4em 2em;
         }
         h1 {

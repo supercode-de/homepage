@@ -2,7 +2,7 @@ import React from 'react';
 //import './jetzt-anmelden.css'
 import HubspotForm from 'react-hubspot-form';
 
-const JetztAnmdelden = (props) => {
+const JetztAnmelden = (props) => {
   return (
     <div
       id='jetzt-anmelden'
@@ -42,8 +42,7 @@ const JetztAnmdelden = (props) => {
           />
         </div>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #jetzt-anmelden {
             position: fixed;
             padding: 20px;
@@ -82,7 +81,7 @@ const JetztAnmdelden = (props) => {
             border-radius: 0;
             padding: 0;
             margin: 0;
-            color: #f0f0f0;
+            color: var(--super-white);
             background: none;
             font-weight: 300;
             font-size: 2.5em;
@@ -138,7 +137,7 @@ const JetztAnmdelden = (props) => {
               border-radius: 0;
               padding: 0;
               margin: 0;
-              color: #f0f0f0;
+              color: var(--super-white);
               background: none;
               font-weight: 300;
               font-size: 4em;
@@ -185,4 +184,4 @@ const JetztAnmdelden = (props) => {
   );
 };
 
-export default JetztAnmdelden;
+export default JetztAnmelden;

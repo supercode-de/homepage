@@ -1,10 +1,7 @@
 import Curriculum from './Curriculum_Popup';
 import { useRouter } from 'next/router';
 // import HubspotForm from 'react-hubspot-form';
-import JetztBewerben_UXUI_Warteliste from './JetztBewerben_UXUI_Warteliste';
-// import ButtonGreen from './small/ButtonGreen';
-// import Link from 'next/dist/client/link';
-// import Router from 'next/dist/next-server/server/router';
+import UX_UI_JetztBewerben_Warteliste from './UX_UI_JetztBewerben_Warteliste';
 const KurseCard = (props) => {
   const router = useRouter();
   const {
@@ -37,7 +34,7 @@ const KurseCard = (props) => {
               width="100%" />
             <button onClick={() => router.push(href)}>ZUM KURS</button>
           </div>
-          : <JetztBewerben_UXUI_Warteliste />}
+          : <UX_UI_JetztBewerben_Warteliste />}
 
       </div>
       <style jsx>{`
@@ -89,7 +86,6 @@ const KurseCard = (props) => {
             padding: 0;
           }
           p {
-            font-family: 'Neue_Machina_Regular_400';
             line-height: 25px;
           }
 

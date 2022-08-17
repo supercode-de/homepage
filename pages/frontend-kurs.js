@@ -1,31 +1,37 @@
-import { useWindowSize } from '../components/functions/windowSize';
 import Layout from '../components/Layout';
-
-import Header_Kurse from "../components/Header_Kurse";
-import VZHeaderTermine from '../components/VZHeaderTermine';
-import HeaderCTA from '../components/HeaderCTA';
+import Kurse_Header from "../components/Kurse_Header";
+import HeaderTermine_Webdev from '../components/HeaderTermine_Webdev';
+import Kurse_HeaderCTA from '../components/Kurse_HeaderCTA';
 import FE_Praxis from '../components/FE_Praxis';
 import TrainerTeam_Kurse from '../components/TrainerTeam_Kurse';
 import FE_ZahlenUndFakten from '../components/FE_ZahlenUndFakten';
 import VZ_Tagesablauf from '../components/VZ_Tagesablauf';
 import Bildungsberatung from '../components/Bildungsberatung';
-import FooterCallToActionKurse from '../components/FooterCallToActionKurse';
+import Kurse_FooterCTA from '../components/Kurse_FooterCTA';
 
+import { useWindowSize } from '../components/functions/windowSize';
+import ZahlenUndFakten from '../components/ZahlenUndFakten';
 export default function FrontendKurse(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
       <Layout banner={true}>
         <div className='fullstack-kurse'>
-          <Header_Kurse kursForm="Frontend"/>
-          <VZHeaderTermine />
-          <HeaderCTA wochen="13" monate="3"/>
+          <Kurse_Header kursForm="Frontend"/>
+          <HeaderTermine_Webdev />
+          <Kurse_HeaderCTA wochen="13" monate="3"/>
           <FE_Praxis />
           <TrainerTeam_Kurse kursForm="frontend"/>
-          <FE_ZahlenUndFakten />
+          {/* <FE_ZahlenUndFakten /> */}
+          <ZahlenUndFakten 
+            alumniName="Denise Brachwitz-Linden" 
+            alumniAG="9Elements"
+            alumniZitat="Das Bootcamp bei SuperCode hat mir eine neue Perspektive geboten. Bereits vor Ende des Kurses hatte ich schon zwei Jobangebote und das, obwohl ich Quereinsteigerin bin!"
+            alumniImg="/img/alumni/Denise.png"
+          />
           <VZ_Tagesablauf />
           <Bildungsberatung />
-          <FooterCallToActionKurse />
+          <Kurse_FooterCTA />
         </div>
       </Layout>
     );

@@ -1,0 +1,26 @@
+[
+    {
+        "webdev": {
+            "termin1": "20. Juni",
+            "termin1Done": true,
+            "anmeldeschluss1": "17. Juni",
+            "termin2": "19. September",
+            "termin2Done": false,
+            "anmeldeschluss2": "16. September",
+            "termin3": "12. Dezember",
+            "termin3Done": false,
+            "anmeldeschluss3": "9. Dezember"
+        },
+        "design": {
+            "termin1": "28. November",
+            "termin1Done": false,
+            "anmeldeschluss1": "25. November",
+            "termin2": "23. Mai 2023",
+            "termin2Done": false,
+            "anmeldeschluss2": "Mai 2023",
+            "termin3": "23. Oktober 2023",
+            "termin3Done": false,
+            "anmeldeschluss3": "Oktober 2023"
+        }
+    }
+]

@@ -60,7 +60,6 @@ const Typeform_neu_flexible_uxui = (props) => {
         }
 
         button {
-          font-family: 'FiraSans-Regular', sans-serif;
           font-size: 14px;
           text-align: center;
           letter-spacing: 1px;

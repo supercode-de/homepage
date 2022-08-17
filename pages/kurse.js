@@ -1,17 +1,16 @@
+import Layout from "../components/Layout";
 import HeaderKurse_neu from "../components/HeaderKurse_neu";
 import HeaderCallToActionWS_neu from "../components/HeaderCallToActionWS_neu";
 import FEoderFSKurse from "../components/FEoderFSKurse";
 import Bootcamps from "../components/Bootcamps";
-import AuflistungWS from "../components/AuflistungWS";
+import AuflistungWS from "../components/WS_Auflistung";
 import BGSKurse from "../components/BGSKurse";
-import UpToDate from "../components/UpToDate";
-import FooterCallToActionKurse from "../components/FooterCallToActionKurse";
-import { useWindowSize } from "../components/functions/windowSize";
-import Layout from "../components/Layout";
-import dates from "../components/data/dates.json";
-import kurseData from "../components/data/kursedata.json";
 import Alumni from "../components/Alumni";
+import Newsletter from "../components/Newsletter";
+import Kurse_FooterCTA from "../components/Kurse_FooterCTA";
 
+import kurseData from "../components/data/kursedata.json";
+import { useWindowSize } from "../components/functions/windowSize";
 export default function Workshop() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -26,8 +25,8 @@ export default function Workshop() {
             <AuflistungWS />
             <BGSKurse />
             <Alumni />
-            <UpToDate />
-            <FooterCallToActionKurse month={dates.WorkshopMonth} bald={true} />
+            <Newsletter />
+            <Kurse_FooterCTA />
           </main>
         </div>
       </Layout>

@@ -8,9 +8,9 @@ export default function FS_ZahlenUndFakten() {
         <span className='bling'></span>
         <div className='absolvent_1'>
           <figure>
-            <img src='/img/absolvent/Profile2.png' alt='' />
+            <img src='/img/alumni/Daniel-Rauh.png' alt='' />
 
-            <figcaption className=''>
+            <figcaption >
               "Der Kurs bei SuperCode hat sich absolut gelohnt. Nun habe ich
               eine neue Job-Perspektive für die Zukunft und auch viele neue
               Kontakte und Freunde gewonnen."
@@ -24,7 +24,7 @@ export default function FS_ZahlenUndFakten() {
         </div>
         <div className='absolvent_2'>
           <figure>
-            <img src='/img/absolvent/Emilija Sekulic.png' alt='' />
+            <img src='/img/alumni/Emilija-Sekulic.png' alt='' />
             <figcaption>
               “An alle Karrierewechsler
               {window.screen.width <= 420 ? <br /> : null}

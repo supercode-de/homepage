@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import Carousel from "react-multi-carousel";
 import ReactTooltip from "react-tooltip";
 
-import data from "./data/absolvente.json";
+import alumniData from "./data/alumni.json";
 
 const responsive = {
   superLargeDesktop: {
@@ -33,7 +33,7 @@ const Alumni = () => {
         </h1>
 
         <div className="alumni-grid">
-          {data.map((alumni) => {
+          {alumniData.map((alumni) => {
             return (
               <>
                 <article data-tip data-for={alumni.name}>
@@ -78,7 +78,7 @@ const Alumni = () => {
             itemClass="image-item"
             deviceType={""}
           >
-            {data.map((alumni) => {
+            {alumniData.map((alumni) => {
               return (
                 <div className="carousel-article-container">
                   <article>

@@ -1,17 +1,15 @@
+import Layout from '../components/Layout';
 import HeaderWS from '../components/HeaderWS';
 import HeaderCallToActionWS_neu from '../components/HeaderCallToActionWS_neu';
 import AnfängerBisBusinessWS from '../components/AnfängerBisBusinessWS';
 import WorkITWS from '../components/WorkITWS';
-import AuflistungWS from '../components/AuflistungWS';
-import AVGSWS from '../components/AVGSWS_neu';
+import WS_Auflistung from '../components/WS_Auflistung';
+import WS_AVGS from '../components/WS_AVGS';
 import Alumni from '../components/Alumni';
-import UpToDate from '../components/UpToDate';
-import FooterCallToActionWS from '../components/FooterCallToActionWS';
+import Newsletter from '../components/Newsletter';
+import WS_FooterCTA from '../components/WS_FooterCTA';
 
 import { useWindowSize } from '../components/functions/windowSize';
-import Layout from '../components/Layout';
-import dates from '../components/data/dates.json';
-
 export default function Workshop() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -23,11 +21,11 @@ export default function Workshop() {
             <HeaderCallToActionWS_neu />
             <AnfängerBisBusinessWS />
             <WorkITWS />
-            <AuflistungWS />
-            <AVGSWS />
+            <WS_Auflistung />
+            <WS_AVGS />
             <Alumni />
-            <UpToDate />
-            <FooterCallToActionWS />
+            <Newsletter />
+            <WS_FooterCTA />
           </main>
         </div>
       </Layout>

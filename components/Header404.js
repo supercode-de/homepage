@@ -1,29 +1,20 @@
-import Link from 'next/link';
-import { useEffect } from 'react';
-import { useRouter } from 'next/router';
-import TelefonAside from './small/TelefonAside';
+import Link from "next/link";
+import TelefonAside from "./small/TelefonAside";
 
-const Danke = () => {
-  let router = useRouter();
-
-  useEffect(() => {
-    setTimeout(() => {
-      router.push('/');
-    }, 4000);
-  }, []);
+const Header404 = () => {
   return (
-    <div id='header' className='lilaGitter'>
-      <h2 className='super-code'>super(code)</h2>
+    <div id="header" className="lilaGitter">
+      <div className="super-code">super(code)</div>
       <TelefonAside />
 
-      <div className='content'>
+      <div className="content">
         <h1>
-          <span className='lines'>Danke</span>
+          <span className="super">404</span>
+          <span className="lines">BABY</span>
         </h1>
-
         <p>
-          hier geht's wieder{' '}
-          <Link href='/'>
+          hier geht's wieder{" "}
+          <Link href="/">
             <a>zurück.</a>
           </Link>
         </p>
@@ -37,15 +28,6 @@ const Danke = () => {
           align-items: center;
         }
 
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: left;
-          left: 3%;
-          top: 60%;
-          color: var(--super-white);
-        }
-
         .content {
           width: 100%;
           display: flex;
@@ -53,6 +35,11 @@ const Danke = () => {
           justify-content: center;
           align-items: center;
           min-height: calc(100vh - 39px - 98.18px);
+
+          // height: calc(100vw / 12 * 8);
+          // padding: calc(100vw / 12 * 1.5) calc(100vw / 12);
+          // overflow-y: visible;
+
           text-align: center;
         }
 
@@ -78,10 +65,10 @@ const Danke = () => {
         h1 span.lines::before,
         h1 span.lines::after {
           position: absolute;
-          background: url('/img/vector41.svg') center/cover no-repeat;
+          background: url("/img/vector41.svg") center/cover no-repeat;
           height: 5px;
           right: 0;
-          content: '';
+          content: "";
           display: block;
         }
         h1 span.lines::after {
@@ -100,7 +87,7 @@ const Danke = () => {
           margin: 0;
           font-size: 3em;
           line-height: 1.2em;
-          color: var(--super-white);
+          color: #fff;
           font-weight: 400;
         }
         p a {
@@ -154,4 +141,4 @@ const Danke = () => {
   );
 };
 
-export default Danke;
+export default Header404;

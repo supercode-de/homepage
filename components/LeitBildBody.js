@@ -1,4 +1,4 @@
-const LeitBildBody = (props) => {
+const LeitBildBody = () => {
   return (
     <div id='' className='leitbild-container'>
       <div className='text-body'>

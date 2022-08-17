@@ -209,15 +209,13 @@ export default function Workshop() {
         }
 
         .website {
-          font-family: 'FiraSans-Regular', sans-serif;
           font-size: 15px;
           letter-spacing: 1px;
           text-transform: uppercase;
           padding: 10px 0px;
           background: transparent;
           border: 1px solid var(--super-green);
-         
-          color: #fff;
+          color: var(--super-white);
           justify-self: center;
           display: inline-block;
           min-width: 200px;

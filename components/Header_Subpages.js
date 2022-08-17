@@ -4,7 +4,7 @@ import TelefonAside from './small/TelefonAside';
 const Header_Subpages = (props) => {
   return (
     <div id='header'>
-      <div className='super-code'>super(code)</div>
+      <h2 className='super-code'>super(code)</h2>
       <TelefonAside />
       <div className='content'>
         <h1>
@@ -21,17 +21,6 @@ const Header_Subpages = (props) => {
           align-items: center;
           background: var(--super-lila);
           padding: 15rem 0;
-        }
-
-        .super-code {
-          position: absolute;
-          top: 30px;
-          left: 7rem;
-          color: var(--super-white);
-          font-size: 1.3rem;
-          font-family: 'FiraSans-Regular', sans-serif;
-          font-weight: bold;
-          z-index: 2;
         }
 
         .content {

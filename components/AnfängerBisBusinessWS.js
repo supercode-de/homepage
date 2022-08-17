@@ -11,9 +11,8 @@ const AnfängerBisBusiness = (props) => {
 
       <style jsx>{`
         #starter-business {
-          background: #fff;
+          background: var(--super-white);
           color: var(--super-lila);
-          font-family: "Neue_Machina_Regular_400";
           padding: 2rem 0;
           position: relative;
         }

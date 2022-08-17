@@ -1,4 +1,5 @@
-export default function FE_ZahlenUndFakten() {
+export default function ZahlenUndFakten(props) {
+  const {alumniName, alumniAG, alumniZitat, alumniImg} = props
   return (
     <section className='zahlenUndFakten'>
       <h2 className='zahlenUndFakten_Header'>
@@ -15,7 +16,7 @@ export default function FE_ZahlenUndFakten() {
               {window.screen.width <= 420 ? <br /> : null}
               *innen da draußen: Fangt einfach an. Schreibt die ersten Zeilen in HTML, denn “Hallo Welt” könnte der Beginn von etwas Großem sein!”
             </figcaption>
-            <h3> Emilija Sekulic</h3>
+            <h3>Emilija Sekulic</h3>
             <p>
               Jetzt Webentwicklerin
             </p>
@@ -24,16 +25,16 @@ export default function FE_ZahlenUndFakten() {
         </div>
         <div className='absolvent_2'>
           <figure>
-            <img src='/img/alumni/Denise.png' alt='' />
+            <img src={alumniImg} alt='' />
 
             <figcaption>
-              “Das Bootcamp bei SuperCode hat mir eine neue Perspektive geboten. Bereits vor Ende des Kurses hatte ich schon zwei Jobangebote und das, obwohl ich Quereinsteigerin bin!”
+              {alumniZitat}
             </figcaption>
-            <h3>Denise Brachwitz-Linden</h3>
+            <h3>{alumniName}</h3>
             <p>
               Jetzt Webentwicklerin bei
             </p>
-            <p>9Elements</p>
+            <p>{alumniAG}</p>
           </figure>
         </div>
         <span className='bling2'></span>

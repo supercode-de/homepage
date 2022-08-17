@@ -3,7 +3,7 @@ import TelefonAside from './small/TelefonAside';
 const HeaderWS = (props) => {
   return (
     <div id='header'>
-      <div className='super-code'>super(code)</div>
+      <h2 className='super-code'>super(code)</h2>
       <div className='content'>
         <TelefonAside />
         <div className='content-img'>
@@ -31,16 +31,6 @@ const HeaderWS = (props) => {
             padding: 100px 0;
             position: relative;
             background: var(--super-lila);
-          }
-          .super-code {
-            position: absolute;
-            top: 30px;
-
-            left: 7rem;
-            color: #fff;
-            font-size: 1.3rem;
-            font-family: 'FiraSans-Regular', sans-serif;
-            font-weight: bold;
           }
 
           .content {

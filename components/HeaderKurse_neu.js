@@ -3,7 +3,7 @@ TelefonAside
 const HeaderKurse_neu = () => {
   return (
     <div id='header' className='lilaGitter'>
-      <div className='super-code'>super(code)</div>
+      <h2 className='super-code'>super(code)</h2>
       <div className='content'>
         <div className='content-img'>
           <img
@@ -26,16 +26,6 @@ const HeaderKurse_neu = () => {
           #header {
             padding: 100px 0;
             position: relative;
-          }
-
-          .super-code {
-            position: absolute;
-            top: 30px;
-            left: 7rem;
-            color: var(--super-white);
-            font-size: 1.3rem;
-            font-family: 'FiraSans-Regular', sans-serif;
-            font-weight: bold;
           }
           .content {
             display: flex;
