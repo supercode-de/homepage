@@ -1,7 +1,7 @@
 import teamData from './data/team.json';
 export default function TrainerTeam_Kurse(props) {
     return (
-        <section className='fsTrainer blackGitter'>
+        <section className='fsTrainer'>
             <div className='trainerinfos'>
                 <h2>
                     <span>Super</span>
@@ -51,8 +51,7 @@ export default function TrainerTeam_Kurse(props) {
           .fsTrainer {
             padding: 40px 0 170px 6%;
             width: 100%;
-
-            // overflow: hidden;
+            background: var(--super-black);
           }
 
           .gridItem {
@@ -62,7 +61,7 @@ export default function TrainerTeam_Kurse(props) {
           }
           .fsTrainer h2 {
             font-size: 5rem;
-            color: #fff;
+            color: var(--super-white);
             margin-bottom: 5rem;
             position: relative;
             z-index: 0;
@@ -72,10 +71,10 @@ export default function TrainerTeam_Kurse(props) {
             display: block;
             color: transparent;
             -webkit-text-stroke-width: 0.4px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
           }
           p {
-            color: #fff;
+            color: var(--super-white);
             width: 62%;
             font-size: 1.2rem;
             line-height: 20px;
@@ -116,7 +115,6 @@ export default function TrainerTeam_Kurse(props) {
             top: -20%;
             right: 0;
             width: 20%;
-
             animation: spin 15s linear infinite;
           }
 
@@ -144,8 +142,6 @@ export default function TrainerTeam_Kurse(props) {
               gap: 0.1rem;
               margin: 0 auto;
               width: 100%;
-              // margin-right: 6%;
-              // margin-top: 7%;
             }
             .rotating-text {
               display: none;
@@ -207,7 +203,7 @@ export default function TrainerTeam_Kurse(props) {
           @media (max-width: 480px) {
             .fsTrainer h2 {
               font-size: 1.4rem;
-              color: #fff;
+              color: var(--super-white);
               // line-height: 20px;
               margin-bottom: 10px;
               margin-top: 0;
@@ -216,7 +212,7 @@ export default function TrainerTeam_Kurse(props) {
               display: block;
 
               -webkit-text-stroke-width: 0.4px;
-              -webkit-text-stroke-color: #fff;
+              -webkit-text-stroke-color: var(--super-white);
             }
             .fsTrainer p {
               font-size: 1rem;
@@ -249,12 +245,7 @@ export default function TrainerTeam_Kurse(props) {
               line-height: 28px;
               margin-bottom: 0;
             }
-            // .fsTrainer p {
-            //   font-size: 1rem;
-            //   width: 95%;
-            //   margin-bottom: 30px;
-            //   line-height: 10px;
-            // }
+
             .fsTrainer .txt {
               line-height: 18px;
               font-size: 1rem;
@@ -269,9 +260,7 @@ export default function TrainerTeam_Kurse(props) {
             .gridContainer {
               display: grid;
               grid-template-columns: 50% 50%;
-
               margin: auto;
-
               justify-content: center;
             }
 
@@ -283,9 +272,7 @@ export default function TrainerTeam_Kurse(props) {
               line-height: 10px;
               font-size: 0.8rem;
             }
-            //   // .gridContainer gridItem {
-            //   //   width: 100%;
-            //   // }
+
           }
           @media (max-width: 375px) {
             .fsTrainer h2 {

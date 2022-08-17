@@ -75,7 +75,6 @@ class JetztBewerben_UXUI_Warteliste extends Component {
             height: 100vh;
           }
           .button-HeaderCallToAction {
-            font-family: 'FiraSans-Regular', sans-serif;
             width: 100%;
             font-size: 0.875em;
             background: transparent;
@@ -101,7 +100,7 @@ class JetztBewerben_UXUI_Warteliste extends Component {
             border-radius: 0;
             padding: 0;
             margin: 0;
-            color: #f0f0f0;
+            color: var(--super-white);
             background: none;
             font-weight: 300;
             font-size: 2.5em;

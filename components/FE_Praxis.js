@@ -1,16 +1,7 @@
-// import Telefon from './small/Telefon';
 import Beratung_flexible from './Beratung_flexible';
 import Curriculum from './Curriculum_Popup';
 import kurseData from '../components/data/kursedata.json';
 import { useState } from 'react';
-// import {
-//   Accordion,
-//   AccordionItem,
-//   AccordionItemHeading,
-//   AccordionItemButton,
-//   AccordionItemPanel,
-// } from 'react-accessible-accordion';
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Accordion_frontend from './Accordion_frontend';
 
 const UX_UI_Praxis = () => {
@@ -50,7 +41,7 @@ const UX_UI_Praxis = () => {
     }
   };
   return (
-    <section className='fsPraxis whiteGreenDots'>
+    <section className='fsPraxis'>
       <div className='praxisInfos'>
         <h2 className='letterstroke'>Über 60% Praxis</h2>
         <h2>Fokus auf Javascript</h2>
@@ -198,11 +189,9 @@ const UX_UI_Praxis = () => {
         </div>
       </div>
       <style jsx>{`
-          /*.accord-con {
-            z-index: 99;
-          }*/
           .fsPraxis {
             padding: 40px 0 40px 2%;
+            background: var(--super-white);
           }
 
           .fsPraxis p {
@@ -242,7 +231,6 @@ const UX_UI_Praxis = () => {
           }
 
           .bar-wrapper:hover .inner-bar {
-            /*animation: progress-animation 5s;*/
             width: 100%;
             transform: width 1s;
           }
@@ -312,7 +300,7 @@ const UX_UI_Praxis = () => {
           }
 
           .bar4 .inner-bar {
-            background-color: #000;
+            background-color: var(--super-black);
           }
           .bar4 {
             border: 6px solid var(--super-black);
@@ -383,16 +371,9 @@ const UX_UI_Praxis = () => {
             margin: 0;
             line-height: 50px;
           }
-          /*.neugierCTA_txt {
-            font-size: 4rem;
-            font-family: 'Neue_Machina_Light';
-            color: #03000f;
-            margin: 0;
-            line-height: 50px;
-          }*/
+
           p {
-            color: #121e28;
-            /*width: 55%;*/
+            color: var(--super-blau);
             font-size: 1.563rem;
             font-weight: 300;
           }
@@ -404,24 +385,18 @@ const UX_UI_Praxis = () => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color: #03000f;
+            -webkit-text-stroke-color: var(--super-black);
             font-weight: 300;
           }
-.circle{
-  position:relative;
-}
+          .circle{
+            position:relative;
+          }
 
           .neugierCTA {
             display: block;
             position: relative;
           }
-          /*.neugierCTA_txt {
-            font-size: 5rem;
-            width: 80%;
-            margin-top: 125px;
-            margin-bottom: 30px;
-            padding-left: 5%;
-          }*/
+
           .buttons {
             display: flex;
             justify-content: flex-end;
@@ -441,19 +416,6 @@ const UX_UI_Praxis = () => {
             transform: scale(1.1, 0.6);
             display: block;
           }
-          /*@media (max-width: 1440px) {
-            .neugierCTA p span.circle::after {
-              position: absolute;
-              background: url('/img/Vector64.svg') center/contain no-repeat;
-              height: 336%;
-              width: 225%;
-              right: 29%;
-              bottom: -110%;
-              content: '';
-              transform: scale(1.1, 0.6);
-              display: block;
-            }
-          }*/
 
           @media (max-width: 1040px) {
             .fsPraxis p {
@@ -467,7 +429,6 @@ const UX_UI_Praxis = () => {
             }
           }
 
-          //=======
           .mobile-section {
             width: 90%;
             margin: auto;

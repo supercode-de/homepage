@@ -1,4 +1,5 @@
-import Layout_workshop from '../components/Layout_workshop';
+// import Layout_workshop from '../components/Layout_workshop';
+import Layout from '../components/Layout';
 import { useWindowSize } from '../components/functions/windowSize';
 import HubspotForm from 'react-hubspot-form';
 import Telefon from '../components/small/Telefon';
@@ -8,7 +9,7 @@ export default function Workshop() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout_workshop>
+      <Layout>
         <div id='headr'>
           <header className=''>
 
@@ -288,13 +289,11 @@ export default function Workshop() {
         }
         //=========== Alter Code ========
         #header {
-            background:       linear-gradient(90deg, #03000F ${
-              width - pixelSize
-            }px,
+            background:       linear-gradient(90deg, #03000F ${width - pixelSize
+          }px,
                               transparent 1%),
-                              linear-gradient(#03000F ${
-                                width - pixelSize
-                              }px, transparent 1%),
+                              linear-gradient(#03000F ${width - pixelSize
+          }px, transparent 1%),
                               #fff;
             background-size: ${width}px ${width}px;
             padding: 10vh 2rem;
@@ -482,7 +481,7 @@ export default function Workshop() {
             }
         }
       `}</style>
-      </Layout_workshop>
+      </Layout>
     );
   } else {
     return '';

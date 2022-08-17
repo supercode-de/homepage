@@ -1,15 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import Arrow from './small/Arrow';
-import Typeform from './TypeForm_neu';
-import Telefon_neu from './small/Telefon_neu';
+import TelefonAside from './small/TelefonAside';
 
-const HeaderWS_neu = (props) => {
+const HeaderWS = (props) => {
   return (
-    <div id='header' className='lilaGitter'>
+    <div id='header'>
       <div className='super-code'>super(code)</div>
-      <Telefon_neu position={window.screen.width > 585 ? ' left' : '-3px'} />
       <div className='content'>
-        {/* <span className='aside'> 📞 +49 211 7817 233-0 </span> */}
+        <TelefonAside />
         <div className='content-img'>
           <img
             src='/img/_DSC2506_LowRes.png'
@@ -33,11 +29,8 @@ const HeaderWS_neu = (props) => {
       <style jsx>{`
           #header {
             padding: 100px 0;
-            font-family: 'Neue_Machina_Regular_400';
             position: relative;
-          }
-          .telefon {
-            position: relative;
+            background: var(--super-lila);
           }
           .super-code {
             position: absolute;
@@ -70,25 +63,6 @@ const HeaderWS_neu = (props) => {
             bottom: 0;
             right: 0;
           }
-
-          .arrow {
-            position: absolute;
-            bottom: 0;
-            left: 50%;
-            transform: translate(-50%, 0%);
-          }
-          .arrow p {
-            margin: 0 auto;
-            text-align: center;
-          }
-          .arrow a {
-            text-decoration: none;
-          }
-          .arrow a:hover {
-            text-decoration: underline;
-            color: #fff;
-          }
-
           h1 {
             font-family: 'Neue_Machina_Regular_400';
             font-size: 4em;
@@ -176,4 +150,4 @@ const HeaderWS_neu = (props) => {
   );
 };
 
-export default HeaderWS_neu;
+export default HeaderWS;

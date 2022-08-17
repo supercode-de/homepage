@@ -58,7 +58,7 @@ const MeldeDich = () => {
           letter-spacing: 3px;
           font-weight: 400;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: var(--super-green);
+          -webkit-text-stroke-color: var(--super-white);
         }
 
         span.workshop::after {
@@ -82,7 +82,6 @@ const MeldeDich = () => {
         }
 
         a {
-          font-family: "FiraSans-Regular", sans-serif;
           font-size: 0.875em;
           letter-spacing: 1px;
           text-transform: uppercase;

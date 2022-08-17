@@ -108,6 +108,12 @@ class Layout extends Component {
               font-family: "FiraSans-Regular";
               src: url('/FiraSans-Regular.otf')
             }
+            * {
+              padding: 0;
+              margin: 0;
+              box-sizing: border-box;
+              font-family: 'Neue_Machina_Regular_400', sans-serif;
+            }
             :root {
               --super-green: #3dd7ac;
               --super-lila: #5d3ede;
@@ -118,60 +124,10 @@ class Layout extends Component {
             }
             html {
               scroll-behavior: smooth;
-              font-family: "Neue_Machina_Regular_400";
             }
-            // FINDE NICHTS ZUGEHÖRIGES!
-            // .image-item-partner {
-            //   align-self: center;
-            // }
-
-            // BLOGSTYLES Start
-            // Container in dem der Blogarticle sitzt
-            #blogDetails .right>p {
-              width: 88%;
-              margin: auto;
-              color: #fff;
+            body {
+              overflow-y: ${this.state.overflow_y ? 'hidden' : null};
             }
-            
-            
-            #blogDetails .right h1 {
-              font-size: 4em;
-            }
-            #blogDetails .right img {
-              width: 100%;
-              margin-top: 40px;
-            }
-            #blogDetails .right p {
-              font-size: 1.125rem;
-              line-height: 1.563rem;
-              text-align: left;
-            }
-            
-            #blogDetails .right p p {
-              width: 90%;
-              margin: 0 auto;
-            }
-
-            // Vermuteter Blogstyle
-            #blogDetails .right a {
-              color: #fff;
-            }
-            
-            #blogDetails .right h2 {
-              text-align: left;
-            }
-            #blogDetails .right h3 {
-              font-family: 'Neue_Machina_Light';
-              font-size: 1.875rem;
-              line-height: normal;
-              margin-top: 60px;
-            }
-
-            #blogDetails .right em {
-              font-style: normal;
-            }
-            // BLOGSTYLES End
-
             // Possible nescessary styles
             h1,
             h2 {
@@ -187,35 +143,10 @@ class Layout extends Component {
               text-align: left;
             }
 
-            html,
-            body {
-              padding: 0;
-              margin: 0;
-            }
-
-            body {
-              overflow-y: ${this.state.overflow_y ? 'hidden' : null};
-            }
-            * {
-              box-sizing: border-box;
-              font-family: 'Neue_Machina_Regular_400', sans-serif;
-            }
-            // a,
-            // button {
-            //   font-family: 'Neue_Machina_Regular_400', sans-serif;
-            // }
-
-            // Keine Ahnung, was das tun soll
-            button .lnk {
-              text-decoration: none;
-            }
-            
             button{
               border-radius: 5rem; 
             }
             
-            
-
             // BACKGROUND STYLES
             .lilaGitter {
               background-color: var(--super-lila);
@@ -282,6 +213,10 @@ class Layout extends Component {
               background-size: calc(100vw / 12) calc(100vw / 12);
             }
 
+            img:not(#tagesablauf, .menu-button) {
+              border-radius: 50px;
+            }
+
             // styling accordion auf team seite für stellenausschreibungen
             .accordion__button {
               display: flex;
@@ -297,16 +232,15 @@ class Layout extends Component {
               width: 3%;
             }
 
-            // .accordion__heading {
-            //   display: flex;
-            //   justify-content: space-between;
-
-            // }
-
             .accordion__heading,
             .accordion__panel {
-              padding: 2rem 3rem;
               background: var(--super-lila);
+            }
+            .accordion__heading {
+              padding: 2rem 3rem;
+            }
+            .accordion__panel {
+              padding: 0 3rem 4rem;
             }
             .accordion__heading:hover,
             .accordion__heading:hover + .accordion__panel {
@@ -317,12 +251,11 @@ class Layout extends Component {
               font-size: 1.875rem;
             }
 
-            // .accordion> p{
-            //   color.#000;
-            // }
             .accordion__item {
               border: 4px solid var(--super-green);
               margin-bottom: 3rem;
+              border-radius: 100px;
+              overflow: hidden;
             }
             .accordion__button[aria-expanded='true'] svg,
             .accordion__button[aria-selected='true'] svg {
@@ -335,6 +268,51 @@ class Layout extends Component {
                 padding: 1.125rem;
                 font-size: 1.2rem;
               }
+            }
+
+            // BLOGSTYLES Start
+            // Container in dem der Blogarticle sitzt
+            #blogDetails .right>p {
+              width: 88%;
+              margin: auto;
+              color: #fff;
+            }
+
+            #blogDetails .right h1 {
+              font-size: 4em;
+            }
+            #blogDetails .right img {
+              width: 100%;
+              margin-top: 40px;
+            }
+            #blogDetails .right p {
+              font-size: 1.125rem;
+              line-height: 1.563rem;
+              text-align: left;
+            }
+
+            #blogDetails .right p p {
+              width: 90%;
+              margin: 0 auto;
+            }
+
+            // Vermuteter Blogstyle
+            #blogDetails .right a {
+              color: #fff;
+            }
+            
+            #blogDetails .right h2 {
+              text-align: left;
+            }
+            #blogDetails .right h3 {
+              font-family: 'Neue_Machina_Light';
+              font-size: 1.875rem;
+              line-height: normal;
+              margin-top: 60px;
+            }
+
+            #blogDetails .right em {
+              font-style: normal;
             }
 
             // Styling Carousel Blog Start
@@ -353,9 +331,7 @@ class Layout extends Component {
             #blog .react-multiple-carousel__arrow--left {
               left: 1%;
             }
-            // .bootcamps .react-multi-carousel-track {
-            //   gap: 2rem;
-            // }
+
             .bootcamps .react-multiple-carousel__arrow--right {
               right: 0.5%;
             }
@@ -363,21 +339,13 @@ class Layout extends Component {
               left: 0.5%;
             }
             // Styling Carousel Blog End
-            #footter p {
-              font-size: 1rem;
-              padding-left: 5%;
-              width: 100%;
-            }
+            // BLOGSTYLES End
 
             @media (max-width: 768px) {
               body {
                 font-size: 10px;
               }
-              #footter p {
-                font-size: 0.8rem;
-                padding-left: 5%;
-                line-height: 18px;
-              }
+
               #blogDetails .right h1 {
                 font-size: 2rem;
               }
@@ -403,7 +371,6 @@ class Layout extends Component {
             @media (max-width: 498px) {
               #blogDetails .right h1 {
                 font-size: 1rem;
-                // line-height:40px;
               }
               #blogDetails .right h2 {
                 font-size: 1.1rem;

@@ -1,20 +1,10 @@
-import Telefon from './small/Telefon';
 import Beratung_flexible from './Beratung_flexible';
 import Curriculum from './Curriculum_Popup';
 import kurseData from '../components/data/kursedata.json';
 import { useState } from 'react';
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from 'react-accessible-accordion';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Accordion_frontend from './Accordion_fullstack';
 
 const UX_UI_Praxis = () => {
-  // console.log(kurseData[0].kurseKursePage[0].hubspotFormID);
   const [text1, setText1] = useState(false);
   const [text2, setText2] = useState(true);
   const [text3, setText3] = useState(false);
@@ -60,7 +50,7 @@ const UX_UI_Praxis = () => {
     }
   };
   return (
-    <section className='fsPraxis whiteGreenDots'>
+    <section className='fsPraxis'>
       <div className='praxisInfos'>
         <h2 className='letterstroke'>Über 60% Praxis</h2>
         <h2>Fokus auf Javascript</h2>

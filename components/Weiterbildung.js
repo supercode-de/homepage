@@ -1,4 +1,4 @@
-const HeaderCallToAction_neu = () => {
+const Weiterbildung = () => {
   return (
     <div id="header-call">
       <h2>
@@ -136,4 +136,4 @@ const HeaderCallToAction_neu = () => {
   );
 };
 
-export default HeaderCallToAction_neu;
+export default Weiterbildung;

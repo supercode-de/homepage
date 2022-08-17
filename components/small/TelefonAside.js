@@ -1,20 +1,17 @@
-// Der Komponente wird mit color="" eine beliebige Farbe (hex, rgba, benannt) übergeben. Als Fallback ist #fff hinterlegt.
-
-const Telefon_neu = (props) => {
+const TelefonAside = () => {
   return (
     <>
-      <div className='aside'>
+      <aside className='aside'>
         <a href='tel:+4921178172330'>📞 +49 211 7817 233-0</a>
-      </div>
+      </aside>
       <style jsx>{`
         .aside {
           font-size: 0.9rem;
           position: absolute;
           transform: rotate(-90deg);
-          transform-origin: ${props.position ? props.position : 'right'};
-          ${props.position ? props.position : 'right'}: 3%;
-          top: 40%;
-          color: ${props.color || '#fff'};
+          left: 0%;
+          top: 50%;
+          color: var(--super-white);
         }
         a {
           color: inherit;
@@ -30,4 +27,4 @@ const Telefon_neu = (props) => {
     </>
   );
 };
-export default Telefon_neu;
+export default TelefonAside;

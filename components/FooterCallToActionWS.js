@@ -1,11 +1,10 @@
 import Beratung from './Beratung';
 import Link from 'next/link';
 
-const FooterCallToAction = (props) => {
-  const pixelSize = 1.5;
+const FooterCallToAction = () => {
 
   return (
-    <div id='call-to-action' className='whiteGreenDots'>
+    <div id='call-to-action'>
       <h1>
         Worauf wartest du noch?! Die nächsten{' '}
         <span className='super'>
@@ -20,7 +19,7 @@ const FooterCallToAction = (props) => {
         <Link href='/kurse'>
           <a href=''>KURSE</a>
         </Link>
-        <Beratung buttonText='Beratung' buttonTextColor='#5d3ede' />
+        <Beratung buttonText='Beratung' buttonTextColor='var(--super-black)' />
       </div>
       <style jsx>{`
         #call-to-action {
@@ -49,7 +48,6 @@ const FooterCallToAction = (props) => {
 
         a {
           align-items: center;
-          font-family: 'FiraSans-Regular', sans-serif;
           min-width: 23em;
           font-size: 14px;
           letter-spacing: 1px;
@@ -59,7 +57,7 @@ const FooterCallToAction = (props) => {
           background: transparent;
           border: 1px solid var(--super-green);
           text-decoration: none;
-          color: var(--super-lila);
+          color: var(--super-black);
           display: inline-block;
           border-radius: 5rem;
         }

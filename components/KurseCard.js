@@ -46,18 +46,7 @@ const KurseCard = (props) => {
             background: var(--super-lila);
             white-space: pre-line;
             border-radius: 2rem;
-            // display: flex;
-            // flex-direction: column;
-            // min-height: 100%;
             padding: 43px 28px;
-            // diese grid Styles werden nur gebraucht, wenn das Carousel in Bootcamp.js da ist
-            // das dient dazu, die Karten auf eine einheitliche Höhe zu bekommen.
-            // display: grid;
-            // grid-template-rows: 0.3fr 1.1fr minmax(20px, 60px);
-            // grid-template-areas:
-            //   'headlines'
-            //   'text'
-            //   'buttons';
           }
           .headlines {
             grid-area: headlines;
@@ -68,24 +57,14 @@ const KurseCard = (props) => {
           .text {
             grid-area: text;
           }
-          .buttons {
-            grid-area: buttons;
-          }
-
           .kurseCard:hover {
             background: var(--super-blau);
           }
           .kurseCard:hover > button {
             background: var(--super-blau);
           }
-          // .buttons {
-          //   min-width: 100%;
-          //   display: flex;
-          //   gap: 1rem;
-          // }
 
           button {
-            font-family: 'FiraSans-Regular', sans-serif;
             width: 100%;
             font-size: 0.875em;
             background: transparent;

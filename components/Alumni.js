@@ -22,8 +22,8 @@ const responsive = {
     items: 1,
   },
 };
-const AbsolventenWS = (props) => {
-  const pixelSize = 1.5;
+const Alumni = () => {
+
   return (
     <div id="absolventen">
       <span className="aside">Super (code) x Super (you)</span>
@@ -43,17 +43,14 @@ const AbsolventenWS = (props) => {
                   <h5>{alumni.name}</h5>
                   <h6>{alumni.job}</h6>
 
-                  {/* <div className="text">
-                    <p>{alumni.text}</p>
-                  </div> */}
                   <ReactTooltip
                     /*place="bottom"
                     effect="solid"*/
                     id={alumni.name}
                     className="tooltip"
                     backgroundColor="#070021"
-                    border="3px solid #5d3ede"
-                    borderColor="#5d3ede"
+                    border="3px solid var(--super-lila)"
+                    borderColor="var(--super-lila)"
                   >
                     <p>{alumni.text}</p>
                   </ReactTooltip>
@@ -267,4 +264,4 @@ const AbsolventenWS = (props) => {
   );
 };
 
-export default AbsolventenWS;
+export default Alumni;

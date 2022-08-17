@@ -25,7 +25,7 @@ const FooterCallToAction = (props) => {
             </figure>
           </div>
           <div className="buttons">
-            <Beratung buttonText="Kontakt" buttonTextColor="#5d3ede" buttonWidth="100%" buttonStrokeColor="#5d3ede"/>
+            <Beratung buttonText="Kontakt" buttonTextColor="#03000f" buttonWidth="100%" buttonStrokeColor="##3dd7ac"/>
             <a href="mailto:bewerbung@super-code.de?subject=Initiativ%20Bewerbung">Initiativ Bewerbung</a>
           </div>
         </article>
@@ -73,16 +73,15 @@ const FooterCallToAction = (props) => {
 
         a {
           align-items: center;
-          font-family: "FiraSans-Regular", sans-serif;          
           font-size: 15px;
           letter-spacing: 1px;
           text-transform: uppercase;
           padding: 15px 0;
           text-align: center;
           background: transparent;
-          border: 1px solid var(--super-lila);
+          border: 1px solid var(--super-green);
           text-decoration: none;
-          color: var(--super-lila);
+          color: var(--super-black);
           display: block;
           margin-top: 2rem;
           border-radius: 5rem;

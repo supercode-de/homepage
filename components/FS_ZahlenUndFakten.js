@@ -1,6 +1,6 @@
 export default function FS_ZahlenUndFakten() {
   return (
-    <section className='zahlenUndFakten whiteGreenDots'>
+    <section className='zahlenUndFakten'>
       <h2 className='zahlenUndFaktenHeader'>
         Zahlen & <br /> <span className='circle'>Fakten</span>
       </h2>

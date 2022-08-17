@@ -1,6 +1,6 @@
 export default function VZ_Tagesablauf() {
     return (
-        <section className='tagesablauf lilaGitter'>
+        <section className='tagesablauf'>
             <h2 className='tagesablauf-header'>
                 <span className='circle'>Tagesablauf </span>
             </h2>
@@ -31,14 +31,9 @@ export default function VZ_Tagesablauf() {
                 </div>
             </article>
             <div className='tagesablauf_imgContainer'>
-                {/* <div>
-            <img src='/img/Group153.svg' alt='' />
-          </div>
-          <div className='img-wrapper'>
-            <img src='/img/_DSC2141_LowRes.png' alt='' />
-          </div> */}
                 <div>
                     <img
+                        id="tagesablauf"
                         src={
                             window.screen.width <= 768
                                 ? '/img/TagesablaufMobileFullstack.svg'
@@ -51,21 +46,22 @@ export default function VZ_Tagesablauf() {
             <style jsx>{`
               .tagesablauf {
                 padding:50px 0 100px 0;
+                background: var(--super-lila);
               }
   
             .tagesablauf-header{
-              color: #fff;
+              color: var(--super-white);
               padding:0 6% 62px 6%;
               font-size:5rem;
             }
             h2{
-              color:#fff;
+              color: var(--super-white);
               margin-bottom:0;
             }
             h2 .stroke {
               color: transparent;
               -webkit-text-stroke-width: 0.1px;
-              -webkit-text-stroke-color: #fff;
+              -webkit-text-stroke-color: var(--super-white);
               
             }
             .circle {
@@ -84,7 +80,7 @@ export default function VZ_Tagesablauf() {
   
             .eat-sleep-header{
               font-size:3.5rem;
-              color:#fff;
+              color: var(--super-white);
               margin-bottom:0;
               line-height:50px;
             }
@@ -99,7 +95,7 @@ export default function VZ_Tagesablauf() {
               padding 0 0 0 4%;
             }
             .tagesablauf-txt p{
-              color: #fff;
+              color: var(--super-white);
               width:85%;
               font-size:1rem;
               line-height:19px;
@@ -108,8 +104,6 @@ export default function VZ_Tagesablauf() {
               width: 100%;
             }
             .tagesablauf_imgContainer {
-              // display: grid;
-              // grid-template-columns: 78% 22%;
               padding-top:100px;
               padding-left:1%;
               
@@ -132,9 +126,6 @@ export default function VZ_Tagesablauf() {
               .tagesablauf-header{
                 font-size:3rem;
               }
-              // .tagesablauf_imgContainer {
-              //   display:block;
-              // }
               .tagesablauf_imgContainer div{
                 width:60%;
               }
@@ -150,9 +141,7 @@ export default function VZ_Tagesablauf() {
               .tagesablauf article > div p{
                 width:100%;
               }
-              // .img-wrapper{
-              //   display:none;
-              // }
+
             }
             @media (max-width: 520px) {
               .tagesablauf {
@@ -177,11 +166,8 @@ export default function VZ_Tagesablauf() {
               }
               .tagesablauf article > div {
                 width: 90%;
-                
               }
-              // .img-wrapper{
-              //   display:none;
-              // }
+
               .tagesablauf_imgContainer{
                 display:block;
               }
@@ -197,7 +183,7 @@ export default function VZ_Tagesablauf() {
                 h2 .stroke {
                   color: transparent;
                   -webkit-text-stroke-width: 0.5px;
-                  -webkit-text-stroke-color: #fff;
+                  -webkit-text-stroke-color: var(--super-white);
                   
                 }
               }

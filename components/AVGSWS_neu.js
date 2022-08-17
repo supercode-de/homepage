@@ -111,18 +111,14 @@ const AVGS = () => {
           color: var(--super-lila);
           font-size: 1.5em;
           font-weight: 300;
-
           margin-bottom: 1px;
         }
         .info-text p {
           color: var(--super-green);
           font-size: 1.2em;
           font-weight: 500;
-          font-style: italic;
         }
 
-        @media (max-width: 1024px) {
-        }
         @media (min-width: 937px) {
           .info-text {
             grid-row: 2/3;

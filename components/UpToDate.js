@@ -1,28 +1,8 @@
 import HubspotForm from "react-hubspot-form";
 
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 2,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 479 },
-    items: 1,
-  },
-  mobile: {
-    breakpoint: { max: 479, min: 0 },
-    items: 1,
-  },
-};
-
-const UpToDate = (props) => {
+const UpToDate = () => {
   return (
-    <div id="up-to-date" className="lilaGitter">
+    <div id="up-to-date">
       <div className="top-label">
         <h1>UP</h1>
         <h1>TO</h1>
@@ -54,16 +34,12 @@ const UpToDate = (props) => {
       </div>
 
       <style jsx>{`
-        * {
-          margin: 0;
-          padding: 0;
-        }
-
         #up-to-date {          
-          color: #fff;
+          color: var(--super-white);
           padding: 4em 8.5% 5em;
           position: relative;
           z-index: 1;
+          background: var(--super-lila);
         }
 
         .grid {
@@ -84,14 +60,14 @@ const UpToDate = (props) => {
 
         h2 {
           font-size: 2.2em;
-          color: #fff;
+          color: var(--super-white);
         }
 
         h2 span.super {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: var(--super-white);
           font-weight: 300;
         }
 

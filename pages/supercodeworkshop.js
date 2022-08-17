@@ -1,4 +1,5 @@
-import Layout_workshop from '../components/Layout_workshop';
+// import Layout_workshop from '../components/Layout_workshop';
+import Layout from '../components/Layout';
 import { useWindowSize } from '../components/functions/windowSize';
 import HubspotForm from 'react-hubspot-form';
 import Telefon from '../components/small/Telefon';
@@ -8,7 +9,7 @@ export default function Workshop() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout_workshop>
+      <Layout>
         <div id='headr'>
           <header className='lilaGitter'>
             <h1 className='headline'>
@@ -435,7 +436,7 @@ export default function Workshop() {
             }
         }
       `}</style>
-      </Layout_workshop>
+      </Layout>
     );
   } else {
     return '';

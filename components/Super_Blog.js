@@ -130,6 +130,7 @@ const SuperBlog = () => {
         }
         .img-background {
           height: 20rem;
+          border-radius: 50px;
         }
         figcaption h3 {
           margin: 2rem 0;
@@ -141,7 +142,6 @@ const SuperBlog = () => {
         }
         a {
           display: block;
-          font-family: 'FiraSans-Regular', sans-serif;
           font-size: 14px;
           text-align: center;
           letter-spacing: 1px;
@@ -151,12 +151,12 @@ const SuperBlog = () => {
           border: 2px solid var(--super-green);
           color: #fff;
           text-decoration: none;
-          // margin-top: 20px;
-          // transform: translateY(-30px);
+          border-radius: 50px;
         }
 
         a:hover {
           background-color: var(--super-green);
+          color: var(--super-lila);
         }
 
         @media (max-width: 765px) {

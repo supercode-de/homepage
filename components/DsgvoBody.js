@@ -1,6 +1,6 @@
 const DsgvoBody = (props) => {
   return (
-    <div id='' className='lilaGitter dsvgo-container'>
+    <div id='' className='dsvgo-container'>
       <div id='text-body'>
         <h1>DATENSCHUTZERKLÄRUNG</h1>
         <h2>§ 1 Information über die Erhebung personenbezogener Daten</h2>
@@ -209,8 +209,7 @@ const DsgvoBody = (props) => {
           auf Ihre Nutzung der Website bezogenen Daten (inkl. Ihrer IP-Adresse)
           an Google sowie die Verarbeitung dieser Daten durch Google verhindern,
           indem sie das unter dem folgenden Link verfügbare Browser-Plug-in
-          herunterladen und installieren:
-          http://tools.google.com/dlpage/gaoptout?hl=de.
+          herunterladen und installieren: <a href="http://tools.google.com/dlpage/gaoptout?hl=de" target="_blank">http://tools.google.com/dlpage/gaoptout?hl=de</a>.
         </p>
         <p>
           (4) Diese Website verwendet Google Analytics mit der Erweiterung
@@ -226,18 +225,21 @@ const DsgvoBody = (props) => {
           Statistiken können wir unser Angebot verbessern und für Sie als Nutzer
           interessanter ausgestalten. Für die Ausnahmefälle, in denen
           personenbezogene Daten in die USA übertragen werden, hat sich Google
-          dem EU-US Privacy Shield unterworfen,
-          https://www.privacyshield.gov/EU-US-Framework. Rechtsgrundlage für die
-          Nutzung von Google Analytics ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO.{' '}
+          dem EU-US Privacy Shield unterworfen, <a href="https://www.privacyshield.gov/EU-US-Framework" target="_blank">https://www.privacyshield.gov/EU-US-Framework</a>. Rechtsgrundlage für die
+          Nutzung von Google Analytics ist Art. 6 Abs. 1 S. 1 lit. f DS-GVO.
         </p>
         <p>
           (6) Informationen des Drittanbieters: Google Dublin, Google Ireland
           Ltd., Gordon House, Barrow Street, Dublin 4, Ireland, Fax: +353 (1)
-          436 1001. Nutzerbedingungen:
-          http://www.google.com/analytics/terms/de.html, Übersicht zum
-          Datenschutz:
-          http://www.google.com/intl/de/analytics/learn/privacy.html, sowie die
-          Datenschutzerklärung: http://www.google.de/intl/de/policies/privacy.
+          436 1001. 
+          <br />
+          Nutzerbedingungen: <a href="http://www.google.com/analytics/terms/de.html" target="_blank">http://www.google.com/analytics/terms/de.html</a>, 
+          <br/>
+          Übersicht zum
+          Datenschutz: <a href="http://www.google.com/intl/de/analytics/learn/privacy.html" target="_blank">http://www.google.com/intl/de/analytics/learn/privacy.html</a>, 
+          <br />
+          sowie die
+          Datenschutzerklärung: <a href="http://www.google.de/intl/de/policies/privacy" target="_blank">http://www.google.de/intl/de/policies/privacy</a>.
         </p>
         <p>
           (6) Webanalyse und Optimierung mit Hilfe des Dienstes Hotjar, des
@@ -303,15 +305,13 @@ const DsgvoBody = (props) => {
         </p>
         <p>
           Unter der nachstehenden Internetadresse erhalten Sie weitere
-          Informationen über die Datenschutzbestimmungen von Google:
-          http://www.google.de/policies/privacy
+          Informationen über die Datenschutzbestimmungen von Google: <a href="http://www.google.de/policies/privacy" target="_blank">http://www.google.de/policies/privacy</a>
         </p>
         <p>
           Sie können Cookies für Anzeigenvorgaben dauerhaft deaktivieren, indem
           Sie diese durch eine entsprechende Einstellung Ihrer Browser-Software
           verhindern oder das unter folgendem Link verfügbare Browser-Plug-in
-          herunterladen und installieren:
-          http://www.google.com/settings/ads/plugin?hl=de
+          herunterladen und installieren: <a href="http://www.google.com/settings/ads/plugin?hl=de" target="_blank">http://www.google.com/settings/ads/plugin?hl=de</a>
         </p>
         <p>
           Bitte beachten Sie, dass bestimmte Funktionen dieser Website
@@ -344,14 +344,13 @@ const DsgvoBody = (props) => {
         </p>
         <p>
           Die Deaktivierung der Funktion „Facebook Custom Audiences“ ist [hier
-          und] für eingeloggte Nutzer unter
-          https://www.facebook.com/settings/?tab=ads# möglich.
+          und] für eingeloggte Nutzer unter <a href="https://www.facebook.com/settings/?tab=ads#" target="_blank">https://www.facebook.com/settings/?tab=ads#</a> möglich.
         </p>
         <p>
           Die Verarbeitung erfolgt zum Zweck und auf Basis unseres berechtigten
           Interesses an der optimalen Vermarktung unserer Website gemäß Art. 6
           Abs. 1 lit. f DSGVO. Weitere Informationen zur Datenverarbeitung durch
-          Facebook erhalten Sie unter https://www.facebook.com/about/privacy.
+          Facebook erhalten Sie unter <a href="https://www.facebook.com/about/privacy" target="_blank">https://www.facebook.com/about/privacy</a>.
         </p>
         <p>
           (3) Diese Website nutzt im Rahmen der Anwendung von Google Analytics
@@ -389,8 +388,7 @@ const DsgvoBody = (props) => {
           auf der entsprechenden Website von Google heruntergeladen und
           installiert werden. Werden mehrere Endgeräte oder Browser durch den
           Nutzer genutzt, muss bei jedem Endgerät bzw. Browser das Opt-out
-          vorgenommen werden. Hierfür kann der Nutzer folgenden Link anklicken:
-          http://google.com/ads/preferences/html/opt-out.html
+          vorgenommen werden. Hierfür kann der Nutzer folgenden Link anklicken: <a href="http://google.com/ads/preferences/html/opt-out.html" target="_blank">http://google.com/ads/preferences/html/opt-out.html</a>
         </p>
         <h2>§ 8 Newsletter und Emailnachrichten</h2>
         <p>
@@ -477,12 +475,8 @@ const DsgvoBody = (props) => {
         <p>
           Wir vertrauen auf die Zuverlässigkeit und die IT- sowie
           Datensicherheit von MailChimp. MailChimp ist unter dem
-          US-EU-Datenschutzabkommen
-          https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG
-          zertifiziert und verpflichtet sich damit die EU-Datenschutzvorgaben
-          einzuhalten. Des Weiteren haben wir mit MailChimp ein
-          http://mailchimp.com/legal/forms/data-processing-agreement/
-          -Data-Processing-Agreement- abgeschlossen. Dabei handelt es sich um
+          US-EU-Datenschutzabkommen <a href="https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG" target="_blank">https://www.privacyshield.gov/participant?id=a2zt0000000TO6hAAG</a> zertifiziert und verpflichtet sich damit die EU-Datenschutzvorgaben
+          einzuhalten. Des Weiteren haben wir mit MailChimp ein <a href="http://mailchimp.com/legal/forms/data-processing-agreement/" target="_blank">http://mailchimp.com/legal/forms/data-processing-agreement/</a> -Data-Processing-Agreement- abgeschlossen. Dabei handelt es sich um
           einen Vertrag, in dem sich MailChimp dazu verpflichtet, die Daten
           unserer Nutzer zu schützen, entsprechend dessen
           Datenschutzbestimmungen in unserem Auftrag zu verarbeiten und
@@ -522,30 +516,32 @@ const DsgvoBody = (props) => {
       </div>
 
       <style jsx>{`
-      .dsvgo-container {
-        color: #fff;
-      }
+        .dsvgo-container {
+          color: #fff;
+          background: var(--super-lila);
+        }
         #dsgvo-text {
           position: relative; 
         }
 
         h1{
           margin-top:-50px;
-          color:#fff;
         }
-        h2{
-          color:#fff;
+        a {
+          color: var(--super-green);
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
         }
         #text-body {
           font-size: .8em;
-            width: 85%;
-            margin: 0 auto;
-            padding: 50px 0;
+          width: 85%;
+          margin: 0 auto;
+          padding: 50px 0;
         }
         #text-body span {
-            display: block;
-        }
-        
+          display: block;
         }
       `}</style>
     </div>

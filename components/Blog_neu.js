@@ -108,12 +108,11 @@ const Blog_neu = (props) => {
         // Blog-item-style
         .blog-item {
           height: 500px;
-          // width: 80%;
-
           display: flex;
           flex-direction: column;
           justify-content: flex-end;
           margin: 0 10px;
+          border-radius: 50px;
         }
 
         .title-main-container {

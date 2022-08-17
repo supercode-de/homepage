@@ -1,6 +1,6 @@
 import HeaderTeam from "../components/HeaderTeam";
 import Team from "../components/Team";
-import Stellen_test from "../components/Stellen_test"
+import Stellen from "../components/Stellen"
 import FooterCallToActionTeam from "../components/FooterCallToActionTeam";
 
 import { useWindowSize } from "../components/functions/windowSize";
@@ -17,7 +17,7 @@ export default function Home(props) {
             <HeaderTeam />
             <Team />
             <WerdeTeilTeam />
-            <Stellen_test/>
+            <Stellen/>
             <FooterCallToActionTeam />
           </main>
         </div>

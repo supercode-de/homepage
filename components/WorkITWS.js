@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Carousel from "react-multi-carousel";
-import Beratung_flexible from "./Beratung_flexible";
 
 const responsive = {
   superLargeDesktop: {
@@ -22,9 +21,9 @@ const responsive = {
   },
 };
 
-const WorkIT = (props) => {
+const WorkIT = () => {
   return (
-    <div id="kurse" className="lilaGitter">
+    <div id="kurse">
       <span className="aside">Unsere Kurse</span>
       <article className="kurs-boxes-headline">
         <h1>
@@ -46,7 +45,7 @@ const WorkIT = (props) => {
             </p>
             <h5>Inhalte:</h5>
             <p>
-              - Grundlagen zum Thema Web-Entwicklung <br />
+              - Grundlagen zum Thema Web - Entwicklung <br />
               - Übersicht der gängigsten Programmiersprachen <br />- Grundlagen
               im Bereich HTML & CSS
             </p>
@@ -75,70 +74,15 @@ const WorkIT = (props) => {
                   Zum Kurs
                 </a>
               </Link>
-              {/* 
-              <Beratung_flexible
-                buttonText='Beratung'
-                // buttonMinWidth='23em'
-                buttonWidth='12rem'
-                buttonTextColor='#fff'
-                buttonFontSize='14px'
-              /> */}
             </div>
           </div>
-          {/* <div className='kurs-box kurs-box2 hide'>
-            <h4>Try-IT-Trainingscenter</h4>
-            <p>
-              Umfang: 4 Wochen in Vollzeit <br />
-              Start: Anfang 2021 (bald mehr Infos)
-            </p>
-            <p>
-              In vier spannenden Praxisprojekte bekommst du kompaktes IT-Wissen
-              in den Bereichen IT-Projektmanagement, Coding und Design. Du
-              entscheidest, welcher Bereich dir am meisten liegt und gemeinsam
-              planen wir deinen weiteren Berufsweg in der IT.
-            </p>
-            <h5>Inhalte:</h5>
-            <p>
-              - IT-Projektmanagement Basics <br />
-              - Grundlagen Design & UX <br />
-              - Basics Webentwicklung & Programmierung <br />
-              - IT-Markt-Wissen <br />
-              - Selbstreflektion und Berufsplanung <br />
-            </p>
-            <h5>Finanzierung:</h5>
-            <p>- AVGS (vom Jobcenter/Agentur für Arbeit)</p>
-            <h5>sonstiges:</h5>
-            <p>
-              - 2 Trainer*innen pro Workshop <br />
-              - Teilnahme erfolgt online <br />- Zertifikat über deine Teilnahme
-            </p>
-            <div className='buttons'>
-              <Link href='https://www.eventbrite.de/o/supercode-20262218583'>
-                <a
-                  href='https://www.eventbrite.de/o/supercode-20262218583'
-                  target='_blank'
-                >
-                  Zum Kurs
-                </a>
-              </Link>
-              <Beratung_flexible
-                buttonText='Beratung'
-                // buttonMinWidth='23em'
-                buttonWidth='12rem'
-                buttonTextColor='#fff'
-                buttonFontSize='14px'
-              />
-            </div>
-          </div> */}
-
           <div className="kurs-box kurs-box3 hide">
             <h4>
               Kostenloser UX & UI-Design
               <br /> Workshop - Online
             </h4>
-
             <p>
-              Umfang: 3 Stunden / 18:00-21:00 Uhr <br />
+              Umfang: 3 Stunden / 18:00 - 21:00 Uhr <br />
               Start: immer donnerstags - mit Anmeldung
             </p>
             <p>
@@ -178,14 +122,7 @@ const WorkIT = (props) => {
                   Zum Kurs
                 </a>
               </Link>
-              {/* 
-              <Beratung_flexible
-                buttonText='Beratung'
-                // buttonMinWidth='23em'
-                buttonWidth='12rem'
-                buttonTextColor='#fff'
-                buttonFontSize='14px'
-              /> */}
+
             </div>
           </div>
         </div>
@@ -205,7 +142,7 @@ const WorkIT = (props) => {
               <div className="kurs-box kurs-box1">
                 <h4>Kostenloser HTML & CSS Workshop - Online</h4>
                 <p>
-                  Umfang: 3 Stunden / 18:00-21:00 Uhr <br />
+                  Umfang: 3 Stunden / 18:00 - 21:00 Uhr <br />
                   Start: immer dienstags - mit Anmeldung
                 </p>
                 <p>
@@ -216,10 +153,11 @@ const WorkIT = (props) => {
                 </p>
                 <h5>Inhalte:</h5>
                 <p>
-                  - Grundlagen zum Thema Web-Entwicklung <br />
-                  - Übersicht der gängigsten Programmiersprachen <br />-
-                  Grundlagen im Bereich HTML & CSS
+                  - Grundlagen zum Thema Web-Entwicklung
                 </p>
+                <p>- Übersicht der gängigsten Programmiersprachen </p>
+                <p>-
+                  Grundlagen im Bereich HTML & CSS</p>
                 <h5>Finanzierung:</h5>
                 <p>
                   - kostenlos!
@@ -242,13 +180,6 @@ const WorkIT = (props) => {
                       Zum Kurs
                     </a>
                   </Link>
-                  {/* <Beratung_flexible
-                buttonText='Beratung'
-                // buttonMinWidth='23em'
-                buttonWidth='12rem'
-                buttonTextColor='#fff'
-                buttonFontSize='14px'
-              /> */}
                 </div>
               </div>
             </div>
@@ -260,7 +191,7 @@ const WorkIT = (props) => {
                   <br /> Workshop - Online
                 </h4>
                 <p>
-                  Umfang: 3 Stunden / 15:00-18:00 Uhr <br />
+                  Umfang: 3 Stunden / 15:00 - 18:00 Uhr <br />
                   Start: immer donnerstags - mit Anmeldung
                 </p>
                 <p>
@@ -298,88 +229,43 @@ const WorkIT = (props) => {
                       Zum Kurs
                     </a>
                   </Link>
-                  {/* <Beratung_flexible
-                buttonText='Beratung'
-                // buttonMinWidth='23em'
-                buttonWidth='12rem'
-                buttonTextColor='#fff'
-                buttonFontSize='14px'
-              /> */}
+
                 </div>
               </div>
             </div>
-            {/* 
-            <div className='kurs-box-container'>
-              <div className='kurs-box kurs-box3'>
-                <h4>
-                  1 Monat Web-Design <br /> UX & UI Workshop
-                </h4>
-                <h5>Weitere Informationen folgen ab Mai 2021</h5>
-                <p>
-                  Umfang: 4 <br />
-                  Start: xx.xx.xxxx Ende: xx.xx.xxxx
-                </p>
-                <p>
-                  Tauche ein in die wundervolle Welt der Web-Entwicklung und
-                  mache bei uns dein Seepferdchen im Bereich HTML & CSS. Online,
-                  im World Wide Web! Live, in Farbe und immer mit zwei
-                  Trainer*innen.
-                </p>
-                <h5>Inhalte:</h5>
-                <p>
-                  - Grundlagen zum Thema Web-Entwicklung <br />
-                  - Übersicht der gängigsten Programmiersprachen <br />-
-                  Grundlagen im Bereich HTML & CSS
-                </p>
-                <h5>Finanzierung:</h5>
-                <p>- AVGS</p>
-                <h5>sonstiges:</h5>
-                <p>
-                  - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt
-                  online
-                </p> 
-              </div>
-            </div>
-                */}
+            
           </Carousel>
         </div>
       </article>
 
       <style jsx>{`
-        * {
-          margin: 0;
-          padding: 0;
-        }
-
         #kurse {
           padding: 7em 0 5em;
           position: relative;
           z-index: 0;
+          background: var(--super-lila);
         }
 
         .aside {
           position: absolute;
           transform: rotate(-90deg);
           transform-origin: left;
-          color: #fff;
           font-weight: 300;
           left: 3%;
           top: 60%;
-          font-family: "Poppins", sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 12px;
           line-height: 18px;
           letter-spacing: 3px;
           text-transform: uppercase;
-          color: #ffffff;
+          color: var(--super-white);
           z-index: 0;
         }
 
         h1 {
-          font-family: "Neue_Machina_Regular_400";
           font-size: 3.5em;
-          color: #fff;
+          color: var(--super-white);
           line-height: 1.2em;
           margin: 0 8.5% 1em;
           font-weight: 300;
@@ -389,7 +275,7 @@ const WorkIT = (props) => {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 0.5px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: var(--super-white);
           font-weight: 300;
         }
 
@@ -399,7 +285,6 @@ const WorkIT = (props) => {
 
         .kurs-boxes {
           position: relative;
-          box-sizing: border-box;
           display: flex;
           align-items: flex-start;
           margin: auto;
@@ -416,11 +301,11 @@ const WorkIT = (props) => {
           width: 100%;
           z-index: -1;
           margin: 0 35px;
+          border-radius: 50px;
         }
-        .kurs-box1 {
-        }
+
         .kurs-box2 {
-          // margin-top: 30px;
+
           margin-left: -2px;
           z-index: -1;
         }
@@ -453,19 +338,17 @@ const WorkIT = (props) => {
         }
         a {
           margin: 2em 1em 0;
-          font-family: "FiraSans-Regular", sans-serif;
           font-size: 0.73em;
           font-weight: 600;
           line-height: 1.5em;
           text-align: center;
-          letter-spacing: 3.5px;
+          letter-spacing: 1px;
           text-transform: uppercase;
           padding: 14px 40px;
-          // width: 22rem;
           background: transparent;
           border: 1px solid var(--super-green);
           text-decoration: none;
-          color: #fff;
+          color: var(--super-white);
           display: inline-block;
           border-radius: 5rem;
         }
@@ -474,8 +357,7 @@ const WorkIT = (props) => {
           background: var(--super-green);
         }
         h4 {
-          font-family: "Neue_Machina_Regular_400";
-          color: #ffffff;
+          color: var(--super-white);
           font-size: 1.6em;
           margin-bottom: 14px;
         }
@@ -484,14 +366,12 @@ const WorkIT = (props) => {
         }
 
         h5 {
-          font-family: "Neue_Machina_Regular_400";
-          color: #ffffff;
+          color: var(--super-white);
           font-size: 1.2em;
         }
 
         p {
-          font-family: "FiraSans-Regular", sans-serif;
-          color: #ffffff;
+          color: var(--super-white);
           font-size: 14px;
           margin-bottom: 25px;
           line-height: 20px;

@@ -3,7 +3,7 @@ import Header_neu from '../components/Header_neu';
 import HeaderCallToAction_neu from '../components/HeaderCallToAction_neu';
 import Zukunft from '../components/Zukunft';
 import UnserCampus from '../components/UnserCampus';
-import Weiterbildung_neu from '../components/Weiterbildung_neu';
+import Weiterbildung from '../components/Weiterbildung';
 import Bootcamps from '../components/Bootcamps';
 import CertquaBonn from '../components/CertquaBonn';
 import Finanzierung from '../components/Finanzierung';
@@ -32,7 +32,7 @@ export default function Home(props) {
             <HeaderCallToAction_neu />
             <Zukunft />
             <UnserCampus />
-            <Weiterbildung_neu />
+            <Weiterbildung />
             <Bootcamps kurseData={kurseData[0].kurseIndex} />
             <CertquaBonn />
             <Finanzierung />

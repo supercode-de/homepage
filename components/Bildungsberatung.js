@@ -3,12 +3,10 @@ import Beratung from './Beratung';
 import data from './data/team.json';
 export default function Bildungsberatung() {
   return (
-    <section className='blackGitter bildungsberatung'>
+    <section className='bildungsberatung'>
+      <h2>Unsere</h2>
       <h2>
-        {' '}
-        Unsere <br />{' '}
         <span className='circle'>
-          {' '}
           <span className='stroke'>Bildungsberatung </span>
         </span>
       </h2>
@@ -44,6 +42,7 @@ export default function Bildungsberatung() {
       <style jsx>{`
           .bildungsberatung {
             padding: 115px 0 116px 0;
+            background: var(--super-black);
           }
 
           h2 {

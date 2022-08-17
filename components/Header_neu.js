@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Typewriter from 'typewriter-effect';
-import Telefon_neu from './small/Telefon_neu';
+import TelefonAside from './small/TelefonAside';
 import Typeform_neu2022 from './Typeform_neu2022';
 
 const Header_neu = (props) => {
   return (
-    <div id='header' className='lilaGitter'>
+    <div id='header'>
       <div className='super-code'>super(code)</div>
-      <Telefon_neu position='left' />
+      <TelefonAside />
       <div className='twocolumn'>
         <div className='onecolumn'>
           <img
@@ -50,24 +50,16 @@ const Header_neu = (props) => {
         <Typeform_neu2022 />
       </div>
       <style jsx>{`
-          img + div {
-            display: none;
-          }
-          .aside {
-            position: absolute;
-            transform: rotate(-90deg);
-            transform-origin: left;
-            left: 3%;
-            top: 60%;
-            letter-spacing: 3px;
-            color: #ffffff;
-          }
           #header {
             padding: 40px 0 40px 10%;
             position: relative;
+            background: var(--super-lila);
+          }
+          img + div {
+            display: none;
           }
           h1 {
-            color: #fff;
+            color: var(--super-white);
             margin: 3vh 3vw;
           }
           h1 span.super,
@@ -75,7 +67,7 @@ const Header_neu = (props) => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
             font-weight: 300;
           }
           h1 span.circle {
@@ -86,7 +78,7 @@ const Header_neu = (props) => {
             position: absolute;
             top: 30px;
             left: 7rem;
-            color: #fff;
+            color: var(--super-white);
             font-size: 1.3rem;
             font-family: 'FiraSans-Regular', sans-serif;
             font-weight: bold;

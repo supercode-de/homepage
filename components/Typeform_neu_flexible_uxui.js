@@ -60,23 +60,16 @@ const Typeform_neu_flexible_uxui = (props) => {
         }
 
         button {
-          // position: ${!props.position ? "relative" : "static"}; 
-          // margin: 2em 1em;
           font-family: 'FiraSans-Regular', sans-serif;
           font-size: 14px;
-          // line-height: 16px;
           text-align: center;
           letter-spacing: 1px;
           text-transform: uppercase;
-          // padding: 5px 0px;
           background: transparent;
           border: 2px solid var(--super-green);
-          color: #fff;
-          // justify-self: center;
-          // display: inline-block;
+          color: var(--super-white);
           width: ${props.width ? props.width : '38.75em'};
           height: ${props.height ? props.height : '38.75em'};
-          // top: ${props.top ? props.top : '50px'};
 
           outline: none;
         }

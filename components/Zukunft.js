@@ -1,10 +1,6 @@
-// import { useWindowSize } from './functions/windowSize'
-import Link from "next/link";
 const Zukunft = (props) => {
-  // const width = useWindowSize().width / 12
-  const pixelSize = 1.5;
   return (
-    <div id="zukunft" className="whiteGreenDots">
+    <div id="zukunft">
       <div className="infos">
         <div className="info-one">
           <h1>
@@ -20,32 +16,6 @@ const Zukunft = (props) => {
             Workshops!
           </p>
         </div>
-        {/* <div>
-          <div className="info-headline lila-box">
-            <h3>
-              <Link href="/workshops">
-                <a>Workshops ⟶</a>
-              </Link>
-            </h3>
-            <p>
-              Kurz, divers und zeitgemäß – lerne Grundlagen im Bereich IT oder
-              schärfe dein Wissen in einer Programmiersprache.
-            </p>
-          </div>
-        </div>
-        <div>
-          <div className="info-headline lila-box2">
-            <h3>
-              <Link href="/kurse">
-                <a>Bootcamps ⟶</a>
-              </Link>
-            </h3>
-            <p>
-              Intensiv, praxisnah und euphorisierend – wir machen dich fit in
-              nur 5 Monaten
-            </p>
-          </div>
-        </div> */}
       </div>
       <div className="images">
         <img
@@ -69,11 +39,11 @@ const Zukunft = (props) => {
           font-family: "Neue_Machina_Regular_400";
           position: relative;
           padding: 100px calc(100vw / 12) 5px calc(100vw / 12);
+          background: var(--super-white);
         }
         h1 {
           margin: 0;
         }
- 
         h1 span {
           font-weight: 400;
           color: transparent;

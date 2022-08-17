@@ -1,19 +1,17 @@
 import Link from "next/link";
-import Telefon from "./small/Telefon";
+import TelefonAside from "./small/TelefonAside";
 
-const Header404 = (props) => {
-  const pixelSize = 2; // Width of Lines in Background
+const Header404 = () => {
   return (
     <div id="header" className="lilaGitter">
       <div className="super-code">super(code)</div>
-      <span className="aside"> 📞 +49 211 7817 233-0 </span>
+      <TelefonAside />
 
       <div className="content">
         <h1>
           <span className="super">404</span>
           <span className="lines">BABY</span>
         </h1>
-
         <p>
           hier geht's wieder{" "}
           <Link href="/">
@@ -30,15 +28,6 @@ const Header404 = (props) => {
           align-items: center;
         }
 
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: left;
-          color: #fff;
-          left: 3%;
-          top: 60%;
-          color: #ffffff;
-        }
         .super-code {
           position: absolute;
           top: 30px;

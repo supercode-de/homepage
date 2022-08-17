@@ -24,7 +24,7 @@ const FooterCallToAction = () => {
           color: transparent;
           font-weight: 300;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #ffffff;
+          -webkit-text-stroke-color: var(--super-white);
         }
         .buttons {
           display: flex;
@@ -36,9 +36,8 @@ const FooterCallToAction = () => {
 
         a {
           align-items: center;
-          font-family: "FiraSans-Regular", sans-serif;
           min-width: 23em;
-          font-size: 0.875em;          
+          font-size: 15px;          
           text-align: center;          
           letter-spacing: 1px;
           text-transform: uppercase;
@@ -46,7 +45,7 @@ const FooterCallToAction = () => {
           background: transparent;
           border: 1px solid var(--super-green);
           text-decoration: none;
-          color: #fff;
+          color: var(--super-white);
           display: inline-block;
           border-radius: 5rem;
         }

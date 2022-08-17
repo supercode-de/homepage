@@ -2,11 +2,7 @@ import Popup from 'reactjs-popup';
 import HubspotForm from 'react-hubspot-form';
 
 const Typeform = (props) => {
-  // console.log("das ist die hubspot form id: ", props.hubspot)
-  // console.log({
-  //   height: document.documentElement.clientHeight,
-  //   width: document.documentElement.clientWidth,
-  // });
+
   return (
     <>
       <Popup
@@ -47,8 +43,6 @@ const Typeform = (props) => {
       </Popup>
       <style jsx>{`
         .button {
-            font-family: 'FiraSans-Regular', sans-serif;
-
             // width: 15%;
             width: ${props.width};
             font-size: 0.875em;

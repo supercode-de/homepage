@@ -1,10 +1,10 @@
-import HeaderWS_neu from '../components/HeaderWS_neu';
+import HeaderWS from '../components/HeaderWS';
 import HeaderCallToActionWS_neu from '../components/HeaderCallToActionWS_neu';
 import AnfängerBisBusinessWS from '../components/AnfängerBisBusinessWS';
 import WorkITWS from '../components/WorkITWS';
 import AuflistungWS from '../components/AuflistungWS';
 import AVGSWS from '../components/AVGSWS_neu';
-import AbsolventenWS_neu_v2 from '../components/AbsolventenWS_neu_v2';
+import Alumni from '../components/Alumni';
 import UpToDate from '../components/UpToDate';
 import FooterCallToActionWS from '../components/FooterCallToActionWS';
 
@@ -19,15 +19,15 @@ export default function Workshop() {
       <Layout>
         <div className='container'>
           <main>
-            <HeaderWS_neu />
+            <HeaderWS />
             <HeaderCallToActionWS_neu />
             <AnfängerBisBusinessWS />
             <WorkITWS />
             <AuflistungWS />
             <AVGSWS />
-            <AbsolventenWS_neu_v2 />
+            <Alumni />
             <UpToDate />
-            <FooterCallToActionWS month={dates.WorkshopMonth} bald={true} />
+            <FooterCallToActionWS />
           </main>
         </div>
       </Layout>

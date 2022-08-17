@@ -1,8 +1,10 @@
+import TelefonAside from "./small/TelefonAside";
+
 const Header_Kurse = (props) => {
     return (
         <header>
             <div className='super-code'>super(code)</div>
-            <span className='aside'> 📞 +49 211 7817 233-0 </span>
+            <TelefonAside />
             <section className='header-flex'>
                 <div className='header-img start-container'>
                     <div className='imgWrapper'>
@@ -20,44 +22,11 @@ const Header_Kurse = (props) => {
             img + div {
                 display: none;
             }
-            .aside {
-                position: absolute;
-                transform: rotate(-90deg);
-                transform-origin: left;
-                color: #fff;
-                font-weight: 300;
-                left: 3%;
-                top: 60%;
-                font-style: normal;
-                font-weight: normal;
-                font-size: 12px;
-                line-height: 18px;
-                letter-spacing: 3px;
-                text-transform: uppercase;
-                color: #ffffff;
-            }
 
             header {
                 padding: 75px 0 40px 5%;
-                font-family: 'Neue_Machina_Regular_400';
                 position: relative;
                 background-color: var(--super-lila);
-                background-image: linear-gradient(
-                    to right,
-                    rgba(255, 255, 255, 0.25) 0,
-                    rgba(255, 255, 255, 0.25) 1px,
-                    transparent 1px,
-                    transparent 100%
-                    ),
-                    linear-gradient(
-                    to bottom,
-                    rgba(255, 255, 255, 0.25) 0,
-                    rgba(255, 255, 255, 0.25) 1px,
-                    transparent 1px,
-                    transparent 100%
-                    );
-                background-position: 0 0, 0 0;
-                background-size: calc(100vw / 12) calc(100vw / 12);
             }
             .super-code {
                 position: absolute;
