@@ -4,13 +4,13 @@ import FEoderFSKurse from "../components/FEoderFSKurse";
 import Bootcamps from "../components/Bootcamps";
 import AuflistungWS from "../components/AuflistungWS";
 import BGSKurse from "../components/BGSKurse";
-import AbsolventenWS_neu_v2 from "../components/AbsolventenWS_neu_v2";
 import UpToDate from "../components/UpToDate";
 import FooterCallToActionKurse from "../components/FooterCallToActionKurse";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import dates from "../components/data/dates.json";
 import kurseData from "../components/data/kursedata.json";
+import Alumni from "../components/Alumni";
 
 export default function Workshop() {
   if (process.browser) {
@@ -25,7 +25,7 @@ export default function Workshop() {
             <Bootcamps kurseData={kurseData[0].kurseKursePage} />
             <AuflistungWS />
             <BGSKurse />
-            <AbsolventenWS_neu_v2 />
+            <Alumni />
             <UpToDate />
             <FooterCallToActionKurse month={dates.WorkshopMonth} bald={true} />
           </main>
