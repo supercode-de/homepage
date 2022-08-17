@@ -1,6 +1,7 @@
 import Layout from '../components/Layout';
-import LeitbildBody from '../components/LeitbildBody';
+
 import Header_Subpages from '../components/Header_Subpages';
+import Leitbild_Body from '../components/Leitbild_Body';
 
 export default function Home(props) {
   if (process.browser) {
@@ -9,7 +10,7 @@ export default function Home(props) {
         <div className='container'>
           <main>
             <Header_Subpages headline='Leitbild' />
-            <LeitbildBody />
+            <Leitbild_Body />
           </main>
           <style jsx>{``}</style>
         </div>

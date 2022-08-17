@@ -1,4 +1,4 @@
-const LeitbildBody = () => {
+const Leitbild_Body = () => {
   return (
     <div id='' className='leitbild-container'>
       <div className='text-body'>
@@ -54,4 +54,4 @@ const LeitbildBody = () => {
   );
 };
 
-export default LeitbildBody;
+export default Leitbild_Body;
