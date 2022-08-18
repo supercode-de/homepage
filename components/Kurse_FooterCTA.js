@@ -1,6 +1,6 @@
 import Typeform_neu2022 from './Typeform_neu2022';
 
-const FooterCallToActionKurse = () => {
+const FooterCallToActionKurse = (props) => {
   return (
     <div id='call-to-action' className='footerCTA'>
       <h2>
@@ -13,25 +13,26 @@ const FooterCallToActionKurse = () => {
         <h3>19.09.2022 – max. 16 Teilnehmende</h3>
         <h3>12.12.2022 – max. 16 Teilnehmende</h3>
         <span className='jetzt-bewerben-btn'>
-          <Typeform_neu2022 />
+          <Typeform_neu2022 color="var(--super-black)"/>
         </span>
       </div>
       <style jsx>{`
         .footerCTA {
           background-color: var(--super-lila);
+          background-color: ${props.bgColor};
           padding-top: 60px;
           padding-bottom: 50px;
         }
 
         h2 {
-          color: #fff;
+          color: ${props.color ? props.color : "var(--super-white)"};
           font-size: 3.7rem;
           padding-left: 7%;
         }
         h2 .stroke {
           color: transparent;
           -webkit-text-stroke-width: 0.1px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: ${props.color ? props.color : "var(--super-white)"};
         }
         .circle {
           position: relative;
@@ -52,7 +53,7 @@ const FooterCallToActionKurse = () => {
           margin: auto;
         }
         .termine h3 {
-          color: #fff;
+          color: ${props.color ? props.color : "var(--super-white)"};
           font-size: 2rem;
         }
         .jetzt-bewerben-btn {
@@ -97,7 +98,7 @@ const FooterCallToActionKurse = () => {
 
         @media (max-width: 425px) {
           h2 {
-            color: #fff;
+            color: var(--super-white);
             font-size: 2rem;
             padding-left: 7%;
           }
@@ -107,7 +108,7 @@ const FooterCallToActionKurse = () => {
           h2 .stroke {
             color: transparent;
             -webkit-text-stroke-width: 0.5px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
           }
         }
       `}</style>

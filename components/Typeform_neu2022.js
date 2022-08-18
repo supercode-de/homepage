@@ -67,7 +67,7 @@ const Typeform_neu2022 = (props) => {
           padding: 15px 0px;
           background: transparent;
           border: 2px solid var(--super-green);
-          color: var(--super-white);
+          color: ${props.color ? props.color : "var(--super-white)"};
           justify-self: center;
           display: inline-block;
           width: 38.75em;

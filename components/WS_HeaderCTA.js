@@ -1,6 +1,6 @@
 import Typeform_neu2022 from './Typeform_neu2022';
 
-const HeaderCallToActionWS_neu = () => {
+const WS_HeaderCTA = () => {
   return (
     <div id="header-call">
       <h2>
@@ -17,8 +17,7 @@ const HeaderCallToActionWS_neu = () => {
       <style jsx>{`
         #header-call {
           background: var(--super-blau);
-          color: #fff;
-          font-family: "Neue_Machina_Regular_400";
+          color: var(--super-white);
           padding: 3rem 7% 1rem;
         }
         
@@ -29,7 +28,7 @@ const HeaderCallToActionWS_neu = () => {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: var(--super-white);
           font-weight: 300;
         }
 
@@ -81,12 +80,6 @@ const HeaderCallToActionWS_neu = () => {
           align-items: center;
         }
 
-        @media (min-width: 1200px) {
-          h2 {
-            // font-size: 6em;
-          }
-        }
-
         @media (max-width: 1040px) {
           h2 {
             font-size: 3em;
@@ -123,4 +116,4 @@ const HeaderCallToActionWS_neu = () => {
   );
 };
 
-export default HeaderCallToActionWS_neu;
+export default WS_HeaderCTA;

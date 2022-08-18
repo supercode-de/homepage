@@ -8,7 +8,7 @@ const Kurse_Header = (props) => {
             <section className='header-flex'>
                 <div className='header-img start-container'>
                     <div className='imgWrapper'>
-                        <img src={props.kursForm === "UX/UI–Design" ? "/img/_DSC0330_LowRes.png" : "/img/_DSC7143_LowRes.jpg"} alt='Mann sitzt am Computer' />
+                        <img src={props.kursForm === "UX/UI–Design" ? "/img/uxui_header.png" : "/img/kurse_header_webdev.jpg"} alt='Mann sitzt am Computer' />
                     </div>
                 </div>
                 <div className='headline'>

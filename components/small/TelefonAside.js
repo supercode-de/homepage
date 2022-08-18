@@ -12,6 +12,7 @@ const TelefonAside = () => {
           left: 0%;
           top: 50%;
           color: var(--super-white);
+          z-index: 9;
         }
         a {
           color: inherit;

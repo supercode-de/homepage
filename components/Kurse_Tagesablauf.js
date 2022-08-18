@@ -5,7 +5,7 @@ export default function Kurse_Tagesablauf(props) {
             <h2 className='tagesablauf-header'>Tagesablauf</h2>
             <article>
                 <div>
-                    <img src='/img/_DSC2128_MidRes.png' alt='' />
+                    <img src='/img/tagesablauf.jpg' alt='Menschen arbeiten an Computern' />
                 </div>
                 <div className='tagesablauf-txt'>
                     <h2 className='eat-sleep-header'>

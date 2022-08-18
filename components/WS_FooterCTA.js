@@ -17,7 +17,7 @@ const WS_FooterCTA = () => {
       </h1>
       <div className='buttons'>
         <Link href='/kurse'>
-          <a href=''>KURSE</a>
+          <a href='/kurse'>KURSE</a>
         </Link>
         <Beratung buttonText='Beratung' buttonTextColor='var(--super-black)' />
       </div>

@@ -1,6 +1,6 @@
 const Team_WerdeTeil = () => {
   return (
-    <section className='werdeTeilTeam blueGitter'>
+    <section className='werdeTeilTeam'>
       <article className='info'>
         <div>
           <h2>Werde Teil unseres</h2>
@@ -94,7 +94,8 @@ const Team_WerdeTeil = () => {
 
       <style jsx>{`
         .werdeTeilTeam {
-          color: #fff;
+          color: var(--super-white);
+          background: var(--super-blau);
         }
         .info {
           padding: 10vw calc(100vw / 12);
@@ -131,7 +132,7 @@ const Team_WerdeTeil = () => {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 0.5px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: var(--super-white);
           font-weight: 300;
           display: inline-block;
         }

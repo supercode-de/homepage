@@ -10,7 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Team_Stellenanzeigen = () => {
   return (
-    <div id="stellen" className="lilaGitter">
+    <div id="stellen">
       <article className="stelle-boxes-headline">
         <h1>
           Super(Code)
@@ -59,6 +59,7 @@ const Team_Stellenanzeigen = () => {
           position: relative;
           z-index: 1;
           color: var(--super-white);
+          background: var(--super-lila);
         }
         h1 {
           margin: 0 8.5% 1em;

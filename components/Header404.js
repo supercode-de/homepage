@@ -3,7 +3,7 @@ import TelefonAside from "./small/TelefonAside";
 
 const Header404 = () => {
   return (
-    <div id="header" className="lilaGitter">
+    <div id="header">
       <div className="super-code">super(code)</div>
       <TelefonAside />
 
@@ -26,6 +26,7 @@ const Header404 = () => {
           display: flex;
           flex-direction: column;
           align-items: center;
+          background: var(--super-lila);
         }
 
         .content {

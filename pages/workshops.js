@@ -1,7 +1,7 @@
 import Layout from '../components/Layout';
-import HeaderWS from '../components/HeaderWS';
-import HeaderCallToActionWS_neu from '../components/HeaderCallToActionWS_neu';
-import AnfängerBisBusinessWS from '../components/AnfängerBisBusinessWS';
+import WS_Header from '../components/WS_Header';
+import WS_HeaderCTA from '../components/WS_HeaderCTA';
+import WS_AnfaengerBisBusiness from '../components/WS_AnfaengerBisBusiness';
 import WS_WorkIT from '../components/WS_WorkIT';
 import WS_Auflistung from '../components/WS_Auflistung';
 import WS_AVGS from '../components/WS_AVGS';
@@ -17,9 +17,9 @@ export default function Workshop() {
       <Layout>
         <div className='container'>
           <main>
-            <HeaderWS />
-            <HeaderCallToActionWS_neu />
-            <AnfängerBisBusinessWS />
+            <WS_Header img="/img/workshop_header.png" kurs="Workshops!" />
+            <WS_HeaderCTA />
+            <WS_AnfaengerBisBusiness />
             <WS_WorkIT />
             <WS_Auflistung />
             <WS_AVGS />

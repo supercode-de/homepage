@@ -1,4 +1,3 @@
-import { useRouter } from 'next/router';
 import TelefonAside from './small/TelefonAside';
 
 const Header_Subpages = (props) => {

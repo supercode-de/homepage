@@ -1,6 +1,6 @@
 import TelefonAside from './small/TelefonAside';
 
-const HeaderWS = (props) => {
+const WS_Header = (props) => {
   return (
     <div id='header'>
       <h2 className='super-code'>super(code)</h2>
@@ -8,7 +8,7 @@ const HeaderWS = (props) => {
         <TelefonAside />
         <div className='content-img'>
           <img
-            src='/img/_DSC2506_LowRes.png'
+            src={props.img}
             alt='Programmieren Weiterbildungsangebote Düsseldorf, SuperCode Programmieren Lernen Bootcamp'
           />
         </div>
@@ -21,7 +21,7 @@ const HeaderWS = (props) => {
             <span className='super'>
               Unsere
               <br />
-              <span className='circle'>Workshops!</span>
+              <span className='circle'>{props.kurs}</span>
             </span>
           </h1>
         </div>
@@ -38,7 +38,6 @@ const HeaderWS = (props) => {
             flex-direction: column;
             align-items: center;
             position: relative;
-
             padding: 50px 0 80px;
           }
 
@@ -54,9 +53,8 @@ const HeaderWS = (props) => {
             right: 0;
           }
           h1 {
-            font-family: 'Neue_Machina_Regular_400';
             font-size: 4em;
-            color: #fff;
+            color: var(--super-white);
             line-height: 1.2em;
             margin: 3vh 3vw;
           }
@@ -64,7 +62,7 @@ const HeaderWS = (props) => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 1px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
             font-weight: 300;
           }
 
@@ -86,9 +84,7 @@ const HeaderWS = (props) => {
           }
 
           p {
-            color: #fff;
-            font-style: normal;
-            font-weight: normal;
+            color: var(--super-white);
             font-size: 1em;
             line-height: 30px;
           }
@@ -140,4 +136,4 @@ const HeaderWS = (props) => {
   );
 };
 
-export default HeaderWS;
+export default WS_Header;

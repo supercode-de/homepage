@@ -1,8 +1,6 @@
-const AnfängerBisBusiness = (props) => {
-  const pixelSize = 2.5;
-
+const WS_AnfaengerBisBusiness = () => {
   return (
-    <div id="starter-business" className="whiteGreenDots">
+    <div id="starter-business">
       <h1>
         Von <span className="super">Anfänger bis Business &mdash;</span> lerne
         Programmieren, Designen oder agiles Management in einem unserer{" "}
@@ -52,4 +50,4 @@ const AnfängerBisBusiness = (props) => {
   );
 };
 
-export default AnfängerBisBusiness;
+export default WS_AnfaengerBisBusiness;

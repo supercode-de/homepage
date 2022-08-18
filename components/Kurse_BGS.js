@@ -1,8 +1,8 @@
-const AVGS = () => {
+const Kurse_BGS = () => {
   const pixelSize = 1.5;
 
   return (
-    <div id='avgs' className='whiteGreenDots'>
+    <div id='avgs'>
       <div className='avgs-img'>
         <img
           src='/img/_DSC3868_LowRes.png'
@@ -57,7 +57,7 @@ const AVGS = () => {
 
       <style jsx>{`
         #avgs {
-          color: #fff;
+          color: var(--super-white);
           padding: 50px 6%;
           position: relative;
           z-index: 0;
@@ -125,4 +125,4 @@ const AVGS = () => {
   );
 };
 
-export default AVGS;
+export default Kurse_BGS;

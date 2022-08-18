@@ -1,8 +1,6 @@
-const AnfängerBisBusiness = (props) => {
-  const pixelSize = 2.5;
-
+const LerneProgrammieren = () => {
   return (
-    <div id="starter-business" className="whiteGreenDots">
+    <div id="starter-business">
       <h1>
         Lerne <span className="super">Programmieren</span> und werde{" "}
         <span className="super">Front-End oder Full-Stack</span>{" "}
@@ -12,7 +10,7 @@ const AnfängerBisBusiness = (props) => {
 
       <style jsx>{`
         #starter-business {
-          background: #fff;
+          background: var(--super-white);
           color: var(--super-lila);
           padding: 2rem 0;
           position: relative;
@@ -65,4 +63,4 @@ const AnfängerBisBusiness = (props) => {
   );
 };
 
-export default AnfängerBisBusiness;
+export default LerneProgrammieren;
