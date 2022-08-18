@@ -1,31 +1,31 @@
-const HeaderTermine_Webdev = () => {
+const UX_UI_HeaderTermine = () => {
     return (
         <div id="header-termine">
             <div>
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2 className="line-through"></h2>
+                        <h2>28. November</h2>
                     </div>
-                    <div className="line-through">Anmeldeschluss bis </div>
+                    <div>Anmeldeschluss bis 25. November</div>
                 </div>
             </div>
             <div>
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2></h2>
+                        <h2>23. Mai</h2>
                     </div>
-                    <div>Anmeldeschluss bis </div>
+                    <div>Anmeldeschluss bis Mai 2023</div>
                 </div>
             </div>
             <div>
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2></h2>
+                        <h2>23. Oktober</h2>
                     </div>
-                    <div>Anmeldeschluss bis </div>
+                    <div>Anmeldeschluss bis Oktober 2023</div>
                 </div>
             </div>
             <style jsx>{`
@@ -36,11 +36,6 @@ const HeaderTermine_Webdev = () => {
                     flex-wrap: wrap;
                     justify-content: space-evenly;
                     color: white;
-                }
-
-                #header-termine div:nth-of-type(1) .termine-wrapper h2{
-                    text-decoration: line-through;
-                    text-decoration-color: var(--super-green);
                 }
 
                 .line-through{
@@ -92,4 +87,4 @@ const HeaderTermine_Webdev = () => {
         </div>);
 }
 
-export default HeaderTermine_Webdev;
+export default UX_UI_HeaderTermine;

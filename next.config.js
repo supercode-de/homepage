@@ -21,6 +21,7 @@ module.exports = {
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
       "/kurse/fullstack": { page: "/fullstack_kurs" },
       "/kurse/frontend": { page: "/frontend-kurs" },
+      "/kurse/ux-ui-kurs": {page:"/ux-ui-kurs"},
       "/danke": { page: "/danke" },
       "/blog": { page: "/blog" },
       "/blog/YouCode-YouTube-YouRock!": { page: "/blog/[blogItem]" },

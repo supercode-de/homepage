@@ -218,7 +218,7 @@ class Layout extends Component {
               background-size: calc(100vw / 12) calc(100vw / 12);
             }
 
-            img:not(#tagesablauf, .menu-button, #arrow-img img, .start-termin img) {
+            img:not(#tagesablauf, .menu-button, #arrow-img img, .start-termin img, .text1, .text2, .text3, .text4, .text5) {
               border-radius: 50px;
             }
 

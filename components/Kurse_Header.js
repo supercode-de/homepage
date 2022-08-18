@@ -14,7 +14,7 @@ const Kurse_Header = (props) => {
                 <div className='headline'>
                     <h1>{props.kursForm}</h1>
                     <h1 className='letterstroke'>
-                        Boot <br /> –camp
+                        BOOT <br /> –CAMP
                     </h1>
                 </div>
             </section>

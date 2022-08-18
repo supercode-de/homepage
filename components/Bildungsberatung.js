@@ -28,7 +28,7 @@ export default function Bildungsberatung() {
 
       <div className='berater-txt'>
         <p>
-          Ganz gleich welcher Weg dich zu SuperCode geführt hat, Shapour und Henri sind deine ersten Ansprechpartner und nehmen dich an die Hand im gesamten Aufnahmeprozess. Sie beantworten alle Fragen, helfen dir bei den Formularen und klären mit dir und dem Kostenträger die Finanzierung ab.
+          Ganz gleich welcher Weg dich zu SuperCode geführt hat, Shapour, Henri und Nina sind deine ersten Ansprechpartner*innen und nehmen dich an die Hand im gesamten Aufnahmeprozess. Sie beantworten alle Fragen, helfen dir bei den Formularen und klären mit dir und dem Kostenträger die Finanzierung ab.
         </p>
 
         <p>
@@ -46,7 +46,7 @@ export default function Bildungsberatung() {
           }
 
           h2 {
-            color: #fff;
+            color: var(--super-white);
             padding-left: 6%;
             margin: 0 0 50px 0;
             font-size: 5rem;
@@ -55,7 +55,7 @@ export default function Bildungsberatung() {
           h2 .stroke {
             color: transparent;
             -webkit-text-stroke-width: 0.1px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
           }
 
         }
@@ -89,7 +89,7 @@ export default function Bildungsberatung() {
             padding: 0 6%;
           }
           .berater-txt p {
-            color: #fff;
+            color: var(--super-white);
             margin: 28px auto;
           }
           .kontakt-btn{
@@ -131,9 +131,9 @@ export default function Bildungsberatung() {
             }
             figure{
               margin-block-start: 0;
-    margin-block-end: 0;
-    margin-inline-start: 0;
-    margin-inline-end: 0;
+              margin-block-end: 0;
+              margin-inline-start: 0;
+              margin-inline-end: 0;
             }
             .berater-txt p {
               margin-bottom:0;
@@ -149,8 +149,8 @@ export default function Bildungsberatung() {
               
             }
             .berater-txt p {
-             font-size:1rem;
-             line-height:18px;
+              font-size:1rem;
+              line-height:18px;
             }
           }
           @media (max-width: 425px) {
@@ -175,10 +175,9 @@ export default function Bildungsberatung() {
               h2 .stroke {
                 color: transparent;
                 -webkit-text-stroke-width: 0.5px;
-                -webkit-text-stroke-color: #fff;
+                -webkit-text-stroke-color: var(--super-white);
               }
             }
-     
           
         `}
       </style>

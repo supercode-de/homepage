@@ -1,5 +1,5 @@
 import Typeform_neu2022 from './Typeform_neu2022';
-const HeaderCTA = (props) => {
+const Kurse_HeaderCTA = (props) => {
     return (
         <div id='header-call'>
             <section className='headerFlex'>
@@ -25,7 +25,7 @@ const HeaderCTA = (props) => {
                         <span className='bling2'>Tools</span>
                     </h3>
                     <h3>– MacBook als Leihgabe</h3>
-                    <h3>– Vor Ort & online</h3>
+                    <h3>– digital und online</h3>
                 </section>
             </section>
             <article className='jetzt-bewerben'>
@@ -390,4 +390,4 @@ const HeaderCTA = (props) => {
     );
 };
 
-export default HeaderCTA;
+export default Kurse_HeaderCTA;

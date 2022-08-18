@@ -19,8 +19,11 @@ export default function UX_UI_FooterCTA() {
           jetzt oder meld dich direkt bei uns!
         </h2>
       )}
-      <div className='buttons'></div>
+
       <div className='termine'>
+        <h3>28.11.2022 – max. 16 Teilnehmende (wenige Plätze verfügbar)</h3>
+        <h3>Mai 2023 – max. 16 Teilnehmende</h3>
+        <h3>Oktober 2023 – max. 16 Teilnehmende</h3>
         <div className="jetzt-bewerben-btn">
           <Typeform_neu2022 />
         </div>
@@ -33,14 +36,14 @@ export default function UX_UI_FooterCTA() {
           padding-bottom: 50px;
         }
         h2 {
-          color: #fff;
+          color: var(--super-white);
           font-size: 3.7rem;
           padding-left: 7%;
         }
         h2 .stroke {
           color: transparent;
           -webkit-text-stroke-width: 0.1px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: var(--super-white);
         }
         .circle {
           position: relative;
@@ -61,7 +64,7 @@ export default function UX_UI_FooterCTA() {
           margin: auto;
         }
         .termine h3 {
-          color: #fff;
+          color: var(--super-white);
           font-size: 2rem;
         }
         .jetzt-bewerben-btn {
@@ -94,7 +97,6 @@ export default function UX_UI_FooterCTA() {
 
         @media (max-width: 425px) {
           h2 {
-            color: #fff;
             font-size: 2rem;
             padding-left: 7%;
           }
@@ -104,7 +106,7 @@ export default function UX_UI_FooterCTA() {
           h2 .stroke {
             color: transparent;
             -webkit-text-stroke-width: 0.5px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
           }
         }
       `}</style>

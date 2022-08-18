@@ -1,17 +1,17 @@
 import Beratung_flexible from "./Beratung_flexible";
 import Curriculum from "./Curriculum_Popup";
-import kurseData from "../components/data/kursedata.json";
+import kurseData from "./data/kursedata.json";
 import { useState } from "react";
 import Accordion_uxui from "./Accordion_uxui";
 
-const UX_UI_Praxis = () => {
+const UX_UI_Praxis_neu = () => {
   const [text1, setText1] = useState(true);
   const [text2, setText2] = useState(false);
   const [text3, setText3] = useState(false);
   const [text4, setText4] = useState(false);
   const [text5, setText5] = useState(false);
 
-  const [getJobImg, setGetJobImg] = useState("/img/uxui_Portfolio-1Wochen.svg");
+  const [getJobImg, setGetJobImg] = useState("/img/getJob.svg");
   const [getJobActive, setGetJobActive] = useState(false);
 
   const showText = (e) => {
@@ -83,7 +83,7 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text1"
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
+                setGetJobImg("/img/getJob.svg");
                 setGetJobActive(false);
               }}
             >
@@ -103,7 +103,7 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text2"
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
+                setGetJobImg("/img/getJob.svg");
                 setGetJobActive(false);
               }}
             >
@@ -128,7 +128,7 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text3"
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
+                setGetJobImg("/img/getJob.svg");
                 setGetJobActive(false);
               }}
             >
@@ -182,7 +182,7 @@ const UX_UI_Praxis = () => {
               >
                 <div
                   className="getJob text4"
-                  // onMouseOut={() => setGetJobImg('/img/uxui_Portfolio-1Wochen.svg')}
+                  // onMouseOut={() => setGetJobImg('/img/getJob.svg')}
                   // onMouseOver={() => setGetJobImg('/img/getJobwhite.svg')}
                   onClick={(e) => {
                     showText(e);
@@ -194,7 +194,7 @@ const UX_UI_Praxis = () => {
                     src={getJobImg}
                     alt=""
                     className="text4"
-                    // onMouseOut={() => setGetJobImg('/img/uxui_Portfolio-1Wochen.svg')}
+                    // onMouseOut={() => setGetJobImg('/img/getJob.svg')}
                     // onMouseOver={() => setGetJobImg('/img/getJobwhite.svg')}
                     onClick={(e) => {
                       showText(e);
@@ -217,7 +217,7 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text5"
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
+                setGetJobImg("/img/getJob.svg");
                 setGetJobActive(false);
               }}
             >
@@ -251,29 +251,40 @@ const UX_UI_Praxis = () => {
             {text2 && (
               <div>
                 <h3 className="colorHeader3">
-                  UX:Verstehen und anwenden
+                  {" "}
+                  <span>UX:</span> Verstehen und anwenden{" "}
                 </h3>
                 <p>
-                  Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und wende unsere Methoden praxisnahe an, um erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen in Figma zu erstellen.
+                  Prinzipien des benutzerzentrierten Designs, Projektarbeit:
+                  Anwendung von Design Thinking / agilen Methoden /
+                  Design-Sprints / Mindset entwickeln, User-Research /
+                  UX-Forschungsmethoden, UX-Methoden / Fachbegriffe und
+                  Definitionen (z.B. : Pain-Points, User-Stories, User Journey
+                  etc.) Low-Fidelity- und High-Fidelity-Design, Praxisübungen
+                  für Prototyping / Wireframing & Erstellung eines interaktiven
+                  Prototypen in <br /> Figma, Präsentationen mit Erklärungen
                 </p>
-                <p>Tools: Figma / Discord</p>
               </div>
             )}
             {text3 && (
               <div>
                 <h3 className="colorHeader2">
-                  UI: Gestaltung von Benutzeroberflächen
+                  <span> UI:</span> Gestaltung von Benutzeroberflächen
                 </h3>
                 <p>
-                  Erlernen alle UI-Design Fähigkeiten und meistere die Gestaltung schöner und funktionaler Oberflächen in Figma. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.
+                  Branding- und Design-Grundlagen für UI: Stylescape, UI-Typo
+                  als Praxisaufgabe, Designkonzept Webdesign, Accessibility (&
+                  Usability) Praxisprojekte: Designerstellung mit Figma
+                  (Komponenten / Grid & Raster / Responsive Design &
+                  Designsysteme, ggf. Animations)
                 </p>
-                <p>Tools: Figma / Discord</p>
               </div>
             )}
             {text4 && (
               <div>
                 <h3 className="colorHeader4">
-                  Plus Skills / Portfolio
+                  {" "}
+                  <span>Plus Skills / Portfolio</span>{" "}
                 </h3>
                 <p>
                   Learn to learn, Presentation Basics, Portfolio Work
@@ -381,10 +392,6 @@ const UX_UI_Praxis = () => {
           #st-arrowImg {
             position: absolute;
             left: 120%;
-            width: 270px;
-          }
-          #st-arrowImg > img {
-            width: 100%;
           }
           #st-arrowImg:hover {
             cursor: pointer;
@@ -400,16 +407,14 @@ const UX_UI_Praxis = () => {
           .circle {
             position: relative;
           }
-          .verstehenAnwenden,
-          .gestaltungBenutzeroberflächen {
+          .verstehenAnwenden {
             position: absolute;
             z-index: 2;
-            width: 26%;
-            top: 25%;
-            right: 4%;
+            width: 45%;
+            top: 20%;
+            right: 7%;
           }
-          .verstehenAnwenden > img,
-          .gestaltungBenutzeroberflächen > img {
+          .verstehenAnwenden > img {
             width: 100%;
           }
           .bar3 .inner-bar {
@@ -420,8 +425,19 @@ const UX_UI_Praxis = () => {
             width: 70%;
           }
 
+          .gestaltungBenutzeroberflächen {
+            position: absolute;
+            z-index: 2;
+            width: 47%;
+            top: 20%;
+            right: 7%;
+          }
+          .gestaltungBenutzeroberflächen > img {
+            width: 100%;
+          }
+
           .bar4 .inner-bar {
-            background-color: var(--super-black);
+            background-color: #000;
           }
           .bar4 {
             border: 6px solid var(--super-black);
@@ -431,9 +447,9 @@ const UX_UI_Praxis = () => {
           .getJob {
             position: absolute;
             z-index: 2;
-            top: 25%;
-            width: 102%;
-            left: 12%;
+            top: 35%;
+            width: 100%;
+            left: 10%;
           }
 
           .getJob img {
@@ -476,11 +492,14 @@ const UX_UI_Praxis = () => {
 
           h2 {
             font-size: 4rem;
-            color: var(--super-black);
+            font-family: "Neue_Machina_Light";
+            color: #03000f;
             margin: 0;
             line-height: 50px;
           }
           p {
+            color: #121e28;
+            // width: 55%;
             font-size: 1.563rem;
             font-weight: 300;
           }
@@ -492,7 +511,7 @@ const UX_UI_Praxis = () => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color: var(--super-black);
+            -webkit-text-stroke-color: #03000f;
             font-weight: 300;
           }
           .neugierCTA {
@@ -508,8 +527,10 @@ const UX_UI_Praxis = () => {
           }
           .fsPraxis .neugierCTA_txt {
             font-family: "Neue_Machina_Light";
+            // color: #989898;
             font-size: 3.3rem;
             width: 80%;
+            color: #121e28;
             margin-top: 125px;
             margin-bottom: 30px;
             padding-left: 5%;
@@ -591,27 +612,38 @@ const UX_UI_Praxis = () => {
           }
 
           .colorHeader2 {
+            color: var(--super-yellow);
             font-size: 3rem;
             margin-bottom: 0;
+          }
+          .colorHeader2 span {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--super-yellow);
             font-weight: 300;
           }
+
           .colorHeader3 {
+            color: var(--super-green);
             font-size: 3rem;
             margin-bottom: 0;
+          }
+
+          .colorHeader3 span {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--super-green);
             font-weight: 300;
           }
-
           .colorHeader4 {
+            color: var(--super-black);
             font-size: 3rem;
             margin-bottom: 0;
+          }
+
+          .colorHeader4 span {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
@@ -805,4 +837,4 @@ const UX_UI_Praxis = () => {
   );
 };
 
-export default UX_UI_Praxis;
+export default UX_UI_Praxis_neu;

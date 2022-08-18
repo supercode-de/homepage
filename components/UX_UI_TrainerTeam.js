@@ -1,7 +1,7 @@
 import data from "./data/team.json";
 export default function UX_UI_TrainerTeam() {
   return (
-    <section className="fsTrainer blackGitter">
+    <section className="fsTrainer">
       <div className="trainerinfos">
         <h2>
           <span>Super</span>
@@ -50,8 +50,7 @@ export default function UX_UI_TrainerTeam() {
           .fsTrainer {
             padding: 40px 0 170px 6%;
             width: 100%;
-
-            // overflow: hidden;
+            background: var(--super-black);
           }
 
           .gridItem {
@@ -61,7 +60,7 @@ export default function UX_UI_TrainerTeam() {
           }
           .fsTrainer h2 {
             font-size: 5rem;
-            color: #fff;
+            color: var(--super-white);
             margin-bottom: 5rem;
             position: relative;
             z-index: 0;
@@ -71,10 +70,10 @@ export default function UX_UI_TrainerTeam() {
             display: block;
             color: transparent;
             -webkit-text-stroke-width: 0.4px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
           }
           p {
-            color: #fff;
+            color: var(--super-white);
             width: 62%;
             font-size: 1.3rem;
             line-height: 20px;

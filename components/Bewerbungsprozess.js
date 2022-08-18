@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { Component } from "react";
 
-import JetztAnmdelden from "./JetztAnmelden";
+import JetztAnmelden from "./JetztAnmelden";
 
 class Bewerbungsprozess extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class Bewerbungsprozess extends Component {
     return (
       <div id="bewerbungsprozess">
         {this.props.oneComponent ? null : (
-          <JetztAnmdelden
+          <JetztAnmelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}
           />

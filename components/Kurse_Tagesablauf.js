@@ -1,9 +1,8 @@
-export default function VZ_Tagesablauf() {
+export default function Kurse_Tagesablauf(props) {
+  const {kurs, dauer, welt} = props
     return (
         <section className='tagesablauf'>
-            <h2 className='tagesablauf-header'>
-                <span className='circle'>Tagesablauf </span>
-            </h2>
+            <h2 className='tagesablauf-header'>Tagesablauf</h2>
             <article>
                 <div>
                     <img src='/img/_DSC2128_MidRes.png' alt='' />
@@ -11,7 +10,7 @@ export default function VZ_Tagesablauf() {
                 <div className='tagesablauf-txt'>
                     <h2 className='eat-sleep-header'>
                         <span className='stroke'>
-                            Eat, sleep, code - <br />
+                            Eat, sleep, {kurs} - <br />
                         </span>
                         repeat!
                     </h2>
@@ -20,13 +19,13 @@ export default function VZ_Tagesablauf() {
                         IT-Unternehmen aus der Praxis. Mit genug Zeit für Ruhephasen und
                         Austausch in der Gruppe, sowie mehr Praxis als Theorie und
                         individuelle One-on-One-Trainingsstunden, kommst du optimal durch
-                        die fünf Monate des Bootcamps.
+                        die {dauer} Monate des Bootcamps.
                     </p>
                     <p>
                         Mit einem Mix aus Livecoding-Sessions, kurzen Theorieparts,
                         Gamification, Gruppenarbeiten, Teambuilding-Projekten und
                         Selbstlernphasen lassen wir keine Langeweile aufkommen und nehmen
-                        dich mit in die wunderbare Welt des Codens.
+                        dich mit in die wunderbare Welt des {welt}.
                     </p>
                 </div>
             </article>
@@ -64,20 +63,6 @@ export default function VZ_Tagesablauf() {
               -webkit-text-stroke-color: var(--super-white);
               
             }
-            .circle {
-              position: relative;
-            }
-            .tagesablauf-header span.circle::after {
-              position: absolute;
-              background: url('/img/Vector64.svg') center/contain no-repeat;
-              height:135%;
-              width: 100%;
-              right: 28%;
-              bottom: -20%;
-              content: '';
-              display: block;
-            }
-  
             .eat-sleep-header{
               font-size:3.5rem;
               color: var(--super-white);

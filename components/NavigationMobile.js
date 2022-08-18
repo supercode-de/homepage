@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-//import './navigation-mobile.css'
 import Link from 'next/link';
 import NavigationMobileKurse from './NavigationMobileKurse';
 
-const JetztAnmdelden = (props) => {
+const NavigationMobile = (props) => {
   const [toggleKurse, setToggleKurse] = useState(true);
 
   const closeToggleKurse = () => {
@@ -61,17 +60,16 @@ const JetztAnmdelden = (props) => {
       <style jsx>{`
           #navigation-mobile {
             position: fixed;
-            background: #03000f;
+            background: var(--super-black);
             top: 0;
             bottom: 0;
-            color: #3dd7ac;
+            color: var(--super-green);
             transition: all 0.5s;
             width: 100%;
             height: 200vh;
             z-index: 999;
             display: flex;
             justify-content: center;
-            font-family: 'Neue_Machina_Regular_400';
             overflow-y: hidden;
             // das ist notwendig, weil auf ios safari beim scrollen die adresszeile unten immer eine lücke hat entstehen lassen, so dass man auf die webseite hindurch gucken konnte. das löst es halbwegs
             transform: translate3d(0,0,0);
@@ -114,7 +112,7 @@ const JetztAnmdelden = (props) => {
             min-width: 50px;
           }
           .navigation-mobile-close:hover {
-            color: #3dd7ac;
+            color: var(--super-green);
           }
 
           ul {
@@ -134,15 +132,15 @@ const JetztAnmdelden = (props) => {
             text-decoration: none;
           }
           a:visited {
-            color: #3dd7ac;
+            color: var(--super-green);
           }
           a:hover {
             text-decoration: underline;
-            color: #fff;
+            color: var(--super-white);
             cursor: pointer;
           }
           a:active {
-            color: #5d3ede;
+            color: var(--super-lila);
           }
 
           .navigation-mobile-left h1 {
@@ -164,12 +162,10 @@ const JetztAnmdelden = (props) => {
           .isNotHidden {
             right: 0;
           }
-          @media screen and (max-width: 768px) {
-          }
         `}
       </style>
     </div>
   );
 };
 
-export default JetztAnmdelden;
+export default NavigationMobile;

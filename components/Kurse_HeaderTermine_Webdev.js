@@ -1,31 +1,31 @@
-const HeaderTermine_Webdev = () => {
+const Kurse_HeaderTermine_Webdev = () => {
     return (
         <div id="header-termine">
             <div>
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2 className="line-through"></h2>
+                        <h2 className="line-through">20. Juni</h2>
                     </div>
-                    <div className="line-through">Anmeldeschluss bis </div>
+                    <div className="line-through">Anmeldeschluss bis 17. Juni</div>
                 </div>
             </div>
             <div>
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2></h2>
+                        <h2>19. September</h2>
                     </div>
-                    <div>Anmeldeschluss bis </div>
+                    <div>Anmeldeschluss bis 16. September</div>
                 </div>
             </div>
             <div>
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2></h2>
+                        <h2>12. Dezember</h2>
                     </div>
-                    <div>Anmeldeschluss bis </div>
+                    <div>Anmeldeschluss bis 9. Dezember</div>
                 </div>
             </div>
             <style jsx>{`
@@ -92,4 +92,4 @@ const HeaderTermine_Webdev = () => {
         </div>);
 }
 
-export default HeaderTermine_Webdev;
+export default Kurse_HeaderTermine_Webdev;
