@@ -1,3 +1,5 @@
+import Tagesablauf from "./small/Tagesablauf";
+
 export default function Kurse_Tagesablauf(props) {
   const {kurs, dauer, welt} = props
     return (
@@ -29,19 +31,7 @@ export default function Kurse_Tagesablauf(props) {
                     </p>
                 </div>
             </article>
-            <div className='tagesablauf_imgContainer'>
-                <div>
-                    <img
-                        id="tagesablauf"
-                        src={
-                            window.screen.width <= 768
-                                ? '/img/TagesablaufMobileFullstack.svg'
-                                : '/img/Tagesablauf.svg'
-                        }
-                        alt=''
-                    />
-                </div>
-            </div>
+            <Tagesablauf kurs={kurs}/>
             <style jsx>{`
               .tagesablauf {
                 padding:50px 0 100px 0;

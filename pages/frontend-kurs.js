@@ -16,7 +16,7 @@ export default function FrontendKurse() {
     const width = useWindowSize().width / 12;
     return (
       <Layout banner={true}>
-        <div className='fullstack-kurse'>
+        <div className='fullstack-kurse'> 
           <Kurse_Header kursForm="Frontend"/>
           <Kurse_HeaderTermine_Webdev />
           <Kurse_HeaderCTA wochen="13" monate="3"/>

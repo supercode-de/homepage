@@ -17,7 +17,7 @@ export default function UXUIKurs() {
     return (
       <Layout navstroke="0.1px" banner={true} dropdownColor="var(--super-lila)">
         <div className="ux/ui-kurse">
-          <Kurse_Header kursForm="UX/UI–Design" />
+          <Kurse_Header kursForm="UX/UI–DESIGN" stoererTopPos="60%"/>
           <UX_UI_HeaderTermine />
           <Kurse_HeaderCTA wochen="18" monate="4" />
           <UX_UI_Praxis />

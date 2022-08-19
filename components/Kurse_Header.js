@@ -1,6 +1,8 @@
+import Stoerer_LiveOnline from "./small/Stoerer_LiveOnline";
 import TelefonAside from "./small/TelefonAside";
 
 const Kurse_Header = (props) => {
+    console.log(props);
     return (
         <header>
             <h2 className='super-code'>super(code)</h2>
@@ -8,7 +10,7 @@ const Kurse_Header = (props) => {
             <section className='header-flex'>
                 <div className='header-img start-container'>
                     <div className='imgWrapper'>
-                        <img src={props.kursForm === "UX/UI–Design" ? "/img/uxui_header.png" : "/img/kurse_header_webdev.jpg"} alt='Mann sitzt am Computer' />
+                        <img src={props.kursForm === "UX/UI–DESIGN" ? "/img/uxui_header.png" : "/img/kurse_header_webdev.jpg"} alt='Menschen beim arbeiten am Computer' />
                     </div>
                 </div>
                 <div className='headline'>
@@ -18,6 +20,7 @@ const Kurse_Header = (props) => {
                     </h1>
                 </div>
             </section>
+                <Stoerer_LiveOnline stoererTopPos={props.stoererTopPos}/>
             <style jsx>{`
             img + div {
                 display: none;
@@ -29,22 +32,18 @@ const Kurse_Header = (props) => {
                 background-color: var(--super-lila);
             }
 
-            .headline{
-                padding-left:3.5%;    
-            }
-
             h1 {
-                font-family: 'Neue_Machina_Regular_400';
-                font-size: 8rem;
-                color: #fff;
-                line-height: 0.8em;
+                font-size: 150px;
+                color: var(--super-white);
+                line-height: 0.9em;
                 margin: 0;
+                font-family: "Neue_Machina_Ultrabold";
             }
             .letterstroke {
                 color: transparent;
                 letter-spacing: 2px;
                 -webkit-text-stroke-width: 3px;
-                -webkit-text-stroke-color: #fff;
+                -webkit-text-stroke-color: var(--super-white);
                 font-weight: 300;
             }
             .header-flex {
@@ -59,9 +58,7 @@ const Kurse_Header = (props) => {
             .header-flex > * {
                 width: 100%;
             }
-            .imgWrapper{
-                width:115%;
-            }
+
             .start-container {
             position: relative;
             }

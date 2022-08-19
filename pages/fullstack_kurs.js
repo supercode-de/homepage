@@ -17,7 +17,7 @@ export default function FullstackKurse() {
     return (
       <Layout banner={true}>
         <div className='fullstack-kurse'>
-          <Kurse_Header kursForm="Fullstack"/>
+          <Kurse_Header kursForm="Fullstack" />
           <Kurse_HeaderTermine_Webdev />
           <Kurse_HeaderCTA wochen="22" monate="5"/>
           <FS_Praxis />

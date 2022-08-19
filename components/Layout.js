@@ -119,6 +119,7 @@ class Layout extends Component {
               --super-black: #03000f;
               --super-white: #fff;
               --super-yellow: #ffda1a;
+              --super-red: #F10606;
             }
             html {
               scroll-behavior: smooth;
