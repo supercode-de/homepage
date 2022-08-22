@@ -72,8 +72,6 @@ export default function Kurse_Tagesablauf(props) {
             .tagesablauf-txt p{
               color: var(--super-white);
               width:85%;
-              font-size:1rem;
-              line-height:19px;
             }
             .tagesablauf article > div img {
               width: 100%;

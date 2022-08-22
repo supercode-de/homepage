@@ -19,17 +19,19 @@ const Index_HeaderCTA = () => {
       <style jsx>{`
         #header-call {
           background: var(--super-blau);
-          color: #fff;
-          padding: 4rem 7% 2rem;
+          color: var(--super-white);
+          padding: 6rem 7% 2rem;
         }
         h2 {
           padding: 0 1%;
+          font-size: 80px;
+          line-height: 105px;
         }
         h2 span.super {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: var(--super-white);
           font-weight: 300;
         }
 

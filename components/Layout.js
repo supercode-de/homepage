@@ -127,19 +127,19 @@ class Layout extends Component {
             body {
               overflow-y: ${this.state.overflow_y ? 'hidden' : null};
             }
-            // Possible nescessary styles
+
             h1,
             h2 {
-              font-size: 3.2em;
+              font-size: 5rem;
               line-height: 1.1em;
             }
             h3 {
               font-size: 1.2rem;
             }
             p {
-              font-size: 1.125rem;
-              line-height: 1.563rem;
-              text-align: left;
+              font-size: 1.563rem;
+              // text-align: left;
+              line-height: 115%;
             }
             .super-code {
               position: absolute;

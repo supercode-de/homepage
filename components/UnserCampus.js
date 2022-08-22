@@ -129,7 +129,6 @@ const UnserCampus = (props) => {
           margin-top: -25%;
         }
         .text-one {
-          justify-self: center;
           padding-top: 35%;
         }
         h1,

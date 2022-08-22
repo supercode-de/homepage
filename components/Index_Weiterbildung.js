@@ -4,8 +4,7 @@ const Index_Weiterbildung = () => {
       <h2>
         IT Weiterbildung&nbsp;- <br />
         <span className="super">
-          zertifiziert, intensiv & <span className="after-span">praxisnah</span>
-          <nobr />. Wähle das Format, das dir am{" "}
+          zertifiziert, intensiv & <span className="after-span">praxisnah</span>. <br/> Wähle das Format, das dir am <br/>{" "}
           <span className="circle">besten</span> passt.
         </span>
       </h2>
@@ -14,11 +13,13 @@ const Index_Weiterbildung = () => {
         #header-call {
           background: var(--super-blau);
           color: var(--super-white);
-          padding: 3vh 2% 3vh 6%;
+          // padding: 6rem 7% 2rem;
+          padding-top: 99px;
+          padding-right: 0px;
+          padding-bottom: 99px;
+          padding-left: 115px;
         }
-        h2 {
-          width: 70%;
-        }
+
         h2 span.super {
           color: transparent;
           letter-spacing: 2px;

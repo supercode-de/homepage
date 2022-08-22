@@ -5,7 +5,8 @@ import Typeform_neu2022 from './Typeform_neu2022';
 const Index_Header = () => {
   return (
     <div id='header'>
-      <h2 className='super-code'>super(code)</h2>
+      <img id="supercodeLogo2022" src="/img/supercode_logo_2022.svg" alt="supercode logo" />
+      {/* <h2 className='super-code'>super(code)</h2> */}
       <TelefonAside />
       <div className='twocolumn'>
         <div className='onecolumn'>
@@ -50,9 +51,13 @@ const Index_Header = () => {
       </div>
       <style jsx>{`
           #header {
-            padding: 40px 0 40px 10%;
+            padding: 20px 0 40px 7%;
             position: relative;
             background: var(--super-lila);
+          }
+          #supercodeLogo2022 {
+            position: absolute;
+            width: 10%;
           }
           img + div {
             display: none;

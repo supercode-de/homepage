@@ -9,7 +9,7 @@ const TelefonAside = () => {
           font-size: 0.9rem;
           position: absolute;
           transform: rotate(-90deg);
-          left: 0%;
+          left: -1%;
           top: 50%;
           color: var(--super-white);
           z-index: 9;

@@ -184,14 +184,10 @@ export default function Kurse_TrainerTeam(props) {
               margin-bottom: 10px;
             }
             .fsTrainer p {
-              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
-              line-height: 13px;
             }
-            .fsTrainer .txt {
-              line-height: 22px;
-            }
+
             figcaption {
               font-size: 1.2rem;
               color: var(--super-green);
@@ -246,10 +242,6 @@ export default function Kurse_TrainerTeam(props) {
               margin-bottom: 0;
             }
 
-            .fsTrainer .txt {
-              line-height: 18px;
-              font-size: 1rem;
-            }
             figcaption {
               font-size: 1rem;
               color: var(--super-green);

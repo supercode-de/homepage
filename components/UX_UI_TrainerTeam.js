@@ -7,14 +7,14 @@ export default function UX_UI_TrainerTeam() {
           <span>Super</span>
           Trainer*innen
         </h2>
-        <p className="txt">
+        <p>
           Unsere Trainer*innen sind praxiserfahrene UX/UI-Designer*innen, die
           sich laufend fachlich und pädagogisch fortbilden. Durch unseren
           Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich an den
           vollen Tagen, wirst du spielerisch UX/UI-Design lernen und deine
           eigenen Prototypen bauen.
         </p>
-        <p className="txt">
+        <p>
           Ergänzend zum Training im Bootcamp bieten wir individuelle
           One-to-One-Termine mit dem Trainerteam. Dabei gehen sie gezielt auf
           deine Fragen ein, wiederholen noch nicht verstandenes
@@ -75,8 +75,6 @@ export default function UX_UI_TrainerTeam() {
           p {
             color: var(--super-white);
             width: 62%;
-            font-size: 1.3rem;
-            line-height: 20px;
           }
 
           figure img {
@@ -182,18 +180,13 @@ export default function UX_UI_TrainerTeam() {
           @media (max-width: 585px) {
             .fsTrainer h2 {
               font-size: 1.8rem;
-              // line-height: 20px;
               margin-bottom: 10px;
             }
             .fsTrainer p {
-              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
-              line-height: 13px;
             }
-            .fsTrainer .txt {
-              line-height: 22px;
-            }
+
             figcaption {
               font-size: 1.2rem;
               color: var(--super-green);
@@ -248,15 +241,8 @@ export default function UX_UI_TrainerTeam() {
               margin-bottom: 0;
             }
             .fsTrainer p {
-              font-size: 0.8rem;
               width: 95%;
               margin-bottom: 3px;
-              line-height: 10px;
-            }
-
-            .fsTrainer .txt {
-              line-height: 18px;
-              font-size: 1rem;
             }
 
             figcaption {

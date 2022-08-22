@@ -70,9 +70,6 @@ const Tagesablauf = (props) => {
                     font-family: "Neue_Machina_Ultrabold";
                     font-size: 25px;
                 }
-                p{
-                    font-size: 25px;
-                }
                 .tagesablauf-wrapper {
                     display: flex;
                     justify-content: center;

@@ -2,7 +2,6 @@ const Zukunft = (props) => {
   return (
     <div id="zukunft">
       <div className="infos">
-        <div className="info-one">
           <h1>
             Denkst du über deine <span>Zukunft</span> nach?
           </h1>
@@ -15,7 +14,6 @@ const Zukunft = (props) => {
             Teste dich, uns und deine Skills in einem unserer kostenlosen
             Workshops!
           </p>
-        </div>
       </div>
       <div className="images">
         <img
@@ -36,14 +34,11 @@ const Zukunft = (props) => {
       <style jsx>{`
         #zukunft {
           color: var(--super-blau);
-          font-family: "Neue_Machina_Regular_400";
           position: relative;
           padding: 100px calc(100vw / 12) 5px calc(100vw / 12);
           background: var(--super-white);
         }
-        h1 {
-          margin: 0;
-        }
+
         h1 span {
           font-weight: 400;
           color: transparent;
@@ -52,40 +47,12 @@ const Zukunft = (props) => {
           -webkit-text-stroke-color: var(--super-blau);
         }
         .infos {
-          display: grid;
-          grid-template-columns: 4.3fr 2.5fr 2.5fr;
-          gap: 20px 30px;
+          width: 50%;
         }
-        .infos > div {
-          display: flex;
-          flex-direction: column;
-          justify-content: flex-end;
-          // align-items: flex-end;
+        .infos p:nth-of-type(1){
+          margin-bottom: 34px;
         }
-        .info-headline {
-          padding: 4rem 2rem 2rem;
-          position: relative;
-        }
-        .lila-box {
-          background: url("/img/Vector60.png") center/100% 100% no-repeat;
-        }
-        .lila-box2 {
-          background: url("/img/Vector61.png") center/100% 100% no-repeat;
-        }
-        // h3 {
-        //   color: var(--super-lila);
-        //   font-size: 1.5em;
-        //   margin: 0;
-        //   font-weight: 200;
-        // }
-        // p {
-        //   font-size: 1.1em;
-        //   font-weight: 200;
-        // }
-        // a {
-        //   color: var(--super-lila);
-        //   text-decoration: none;
-        // }
+
         .images {
           margin-top: calc(100vw / 12 * 1.2);
           padding-bottom: calc(100vw / 12 * 2.6);
@@ -123,21 +90,6 @@ const Zukunft = (props) => {
             font-size: 1.3em;
           }
 
-          .info-headline {
-            margin-top: 0;
-          }
-        }
-        @media (max-width: 863px) {
-          .lila-box {
-            // background: none;
-          }
-          .lila-box2 {
-            // background: none;
-          }
-          .info-headline {
-            // padding: 0;
-            padding: 35px 10px 15px;
-          }
         }
 
         @media (max-width: 768px) {
@@ -151,20 +103,7 @@ const Zukunft = (props) => {
           h3 {
             font-size: 2em;
           }
-          .infos {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            width: 90%;
-            margin: 0 auto;
-          }
-          .info-one,
-          .info-headline {
-            width: auto;
-            margin: 0;
-          }
-          .info-one {
-            grid-column: 1 / span 2;
-          }
+
           .img-two {
             margin-left: calc(100vw / 12 - 30px);
             transform: translateY(-12vh);
@@ -178,9 +117,7 @@ const Zukunft = (props) => {
           h1 {
             width: unset;
           }
-          .infos {
-            grid-template-columns: 1fr;
-          }
+
           .info-one {
             grid-column: auto;
           }
