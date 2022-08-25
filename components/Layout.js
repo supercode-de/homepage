@@ -295,6 +295,7 @@ class Layout extends Component {
 
             #blogDetails .right h1 {
               font-size: 4em;
+              margin-top: 100px;
             }
             #blogDetails .right img {
               width: 100%;
@@ -324,6 +325,7 @@ class Layout extends Component {
               font-size: 1.875rem;
               line-height: normal;
               margin-top: 60px;
+              margin-bottom: 20px;
             }
 
             #blogDetails .right em {

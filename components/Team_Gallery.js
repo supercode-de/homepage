@@ -120,7 +120,6 @@ const Team_Gallery = (props) => {
         .info-text h1 {
           letter-spacing: 2px;
           color: var(--super-lila);
-          margin: 0;
         }
         .super {
           font-weight: 400;
@@ -132,7 +131,9 @@ const Team_Gallery = (props) => {
 
         .info-text p {
           color: var(--super-lila);
-          font-size: 1.2em;
+        }
+        .info-text p:nth-of-type(1) {
+          margin-bottom: 20px;
         }
         .info-img {
           width: 100%;
@@ -185,15 +186,6 @@ const Team_Gallery = (props) => {
           100% {
             transform: rotate(360deg);
           }
-        }
-
-        h2,
-        p {
-          margin: 0;
-          padding: 0;
-        }
-        h2 {
-          margin-top: 0.5em;
         }
 
         .team-carousel {

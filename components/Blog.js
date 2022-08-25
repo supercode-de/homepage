@@ -88,7 +88,6 @@ const Blog = () => {
         .blog-header-container p {
           width: 95%;
           padding-top: 22px;
-          font-size: 1.1rem;
         }
 
         .blog-hi-gallery {
