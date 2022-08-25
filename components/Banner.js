@@ -1,10 +1,9 @@
-// import React from 'react';  brauchen wir nicht oder?
 import Link from "next/link";
 const Banner = () => {
   return (
     <section id="banner">
       <h3>
-        Unsere Anmeldephase läuft. <Link href="/#zukunft">erfahre mehr</Link>
+        Unsere Anmeldephase läuft. <Link href="/#zukunft">Erfahre mehr</Link>
       </h3>
       <style jsx>{`
           #banner {
@@ -19,6 +18,9 @@ const Banner = () => {
             letter-spacing: 1.3px;
           }
           #banner h3 a {
+            color: var(--super-lila);
+          }
+          #erfahre-mehr {
             color: var(--super-lila);
           }
           @media (max-width: 468px) {

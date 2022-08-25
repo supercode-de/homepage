@@ -1,6 +1,6 @@
 import Typeform_neu2022 from './Typeform_neu2022';
 
-const HeaderCallToAction_neu = () => {
+const UXUI_HeaderCTA = () => {
   return (
     <div id="header-call">
       <section className="headerFlex">
@@ -407,4 +407,4 @@ const HeaderCallToAction_neu = () => {
   );
 };
 
-export default HeaderCallToAction_neu;
+export default UXUI_HeaderCTA;

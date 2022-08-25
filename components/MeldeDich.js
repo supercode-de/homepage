@@ -1,4 +1,3 @@
-import Button from "./small/Button";
 import Beratung from "./Beratung";
 import Link from "next/link";
 
@@ -20,11 +19,12 @@ const MeldeDich = () => {
       <style jsx>{`
         #melde-dich {
           background: var(--super-blau);
-          color: #fff;
-          padding: 3em 4em 2em;
+          color: var(--super-white);
+          padding: 9em 4em 6em;
         }
         h1 {
           max-width: 80%;
+          margin-bottom: 3rem;
         }
 
         .melde,
@@ -58,7 +58,7 @@ const MeldeDich = () => {
           letter-spacing: 3px;
           font-weight: 400;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: var(--super-green);
+          -webkit-text-stroke-color: var(--super-white);
         }
 
         span.workshop::after {
@@ -82,7 +82,6 @@ const MeldeDich = () => {
         }
 
         a {
-          font-family: "FiraSans-Regular", sans-serif;
           font-size: 0.875em;
           letter-spacing: 1px;
           text-transform: uppercase;

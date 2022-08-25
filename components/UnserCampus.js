@@ -114,19 +114,7 @@ const UnserCampus = (props) => {
       <style jsx>{`
         #unser-campus {
           position: relative;
-          background-color: #fff;
           color: var(--super-blue);
-          background: linear-gradient(
-              90deg,
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #fff calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #3dd7ac;
-          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         .two-column {
           display: grid;
@@ -141,7 +129,6 @@ const UnserCampus = (props) => {
           margin-top: -25%;
         }
         .text-one {
-          justify-self: center;
           padding-top: 35%;
         }
         h1,

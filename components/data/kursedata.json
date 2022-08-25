@@ -1,15 +1,5 @@
 [
   {
-    "headlines": {
-      "first": "Unsere",
-      "second": "Bootcamps",
-      "third": "& Workshops"
-    },
-    "texte": {
-      "first": "In einem halben Jahr zum Web Developer - geht das überhaupt? Und ob! Durch unsere zertifizierte Intensiv-Weiterbildung wirst du in 5-7 Monaten zum Web Developer Front-end oder Full-Stack und steigerst deine Jobchancen im IT-Bereich. Egal, ob dein Studium nicht mehr zu dir passt, es in deinem Beruf keine Zukunft gibt oder du einfach etwas ganz Neues lernen willst - Wir unterstützen dich!",
-      "second": "Von der Beratung bis zum erfolgreichen Kursabschluss stehst du mit deiner Motivation, deiner Geschichte und deinen Fortschritten bei uns im Mittelpunkt. Mit zwei Trainer*innen pro Kurs, einem durchdachten Lehrplan, modernster Technik und guten Job-Kontakten machen wir dich fit für deine Zukunkt als Web Developer.",
-      "third": "No Money? No Problem! Unsere Kurse können durch die Chancen eG oder einen Bildungsgutschein zu 100% finanziert werden."
-    },
     "kurseIndex": [
       {
         "headline": "Web-Development\nFull-Stack",
@@ -96,7 +86,11 @@
       },
       {
         "headline": "UI/UX-Design",
+<<<<<<< HEAD
         "umfang": "Umfang: 17 Wochen (4 Monate) – Vollzeit",
+=======
+        "umfang": "Umfang: 18 Wochen (4 Monate) – Vollzeit",
+>>>>>>> Dev
         "start": "Start: 28.02.2022 Ende: 03.06.2022",
         "copy": "Dieser Kurs setzt sich aus insgesamt fünf Themenblöcken zusammen, die perfekt ineinander greifen, um dich innerhalb von drei Monaten in Teilzeit/berufsbegleitend zur gefragten Fachkraft im Bereich UX/UI-Design weiterzubilden.",
         "hubspotFormID": "9436fb4b-eec5-4783-a8ab-cbd987650f6e",

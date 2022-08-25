@@ -1,12 +1,11 @@
-import HeaderTeam from "../components/HeaderTeam";
-import Team from "../components/Team";
-import Stellen_test from "../components/Stellen_test"
-import FooterCallToActionTeam from "../components/FooterCallToActionTeam";
+import Layout from "../components/Layout";
+import Team_Header from "../components/Team_Header";
+import Team_Gallery from "../components/Team_Gallery";
+import Team_WerdeTeil from "../components/Team_WerdeTeil";
+import Team_Stellenanzeigen from "../components/Team_Stellenanzeigen"
+import Team_FooterCTA from "../components/Team_FooterCTA";
 
 import { useWindowSize } from "../components/functions/windowSize";
-import Layout from "../components/Layout";
-import WerdeTeilTeam from "../components/WerdeTeilTeam";
-
 export default function Home(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -14,11 +13,11 @@ export default function Home(props) {
       <Layout banner={true}>
         <div className="container">
           <main>
-            <HeaderTeam />
-            <Team />
-            <WerdeTeilTeam />
-            <Stellen_test/>
-            <FooterCallToActionTeam />
+            <Team_Header />
+            <Team_Gallery />
+            <Team_WerdeTeil />
+            <Team_Stellenanzeigen/>
+            <Team_FooterCTA />
           </main>
         </div>
       </Layout>

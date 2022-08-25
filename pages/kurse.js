@@ -1,17 +1,16 @@
-import HeaderKurse_neu from "../components/HeaderKurse_neu";
-import HeaderCallToActionWS_neu from "../components/HeaderCallToActionWS_neu";
-import FEoderFSKurse from "../components/FEoderFSKurse";
-import Bootcamps from "../components/Bootcamps";
-import AuflistungWS from "../components/AuflistungWS";
-import BGSKurse from "../components/BGSKurse";
-import AbsolventenWS_neu_v2 from "../components/AbsolventenWS_neu_v2";
-import UpToDate from "../components/UpToDate";
-import FooterCallToActionKurse from "../components/FooterCallToActionKurse";
-import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
-import dates from "../components/data/dates.json";
-import kurseData from "../components/data/kursedata.json";
+import WS_Header from "../components/WS_Header";
+import WS_HeaderCTA from "../components/WS_HeaderCTA";
+import LerneProgrammieren from "../components/LerneProgrammieren";
+import Bootcamps from "../components/Bootcamps";
+import AuflistungWS from "../components/WS_Auflistung";
+import Kurse_BGS from "../components/Kurse_BGS";
+import Alumni from "../components/Alumni";
+import Newsletter from "../components/Newsletter";
+import Kurse_FooterCTA from "../components/Kurse_FooterCTA";
 
+import kurseData from "../components/data/kursedata.json";
+import { useWindowSize } from "../components/functions/windowSize";
 export default function Workshop() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -19,15 +18,15 @@ export default function Workshop() {
       <Layout>
         <div className="container">
           <main>
-            <HeaderKurse_neu />
-            <HeaderCallToActionWS_neu />
-            <FEoderFSKurse />
+            <WS_Header img="/img/kurse_header.png" kurs="Bootcamps"/>
+            <WS_HeaderCTA />
+            <LerneProgrammieren />
             <Bootcamps kurseData={kurseData[0].kurseKursePage} />
             <AuflistungWS />
-            <BGSKurse />
-            <AbsolventenWS_neu_v2 />
-            <UpToDate />
-            <FooterCallToActionKurse month={dates.WorkshopMonth} bald={true} />
+            <Kurse_BGS />
+            <Alumni />
+            <Newsletter />
+            <Kurse_FooterCTA bgColor="var(--super-white)" color="var(--super-black)"/>
           </main>
         </div>
       </Layout>

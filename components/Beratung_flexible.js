@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-//import './jetzt-anmelden.css'
-
 import HubspotForm from 'react-hubspot-form';
 
 const Beratung_flexible = (props) => {
@@ -87,7 +85,7 @@ const Beratung_flexible = (props) => {
             border-radius: 0;
             padding: 0;
             margin: 0;
-            color: #f0f0f0;
+            color: var(--super-white);
             background: none;
             font-weight: 300;
             font-size: 2.5em;
@@ -112,14 +110,12 @@ const Beratung_flexible = (props) => {
             line-height: 24px;
           }
           span {
-            // color: transparent;
             letter-spacing: 3px;
             -webkit-text-stroke-width: 1.5px;
             -webkit-text-stroke-color: var(--super-green);
           }
 
           .button {
-            font-family: 'FiraSans-Regular', sans-serif;
             font-size: ${props.buttonFontSize};
             letter-spacing: 1px;
             text-transform: uppercase;
@@ -164,7 +160,7 @@ const Beratung_flexible = (props) => {
               border-radius: 0;
               padding: 0;
               margin: 0;
-              color: #f0f0f0;
+              color: var(--super-white);
               background: none;
               font-weight: 300;
               font-size: 4em;

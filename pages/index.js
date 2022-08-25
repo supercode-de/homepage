@@ -1,22 +1,23 @@
 import Head from 'next/head';
-import Header_neu from '../components/Header_neu';
-import HeaderCallToAction_neu from '../components/HeaderCallToAction_neu';
+import Index_Header from '../components/Index_Header';
+import Index_HeaderCTA from '../components/Index_HeaderCTA';
 import Zukunft from '../components/Zukunft';
 import UnserCampus from '../components/UnserCampus';
-import Weiterbildung_neu from '../components/Weiterbildung_neu';
+import Index_Weiterbildung from '../components/Index_Weiterbildung';
 import Bootcamps from '../components/Bootcamps';
 import CertquaBonn from '../components/CertquaBonn';
 import Finanzierung from '../components/Finanzierung';
 import Bewerbungsprozess from '../components/Bewerbungsprozess';
 import MeldeDich from '../components/MeldeDich';
 import FAQ from '../components/FAQ';
-import FooterCallToAction from '../components/FooterCallToAction_Index';
+import Index_FooterCTA from '../components/Index_FooterCTA';
 import Layout from '../components/Layout';
 import kurseData from '../components/data/kursedata.json';
 import useInView from "react-cool-inview";
-import dynamic from 'next/dynamic'
-const Blog_neu = dynamic(() => import('../components/Blog_neu'))
 
+
+import dynamic from 'next/dynamic'
+const Index_Blog = dynamic(() => import('../components/Index_Blog'))
 
 export default function Home(props) {
   if (process.browser) {
@@ -28,11 +29,11 @@ export default function Home(props) {
       <Layout banner={true}>
         <div className='container'>
           <main>
-            <Header_neu />
-            <HeaderCallToAction_neu />
+            <Index_Header />
+            <Index_HeaderCTA />
             <Zukunft />
             <UnserCampus />
-            <Weiterbildung_neu />
+            <Index_Weiterbildung />
             <Bootcamps kurseData={kurseData[0].kurseIndex} />
             <CertquaBonn />
             <Finanzierung />
@@ -46,12 +47,12 @@ export default function Home(props) {
               https://www.better.dev/lazy-loading-next-js 
               um Performance zu verbessern, lazy loading auf die Blog-Componente gesetzt
               wenn es erweitert werden soll:
-              inView && <><Blog_neu /><Components... /></>
+              inView && <><Index_Blog /><Components... /></>
               */}
-              {inView && <Blog_neu />}
+              {inView && <Index_Blog />}
             </div>
             <FAQ />
-            <FooterCallToAction/>
+            <Index_FooterCTA/>
             {/* <Cookies /> */}
           </main>
           <style jsx>{``}</style>

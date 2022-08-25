@@ -1,12 +1,10 @@
-const ImpressumBody = (props) => {
+const ImpressumBody = () => {
   return (
-    <div id='impressum-text ' className='lilaGitter impressum-container'>
+    <section className='impressum-container'>
       <div className='text-body'>
         <div className='block'>
           <p>Anbieter dieser Internetseiten ist die SuperCode GmbH & Co. KG</p>
           <p>hallo@super-code.de</p>
-        </div>
-        <div className='block'>
           <p>Telefon: 0211 7817 2330</p>
         </div>
         <div className='block'>
@@ -16,58 +14,27 @@ const ImpressumBody = (props) => {
         </div>
         <div className='block'>
           <p>
-            Alle Rechte an den Inhalten dieser Webseiten bleiben vorbehalten.
-            Jede kommerzielle Verwertung bedarf der vorherigen Zustimmung des
-            Rechtsinhabers. Diese Internetseite enthält gegebenenfalls
-            Verknüpfungen (Links) zu Internetangeboten Dritter. Wir haben bei
-            Setzen der Verknüpfung keine rechtswidrigen Inhalte des
-            Verknüpfungsziels feststellen können. Für den aktuellen Inhalt und
-            etwaige Änderungen nach Setzen der Verknüpfung können wir keine
-            Gewähr übernehmen.
+            Alle Rechte an den Inhalten dieser Webseiten bleiben vorbehalten. Jede kommerzielle Verwertung bedarf der vorherigen Zustimmung des Rechtsinhabers. Diese Internetseite enthält gegebenenfalls Verknüpfungen (Links) zu Internetangeboten Dritter. Wir haben bei Setzen der Verknüpfung keine rechtswidrigen Inhalte des Verknüpfungsziels feststellen können. Für den aktuellen Inhalt und etwaige Änderungen nach Setzen der Verknüpfung können wir keine Gewähr übernehmen.
           </p>
         </div>
       </div>
       <style jsx>{`
-      .impressum-container {
-        color: #fff;
-      }
-        #impressum-text {
-          position: relative;
-          background-color: #000;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-    transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          back g round-size: calc(100vw / 12) calc(100vw / 12);
-          
+        .impressum-container {
+          color: var(--super-white);
+          background: var(--super-lila);
         }
         .text-body {
           font-size: .8em;
-            width: 85%;
-            margin: 0 auto;
-            padding: 50px 0;
+          width: 85%;
+          margin: 0 auto;
+          padding: 50px 0;
         }
         .block {
           padding: 5px 0
         }
-        .block p {
-          margin: 0;
-        }
-        
-        }
+
       `}</style>
-    </div>
+    </section>
   );
 };
 

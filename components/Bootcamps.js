@@ -1,43 +1,19 @@
-// import Carousel from "react-multi-carousel";
-import kurseData from '../components/data/kursedata.json';
 import KurseCard from './KurseCard';
 const hrefs = ['/kurse/fullstack', '/kurse/frontend', '/kurse/uxui'];
-// console.log(kurseData);
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 3,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 647 },
-    items: 2,
-  },
-  mobile: {
-    breakpoint: { max: 647, min: 0 },
-    items: 1,
-  },
-};
 const Bootcamps = (props) => {
-  // console.log("das sind props", props)
-  // console.log("das sind kursedata: ", kurseData);
-  // console.log(window.location.pathname)
+
   return (
-    <section className='bootcamps lilaGitter'>
+    <section className='bootcamps'>
       <article className='bootcampInfos'>
         <div className='headlines'>
-          <h2>{kurseData[0].headlines.first}</h2>
-          <h2>{kurseData[0].headlines.second}</h2>
-          <h2>{kurseData[0].headlines.third}</h2>
+          <h2>Unsere</h2>
+          <h2>Bootcamps</h2>
+          <h2>& Workshops</h2>
         </div>
         <div className='copy'>
-          <p>{kurseData[0].texte.first}</p>
-          <p>{kurseData[0].texte.second}</p>
-          <p>{kurseData[0].texte.third}</p>
+          <p>In einem halben Jahr zum Web Developer - geht das überhaupt? Und ob! Durch unsere zertifizierte Intensiv-Weiterbildung wirst du in 5-7 Monaten zum Web Developer Front-end oder Full-Stack und steigerst deine Jobchancen im IT-Bereich. Egal, ob dein Studium nicht mehr zu dir passt, es in deinem Beruf keine Zukunft gibt oder du einfach etwas ganz Neues lernen willst - Wir unterstützen dich!</p>
+          <p>Von der Beratung bis zum erfolgreichen Kursabschluss stehst du mit deiner Motivation, deiner Geschichte und deinen Fortschritten bei uns im Mittelpunkt. Mit zwei Trainer*innen pro Kurs, einem durchdachten Lehrplan, modernster Technik und guten Job-Kontakten machen wir dich fit für deine Zukunkt als Web Developer.</p>
+          <p>No Money? No Problem! Unsere Kurse können durch die Chancen eG oder einen Bildungsgutschein zu 100% finanziert werden.</p>
         </div>
       </article>
 
@@ -47,34 +23,12 @@ const Bootcamps = (props) => {
         ))}
       </section>
 
-      {/* Das Carousel scheint Probleme zu haben mit dem Hubspot/Typeform Kram, daher bleibt es erstmal auskommentiert */}
-
-      {/* <section className="kurse-carousel">
-                <Carousel
-                    responsive={responsive}
-                    ssr
-                    renderButtonGroupOutside={true}
-                    showDots={false}
-                    slidesToSlide={1}
-                    infinite
-                    containerClass="container-with-dots"
-                    itemClass="image-item"
-                    deviceType={""}
-                    swipeable
-                >
-                    <section className="cards">
-                        {props.kurseData.map((item, index) => <KurseCard key={index} data={item} />)}
-                    </section>
-                </Carousel>
-            </section> */}
-
       <style jsx>{`
           .bootcamps {
             color: var(--super-white);
+            background: var(--super-lila);
           }
-          h2 {
-            margin: 0;
-          }
+
           .bootcampInfos > * {
             width: 100%;
           }
@@ -91,9 +45,9 @@ const Bootcamps = (props) => {
             width: 90%;
             margin: 0 auto;
           }
-          // .kurse-carousel {
-          //     padding: 5rem 0;
-          // }
+          .copy p:not(.copy p:nth-of-type(3)) {
+            margin-bottom: 2rem;
+          }
           .copy p:nth-of-type(3) {
             font-family: 'Neue_Machina_Ultrabold';
           }

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-//import './jetzt-anmelden.css'
 
 import HubspotForm from 'react-hubspot-form';
 
@@ -87,7 +86,7 @@ const Beratung = (props) => {
             border-radius: 0;
             padding: 0;
             margin: 0;
-            color: #f0f0f0;
+            color: var(--super-white);
             background: none;
             font-weight: 300;
             font-size: 2.5em;
@@ -119,8 +118,7 @@ const Beratung = (props) => {
           }
 
           .button {
-            font-family: 'FiraSans-Regular', sans-serif;
-            font-size: 15px;
+            font-size: 14px;
             letter-spacing: 1px;
             text-transform: uppercase;
             padding: 15px 0px;

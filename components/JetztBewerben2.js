@@ -82,7 +82,6 @@ class JetztBewerben2 extends Component {
           }
           .button-HeaderCallToAction {
             margin: 2em 1em;
-            font-family: "FiraSans-Regular", sans-serif;
             font-size: 14px;
             line-height: 16px;
             text-align: center;
@@ -91,7 +90,7 @@ class JetztBewerben2 extends Component {
             padding: 15px 0px;
             background: transparent;
             border: 2px solid var(--super-green);
-            color: #fff;
+            color: var(--super-white);
             justify-self: center;
             display: inline-block;
             width: 100%;
@@ -111,7 +110,7 @@ class JetztBewerben2 extends Component {
             border-radius: 0;
             padding: 0;
             margin: 0;
-            color: #f0f0f0;
+            color: var(--super-white);
             background: none;
             font-weight: 300;
             font-size: 2.5em;

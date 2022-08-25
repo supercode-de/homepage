@@ -1,16 +1,7 @@
-import Telefon from "./small/Telefon";
 import Beratung_flexible from "./Beratung_flexible";
 import Curriculum from "./Curriculum_Popup";
 import kurseData from "../components/data/kursedata.json";
 import { useState } from "react";
-import {
-  Accordion,
-  AccordionItem,
-  AccordionItemHeading,
-  AccordionItemButton,
-  AccordionItemPanel,
-} from "react-accessible-accordion";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Accordion_uxui from "./Accordion_uxui";
 
 const UX_UI_Praxis = () => {
@@ -20,7 +11,7 @@ const UX_UI_Praxis = () => {
   const [text4, setText4] = useState(false);
   const [text5, setText5] = useState(false);
 
-  const [getJobImg, setGetJobImg] = useState("/img/getJob.svg");
+  const [getJobImg, setGetJobImg] = useState("/img/uxui_Portfolio-1Wochen.svg");
   const [getJobActive, setGetJobActive] = useState(false);
 
   const showText = (e) => {
@@ -66,7 +57,7 @@ const UX_UI_Praxis = () => {
     }
   };
   return (
-    <section className="fsPraxis whiteGreenDots">
+    <section className="fsPraxis">
       <div className="praxisInfos">
         <h2 className="letterstroke">Mit UX und UI zur</h2>
         <h2>optimalen User-Experience</h2>
@@ -92,7 +83,7 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text1"
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/getJob.svg");
+                setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
                 setGetJobActive(false);
               }}
             >
@@ -103,7 +94,7 @@ const UX_UI_Praxis = () => {
                 }}
               >
                 <div className="text1" id="st-arrowImg">
-                  <img src="/img/Group212.svg" alt="" className="text1" />
+                  <img src="/img/uxui_grundlagen.svg" alt="" className="text1" />
                 </div>
                 <div className="inner-bar inner-bar1"></div>
               </div>
@@ -112,7 +103,7 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text2"
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/getJob.svg");
+                setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
                 setGetJobActive(false);
               }}
             >
@@ -124,7 +115,7 @@ const UX_UI_Praxis = () => {
               >
                 <div className="verstehenAnwenden text2">
                   <img
-                    src="/img/verstehenundanwenden.svg"
+                    src="/img/uxui_UXDesign-6Wochen.svg"
                     alt=""
                     className="text2"
                   />
@@ -137,7 +128,7 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text3"
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/getJob.svg");
+                setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
                 setGetJobActive(false);
               }}
             >
@@ -151,12 +142,12 @@ const UX_UI_Praxis = () => {
                   className="gestaltungBenutzeroberflächen text3"
                   onClick={(e) => {
                     showText(e);
-                    setGetJobImg("/img/getJob.svg");
+                    setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
                     setGetJobActive(false);
                   }}
                 >
                   <img
-                    src="/img/gestaltungBenutzeroberflächen.svg"
+                    src="/img/uxui_UIDesign-5Wochen.svg"
                     alt=""
                     className="text3"
                   />
@@ -168,13 +159,13 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text4"
               onMouseOut={() =>
                 getJobActive
-                  ? setGetJobImg("/img/getJobwhite.svg")
-                  : setGetJobImg("/img/getJob.svg")
+                  ? setGetJobImg("/img/uxui_Portfolio-1WochenWhite.svg")
+                  : setGetJobImg("/img/uxui_Portfolio-1Wochen.svg")
               }
-              onMouseOver={() => setGetJobImg("/img/getJobwhite.svg")}
+              onMouseOver={() => setGetJobImg("/img/uxui_Portfolio-1WochenWhite.svg")}
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/getJobwhite.svg");
+                setGetJobImg("/img/uxui_Portfolio-1WochenWhite.svg");
                 setGetJobActive(true);
               }}
             >
@@ -185,17 +176,17 @@ const UX_UI_Praxis = () => {
                 }}
                 onClick={(e) => {
                   showText(e);
-                  setGetJobImg("/img/getJobwhite.svg");
+                  setGetJobImg("/img/uxui_Portfolio-1WochenWhite.svg");
                   setGetJobActive(true);
                 }}
               >
                 <div
                   className="getJob text4"
-                  // onMouseOut={() => setGetJobImg('/img/getJob.svg')}
+                  // onMouseOut={() => setGetJobImg('/img/uxui_Portfolio-1Wochen.svg')}
                   // onMouseOver={() => setGetJobImg('/img/getJobwhite.svg')}
                   onClick={(e) => {
                     showText(e);
-                    setGetJobImg("/img/getJobwhite.svg");
+                    setGetJobImg("/img/uxui_Portfolio-1WochenWhite.svg");
                     setGetJobActive(true);
                   }}
                 >
@@ -203,11 +194,11 @@ const UX_UI_Praxis = () => {
                     src={getJobImg}
                     alt=""
                     className="text4"
-                    // onMouseOut={() => setGetJobImg('/img/getJob.svg')}
+                    // onMouseOut={() => setGetJobImg('/img/uxui_Portfolio-1Wochen.svg')}
                     // onMouseOver={() => setGetJobImg('/img/getJobwhite.svg')}
                     onClick={(e) => {
                       showText(e);
-                      setGetJobImg("/img/getJobwhite.svg");
+                      setGetJobImg("/img/uxui_Portfolio-1WochenWhite.svg");
                       setGetJobActive(true);
                     }}
                   />
@@ -216,7 +207,7 @@ const UX_UI_Praxis = () => {
                   className="inner-bar inner-bar4"
                   onClick={(e) => {
                     showText(e);
-                    setGetJobImg("/img/getJobwhite.svg");
+                    setGetJobImg("/img/uxui_Portfolio-1WochenWhite.svg");
                     setGetJobActive(true);
                   }}
                 ></div>
@@ -226,7 +217,7 @@ const UX_UI_Praxis = () => {
               className="bar-wrapper text5"
               onClick={(e) => {
                 showText(e);
-                setGetJobImg("/img/getJob.svg");
+                setGetJobImg("/img/uxui_Portfolio-1Wochen.svg");
                 setGetJobActive(false);
               }}
             >
@@ -237,7 +228,7 @@ const UX_UI_Praxis = () => {
                 }}
               >
                 <div className="text5" id="nd-arrowImg">
-                  <img src="/img/Group214.svg" alt="" className="text5" />
+                  <img src="/img/uxui_abschlussprojekt.svg" alt="" className="text5" />
                 </div>
                 <div className="inner-bar inner-bar5"></div>
               </div>
@@ -247,60 +238,46 @@ const UX_UI_Praxis = () => {
             {text1 && (
               <div>
                 <h3 className="colorHeader1">
-                  <span>UX/UI: </span> Design-
-                  <br /> Preparation
+                  Grundlagen
+                  <br /> visuelles Design
                 </h3>
                 <p>
-                  Unterschiede, Nutzen & Entstehung, Grundlagen des Design
-                  Thinking, Anwendungsgebiete, Best practice Beispiel-Webseiten,
-                  UX-Communities, Responsive Design & Mobile first,
-                  Produktionszyklus für Digitalprodukte
+                  Erlerne die grundlegenden Funktionen von Adobe® Illustrator® & Photoshop® durch die praxisnahe Anwendung. Bei der Erstellung von vektorbasierten Grafiken oder dem Aufbau von Flyern und Postern, wendet ihr die erlernte Theorie direkt an. Neben der professionellen Bildbearbeitung lernt ihr die Grundlagen zu Produktionsvorbereitung von Daten und die Ausgabe auf verschiedenen Medien.
                 </p>
-                <p>Tools: Figma, Trello</p>
+                <p>Tools: Adobe® Illustrator® / Photoshop®</p>
               </div>
             )}
 
             {text2 && (
               <div>
                 <h3 className="colorHeader3">
-                  {" "}
-                  <span>UX:</span> Verstehen und anwenden{" "}
+                  UX:Verstehen und anwenden
                 </h3>
                 <p>
-                  Prinzipien des benutzerzentrierten Designs, Projektarbeit:
-                  Anwendung von Design Thinking / agilen Methoden /
-                  Design-Sprints / Mindset entwickeln, User-Research /
-                  UX-Forschungsmethoden, UX-Methoden / Fachbegriffe und
-                  Definitionen (z.B. : Pain-Points, User-Stories, User Journey
-                  etc.) Low-Fidelity- und High-Fidelity-Design, Praxisübungen
-                  für Prototyping / Wireframing & Erstellung eines interaktiven
-                  Prototypen in <br /> Figma, Präsentationen mit Erklärungen
+                  Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und wende unsere Methoden praxisnahe an, um erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen in Figma zu erstellen.
                 </p>
+                <p>Tools: Figma / Discord</p>
               </div>
             )}
             {text3 && (
               <div>
                 <h3 className="colorHeader2">
-                  <span> UI:</span> Gestaltung von Benutzeroberflächen
+                  UI: Gestaltung von Benutzeroberflächen
                 </h3>
                 <p>
-                  Branding- und Design-Grundlagen für UI: Stylescape, UI-Typo
-                  als Praxisaufgabe, Designkonzept Webdesign, Accessibility (&
-                  Usability) Praxisprojekte: Designerstellung mit Figma
-                  (Komponenten / Grid & Raster / Responsive Design &
-                  Designsysteme, ggf. Animations)
+                  Erlernen alle UI-Design Fähigkeiten und meistere die Gestaltung schöner und funktionaler Oberflächen in Figma. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.
                 </p>
+                <p>Tools: Figma / Discord</p>
               </div>
             )}
             {text4 && (
               <div>
                 <h3 className="colorHeader4">
-                  {" "}
-                  <span>Plus Skills / Portfolio</span>{" "}
+                  Plus Skills / Portfolio
                 </h3>
                 <p>
                   Learn to learn, Presentation Basics, Portfolio Work
-                                  </p>
+                </p>
               </div>
             )}
             {text5 && (
@@ -331,6 +308,7 @@ const UX_UI_Praxis = () => {
             buttonText="Curriculum"
             buttonWidth="150px"
             hubspot={kurseData[0].kurseKursePage[2].hubspotFormID}
+            buttonColor="var(--super-black)"
           />
           <Beratung_flexible
             buttonText={"BERATUNG"}
@@ -340,22 +318,17 @@ const UX_UI_Praxis = () => {
           />
         </div>
       </div>
-      <style jsx>
-        {`
-          // .accord-con {
-          //   z-index: 99;
-          // }
+      <style jsx>{`
+
           .fsPraxis {
             padding: 40px 0 40px 2%;
           }
-          // .fsPraxis h2 {
-          //   font-size: 4rem;
-          // }
+
           .fsPraxis p {
             width: 65%;
-            font-size: 1.3rem;
-            font-weight: 300;
-            line-height: 20px;
+          }
+          .fsPraxis p:nth-of-type(1) {
+            margin-bottom: 20px;
           }
           .praxis-Img {
             width: 90%;
@@ -408,6 +381,10 @@ const UX_UI_Praxis = () => {
           #st-arrowImg {
             position: absolute;
             left: 120%;
+            width: 270px;
+          }
+          #st-arrowImg > img {
+            width: 100%;
           }
           #st-arrowImg:hover {
             cursor: pointer;
@@ -423,14 +400,16 @@ const UX_UI_Praxis = () => {
           .circle {
             position: relative;
           }
-          .verstehenAnwenden {
+          .verstehenAnwenden,
+          .gestaltungBenutzeroberflächen {
             position: absolute;
             z-index: 2;
-            width: 45%;
-            top: 20%;
-            right: 7%;
+            width: 26%;
+            top: 25%;
+            right: 4%;
           }
-          .verstehenAnwenden > img {
+          .verstehenAnwenden > img,
+          .gestaltungBenutzeroberflächen > img {
             width: 100%;
           }
           .bar3 .inner-bar {
@@ -441,19 +420,8 @@ const UX_UI_Praxis = () => {
             width: 70%;
           }
 
-          .gestaltungBenutzeroberflächen {
-            position: absolute;
-            z-index: 2;
-            width: 47%;
-            top: 20%;
-            right: 7%;
-          }
-          .gestaltungBenutzeroberflächen > img {
-            width: 100%;
-          }
-
           .bar4 .inner-bar {
-            background-color: #000;
+            background-color: var(--super-black);
           }
           .bar4 {
             border: 6px solid var(--super-black);
@@ -463,9 +431,9 @@ const UX_UI_Praxis = () => {
           .getJob {
             position: absolute;
             z-index: 2;
-            top: 35%;
-            width: 100%;
-            left: 10%;
+            top: 25%;
+            width: 102%;
+            left: 12%;
           }
 
           .getJob img {
@@ -505,20 +473,6 @@ const UX_UI_Praxis = () => {
           }
 
           //=========================
-
-          h2 {
-            font-size: 4rem;
-            font-family: "Neue_Machina_Light";
-            color: #03000f;
-            margin: 0;
-            line-height: 50px;
-          }
-          p {
-            color: #121e28;
-            // width: 55%;
-            font-size: 1.563rem;
-            font-weight: 300;
-          }
           .praxisInfos,
           .plus-skills-infos {
             margin: 5rem;
@@ -527,31 +481,22 @@ const UX_UI_Praxis = () => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color: #03000f;
+            -webkit-text-stroke-color: var(--super-black);
             font-weight: 300;
           }
           .neugierCTA {
             display: block;
             position: relative;
           }
-          .neugierCTA h2 {
-            font-size: 3rem;
-            width: 80%;
-            margin-top: 125px;
-            margin-bottom: 30px;
-            padding-left: 5%;
-          }
+
           .fsPraxis .neugierCTA_txt {
             font-family: "Neue_Machina_Light";
-            // color: #989898;
-            font-size: 3.3rem;
+            font-size: 5rem;
             width: 80%;
-            color: #121e28;
-            margin-top: 125px;
+            margin-top: 150px;
             margin-bottom: 30px;
             padding-left: 5%;
-            line-height: 50px;
-            font-weight: 200;
+
           }
           .buttons {
             display: flex;
@@ -572,19 +517,7 @@ const UX_UI_Praxis = () => {
             transform: scale(1.1, 0.6);
             display: block;
           }
-          // @media (max-width: 1440px) {
-          //   .neugierCTA p span.circle::after {
-          //     position: absolute;
-          //     background: url('/img/Vector64.svg') center/contain no-repeat;
-          //     height: 336%;
-          //     width: 103%;
-          //     right: -9%;
-          //     bottom: -110%;
-          //     content: '';
-          //     transform: scale(1.1, 0.6);
-          //     display: block;
-          //   }
-          // }
+
           @media (max-width: 1040px) {
             .fsPraxis p {
               font-size: 1.2rem;
@@ -617,53 +550,38 @@ const UX_UI_Praxis = () => {
             font-size: 1.2rem;
           }
           .colorHeader1 {
-            color: var(--super-lila);
             font-size: 3rem;
             margin-bottom: 0;
-
-            transition: all 1s;
-          }
-
-          .colorHeader1 span {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--super-lila);
             font-weight: 300;
+            transition: all 1s;
           }
+
           .colorHeader2 {
-            color: var(--super-yellow);
             font-size: 3rem;
             margin-bottom: 0;
-          }
-          .colorHeader2 span {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--super-yellow);
             font-weight: 300;
           }
-
           .colorHeader3 {
-            color: var(--super-green);
             font-size: 3rem;
             margin-bottom: 0;
-          }
-
-          .colorHeader3 span {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--super-green);
             font-weight: 300;
           }
+
           .colorHeader4 {
-            color: var(--super-black);
             font-size: 3rem;
             margin-bottom: 0;
-          }
-
-          .colorHeader4 span {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;

@@ -1,6 +1,7 @@
 import Layout from '../components/Layout';
-import LeitBildBody from '../components/LeitBildBody';
-import Leitbild_Impressum_header from '../components/Leitbild_Impressum_Header';
+
+import Header_Subpages from '../components/Header_Subpages';
+import Leitbild_Body from '../components/Leitbild_Body';
 
 export default function Home(props) {
   if (process.browser) {
@@ -8,8 +9,8 @@ export default function Home(props) {
       <Layout banner={true}>
         <div className='container'>
           <main>
-            <Leitbild_Impressum_header headline='Leitbild' />
-            <LeitBildBody />
+            <Header_Subpages headline='Leitbild' />
+            <Leitbild_Body />
           </main>
           <style jsx>{``}</style>
         </div>

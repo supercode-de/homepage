@@ -7,10 +7,7 @@ const BlogDetails = (props) => {
   return (
     <div id="blogDetails" className={`blackGitter ${props.klasse}`}>
       <section>
-        {/* <article className='left'>
-          <h1>{props.title.main}</h1>
-          <h2>{props.title.sub}</h2>
-        </article> */}
+
         <article className="right">
           <p>
             <ReactMarkdown>{props.text}</ReactMarkdown>

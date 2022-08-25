@@ -33,11 +33,7 @@ const Finanzierung = (props) => {
           #finanzierung {
             background: url("./img/Gold-Chain.png") top right/contain no-repeat, var(--super-blau);
             color: var(--super-white);
-            padding: 50px 6%; 
-          }
-          h2 {
-            color: var(--super-lila);
-            margin-bottom: 5rem;
+            padding: 68px 6%; 
           }
 
           span.stroke {
@@ -50,15 +46,15 @@ const Finanzierung = (props) => {
           }
 
           .infos {
-            // width: 80%;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 40px;
+            margin-top: 100px;
           }
           .info-headline h3 {
             color: var(--super-lila);
-            font-size: 1.5em;
-            font-weight: 300;
+            font-size: 2em;
+            margin-bottom: 36px;
           }
           .info-headline p {
             color: var(--super-green); 

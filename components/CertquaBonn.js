@@ -9,31 +9,43 @@ const CertquaBonn = () => {
         Teams.”
       </h2>
 
-      <div>
-        <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
-        <p>- Certqua Bonn</p>
-        <p>CERTQUA ist eine durch die Deutsche Akkreditierungsstelle GmbH (DAkkS) akkreditierte Zertifizierungsstelle für Managementsysteme sowie für die Zulassung von Trägern und Maßnahmen nach der Akkreditierungs- und Zulassungsverordnung Arbeitsförderung - AZAV.</p>
+      <div className="certqua-wrapper">
+        <div className="certqua">
+          <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
+          <p>– Certqua Bonn</p>
+        </div>
+        <div className="certqua-text">
+          <p>CERTQUA ist eine durch die Deutsche Akkreditierungsstelle GmbH (DAkkS) akkreditierte Zertifizierungsstelle für Managementsysteme sowie für die Zulassung von Trägern und Maßnahmen nach der Akkreditierungs- und Zulassungsverordnung Arbeitsförderung - AZAV.</p>
+        </div>
       </div>
 
       <style jsx>{`
         #header-call {
-          background: #fff;
           color: var(--super-lila);
-          font-family: "Neue_Machina_Regular_400";
-          padding: 3rem 6.5%;
+          padding: 7.25rem 6.5%;
         }
-        #header-call div {
+
+        h2 {
+          font-size: 3.125rem;
+          line-height: 133%;
+          margin-bottom: 26px;
+        }
+        p {
+          color: var(--super-green);
+        }
+        .certqua-wrapper, 
+        .certqua {
           display: flex;
           align-items: center;
         }
-        h2 {
-          font-size: 2.5rem;
+        .certqua {
+          gap: 20px;
         }
-        p {
-          margin-left: 2%;
-          color: var(--super-green);
+        .certqua-wrapper {
+          justify-content: space-between;
         }
-        p:nth-of-type(2) {
+
+        .certqua-text {
           width: 70%;
         }
         
@@ -45,6 +57,9 @@ const CertquaBonn = () => {
         @media (max-width: 768px) {
           h2 {
             font-size: 2em;
+          }
+          .certqua-wrapper {
+            display: block;
           }
         }
         @media (max-width: 468px) {
@@ -63,10 +78,7 @@ const CertquaBonn = () => {
             width: 100%;
           }
       }
-        @media (max-width: 320px) {
-          h2 {
-          }
-        }
+
       `}</style>
     </div>
   );

@@ -1,20 +1,20 @@
 import data from "./data/team.json";
 export default function UX_UI_TrainerTeam() {
   return (
-    <section className="fsTrainer blackGitter">
+    <section className="fsTrainer">
       <div className="trainerinfos">
         <h2>
           <span>Super</span>
           Trainer*innen
         </h2>
-        <p className="txt">
+        <p>
           Unsere Trainer*innen sind praxiserfahrene UX/UI-Designer*innen, die
           sich laufend fachlich und pädagogisch fortbilden. Durch unseren
           Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich an den
           vollen Tagen, wirst du spielerisch UX/UI-Design lernen und deine
           eigenen Prototypen bauen.
         </p>
-        <p className="txt">
+        <p>
           Ergänzend zum Training im Bootcamp bieten wir individuelle
           One-to-One-Termine mit dem Trainerteam. Dabei gehen sie gezielt auf
           deine Fragen ein, wiederholen noch nicht verstandenes
@@ -50,8 +50,7 @@ export default function UX_UI_TrainerTeam() {
           .fsTrainer {
             padding: 40px 0 170px 6%;
             width: 100%;
-
-            // overflow: hidden;
+            background: var(--super-black);
           }
 
           .gridItem {
@@ -61,7 +60,7 @@ export default function UX_UI_TrainerTeam() {
           }
           .fsTrainer h2 {
             font-size: 5rem;
-            color: #fff;
+            color: var(--super-white);
             margin-bottom: 5rem;
             position: relative;
             z-index: 0;
@@ -71,13 +70,11 @@ export default function UX_UI_TrainerTeam() {
             display: block;
             color: transparent;
             -webkit-text-stroke-width: 0.4px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: var(--super-white);
           }
           p {
-            color: #fff;
+            color: var(--super-white);
             width: 62%;
-            font-size: 1.3rem;
-            line-height: 20px;
           }
 
           figure img {
@@ -183,18 +180,13 @@ export default function UX_UI_TrainerTeam() {
           @media (max-width: 585px) {
             .fsTrainer h2 {
               font-size: 1.8rem;
-              // line-height: 20px;
               margin-bottom: 10px;
             }
             .fsTrainer p {
-              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
-              line-height: 13px;
             }
-            .fsTrainer .txt {
-              line-height: 22px;
-            }
+
             figcaption {
               font-size: 1.2rem;
               color: var(--super-green);
@@ -249,15 +241,8 @@ export default function UX_UI_TrainerTeam() {
               margin-bottom: 0;
             }
             .fsTrainer p {
-              font-size: 0.8rem;
               width: 95%;
               margin-bottom: 3px;
-              line-height: 10px;
-            }
-
-            .fsTrainer .txt {
-              line-height: 18px;
-              font-size: 1rem;
             }
 
             figcaption {

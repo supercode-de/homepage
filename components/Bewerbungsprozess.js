@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { Component } from "react";
 
-import JetztAnmdelden from "./JetztAnmelden";
+import JetztAnmelden from "./JetztAnmelden";
 
 class Bewerbungsprozess extends Component {
   constructor(props) {
@@ -17,9 +17,9 @@ class Bewerbungsprozess extends Component {
 
   render() {
     return (
-      <div id="bewerbungsprozess" className="lilaGitter">
+      <div id="bewerbungsprozess">
         {this.props.oneComponent ? null : (
-          <JetztAnmdelden
+          <JetztAnmelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}
           />
@@ -105,16 +105,21 @@ class Bewerbungsprozess extends Component {
         </div>
 
         <style jsx>{`
+            #bewerbungsprozess {
+              padding: 5em 8%;
+              position: relative;
+              background: var(--super-lila);
+            }
             .flex {
               display: flex;
               font-size: 3.5em;
-              color: #fff;
+              color: var(--super-white);
               line-height: 1.2em;
               position: relative;
               z-index: 1;
             }
             .center h2 {
-              color: #fff;
+              color: var(--super-white);
             }
             .center h2 span {
               display: block;
@@ -122,23 +127,18 @@ class Bewerbungsprozess extends Component {
               font-weight: 400;
               letter-spacing: 3px;
               -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: #ffffff;
+              -webkit-text-stroke-color: var(--super-white);
             }
 
             .aside {
+              font-size: 0.9rem;
               position: absolute;
               transform: rotate(-90deg);
-              transform-origin: left;
-              color: #fff;
-              left: 3%;
-              top: 60%;
-              letter-spacing: 3px;
-              color: #ffffff;
+              left: 0%;
+              top: 50%;
+              color: var(--super-white);
             }
-            #bewerbungsprozess {
-              padding: 5em 8%;
-              position: relative;
-            }
+
             .twocolumn {
               display: grid;
               grid-template-columns: 100%;

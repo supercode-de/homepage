@@ -1,16 +1,13 @@
-import Header404_neu from "../components/Header404_neu";
-
-import { useWindowSize } from "../components/functions/windowSize";
+import Header404 from "../components/Header404.js";
 import Layout from "../components/Layout";
 
 export default function Custom404() {
   if (process.browser) {
-    const width = useWindowSize().width / 12;
     return (
       <Layout>
         <div className="container">
           <main>
-            <Header404_neu />
+            <Header404 />
           </main>
         </div>
       </Layout>

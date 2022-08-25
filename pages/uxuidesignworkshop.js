@@ -1,16 +1,16 @@
-import Layout_workshop from '../components/Layout_workshop';
+import Layout from '../components/Layout';
 import { useWindowSize } from '../components/functions/windowSize';
 import HubspotForm from 'react-hubspot-form';
-import Telefon from '../components/small/Telefon';
+import TelefonAside from '../components/small/TelefonAside';
 
 export default function Workshop() {
   const pixelSize = 1;
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout_workshop>
+      <Layout>
         <div id='headr'>
-          <header className=''>
+          <header>
 
             <h1 className='headline'>
               <span className='stroke'>Yeah!</span>
@@ -47,12 +47,10 @@ export default function Workshop() {
               </div>
             </article>
             <h3 className='ps'>
-              PS: Am besten lässt du dein Mirkofon auf stumm und aktivierst es
-              wenn du etwas sagen möchtest.
+              PS: Am besten lässt du dein Mikrofon auf stumm und aktivierst es erst, wenn du etwas sagen möchtest.
             </h3>
           </section>
-          {/* <div className="aside">📞 +49 211 7817 233-0</div> */}
-          <Telefon color='#fff' />
+          <TelefonAside/>
         </div>
         <div id='arrow-img'>
           <img src='/img/Arrow24.svg' alt='' />
@@ -77,375 +75,173 @@ export default function Workshop() {
               loading={<div>Loading...</div>}
             />
           </div>
-          <div className='test'></div>
+
         </div>
-        {/* <section className='footerCTA'>
-          <h2>Worauf wartest du noch? Die nächsten Kurse starten bald. </h2>
-          <div className='buttons'>
-            <Beratung_flexible
-              buttonText='KONTAKT'
-              buttonTextColor='#fff'
-              buttonWidth='200px'
-            />
-            <Link href='https://www.super-code.de/'>
-              <button className='website'> Website</button>
-            </Link>
-          </div>
-        </section> */}
         <style jsx>{`
-        * {
-          font-family: "Neue_Machina_Regular_400";
-        }
-        .test{
-            width:100%;
-            position:absolute;
-        }
-        #arrow-img{
+          #arrow-img{
             position:absolute;
             z-index:3;
-           bottom:-750px;
-       
+            bottom:-566px;
           }
           #hier{
-              font-size:1.6rem;
-              color:#000;
+            font-size:1.6rem;
+            color: var(--super-black);
           }
-        header{
-          padding:100px 0;
-          text-align:center;
-        
-        }
-        header {
-            padding: 40px 0 40px 5%;
-            font-family: 'Neue_Machina_Regular_400';
-            position: relative;
-            background-color: var(--super-green);
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
+          header{
+            padding: 15rem 0;
+            text-align: center;
+            background-color: var(--super-lila);
+          }
+          header h2{
+            font-size:1.8rem;
+            color:var(--super-white);
+          }
+          .headline .stroke{
+            color: black;
+            font-size:7.5rem;
+            margin-top:0;
+          }
+          .willkommen{
+            color:var(--super-green);
+            font-size:8rem;
+          }
+          .headline .stroke{
+            color: transparent;
+            letter-spacing: 3px;
+            -webkit-text-stroke-width: 0.1px;
+            -webkit-text-stroke-color: var(--super-green);
+          }
+          .after-span {
+            padding-bottom: 2rem;
+            padding-right: 2rem;
+            display:inline-block;
+            position:relative;
+          }
+          .willkommen .after-span {
+            content: '';
+            background: url('/img/vector127.svg') 0px 120px / contain no-repeat;
+          }
+          .headerCTA{
+            color: var(--super-white);
+            background: var(--super-black);
+            padding: 120px 0;
+          }
+          .headerCTA #reibungslos{
+            font-size:2.1rem;
+            padding-left:2%;
+            width:90%;
+            margin:auto;
+            margin-bottom:40px;
+          }
+          .headerCTA article{
+            display:flex;
+            justify-content:space-between;
           }
 
-        header h2{
-          font-size:1.8rem;
-          color:#fff;
-          position:relative;
-          top:-45px;
-        }
-        .headline .stroke{
-        color: black;
-          font-size:7.5rem;
-          margin-top:0;
-          position:relative;
-          top:100px;
-        }
-        .willkommen{
-          color:var(--super-yellow);
-          font-size:8rem;
-          font-family:"Neue_Machina_Ultrabold"
-          font-weight:ultra-bold;
-        }
-        .headline .stroke{
-              color: transparent;
-              letter-spacing: 3px;
-              -webkit-text-stroke-width: 0.1px;
-              -webkit-text-stroke-color: var(--super-yellow);
-        }
-        .after-span {
-          padding-bottom: 2rem;
-          padding-right: 2rem;
-          display:inline-block;
-          position:relative;
-         
-        }
-        .willkommen .after-span {
-          content: '';
-          background: url('/img/stricheWeiss.svg') 0px 120px / contain no-repeat;
-        }
-        .strich {
-          padding-bottom: 2rem;
-          padding-right: 0.6rem;
-          display:inline-block;
-          position:relative;
-          
-          content: '';
-          background: url('/img/striche.svg') -7px 30px / contain no-repeat;
-        }
-     
-        .headerCTA{
-          color:#fff;
-          background: var(--super-black);
-          padding: 120px 0;
-        }
-        .headerCTA #reibungslos{
-          // font-family: "Neue_Machina_Regular_400"
-          font-size:2.1rem;
-          padding-left:2%;
-          width:90%;
-          margin:auto;
-          margin-bottom:40px;
-          
-         
-      
-        }
-        .headerCTA article{
-      display:flex;
-      justify-content:space-between;
-     
-      
-        }
-
-        .ps{
+          .ps{
             width:85%;
             margin:auto;
             font-size:1.3rem;
             margin-top:30px;
-        }
-        .headerCTA article div{
-    width:50%;
-    padding-left:5%;
-    
-        }
-        .headerCTA article h3{
-     font-size:2rem;
-    
-        }
-        .headerCTA article h3 a{
-     color:#fff;
-    
-        }
-
-        #index-finger{
-          font-size: 4rem;
-          position:relative;
-          top:50px;
-        }
-        .footerCTA{
-          color:#fff;
-          background: var(--super-lila);
-          padding: 120px 0;
-        }
-        .footerCTA h2{
-        
-           font-size: 3.3rem;
-           width:80%;
-           margin:auto;
-         
-        }
-
-        .circle {
-          position: relative;
-        }
-        .circle::after {
-          position: absolute;
-          background: url('/img/Vector64.svg') center/contain no-repeat;
-          height: 285%;
-          width: 100%;
-          right: 2%;
-          bottom: -81%;
-          content: '';
-          display: block;
-        }
-
-        .website {
-          font-family: 'FiraSans-Regular', sans-serif;
-          font-size: 15px;
-          letter-spacing: 1px;
-          text-transform: uppercase;
-          padding: 10px 0px;
-          background: transparent;
-          border: 1px solid var(--super-green);
-         
-          color: #fff;
-          justify-self: center;
-          display: inline-block;
-          min-width: 200px;
-          width: 50px;
-        }
-        .website:hover {
-          color: var(--super-lila);
-          background: var(--super-green);
-          cursor: pointer;
-        }
-        .buttons{
-          display:flex;
-          justifiy-content: center;
-        padding-left:60%;
-        margin-:auto;
-        text-align:right;
-        }
-        //=========== Alter Code ========
-        #header {
-            background:       linear-gradient(90deg, #03000F ${
-              width - pixelSize
-            }px,
-                              transparent 1%),
-                              linear-gradient(#03000F ${
-                                width - pixelSize
-                              }px, transparent 1%),
-                              #fff;
-            background-size: ${width}px ${width}px;
-            padding: 10vh 2rem;
-        }
-        #sign-up {
-          
-          background-color: #fff;
-          background-image:
-            linear-gradient(
-              to right,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 0, 0, 0.25) 0,
-              rgba(255, 0, 0, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            )
-          ;
-          background-position: 0 0, 0 0;
-          background-size: ${width}px ${width}px;
-        //   display: grid;
-        //   grid-template-columns: 50% 50%;
-         display:flex;
-         justify-content:center;
-          padding-bottom: 5rem;
-          padding-top: 15rem;
-        }
-        #notice {
-          font-weight: bold;
-          padding: 5rem 0;
-          max-width: 35rem;
-        }
-        #waving {
-          text-align: center;
-          font-size: 5rem;
-          padding: 0;
-          margin-bottom: 1rem; 
-          animation: wave 0.45s linear infinite;
-          animation-direction: alternate-reverse;
-        }
-        #form {
-          background: 
-          padding-top: 5rem;
-          padding: 20px;
-          background: #03000F;
-          color:#3DD7AC;
-          border-radius: .5rem;
-        }
-        
-        // h1 {
-        //     margin: 0;
-        //     font-size: 4em;
-        //     letter-spacing: 2px;
-        //     color: #3DD7AC;
-        //     text-align: center;
-        //     padding-bottom: 3rem;
-        // }
-        // .aside {
-        //     position: absolute;
-        //     transform: rotate(-90deg);
-        //     transform-origin: right;
-        //     right: 3%;
-        //     top: 30vh;
-        //     color: #fff
-        //   }
-        // h1 span {
-        //     display: block;
-        //     color: transparent;
-        //     letter-spacing: 3px;
-        //     -webkit-text-stroke-width: 1.5px;
-        //     -webkit-text-stroke-color: #3DD7AC;
-        // }
-        
-          @keyframes wave {
-            0% {
-              transform: rotate(-40deg);
-            }
-            100% {
-              transform: rotate(-10deg);
-            }
           }
+          .headerCTA article div{
+            width:50%;
+            padding-left:5%;
+          }
+          .headerCTA article h3{
+            font-size:2rem;  
+          }
+          .headerCTA article h3 a{
+            color:var(--super-white);
+          }
+
+          #index-finger{
+            font-size: 4rem;
+            position:relative;
+            top:50px;
+          }
+
+          .circle {
+            position: relative;
+          }
+          .circle::after {
+            position: absolute;
+            background: url('/img/Vector64.svg') center/contain no-repeat;
+            height: 285%;
+            width: 100%;
+            right: 2%;
+            bottom: -81%;
+            content: '';
+            display: block;
+          }
+
+          .buttons{
+            display:flex;
+            justify-content: center;
+            padding-left:60%;
+            text-align:right;
+          }
+          #sign-up {
+            display:flex;
+            justify-content:center;
+            padding-bottom: 5rem;
+            padding-top: 15rem;
+          }
+          #notice {
+            font-weight: bold;
+            padding: 5rem 0;
+            max-width: 35rem;
+          }
+
+          #form {
+            padding-top: 5rem;
+            padding: 20px;
+            background: var(--super-black);
+            color: var(--super-green);
+            border-radius: .5rem;
+          }
+
           @media (max-width: 768px) {
             h1 {
-                font-size: 3em;
-                width: 90%;
-                margin: 0 auto;
+              font-size: 3em;
+              width: 90%;
+              margin: 0 auto;
             }
             .headline .stroke{
-              
-                font-size:2.8rem;
-                margin-top:0;
-                position:relative;
-                top:0px;
+              font-size:2.8rem;
+              margin-top:0;
+              position:relative;
+              top:0px;
               }
-              .willkommen{
-               
-                font-size:3rem;
-                font-family:"Neue_Machina_Ultrabold"
-                font-weight:ultra-bold;
-              }
+            .willkommen{
+              font-size:3rem;
+              font-family:"Neue_Machina_Ultrabold"
+            }
             #index-finger{
               font-size: 3rem;
             }
             .headerCTA #reibungslos{
-              // font-family: "Neue_Machina_Regular_400"
               font-size:1.5rem;
               padding-left:2%;
-             
-          
             }
-         
             .headerCTA article div{
-        width:50%;
-        padding-left:5%;
-        
+              width:50%;
+              padding-left:5%;
             }
             .headerCTA article h3{
-         font-size:1rem;
-        
-            }
-            .footerCTA{
-              color:#fff;
-              background: var(--super-lila);
-              padding: 120px 0;
-            }
-            .footerCTA h2{
-            
-               font-size: 2rem;
-               width:80%;
-               margin:auto;
-             
+              font-size:1rem;
             }
             .buttons{
-            
-            padding-left:15%;
-            margin:auto;
-            text-align:center;
+              padding-left:15%;
+              margin:auto;
+              text-align:center;
             }
           }
           @media (max-width: 575px) {
             .buttons{
               display:flex;
-              justifiy-content: center;
-            padding:0;
-            margin-:auto;
-            text-align:right;
+              padding:0;
+              text-align:right;
             }
           }
             @media (max-width: 425px) {
@@ -456,33 +252,29 @@ export default function Workshop() {
                 top:-45px;
               }
               .headline{
-               
                 font-size:2.5rem;
                 margin-top:0;
                 position:relative;
                 top:0;
               }
               .willkommen{
-          
+
                 font-size:2rem;
-                font-family:"Neue_Machina_Ultrabold"
-                font-weight:ultra-bold;
               }
               .headerCTA article h3{
                 font-size:1rem;
-               
-                   }
-                   .headerCTA #reibungslos{
-                     font-size:1.3rem;
-                   }
-                   
-                  #form{
-                    width:100%;
-                  }
+              }
+              .headerCTA #reibungslos{
+                ont-size:1.3rem;
+              }
+
+              #form{
+                width:100%;
+              }
             }
         }
       `}</style>
-      </Layout_workshop>
+      </Layout>
     );
   } else {
     return '';

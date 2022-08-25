@@ -1,17 +1,15 @@
-import HeaderWS_neu from '../components/HeaderWS_neu';
-import HeaderCallToActionWS_neu from '../components/HeaderCallToActionWS_neu';
-import AnfängerBisBusinessWS from '../components/AnfängerBisBusinessWS';
-import WorkITWS from '../components/WorkITWS';
-import AuflistungWS from '../components/AuflistungWS';
-import AVGSWS from '../components/AVGSWS_neu';
-import AbsolventenWS_neu_v2 from '../components/AbsolventenWS_neu_v2';
-import UpToDate from '../components/UpToDate';
-import FooterCallToActionWS from '../components/FooterCallToActionWS';
+import Layout from '../components/Layout';
+import WS_Header from '../components/WS_Header';
+import WS_HeaderCTA from '../components/WS_HeaderCTA';
+import WS_AnfaengerBisBusiness from '../components/WS_AnfaengerBisBusiness';
+import WS_WorkIT from '../components/WS_WorkIT';
+import WS_Auflistung from '../components/WS_Auflistung';
+import WS_AVGS from '../components/WS_AVGS';
+import Alumni from '../components/Alumni';
+import Newsletter from '../components/Newsletter';
+import WS_FooterCTA from '../components/WS_FooterCTA';
 
 import { useWindowSize } from '../components/functions/windowSize';
-import Layout from '../components/Layout';
-import dates from '../components/data/dates.json';
-
 export default function Workshop() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -19,15 +17,15 @@ export default function Workshop() {
       <Layout>
         <div className='container'>
           <main>
-            <HeaderWS_neu />
-            <HeaderCallToActionWS_neu />
-            <AnfängerBisBusinessWS />
-            <WorkITWS />
-            <AuflistungWS />
-            <AVGSWS />
-            <AbsolventenWS_neu_v2 />
-            <UpToDate />
-            <FooterCallToActionWS month={dates.WorkshopMonth} bald={true} />
+            <WS_Header img="/img/workshop_header.png" kurs="Workshops!" />
+            <WS_HeaderCTA />
+            <WS_AnfaengerBisBusiness />
+            <WS_WorkIT />
+            <WS_Auflistung />
+            <WS_AVGS />
+            <Alumni />
+            <Newsletter />
+            <WS_FooterCTA />
           </main>
         </div>
       </Layout>

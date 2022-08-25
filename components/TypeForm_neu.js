@@ -47,7 +47,7 @@ const Typeform = (props) => {
           top: 50%;
           left: 0;
           margin-top: -1px;
-          background: #fff;
+          background: var(--super-white);
         }
         a::before {
           transform: rotate(-45deg);
@@ -60,7 +60,6 @@ const Typeform = (props) => {
         }
         button {
           margin: 2em 1em;
-          font-family: "FiraSans-Regular", sans-serif;
           font-size: 14px;
           line-height: 16px;
           text-align: center;
@@ -69,7 +68,7 @@ const Typeform = (props) => {
           padding: 15px 0px;
           background: transparent;
           border: 2px solid var(--super-green);
-          color: #fff;
+          color: var(--super-white);
           justify-self: center;
           display: inline-block;
           width: 38.75em;

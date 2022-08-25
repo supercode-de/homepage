@@ -1,8 +1,7 @@
 import React from 'react';
-//import './navigation-mobile.css'
 import Link from 'next/link';
 
-const JetztAnmdelden = (props) => {
+const NavigationMobileKurse = (props) => {
   return (
     <div
       id='navigation-mobile'
@@ -32,8 +31,8 @@ const JetztAnmdelden = (props) => {
           </li>
 
           <li>
-            <Link href='/kurse/uxui'>
-              <a onClick={props.toggleNavigationMobile}>UX & UI Design</a>
+            <Link href='/kurse/ux-ui-kurs'>
+              <a onClick={props.toggleNavigationMobile}>UX/UI–Design</a>
             </Link>
           </li>
           {/* <li>
@@ -41,21 +40,19 @@ const JetztAnmdelden = (props) => {
           </li> */}
         </ul>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           #navigation-mobile {
             position: fixed;
-            background: #03000f;
+            background: var(--super-black);
             top: 0;
             bottom: 0;
-            color: #3dd7ac;
+            color: var(--super-green);
             transition: all 0.5s;
             width: 100%;
             height: 200vh;
             z-index: 99998;
             display: flex;
             justify-content: center;
-            font-family: 'Neue_Machina_Regular_400';
           }
           .isHidden {
             right: -100%;
@@ -95,7 +92,7 @@ const JetztAnmdelden = (props) => {
             min-width: 50px;
           }
           .navigation-mobile-close:hover {
-            color: #3dd7ac;
+            color: var(--super-green);
           }
 
           ul {
@@ -115,7 +112,7 @@ const JetztAnmdelden = (props) => {
             text-decoration: none;
           }
           a:visited {
-            color: #3dd7ac;
+            color: var(--super-green);
           }
           a:hover {
             text-decoration: underline;
@@ -123,7 +120,7 @@ const JetztAnmdelden = (props) => {
             cursor: pointer;
           }
           a:active {
-            color: #5d3ede;
+            color: var(--super-lila);
           }
 
           .navigation-mobile-left h1 {
@@ -153,4 +150,4 @@ const JetztAnmdelden = (props) => {
   );
 };
 
-export default JetztAnmdelden;
+export default NavigationMobileKurse;
