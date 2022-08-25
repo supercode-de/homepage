@@ -25,7 +25,6 @@ const Index_HeaderCTA = () => {
         h2 {
           padding: 0 1%;
           font-size: 80px;
-          line-height: 105px;
         }
         h2 span.super {
           color: transparent;

@@ -100,9 +100,11 @@ const MeldeDich = () => {
           color: var(--super-lila);
           background: var(--super-green);
         }
-        @media (max-width: 863px) {
+        @media (max-width: 768px) {
+          h1 {
+            font-size: 2rem;
+          }
         }
-
         @media (max-width: 468px) {
           a {
             font-weight: 400;
@@ -114,7 +116,10 @@ const MeldeDich = () => {
             align-items: center;
           }
         }
-        @media (max-width: 370px) {
+        @media (max-width: 425px) {
+          h1 {
+            font-size: 2rem;
+          }
         }
       `}</style>
     </div>

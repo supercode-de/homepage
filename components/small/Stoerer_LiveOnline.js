@@ -17,7 +17,7 @@ const Stoerer_LiveOnline = (props) => {
                     justify-content: center;
                     align-items: center;
                     gap: 20px;
-                    padding: 20px 25px;
+                    padding: 2% 2.5%;
                     border-radius: 50px;
                 }
                 .redDot {
@@ -31,7 +31,7 @@ const Stoerer_LiveOnline = (props) => {
                     color: var(--super-green);
                     font-family: "Neue_Machina_Ultrabold";
                     line-height: 0;
-                    font-size: 25px;
+                    font-size: 1.563rem;
                 }
 
                 @keyframes glow {
@@ -40,6 +40,26 @@ const Stoerer_LiveOnline = (props) => {
                     }
                     100% {
                         box-shadow: 0px 0px 25px var(--super-red);
+                    }
+                }
+
+                @media (max-width: 1024px) {
+                    .stoerer-wrapper {
+                        padding: 1% 2%;
+                        gap: 10px;
+                    }
+                    .redDot {
+                        height: 1rem;
+                        width: 1rem;
+                    }
+                    p {
+                        font-size: 1rem;
+                    }
+                }
+                @media (max-width: 768px) {
+                    .stoerer-wrapper {
+                        top: 69%;
+                        right: 20%;
                     }
                 }
             `}

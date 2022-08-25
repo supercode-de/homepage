@@ -13,11 +13,7 @@ const Index_Weiterbildung = () => {
         #header-call {
           background: var(--super-blau);
           color: var(--super-white);
-          // padding: 6rem 7% 2rem;
-          padding-top: 99px;
-          padding-right: 0px;
-          padding-bottom: 99px;
-          padding-left: 115px;
+          padding: 6% 7%;
         }
 
         h2 span.super {
@@ -90,9 +86,19 @@ const Index_Weiterbildung = () => {
         #header-call div {
           grid-column: 3 / 4;
         }
+        @media (max-width: 768px) {
+          h2 {
+            font-size: 2rem;
+          }
+        }
+        @media (max-width: 425px) {
+          h2 {
+            font-size: 2rem;
+          }
+        }
         @media (max-width: 320px) {
           h2 {
-            font-size: 3em;
+            font-size: 1.8em;
           }
         }
       `}</style>

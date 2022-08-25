@@ -13,12 +13,7 @@ export default function Kurse_TrainerTeam(props) {
                     Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich pro Tag,
                     wirst du spielerisch {props.kursForm === "uxui" ? "UX/UI-Design lernen und deine eigenen Prototypen bauen" : "programmieren lernen und deine eigenen Webseiten bauen."}
                 </p>
-                {/* <p>
-                    Ergänzend zum Training im Bootcamp bieten wir individuelle Termine
-                    beim Flex-Trainer an. Im One-on-One-Coaching geht der/die Trainer*in
-                    gezielt auf deine Fragen ein, wiederholt noch nicht verstandenes
-                    Unterrichtsmaterial und gibt intensives Feedback zu den Übungen.
-                </p> */}
+
             </div>
             <div>
                 <section className='gridContainer'>
@@ -124,16 +119,14 @@ export default function Kurse_TrainerTeam(props) {
           @media (max-width: 875px) {
             .gridContainer {
               display: grid;
-              grid-template-columns: 50% 50%;
-              gap: 0.1rem;
+              grid-template-columns: repeat(2, 1fr);
+              gap: 1rem;
               margin: 0 auto;
               width: 100%;
             }
             .rotating-text {
               display: none;
             }
-          }
-          @media (max-width: 875px) {
             .fsTrainer h2 {
               font-size: 1.5rem;
               line-height: 28px;
@@ -156,8 +149,9 @@ export default function Kurse_TrainerTeam(props) {
               width: 95%;
               margin-bottom: 3px;
             }
-            .gridContainer {
-              margin: auto;
+
+            figcaption {
+              font-size: 1.5rem;
             }
             .rotating-text {
               display: none;
@@ -186,7 +180,6 @@ export default function Kurse_TrainerTeam(props) {
             .fsTrainer h2 {
               font-size: 1.4rem;
               color: var(--super-white);
-              // line-height: 20px;
               margin-bottom: 10px;
               margin-top: 0;
             }
@@ -219,8 +212,6 @@ export default function Kurse_TrainerTeam(props) {
           @media (max-width: 425px) {
             .fsTrainer {
               padding: 40px 0 100px 6%;
-
-              // overflow: hidden;
             }
             .fsTrainer h2 {
               font-size: 1.8rem;
@@ -236,10 +227,7 @@ export default function Kurse_TrainerTeam(props) {
               font-weight: 100;
             }
             .gridContainer {
-              display: grid;
-              grid-template-columns: 50% 50%;
-              margin: auto;
-              justify-content: center;
+              grid-template-columns: 1fr;
             }
 
             figure {

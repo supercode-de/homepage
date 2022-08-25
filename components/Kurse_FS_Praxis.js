@@ -335,7 +335,7 @@ const Kurse_FS_Praxis = () => {
           }
 
           .bar4 .inner-bar {
-            background-color: #000;
+            background-color: var(--super-black);
           }
           .bar4 {
             border: 6px solid var(--super-black);
@@ -563,7 +563,6 @@ const Kurse_FS_Praxis = () => {
             h2 {
               font-size: 3.5rem;
 
-              // line-height: 28px;
             }
             .fsPraxis h2 {
               font-size: 3rem;
@@ -609,11 +608,17 @@ const Kurse_FS_Praxis = () => {
             }
             .neugierCTA {
               display: block;
+              margin-top: 100px;
             }
             .neugierCTA h2 {
               font-size: 1.5rem;
               line-height: 28px;
               width: 80%;
+            }
+            .fsPraxis .neugierCTA_txt {
+              font-size: 2rem;
+              line-height: 28px;
+              margin-bottom: 50px;
             }
           }
           @media (max-width: 565px) {
@@ -625,10 +630,7 @@ const Kurse_FS_Praxis = () => {
               font-size: 1.8rem;
               line-height: 20px;
             }
-            .fsPraxis .neugierCTA_txt {
-              font-size: 2rem;
-              line-height: 28px;
-            }
+
             .neugierCTA {
               display: block;
             }

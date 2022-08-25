@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Carousel from "react-multi-carousel";
 
 const responsive = {
@@ -199,22 +199,17 @@ const UnserCampus = (props) => {
           }
         }
 
-        @media (max-width: 1040px) {
-        }
-
         @media (max-width: 768px) {
+          h1 {
+            font-size: 2rem;
+          }
           .text-one {
             padding-top: 0;
           }
           #unser-campus {
             padding: 5% 0;
           }
-          .text-one,
-          .text-two {
-            padding: 0 calc(100vw / 12);
-            margin-bottom: -6%;
-            width: 100%;
-          }
+
           h1 {
             margin-top: 0;
             padding-top: 0.7em;
@@ -251,6 +246,12 @@ const UnserCampus = (props) => {
           .carousel img {
             height: 35vh;
             width: auto;
+          }
+        }
+
+        @media (max-width: 425px) {
+          h1 {
+            font-size: 3rem;
           }
         }
         @media (max-width: 321px) {

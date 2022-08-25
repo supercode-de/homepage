@@ -40,6 +40,9 @@ export default function Bildungsberatung() {
         <Beratung buttonText='KONTAKT' buttonTextColor='#fff' />
       </button>
       <style jsx>{`
+          img {
+            width: 100%;
+          }
           .bildungsberatung {
             padding: 115px 0 116px 0;
             background: var(--super-black);
@@ -58,7 +61,6 @@ export default function Bildungsberatung() {
             -webkit-text-stroke-color: var(--super-white);
           }
 
-        }
         .circle {
           position: relative;
         }
@@ -96,7 +98,6 @@ export default function Bildungsberatung() {
             background:transparent;
             border:none;
             display:block;
-        
             position:absolute;
             right:13%;
           }
@@ -120,23 +121,21 @@ export default function Bildungsberatung() {
           @media (max-width: 768px) {
             h2{
               font-size:2.4rem;
+              margin-bottom: 0;
             }
             .bildungs-berater{
-            
               padding:0 2%;
             }
             figcaption{
               font-size:1rem;
               padding:20px 0;
             }
-            figure{
-              margin-block-start: 0;
-              margin-block-end: 0;
-              margin-inline-start: 0;
-              margin-inline-end: 0;
-            }
+
             .berater-txt p {
               margin-bottom:0;
+            }
+            .bildungs-berater {
+              margin-top: 50px;
             }
           }
           @media (max-width: 460px) {
@@ -159,12 +158,14 @@ export default function Bildungsberatung() {
               line-height:20px;
             }
             .bildungs-berater{
-            
               padding:0 2%;
             }
             figcaption{
               font-size:1rem;
               padding:20px 0;
+            }
+            .berater-txt {
+              padding: 20px 6%;
             }
           }
   

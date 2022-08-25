@@ -85,10 +85,8 @@ const Footer = () => {
       </div>
       <style jsx>{`
           #footer {
-            background: #03000f;
-            color: #fff;
-            font-weight: 200;
-            // padding-top: 0.8em;
+            background: var(--super-black);
+            color: var(--super-white);
             display: flex;
             justify-content: center;
           }
@@ -105,9 +103,9 @@ const Footer = () => {
             align-items: center;
           }
           .copyright .logo {
-            color: #fff;
+            color: var(--super-white);
             font-size: 1.3rem;
-            font-weight: bold;
+
           }
           .copyright .copy {
             color: var(--super-green);
@@ -138,12 +136,9 @@ const Footer = () => {
             display: flex;
             align-items: center;
             justify-content: space-around;
-            font-family: "Neue_Machina_Regular_400";
             text-transform: uppercase;
             font-size: 0.7em;
             letter-spacing: 2px;
-            // -webkit-text-stroke-width: 0.5px;
-            // -webkit-text-stroke-color: #ffffff;
             margin: 1em 0;
           }
 
@@ -151,11 +146,11 @@ const Footer = () => {
             text-decoration: none;
             display: block;
             padding: 0.5em;
-            color: #fff;
+            color: var(--super-white);
           }
 
           .site-info a:visited {
-            color: #fff;
+            color: var(--super-white);
           }
 
           .site-info a:hover {
@@ -165,19 +160,10 @@ const Footer = () => {
           .site-info a:active {
             color: var(--super-lila);
           }
-          // .copyright {
-          //   display: flex;
-          //   justify-content: space-between;
-          //   align-items: center;
-          //   width: 95%;
-          //   margin: 0 auto;
-          // }
+
           .white {
-            color: #fff;
-            font-weight: bold;
+            color: var(--super-white);
             font-size: 1.2em;
-          }
-          @media (max-width: 768px) {
           }
           @media (max-width: 568px) {
             .footer-grid {
@@ -185,6 +171,11 @@ const Footer = () => {
             }
             .copyright {
               justify-content: center;
+            }
+          }
+          @media (max-width: 425px) {
+            #footer {
+              padding-top: 2%;
             }
           }
         `}

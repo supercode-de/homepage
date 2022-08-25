@@ -103,7 +103,11 @@ const Tagesablauf = (props) => {
                 .flexContainer div h3 {
                     margin-bottom: 10px;
                 }
-
+                @media (max-width: 768px) {
+                    .tagesablauf-wrapper {
+                        width: 80%;
+                    }
+                }
             `}</style>
         </section>
     );

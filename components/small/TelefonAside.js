@@ -18,10 +18,14 @@ const TelefonAside = () => {
           color: inherit;
           text-decoration: none;
         }
-        @media (max-width: 644px) {
+        @media (max-width: 768px) {
           .aside {
-            top: 80%;
-            left: 6%;
+            left: -7%;
+          }
+        }
+        @media (max-width: 425px) {
+          .aside {
+            left: -15%;
           }
         }
       `}</style>
