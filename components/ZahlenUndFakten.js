@@ -136,7 +136,6 @@ export default function ZahlenUndFakten(props) {
         }
         .zahlenUndFakten_Header {
           font-size: 5rem;
-          line-height: 74px;
           margin-top: 55px;
           margin-bottom: 125px;
         }
@@ -277,9 +276,7 @@ export default function ZahlenUndFakten(props) {
           padding: 0 1rem 0 4rem;
           width: 47%;
         }
-        .vermittlung-newJob p {
 
-        }
         .vermittlung-newJob h2 {
           font-family: 'Neue_Machina_Ultrabold';
           margin-bottom: 10px;
@@ -332,8 +329,13 @@ export default function ZahlenUndFakten(props) {
           .zahlenUndFakten .zahlenUndFakten_Header {
             font-size: 2rem;
           }
+          .zahlenUndFakten_Header {
+            margin: 25px 0 86px 0;
+          }
+          h2 span.circle::after {
+            right: 42%
+          }
           .zahlenUndFakten-infos {
-     
             margin-bottom: 0px;
           }
           .zahlenUndFakten-infos h2 {
@@ -353,13 +355,13 @@ export default function ZahlenUndFakten(props) {
           .vermittlung {
             display: flex;
             padding: 0;
+            margin-bottom: 50px;
           }
           .vorerfahrung-container h2 {
             margin: 20px 0 10px 0;
             font-family: 'Neue_Machina_Ultrabold';
           }
-          .vermittlung p {
-          }
+
           .absolvent_feedback figcaption {
             font-size: 0.7rem;
           }
@@ -368,9 +370,9 @@ export default function ZahlenUndFakten(props) {
             font-size: 1rem;
             line-height: 18px;
           }
-          figure {
-            margin-inline-start: 5px;
-            margin-inline-end: 5px;
+          .absolvent_1 figure h3,
+          .absolvent_2 figure h3 {
+            font-size: 1.5rem;
           }
           .absolvent_feedback {
             width: 95%;
@@ -442,13 +444,12 @@ export default function ZahlenUndFakten(props) {
           }
           .zahlenUndFakten-infos,
           .vermittlung {
-           display: flex;
+            display: flex;
           }
           .vorerfahrung-container {
             padding: 0;
           }
           .vermittlung {
-            // display: block;
             padding: 0;
           }
           .vermittlung p {
@@ -482,7 +483,15 @@ export default function ZahlenUndFakten(props) {
           .vermittlung-newJob {
             padding: 0;
           }
-          @media (max-width: 468px) {
+
+        }
+        @media (max-width: 425px) {
+          .absolvent_feedback {
+            display: block;
+          }
+          .absolvent_1,
+          .absolvent_2 {
+            width: 100%;
           }
         }
         @media (max-width: 420px) {

@@ -23,7 +23,8 @@ const FAQ = () => {
             background: var(--super-black);
           }
           h2 {
-            margin-bottom: 50px;
+            margin-top: 5%;
+            margin-bottom: 5%;
             margin-left: -2%;
             display: block;
             color: transparent;
@@ -43,7 +44,7 @@ const FAQ = () => {
             transform-origin: left;
             left: 2em;
             top: 50%;
-            color: #fff;
+            color: var(--super-white);
           }
 
           @media (max-width: 768px) {
@@ -58,7 +59,10 @@ const FAQ = () => {
               display: none;
             }
           }
-          @media (max-width: 468px) {
+          @media (max-width: 425px) {
+            h2 {
+              font-size: 3rem;
+            }
           }
         `}</style>
     </div>

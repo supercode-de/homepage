@@ -160,9 +160,13 @@ const Blog = () => {
           color: var(--super-lila);
         }
 
-        @media (max-width: 765px) {
+        @media (max-width: 768px) {
           h2 {
             line-height: 30px;
+          }
+          .blog-header-container {
+            width: 100%;
+            padding-top: 100px;
           }
           .blog-gallery {
             display: grid;
@@ -172,16 +176,17 @@ const Blog = () => {
             padding: 5% 0;
             row-gap: 4rem;
             column-gap: 2rem;
-            color: #fff;
+            color: var(--super-white);
           }
           .blog-hl {
             display: flex;
             flex-direction: column;
             width: 60%;
-            // justify-content: space-between;
           }
-          blog-hi-gallery {
-          }
+          figcaption,
+          figcaption p {
+            font-size: 1rem;
+          } 
         }
         @media (max-width: 585px) {
           h2 {

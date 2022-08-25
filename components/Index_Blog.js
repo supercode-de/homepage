@@ -84,11 +84,10 @@ const Index_Blog = () => {
         #blog {
           color: var(--super-green);
           position: relative;
-          padding: 150px 0;
+          padding: 15% 0;
         }
         h2 {
           color: var(--super-green);
-          margin: 0;
           padding: 0 calc(100vw / 12);
         }
         .letterstroke {
@@ -112,7 +111,7 @@ const Index_Blog = () => {
         }
 
         .title-main-container {
-          background: #00000080;
+          background: var(--super-black);
           height: 100%;
           width: 100%;
           opacity: 0;
@@ -135,7 +134,7 @@ const Index_Blog = () => {
         }
         h3,
         p {
-          color: #fff;
+          color: var(--super-white);
         }
         h3 {
           font-size: 1.5em;
@@ -150,49 +149,6 @@ const Index_Blog = () => {
           padding: 10px 0;
           font-weight: 200;
         }
-        // a {
-        //   color: var(--super-green);
-        //   text-decoration: none;
-        // }
-        // a:hover {
-        //   text-decoration: underline;
-        //   color: var(--super-green);
-        // }
-
-        // .buttons {
-        //   text-align: center;
-        //   display: flex;
-        //   justify-content: flex-end;
-        // }
-        // a {
-        //   background: var(--super-blau);
-
-        //   display: inline-block;
-        //   color: #fff;
-        //   text-decoration: none;
-        //   text-transform: uppercase;
-        //   padding: 5px 35px;
-        //   border: 1px solid var(--super-green);
-        //   font-size: 0.7em;
-        //   font-weight: 600;
-        //   line-height: 1.5em;
-        //   margin: 10px;
-        //   letter-spacing: 2px;
-        //   transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
-        //   box-shadow: 0 0 0 0 transparent;
-        //   position: relative;
-        //   top: 0;
-        //   left: 0;
-        //   text-align: center;
-        //   min-width: 100px;
-        // }
-        // a:hover {
-        //   // margin: 10px 5px 15px 10px;
-        //   // margin: 10px 10px 15px 15px;
-        //   box-shadow: -5px 5px 0 0 #fff;
-        //   top: -5px;
-        //   left: 5px;
-        // }
 
         @media (max-width: 1440px) {
           h1 {
@@ -201,28 +157,19 @@ const Index_Blog = () => {
         }
 
         @media (max-width: 1040px) {
-          // .translate {
-          //   transform: translateX(50px);
-          // }
           h1 {
             max-width: 8.5em;
           }
         }
         @media (max-width: 768px) {
-          // .translate {
-          //   transform: translateX(0);
-          // }
           h1 {
             max-width: 8.9em;
           }
+          h2 {
+            font-size: 2rem;
+          }
         }
-        @media (max-width: 468px) {
-          // a {
-          //   padding-top: 5px;
-          //   font-weight: 400;
-          //   font-size: 0.7em;
-          // }
-        }
+
       `}</style>
     </div>
   );

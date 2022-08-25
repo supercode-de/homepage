@@ -95,6 +95,11 @@ export default function Kurse_Tagesablauf(props) {
             padding-right:0;
             }
             @media (max-width: 768px) {
+              h2 {
+                font-size: 2rem;
+                margin-top: 50px;
+                margin-bottom: 50px;
+              }
               .tagesablauf-header{
                 font-size:3rem;
               }
@@ -129,13 +134,17 @@ export default function Kurse_Tagesablauf(props) {
               }
             }
             @media (max-width: 425px) {
+              .tagesablauf-header{
+                font-size:2rem;
+                padding-bottom: 0;
+                margin-top: 0;
+              }
+
               .tagesablauf article {
                 display: block;
                 padding-right: 1%;
               }
-              .tagesablauf-header{
-                font-size:2rem;
-              }
+              
               .tagesablauf article > div {
                 width: 90%;
               }

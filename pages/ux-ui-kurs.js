@@ -3,7 +3,6 @@ import Layout from "../components/Layout";
 import Kurse_Header from "../components/Kurse_Header";
 import Kurse_HeaderCTA from "../components/Kurse_HeaderCTA";
 import UX_UI_Praxis from "../components/UX_UI_Praxis";
-import UX_UI_TrainerTeam from "../components/UX_UI_TrainerTeam";
 
 import Bildungsberatung from "../components/Bildungsberatung";
 import UX_UI_FooterCTA from "../components/UX_UI_FooterCTA";
@@ -11,7 +10,7 @@ import UX_UI_FooterCTA from "../components/UX_UI_FooterCTA";
 import { useWindowSize } from "../components/functions/windowSize";
 import Kurse_Tagesablauf from "../components/Kurse_Tagesablauf";
 import UX_UI_HeaderTermine from "../components/UX_UI_HeaderTermine";
-import Kurse_HeaderTermine_Webdev from "../components/Kurse_HeaderTermine_Webdev";
+
 import Kurse_TrainerTeam from "../components/Kurse_TrainerTeam";
 export default function UXUIKurs() {
   if (process.browser) {

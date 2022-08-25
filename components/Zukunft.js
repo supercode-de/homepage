@@ -1,4 +1,4 @@
-const Zukunft = (props) => {
+const   Zukunft = (props) => {
   return (
     <div id="zukunft">
       <div className="infos">
@@ -93,6 +93,9 @@ const Zukunft = (props) => {
         }
 
         @media (max-width: 768px) {
+          .infos {
+            width: 100%;
+          }
           .images {
             padding-bottom: 50px;
           }
@@ -114,8 +117,11 @@ const Zukunft = (props) => {
           #zukunft {
             padding-bottom: 10%;
           }
+          .infos {
+            width: 100%;
+          }
           h1 {
-            width: unset;
+            width: 100%;
           }
 
           .info-one {
