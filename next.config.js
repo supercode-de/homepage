@@ -19,6 +19,7 @@ module.exports = {
       "/dsgvo": { page: "/dsgvo" },
       "/impressum": { page: "/impressum" },
       // '/blogs/0': { page: '/blogs/0', query: { title: '0' } },
+      "/microcamps": {page: "/microcamps"},
       "/kurse/fullstack": { page: "/fullstack_kurs" },
       "/kurse/frontend": { page: "/frontend-kurs" },
       "/kurse/ux-ui-kurs": {page:"/ux-ui-kurs"},
