@@ -4,7 +4,7 @@ const Team_FooterCTA = (props) => {
   const pixelSize = 1.5;
 
   return (
-    <div id="call-to-action" className="whiteGreenDots">
+    <div id="call-to-action">
       <h1>
         Worauf wartest du noch?! <br /> Bewirb{" "}
         <span className="super">dich jetzt!</span>

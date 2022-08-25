@@ -26,37 +26,7 @@ const Typeform_neu2022 = (props) => {
           background-color: var(--super-lila);
           z-index: 9;
         }
-        a {
-          position: absolute;
-          top: 50px;
-          right: 50px;
-          display: inline-block;
-          width: 450px;
-          height: 50px;
-          overflow-x: hidden;
-          transition: transform 0.5s linear;
-          z-index: 500;
-        }
-        a::before,
-        a::after {
-          content: "";
-          position: absolute;
-          height: 4px;
-          width: 100%;
-          top: 50%;
-          left: 0;
-          margin-top: -1px;
-          background: var(--super-white);
-        }
-        a::before {
-          transform: rotate(-45deg);
-        }
-        a::after {
-          transform: rotate(45deg);
-        }
-        a:hover {
-          transform: rotate(180deg);
-        }
+
         button {
           margin: 2em 1em;
           font-size: 14px;

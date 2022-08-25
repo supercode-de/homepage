@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import Kurse_Header from '../components/Kurse_Header';
 import Kurse_HeaderTermine_Webdev from '../components/Kurse_HeaderTermine_Webdev';
 import Kurse_HeaderCTA from '../components/Kurse_HeaderCTA';
-import FS_Praxis from '../components/FS_Praxis';
+import Kurse_FS_Praxis from '../components/Kurse_FS_Praxis';
 import Kurse_TrainerTeam from '../components/Kurse_TrainerTeam';
 import ZahlenUndFakten from '../components/ZahlenUndFakten';
 import Kurse_Tagesablauf from '../components/Kurse_Tagesablauf';
@@ -20,7 +20,7 @@ export default function FullstackKurse() {
           <Kurse_Header kursForm="Fullstack" />
           <Kurse_HeaderTermine_Webdev />
           <Kurse_HeaderCTA wochen="22" monate="5"/>
-          <FS_Praxis />
+          <Kurse_FS_Praxis />
           <Kurse_TrainerTeam kursForm="fullstack"/>
           <ZahlenUndFakten 
             alumniName="Emilija-Sekulic" 

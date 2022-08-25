@@ -75,7 +75,7 @@ const Tagesablauf = (props) => {
                     justify-content: center;
                     align-items: center;
                     width: 45%;
-                    margin: 0 auto;
+                    margin: 150px auto;
                 }
                 .tagesablauf {
                     color: var(--super-white);

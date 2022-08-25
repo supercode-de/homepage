@@ -20,7 +20,7 @@ const FooterCallToActionKurse = (props) => {
         .footerCTA {
           background-color: var(--super-lila);
           background-color: ${props.bgColor};
-          padding-top: 60px;
+          padding-top: 100px;
           padding-bottom: 50px;
         }
 
@@ -28,6 +28,7 @@ const FooterCallToActionKurse = (props) => {
           color: ${props.color ? props.color : "var(--super-white)"};
           font-size: 3.7rem;
           padding-left: 7%;
+          margin-bottom: 50px;
         }
         h2 .stroke {
           color: transparent;
@@ -48,13 +49,14 @@ const FooterCallToActionKurse = (props) => {
           display: block;
         }
         .termine {
-          position: relative;
-          width: 85%;
-          margin: auto;
+          padding-left: 7%;
         }
         .termine h3 {
           color: ${props.color ? props.color : "var(--super-white)"};
           font-size: 2rem;
+        }
+        .termine h3:nth-of-type(1) {
+          margin-bottom: 50px;
         }
         .jetzt-bewerben-btn {
           display: flex;

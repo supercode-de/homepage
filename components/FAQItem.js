@@ -286,8 +286,7 @@ class Collapsible extends Component {
           .Collapsible__contentInner {
             color: var(--super-green);
           }
-          @media (max-width: 768px) {
-          }
+
         `}</style>
       </ContentContainerElement>
     );

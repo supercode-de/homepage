@@ -86,7 +86,7 @@ export default function Bildungsberatung() {
             font-size: 1.4rem;
           }
           .berater-txt {
-            padding: 0 6%;
+            padding: 100px 6%;
           }
           .berater-txt p {
             color: var(--super-white);

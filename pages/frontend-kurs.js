@@ -3,7 +3,7 @@ import Layout from '../components/Layout';
 import Kurse_Header from "../components/Kurse_Header";
 import Kurse_HeaderTermine_Webdev from '../components/Kurse_HeaderTermine_Webdev';
 import Kurse_HeaderCTA from '../components/Kurse_HeaderCTA';
-import FE_Praxis from '../components/FE_Praxis';
+import Kurse_FE_Praxis from '../components/Kurse_FE_Praxis';
 import Kurse_TrainerTeam from '../components/Kurse_TrainerTeam';
 import ZahlenUndFakten from '../components/ZahlenUndFakten';
 import Kurse_Tagesablauf from '../components/Kurse_Tagesablauf';
@@ -20,7 +20,7 @@ export default function FrontendKurse() {
           <Kurse_Header kursForm="Frontend"/>
           <Kurse_HeaderTermine_Webdev />
           <Kurse_HeaderCTA wochen="13" monate="3"/>
-          <FE_Praxis />
+          <Kurse_FE_Praxis />
           <Kurse_TrainerTeam kursForm="frontend"/>
           <ZahlenUndFakten 
             alumniName="Denise Brachwitz-Linden" 

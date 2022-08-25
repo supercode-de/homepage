@@ -12,7 +12,7 @@ const Danke = () => {
     }, 4000);
   }, []);
   return (
-    <div id='header' className='lilaGitter'>
+    <div id='header'>
       <h2 className='super-code'>super(code)</h2>
       <TelefonAside />
 
@@ -35,6 +35,7 @@ const Danke = () => {
           display: flex;
           flex-direction: column;
           align-items: center;
+          background: var(--super-lila);
         }
 
         .aside {

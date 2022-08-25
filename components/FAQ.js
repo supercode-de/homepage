@@ -3,7 +3,7 @@ import faqData from "./data/faq";
 
 const FAQ = () => {
   return (
-    <div id="faq" className="blueGitter">
+    <div id="faq">
       <h2>FAQ</h2>
 
       <div className="grid">
@@ -18,8 +18,9 @@ const FAQ = () => {
 
       <style jsx>{`
           #faq {
-            padding: 10px calc(100vw / 12) 50px;
+            padding: 100px calc(100vw / 12) 150px;
             position: relative;
+            background: var(--super-black);
           }
           h2 {
             margin-bottom: 50px;
@@ -45,8 +46,6 @@ const FAQ = () => {
             color: #fff;
           }
 
-          @media (max-width: 1040px) {
-          }
           @media (max-width: 768px) {
             #faq {
               padding: 10px calc(100vw / 12) 50px;

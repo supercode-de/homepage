@@ -20,10 +20,11 @@ const MeldeDich = () => {
         #melde-dich {
           background: var(--super-blau);
           color: var(--super-white);
-          padding: 3em 4em 2em;
+          padding: 9em 4em 6em;
         }
         h1 {
           max-width: 80%;
+          margin-bottom: 3rem;
         }
 
         .melde,

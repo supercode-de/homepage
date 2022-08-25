@@ -127,7 +127,6 @@ export default function ZahlenUndFakten(props) {
 
       <style jsx>{`
         .zahlenUndFakten {
-          margin: 0 0 0 0;
           padding-top: 40px;
         }
 
@@ -178,7 +177,6 @@ export default function ZahlenUndFakten(props) {
           content: '';
           display: block;
           transform: scale(1.17, 0.95);
-          
         }
 
         span.bling::before {
@@ -209,16 +207,15 @@ export default function ZahlenUndFakten(props) {
 
         .absolvent_feedback {
           display: flex;
+          gap: 50px;
           width: 70%;
           margin: auto;
           padding-bottom: 215px;
         }
         .absolvent_feedback img {
           width: 100%;
-          height: auto;
         }
-        .absolvent_feedback figure {
-        }
+
         .absolvent_2,
         .absolvent_1 {
           width: 50%;
@@ -226,17 +223,15 @@ export default function ZahlenUndFakten(props) {
         figure figcaption {
           padding-top: 35px;
           padding-bottom: 35px;
+          font-size: 1.563rem;
         }
         figure figcaption,
         figure p {
           color: var(--super-lila);
-          line-height: 1rem;
-          font-size: 1.16rem;
-          margin-top: 0;
         }
         figure h3 {
           color: var(--super-green);
-          margin-bottom: 0;
+          font-size: 1.875rem;
         }
 
         .zahlenUndFakten-infos {
@@ -245,13 +240,6 @@ export default function ZahlenUndFakten(props) {
         }
         .zahlenUndFakten-infos div {
           width: 47%;
-        }
-        .vorerfahrung-container {
-          padding: 0 5% 0 5.5rem;
-        }
-        .vorerfahrung-container p {
-          font-size: 1rem;
-          line-height: 18px;
         }
         .zahlenUndFakten-infos p {
           color: var(--super-lila);
@@ -262,7 +250,13 @@ export default function ZahlenUndFakten(props) {
           width: 100%;
         }
         .vorerfahrung-container {
+          padding: 0 5% 0 5.5rem;
         }
+        .vorerfahrung-container p:nth-of-type(1),
+        .vermittlung-newJob p:nth-of-type(1){
+          margin-bottom: 20px;
+        }
+
         .vorerfahrung-container h2 {
           margin: 100px 0 10px 0;
           font-family: 'Neue_Machina_Ultrabold';
@@ -284,19 +278,15 @@ export default function ZahlenUndFakten(props) {
           width: 47%;
         }
         .vermittlung-newJob p {
-          font-size: 1rem;
-          line-height: 18px;
+
         }
         .vermittlung-newJob h2 {
           font-family: 'Neue_Machina_Ultrabold';
-
           margin-bottom: 10px;
           margin-top: 0px;
         }
         .zahlenUndFakten-infos h2,
         .vermittlung-newJob h2 {
-          line-height: 3rem;
-          font-size: 3.8rem;
           color: var(--super-lila);
         }
 
@@ -310,6 +300,7 @@ export default function ZahlenUndFakten(props) {
           color: var(--super-lila);
           width: 100%;
         }
+
         //==============
         @media (max-width: 2560px) {
           h2 .circle::after {

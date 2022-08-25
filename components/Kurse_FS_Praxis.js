@@ -1,10 +1,10 @@
 import Beratung_flexible from './Beratung_flexible';
 import Curriculum from './Curriculum_Popup';
-import kurseData from '../components/data/kursedata.json';
+import kurseData from './data/kursedata.json';
 import { useState } from 'react';
 import Accordion_frontend from './Accordion_fullstack';
 
-const UX_UI_Praxis = () => {
+const Kurse_FS_Praxis = () => {
   const [text1, setText1] = useState(false);
   const [text2, setText2] = useState(true);
   const [text3, setText3] = useState(false);
@@ -230,9 +230,6 @@ const UX_UI_Praxis = () => {
 
           .fsPraxis p {
             width: 65%;
-            font-size: 1.3rem;
-            font-weight: 300;
-            line-height: 20px;
           }
           .praxis-Img {
             width: 90%;
@@ -247,8 +244,6 @@ const UX_UI_Praxis = () => {
             height: 70px;
             margin: 0;
             position: relative;
-
-            // padding: 0;
           }
 
           .inner-bar {
@@ -256,8 +251,6 @@ const UX_UI_Praxis = () => {
             height: 102%;
             width: 0%;
             transition: width 0.3s ease-out;
-            // padding: 0;
-            // margin: 0;
             top: -1px;
             left: -1%;
           }
@@ -269,7 +262,6 @@ const UX_UI_Praxis = () => {
           }
 
           .bar-wrapper:hover .inner-bar {
-            // animation: progress-animation 5s;
             width: 102%;
             transform: width 1s;
           }
@@ -389,25 +381,24 @@ const UX_UI_Praxis = () => {
             margin-right: 5%;
             width: 50%;
             position: relative;
-            // right: 50px;
           }
 
           h2 {
-            font-size: 4rem;
             font-family: 'Neue_Machina_Light';
             color: var(--super-black);
-            margin: 0;
-            line-height: 50px;
           }
           p {
             color: var(--super-black);
-            // width: 55%;
             font-size: 1.563rem;
             font-weight: 300;
           }
           .praxisInfos,
           .plus-skills-infos {
             margin: 5rem;
+          }
+          .praxisInfos p:nth-of-type(1){
+            margin-top: 50px;
+            margin-bottom: 20px;
           }
           .letterstroke {
             color: transparent;
@@ -419,26 +410,20 @@ const UX_UI_Praxis = () => {
           .neugierCTA {
             display: block;
             position: relative;
+            margin-top: 160px;
+            margin-bottom: 105px;
           }
 
           .fsPraxis .neugierCTA_txt {
             font-family: 'Neue_Machina_Light';
-            // color: #989898;
-            font-size: 3.3rem;
+            font-size: 5rem;
             width: 80%;
             color: var(--super-black);
-            margin-top: 125px;
-            margin-bottom: 30px;
             padding-left: 5%;
-            line-height: 50px;
-            font-weight: 200;
           }
           .buttons {
             display: flex;
             justify-content: flex-end;
-            // width: 100%;
-            // padding-right: 5%;
-            // z-index: 0;
           }
 
           .neugierCTA p span.circle::after {
@@ -465,7 +450,6 @@ const UX_UI_Praxis = () => {
             }
           }
 
-          //=======
           .mobile-section {
             width: 90%;
             margin: auto;
@@ -717,4 +701,4 @@ const UX_UI_Praxis = () => {
   );
 };
 
-export default UX_UI_Praxis;
+export default Kurse_FS_Praxis;

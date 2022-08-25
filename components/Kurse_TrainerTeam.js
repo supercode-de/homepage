@@ -7,19 +7,18 @@ export default function Kurse_TrainerTeam(props) {
                     <span>Super</span>
                     Trainer*innen
                 </h2>
-                <p className='txt'>
-                    Unsere Trainer*innen sind praxiserfahrene Webentwickler*innen, die
+                <p>
+                    Unsere Trainer*innen sind praxiserfahrene {props.kursForm === "uxui" ? "UX/UI-Designer*innen" : "Webentwickler*innen"}, die
                     sich laufend fachlich und pädagogisch fortbilden. Durch unseren
                     Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich pro Tag,
-                    wirst du spielerisch programmieren lernen und deine eigenen Webseiten
-                    bauen.
+                    wirst du spielerisch {props.kursForm === "uxui" ? "UX/UI-Design lernen und deine eigenen Prototypen bauen" : "programmieren lernen und deine eigenen Webseiten bauen."}
                 </p>
-                <p className='txt'>
+                {/* <p>
                     Ergänzend zum Training im Bootcamp bieten wir individuelle Termine
                     beim Flex-Trainer an. Im One-on-One-Coaching geht der/die Trainer*in
                     gezielt auf deine Fragen ein, wiederholt noch nicht verstandenes
                     Unterrichtsmaterial und gibt intensives Feedback zu den Übungen.
-                </p>
+                </p> */}
             </div>
             <div>
                 <section className='gridContainer'>
@@ -49,23 +48,13 @@ export default function Kurse_TrainerTeam(props) {
 
             <style jsx>{`
           .fsTrainer {
-            padding: 40px 0 170px 6%;
+            padding: 94px 0 170px 6%;
             width: 100%;
             background: var(--super-black);
           }
-
-          .gridItem {
-            padding: 0;
-            margin: 0;
-            min-width: 300px;
-          }
           .fsTrainer h2 {
-            font-size: 5rem;
             color: var(--super-white);
-            margin-bottom: 5rem;
-            position: relative;
-            z-index: 0;
-            line-height: 76px;
+            margin-bottom: 56px;
           }
           .fsTrainer h2 span {
             display: block;
@@ -76,24 +65,21 @@ export default function Kurse_TrainerTeam(props) {
           p {
             color: var(--super-white);
             width: 62%;
-            font-size: 1.2rem;
-            line-height: 20px;
-            font-weight: 400;
           }
-
+          .trainerinfos p:nth-of-type(1){
+            margin-bottom: 20px;
+          }
           figure img {
             width: 100%;
           }
 
           figure p {
-            font-size: 1.3rem;
-            margin: 0;
-            font-weight: lighter;
+            font-size: 1.875rem;
             width: 100%;
           }
 
           figcaption {
-            font-size: 1.4rem;
+            font-size: 1.875rem;
             color: var(--super-green);
             padding-top: 7px;
             padding-bottom: 3px;
@@ -102,13 +88,13 @@ export default function Kurse_TrainerTeam(props) {
 
           .gridContainer {
             display: grid;
-            grid-template-columns: 33% 33% 33%;
-            gap: 0.3rem;
+            grid-template-columns: repeat(3, 1fr);
+            width: 80%;
             margin: 0 auto;
-            width: 93%;
-            margin-right: 6%;
-            margin-top: 7%;
+            margin-top: 96px;
+            gap: 126px;
             position: relative;
+
           }
           .rotating-text {
             position: absolute;

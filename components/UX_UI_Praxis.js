@@ -326,9 +326,9 @@ const UX_UI_Praxis = () => {
 
           .fsPraxis p {
             width: 65%;
-            font-size: 1.3rem;
-            font-weight: 300;
-            line-height: 20px;
+          }
+          .fsPraxis p:nth-of-type(1) {
+            margin-bottom: 20px;
           }
           .praxis-Img {
             width: 90%;
@@ -473,17 +473,6 @@ const UX_UI_Praxis = () => {
           }
 
           //=========================
-
-          h2 {
-            font-size: 4rem;
-            color: var(--super-black);
-            margin: 0;
-            line-height: 50px;
-          }
-          p {
-            font-size: 1.563rem;
-            font-weight: 300;
-          }
           .praxisInfos,
           .plus-skills-infos {
             margin: 5rem;
@@ -499,22 +488,15 @@ const UX_UI_Praxis = () => {
             display: block;
             position: relative;
           }
-          .neugierCTA h2 {
-            font-size: 3rem;
-            width: 80%;
-            margin-top: 125px;
-            margin-bottom: 30px;
-            padding-left: 5%;
-          }
+
           .fsPraxis .neugierCTA_txt {
             font-family: "Neue_Machina_Light";
-            font-size: 3.3rem;
+            font-size: 5rem;
             width: 80%;
-            margin-top: 125px;
+            margin-top: 150px;
             margin-bottom: 30px;
             padding-left: 5%;
-            line-height: 50px;
-            font-weight: 200;
+
           }
           .buttons {
             display: flex;
@@ -535,19 +517,7 @@ const UX_UI_Praxis = () => {
             transform: scale(1.1, 0.6);
             display: block;
           }
-          // @media (max-width: 1440px) {
-          //   .neugierCTA p span.circle::after {
-          //     position: absolute;
-          //     background: url('/img/Vector64.svg') center/contain no-repeat;
-          //     height: 336%;
-          //     width: 103%;
-          //     right: -9%;
-          //     bottom: -110%;
-          //     content: '';
-          //     transform: scale(1.1, 0.6);
-          //     display: block;
-          //   }
-          // }
+
           @media (max-width: 1040px) {
             .fsPraxis p {
               font-size: 1.2rem;

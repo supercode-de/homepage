@@ -32,13 +32,14 @@ export default function UX_UI_FooterCTA() {
       <style jsx>{`
         .footerCTA {
           background-color: var(--super-lila);
-          padding-top: 60px;
+          padding-top: 100px;
           padding-bottom: 50px;
         }
         h2 {
           color: var(--super-white);
           font-size: 3.7rem;
           padding-left: 7%;
+          margin-bottom: 50px;
         }
         h2 .stroke {
           color: transparent;
@@ -59,13 +60,14 @@ export default function UX_UI_FooterCTA() {
           display: block;
         }
         .termine {
-          position: relative;
-          width: 85%;
-          margin: auto;
+          padding-left: 7%;
         }
         .termine h3 {
           color: var(--super-white);
           font-size: 2rem;
+        }
+        .termine h3:nth-of-type(2) {
+          margin: 50px 0;
         }
         .jetzt-bewerben-btn {
           display: flex;

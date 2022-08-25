@@ -276,6 +276,15 @@ class Layout extends Component {
               }
             }
 
+            // FAQ STYLES START
+            .Collapsible__contentOuter {
+              margin-top: 10px;
+            }
+            .Collapsible__contentInner p {
+              font-size: 1.4em;
+            }
+            // FAQ STYLES END
+
             // BLOGSTYLES Start
             // Container in dem der Blogarticle sitzt
             #blogDetails .right>p {

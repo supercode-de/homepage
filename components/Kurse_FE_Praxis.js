@@ -1,10 +1,10 @@
 import Beratung_flexible from './Beratung_flexible';
 import Curriculum from './Curriculum_Popup';
-import kurseData from '../components/data/kursedata.json';
+import kurseData from './data/kursedata.json';
 import { useState } from 'react';
 import Accordion_frontend from './Accordion_frontend';
 
-const UX_UI_Praxis = () => {
+const Kurse_FE_Praxis = () => {
   const [text1, setText1] = useState(false);
   const [text2, setText2] = useState(true);
 
@@ -196,9 +196,10 @@ const UX_UI_Praxis = () => {
 
           .fsPraxis p {
             width: 65%;
-            font-size: 1.3rem;
-            font-weight: 300;
-            line-height: 20px;
+          }
+
+          .fsPraxis p:nth-of-type(1) {
+            margin-bottom: 20px;
           }
           .praxis-Img {
             width: 90%;
@@ -666,4 +667,4 @@ const UX_UI_Praxis = () => {
   );
 };
 
-export default UX_UI_Praxis;
+export default Kurse_FE_Praxis;

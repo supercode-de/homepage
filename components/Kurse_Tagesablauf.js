@@ -34,7 +34,7 @@ export default function Kurse_Tagesablauf(props) {
             <Tagesablauf kurs={kurs}/>
             <style jsx>{`
               .tagesablauf {
-                padding:50px 0 100px 0;
+                padding:150px 0 100px 0;
                 background: var(--super-lila);
               }
   
@@ -45,7 +45,6 @@ export default function Kurse_Tagesablauf(props) {
             }
             h2{
               color: var(--super-white);
-              margin-bottom:0;
             }
             h2 .stroke {
               color: transparent;
@@ -54,10 +53,7 @@ export default function Kurse_Tagesablauf(props) {
               
             }
             .eat-sleep-header{
-              font-size:3.5rem;
               color: var(--super-white);
-              margin-bottom:0;
-              line-height:50px;
             }
             .tagesablauf article {
               display: flex;
@@ -67,11 +63,14 @@ export default function Kurse_Tagesablauf(props) {
               width: 47%;
             }
             .tagesablauf-txt{
-              padding 0 0 0 4%;
+              padding: 0 0 0 4%;
             }
             .tagesablauf-txt p{
               color: var(--super-white);
               width:85%;
+            }
+            .tagesablauf-txt p:nth-of-type(1){
+              margin-bottom: 20px;
             }
             .tagesablauf article > div img {
               width: 100%;

@@ -29,13 +29,12 @@ const Index_Blog = () => {
   const pixelSize = 1.5;
 
   return (
-    <div id="blog" className="whiteGreenDots">
+    <div id="blog">
       {console.log("test1")}
       <div>
         <h2>Meine</h2>
         <h2>Straße,</h2>
-        <h2>mein</h2>
-        <h2 className="letterstroke">Blog</h2>
+        <h2>mein <span className="letterstroke">Blog</span></h2>
         <div className="blog-list">
           <Carousel
             responsive={responsive}
@@ -84,9 +83,8 @@ const Index_Blog = () => {
       <style jsx>{`
         #blog {
           color: var(--super-green);
-          font-family: "Neue_Machina_Regular_400";
           position: relative;
-          padding: 50px 0;
+          padding: 150px 0;
         }
         h2 {
           color: var(--super-green);

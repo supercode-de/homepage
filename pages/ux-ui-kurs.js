@@ -11,6 +11,8 @@ import UX_UI_FooterCTA from "../components/UX_UI_FooterCTA";
 import { useWindowSize } from "../components/functions/windowSize";
 import Kurse_Tagesablauf from "../components/Kurse_Tagesablauf";
 import UX_UI_HeaderTermine from "../components/UX_UI_HeaderTermine";
+import Kurse_HeaderTermine_Webdev from "../components/Kurse_HeaderTermine_Webdev";
+import Kurse_TrainerTeam from "../components/Kurse_TrainerTeam";
 export default function UXUIKurs() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
@@ -21,7 +23,7 @@ export default function UXUIKurs() {
           <UX_UI_HeaderTermine />
           <Kurse_HeaderCTA wochen="18" monate="4" />
           <UX_UI_Praxis />
-          <UX_UI_TrainerTeam />
+          <Kurse_TrainerTeam kursForm="uxui"/>
           <Kurse_Tagesablauf kurs="design" dauer="vier" welt="UX/UI–Designs"/>
           <Bildungsberatung />
           <UX_UI_FooterCTA />
