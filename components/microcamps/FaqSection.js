@@ -1,5 +1,5 @@
 import FaqSectionAccCard from "./FaqSectionAccCard";
-import faqdata from "../../data/faqdata";
+import faqdata from "../../components/microcamps/data/faqdata";
 
 import { useState } from "react";
 

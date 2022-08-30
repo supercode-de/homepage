@@ -6,11 +6,13 @@ import AllCoursesArea from "../../components/microcamps/index/AllCoursesArea"
 import ReasonsWhySec from "../../components/microcamps/index/ReasonsWhySec"
 import AlumniSection from "../../components/microcamps/index/AlumniSection"
 import OurStorySection from "../../components/microcamps/index/OurStorySection";
-// import DarkInfoTextBottom from "../../components/microcamps/index/darkInfoTextBottom/DarkInfoTextBottom";
-// import BigPictureSection from "../../components/microcamps/bigPictureSection/BigPictureSection";
-// import NewsletterSection from "../../components/microcamps/index/newsletterSection/NewsletterSection";
-// import FaqSection from "../../components/microcamps/index/faqSection/FaqSection";
-// import LastBlueSection from "../../components/microcamps/lastBlueSection/LastBlueSection";
+import DarkInfoTextBottom from "../../components/microcamps/index/DarkInfoTextBottom";
+import BigPictureSection from "../../components/microcamps/BigPictureSection";
+import NewsletterSection from "../../components/microcamps/index/NewsletterSection";
+
+import FAQ from "../../components/FAQ";
+import faqdata from "../../components/microcamps/data/faqdata"
+import LastBlueSection from "../../components/microcamps/LastBlueSection";
 
 import { useWindowSize } from "../../components/functions/windowSize";
 export default function index() {
@@ -24,6 +26,11 @@ export default function index() {
                 <ReasonsWhySec />
                 <AlumniSection />
                 <OurStorySection />
+                <DarkInfoTextBottom />
+                <BigPictureSection />
+                <NewsletterSection />
+                <FAQ faqData={faqdata}/>
+                <LastBlueSection />
             </LayoutMC>
         );
     } else {

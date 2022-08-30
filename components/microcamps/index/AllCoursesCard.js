@@ -1,5 +1,5 @@
 // import { Link } from "react-router-dom";
-// import Link from 'next/link';
+import Link from 'next/link';
 
 const AllCoursesCard = (props) => {
   const {
@@ -45,9 +45,9 @@ const AllCoursesCard = (props) => {
         </p>
         <p>Level: {level}</p>
 
-        {/* <Link className="btn" to={`/course/${id}`}>
-          Zum Kurs
-        </Link> */}
+        <Link href={`/microcamps/${id}`}>
+          <a className="btn">Zum Kurs</a>
+        </Link>
       </div>
       <style jsx>{`
         .allCoursesArea__list__viewList__card {
@@ -125,6 +125,11 @@ const AllCoursesCard = (props) => {
         }
         .allCoursesArea__list__viewList__card__main .btn:nth-of-type(1) {
           margin: 1.56rem 0 0 0;
+        }
+        .btn {
+          align-items: center;
+          justify-content: center;
+          font-weight: 400;
         }
 
         @media only screen and (max-width: 768px) {

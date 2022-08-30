@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import Layout from '../components/Layout';
 import Index_Header from '../components/Index_Header';
 import Index_HeaderCTA from '../components/Index_HeaderCTA';
 import Zukunft from '../components/Zukunft';
@@ -11,12 +12,12 @@ import Bewerbungsprozess from '../components/Bewerbungsprozess';
 import MeldeDich from '../components/MeldeDich';
 import FAQ from '../components/FAQ';
 import Index_FooterCTA from '../components/Index_FooterCTA';
-import Layout from '../components/Layout';
+
 import kurseData from '../components/data/kursedata.json';
+import faq from '../components/data/faq';
 import useInView from "react-cool-inview";
-
-
 import dynamic from 'next/dynamic'
+
 const Index_Blog = dynamic(() => import('../components/Index_Blog'))
 
 export default function Home(props) {
@@ -51,7 +52,7 @@ export default function Home(props) {
               */}
               {inView && <Index_Blog />}
             </div>
-            <FAQ />
+            <FAQ faqData={faq}/>
             <Index_FooterCTA/>
             {/* <Cookies /> */}
           </main>

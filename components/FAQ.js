@@ -1,14 +1,12 @@
 import Collapsible from "./FAQItem";
-import faqData from "./data/faq";
 
-const FAQ = () => {
+const FAQ = (props) => {
   return (
     <div id="faq">
       <h2>FAQ</h2>
 
       <div className="grid">
-        <span className="aside">FAQ Yourself</span>
-        {faqData.map((faq, i) => (
+        {props.faqData.map((faq, i) => (
           <Collapsible trigger={faq.question} key={i}>
             {" "}
             <p>{faq.answer}</p>
@@ -37,15 +35,6 @@ const FAQ = () => {
             grid-gap: 0 5%;
           }
 
-          .aside {
-            position: absolute;
-            transform: rotate(-90deg);
-            transform-origin: left;
-            left: 2em;
-            top: 50%;
-            color: #fff;
-          }
-
           @media (max-width: 768px) {
             #faq {
               padding: 10px calc(100vw / 12) 50px;
@@ -54,12 +43,8 @@ const FAQ = () => {
               display: block;
               padding: 10px;
             }
-            .aside {
-              display: none;
-            }
           }
-          @media (max-width: 468px) {
-          }
+
         `}</style>
     </div>
   );

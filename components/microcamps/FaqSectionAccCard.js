@@ -5,7 +5,7 @@ import Typography from "@mui/material/Typography";
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 const FaqSectionAccCard = (props) => {
-  const { frage} = props;
+  const { frage } = props;
   return (
     <Accordion
       expanded={props.expanded === `panel${props.index}`}
