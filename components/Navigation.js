@@ -125,7 +125,7 @@ class Navigation extends Component {
                 onClick={this.handleDropdown}
                 className='jo bla dropper dropper_workshop'
               >
-                Kurse
+                Bootcamps
               </a>
               {/* Arrow für das Dropdown */}
               {/* <div
@@ -166,15 +166,15 @@ class Navigation extends Component {
               </div>
             </li>
 
-            <li className='workshops-link'>
+            {/* <li className='workshops-link'>
               <a
                 onClick={this.handleDropdownWorkshops}
                 className='dropper_workshop dropper'
               >
                 Workshops
               </a>
-              {/* Arrow für das Dropdown */}
-              {/* <div
+              Arrow für das Dropdown
+              <div
                 className={
                   this.state.showDropDown_workshops
                     ? 'arrowWrapperNoAnimation_workshops'
@@ -182,7 +182,7 @@ class Navigation extends Component {
                 }
               >
                 <img src='/img/navArrow.svg' alt='' />
-              </div> */}
+              </div>
 
               <div
                 // className='kurseList'
@@ -199,20 +199,28 @@ class Navigation extends Component {
                     Kostenloser HTML & CSS Workshop
                   </a>
                 </Link>
-                {/* <Link href='/workshops'>
+                <Link href='/workshops'>
                   <a className='dropper_workshop dropper'>
                     Kostenloser UX & UI-Design Workshop
                   </a>
-                </Link> */}
+                </Link>
               </div>
+            </li> */}
+            <li>
+              <Link href="/microcamps">
+                <a>MicroCamps</a>
+              </Link>
             </li>
-
             <li>
               <Link href='/team'>
                 <a>Team</a>
               </Link>
             </li>
-
+            <li>
+              <Link href="/unsere-story">
+                <a>Unsere Story</a>
+              </Link>
+            </li>
             <li>
               <Link href='/#faq'>
                 <a>FAQ</a>
