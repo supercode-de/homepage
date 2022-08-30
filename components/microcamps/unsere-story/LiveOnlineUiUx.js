@@ -1,5 +1,3 @@
-import "./LiveOnlineUiUx.scss";
-
 const LiveOnlineUiUx = () => {
   return (
     <section className="online-uiux-wrapper">
@@ -15,6 +13,30 @@ const LiveOnlineUiUx = () => {
       <div className="btn-wrapper">
         <a className="btn" href="#allCourses">zu den Kursen</a>
       </div>
+
+      <style jsx>{`
+        .online-uiux-wrapper {
+          padding: 0 10.125rem;
+        }
+        .online-uiux-wrapper .btn-wrapper {
+          display: flex;
+          justify-content: flex-end;
+        }
+        .online-uiux-wrapper a {
+          font-size: var(--fs-500);
+          background-color: var(--clr-super-green);
+          color: var(--clr-super-lila);
+        }
+        @media only screen and (max-width: 576px) {
+          .online-uiux-wrapper {
+            padding: 3.125rem 4.5rem;
+          }
+          .online-uiux-wrapper .btn-wrapper {
+            justify-content: center;
+          }
+        }
+      
+      `}</style>
     </section>
   );
 };

@@ -75,7 +75,7 @@ export default function Home(props) {
         <meta property='og:type' content='Website' />
         <meta
           property='og:title'
-          content='Super-code.de - Programmieren lernen war noch nie digitaler.'
+          content='super-code.de - Programmieren lernen war noch nie digitaler.'
         />
 
         {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}

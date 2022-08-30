@@ -217,7 +217,7 @@ class Navigation extends Component {
               </Link>
             </li>
             <li>
-              <Link href="/unsere-story">
+              <Link href="/microcamps/unsere-story">
                 <a>Unsere Story</a>
               </Link>
             </li>

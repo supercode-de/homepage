@@ -1,5 +1,3 @@
-import "./uxUiPaySection.scss";
-
 const UxUiPaySection = () => {
   return (
     <section className="ui-ux-pay">
@@ -12,8 +10,30 @@ const UxUiPaySection = () => {
         </p>
       </div>
       <div className="img-wrapper">
-        <img src="/img/class_big.png" alt="Trainer teaches the students" />
+        <img src="/img/microcamps/class_big.png" alt="Trainer Ahmed steht vor einem Kurs" />
       </div>
+
+      <style jsx>{`
+        .ui-ux-pay {
+          padding: 12.5rem 10.125rem;
+        }
+        .ui-ux-pay .img-wrapper {
+          display: flex;
+          justify-content: flex-end;
+        }
+        .ui-ux-pay .img-wrapper img {
+          max-width: 79.5%;
+        }
+        @media only screen and (max-width: 576px) {
+          .ui-ux-pay {
+            padding: 3.125rem 4.5rem;
+          }
+          .ui-ux-pay .img-wrapper img {
+            max-width: 100%;
+          }
+        }
+      
+      `}</style>
     </section>
   );
 };

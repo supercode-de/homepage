@@ -1,5 +1,3 @@
-import "./SolutionLearningUxUi.scss";
-
 const SolutionLearningUxUi = () => {
   return (
     <section className="solution-wrapper">
@@ -14,8 +12,30 @@ const SolutionLearningUxUi = () => {
       </div>
 
       <div className="img-wrapper">
-        <img src="/img/people_center.png" alt="Trainer teaches the students" />
+        <img src="/img/microcamps/people_center.png" alt="erfolgreiche supercode Teilnehmende" />
       </div>
+
+      <style jsx>{`
+        .solution-wrapper {
+          padding: 12.5rem 10.125rem;
+        }
+        .solution-wrapper p:nth-of-type(1) {
+          margin-bottom: 2rem;
+        }
+        .solution-wrapper .img-wrapper {
+          display: flex;
+          justify-content: center;
+        }
+        @media only screen and (max-width: 576px) {
+          .solution-wrapper {
+            padding: 3.125rem 4.5rem;
+          }
+          .solution-wrapper .img-wrapper img {
+            max-width: 100%;
+          }
+        }
+      
+      `}</style>
     </section>
   );
 };

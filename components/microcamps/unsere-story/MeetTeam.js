@@ -1,9 +1,6 @@
-import "./MeetTeam.scss";
+import TeamCard from "./TeamCard";
 
-import TeamCard from "./ teamCardSection/TeamCard";
-
-//Data
-import teamData from "../../data/teamData";
+import teamData from "../../microcamps/data/teamData";
 
 const MeetTeam = () => {
   return (
@@ -26,6 +23,27 @@ const MeetTeam = () => {
           />
         ))}
       </article>
+
+      <style jsx>{`
+        .meet-team-wrapper {
+          padding: 12.5rem 10.125rem;
+        }
+        .meet-team-wrapper .team-wrapper {
+          margin: 5% auto;
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+          gap: 25px 25px;
+        }
+        @media only screen and (max-width: 576px) {
+          .meet-team-wrapper {
+            padding: 3.125rem 4.5rem;
+          }
+          .meet-team-wrapper .team-wrapper {
+            grid-template-columns: repeat(2, 1fr) !important;
+          }
+        }
+      
+      `}</style>
     </section>
   );
 };

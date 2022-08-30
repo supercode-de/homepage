@@ -306,6 +306,28 @@ class LayoutMC extends Component {
               animation: rotation 5s linear infinite;
             }
 
+
+            // unsere-story allgemeine styles start
+            .our-story-wrapper .content-wrapper {
+              max-width: 955px;
+              margin-bottom: 3.125rem;
+            }
+            .our-story-wrapper h2:not(.lastBlueSection h2, .bigPictureSection .textWrap h2) {
+              color: var(--clr-super-lila);
+              font-size: var(--fs-800);
+              margin-bottom: 2%;
+            }
+            .our-story-wrapper p:not(.our-story-wrapper p) {
+              font-size: var(--fs-200);
+              max-width: 80%;
+            }
+            @media only screen and (max-width: 576px) {
+              .meet-team-wrapper {
+                padding: 3.125rem 4.5rem;
+              }
+            }
+
+            // unsere-story allgemeine styles end
           `}
         </style>
       </div>

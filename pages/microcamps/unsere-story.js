@@ -1,12 +1,10 @@
 import Head from 'next/head';
 import LayoutMC from "../../components/LayoutMC";
-import HeaderSection from "../../components/microcamps/index/HeaderSection"
-import DarkInfoTextTop from "../../components/microcamps/index/DarkInfoTextTop"
-import AllCoursesArea from "../../components/microcamps/index/AllCoursesArea"
-import ReasonsWhySec from "../../components/microcamps/index/ReasonsWhySec"
-import AlumniSection from "../../components/microcamps/index/AlumniSection"
-import OurStorySection from "../../components/microcamps/index/OurStorySection";
-import DarkInfoTextBottom from "../../components/microcamps/index/DarkInfoTextBottom";
+import HeaderOurStory from "../../components/microcamps/unsere-story/HeaderOurStory"
+import UxUiPaySection from "../../components/microcamps/unsere-story/UxUiPaySection"
+import SolutionLearningUxUi from "../../components/microcamps/unsere-story/SolutionLearningUxUi";
+import LiveOnlineUiUx from "../../components/microcamps/unsere-story/LiveOnlineUiUx";
+import MeetTeam from "../../components/microcamps/unsere-story/MeetTeam";
 import BigPictureSection from "../../components/microcamps/BigPictureSection";
 import NewsletterSection from "../../components/microcamps/index/NewsletterSection";
 import FAQ from "../../components/FAQ";
@@ -20,17 +18,18 @@ export default function index() {
         const width = useWindowSize().width / 12;
         return (
             <LayoutMC banner={true}>
-                <HeaderSection />
-                <DarkInfoTextTop />
-                <AllCoursesArea />
-                <ReasonsWhySec />
-                <AlumniSection />
-                <OurStorySection />
-                <DarkInfoTextBottom />
-                <BigPictureSection />
-                <NewsletterSection />
-                <FAQ faqData={faqdata}/>
-                <LastBlueSection />
+                <div className="our-story-wrapper">
+                    <HeaderOurStory />
+                    <UxUiPaySection />
+                    <SolutionLearningUxUi />
+                    <LiveOnlineUiUx />
+                    <MeetTeam />
+                    <BigPictureSection />
+                    <NewsletterSection />
+                    <FAQ faqData={faqdata} />
+                    <LastBlueSection />
+                </div>
+
             </LayoutMC>
         );
     } else {
@@ -38,17 +37,17 @@ export default function index() {
             <Head>
                 <meta
                     property='og:image:secure'
-                    content='https://www.super-code.de/img/microcamps/people_center.png'
+                    content='https://www.super-code.de/img/page-preview.jpg'
                 />
                 <meta
                     property='og:image'
-                    content='http://www.super-code.de/img/microcamps/people_center.png'
+                    content='http://www.super-code.de/img/page-preview.jpg'
                 />
-                <meta property='og:url' content='https://www.super-code.de/microcamps' />
+                <meta property='og:url' content='https://www.super-code.de/unsere-story' />
                 <meta property='og:type' content='Website' />
                 <meta
                     property='og:title'
-                    content='MicroCamps'
+                    content='MicroCamps - Unsere Geschichte'
                 />
 
                 <title>MicroCamps</title>
