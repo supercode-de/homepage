@@ -44,12 +44,12 @@ const OurStorySection = () => {
                             </p>
                         </div>
                         <div className="image">
-                            <Link href="/our-story">
+                            <Link href="/microcamps/unsere-story">
                                 <a>unsere Story</a>
                             </Link>
                             <img
                                 src="img/microcamps/sergio02.png"
-                                alt="Sergio, Founder of Supercamp"
+                                alt="Sergio, Gründer von SuperCode"
                             />
                         </div>
                     </div>
@@ -86,6 +86,7 @@ const OurStorySection = () => {
                 .ourStorySection__mainWrap__mainContent {
                     width: 65%;
                     margin: 0 0 0 10%;
+                    text-align: right;
                 }
                 .ourStorySection__mainWrap__mainContent .text {
                     margin: 0 0 10% 0;
@@ -101,7 +102,6 @@ const OurStorySection = () => {
                 }
                 .ourStorySection__mainWrap__mainContent .image {
                     position: relative;
-                    padding: 0 0 0 0;
                 }
                 .ourStorySection__mainWrap__mainContent .image::before {
                     position: absolute;
@@ -129,6 +129,7 @@ const OurStorySection = () => {
                     text-decoration: none;
                     position: absolute;
                     top: -10%;
+                    left: 0;
                     font-size: var(--fs-600);
                     font-weight: 800;
                     padding: 4% 5%;
@@ -142,7 +143,8 @@ const OurStorySection = () => {
                     opacity: 0.8;
                 }
                 .ourStorySection__mainWrap__mainContent .image img {
-                    margin: 0 0 0 auto;
+                    // margin: 0 0 0 auto;
+                    margin-left: auto;
                     width: 80%;
                     border-radius: 50px;
                 }
