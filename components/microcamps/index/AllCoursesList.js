@@ -6,7 +6,7 @@ import courseData from "../data/courseData.json";
 
 // die variable brauchen wir, damit nicht alle data science kurse angezeigt werden, da es diese noch nicht offiziell gibt, sie aber im datensatz schon angelegt sind und damit der datensatz nicht aufwendig verändert werden muss, slice ich die kurse einfach weg. sobald die kurse existieren muss entsprechend überall "courseDataSlice" wieder mit "courseData" ausgetauscht werden
 const courseDataSlice = courseData.slice(0, 12)
-const AllCoursesList = (props) => {
+const AllCoursesList = () => {
     const [filteredArr, setFilteredArr] = useState(courseDataSlice);
 
     const [filterWhat, setFilterWhat] = useState([]);
@@ -144,7 +144,6 @@ const AllCoursesList = (props) => {
                             <AllCoursesCardNeu
                                 key={course.id}
                                 data={course}
-                                filteredTools={props.filteredTools}
                             />
                         ))}
                     </div>

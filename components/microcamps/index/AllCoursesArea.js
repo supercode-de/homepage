@@ -1,5 +1,5 @@
 import AllCoursesList from "./AllCoursesList";
-const AllCoursesArea = (props) => {
+const AllCoursesArea = () => {
     return (
         <section className="allCoursesArea">
             <div className="wrap">
@@ -12,7 +12,7 @@ const AllCoursesArea = (props) => {
                         Du bist wissenshungrig, möchtest aber nicht gleich das ganze Menü bestellen? Kein Problem! Stell dir deine Kurse individuell zusammen und lerne nur das, was du wirklich brauchst.
                     </p>
                 </article>
-                <AllCoursesList filteredTools={props.filteredTools} />
+                <AllCoursesList/>
 
             </div>
             <style jsx>{`

@@ -15,11 +15,13 @@
     "toolsInternal": [
       {
         "name": "Figma",
-        "image": "microcamps/tools/figma.svg"
+        "image": "microcamps/tools/figma.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       }
     ],
     "curriculumOverview": [
@@ -184,11 +186,13 @@
     "toolsInternal": [
       {
         "name": "Figma",
-        "image": "microcamps/tools/figma.svg"
+        "image": "microcamps/tools/figma.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       }
     ],
     "curriculumOverview": [
@@ -368,15 +372,18 @@
     "toolsInternal": [
       {
         "name": "Figma",
-        "image": "microcamps/tools/figma.svg"
+        "image": "microcamps/tools/figma.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "Notion",
-        "image": "microcamps/tools/notion.svg"
+        "image": "microcamps/tools/notion.svg",
+        "description": "Notion ist eine Projektmanagement- und Notizsoftware. Notion ist eine Software, die entwickelt wurde, um Mitgliedern eines Unternehmens oder einer Organisation dabei zu helfen, Fristen, Ziele und Aufgaben im Interesse von Effizienz und Produktivität zu koordinieren."
       }
     ],
     "curriculumOverview": [
@@ -555,11 +562,13 @@
     "toolsInternal": [
       {
         "name": "Figma",
-        "image": "microcamps/tools/figma.svg"
+        "image": "microcamps/tools/figma.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       }
     ],
     "curriculumOverview": [
@@ -813,11 +822,13 @@
     "toolsInternal": [
       {
         "name": "Figma",
-        "image": "microcamps/tools/figma.svg"
+        "image": "microcamps/tools/figma.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       }
     ],
     "curriculumOverview": [
@@ -1052,27 +1063,33 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "HTML",
-        "image": "microcamps/tools/html.svg"
+        "image": "microcamps/tools/html.svg",
+        "description": "Die Hypertext Markup Language ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt."
       },
       {
         "name": "CSS",
-        "image": "microcamps/tools/css.svg"
+        "image": "microcamps/tools/css.svg",
+        "description": "Cascading Style Sheets ist eine Stylesheet-Sprache für elektronische Dokumente und zusammen mit HTML und JavaScript eine der Kernsprachen des World Wide Webs. Sie ist ein sogenannter living standard (lebendiger Standard) und wird vom World Wide Web Consortium beständig weiterentwickelt."
       },
       {
         "name": "JavaScript",
-        "image": "microcamps/tools/js.svg"
+        "image": "microcamps/tools/js.svg",
+        "description": "JavaScript ist eine Skriptsprache, die ursprünglich 1995 von Netscape für dynamisches HTML in Webbrowsern entwickelt wurde, um Benutzerinteraktionen auszuwerten, Inhalte zu verändern, nachzuladen oder zu generieren und so die Möglichkeiten von HTML zu erweitern."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       }
     ],
     "curriculumOverview": [
@@ -1296,27 +1313,33 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "HTML",
-        "image": "microcamps/tools/html.svg"
+        "image": "microcamps/tools/html.svg",
+        "description": "Die Hypertext Markup Language ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt."
       },
       {
         "name": "CSS",
-        "image": "microcamps/tools/css.svg"
+        "image": "microcamps/tools/css.svg",
+        "description": "Cascading Style Sheets ist eine Stylesheet-Sprache für elektronische Dokumente und zusammen mit HTML und JavaScript eine der Kernsprachen des World Wide Webs. Sie ist ein sogenannter living standard (lebendiger Standard) und wird vom World Wide Web Consortium beständig weiterentwickelt."
       },
       {
         "name": "JavaScript",
-        "image": "microcamps/tools/js.svg"
+        "image": "microcamps/tools/js.svg",
+        "description": "JavaScript ist eine Skriptsprache, die ursprünglich 1995 von Netscape für dynamisches HTML in Webbrowsern entwickelt wurde, um Benutzerinteraktionen auszuwerten, Inhalte zu verändern, nachzuladen oder zu generieren und so die Möglichkeiten von HTML zu erweitern."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       }
     ],
     "curriculumOverview": [
@@ -1466,27 +1489,33 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "HTML",
-        "image": "microcamps/tools/html.svg"
+        "image": "microcamps/tools/html.svg",
+        "description": "Die Hypertext Markup Language ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt."
       },
       {
         "name": "CSS",
-        "image": "microcamps/tools/css.svg"
+        "image": "microcamps/tools/css.svg",
+        "description": "Cascading Style Sheets ist eine Stylesheet-Sprache für elektronische Dokumente und zusammen mit HTML und JavaScript eine der Kernsprachen des World Wide Webs. Sie ist ein sogenannter living standard (lebendiger Standard) und wird vom World Wide Web Consortium beständig weiterentwickelt."
       },
       {
         "name": "JavaScript",
-        "image": "microcamps/tools/js.svg"
+        "image": "microcamps/tools/js.svg",
+        "description": "JavaScript ist eine Skriptsprache, die ursprünglich 1995 von Netscape für dynamisches HTML in Webbrowsern entwickelt wurde, um Benutzerinteraktionen auszuwerten, Inhalte zu verändern, nachzuladen oder zu generieren und so die Möglichkeiten von HTML zu erweitern."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       }
     ],
     "curriculumOverview": [
@@ -1704,27 +1733,33 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "HTML",
-        "image": "microcamps/tools/html.svg"
+        "image": "microcamps/tools/html.svg",
+        "description": "Die Hypertext Markup Language ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt."
       },
       {
         "name": "CSS",
-        "image": "microcamps/tools/css.svg"
+        "image": "microcamps/tools/css.svg",
+        "description": "Cascading Style Sheets ist eine Stylesheet-Sprache für elektronische Dokumente und zusammen mit HTML und JavaScript eine der Kernsprachen des World Wide Webs. Sie ist ein sogenannter living standard (lebendiger Standard) und wird vom World Wide Web Consortium beständig weiterentwickelt."
       },
       {
         "name": "JavaScript",
-        "image": "microcamps/tools/js.svg"
+        "image": "microcamps/tools/js.svg",
+        "description": "JavaScript ist eine Skriptsprache, die ursprünglich 1995 von Netscape für dynamisches HTML in Webbrowsern entwickelt wurde, um Benutzerinteraktionen auszuwerten, Inhalte zu verändern, nachzuladen oder zu generieren und so die Möglichkeiten von HTML zu erweitern."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       }
     ],
     "curriculumOverview": [
@@ -1873,31 +1908,38 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "HTML",
-        "image": "microcamps/tools/html.svg"
+        "image": "microcamps/tools/html.svg",
+        "description": "Die Hypertext Markup Language ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt."
       },
       {
         "name": "CSS",
-        "image": "microcamps/tools/css.svg"
+        "image": "microcamps/tools/css.svg",
+        "description": "Cascading Style Sheets ist eine Stylesheet-Sprache für elektronische Dokumente und zusammen mit HTML und JavaScript eine der Kernsprachen des World Wide Webs. Sie ist ein sogenannter living standard (lebendiger Standard) und wird vom World Wide Web Consortium beständig weiterentwickelt."
       },
       {
         "name": "JavaScript",
-        "image": "microcamps/tools/js.svg"
+        "image": "microcamps/tools/js.svg",
+        "description": "JavaScript ist eine Skriptsprache, die ursprünglich 1995 von Netscape für dynamisches HTML in Webbrowsern entwickelt wurde, um Benutzerinteraktionen auszuwerten, Inhalte zu verändern, nachzuladen oder zu generieren und so die Möglichkeiten von HTML zu erweitern."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "React",
-        "image": "microcamps/tools/react.svg"
+        "image": "microcamps/tools/react.svg",
+        "description": "React ist eine JavaScript-Programmbibliothek zur Erstellung von webbasierten Benutzeroberflächen. Komponenten werden in React hierarchisch aufgebaut und können in dessen Syntax als selbst definierte JSX-Tags repräsentiert werden."
       }
     ],
     "curriculumOverview": [
@@ -2099,15 +2141,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
@@ -2355,23 +2400,28 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
-        "image": "microcamps/tools/python.svg"
+        "image": "microcamps/tools/python.svg",
+        "description": "Python ist eine universelle, üblicherweise interpretierte, höhere Programmiersprache. Sie hat den Anspruch, einen gut lesbaren, knappen Programmierstil zu fördern. So werden beispielsweise Blöcke nicht durch geschweifte Klammern, sondern durch Einrückungen strukturiert."
       },
       {
         "name": "TensorFlow",
-        "image": "microcamps/tools/tensorflow.svg"
+        "image": "microcamps/tools/tensorflow.svg",
+        "description": "TensorFlow ist ein Framework zur datenstromorientierten Programmierung. Populäre Anwendung findet TensorFlow im Bereich des maschinellen Lernens. Der Name TensorFlow stammt von Rechenoperationen, welche von künstlichen neuronalen Netzen auf mehrdimensionalen Datenfeldern, sog. Tensoren, ausgeführt werden."
       }
     ],
     "curriculumOverview": [
@@ -2604,15 +2654,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
@@ -2853,15 +2906,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
@@ -3102,15 +3158,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
@@ -3351,15 +3410,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
@@ -3600,15 +3662,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
@@ -3849,15 +3914,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
@@ -4098,15 +4166,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",
@@ -4347,15 +4418,18 @@
     "toolsInternal": [
       {
         "name": "Discord",
-        "image": "microcamps/tools/discord.svg"
+        "image": "microcamps/tools/discord.svg",
+        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
       },
       {
         "name": "VSCode",
-        "image": "microcamps/tools/vscode.svg"
+        "image": "microcamps/tools/vscode.svg",
+        "description": "Visual Studio Code ist ein kostenloser Quelltext-Editor von Microsoft. Visual Studio Code ist plattformübergreifend für die Betriebssysteme Windows, macOS und Linux verfügbar."
       },
       {
         "name": "GitHub",
-        "image": "microcamps/tools/github.svg"
+        "image": "microcamps/tools/github.svg",
+        "description": "GitHub ist ein netzbasierter Dienst zur Versionsverwaltung für Software-Entwicklungsprojekte. Namensgebend war das Versionsverwaltungssystem Git."
       },
       {
         "name": "Python",

@@ -38,7 +38,7 @@ const LastBlueSection = () => {
                     line-height: 106.5%;
                 }
                 .lastBlueSection__text h2 .lines {
-                    background: url(/img/lines_big.svg) right bottom / 70% no-repeat;
+                    background: url("/img/microcamps/lines_big.svg") right bottom / 70% no-repeat;
                     padding: 0 var(--fs-800) 0 0;
                 }
                 .lastBlueSection a {

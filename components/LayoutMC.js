@@ -124,6 +124,9 @@ class LayoutMC extends Component {
             select {
                 font: inherit;
             }
+            ul {
+              list-style: none;
+            }
 
           //=== RESETS END ===
 

@@ -13,10 +13,40 @@ const ScheduleCTASection = (props) => {
                     <div className="scheduleSection__overview__video">
                         <img
                             className="backgroundImage"
-                            src="/img/anass.png"
+                            src="/img/microcamps/anass.png"
                             alt="Supercoder"
                         />
                     </div>
+
+                    <style jsx>{`
+                        .scheduleSection__overview__headline {
+                            margin: 10% 35% 5% 0;
+                        }
+                        .scheduleSection__overview__headline h3 {
+                            color: var(--clr-super-lila);
+                            margin: 0 0 2% 0;
+                        }
+                        .scheduleSection__overview__video {
+                            position: relative;
+                            width: 90%;
+                            margin: 0 0 0 10%;
+                        }
+                        .scheduleSection__overview__video .backgroundImage {
+                            border-radius: 20px;
+                            pointer-events: none;
+                            width: 100%;
+                            object-fit: cover;
+                            transition: all 0.2s;
+                        }
+                        .scheduleSection__overview__video .playButton {
+                            width: 5%;
+                            position: absolute;
+                            opacity: 0.7;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                        }
+                    `}</style>
                 </article>
     )
 }

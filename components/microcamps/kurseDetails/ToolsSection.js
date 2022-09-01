@@ -1,6 +1,7 @@
 import ToolsOneTool from "./ToolsOneTool";
 
 const ToolsSection = (props) => {
+    console.log("toolssection",props.data);
     return (
         <section className="toolsSection" id="toolsSection">
             <div className="wrap">
@@ -13,11 +14,32 @@ const ToolsSection = (props) => {
                     </p>
                 </article>
                 <article className="toolsSection__toolList">
-                    {props.filteredTools.map((tool, index) => {
+                    {props.data.toolsInternal.map((tool, index) => {
                         return <ToolsOneTool key={index} tool={tool} />
                     })}
                 </article>
             </div>
+
+            <style jsx>{`
+                .toolsSection {
+                    background-color: var(--clr-super-lila);
+                    color: var(--clr-super-white);
+                }
+                .toolsSection__headline {
+                    margin: 0 0 2% 0;
+                }
+                .toolsSection__headline h3 {
+                    color: var(--clr-super-green);
+                }
+                .toolsSection__headline h3 + p {
+                    margin: 2% 40% 0 0;
+                }
+                .toolsSection__toolList {
+                    display: flex;
+                    gap: 25px;
+                }
+                
+            `}</style>
         </section>
     );
 };

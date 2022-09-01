@@ -31,11 +31,7 @@ const AllCoursesCard = (props) => {
       </div>
       <div className="allCoursesArea__list__viewList__card__main">
         <div className="plusList">
-          {props.filteredTools
-            ? props.filteredTools.map((tool, index) => (
-              <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
-            ))
-            : toolsInternal.map((tool, index) => (
+          {toolsInternal.map((tool, index) => (
               <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
             ))}
           <p>+ more</p>

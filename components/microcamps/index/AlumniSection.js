@@ -45,7 +45,7 @@ const AlumniSection = () => {
                     color: var(--clr-super-white);
                 }
                 .alumniSection h3 .circle {
-                    background: url(/img/world_circle.svg) center center / contain no-repeat;
+                    background: url("/img/microcamps/world_circle.svg") center center / contain no-repeat;
                     padding: var(--fs-100);
                 }
                 .alumniSection__videoArea {
@@ -59,7 +59,7 @@ const AlumniSection = () => {
                     position: absolute;
                     bottom: -13%;
                     left: -5%;
-                    background: url(/img/lines_bottom.svg);
+                    background: url("/img/microcamps/lines_bottom.svg");
                     background-size: 50%;
                     background-repeat: no-repeat;
                     width: 10%;
@@ -68,7 +68,7 @@ const AlumniSection = () => {
                 }
                 .alumniSection__videoArea::after {
                     position: absolute;
-                    background: url(/img/lines_top.svg);
+                    background: url("/img/microcamps/lines_top.svg");
                     background-size: 60%;
                     background-repeat: no-repeat;
                     width: 10%;

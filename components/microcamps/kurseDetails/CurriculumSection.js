@@ -15,7 +15,7 @@ const CurriculumSection = (props) => {
     curriculumExtended,
     category,
     jobtitle,
-  } = props.data;
+  } = props.kurs;
 
   const Accordion = styled((props) => (
     <MuiAccordion disableGutters elevation={0} square {...props} />

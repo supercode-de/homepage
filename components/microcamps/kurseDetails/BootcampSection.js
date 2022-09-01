@@ -1,4 +1,5 @@
 const BootcampSection = (props) => {
+  console.log(props)
   return (
     <section className="bootcampSection">
       <div className="wrap">

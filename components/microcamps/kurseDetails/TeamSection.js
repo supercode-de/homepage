@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import teamData from "../../../data/teamData";
+import teamData from "../../microcamps/data/teamData";
 const TeamSection = ({ data }) => {
     const shouldLog = useRef(true)
     const [filteredTeam, setFilteredTeam] = useState(teamData)
@@ -37,6 +37,37 @@ const TeamSection = ({ data }) => {
                     )}
                 </article>
             </div>
+
+            <style jsx>{`
+                .teamSection__headline {
+                    margin: 0 0 2% 0;
+                }
+                .teamSection__headline h3 {
+                    color: var(--clr-super-lila);
+                }
+                .teamSection__headline h3 + p {
+                    margin: 2% 40% 0 0;
+                }
+                .teamSection__gridTeam {
+                    display: grid;
+                    margin: 0 0 0 10%;
+                    grid-template-columns: repeat(3, 1fr);
+                    gap: 25px;
+                }
+                .teamSection__gridTeam__card img {
+                    border-radius: 25px;
+                    width: 100%;
+                }
+                .teamSection__gridTeam__card h5 {
+                    color: var(--clr-super-green);
+                }
+
+                @media only screen and (max-width: 1200px)  {
+                    .teamSection__gridTeam {
+                        grid-template-columns: repeat(2,1fr);
+                    }
+                }
+            `}</style>  
         </section>
     );
 };

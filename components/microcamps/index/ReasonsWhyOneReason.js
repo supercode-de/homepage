@@ -95,6 +95,13 @@ const ReasonsWhyOneReason = (props) => {
                     color: var(--clr-super-white);
                 }
 
+                @media only screen and (max-width: 1200px)  {
+                    li .openCard {
+                        border-radius: 25px;
+                        width: 90%;
+                        top: 70%;
+                    }
+                }
             `}</style>
         </li>
     );

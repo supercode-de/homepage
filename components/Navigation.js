@@ -207,7 +207,7 @@ class Navigation extends Component {
               </div>
             </li> */}
             <li>
-              <Link href="/microcamps" passHref>
+              <Link href="/microcamps/" passHref>
                 <a>MicroCamps</a>
               </Link>
             </li>
