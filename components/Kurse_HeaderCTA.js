@@ -30,7 +30,7 @@ const Kurse_HeaderCTA = (props) => {
             </section>
             <article className='jetzt-bewerben'>
                 <h4> Bewirb dich jetzt!</h4>
-                <Typeform_neu2022 />
+                <Typeform_neu2022 typeformID={props.kurs === "design" ? "VTxBX6b2" : "L6u0np35"} />
             </article>
             <style jsx>{`
         #header-call {

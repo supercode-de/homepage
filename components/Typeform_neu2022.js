@@ -5,7 +5,7 @@ const Typeform_neu2022 = (props) => {
       <Popup trigger={<button>JETZT BEWERBEN</button>} position="center">
         <div id="typeform">
           <iframe
-            src="https://form.typeform.com/to/L6u0np35"
+            src={`https://form.typeform.com/to/${props.typeformID}`}
             frameborder="0"
             id="typeform-full"
             width="100%"

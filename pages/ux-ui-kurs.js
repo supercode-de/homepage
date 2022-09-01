@@ -20,7 +20,7 @@ export default function UXUIKurs() {
         <div className="ux/ui-kurse">
           <Kurse_Header kursForm="UX/UI–DESIGN" stoererTopPos="60%"/>
           <UX_UI_HeaderTermine />
-          <Kurse_HeaderCTA wochen="18" monate="4" />
+          <Kurse_HeaderCTA wochen="18" monate="4" kurs="design"/>
           <UX_UI_Praxis />
           <Kurse_TrainerTeam kursForm="uxui"/>
           <Kurse_Tagesablauf kurs="design" dauer="vier" welt="UX/UI–Designs"/>

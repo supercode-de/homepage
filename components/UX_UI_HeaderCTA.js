@@ -24,7 +24,7 @@ const UXUI_HeaderCTA = () => {
       </section>
       <article className="jetzt-bewerben">
         <h4> Bewirb dich jetzt!</h4>
-        <Typeform_neu2022 />
+        <Typeform_neu2022 typeformID="VTxBX6b2"/> 
       </article>
 
       <style jsx>{`
