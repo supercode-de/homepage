@@ -107,7 +107,7 @@ class Navigation extends Component {
       >
         <div className={`main-navigation ${this.state.show ? 'hide' : 'hide'}`}>
 
-          <Link href='/'>
+          <Link href='/' passHref>
             <a className='logo'>
               <img
                 src='/img/Bildungsinstitut_Logo.svg'
@@ -148,17 +148,17 @@ class Navigation extends Component {
                     : 'kurseList '
                 }
               >
-                <Link href='/kurse/fullstack'>
+                <Link href='/kurse/fullstack' passHref>
                   <a id='dropper' className='dropper dropper_workshop'>
                     Fullstack Development
                   </a>
                 </Link>
-                <Link href='/kurse/frontend'>
+                <Link href='/kurse/frontend' passHref>
                   <a id='dropper' className='dropper dropper_workshop'>
                     Front-End Development
                   </a>
                 </Link>
-                <Link href='/kurse/ux-ui-kurs'>
+                <Link href='/kurse/ux-ui-kurs' passHref>
                   <a id='dropper' className='dropper dropper_workshop'>
                     UX/UI–Design
                   </a>
@@ -194,12 +194,12 @@ class Navigation extends Component {
                     : 'kurseList '
                 }
               >
-                <Link href='/workshops'>
+                <Link href='/workshops' passHref>
                   <a id='dropper' className='dropper dropper_workshop '>
                     Kostenloser HTML & CSS Workshop
                   </a>
                 </Link>
-                <Link href='/workshops'>
+                <Link href='/workshops' passHref>
                   <a className='dropper_workshop dropper'>
                     Kostenloser UX & UI-Design Workshop
                   </a>
@@ -207,22 +207,22 @@ class Navigation extends Component {
               </div>
             </li> */}
             <li>
-              <Link href="/microcamps">
+              <Link href="/microcamps" passHref>
                 <a>MicroCamps</a>
               </Link>
             </li>
             <li>
-              <Link href='/team'>
+              <Link href='/team' passHref>
                 <a>Team</a>
               </Link>
             </li>
             <li>
-              <Link href="/microcamps/unsere-story">
+              <Link href="/microcamps/unsere-story" passHref>
                 <a>Unsere Story</a>
               </Link>
             </li>
             <li>
-              <Link href='/#faq'>
+              <Link href='/#faq' passHref> 
                 <a>FAQ</a>
               </Link>
             </li>
@@ -230,7 +230,7 @@ class Navigation extends Component {
               <a onClick={this.props.toggleJetztAnmelden}>Kontakt</a>
             </li>
             <li>
-              <Link href='/blog'>
+              <Link href='/blog' passHref>
                 <a>Blog</a>
               </Link>
             </li>

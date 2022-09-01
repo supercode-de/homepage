@@ -30,18 +30,26 @@ const NavigationMobile = (props) => {
             <a onClick={() => setToggleKurse(false)}>Kurse</a>
           </li>
 
-          <li>
+          {/* <li>
             <Link href='/workshops'>
               <a onClick={props.toggleNavigationMobile}>Workshops</a>
             </Link>
+          </li> */}
+          <li>
+            <Link href="/microcamps">
+              <a onClick={props.toggleNavigationMobile}>MicroCamps</a>
+            </Link>
           </li>
-
           <li>
             <Link href='/team'>
               <a onClick={props.toggleNavigationMobile}>Team</a>
             </Link>
           </li>
-
+          <li>
+              <Link href="/microcamps/unsere-story">
+                <a onClick={props.toggleNavigationMobile}>Unsere Story</a>
+              </Link>
+            </li>
           <li>
             <Link href='/#faq'>
               <a onClick={props.toggleNavigationMobile}>FAQ</a>
