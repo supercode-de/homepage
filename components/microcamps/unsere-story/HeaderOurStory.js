@@ -7,7 +7,7 @@ const HeaderOurStory = () => {
       <div className="info">
         <h1>Olá, ich bin Sergio. Der Gründer von SuperCode!</h1>
         <p>
-          Falls du ein paar Minuten Zeit hast erzähle ich dir gerne die SuperCode Geschichte und wie und warum daraus am Ende auch die MicroCamps entstanden sind. Es war eine tolle Reise mit vielen Hürden, Rezertifizierungen und Fehlversuchen. Aber es hat sich gelohnt! ✌️
+          Wenn du ein paar Minuten Zeit hast, erzähle ich dir die SuperCode-Geschichte und wie und warum daraus am Ende die MicroCamps entstanden sind. Es war eine tolle Reise mit vielen Hürden, Re-Zertifizierungen und Fehlversuchen – aber es hat sich gelohnt! ✌️
         </p>
       </div>
 

@@ -3,7 +3,7 @@ const DarkInfoTextBottom = () => {
         <section className="darkInfoTextBottom">
             <div className="wrap">
                 <h2>
-                    IT Weiterbildung –
+                    IT-Weiterbildung –
                     <span className="headlines_stroke">
                         <span className="lines">zertifiziert, modern</span>
                     </span>

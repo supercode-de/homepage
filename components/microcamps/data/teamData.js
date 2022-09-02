@@ -15,7 +15,7 @@ let teamData = [
   },
   {
     id: 5,
-    name: "Julia Ritz",
+    name: "Julia Rintz",
     img: "../img/microcamps/team/julia_ritz.png",
     theme: "coding",
     jobtitel: "Frontend Trainerin",

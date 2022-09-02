@@ -2,12 +2,12 @@ const SolutionLearningUxUi = () => {
   return (
     <section className="solution-wrapper">
       <div className="content-wrapper">
-        <h2>Wir machen Bildung wieder fair, transparent und sexy – Digitale Bildung für alle!</h2>
+        <h2>Wir machen Bildung wieder fair, transparent und sexy – digitale Bildung für alle!</h2>
         <p>
-          Vorbei ist das Zeitalter von Präsenzkursen und Klassenzimmern. Wir holen euch bewusst deutschlandweit an die PCs, damit wir und ihr die Möglichkeit habt, eine Community aufzubauen.
+          Vorbei das Zeitalter von Präsenzkursen und Klassenzimmern! Wir holen euch bewusst deutschlandweit an die Computer, damit wir und ihr die Möglichkeit habt, eine Community aufzubauen.
         </p>
         <p>
-          Unsere Kurse sind limitiert auf bis zu acht Personen, damit ihr in der Gruppe eine tolle Lernerfahrung habt und nicht nur einer unter vielen seid. Unsere Preise sind fair und transparent und ermöglichen es auch bei einem schmalen Portmonee dennoch qualitative Bildung zu erfahren. So sollte Bildung immer sein!
+          Unsere Kurse sind limitiert auf bis zu acht Personen, weil das für die Gruppe eine tolle Lernerfahrung ermöglicht und ihr nicht nur eine:r unter vielen seid. Unsere Preise sind fair und transparent und ermöglichen es, auch bei einem schmalen Portemonnaie dennoch qualitative Bildung zu erfahren. So sollte Bildung immer sein!
         </p>
       </div>
 

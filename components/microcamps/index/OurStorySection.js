@@ -86,7 +86,6 @@ const OurStorySection = () => {
                 .ourStorySection__mainWrap__mainContent {
                     width: 65%;
                     margin: 0 0 0 10%;
-                    text-align: right;
                 }
                 .ourStorySection__mainWrap__mainContent .text {
                     margin: 0 0 10% 0;
@@ -143,7 +142,7 @@ const OurStorySection = () => {
                     opacity: 0.8;
                 }
                 .ourStorySection__mainWrap__mainContent .image img {
-                    // margin: 0 0 0 auto;
+                    display: inherit;
                     margin-left: auto;
                     width: 80%;
                     border-radius: 50px;
