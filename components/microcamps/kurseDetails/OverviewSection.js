@@ -30,6 +30,7 @@ const OverviewSection = (props) => {
                     margin: 1% 0 0 0;
                 }
                 .overviewSection img {
+                    display: inherit;
                     width: 60%;
                     margin: 0 0 0 auto;
                     border-radius: 50px;

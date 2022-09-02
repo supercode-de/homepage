@@ -25,8 +25,8 @@ const BootcampFillUp = (props) => {
             <p className="places-wr">
               <span className="circle">max. 8 Plätze</span>
             </p>
-            <Link className="btn" href="/">
-              Jetzt anmelden
+            <Link href="/" passHref>
+              <a  className="btn">Jetzt anmelden</a>
             </Link>
           </div>
           <div className="right-wrapper">
@@ -48,8 +48,8 @@ const BootcampFillUp = (props) => {
             <p className="places-wr">
               <span className="circle">max. 8 Plätze</span>
             </p>
-            <Link className="btn" href="/">
-              Jetzt anmelden
+            <Link href="/" passHref>
+              <a  className="btn">Jetzt anmelden</a>
             </Link>
           </div>
           <div className="right-wrapper">
@@ -71,8 +71,8 @@ const BootcampFillUp = (props) => {
             <p className="places-wr">
               <span className="circle">max. 8 Plätze</span>
             </p>
-            <Link className="btn" href="/">
-              Jetzt anmelden
+            <Link href="/" passHref>
+              <a  className="btn">Jetzt anmelden</a>
             </Link>
           </div>
           <div className="right-wrapper">
@@ -136,7 +136,7 @@ const BootcampFillUp = (props) => {
           font-size: var(--fs-200);
         }
 
-        .left-wrapper .info-text a {
+        .btn{
           font-size: var(--fs-300);
           background-color: var(--clr-super-green);
           color: var(--clr-super-lila);

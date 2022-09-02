@@ -1,5 +1,4 @@
 import { useRouter } from 'next/router'
-import { useEffect, useState } from 'react';
 import LayoutMC from "../../components/LayoutMC";
 import CourseDetailHeader from "../../components/microcamps/kurseDetails/CourseDetailHeader";
 
@@ -7,7 +6,7 @@ import DarkInfoTextTop from "../../components/microcamps/index/DarkInfoTextTop"
 import StickyNav from "../../components/microcamps/kurseDetails/StickyNav";
 import OverviewSection from "../../components/microcamps/kurseDetails/OverviewSection";
 import BootcampSection from "../../components/microcamps/kurseDetails/BootcampSection";
-// import CurriculumSection from "../../components/microcamps/kurseDetails/CurriculumSection";
+import CurriculumSection from "../../components/microcamps/kurseDetails/CurriculumSection";
 import ScheduleSection from "../../components/microcamps/kurseDetails/ScheduleSection";
 import TeamSection from "../../components/microcamps/kurseDetails/TeamSection";
 import ToolsSection from "../../components/microcamps/kurseDetails/ToolsSection";
@@ -17,10 +16,10 @@ import AllCoursesArea from "../../components/microcamps/index/AllCoursesArea"
 import DarkInfoTextBottom from "../../components/microcamps/index/DarkInfoTextBottom";
 import BigPictureSection from "../../components/microcamps/BigPictureSection";
 import NewsletterSection from "../../components/microcamps/index/NewsletterSection";
+import FAQ from "../../components/FAQ"
 import LastBlueSection from "../../components/microcamps/LastBlueSection";
 
-// import kurseDataMC from "../../components/microcamps/data/courseData.json";
-// import fsPromises from 'fs/promises';
+import faqdata from "../../components/microcamps/data/faqdata"
 import path from 'path';
 import { GetStaticProps, GetStaticPaths } from 'next';
 import fs from 'fs/promises';
@@ -97,8 +96,8 @@ export default function kurseDetails(props) {
                 <DarkInfoTextTop />
                 <StickyNav />
                 <OverviewSection kurs={props.foundItem} />
-                {/* <BootcampSection curriculumOverview={kursData.curriculumOverview}/> */}
-                {/* <CurriculumSection kurs={props.foundItem}  /> */}
+                <BootcampSection curriculumOverview={props.foundItem.curriculumOverview}/>
+                <CurriculumSection kurs={props.foundItem}  />
                 <ScheduleSection kurs={props.foundItem} />
                 <TeamSection data={props.foundItem} />
                 <ToolsSection data={props.foundItem} />
@@ -108,6 +107,7 @@ export default function kurseDetails(props) {
                 <DarkInfoTextBottom />
                 <BigPictureSection />
                 <NewsletterSection />
+                <FAQ faqData={faqdata}/>
                 <LastBlueSection />
             </LayoutMC>
         );
