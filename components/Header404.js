@@ -4,7 +4,6 @@ import TelefonAside from "./small/TelefonAside";
 const Header404 = () => {
   return (
     <div id="header">
-      <div className="super-code">super(code)</div>
       <TelefonAside />
 
       <div className="content">
