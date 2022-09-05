@@ -22,7 +22,7 @@ import LastBlueSection from "../../components/microcamps/LastBlueSection";
 import faqdata from "../../components/microcamps/data/faqdata"
 import path from 'path';
 // import { GetStaticProps, GetStaticPaths } from 'next';
-import fs from 'fs/promises';
+import fs from 'fs';
 
 async function getData() {
     const filePath = path.join(process.cwd(), 'components/microcamps/data', 'courseData.json');
