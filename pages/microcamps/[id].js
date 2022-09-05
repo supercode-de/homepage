@@ -114,7 +114,6 @@ export const getStaticPaths = async () => {
     const pathsWithParams = data.map(star => ({ params: { id: star.id } }))
 
     return {
-        paths: pathsWithParams,
-        fallback: true
+        paths: pathsWithParams
     }
 }
