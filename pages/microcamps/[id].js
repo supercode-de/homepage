@@ -26,42 +26,6 @@ import path from 'path';
 import fs from 'fs';
 // const fs = require("fs")
 
-async function getData() {
-    const filePath = path.join(process.cwd(), 'components/microcamps/data', 'courseData.json');
-    const fileData = fs.readFileSync(filePath);
-    const data = JSON.parse(fileData);
-
-    return data;
-}
-
-export const getStaticProps = async (context) => {
-    const itemID = context.params?.id;
-    const data = await getData();
-    const foundItem = data.find(item => itemID === item.id);
-
-    if (!foundItem) {
-        return {
-            props: { hasError: true },
-        }
-    }
-
-    return {
-        props: {
-            foundItem
-        }
-    }
-}
-
-export const getStaticPaths = async () => {
-    const data = await getData();
-    const pathsWithParams = data.map(star => ({ params: { id: star.id } }))
-
-    return {
-        paths: pathsWithParams,
-        fallback: true
-    }
-}
-
 export default function kurseDetails(props) {
 
     const router = useRouter();
@@ -115,5 +79,42 @@ export default function kurseDetails(props) {
         );
     } else {
         return ''
+    }
+}
+
+
+async function getData() {
+    const filePath = path.join(process.cwd(), 'components/microcamps/data', 'courseData.json');
+    const fileData = fs.readFileSync(filePath);
+    const data = JSON.parse(fileData);
+
+    return data;
+}
+
+export const getStaticProps = async (context) => {
+    const itemID = context.params?.id;
+    const data = await getData();
+    const foundItem = data.find(item => itemID === item.id);
+
+    if (!foundItem) {
+        return {
+            props: { hasError: true },
+        }
+    }
+
+    return {
+        props: {
+            foundItem
+        }
+    }
+}
+
+export const getStaticPaths = async () => {
+    const data = await getData();
+    const pathsWithParams = data.map(star => ({ params: { id: star.id } }))
+
+    return {
+        paths: pathsWithParams,
+        fallback: true
     }
 }
