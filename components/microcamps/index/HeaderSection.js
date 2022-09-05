@@ -29,6 +29,11 @@ const HeaderSection = () => {
                     background-color: var(--clr-super-lila);
                     color: var(--clr-super-white);
                 }
+                #supercodeLogo2022 {
+                    position: absolute;
+                    width: 10%;
+                    top: 0;
+                }
                 .headerSection .wrap {
                     display: flex;
                     justify-content: space-between;

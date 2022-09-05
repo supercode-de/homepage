@@ -535,10 +535,12 @@ const DsgvoBody = (props) => {
           text-decoration: underline;
         }
         #text-body {
-          font-size: .8em;
           width: 85%;
           margin: 0 auto;
           padding: 50px 0;
+        }
+        #text-body p {
+          margin-bottom: 50px;
         }
         #text-body span {
           display: block;

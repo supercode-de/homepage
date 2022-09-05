@@ -5,7 +5,6 @@ const Kurse_Header = (props) => {
     console.log(props);
     return (
         <header>
-            <h2 className='super-code'>super(code)</h2>
             <TelefonAside />
             <section className='header-flex'>
                 <div className='header-img start-container'>

@@ -41,13 +41,19 @@ const Leitbild_Body = () => {
             margin-top:-40px;
           }
           .text-body {
-            font-size: .8em;
             width: 85%;
             margin: 0 auto;
             padding: 50px 0;
           }
           .block {
             padding: 5px 0
+          }
+          .block h3 {
+            margin-bottom: 20px;
+            font-size: 30px;
+          }
+          .block p {
+            margin-bottom: 50px;
           }
         `}</style>
     </div>

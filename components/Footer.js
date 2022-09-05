@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="copyright">
           <Link href="/">
             <a>
-              <p className="logo">super(code)</p>
+            <img id="supercodeLogo2022" src="/img/supercode_logo_2022.svg" alt="supercode logo" />
             </a>
           </Link>
           <p className="copy">&copy;&nbsp;2019 – 2022</p>
@@ -85,10 +85,9 @@ const Footer = () => {
       </div>
       <style jsx>{`
           #footer {
-            background: #03000f;
-            color: #fff;
+            background: var(--super-black);
+            color: var(--super-white);
             font-weight: 200;
-            // padding-top: 0.8em;
             display: flex;
             justify-content: center;
           }
@@ -104,10 +103,8 @@ const Footer = () => {
             display: flex;
             align-items: center;
           }
-          .copyright .logo {
-            color: #fff;
-            font-size: 1.3rem;
-            font-weight: bold;
+          #supercodeLogo2022 {
+            width: 150px;
           }
           .copyright .copy {
             color: var(--super-green);
@@ -151,11 +148,11 @@ const Footer = () => {
             text-decoration: none;
             display: block;
             padding: 0.5em;
-            color: #fff;
+            color: var(--super-white);
           }
 
           .site-info a:visited {
-            color: #fff;
+            color: var(--super-white);
           }
 
           .site-info a:hover {
@@ -165,20 +162,12 @@ const Footer = () => {
           .site-info a:active {
             color: var(--super-lila);
           }
-          // .copyright {
-          //   display: flex;
-          //   justify-content: space-between;
-          //   align-items: center;
-          //   width: 95%;
-          //   margin: 0 auto;
-          // }
           .white {
-            color: #fff;
+            color: var(--super-white);
             font-weight: bold;
             font-size: 1.2em;
           }
-          @media (max-width: 768px) {
-          }
+
           @media (max-width: 568px) {
             .footer-grid {
               grid-template-columns: 1fr;

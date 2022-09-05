@@ -1,7 +1,6 @@
 const Team_Header = () => {
   return (
     <div id="header">
-      <h2 className='super-code'>super(code)</h2>
       <div className="header-images-grid">
         <div className="bottom img1">
           <img src="/img/benannt/Master-Trainer Webentwickung.jpg" alt="" />

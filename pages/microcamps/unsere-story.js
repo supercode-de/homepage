@@ -5,6 +5,7 @@ import UxUiPaySection from "../../components/microcamps/unsere-story/UxUiPaySect
 import SolutionLearningUxUi from "../../components/microcamps/unsere-story/SolutionLearningUxUi";
 import LiveOnlineUiUx from "../../components/microcamps/unsere-story/LiveOnlineUiUx";
 import MeetTeam from "../../components/microcamps/unsere-story/MeetTeam";
+import AllCoursesArea from '../../components/microcamps/index/AllCoursesArea';
 import BigPictureSection from "../../components/microcamps/BigPictureSection";
 import NewsletterSection from "../../components/microcamps/index/NewsletterSection";
 import FAQ from "../../components/FAQ";
@@ -24,6 +25,7 @@ export default function index() {
                     <SolutionLearningUxUi />
                     <LiveOnlineUiUx />
                     <MeetTeam />
+                    <AllCoursesArea />
                     <BigPictureSection />
                     <NewsletterSection />
                     <FAQ faqData={faqdata} />

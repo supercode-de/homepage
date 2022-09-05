@@ -116,6 +116,7 @@ class Navigation extends Component {
               />
 
               <img src='/img/SuperCode_Logo.svg' alt='SuperCode-Logo' />
+              <img id="supercodeLogo2022" src="/img/supercode_logo_2022.svg" alt="supercode logo" />
             </a>
           </Link>
 
@@ -123,7 +124,7 @@ class Navigation extends Component {
             <li className='kurse-link'>
               <a
                 onClick={this.handleDropdown}
-                className='jo bla dropper dropper_workshop'
+                className='dropper dropper_workshop'
               >
                 Bootcamps
               </a>
@@ -267,6 +268,12 @@ class Navigation extends Component {
             position: relative;
             top: 40px;
             z-index: 999;
+          }
+          #supercodeLogo2022 {
+            left: 80px;
+            width: 150px;
+            display: ${window.scrollY > 0 ? 'none' : 'block'};
+              
           }
 
           .arrowWrapper img {

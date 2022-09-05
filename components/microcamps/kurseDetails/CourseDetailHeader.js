@@ -24,7 +24,7 @@ const CourseDetailHeader = (props) => {
                         <p>+ more</p>
                     </div>
                     <p>{headerDescription}</p>
-                    <a className="btn" href="/">
+                    <a className="btn" href="#nextBootcamp">
                         Jetzt teilnehmen
                     </a>
                 </article>

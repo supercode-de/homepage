@@ -279,7 +279,7 @@ class LayoutMC extends Component {
                 margin: 5% 0 0 0;
                 line-height: 39px;
             }
-            
+
             .hs-form-9384135a-d6de-4c51-9497-c2d167e58afd_e65059cb-2396-45fa-8d3d-a15aa60599c1 .hs-button:hover {
                 opacity: 0.8;
             }

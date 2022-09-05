@@ -24,9 +24,8 @@ let faqdata = [
         answer: "Nein. Alles was du brauchst ist Zeit, Motivation und den Willen eines Bill Gates. 😉 Du solltest aber in der Lage sein, Songs von Britney Spears zu verstehen und zu übersetzen, da alle Programmiersprachen auf Englisch basieren.",
     },
     {
-        id: 9,
         question: "Gibt es auch Vollzeit-Kurse?",
-        answer: "Na klar! Neben unseren MicroCamps bieten wir auch noch ein Vollzeit Bootcamp im Bereich Web-Entwicklung an. Schau doch mal hier vorbei: www.super-code.de"
+        answer: "Na klar! Neben unseren MicroCamps bieten wir auch noch ein Vollzeit Bootcamp im Bereich Web-Entwicklung und UX/UI Design an."
     },
 
 ]

@@ -27,7 +27,7 @@ const NavigationMobile = (props) => {
       <div className='navigation-mobile-container'>
         <ul>
           <li>
-            <a onClick={() => setToggleKurse(false)}>Kurse</a>
+            <a onClick={() => setToggleKurse(false)}>Bootcamps</a>
           </li>
 
           {/* <li>
@@ -36,22 +36,22 @@ const NavigationMobile = (props) => {
             </Link>
           </li> */}
           <li>
-            <Link href="/microcamps">
+            <Link href="/microcamps" passHref>
               <a onClick={props.toggleNavigationMobile}>MicroCamps</a>
             </Link>
           </li>
           <li>
-            <Link href='/team'>
+            <Link href='/team' passHref>
               <a onClick={props.toggleNavigationMobile}>Team</a>
             </Link>
           </li>
           <li>
-              <Link href="/microcamps/unsere-story">
+              <Link href="/microcamps/unsere-story" passHref>
                 <a onClick={props.toggleNavigationMobile}>Unsere Story</a>
               </Link>
             </li>
           <li>
-            <Link href='/#faq'>
+            <Link href='/#faq' passHref>
               <a onClick={props.toggleNavigationMobile}>FAQ</a>
             </Link>
           </li>
@@ -59,7 +59,7 @@ const NavigationMobile = (props) => {
             <a onClick={props.toggleJetztAnmelden}>Kontakt</a>
           </li>
           <li>
-            <Link href='/blog'>
+            <Link href='/blog' passHref>
               <a>Blog</a>
             </Link>
           </li>

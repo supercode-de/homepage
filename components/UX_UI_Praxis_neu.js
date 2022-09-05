@@ -488,74 +488,6 @@ const UX_UI_Praxis_neu = () => {
             // right: 5px;
           }
 
-          //=========================
-
-          h2 {
-            font-size: 4rem;
-            font-family: "Neue_Machina_Light";
-            color: #03000f;
-            margin: 0;
-            line-height: 50px;
-          }
-          p {
-            color: #121e28;
-            // width: 55%;
-            font-size: 1.563rem;
-            font-weight: 300;
-          }
-          .praxisInfos,
-          .plus-skills-infos {
-            margin: 5rem;
-          }
-          .letterstroke {
-            color: transparent;
-            letter-spacing: 2px;
-            -webkit-text-stroke-width: 3px;
-            -webkit-text-stroke-color: #03000f;
-            font-weight: 300;
-          }
-          .neugierCTA {
-            display: block;
-            position: relative;
-          }
-          .neugierCTA h2 {
-            font-size: 3rem;
-            width: 80%;
-            margin-top: 125px;
-            margin-bottom: 30px;
-            padding-left: 5%;
-          }
-          .fsPraxis .neugierCTA_txt {
-            font-family: "Neue_Machina_Light";
-            // color: #989898;
-            font-size: 3.3rem;
-            width: 80%;
-            color: #121e28;
-            margin-top: 125px;
-            margin-bottom: 30px;
-            padding-left: 5%;
-            line-height: 50px;
-            font-weight: 200;
-          }
-          .buttons {
-            display: flex;
-            justify-content: flex-end;
-            width: 100%;
-            padding-right: 5%;
-          }
-
-          .neugierCTA p span.circle::after {
-            position: absolute;
-            background: url("/img/Vector64.svg") center/contain no-repeat;
-            height: 336%;
-            width: 103%;
-            right: -3%;
-            bottom: -110%;
-            content: "";
-
-            transform: scale(1.1, 0.6);
-            display: block;
-          }
           // @media (max-width: 1440px) {
           //   .neugierCTA p span.circle::after {
           //     position: absolute;
@@ -778,7 +710,7 @@ const UX_UI_Praxis_neu = () => {
               color: transparent;
               letter-spacing: 2px;
               -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: #03000f;
+              -webkit-text-stroke-color: var(--super-black);
               font-weight: 300;
             }
           }
