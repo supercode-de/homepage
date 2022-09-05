@@ -114,6 +114,7 @@ export const getStaticPaths = async () => {
     const pathsWithParams = data.map(star => ({ params: { id: star.id } }))
 
     return {
-        paths: pathsWithParams
+        paths: pathsWithParams,
+        fallback: "blocking"
     }
 }
