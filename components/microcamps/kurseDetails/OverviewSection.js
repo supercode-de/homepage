@@ -1,6 +1,5 @@
 const OverviewSection = (props) => {
     const { subTheme, title, theme, category, duration } = props.kurs
-    console.log(Number(duration.slice(0,1)));
     return (
         <section className="overviewSection" id="overviewSection">
             <div className="wrap">

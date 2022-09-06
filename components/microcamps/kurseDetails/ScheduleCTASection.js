@@ -13,8 +13,8 @@ const ScheduleCTASection = (props) => {
                     <div className="scheduleSection__overview__video">
                         <img
                             className="backgroundImage"
-                            src="/img/microcamps/anass.png"
-                            alt="Supercoder"
+                            src="/img/microcamps/laura.jpg"
+                            alt="SuperCode Mitarbeiterin Laura"
                         />
                     </div>
 

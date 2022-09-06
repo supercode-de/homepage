@@ -8,7 +8,6 @@ import webDevReasons from "../../../components/microcamps/data/reasonsWebDevData
 import dataReasons from "../../../components/microcamps/data/reasonsDataScienceData";
 
 const ScheduleSection = (props) => {
-    console.log("schedulesection", props.kurs.timetable);
     return (
         <section className="scheduleSection" id="scheduleSection">
             <div className="wrap">
@@ -26,7 +25,7 @@ const ScheduleSection = (props) => {
                 <img
                     className="bigSuperCodePeople"
                     src="/img/microcamps/people_center.png"
-                    alt=""
+                    alt="SuperCode Mitarbeitende und Alumni"
                 />
 
                 <article className="scheduleSection__list">
@@ -88,6 +87,7 @@ const ScheduleSection = (props) => {
                 }
                 .scheduleSection .bigSuperCodePeople {
                     margin: 0 auto;
+                    width: 100%;
                 }
                 .scheduleSection__list {
                     margin: 10% 0 10% 0;

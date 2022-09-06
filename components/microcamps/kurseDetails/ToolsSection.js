@@ -1,7 +1,6 @@
 import ToolsOneTool from "./ToolsOneTool";
 
 const ToolsSection = (props) => {
-    console.log("toolssection",props.data);
     return (
         <section className="toolsSection" id="toolsSection">
             <div className="wrap">

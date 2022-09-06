@@ -12,6 +12,28 @@
     "image": "microcamps/kurse/design1.png",
     "jobtitle": "UX-Designer*in",
     "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
+    "termine": [
+      {
+        "kursTitel": "UX-Design verstehen & Ideen entwickeln",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "UX-Design verstehen & Ideen entwickeln",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Figma",
@@ -183,6 +205,28 @@
     "image": "microcamps/kurse/design2.png",
     "jobtitle": "UI-Designer*in",
     "headerDescription": "Erlerne alle Grundlagen um zukünftig ansprechende und funktionale  Benutzeroberflächen in Figma zu erstellen. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.",
+    "termine": [
+      {
+        "kursTitel": "UI-Design strukturieren & gestalten",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "UI-Design strukturieren & gestalten",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Figma",
@@ -369,6 +413,28 @@
     "image": "microcamps/kurse/design3.png",
     "jobtitle": "UX-Designer*in",
     "headerDescription": "Lerne generative und evaluative Untersuchungsmethoden kennen, wende diese an und festige deine Routine im erstellen von Ergebnissberichten.",
+    "termine": [
+      {
+        "kursTitel": "UX Research untersuchen & testen",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "UX Research untersuchen & testen",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Figma",
@@ -559,6 +625,28 @@
     "image": "microcamps/kurse/design4.png",
     "jobtitle": "UX/UI-Designer*in",
     "headerDescription": "Erlernen alle UX/UI-Design Fähigkeiten, um aus einer Idee ein innovatives und erfolgreiches, digitales Produkt zu erschaffen.",
+    "termine": [
+      {
+        "kursTitel": "UX/UI Design",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "UX/UI Design",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Figma",
@@ -819,6 +907,28 @@
     "image": "microcamps/kurse/design5.png",
     "jobtitle": "UI-Designer*in",
     "headerDescription": "Erlernen alle UI-Design Fähigkeiten und meistere die Gestaltung schöner und funktionaler Oberflächen in Figma. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.",
+    "termine": [
+      {
+        "kursTitel": "UI Design",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "UI Design",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Figma",
@@ -1060,6 +1170,28 @@
     "image": "microcamps/kurse/webdev1.png",
     "jobtitle": "Web-Entwickler*in",
     "headerDescription": "Lerne, wie du mit HTML/CSS und ein bisschen JavaScript voll responsive Websiten bauen kannst. Dazu bekommst du einen Überblick über die gesamte Webbranche und deren Tools.",
+    "termine": [
+      {
+        "kursTitel": "Front-End Fundamentals",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Front-End Fundamentals",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -1310,6 +1442,28 @@
     "image": "microcamps/kurse/webdev2.png",
     "jobtitle": "Web-Entwickler*in",
     "headerDescription": "Lerne in kurzer Zeit die Basics von JavaScript und entdecke die wunderbare Welt der Programmierung.",
+    "termine": [
+      {
+        "kursTitel": "JavaScript Beginner",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "JavaScript Beginner",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -1486,6 +1640,28 @@
     "image": "microcamps/kurse/webdev3.png",
     "jobtitle": "Web-Entwickler*in",
     "headerDescription": "Deep Dive JavaScript – your welcome. Hier geht es ins Eingemachte und ab jetzt wird es richtig interessant. Von String Methoden, über Loops ist alles dabei.",
+    "termine": [
+      {
+        "kursTitel": "JavaScript Advanced",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "JavaScript Advanced",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -1730,6 +1906,28 @@
     "image": "microcamps/kurse/webdev4.png",
     "jobtitle": "Web-Entwickler*in",
     "headerDescription": "API’s sind das Rückrat des Webs und bilden damit ein solides Fundament in der Webentwicklung. Hier lernst Du wieso, weshalb und warum.",
+    "termine": [
+      {
+        "kursTitel": "API's verstehen & anwenden",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "API's verstehen & anwenden",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -1905,6 +2103,28 @@
     "image": "microcamps/kurse/webdev5.png",
     "jobtitle": "Web-Entwickler*in",
     "headerDescription": "Wer JavaScript kann braucht auch ein JS-Framework und mit React haben wir hier ein wundervolles und mächtiges Tool. Dieses möchten wir dir hier näher bringen und gemeinsam mit dir lieben lernen.",
+    "termine": [
+      {
+        "kursTitel": "React – das JavaScript Framework",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "React – das JavaScript Framework",
+        "trainerName": "Steffen Klömpges",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -2130,7 +2350,7 @@
     "theme": "data",
     "category": "Data-Science",
     "subTheme": "Computer Science",
-    "title": "Basic digital literacy",
+    "title": "Digitale Grundkompetenz",
     "microCamp": "Data-MicroCamp",
     "modell": "Teilzeit",
     "duration": "10 Wochen",
@@ -2138,6 +2358,28 @@
     "image": "microcamps/kurse/data1.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Digitale Grundkompetenz",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Digitale Grundkompetenz",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -2397,6 +2639,28 @@
     "image": "microcamps/kurse/data2.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Python recap",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Python recap",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -2642,8 +2906,8 @@
     "id": "data-science-basic-mathematics-microcamp",
     "theme": "data",
     "category": "Data-Science",
-    "subTheme": "Mathematics",
-    "title": "Basic Maths",
+    "subTheme": "Mathematik",
+    "title": "Mathematik Grundlagen",
     "microCamp": "Data-MicroCamp",
     "modell": "Teilzeit",
     "duration": "10 Wochen",
@@ -2651,6 +2915,28 @@
     "image": "microcamps/kurse/data3.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Mathematik Grundlagen",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Mathematik Grundlagen",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -2894,8 +3180,8 @@
     "id": "data-science-linear-algebra-microcamp",
     "theme": "data",
     "category": "Data-Science",
-    "subTheme": "Mathematics",
-    "title": "Linear Algebra",
+    "subTheme": "Mathematik",
+    "title": "Lineare Algebra",
     "microCamp": "Data-MicroCamp",
     "modell": "Teilzeit",
     "duration": "10 Wochen",
@@ -2903,6 +3189,28 @@
     "image": "microcamps/kurse/data4.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Lineare Algebra",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Lineare Algebra",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -3155,6 +3463,28 @@
     "image": "microcamps/kurse/data5.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Sysadmin",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Sysadmin",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -3398,8 +3728,8 @@
     "id": "data-science-advanced-mathematics-microcamp",
     "theme": "data",
     "category": "Data-Science",
-    "subTheme": "Mathematics",
-    "title": "Advanced Maths",
+    "subTheme": "Mathematik",
+    "title": "Fortgeschrittene Mathematik",
     "microCamp": "Data-MicroCamp",
     "modell": "Teilzeit",
     "duration": "10 Wochen",
@@ -3407,6 +3737,28 @@
     "image": "microcamps/kurse/data6.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Fortgeschrittene Mathematik",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Fortgeschrittene Mathematik",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -3659,6 +4011,28 @@
     "image": "microcamps/kurse/data7.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Data discovery",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Data discovery",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -3903,7 +4277,7 @@
     "theme": "data",
     "category": "Data-Science",
     "subTheme": "Machine Learning",
-    "title": "Feature engineering & applied math",
+    "title": "Feature Engineering & angewandte Mathematik",
     "microCamp": "Data-MicroCamp",
     "modell": "Teilzeit",
     "duration": "10 Wochen",
@@ -3911,6 +4285,28 @@
     "image": "microcamps/kurse/data8.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Feature Engineering & angewandte Mathematik",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Feature Engineering & angewandte Mathematik",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -4163,6 +4559,28 @@
     "image": "microcamps/kurse/data9.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Machine Learning in TensorFlow",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Machine Learning in TensorFlow",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",
@@ -4407,7 +4825,7 @@
     "theme": "data",
     "category": "Data-Science",
     "subTheme": "Machine Learning",
-    "title": "Model deployment",
+    "title": "Model Deployment",
     "microCamp": "Data-MicroCamp",
     "modell": "Teilzeit",
     "duration": "10 Wochen",
@@ -4415,6 +4833,28 @@
     "image": "microcamps/kurse/data10.png",
     "jobtitle": "Data-Scientist",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
+    "termine": [
+      {
+        "kursTitel": "Model Deployment",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "10.10.2022 - 31.10.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      },
+      {
+        "kursTitel": "Model Deployment",
+        "trainerName": "Thomas Kuhnert",
+        "trainerTitel": "Front-End Trainer",
+        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
+        "anmeldeLink": "blabla",
+        "datum": "07.11.2022 - 02.12.2022",
+        "tage": "Montag & Mittwoch",
+        "uhrzeit": "18 - 20 Uhr" 
+      }
+    ],
     "toolsInternal": [
       {
         "name": "Discord",

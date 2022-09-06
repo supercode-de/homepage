@@ -1,7 +1,8 @@
 // import { Link } from "react-scroll";
-import Link from 'next/link';
+// import Link from 'next/link';
 
 const StickyNav = () => {
+    console.log(window);
 
     return (
         <section className="stickyNav">
@@ -54,7 +55,7 @@ const StickyNav = () => {
                 .stickyNav ul li a:hover {
                     border-bottom: 6px solid var(--clr-super-white);
                 }
-                .stickyNav ul li .active {
+                .active {
                     border-bottom: 6px solid var(--clr-super-white);
                 }
                 @media only screen and (max-width: 1200px) {
