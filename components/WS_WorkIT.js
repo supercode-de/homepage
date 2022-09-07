@@ -82,7 +82,7 @@ const WS_WorkIT = () => {
               <br /> Workshop - Online
             </h4>
             <p>
-              Umfang: 3 Stunden / 18:00 - 21:00 Uhr <br />
+              Umfang: 2 Stunden / 18:00 - 20:00 Uhr <br />
               Start: immer donnerstags - mit Anmeldung
             </p>
             <p>
@@ -191,7 +191,7 @@ const WS_WorkIT = () => {
                   <br /> Workshop - Online
                 </h4>
                 <p>
-                  Umfang: 3 Stunden / 15:00 - 18:00 Uhr <br />
+                  Umfang: 2 Stunden / 18:00 - 20:00 Uhr <br />
                   Start: immer donnerstags - mit Anmeldung
                 </p>
                 <p>
