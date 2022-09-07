@@ -17,6 +17,7 @@ import useInView from "react-cool-inview";
 
 
 import dynamic from 'next/dynamic'
+import MarqueeAlumni from '../components/MarqueeAlumni';
 const Index_Blog = dynamic(() => import('../components/Index_Blog'))
 
 export default function Home(props) {
@@ -31,6 +32,7 @@ export default function Home(props) {
           <main>
             <Index_Header />
             <Index_HeaderCTA />
+            <MarqueeAlumni />
             <Zukunft />
             <UnserCampus />
             <Index_Weiterbildung />
