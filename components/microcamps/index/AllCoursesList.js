@@ -180,66 +180,42 @@ const AllCoursesList = () => {
             .allCoursesArea__list__filter .coding-label {
                 border: 1px solid var(--clr-super-green);
             }
-            .allCoursesArea__list__filter .coding-label:hover {
-                background-color: var(--clr-super-green);
-            }
-            .allCoursesArea__list__filter #coding-button:checked + .button-label {
-                background-color: var(--clr-super-green);
-            }
-            .allCoursesArea__list__filter #coding-button:checked + .button-label:hover {
-                background-color: var(--clr-super-green);
-            }
-            .allCoursesArea__list__filter #coding-button:hover {
+            .allCoursesArea__list__filter .coding-label:hover,
+            .allCoursesArea__list__filter #coding-button:checked + .button-label,
+            .allCoursesArea__list__filter #coding-button:checked + .button-label:hover,
+            .allCoursesArea__list__filter #coding-button:hover{
                 background-color: var(--clr-super-green);
             }
             .allCoursesArea__list__filter .design-label {
                 border: 1px solid var(--clr-super-yellow);
             }
-            .allCoursesArea__list__filter .design-label:hover {
-                background-color: var(--clr-super-yellow);
-            }
-            .allCoursesArea__list__filter #design-button:checked + .button-label {
-                background-color: var(--clr-super-yellow);
-            }
-            .allCoursesArea__list__filter #design-button:checked + .button-label:hover {
-                background-color: var(--clr-super-yellow);
-            }
+            .allCoursesArea__list__filter .design-label:hover,
+            .allCoursesArea__list__filter #design-button:checked + .button-label,
+            .allCoursesArea__list__filter #design-button:checked + .button-label:hover,
             .allCoursesArea__list__filter #design-button:hover {
                 background-color: var(--clr-super-yellow);
             }
+
             .allCoursesArea__list__filter .data-label {
                 border: 1px solid var(--clr-super-black);
             }
-            .allCoursesArea__list__filter .data-label:hover {
-                background-color: var(--clr-super-black);
-            }
-            .allCoursesArea__list__filter #data-button:checked + .button-label {
-                background-color: var(--clr-super-black);
-            }
-            .allCoursesArea__list__filter #data-button:checked + .button-label:hover {
-                background-color: var(--clr-super-black);
-            }
-            .allCoursesArea__list__filter #data-button:hover {
+            .allCoursesArea__list__filter .data-label:hover,
+            .allCoursesArea__list__filter #data-button:checked + .button-label,
+            .allCoursesArea__list__filter #data-button:checked + .button-label:hover,
+            .allCoursesArea__list__filter #data-button:hover,
+            .allCoursesArea__list__filter #expert-button:hover, .allCoursesArea__list__filter #beginner-button:hover {
                 background-color: var(--clr-super-black);
             }
             .allCoursesArea__list__filter .expert-label, .allCoursesArea__list__filter .beginner-label {
                 border: 1px solid var(--clr-super-white);
             }
-            .allCoursesArea__list__filter .expert-label:hover, .allCoursesArea__list__filter .beginner-label:hover {
+            .allCoursesArea__list__filter .expert-label:hover, .allCoursesArea__list__filter .beginner-label:hover,
+            .allCoursesArea__list__filter #expert-button:checked + .button-label, .allCoursesArea__list__filter #beginner-button:checked + .button-label,
+            .allCoursesArea__list__filter #expert-button:checked + .button-label:hover, .allCoursesArea__list__filter #beginner-button:checked + .button-label:hover{
                 background-color: var(--clr-super-white);
                 color: var(--clr-super-black);
             }
-            .allCoursesArea__list__filter #expert-button:checked + .button-label, .allCoursesArea__list__filter #beginner-button:checked + .button-label {
-                background-color: var(--clr-super-white);
-                color: var(--clr-super-black);
-            }
-            .allCoursesArea__list__filter #expert-button:checked + .button-label:hover, .allCoursesArea__list__filter #beginner-button:checked + .button-label:hover {
-                background-color: var(--clr-super-white);
-                color: var(--clr-super-black);
-            }
-            .allCoursesArea__list__filter #expert-button:hover, .allCoursesArea__list__filter #beginner-button:hover {
-                background-color: var(--clr-super-black);
-            }
+
             .allCoursesArea__list__viewList {
                 width: 80%;
                 margin: 5% auto;

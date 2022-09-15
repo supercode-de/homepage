@@ -1,6 +1,3 @@
-// import { Link } from "react-scroll";
-// import Link from 'next/link';
-
 const StickyNav = () => {
     console.log(window);
 
@@ -35,7 +32,7 @@ const StickyNav = () => {
                     color: var(--clr-super-white);
                     position: sticky;
                     top: 0;
-                    z-index: 39;
+                    z-index: 1;
                 }
                 .stickyNav .wrap {
                     padding: 1% 0;

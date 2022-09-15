@@ -78,7 +78,7 @@ const ReasonsWhyOneReason = (props) => {
                 li .openCard {
                     background-color: var(--clr-super-lila);
                     border-radius: 50px;
-                    padding: 2%;
+                    padding: 3%;
                     width: 50%;
                     position: absolute;
                     top: -50%;

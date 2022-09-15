@@ -18,6 +18,9 @@ const LiveOnlineUiUx = () => {
         .online-uiux-wrapper {
           padding: 0 10.125rem;
         }
+        .online-uiux-wrapper p:nth-of-type(1) {
+          margin-bottom: 2%;
+        }
         .online-uiux-wrapper .btn-wrapper {
           display: flex;
           justify-content: flex-end;

@@ -5,7 +5,7 @@ const BlogDetails = (props) => {
   const pixelSize = 2;
   console.log("props von blogdetails", props);
   return (
-    <div id="blogDetails" className={`blackGitter ${props.klasse}`}>
+    <div id="blogDetails" className={` ${props.klasse}`}>
       <section>
 
         <article className="right">
@@ -63,6 +63,7 @@ const BlogDetails = (props) => {
         // Styling für einzelne Blogartikel Ende
 
         #blogDetails {
+          background: var(--super-black);
           color: #fff;
         }
 

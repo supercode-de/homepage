@@ -159,10 +159,10 @@ class LayoutMC extends Component {
                 --clr-super-black: hsl(252, 100%, 3%);
                 --clr-super-black--shadow: hsla(252, 100%, 3%, 0.3);
             // Die Farben wurden doppelt definiert, da diese Layout Datei teils auf andere Components zugreift, die mit den alten Variablen arbeitet. Fallback quasi
-                --super-green: #3dd7ac;
-                --super-lila: #5d3ede;
+                --super-green: #00ECAA;
+                --super-lila: #5D3EDE;
                 --super-blau: #070021;
-                --super-black: #03000f;
+                --super-black: #03000F;
                 --super-white: #fff;
                 --super-yellow: #ffda1a;
                 --super-red: #F10606;

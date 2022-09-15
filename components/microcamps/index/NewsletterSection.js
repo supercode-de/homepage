@@ -19,7 +19,7 @@ const NewsletterSection = () => {
                             Stand! Mit unserem Newsletter bekommst du regelmäßig
                             die{" "}
                             <span className="headlines_stroke">
-                                spannendesten News
+                                spannendsten News
                             </span>{" "}
                             sowie{" "}
                             <span className="headlines_stroke">

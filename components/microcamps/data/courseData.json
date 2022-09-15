@@ -11,6 +11,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/design1.png",
     "jobtitle": "UX-Designer*in",
+    "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
     "termine": [
       {
@@ -18,7 +19,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -28,7 +29,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -53,7 +54,7 @@
       },
       {
         "curriculumTitle": "Product Field & Personas",
-        "curriculumPreview": "Kreiere und evaluiere deine Prouktideen"
+        "curriculumPreview": "Kreiere und evaluiere deine Produktideen"
       },
       {
         "curriculumTitle": "Informationsarchitektur",
@@ -74,7 +75,7 @@
           "Lerne deine Kolleg*innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
-          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Bearbeite unsere Aufwärmübung auf FigJam",
           "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
         ]
       },
@@ -86,7 +87,7 @@
           "Einführung in die Grundlagen des Design Thinking in unserer Live-Class",
           "Lerne unser FigJam Design Thinking Template kennen und wende es praktisch an",
           "Führe ein Expert*inneninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
-          "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungansätze enthalten",
+          "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungsansätze enthalten",
           "Führe eine eigene Untersuchung innerhalb der Zielgruppe durch, um deine Hypothesen zu bestätigen",
           "Entwickle gemeinsam mit deinen Kolleg*innen eine Produktidee"
         ]
@@ -94,10 +95,10 @@
       {
         "ablaufTitel": "Product Field & Personas",
         "ablaufZeitraum": "Woche 2",
-        "ablaufBeschreibung": "Nutze das Product Field um Stärken und Schwächen deiner Produktidee heraus zu arbeiten. Erstelle außerdem eine User Persona auf Basis deiner Zielgruppenanalyse mit den Eigenschaften & Verhaltensmustern deiner Nutzer*innen.",
+        "ablaufBeschreibung": "Nutze das Product Field um Stärken und Schwächen deiner Produktidee herauszuarbeiten. Erstelle außerdem eine User-Persona auf Basis deiner Zielgruppenanalyse mit den Eigenschaften & Verhaltensmustern deiner Nutzer*innen.",
         "ablaufBeschreibungPunkte": [
           "Erlerne die Grundlagen des Product Fields und wende es an",
-          "Untersuche ob deine Produktidee umsetzbar und innovativ ist",
+          "Untersuche, ob deine Produktidee umsetzbar und innovativ ist",
           "Führe eine Zielgruppenanalyse durch und erstelle eine Persona"
         ]
       },
@@ -107,8 +108,8 @@
         "ablaufBeschreibung": "In Woche 3 bringt ihr Struktur und Ordnung in eure Produktidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer*innen fest.",
         "ablaufBeschreibungPunkte": [
           "Einführung in die Grundlagen guter Informationsarchitektur",
-          "Nutze FigJam und erstelle deinen ersten Flowchart (User Flow)",
-          "Lerne den Flowchart so zu gestalten, dass den Nutzer*innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
+          "Nutze FigJam und erstelle dein erstes Flowchart (User Flow)",
+          "Lerne das Flowchart so zu gestalten, dass den Nutzer*innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
         ]
       },
       {
@@ -130,7 +131,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -145,7 +146,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -204,6 +205,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/design2.png",
     "jobtitle": "UI-Designer*in",
+    "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Erlerne alle Grundlagen um zukünftig ansprechende und funktionale  Benutzeroberflächen in Figma zu erstellen. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.",
     "termine": [
       {
@@ -211,7 +213,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -221,7 +223,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -249,7 +251,7 @@
         "curriculumPreview": "Erstelle deinen ersten Prototypen mit Fokus auf Benutzerführung & Funktionalität"
       },
       {
-        "curriculumTitle": "Design Sytem",
+        "curriculumTitle": "Design System",
         "curriculumPreview": "Erstelle Schrift- und Farbbibliotheken und lege Layout-Grids in Figma fest"
       },
       {
@@ -271,7 +273,7 @@
           "Lerne deine Kolleg*innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
-          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Bearbeite unsere Aufwärmübung auf FigJam",
           "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
         ]
       },
@@ -280,7 +282,7 @@
         "ablaufZeitraum": "Woche 1",
         "ablaufBeschreibung": "In Woche 1 lernst du deine Produktidee oder dein Konzept zu visualisieren. Mit dieser Methode versuchst du Teile der Informationsarchitektur, der Benutzerführung und der Navigation zu repräsentieren.",
         "ablaufBeschreibungPunkte": [
-          "Einführung in die Erstellung eines Wirframes",
+          "Einführung in die Erstellung eines Wireframes",
           "Lerne unser Figma Wireframe Template kennen",
           "Führe ein Experteninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
           "Setze deine Produktidee praktisch um und erstelle mit Hilfe des Templates deinen ersten Wireframe"
@@ -338,7 +340,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -353,7 +355,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -412,14 +414,15 @@
     "level": "Beginner",
     "image": "microcamps/kurse/design3.png",
     "jobtitle": "UX-Designer*in",
-    "headerDescription": "Lerne generative und evaluative Untersuchungsmethoden kennen, wende diese an und festige deine Routine im erstellen von Ergebnissberichten.",
+    "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
+    "headerDescription": "Lerne generative und evaluative Untersuchungsmethoden kennen, wende diese an und festige deine Routine im erstellen von Ergebnisberichten.",
     "termine": [
       {
         "kursTitel": "UX Research untersuchen & testen",
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -429,7 +432,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -459,7 +462,7 @@
       },
       {
         "curriculumTitle": "Umfragen & Konkurrenzforschung",
-        "curriculumPreview": "Erlerne wann es sinnvoll ist Umfragen zu erstellen, und wie man mit dieser Methode Konkurrenzforschung berteibt."
+        "curriculumPreview": "Erlerne wann es sinnvoll ist Umfragen zu erstellen, und wie man mit dieser Methode Konkurrenzforschung betreibt."
       },
       {
         "curriculumTitle": "Usability Testing",
@@ -471,7 +474,7 @@
       },
       {
         "curriculumTitle": "Testberichte",
-        "curriculumPreview": "Lerne wie du deine Testergebnisse am besten präsentierst und wie du dein gesamtes Testprojekt als Fallstudie strukturierst und aufarbeitetst."
+        "curriculumPreview": "Lerne wie du deine Testergebnisse am besten präsentierst und wie du dein gesamtes Testprojekt als Fallstudie strukturierst und aufarbeitest."
       }
     ],
     "curriculumExtended": [
@@ -484,7 +487,7 @@
           "Lerne deine Kolleg*innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
-          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Bearbeite unsere Aufwärmübung auf FigJam",
           "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
         ]
       },
@@ -496,7 +499,7 @@
           "Lerne verschiedene UX Untersuchungsmethoden kennen",
           "Rekrutiere Probant*innen und stelle dir eine Testgruppe aus 10-15 Personen zusammen",
           "Lerne verschiedene Interview-Techniken kennen und wende diese an",
-          "Bereit dein eigenes Research-Interview vor und führe es mit deinen Pobant*innen"
+          "Bereit dein eigenes Research-Interview vor und führe es mit deinen Probant*innen"
         ]
       },
       {
@@ -528,7 +531,7 @@
           "Lerne deine Nutzer*innen zu segmentieren und in Gruppen zu unterteilen",
           "Lerne deine Daten mit Hilfe von Notion übersichtlich und sinnvoll zusammenzufassen",
           "Lerne die Grundlagen von “Taxonomy Tagging”",
-          "Erlern das Erstellen eines Affinitätsdiagramms"
+          "Erlerne das Erstellen eines Affinitätsdiagramms"
         ]
       },
       {
@@ -538,7 +541,7 @@
         "ablaufBeschreibungPunkte": [
           "Organisiere deine Ergebnisse und lerne, sie ansprechend darzustellen und zu kommunizieren",
           "Lerne Testberichte zu formulieren, welche du an den Kunden weitergeben kannst",
-          "Erstelle deine erste eigene UX-Research Fallstudie und präsentiiere sie deinen Kolleg*innen und deinen Trainer*innen"
+          "Erstelle deine erste eigene UX-Research Fallstudie und präsentiere sie deinen Kolleg*innen und deinen Trainer*innen"
         ]
       }
     ],
@@ -550,7 +553,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -565,7 +568,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -624,6 +627,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/design4.png",
     "jobtitle": "UX/UI-Designer*in",
+    "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Erlernen alle UX/UI-Design Fähigkeiten, um aus einer Idee ein innovatives und erfolgreiches, digitales Produkt zu erschaffen.",
     "termine": [
       {
@@ -631,7 +635,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -641,7 +645,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -685,7 +689,7 @@
         "curriculumPreview": "Erlerne wie man Usability Testaufgaben richtig formuliert und erstellt und führe moderierte und unmoderierte Tests durch"
       },
       {
-        "curriculumTitle": "Design Sytem",
+        "curriculumTitle": "Design System",
         "curriculumPreview": "Erstelle Schrift- und Farbbibliotheken und lege Layout-Grids in Figma fest"
       },
       {
@@ -711,7 +715,7 @@
           "Lerne deine Kolleg*innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
-          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Bearbeite unsere Aufwärmübung auf FigJam",
           "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
         ]
       },
@@ -723,7 +727,7 @@
           "Einführung in die Grundlagen des Design Thinking in unserer Live-Class",
           "Lerne unser FigJam Design Thinking Template kennen und wende es praktisch an",
           "Führe ein Expert*inneninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
-          "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungansätze enthalten",
+          "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungsansätze enthalten",
           "Führe eine eigene Untersuchung innerhalb der Zielgruppe durch, um deine Hypothesen zu bestätigen",
           "Entwickle gemeinsam mit deinen Kolleg*innen eine Produktidee"
         ]
@@ -734,8 +738,8 @@
         "ablaufBeschreibung": "In Woche 2 bringt ihr Struktur und Ordnung in eure Produktidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer*innen fest.",
         "ablaufBeschreibungPunkte": [
           "Einführung in die Grundlagen guter Informationsarchitektur",
-          "Nutze FigJam und erstelle deinen ersten Flowchart (User Flow)",
-          "Lerne den Flowchart so zu gestalten, dass den Nutzer*innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
+          "Nutze FigJam und erstelle dein erstes Flowchart (User Flow)",
+          "Lerne das Flowchart so zu gestalten, dass den Nutzer*innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
         ]
       },
       {
@@ -753,7 +757,7 @@
         "ablaufZeitraum": "Woche 4",
         "ablaufBeschreibung": "In Woche 4 lernst du deine Produktidee oder dein Konzept zu visualisieren. Mit dieser Methode versuchst du Teile der Informationsarchitektur, der Benutzerführung und der Navigation zu repräsentieren.",
         "ablaufBeschreibungPunkte": [
-          "Einführung in die Erstellung eines Wirframes",
+          "Einführung in die Erstellung eines Wireframes",
           "Lerne unser Figma Wireframe Template kennen",
           "Führe ein Experteninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
           "Setze deine Produktidee praktisch um und erstelle mit Hilfe des Templates deinen ersten Wireframe"
@@ -809,7 +813,7 @@
         "ablaufBeschreibung": "Practice, practice, practice... In Woche 9 könnt ihr zeigen was ihr die ganzen letzten Wochen gelernt habt. Gemeinsam mit euren Teamkolleg*innen durchlauft ihr nochmal alle Phasen und arbeitet an eurem ersten richtigen Kundenauftrag.",
         "ablaufBeschreibungPunkte": [
           "Bearbeitung eines Kundenauftrags im Teamverband",
-          "Von der Idee bis zum fertigen Prototypen, werden alle Phasen druchlaufen",
+          "Von der Idee bis zum fertigen Prototypen, werden alle Phasen durchlaufen",
           "Starkes innovatives & digitales Endprodukt für euer zukünftiges Portfolio"
         ]
       },
@@ -832,7 +836,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -847,7 +851,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -906,6 +910,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/design5.png",
     "jobtitle": "UI-Designer*in",
+    "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Erlernen alle UI-Design Fähigkeiten und meistere die Gestaltung schöner und funktionaler Oberflächen in Figma. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.",
     "termine": [
       {
@@ -913,7 +918,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -923,7 +928,7 @@
         "trainerName": "Ruben Wellinger",
         "trainerTitel": "UX/UI Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -948,11 +953,11 @@
       },
       {
         "curriculumTitle": "Farbpalette",
-        "curriculumPreview": "Statt dem Farb-Picker lernst du mit Hilfe von Colourbox deine Farben zu definieren & organsieren"
+        "curriculumPreview": "Statt dem Farb-Picker lernst du mit Hilfe von Colorbox deine Farben zu definieren & organisieren"
       },
       {
         "curriculumTitle": "Type Scales & Grid Systeme",
-        "curriculumPreview": "Lerne welchen Einfluss Typografie und Sprache auf dein Interface-Design hat"
+        "curriculumPreview": "Erlerne, welchen Einfluss Typografie und Sprache auf dein Interface-Design hat"
       },
       {
         "curriculumTitle": "Layouts & Auto Layout",
@@ -960,7 +965,7 @@
       },
       {
         "curriculumTitle": "Responsive Design",
-        "curriculumPreview": "Lerne wie du deine Designs enstprechend der verschieden Endgeräte in der Größe anpassen kannst."
+        "curriculumPreview": "Erlerne, wie du deine Designs entsprechend der verschiedenen Endgeräte in der Größe anpassen kannst."
       },
       {
         "curriculumTitle": "UI interaktive Komponenten",
@@ -972,7 +977,7 @@
       },
       {
         "curriculumTitle": "Animation & Prototyping",
-        "curriculumPreview": "Lerne Animationen zu erstellen und Lotty-Files in deinen Prototypen zu integrieren"
+        "curriculumPreview": "Erlerne Animationen zu erstellen und Lotty-Files in deinen Prototypen zu integrieren"
       },
       {
         "curriculumTitle": "Handover",
@@ -989,7 +994,7 @@
           "Lerne deine Kolleg*innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
-          "Bearbeite unser Aufwärmübung auf FigJam",
+          "Bearbeite unsere Aufwärmübung auf FigJam",
           "Schau dir unsere kurze Zusammenfassung zum Thema Design Thinking an"
         ]
       },
@@ -1009,7 +1014,7 @@
         "ablaufZeitraum": "Woche 2",
         "ablaufBeschreibung": "In der 2. Wochen lernst du den Umgang mit sogenannten Farbpaletten. Statt dem Farb-Picker nutzen wir von nun an das Plugin Colorbox um unsere Farben zu definieren, anzulegen und zu organisieren.",
         "ablaufBeschreibungPunkte": [
-          "Erstelle deine ersten Farb-Styles mit Hilfe der Colourbox",
+          "Erstelle deine ersten Farb-Styles mit Hilfe der Colorbox",
           "Erstelle Farbschattierungen und Farbtöne und lerne diese zu benennen und zu strukturieren",
           "Erstellen eine skalierbare & zugängliche Farbpalette in Figma"
         ]
@@ -1040,7 +1045,7 @@
       {
         "ablaufTitel": "Responsive Design",
         "ablaufZeitraum": "Woche 5",
-        "ablaufBeschreibung": "Für viele Designer*innen stellt es eine Herausfoderung dar, mühelos über verschiedene Geräte hinweg zu gestalten. In Woche 5 zeigen wir dir, wie du mit Hilfe der Auto-Layout Funktion von Figma deine Designs enstprechend der verschiedenen Endgeräte in der Größe anpassen kannst. Diesen Prozess nennt man responsives Gestalten.",
+        "ablaufBeschreibung": "Für viele Designer*innen stellt es eine Herausforderung dar, mühelos über verschiedene Geräte hinweg zu gestalten. In Woche 5 zeigen wir dir, wie du mit Hilfe der Auto-Layout Funktion von Figma deine Designs entsprechend der verschiedenen Endgeräte in der Größe anpassen kannst. Diesen Prozess nennt man responsives Gestalten.",
         "ablaufBeschreibungPunkte": [
           "Lerne die Grundlagen des responsiven Designs",
           "Beherrsche die Auto-Layout-Funktion & Größenanpassung in Figma",
@@ -1077,7 +1082,7 @@
           "Einführung in die Grundlagen der Animation in Figma",
           "Erstelle deine eigenen Lotty Files",
           "Pimpe deinen Prototypen durch Verwendung von Animationen und Übergängen",
-          "Lerne deine Komponenten zu animieren und deinen Portotypen erlebbarer zu machen"
+          "Lerne deine Komponenten zu animieren und deinen Prototypen erlebbarer zu machen"
         ]
       },
       {
@@ -1095,7 +1100,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -1110,7 +1115,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -1169,14 +1174,15 @@
     "level": "Beginner",
     "image": "microcamps/kurse/webdev1.png",
     "jobtitle": "Web-Entwickler*in",
-    "headerDescription": "Lerne, wie du mit HTML/CSS und ein bisschen JavaScript voll responsive Websiten bauen kannst. Dazu bekommst du einen Überblick über die gesamte Webbranche und deren Tools.",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
+    "headerDescription": "Lerne, wie du mit HTML/CSS und ein bisschen JavaScript voll responsive Webseiten bauen kannst. Dazu bekommst du einen Überblick über die gesamte Webbranche und deren Tools.",
     "termine": [
       {
         "kursTitel": "Front-End Fundamentals",
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -1186,7 +1192,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -1258,7 +1264,7 @@
         "curriculumPreview": "Lerne, wie man mit einem Klick die Welt verändern kann"
       },
       {
-        "curriculumTitle": "Practice, Practice & Pratice",
+        "curriculumTitle": "Practice, Practice & Practice",
         "curriculumPreview": "Learning by burning – mit Übung zum Erfolg"
       }
     ],
@@ -1288,7 +1294,7 @@
       {
         "ablaufTitel": "CSS Basics",
         "ablaufZeitraum": "Woche 2",
-        "ablaufBeschreibung": "Du erkennst mittlerweile guten und schlechten HTML Aufbau. Jetzt gehen wir ans Styling, whoop whoop! Ab jetzt kommt Farbe ins Spiel und du lernst wie man Element verändert und deren Position auf der Website anpasst.",
+        "ablaufBeschreibung": "Du erkennst mittlerweile guten und schlechten HTML Aufbau. Jetzt gehen wir ans Styling, whoop whoop! Ab jetzt kommt Farbe ins Spiel und du lernst wie man Element verändert und deren Position auf der Webseite anpasst.",
         "ablaufBeschreibungPunkte": [
           "HTML & CSS verbinden",
           "Was bedeutet eigentlich Cascading Style Sheet?",
@@ -1309,7 +1315,7 @@
       {
         "ablaufTitel": "HTML/CSS deep dive",
         "ablaufZeitraum": "Woche 4",
-        "ablaufBeschreibung": "Jetzt packen wir die dicken Geschütze aus. Von Flexbox über Animationen, bishin zu Grid ist jetzt alles dabei. Ab jetzt sind wir im Responsive Webdesign zuhause.",
+        "ablaufBeschreibung": "Jetzt packen wir die dicken Geschütze aus. Von Flexbox über Animationen, bis hin zu Grid ist jetzt alles dabei. Ab jetzt sind wir im Responsive Webdesign zuhause.",
         "ablaufBeschreibungPunkte": [
           "CSS Animationen",
           "Layoutsysteme wie Flexbox & Grid",
@@ -1323,7 +1329,7 @@
         "ablaufBeschreibung": "Lerne worauf es in JavaScript ankommt. Von Einbindung ins HTML zu Konventionen haben wir hier alles dabei.",
         "ablaufBeschreibungPunkte": [
           "What the fuck is JS?!",
-          "Wie binde ich JavaScript in meine Website ein?",
+          "Wie binde ich JavaScript in meine Webseite ein?",
           "Tauche in die Welt der Konsole ab!",
           "Bei der Namensvergabe gibt es Konventionen? Yes!"
         ]
@@ -1331,7 +1337,7 @@
       {
         "ablaufTitel": "JavaScript Basics",
         "ablaufZeitraum": "Woche 5",
-        "ablaufBeschreibung": "Erste Schritte sind so wichtig - endlich auch in Javascript, whoop whoop! Wir werden Datentypen, Konsolenbefehle, Variablen und Funktionen kennenlernen. Wie man diese logisch aufbaut und strukturiert.",
+        "ablaufBeschreibung": "Erste Schritte sind so wichtig - endlich auch in Javascript, whoop whoop! Wir werden Datentypen, Konsolen Befehle, Variablen und Funktionen kennenlernen. Wie man diese logisch aufbaut und strukturiert.",
         "ablaufBeschreibungPunkte": [
           "JavaScript primitive Datentypen",
           "JavaScript Inputs & Outputs",
@@ -1367,7 +1373,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -1441,6 +1447,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/webdev2.png",
     "jobtitle": "Web-Entwickler*in",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lerne in kurzer Zeit die Basics von JavaScript und entdecke die wunderbare Welt der Programmierung.",
     "termine": [
       {
@@ -1448,7 +1455,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -1458,7 +1465,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -1510,7 +1517,7 @@
         "curriculumPreview": "Lerne, wie man mit einem Klick die Welt verändern kann"
       },
       {
-        "curriculumTitle": "Practice, Practice & Pratice",
+        "curriculumTitle": "Practice, Practice & Practice",
         "curriculumPreview": "Learning by burning – mit Übung zum Erfolg"
       }
     ],
@@ -1529,7 +1536,7 @@
       {
         "ablaufTitel": "JavaScript Basics",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "Erste Schritte sind so wichtig - endlich auch in Javascript, whoop whoop! Wir werden Datentypen, Konsolenbefehle, Variablen und Funktionen kennenlernen. Wie man diese logisch aufbaut und strukturiert.",
+        "ablaufBeschreibung": "Erste Schritte sind so wichtig - endlich auch in Javascript, whoop whoop! Wir werden Datentypen, Konsolen Befehle, Variablen und Funktionen kennenlernen. Wie man diese logisch aufbaut und strukturiert.",
         "ablaufBeschreibungPunkte": [
           "JavaScript primitive Datentypen",
           "JavaScript Inputs & Outputs",
@@ -1565,7 +1572,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -1639,6 +1646,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/webdev3.png",
     "jobtitle": "Web-Entwickler*in",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Deep Dive JavaScript – your welcome. Hier geht es ins Eingemachte und ab jetzt wird es richtig interessant. Von String Methoden, über Loops ist alles dabei.",
     "termine": [
       {
@@ -1646,7 +1654,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -1656,7 +1664,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -1831,7 +1839,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -1905,6 +1913,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/webdev4.png",
     "jobtitle": "Web-Entwickler*in",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "API’s sind das Rückrat des Webs und bilden damit ein solides Fundament in der Webentwicklung. Hier lernst Du wieso, weshalb und warum.",
     "termine": [
       {
@@ -1912,7 +1921,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -1922,7 +1931,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -2028,7 +2037,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -2102,6 +2111,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/webdev5.png",
     "jobtitle": "Web-Entwickler*in",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Wer JavaScript kann braucht auch ein JS-Framework und mit React haben wir hier ein wundervolles und mächtiges Tool. Dieses möchten wir dir hier näher bringen und gemeinsam mit dir lieben lernen.",
     "termine": [
       {
@@ -2109,7 +2119,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -2119,7 +2129,7 @@
         "trainerName": "Steffen Klömpges",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -2283,7 +2293,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -2357,6 +2367,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data1.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -2364,7 +2375,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -2374,7 +2385,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -2557,7 +2568,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -2572,7 +2583,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -2638,6 +2649,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data2.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -2645,7 +2657,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -2655,7 +2667,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -2840,7 +2852,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -2855,7 +2867,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -2914,6 +2926,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data3.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -2921,7 +2934,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -2931,7 +2944,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -3114,7 +3127,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -3129,7 +3142,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -3188,6 +3201,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data4.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -3195,7 +3209,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -3205,7 +3219,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -3388,7 +3402,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -3403,7 +3417,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -3462,6 +3476,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data5.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -3469,7 +3484,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -3479,7 +3494,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -3662,7 +3677,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -3677,7 +3692,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -3736,6 +3751,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data6.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -3743,7 +3759,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -3753,7 +3769,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -3936,7 +3952,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -3951,7 +3967,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -4010,6 +4026,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data7.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -4017,7 +4034,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -4027,7 +4044,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -4210,7 +4227,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -4225,7 +4242,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -4284,6 +4301,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data8.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -4291,7 +4309,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -4301,7 +4319,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -4484,7 +4502,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -4499,7 +4517,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -4558,6 +4576,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data9.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -4565,7 +4584,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -4575,7 +4594,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -4758,7 +4777,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -4773,7 +4792,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
@@ -4832,6 +4851,7 @@
     "level": "Beginner",
     "image": "microcamps/kurse/data10.png",
     "jobtitle": "Data-Scientist",
+    "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa pellentesque sit id quisque. Ipsum ut pulvinar lorem at dolor nullam arcu velit.",
     "termine": [
       {
@@ -4839,7 +4859,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -4849,7 +4869,7 @@
         "trainerName": "Thomas Kuhnert",
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "anmeldeLink": "blabla",
+        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
         "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
@@ -5032,7 +5052,7 @@
             "block": 1,
             "title": "Vorbereitung",
             "duration": "30 min.",
-            "description": "Warmup & Kurzeinführung in den Themenbereich"
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
       },
@@ -5047,7 +5067,7 @@
           },
           {
             "block": 2,
-            "title": "Design Meet Up",
+            "title": "Design Meet-up",
             "duration": "1 Stunde",
             "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }

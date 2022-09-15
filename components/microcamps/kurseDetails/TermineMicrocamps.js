@@ -1,21 +1,22 @@
-import Link from 'next/link';
+import MC_Warteliste_Popup from "../MC_Warteliste_Popup"
 const TermineMicrocamps = (props) => {
     return (
+
         <div className="single-card">
             <div className="left-wrapper">
                 <h4>{props.kursTitel}</h4>
                 <div className="info-text">
-                    <p>Live Class</p>
-                    <p>{props.datum}</p>
+                    <p className="start-date">Start 2023</p>
                     <p>{props.tage} {props.uhrzeit}</p>
                 </div>
 
                 <p className="places-wr">
                     <span className="circle">max. 8 Plätze</span>
                 </p>
-                <Link href="/" passHref>
-                    <a className="btn">Jetzt anmelden</a>
-                </Link>
+                <MC_Warteliste_Popup 
+                    wartelisteLinkFormID={props.wartelisteLinkFormID}
+                    theme={props.data.data.theme}
+                />
             </div>
             <div className="right-wrapper">
                 <img src={props.trainerImage} alt={props.trainerName} />
@@ -31,14 +32,15 @@ const TermineMicrocamps = (props) => {
                     border-radius: 25px;
                     color: var(--clr-super-white);
                     padding: 3.125rem;
-                    gap: 50px;
+                    gap: 20px;
                 }
-        
-        
                 .left-wrapper .info-text{
                     margin: 0 0 0.625rem 0;
                 }
-        
+                .left-wrapper .info-text .start-date {
+                    background: url("/img/microcamps/line_small.svg") left 110%/ 30% no-repeat;
+                    margin-bottom: 15px;
+                }
                 .left-wrapper .info-text h4 {
                     margin: 0 0 0.625rem 0;
                     font-size: var(--fs-300);
@@ -72,7 +74,10 @@ const TermineMicrocamps = (props) => {
                     border-radius: 100%;
                     margin-bottom: 35px;
                 }
-        
+                .right-wrapper h5 {
+                    line-height: inherit;
+                    margin-bottom: 15px;
+                }
                 .right-wrapper h5,
                 .right-wrapper h6 {
                     font-size: var(--fs-300);

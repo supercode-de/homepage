@@ -2,11 +2,11 @@ import Popup from 'reactjs-popup';
 import HubspotForm from 'react-hubspot-form';
 
 const Typeform = (props) => {
-
+console.log(props.theme);
   return (
     <>
       <Popup
-        trigger={<button className='button'>{props.buttonText}</button>}
+        trigger={<button className='button'>Jetzt anmelden</button>}
         position='center'
       >
         <div id='curriculum-popup'>
@@ -14,16 +14,12 @@ const Typeform = (props) => {
 
             <div className='curriculum-popup-input'>
               <h1 className='three-lines'>
-                Curriculum <br /> herunter- <br />
-                <span className='super'>laden</span>
-              </h1>
-              <h1 className='one-line'>
-                Curriculum herunter<span className='super'>laden</span>
+                Für die {props.theme === "design" ? "UX/UI-Design" : "WebDev"} Warteliste <span className='super'>anmelden</span>
+                <p>Unsere MicroCamps gehen 2023 an den Start. Wenn du das nicht verpassen willst, melde dich fix bei unserem Newsletter an! 😉</p>
               </h1>
               <HubspotForm
                 portalId='5807040'
-                // formId="5c9d4947-7d51-448d-845a-231155f27380"
-                formId={props.hubspot}
+                formId={props.wartelisteLinkFormID}
                 onSubmit={() => console.log('Submit!')}
                 onReady={(form) => console.log('Form ready!')}
                 loading={<div>Loading...</div>}
@@ -34,44 +30,35 @@ const Typeform = (props) => {
         </div>
       </Popup>
       <style jsx>{`
+
         .button {
-            // width: 15%;
-            width: ${props.width};
-            font-size: 0.875em;
-            background: transparent;
-            outline: none;
-            border: 1px solid var(--super-green);
-            color: var(--super-white);
-            color: ${props.buttonColor};
-            padding: 15px 30px;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            border-radius: 5rem;
-            margin-bottom: 1rem;
-        }
-        .button:hover {
+          font-family: var(--ff-reg-bold);
+          font-size: var(--fs-500);
           color: var(--super-lila);
           background: var(--super-green);
+          outline: none;
+          border: none;
+          padding: 15px 30px;
+          margin-top: 20px;
+          border-radius: 5rem;
           cursor: pointer;
+        }
+        .button:hover {
+          opacity: 0.8;
         }
 
         #curriculum-popup {
-          background: #070021;
-          color: #fff;
-          width: calc(100vw / 12 * 8);
-          padding: 40px;
-          border: 1px solid var(--super-green);
+          background: var(--super-black);
+          color: var(--super-white);
+          padding: 54px;
           position: fixed;
-          // transform: 
-          //   window.screen.width <= 1300 ? '' : 'translate(-50%, -50%)'
-          // };
-          left: 50%;
-          top: 7%;
-          width: 500px;
-          // max-height: 70vh;
+          left: 37%;
+          top: 11%;
+          width: 700px;
           color: var(--super-green);
           z-index: 9999;
         }
+        
         .popup-close {
           top: 0;
           right: 0;
@@ -95,16 +82,6 @@ const Typeform = (props) => {
         .popup-close:hover {
           color: var(--super-green);
         }
-    
-        .curriculum-popup-content {
-          display: grid;
-          // grid-template-columns: 2fr 2fr;
-          grid-template-columns: 1fr;
-          gap: 30px;
-          overflow: hidden;
-          z-index:9999;
-          // max-height: calc(70vh - 80px);
-        }
 
         .curriculum-popup-image {
           display: flex;
@@ -118,20 +95,18 @@ const Typeform = (props) => {
           overflow-y: hidden;
           z-index:9999;
         }
+        .curriculum-popup-input h1 {
+          margin-bottom: 20px;
+        }
+        .curriculum-popup-input p{
+          color: var(--super-white);
+          margin-top: 16px;
+        }
         iframe {
           width: 100% !important;
           box-sizing: border-box;
         }
 
-        h1 {
-          font-family: 'Neue_Machina_Regular_400';
-          font-size: 2.5em;
-          line-height: 1.2em;
-          color: #fff;
-          margin: 0 0 5vh;
-
-          font-weight: 900;
-        }
         h1 span.super {
           color: transparent;
           letter-spacing: 2px;

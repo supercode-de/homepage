@@ -101,7 +101,7 @@ const AllCoursesCard = (props) => {
           background-color: var(--clr-super-white);
           border-radius: 50%;
           padding: 2%;
-          width: 20px;
+          width: 25px;
           aspect-ratio: 1;
         }
         .allCoursesArea__list__viewList__card__main .plusList p {

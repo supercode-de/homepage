@@ -49,7 +49,7 @@ const KurseRaster = () => {
         setKurseData(kurseRasterData)
     }, [])
     return (
-        <section className="kurseRaster lilaGitter">
+        <section className="kurseRaster">
             <article className='bootcampInfos'>
                 <div className='headlines'>
                     <h2>Unsere</h2>
@@ -108,6 +108,7 @@ const KurseRaster = () => {
 
             <style jsx>{`
             .kurseRaster {
+                background: var(--super-lila);
                 color: var(--super-white);
                 padding-bottom: 80px;
             }

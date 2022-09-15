@@ -29,6 +29,7 @@ const MeetTeam = () => {
           padding: 12.5rem 10.125rem;
         }
         .meet-team-wrapper .team-wrapper {
+          width: 80%;
           margin: 5% auto;
           display: grid;
           grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));

@@ -1,17 +1,22 @@
+import Accordion_FAQ from "./Accordion_FAQ";
 import Collapsible from "./FAQItem";
 
 const FAQ = (props) => {
+  console.log("FAW", props);
   return (
     <div id="faq">
       <h2>FAQ</h2>
 
-      <div className="grid">
+      {/* <div className="grid">
         {props.faqData.map((faq, i) => (
           <Collapsible trigger={faq.question} key={i}>
             {" "}
             <p>{faq.answer}</p>
           </Collapsible>
         ))}
+      </div> */}
+      <div className="grid">
+          <Accordion_FAQ faqData={props.faqData}/>
       </div>
 
       <style jsx>{`

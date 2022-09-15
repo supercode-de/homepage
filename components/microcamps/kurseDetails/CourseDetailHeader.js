@@ -1,5 +1,6 @@
+import MC_Warteliste_Popup from "../MC_Warteliste_Popup"
 const CourseDetailHeader = (props) => {
-    const { subTheme, title, image, duration, modell, headerDescription } = props.kurs
+    const { subTheme, title, image, duration, modell, headerDescription, wartelisteLinkFormID } = props.kurs
 
     return (
         <section className="courseDetailHeader">
@@ -24,9 +25,8 @@ const CourseDetailHeader = (props) => {
                         <p>+ more</p>
                     </div>
                     <p>{headerDescription}</p>
-                    <a className="btn" href="#nextBootcamp">
-                        Jetzt teilnehmen
-                    </a>
+                    <MC_Warteliste_Popup wartelisteLinkFormID={wartelisteLinkFormID}/>
+
                 </article>
             </div>
 
@@ -44,7 +44,7 @@ const CourseDetailHeader = (props) => {
                     z-index: -1;
                 }
                 .courseDetailHeader__textBlock {
-                    width: 40%;
+                    width: 50%;
                     margin: 0 0 0 auto;
                 }
                 .courseDetailHeader__textBlock h2 {
@@ -61,7 +61,7 @@ const CourseDetailHeader = (props) => {
                     display: inline-block;
                     border-radius: 50%;
                     padding: 10px;
-                    z-index: 4;
+                    z-index: 2;
                     width: 50px;
                     aspect-ratio: 1;
                 }

@@ -121,6 +121,29 @@ class Layout extends Component {
               --super-yellow: #ffda1a;
               --super-red: #F10606;
             }
+            // Sizes
+                // --fs-100: 0.6875rem; // 11px
+                --fs-100: clamp(0.6875rem, 4vw, 0.6875rem);
+                // --fs-200: 1rem; // 16px
+                --fs-200: clamp(0.6rem, 4vw, 1rem);
+                // --fs-300: 1.25rem; // 20px
+                --fs-300: clamp(1rem, 4vw, 1.25rem);
+                // --fs-400: 1.375rem; // 22px
+                --fs-400: clamp(1.1rem, 4vw, 1.375rem);
+                // --fs-500: 1.5rem; // 24px
+                --fs-500: clamp(1.2rem, 4vw, 1.5rem);
+                // --fs-550: 1.5rem; // 33px
+                --fs-550: clamp(1.2rem, 4vw, 2.063rem);
+                // --fs-600: 2.5rem; // 40px
+                --fs-600: clamp(1.5rem, 4vw, 2.5rem);
+                // --fs-700: 3.125rem; // 50px
+                --fs-700: clamp(1.875rem, 4vw, 3.125rem);
+                // --fs-800: 4.0625rem; // 65px
+                --fs-800: clamp(2.4375rem, 3vw, 4.0625rem);
+                // --fs-900: 5rem; // 80px
+                --fs-900: clamp(1.875rem, 4vw, 5rem);
+                // --fs-999: 9.375rem; // 150px
+                --fs-999: clamp(4rem, 10vw, 9.375rem);
             html {
               scroll-behavior: smooth;
             }
@@ -151,72 +174,6 @@ class Layout extends Component {
             }
             button{
               border-radius: 5rem; 
-            }
-            
-            // BACKGROUND STYLES
-            .lilaGitter {
-              background-color: var(--super-lila);
-              background-image: linear-gradient(
-                  to right,
-                  rgba(255, 255, 255, 0.25) 0,
-                  rgba(255, 255, 255, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                ),
-                linear-gradient(
-                  to bottom,
-                  rgba(255, 255, 255, 0.25) 0,
-                  rgba(255, 255, 255, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                );
-              background-size: calc(100vw / 12) calc(100vw / 12);
-            }
-            .blackGitter {
-              background-color: var(--super-black);
-              background-image: linear-gradient(
-                  to right,
-                  rgba(230, 230, 230, 0.25) 0,
-                  rgba(230, 230, 230, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                ),
-                linear-gradient(
-                  to bottom,
-                  rgba(230, 230, 230, 0.25) 0,
-                  rgba(230, 230, 230, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                );
-              background-size: calc(100vw / 12) calc(100vw / 12);
-            }
-            .blueGitter {
-              background-color: var(--super-blau);
-              background-image: linear-gradient(
-                  to right,
-                  rgba(255, 255, 255, 0.25) 0,
-                  rgba(255, 255, 255, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                ),
-                linear-gradient(
-                  to bottom,
-                  rgba(255, 255, 255, 0.25) 0,
-                  rgba(255, 255, 255, 0.25) 1px,
-                  transparent 1px,
-                  transparent 100%
-                );
-              background-size: calc(100vw / 12) calc(100vw / 12);
-            }
-            .whiteGreenDots {
-              background: linear-gradient(
-                  90deg,
-                  #fff calc(100vw / 12 - 1.5px),
-                  transparent 1%
-                ),
-                linear-gradient(#fff calc(100vw / 12 - 1.5px), transparent 1%),
-                var(--super-green);
-              background-size: calc(100vw / 12) calc(100vw / 12);
             }
 
             img:not(#tagesablauf, .menu-button, #arrow-img img, .start-termin img, .text1, .text2, .text3, .text4, .text5) {

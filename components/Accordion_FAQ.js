@@ -1,5 +1,6 @@
 import { useState } from "react";
-const Accordion = (props) => {
+const Accordion_FAQ = (props) => {
+    console.log("accordion faq", props);
     const [activeIndex, setActiveIndex] = useState(null);
     const onTitleClick = (index) => {
         if (activeIndex === index) {
@@ -11,57 +12,38 @@ const Accordion = (props) => {
 
     return (
         <>
-            {props.curriculumContent.map((content, index) => {
+            {props.faqData.map((faqItem, index) => {
                 const active = index === activeIndex ? "active" : "hide";
                 return (
                     <section className="accordion-item" key={index}>
                         <div className="accordion-title" onClick={() => onTitleClick(index)}>
                             <div className="accordion-title-arrow">
+                                <p>{faqItem.question}</p>
                                 <p>{index === activeIndex ? "-" : "+"}</p>
-                                <p>{content.ablaufTitel}</p>
-                            </div>
-                            <div classNAme="accordion-title-date">
-                                <p>
-                                    {content.ablaufZeitraum}
-                                </p>
                             </div>
                         </div>
                         <div className={`accordion-content ${active}`}>
-                            <p>{content.ablaufBeschreibung}</p>
-                            <ul>
-                                {content.ablaufBeschreibungPunkte.map((punkt, index) => (
-                                    <li key={index}>
-                                        {punkt}
-                                    </li>
-                                ))}
-                            </ul>
+                            <p>{faqItem.answer}</p>
                         </div>
                     </section>
                 )
             })}
             <style jsx>{`
             .accordion-item {
-                background: var(--clr-super-green);
                 cursor: pointer;
                 margin-bottom: 2%;
-                border-radius: 50px;
-                padding: 2%;
-            }
-            .accordion-item:nth-of-type(1){
-                margin-top: 5%;
+                color: var(--super-green);
             }
             .accordion-title,
             .accordion-title-arrow{
                 display: flex;
             }
-            .accordion-title {
-                justify-content: space-between;
-            }
             .accordion-title-arrow {
-                gap: 20px;
+                width: 100%;
+                justify-content: space-between;
+                
             }
             .accordion-title-arrow p {
-                font-family: var(--ff-reg-bold);
                 font-size: var(--fs-500);
             }
             .accordion-title-date p {
@@ -91,4 +73,4 @@ const Accordion = (props) => {
     );
 }
 
-export default Accordion;
+export default Accordion_FAQ;

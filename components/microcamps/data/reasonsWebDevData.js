@@ -21,7 +21,7 @@ let reasonsWebDevData = [
     },
     {
         id: 4,
-        title: " Unsere Netzweke",
+        title: " Unsere Netzwerke",
         reason: "Profitiere von unseren Netzwerken im IT- und Design-Bereich und vernetze dich mit interessanten Menschen, führenden Unternehmen und aufsteigenden Start-Ups aus deiner Region.",
     },
     {
