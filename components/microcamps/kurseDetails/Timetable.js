@@ -30,19 +30,20 @@ const Timetable = (props) => {
                 .scheduleSection__weekGrid__day__card {
                     background-color: var(--clr-super-lila);
                     color: var(--clr-super-white);
-                    padding: 5%;
+                    padding: 8%;
                     margin: 0 0 5% 0;
                     border-radius: 20px;
                 }
                 .scheduleSection__weekGrid__day__card .headline {
                     font-weight: 800;
-                    font-size: var(--fs-400);
+                    font-size: var(--fs-300);
                 }
                 .scheduleSection__weekGrid__day__card .time {
                     font-size: var(--fs-200);
                 }
                 .scheduleSection__weekGrid__day__card .text {
-                    margin: 3% 0;
+                    margin: 5% 0;
+                    font-size: var(--fs-200);
                 }
 
                 @media only screen and (max-width: 1200px) {

@@ -130,6 +130,10 @@ const CurriculumSection = (props) => {
         .curriculumSection__curriculumView__introText {
           margin: 0 20% 0 0;
         }
+        .curriculumSection__curriculumView__introText h4 {
+          font-size: var(--fs-600);
+          margin-bottom: 15px;
+        }
         .curriculumSection__curriculumView__arccordion {
           margin: 5% 0 0 0;
           font-size: var(--fs-300);

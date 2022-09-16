@@ -14,7 +14,7 @@ const AlumniZitate = (props) => {
                     </div>
                 <style jsx>{`
                     .scheduleSection__alumniZitat {
-                        width: 50%;
+                        width: 66%;
                         margin: 0 auto;
                         display: flex;
                         align-items: center;
@@ -24,7 +24,7 @@ const AlumniZitate = (props) => {
                         padding: 2% 0 0 5%;
                     }
                     .scheduleSection__alumniZitat__textArea p:first-of-type {
-                        background-image: url(/img/questionmark.svg);
+                        background-image: url("/img/microcamps/questionmark.svg");
                         background-repeat: no-repeat;
                     }
 
