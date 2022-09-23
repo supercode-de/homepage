@@ -383,15 +383,6 @@ const Kurse_FS_Praxis = () => {
             position: relative;
           }
 
-          h2 {
-            font-family: 'Neue_Machina_Light';
-            color: var(--super-black);
-          }
-          p {
-            color: var(--super-black);
-            font-size: 1.563rem;
-            font-weight: 300;
-          }
           .praxisInfos,
           .plus-skills-infos {
             margin: 5rem;
@@ -436,18 +427,6 @@ const Kurse_FS_Praxis = () => {
             content: '';
             transform: scale(1.1, 0.6);
             display: block;
-          }
-
-          @media (max-width: 1040px) {
-            .fsPraxis p {
-              font-size: 1.2rem;
-              font-weight: 300;
-            }
-            h2 {
-              font-size: 4rem;
-            }
-            .letterstroke {
-            }
           }
 
           .mobile-section {
@@ -537,8 +516,7 @@ const Kurse_FS_Praxis = () => {
           .accordionHeading2 {
             border: 2px solid var(--super-lila);
           }
-          .accordionHeading p {
-          }
+
           .accordionContainer,
           .accordionContainer2 {
             display: flex;
@@ -560,12 +538,8 @@ const Kurse_FS_Praxis = () => {
           }
           //===============================
           @media (max-width: 768px) {
-            h2 {
-              font-size: 3.5rem;
 
-            }
             .fsPraxis h2 {
-              font-size: 3rem;
               text-align: left;
               margin-left: 5%;
             }
@@ -581,20 +555,18 @@ const Kurse_FS_Praxis = () => {
               margin: 0;
             }
             .praxisInfos p {
-              font-size: 1rem;
+
               padding: 0;
               width: 90%;
               margin: auto;
             }
 
             .plus-skills-infos p {
-              font-size: 1rem;
+
               padding: 0;
               width: 85%;
             }
-            .mobile-section article p {
-              font-size: 0.9rem;
-            }
+
             .mobile-section article h3 {
               font-size: 1rem;
             }
@@ -610,11 +582,7 @@ const Kurse_FS_Praxis = () => {
               display: block;
               margin-top: 100px;
             }
-            .neugierCTA h2 {
-              font-size: 1.5rem;
-              line-height: 28px;
-              width: 80%;
-            }
+
             .fsPraxis .neugierCTA_txt {
               font-size: 2rem;
               line-height: 28px;
@@ -622,23 +590,10 @@ const Kurse_FS_Praxis = () => {
             }
           }
           @media (max-width: 565px) {
-            h2 {
-              font-size: 2rem;
-            }
-            .fsPraxis h2 {
-              font-family: 'Neue_Machina_Ultrabold';
-              font-size: 1.8rem;
-              line-height: 20px;
-            }
-
             .neugierCTA {
               display: block;
             }
-            .neugierCTA h2 {
-              font-size: 1.5rem;
-              line-height: 28px;
-              width: 80%;
-            }
+
             .letterstroke {
               color: transparent;
               letter-spacing: 2px;
@@ -648,14 +603,7 @@ const Kurse_FS_Praxis = () => {
             }
           }
           @media (max-width: 440px) {
-            h2 {
-              font-size: 1.7rem;
-              line-height: 20px;
-            }
-            .fsPraxis h2 {
-              font-size: 1.7rem;
-              line-height: 20px;
-            }
+
             .neugierCTA {
               display: block;
             }
@@ -663,13 +611,8 @@ const Kurse_FS_Praxis = () => {
               font-size: 1rem;
               width: 80%;
             }
-            .mobile-section article p {
-              font-size: 0.7rem;
-            }
 
             .fsPraxis .neugierCTA_txt {
-              font-family: 'Neue_Machina_Light';
-
               margin-top: 60px;
               margin-bottom: 30px;
             }
@@ -682,13 +625,7 @@ const Kurse_FS_Praxis = () => {
             }
           }
           @media (max-width: 375px) {
-            .fsPraxis h2 {
-              font-size: 1.4rem;
-            }
-            .fsPraxis .neugierCTA_txt {
-              font-size: 1.4rem;
-              line-height: 20px;
-            }
+
             .buttons {
               display: flex;
               justify-content: flex-end;

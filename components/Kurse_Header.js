@@ -2,7 +2,6 @@ import Stoerer_LiveOnline from "./small/Stoerer_LiveOnline";
 import TelefonAside from "./small/TelefonAside";
 
 const Kurse_Header = (props) => {
-    console.log(props);
     return (
         <header>
             <h2 className='super-code'>super(code)</h2>
@@ -20,7 +19,7 @@ const Kurse_Header = (props) => {
                     </h1>
                 </div>
             </section>
-                <Stoerer_LiveOnline stoererTopPos={props.stoererTopPos}/>
+            <Stoerer_LiveOnline stoererTopPos={props.stoererTopPos} />
             <style jsx>{`
             img + div {
                 display: none;
@@ -59,27 +58,6 @@ const Kurse_Header = (props) => {
                 width: 100%;
             }
 
-            .start-container {
-            position: relative;
-            }
-            .start {
-                position: absolute;
-                height: 180px;
-                width: 180px;
-                background: var(--super-yellow);
-                border-radius: 50%;
-                transform: rotate(-10deg) translate(50%, 50%);
-                bottom: 0;
-                right: 1%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                color: #fff;
-                font-family: 'Neue_Machina_Ultrabold';
-                font-size: 2rem;
-                z-index: 9;
-            }
             @media (max-width: 1040px) {
             h1 {
                 font-size: 4em;
@@ -88,12 +66,11 @@ const Kurse_Header = (props) => {
             .header-flex {
                 gap:0;
             }
-            .start{
-                width:150px;
-                height:150px;
+
+            .header-flex {
+                min-width:90%;
             }
-  
-            .header-flex {min-width:90%;}
+
             @media (max-width: 875px) {
             .header-flex {
                 flex-direction:column;
@@ -105,22 +82,14 @@ const Kurse_Header = (props) => {
                 position:relative;
                 bottom:50px;
             }
-            .start{
-                width:140px;
-                height:140px;
-            }
 
             }
 
-            .header-flex {padding:0 110px;}
+            .header-flex {
+                padding:0 110px;
+            }
             h1 {
                 font-size: 4rem;
-            }
-            .start{
-                width:110px;
-                height:110px;
-                font-size: 1.4rem;
-                bottom: -7%;
             }
 
             }
@@ -131,27 +100,14 @@ const Kurse_Header = (props) => {
             h1 {
                 font-size: 5em;
             }
-            .start{
-                width:100px;
-                height:100px;
-                font-size: 1.4rem;
-                bottom: -17%;
 
-            }
             }
 
             @media (max-width: 468px) {
-            .start{
-                height: 80px;
-                width: 80px;
-                font-size: 1rem;
-                right:10%;
-                bottom: -10%;
-            }
+
             .headline{
                 margin-right:28%;
                 margin-bottom:-170px;
-                //  width:100%;
             }
             .header-flex{
                 padding:0 25px;
@@ -164,7 +120,7 @@ const Kurse_Header = (props) => {
                 font-family: 'Neue_Machina_Ultrabold';
                 font-size: 5.6em;
                 line-height:50px;
-                top:-100px;
+                top:-45px;
                 
             }
             .letterstroke{
@@ -173,18 +129,9 @@ const Kurse_Header = (props) => {
             }
             }
             @media (max-width: 375px) {
-
-            .start{
-                height: 80px;
-                width: 80px;
-                font-size: 1rem;
-                right:10%;
-                bottom: -10%;
-            }
             .headline{
                 margin-right:28%;
                 margin-bottom:-60px;
-                //  width:100%;
             }
             .header-flex{
                 padding:0 18px;
@@ -199,25 +146,19 @@ const Kurse_Header = (props) => {
                 font-size: 5.6em;
                 line-height:50px;
                 top:-100px;
-                
             }
-            .letterstroke{
+            .letterstroke {
                 width:100%;
                 margin-bottom:30px;
             }
+            
             }
             @media (max-width: 355px) {
             .header-flex{
                 padding:0 10px;
                 
             }
-            .start{
-                height: 75px;
-                width: 75px;
-                font-size: 1rem;
-                right:15%;
-                bottom: -10%;
-            }
+
             }
         `}
             </style>

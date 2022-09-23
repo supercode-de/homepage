@@ -103,6 +103,11 @@ const Team_Stellenanzeigen = () => {
         .stellen-aufgaben {
           margin-bottom: 2rem;
         }
+        @media (max-width: 320px) {
+          a {
+            width: 100%;
+          }
+        }
       `}</style>
     </div>
   );

@@ -64,8 +64,7 @@ const Stoerer_LiveOnline = (props) => {
                 }
                 @media (max-width: 425px) {
                     .stoerer-wrapper {
-                        top: 73%;
-                        left: 4%;
+                        display: none;
                     }
                 }
             `}

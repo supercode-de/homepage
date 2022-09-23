@@ -58,7 +58,7 @@ const Beratung = (props) => {
             overflow-y: scroll;
             transition: all 0.5s;
             width: 100%;
-            z-index: 999999;
+            z-index: 9;
           }
           .isHidden {
             right: -100%;
@@ -69,12 +69,14 @@ const Beratung = (props) => {
           .hbspt-form {
             width: 500px;
           }
-
           .jetzt-anmelden-container {
             padding: 150px 10%;
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 50px;
+          }
+          .jetzt-anmelden-left p {
+            margin-bottom: 2%;
           }
           .jetzt-anmelden-close {
             top: 60px;
@@ -94,26 +96,11 @@ const Beratung = (props) => {
           .jetzt-anmelden-close:hover {
             color: var(--super-green);
           }
-          .jetzt-anmelden-left h1 {
-            font-size: 4.3em;
-            font-style: normal;
-            font-weight: 800;
-            margin: 0;
-            line-height: 1em;
-            letter-spacing: -1.5px;
-          }
-          .jetzt-anmelden-left p {
-            font-size: 1.1em;
-            line-height: 1.08;
-            font-weight: 400;
-            letter-spacing: 2px;
-            margin-bottom: 14px;
-            line-height: 24px;
-          }
+
           span {
             color: transparent;
             letter-spacing: 3px;
-            -webkit-text-stroke-width: 1.5px;
+            -webkit-text-stroke-width: .5px;
             -webkit-text-stroke-color: var(--super-green);
           }
 
@@ -137,38 +124,8 @@ const Beratung = (props) => {
             cursor: pointer;
           }
 
-          // .button {
-          //     background:none;
-          //     display: inline-block;
-          //     color: #fff;
-          //     text-decoration: none;
-          //     text-transform: uppercase;
-          //     padding: 5px 35px;
-          //     border: 1px solid var(--super-green);
-          //     font-size: 0.7em;
-          //     font-weight: 600;
-          //     line-height: 1.5em;
-          //     margin: 10px;
-          //     letter-spacing: 2px;
-          //     transition: top 0.5s linear, box-shadow 0.5s linear, left 0.5s linear;
-          //     box-shadow: 0 0 0 0 transparent;
-          //     position: relative;
-          //     top: 0;
-          //     left: 0;
-          //     text-align: center;
-          //     min-width: 100px;
-          // }
-          // .button:hover {
-          //     // margin: 10px 5px 15px 10px;
-          //     // margin: 10px 10px 15px 15px;
-          //     box-shadow: -5px 5px 0 0 #fff;
-          //     top: -5px;
-          //     left: 5px;
-          // }
           @media screen and (max-width: 768px) {
-            .jetzt-anmelden-left h1 {
-              font-size: 3.3em;
-            }
+
             .jetzt-anmelden-container {
               padding: 5% 10%;
               display: block;
@@ -187,7 +144,7 @@ const Beratung = (props) => {
               border-radius: 0;
               padding: 0;
               margin: 0;
-              color: #f0f0f0;
+              color: var(--super-white);
               background: none;
               font-weight: 300;
               font-size: 4em;
@@ -199,9 +156,6 @@ const Beratung = (props) => {
           }
 
           @media (max-width: 568px) {
-            .jetzt-anmelden-left h1 {
-              font-size: 2.3em;
-            }
             .jetzt-anmelden-container {
               padding: 10% 10%;
               display: block;
@@ -215,7 +169,6 @@ const Beratung = (props) => {
               font-size: 1.2em;
               width: 16em;
               width: ${props.buttonWidth};
-              min-width: 0;
             }
           }
           @media (max-width: 400px) {

@@ -86,19 +86,9 @@ const Index_Weiterbildung = () => {
         #header-call div {
           grid-column: 3 / 4;
         }
-        @media (max-width: 768px) {
-          h2 {
-            font-size: 2rem;
-          }
-        }
-        @media (max-width: 425px) {
-          h2 {
-            font-size: 2rem;
-          }
-        }
-        @media (max-width: 320px) {
-          h2 {
-            font-size: 2em;
+        @media only screen and (max-width: 320px) {
+          #header-call {
+            padding: 10%;
           }
         }
       `}</style>

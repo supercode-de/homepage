@@ -88,19 +88,9 @@ const Zukunft = (props) => {
           width: calc(100vw / 12 * 3);
         }
 
-        @media (max-width: 1040px) {
-          h1 {
-            font-size: 3em;
-          }
-          h3 {
-            font-size: 1.3em;
-          }
-
-        }
-
         @media (max-width: 768px) {
           .infos,
-          .infos div:nth-of-type(1) {
+          .infos div:nth-of-type(1)  {
             width: 100%;
           }
           .images {
@@ -118,7 +108,7 @@ const Zukunft = (props) => {
 
         @media (max-width: 468px) {
           #zukunft {
-            padding-bottom: 10%;
+            padding: 10%;
           }
           .infos {
             width: 100%;

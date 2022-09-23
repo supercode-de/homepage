@@ -5,18 +5,9 @@ const Kurse_HeaderTermine_Webdev = () => {
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2 className="line-through">20. Juni</h2>
+                        <h2 className="line-through">19. September</h2>
                     </div>
-                    <div className="line-through">Anmeldeschluss bis 17. Juni</div>
-                </div>
-            </div>
-            <div>
-                <div className="termine-wrapper">
-                    <div className="start-termin">
-                        <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2>19. September</h2>
-                    </div>
-                    <div>Anmeldeschluss bis 16. September</div>
+                    <div className="line-through">Anmeldeschluss bis 16. September</div>
                 </div>
             </div>
             <div>
@@ -36,11 +27,6 @@ const Kurse_HeaderTermine_Webdev = () => {
                     flex-wrap: wrap;
                     justify-content: space-evenly;
                     color: white;
-                }
-
-                #header-termine div:nth-of-type(1) .termine-wrapper h2{
-                    text-decoration: line-through;
-                    text-decoration-color: var(--super-green);
                 }
 
                 .line-through{
@@ -65,16 +51,6 @@ const Kurse_HeaderTermine_Webdev = () => {
                     margin: 0;
                     padding-left: 5px;
                     font-size: 2.2rem;
-                }
-
-                @media (max-width: 1040px) {
-                    .start-termin h2{
-                        font-size: 1.8rem;
-                    }
-
-                    .termine-wrapper div:nth-child(2){
-                        font-size: 14px;
-                    }
                 }
 
                 @media (max-width: 780px) {

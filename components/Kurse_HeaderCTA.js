@@ -40,17 +40,14 @@ const Kurse_HeaderCTA = (props) => {
         .headerFlex {
           display: flex;
           justify-content: space-between;
-          color: #fff;
+          color: var(--super-white);
           min-width: 100%;
         }
-        .headerFlex p {
-          font-size: clamp(0.8rem, 1rem, 2rem);
-        }
+
         section h3 {
           font-weight: 300;
           margin-bottom: 1rem;
           font-size: 2.6rem;
-          font-family: 'Neue_Machina_Regular_400';
         }
         .super,
         .circle,
@@ -121,7 +118,7 @@ const Kurse_HeaderCTA = (props) => {
         }
 
         .jetzt-bewerben h4 {
-          color: #fff;
+          color: var(--super-white);
         }
 
         @media (max-width: 1540px) {
@@ -196,19 +193,11 @@ const Kurse_HeaderCTA = (props) => {
         }
 
         @media (max-width: 768px) {
-          .headerFlex {
-          }
-
-          section h3 {
-            font-size: 1.3rem;
-            font-weight: 200;
-          }
 
           .jetzt-bewerben h4 {
             font-size: 1.1rem;
           }
-          .start {
-          }
+
           h2 span.bling::before {
             bottom: -0.1em;
           }
@@ -223,20 +212,14 @@ const Kurse_HeaderCTA = (props) => {
           }
         }
         @media (max-width: 655px) {
-          section h3 {
-            font-size: 1.12rem;
-          }
+
           .jetzt-bewerben h4 {
             font-size: 1rem;
           }
 
-          .jetzt-bewerben {
-          }
         }
         @media (max-width: 575px) {
-          section h3 {
-            font-size: 1rem;
-          }
+
           h3 span.bling::before,
           h3 span.bling2::after {
             position: absolute;
@@ -275,17 +258,11 @@ const Kurse_HeaderCTA = (props) => {
             width: 1rem;
             right: -1.2rem;
           }
-          .headerFlex p {
-            font-size: 0.6rem;
-          }
-          section h3 {
-            font-size: 0.9rem;
-          }
+
+
         }
         @media (max-width: 470px) {
-          section h3 {
-            font-size: 0.75rem;
-          }
+
           .headerFlex section:first-child .after-span {
             background: url('/img/vector127.svg') -20px 13px / contain no-repeat;
           }
@@ -308,10 +285,10 @@ const Kurse_HeaderCTA = (props) => {
             padding: 2rem 6%;
           }
           .headerFlex {
+            display: flex;
           }
           h3 {
             font-size: 0.75rem;
-            wont-weight: 400;
             margin: 4px 0;
           }
           .headerFlex section:first-child .after-span {

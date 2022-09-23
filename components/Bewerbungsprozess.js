@@ -199,16 +199,11 @@ class Bewerbungsprozess extends Component {
                 font-size: 2.5em;
                 line-height: 1.2em;
               }
-              .center h2 {
-                font-size: 3.2em;
-              }
             }
             @media (max-width: 768px) {
-              .center h2 {
-                font-size: 3.5em;
-              }
+
               p {
-                font-size: 2em;
+
                 margin-bottom: 50px;
               }
               .super-stroke {
@@ -227,15 +222,13 @@ class Bewerbungsprozess extends Component {
               .twocolumn {
                 grid-template-columns: 100%;
               }
-            }
-            @media (max-width: 468px) {
-              .center h2 {
-                font-size: 3em;
+              h2 {
+                margin-bottom: 20px;
               }
             }
-            @media (max-width: 370px) {
-              .center h2 {
-                font-size: 2.5em;
+            @media(max-width: 320px){
+              .aside {
+                display: none;
               }
             }
           `}

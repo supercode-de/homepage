@@ -26,8 +26,6 @@ const CertquaBonn = () => {
         }
 
         h2 {
-          font-size: 3.125rem;
-          line-height: 133%;
           margin-bottom: 26px;
         }
         p {
@@ -66,19 +64,28 @@ const CertquaBonn = () => {
           h2 {
             font-size: 1.5em;
           }
-          p, p:nth-of-type(2) {
-            font-size: 1.5em;
-          }
+
         }
         @media (max-width: 540px) {
           #header-call div {
             display: block;
           }
-          p:nth-of-type(2) {
+          p{
+            width: 100%;
+          }
+          .certqua {
+            text-align:center;
+            margin-bottom: 2rem;
+          }
+          .certqua-text {
             width: 100%;
           }
       }
-
+      @media (max-width: 320px) {
+        #header-call {
+          padding: 5rem 6.5%;
+        }
+      }
       `}</style>
     </div>
   );

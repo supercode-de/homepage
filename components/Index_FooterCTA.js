@@ -54,11 +54,6 @@ const Index_FooterCTA = () => {
           background: var(--super-green);
         }
 
-        @media (max-width: 1024px) {
-          h1 {
-            font-size: 3em;
-          }
-        }
         @media (max-width: 468px) {
           a {
             font-weight: 400;
@@ -76,8 +71,7 @@ const Index_FooterCTA = () => {
             display: block;
           }
         }
-        @media (max-width: 370px) {
-        }
+
       `}</style>
     </div>
   );

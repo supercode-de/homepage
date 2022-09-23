@@ -114,12 +114,6 @@ const Index_Header = () => {
             position: relative;
           }
           @media (max-width: 1040px) {
-            h1 {
-              font-size: 2.5em;
-            }
-            .twocolumn {
-              // margin-bottom: 40px;
-            }
             .twocolumn > img {
               width: 60%;
               align-self: center;
@@ -135,7 +129,6 @@ const Index_Header = () => {
               padding: 100px 6% 10px;
             }
             h1 {
-              font-size: 4em;
               align-self: center;
               justify-self: center;
             }
@@ -172,11 +165,7 @@ const Index_Header = () => {
               display: none;
             }
           }
-          @media (max-width: 468px) {
-            h1 {
-              font-size: 2.8em;
-            }
-          }
+
         `}
       </style>
     </div>
