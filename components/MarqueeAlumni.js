@@ -17,7 +17,8 @@ const MarqueeAlumni = () => {
                 }
                 h3 {
                     text-align: center;
-                    font-size: 30px;
+                    // font-size: 30px;
+                    font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.875rem);
                     margin-bottom: 50px;
                 }
                 img {

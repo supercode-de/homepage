@@ -98,7 +98,7 @@ const Index_Weiterbildung = () => {
         }
         @media (max-width: 320px) {
           h2 {
-            font-size: 1.8em;
+            font-size: 2em;
           }
         }
       `}</style>

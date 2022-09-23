@@ -99,7 +99,8 @@ const Zukunft = (props) => {
         }
 
         @media (max-width: 768px) {
-          .infos {
+          .infos,
+          .infos div:nth-of-type(1) {
             width: 100%;
           }
           .images {
