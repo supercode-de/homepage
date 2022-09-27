@@ -97,19 +97,10 @@ const Alumni = () => {
       </section>
 
       <style jsx>{`
-        * {
-          margin: 0;
-          padding: 0;
-          color: var(--super-green);
-        }
-
         #absolventen {
+          color: var(--super-green);
           position: relative;
-          background-color: #fff;
-
-          background: url("./img/bg-line2.png") top/150% no-repeat,
-            url("./img/bg-line2.png") center/100% no-repeat, var(--super-blau);
-
+          background: url("./img/bg-line2.png") top/150% no-repeat, url("./img/bg-line2.png") center/100% no-repeat, var(--super-blau);
           padding: 70px 0;
         }
         .aside {
@@ -238,9 +229,6 @@ const Alumni = () => {
           width: 100%;
         }
 
-        .alumni-carousel article p {
-          font-size: 1.8em;
-        }
         .alumni-carousel article h5 {
           font-size: 2em;
         }

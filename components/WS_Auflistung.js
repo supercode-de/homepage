@@ -113,7 +113,7 @@ const WS_Auflistung = () => {
               font-size: 4em;
               font-weight: 600;
 
-              color: #fff;
+              color: var(--super-white);
               line-height: 1.2em;
               position: relative;
               z-index: 1;
@@ -135,7 +135,7 @@ const WS_Auflistung = () => {
               color: transparent;
               letter-spacing: 2px;
               -webkit-text-stroke-width: 0.5px;
-              -webkit-text-stroke-color: #fff;
+              -webkit-text-stroke-color: var(--super-white);
               font-weight: 300;
             }
 
@@ -152,7 +152,7 @@ const WS_Auflistung = () => {
 
             a {
               text-decoration: none;
-              color: #fff;
+              color: var(--super-white);
             }
             a:hover {
               text-decoration: line-through;
@@ -185,6 +185,11 @@ const WS_Auflistung = () => {
             @media (max-width: 468px) {
               .center h2 {
                 font-size: 3em;
+              }
+            }
+            @media (max-width: 425px) {
+              .flex {
+                margin-bottom: 20px;
               }
             }
             @media (max-width: 370px) {

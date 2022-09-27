@@ -24,7 +24,7 @@ const responsive = {
 const WS_WorkIT = () => {
   return (
     <div id="kurse">
-      <span className="aside">Unsere Kurse</span>
+      <span className="aside">Unsere Workshops</span>
       <article className="kurs-boxes-headline">
         <h1>
           <span className="super">Work IT,</span> Baby!
@@ -86,7 +86,7 @@ const WS_WorkIT = () => {
               Start: immer donnerstags - mit Anmeldung
             </p>
             <p>
-              Tauche ein in die wundervolle Welt der Web-Designs und mache bei
+              Tauche ein in die wundervolle Welt des Web-Designs und mache bei
               uns dein Seepferdchen im Bereich UX & UI-Design, im World Wide
               Web!
             </p>
@@ -195,7 +195,7 @@ const WS_WorkIT = () => {
                   Start: immer donnerstags - mit Anmeldung
                 </p>
                 <p>
-                  Tauche ein in die wundervolle Welt der Web-Designs und mache
+                  Tauche ein in die wundervolle Welt des Web-Designs und mache
                   bei uns dein Seepferdchen im Bereich UX & UI-Design, im World
                   Wide Web! Live, in Farbe und immer mit zwei Trainer*innen.
                 </p>
@@ -264,11 +264,8 @@ const WS_WorkIT = () => {
         }
 
         h1 {
-          font-size: 3.5em;
           color: var(--super-white);
-          line-height: 1.2em;
           margin: 0 8.5% 1em;
-          font-weight: 300;
         }
 
         h1 span.super {
@@ -297,7 +294,7 @@ const WS_WorkIT = () => {
         .kurs-box {
           background: var(--super-lila);
           border: 2px solid var(--super-green);
-          padding: 2em 5% 2em 2%;
+          padding: 3%;
           width: 100%;
           z-index: -1;
           margin: 0 35px;
@@ -305,7 +302,6 @@ const WS_WorkIT = () => {
         }
 
         .kurs-box2 {
-
           margin-left: -2px;
           z-index: -1;
         }
@@ -338,7 +334,6 @@ const WS_WorkIT = () => {
         }
         a {
           margin: 2em 1em 0;
-          font-size: 0.73em;
           font-weight: 600;
           line-height: 1.5em;
           text-align: center;
@@ -358,7 +353,7 @@ const WS_WorkIT = () => {
         }
         h4 {
           color: var(--super-white);
-          font-size: 1.6em;
+          font-size: clamp(1.25rem, 1.225rem + 0.125vw, 1.375rem);
           margin-bottom: 14px;
         }
         .kurs-boxes > .kurs-box:hover h4 {
@@ -367,14 +362,12 @@ const WS_WorkIT = () => {
 
         h5 {
           color: var(--super-white);
-          font-size: 1.2em;
+          font-size: clamp(1.25rem, 1.225rem + 0.125vw, 1.375rem);
         }
 
         p {
           color: var(--super-white);
-          font-size: 14px;
           margin-bottom: 25px;
-          line-height: 20px;
           opacity: 0.8;
         }
 
@@ -387,10 +380,17 @@ const WS_WorkIT = () => {
           }
           .kurs-box {
             margin: 0;
-            z-inex: 1;
+            z-index: 1;
+            padding: 5%;
           }
           .kurse-content {
             padding: 0 5%;
+          }
+        }
+        @media (max-width: 425px) {
+          .kurs-box {
+            border-radius: 25px;
+            padding: 7%;
           }
         }
       `}</style>

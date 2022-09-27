@@ -122,7 +122,6 @@ export default function Accordion() {
           }
           .unwrap {
             border: none;
-            // padding: 0;
             padding-right: 4.5%;
           }
           .bar1 {
@@ -202,6 +201,22 @@ export default function Accordion() {
             padding: 22px 15px;
             pointer-events: none;
             line-height: 1;
+          }
+          @media (max-width: 320px) {
+            #verstehen {
+              width: 40%;
+              left: 43%;
+            }
+            #gestaltung {
+              width: 60%;
+              left: 14%;
+            }
+            #green__arrow {
+              width: 75%;
+            }
+            #green__arrow2 {
+              width: 65%;
+            }
           }
         `}
       </style>

@@ -388,7 +388,6 @@ const Kurse_FS_Praxis = () => {
             margin: 5rem;
           }
           .praxisInfos p:nth-of-type(1){
-            margin-top: 50px;
             margin-bottom: 20px;
           }
           .letterstroke {
@@ -580,26 +579,15 @@ const Kurse_FS_Praxis = () => {
               font-weight: 300;
             }
           }
-          @media (max-width: 440px) {
 
-            .neugierCTA {
-              display: block;
-            }
-            .neugierCTA h2 {
-              font-size: 1rem;
-              width: 80%;
-            }
-
-            .fsPraxis .neugierCTA_txt {
-              margin-top: 60px;
-              margin-bottom: 30px;
-            }
-          }
           @media (max-width: 425px) {
             .buttons {
               display: block;
               width: 80%;
               margin: 0 auto;
+            }
+            .fsPraxis .neugierCTA_txt {
+              width: 100%;
             }
           }
 
