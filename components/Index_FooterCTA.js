@@ -58,8 +58,6 @@ const Index_FooterCTA = () => {
           a {
             font-weight: 400;
             font-size: 1.2em;
-            width: 16em;
-            min-width: 0;
           }
           .buttons {
             flex-direction: column;

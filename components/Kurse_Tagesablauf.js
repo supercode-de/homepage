@@ -34,14 +34,13 @@ export default function Kurse_Tagesablauf(props) {
             <Tagesablauf kurs={kurs}/>
             <style jsx>{`
               .tagesablauf {
-                padding:150px 0 100px 0;
+                padding: 12% 0 10% 0;
                 background: var(--super-lila);
               }
   
             .tagesablauf-header{
               color: var(--super-white);
-              padding:0 6% 62px 6%;
-              font-size:5rem;
+              padding:0 6% 6% 6%;
             }
             h2{
               color: var(--super-white);
@@ -94,26 +93,25 @@ export default function Kurse_Tagesablauf(props) {
             .img-wrapper div{
             padding-right:0;
             }
+            @media (max-width: 1024px) {
+              .tagesablauf-txt p {
+                width: 100%;
+              }
+            }
             @media (max-width: 768px) {
-              h2 {
-                font-size: 2rem;
-                margin-top: 50px;
-                margin-bottom: 50px;
-              }
-              .tagesablauf-header{
-                font-size:3rem;
-              }
               .tagesablauf_imgContainer div{
                 width:60%;
               }
               .tagesablauf article {
                 display: block;
-                padding-right: 1%;
               }
+              .tagesablauf-txt {
+                padding: 3% 0 0;
+              }
+
               .tagesablauf article > div {
                 width: 90%;
                 margin:auto;
-                
               }
               .tagesablauf article > div p{
                 width:100%;
@@ -121,24 +119,12 @@ export default function Kurse_Tagesablauf(props) {
 
             }
             @media (max-width: 520px) {
-              .tagesablauf {
-                padding:50px 0 70px 0;
-              }
-  
               .tagesablauf_imgContainer div{
                 width:80%;
               }
-              .eat-sleep-header{
-                font-size:2rem;
-                line-height:28px;
-              }
+
             }
             @media (max-width: 425px) {
-              .tagesablauf-header{
-                font-size:2rem;
-                padding-bottom: 0;
-                margin-top: 0;
-              }
 
               .tagesablauf article {
                 display: block;
@@ -153,14 +139,7 @@ export default function Kurse_Tagesablauf(props) {
                 display:block;
               }
               @media (max-width: 375px) {
-                  .tagesablauf-header{
-                    font-size:1.4rem;
-                    padding:0 6% 20px 6%;
-                  }
-                .eat-sleep-header{
-                  font-size:1.4rem;
-                  line-height:20px;
-                }
+
                 h2 .stroke {
                   color: transparent;
                   -webkit-text-stroke-width: 0.5px;
@@ -168,7 +147,7 @@ export default function Kurse_Tagesablauf(props) {
                   
                 }
               }
-          
+
           `}
             </style>
         </section>

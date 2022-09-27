@@ -90,7 +90,7 @@ export default function ZahlenUndFakten(props) {
                 Zufriedenheit
                 <br />
               </span>
-              Rate mal
+              Rate me
             </h2>
 
             <p>
@@ -109,7 +109,7 @@ export default function ZahlenUndFakten(props) {
                 Bin ich zu alt
                 <br />
               </span>
-              oder zu jung
+              oder zu jung?
             </h2>
 
             <p>
@@ -135,7 +135,6 @@ export default function ZahlenUndFakten(props) {
           color: var(--super-lila);
         }
         .zahlenUndFakten_Header {
-          font-size: 5rem;
           margin-top: 55px;
           margin-bottom: 125px;
         }
@@ -220,9 +219,8 @@ export default function ZahlenUndFakten(props) {
           width: 50%;
         }
         figure figcaption {
-          padding-top: 35px;
-          padding-bottom: 35px;
-          font-size: 1.563rem;
+          padding: 3.5% 0;
+          font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
         }
         figure figcaption,
         figure p {
@@ -298,7 +296,6 @@ export default function ZahlenUndFakten(props) {
           width: 100%;
         }
 
-        //==============
         @media (max-width: 2560px) {
           h2 .circle::after {
             position: absolute;
@@ -312,37 +309,19 @@ export default function ZahlenUndFakten(props) {
             transform: scale(1.17, 0.95);
           }
         }
-        @media (max-width: 1024px) {
-        .zahlenUndFakten-infos h2,
-        .vermittlung-newJob h2 {
-          line-height: 3rem;
-          font-size: 3rem;
-          color: var(--super-lila);
-        }
-      }
-
         @media (max-width: 768px) {
           .bling,
           .bling2 {
             display: none;
           }
-          .zahlenUndFakten .zahlenUndFakten_Header {
-            font-size: 2rem;
-          }
           .zahlenUndFakten_Header {
             margin: 25px 0 86px 0;
           }
           h2 span.circle::after {
-            right: 42%
+            right: 34%
           }
           .zahlenUndFakten-infos {
             margin-bottom: 0px;
-          }
-          .zahlenUndFakten-infos h2 {
-            font-size: 2rem;
-          }
-          .vermittlung-newJob h2 {
-            font-size: 2rem;
           }
           .zahlenUndFakten-infos,
           .vermittlung {
@@ -360,10 +339,6 @@ export default function ZahlenUndFakten(props) {
           .vorerfahrung-container h2 {
             margin: 20px 0 10px 0;
             font-family: 'Neue_Machina_Ultrabold';
-          }
-
-          .absolvent_feedback figcaption {
-            font-size: 0.7rem;
           }
           .absolvent_2 p,
           .absolvent_1 p {
@@ -399,19 +374,10 @@ export default function ZahlenUndFakten(props) {
 
         @media (max-width: 550px) {
           .zahlenUndFakten .zahlenUndFakten_Header {
-            font-size: 3rem;
             margin-bottom: 20px;
-            line-height: 28px;
-
           }
           .absolvent_2 figcaption {
             padding-bottom: 19px;
-          }
-          .zahlenUndFakten-infos h2,
-          .vermittlung-newJob h2 {
-            line-height: 25px;
-            // font-size: 3.8rem;
-            color: var(--super-lila);
           }
         }
 
@@ -420,47 +386,20 @@ export default function ZahlenUndFakten(props) {
             margin: 0 0 0 0;
             padding-top: 10px;
           }
-
-          .zahlenUndFakten-infos h2,
-          .vermittlung-newJob h2 {
-            line-height: 20px;
-            // font-size: 3.8rem;
-            color: var(--super-lila);
-          }
-
-          .zahlenUndFakten-infos h2 {
-            font-size: 1.8rem;
-          }
           .zahlenUndFakten .zahlenUndFakten_Header {
-            font-size: 1.8rem;
             margin-bottom: 20px;
-            line-height: 20px;
           }
           .absolvent_2 figcaption {
             padding-bottom: 22px;
           }
-          .vermittlung-newJob h2 {
-            font-size: 1.8rem;
-          }
+
           .zahlenUndFakten-infos,
           .vermittlung {
             display: flex;
           }
-          .vorerfahrung-container {
-            padding: 0;
-          }
+          .vorerfahrung-container,
           .vermittlung {
             padding: 0;
-          }
-          .vermittlung p {
-          }
-          .absolvent_feedback figcaption {
-            font-size: 0.7rem;
-          }
-          .absolvent_2 p,
-          .absolvent_1 p {
-            font-size: 1rem;
-            line-height: 15px;
           }
           figure {
             margin-inline-start: 5px;
@@ -493,27 +432,18 @@ export default function ZahlenUndFakten(props) {
           .absolvent_2 {
             width: 100%;
           }
+          .absolvent_2 {
+            margin-top: 50px;
+          }
         }
         @media (max-width: 420px) {
-          .absolvent_feedback figcaption {
-            font-size: 1rem;
-            line-height: 15px;
-          }
+
           figure h3{
           font-size:1rem;
           margin-bottom:3px;
           }
         }
         @media (max-width: 375px) {
-          .zahlenUndFakten .zahlenUndFakten_Header {
-            font-size: 1.4rem;
-          }
-          .zahlenUndFakten-infos h2,
-          .vermittlung-newJob h2 {
-            line-height: 20px;
-            font-size: 1.4rem;
-            color: var(--super-lila);
-          }
           .zahlenUndFakten h2 span {
             display: block;
             color: transparent;

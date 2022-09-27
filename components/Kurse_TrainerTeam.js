@@ -69,12 +69,12 @@ export default function Kurse_TrainerTeam(props) {
           }
 
           figure p {
-            font-size: 1.875rem;
+            font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
             width: 100%;
           }
 
           figcaption {
-            font-size: 1.875rem;
+            font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
             color: var(--super-green);
             padding-top: 7px;
             padding-bottom: 3px;
@@ -87,7 +87,7 @@ export default function Kurse_TrainerTeam(props) {
             width: 80%;
             margin: 0 auto;
             margin-top: 96px;
-            gap: 126px;
+            gap: 50px;
             position: relative;
 
           }
@@ -110,26 +110,16 @@ export default function Kurse_TrainerTeam(props) {
               transform: rotate(360deg);
             }
           }
-          @media (max-width: 1040px) {
-            .gridContainer {
-              gap: 0.1rem;
-            }
-          }
 
           @media (max-width: 875px) {
             .gridContainer {
               display: grid;
               grid-template-columns: repeat(2, 1fr);
-              gap: 1rem;
               margin: 0 auto;
               width: 100%;
             }
             .rotating-text {
               display: none;
-            }
-            .fsTrainer h2 {
-              font-size: 1.5rem;
-              line-height: 28px;
             }
             .gridContainer {
               margin: auto;
@@ -140,18 +130,11 @@ export default function Kurse_TrainerTeam(props) {
           }
           @media (max-width: 768px) {
             .fsTrainer h2 {
-              font-size: 1.5rem;
-              line-height: 28px;
               margin-bottom: 10px;
             }
             .fsTrainer p {
-              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
-            }
-
-            figcaption {
-              font-size: 1.5rem;
             }
             .rotating-text {
               display: none;
@@ -159,8 +142,6 @@ export default function Kurse_TrainerTeam(props) {
           }
           @media (max-width: 585px) {
             .fsTrainer h2 {
-              font-size: 1.8rem;
-              line-height: 20px;
               margin-bottom: 10px;
             }
             .fsTrainer p {
@@ -168,17 +149,9 @@ export default function Kurse_TrainerTeam(props) {
               margin-bottom: 3px;
             }
 
-            figcaption {
-              font-size: 1.2rem;
-              color: var(--super-green);
-              padding-top: 7px;
-              padding-bottom: 1px;
-              font-weight: 100;
-            }
           }
           @media (max-width: 480px) {
             .fsTrainer h2 {
-              font-size: 1.4rem;
               color: var(--super-white);
               margin-bottom: 10px;
               margin-top: 0;
@@ -190,41 +163,15 @@ export default function Kurse_TrainerTeam(props) {
               -webkit-text-stroke-color: var(--super-white);
             }
             .fsTrainer p {
-              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
-              line-height: 15px;
             }
 
-            .fsTrainer figure p {
-              line-height: 10px;
-              font-size: 0.8rem;
-            }
-            figcaption {
-              font-size: 1rem;
-              color: var(--super-green);
-              padding-top: 7px;
-              padding-bottom: 1px;
-              font-weight: 100;
-            }
           }
 
           @media (max-width: 425px) {
             .fsTrainer {
               padding: 40px 0 100px 6%;
-            }
-            .fsTrainer h2 {
-              font-size: 1.8rem;
-              line-height: 28px;
-              margin-bottom: 0;
-            }
-
-            figcaption {
-              font-size: 1rem;
-              color: var(--super-green);
-              padding-top: 7px;
-              padding-bottom: 1px;
-              font-weight: 100;
             }
             .gridContainer {
               grid-template-columns: 1fr;
@@ -234,18 +181,9 @@ export default function Kurse_TrainerTeam(props) {
               margin-inline-start: 5px;
               margin-inline-end: 25px;
             }
-            .fsTrainer figure p {
-              line-height: 10px;
-              font-size: 0.8rem;
-            }
 
           }
-          @media (max-width: 375px) {
-            .fsTrainer h2 {
-              font-size: 1.4rem;
-              line-height: 20px;
-            }
-          }
+
         `}
             </style>
         </section>

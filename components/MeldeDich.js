@@ -23,7 +23,7 @@ const MeldeDich = () => {
           padding: 9em 4em 6em;
         }
         h1 {
-          max-width: 80%;
+          width: 80%;
           margin-bottom: 3rem;
         }
 
@@ -90,7 +90,7 @@ const MeldeDich = () => {
           background: transparent;
           border: 1px solid var(--super-green);
           text-decoration: none;
-          color: #fff;
+          color: var(--super-white);
           justify-self: center;
           display: inline-block;
           min-width: 23em;
@@ -102,25 +102,20 @@ const MeldeDich = () => {
         }
         @media (max-width: 768px) {
           h1 {
-            font-size: 2rem;
+            width: 100%;
           }
         }
         @media (max-width: 468px) {
           a {
             font-weight: 400;
             font-size: 1.2em;
-            min-width: 15em;
           }
           .buttons {
             flex-direction: column;
             align-items: center;
           }
         }
-        @media (max-width: 425px) {
-          h1 {
-            font-size: 2rem;
-          }
-        }
+
       `}</style>
     </div>
   );

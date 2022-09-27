@@ -424,6 +424,7 @@ class Layout extends Component {
                 width: 70% !important;
               }
             }
+          }
           `}
         </style>
       </div>

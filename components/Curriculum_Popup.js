@@ -42,7 +42,6 @@ const Typeform = (props) => {
       </Popup>
       <style jsx>{`
         .button {
-            // width: 15%;
             width: ${props.width};
             font-size: 0.875em;
             background: transparent;
@@ -63,19 +62,15 @@ const Typeform = (props) => {
         }
 
         #curriculum-popup {
-          background: #070021;
-          color: #fff;
+          background: var(--super-blue);
+          color: var(--super-white);
           width: calc(100vw / 12 * 8);
           padding: 40px;
           border: 1px solid var(--super-green);
           position: fixed;
-          // transform: 
-          //   window.screen.width <= 1300 ? '' : 'translate(-50%, -50%)'
-          // };
           left: 50%;
           top: 7%;
           width: 500px;
-          // max-height: 70vh;
           color: var(--super-green);
           z-index: 9999;
         }
@@ -134,7 +129,7 @@ const Typeform = (props) => {
           font-family: 'Neue_Machina_Regular_400';
           font-size: 2.5em;
           line-height: 1.2em;
-          color: #fff;
+          color: var(--super-white);
           margin: 0 0 5vh;
 
           font-weight: 900;
@@ -143,7 +138,7 @@ const Typeform = (props) => {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: var(--super-white);
           font-weight: 300;
         }
         .one-line {
@@ -164,8 +159,6 @@ const Typeform = (props) => {
         }
         @media (max-width: 768px) {
           #curriculum-popup {
-            // left: 50%;
-            // top: 50%;
             left: ${(document.documentElement.clientWidth - 500) / 2}px;
             width: 400px;
           }
@@ -175,11 +168,7 @@ const Typeform = (props) => {
           .button {
             font-size: 1.1em;
           }
-          // .curriculum-popup-content {
-          //   grid-template-columns: 1fr;
-          // }
 
-       
         }
         @media (max-width: 620px) {
           #curriculum-popup {
@@ -211,8 +200,6 @@ const Typeform = (props) => {
           }
           .button {
             font-size: 1.2em;
-            width: 16em;
-            min-width: 0;
           }
         }
         @media (max-width: 425px) {
@@ -220,13 +207,9 @@ const Typeform = (props) => {
             width: 100%;
           }
         }
-        @media (max-width: 400px) {
+
         }
-    
-        }
-        @media (max-height: ${
-          document.documentElement.clientHeight * 0.15 + 600
-        }px) {
+        @media (max-height: ${document.documentElement.clientHeight * 0.15 + 600}px) {
           .one-line {
             display: block;
           }
@@ -234,26 +217,13 @@ const Typeform = (props) => {
             display: none;
           }
           h1 {
-            font-family: 'Neue_Machina_Regular_400';
             font-size: 2em;
           }
         }
-        @media (min-width: ${
-          document.documentElement.clientHeight / 2
-        }px) and (max-height: ${
-        document.documentElement.clientHeight * 0.15 + 600
-      }px) {
+        @media (min-width: ${document.documentElement.clientHeight / 2}px) and (max-height: ${document.documentElement.clientHeight * 0.15 + 600}px) {
           #curriculum-popup {
-            width: ${
-              document.documentElement.clientWidth -
-              2 * (document.documentElement.clientWidth / 10)
-            }px;
-            left: ${
-              (document.documentElement.clientWidth -
-                (document.documentElement.clientWidth -
-                  2 * (document.documentElement.clientWidth / 10))) /
-              2
-            }px;
+            width: ${document.documentElement.clientWidth - 2 * (document.documentElement.clientWidth / 10)}px;
+            left: ${(document.documentElement.clientWidth - (document.documentElement.clientWidth - 2 * (document.documentElement.clientWidth / 10))) / 2}px;
           }
         }
       `}</style>

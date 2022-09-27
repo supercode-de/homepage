@@ -64,6 +64,9 @@ const Bootcamps = (props) => {
               width: 80%;
               align-self: center;
             }
+            .headlines{
+              margin-bottom: 20px;
+            }
           }
           @media (max-width: 768px) {
             .cards {

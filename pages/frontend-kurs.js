@@ -30,7 +30,7 @@ export default function FrontendKurse() {
           />
           <Kurse_Tagesablauf kurs="code" dauer="drei" welt="Codens" />
           <Bildungsberatung />
-          <Kurse_FooterCTA />
+          <Kurse_FooterCTA color="var(--super-white)"/>
         </div>
       </Layout>
     );

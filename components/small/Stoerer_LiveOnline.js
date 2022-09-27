@@ -17,7 +17,7 @@ const Stoerer_LiveOnline = (props) => {
                     justify-content: center;
                     align-items: center;
                     gap: 20px;
-                    padding: 2% 2.5%;
+                    padding: 1% 2%;
                     border-radius: 50px;
                 }
                 .redDot {

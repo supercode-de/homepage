@@ -482,7 +482,6 @@ const Kurse_FS_Praxis = () => {
             font-weight: 300;
           }
           .colorHeader4 {
-            // color: var(--super-lila);
             font-size: 3rem;
             margin-bottom: 0;
             color: transparent;
@@ -490,20 +489,6 @@ const Kurse_FS_Praxis = () => {
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: var(--super-black);
             font-weight: 300;
-          }
-
-          #__heading {
-            background: '#fff';
-          }
-          #__item {
-            background: '#fff';
-          }
-          //=============
-          .container,
-          .container2 {
-            width: 100%;
-            max-width: 768px;
-            margin: auto;
           }
 
           .accordion,
@@ -536,7 +521,7 @@ const Kurse_FS_Praxis = () => {
             height: 180px;
             opacity: 1;
           }
-          //===============================
+
           @media (max-width: 768px) {
 
             .fsPraxis h2 {
@@ -555,14 +540,12 @@ const Kurse_FS_Praxis = () => {
               margin: 0;
             }
             .praxisInfos p {
-
               padding: 0;
               width: 90%;
               margin: auto;
             }
 
             .plus-skills-infos p {
-
               padding: 0;
               width: 85%;
             }
@@ -573,11 +556,7 @@ const Kurse_FS_Praxis = () => {
             .mobile-section article div:nth-of-type(1) {
               margin-right: 30px;
             }
-            .buttons {
-              display: flex;
-              justify-content: flex-end;
-              width: 100%;
-            }
+
             .neugierCTA {
               display: block;
               margin-top: 100px;
@@ -585,7 +564,6 @@ const Kurse_FS_Praxis = () => {
 
             .fsPraxis .neugierCTA_txt {
               font-size: 2rem;
-              line-height: 28px;
               margin-bottom: 50px;
             }
           }
@@ -598,7 +576,7 @@ const Kurse_FS_Praxis = () => {
               color: transparent;
               letter-spacing: 2px;
               -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: #03000f;
+              -webkit-text-stroke-color: var(--super-black);
               font-weight: 300;
             }
           }
@@ -616,24 +594,15 @@ const Kurse_FS_Praxis = () => {
               margin-top: 60px;
               margin-bottom: 30px;
             }
+          }
+          @media (max-width: 425px) {
             .buttons {
-              display: flex;
-              justify-content: space-between;
-              width: 90%;
-              padding-right: 0%;
-              padding-left: 7%;
+              display: block;
+              width: 80%;
+              margin: 0 auto;
             }
           }
-          @media (max-width: 375px) {
 
-            .buttons {
-              display: flex;
-              justify-content: flex-end;
-              width: 100%;
-              padding-right: 2.5%;
-              padding-left: 3.7%;
-            }
-          }
         `}
       </style>
     </section>

@@ -29,6 +29,11 @@ const MarqueeAlumni = () => {
                     .marquee-container .overlay {
                         --gradient-width: 70px;
                     }
+                    img {
+                        height: 40px;
+                        margin-right: 50px;
+                    } 
+                    
                 }
             `}</style>
         </section>

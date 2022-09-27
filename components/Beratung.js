@@ -169,6 +169,8 @@ const Beratung = (props) => {
               font-size: 1.2em;
               width: 16em;
               width: ${props.buttonWidth};
+              min-width: 100%;
+              margin: 0 auto;
             }
           }
           @media (max-width: 400px) {
@@ -180,6 +182,7 @@ const Beratung = (props) => {
               width: 350px;
             }
           }
+
           @media (max-width: 350px) {
             .jetzt-anmelden-container {
               padding: 12% 5%;

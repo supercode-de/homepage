@@ -12,8 +12,7 @@ const Zukunft = (props) => {
             Zukunft.
           </p>
           <p>
-            Teste dich, uns und deine Skills in einem unserer kostenlosen
-            <a href="/workshops" target="_blank"> Workshops!</a>
+            Teste dich, uns und deine Skills in einem unserer kostenlosen <a href="/workshops" target="_blank">Workshops!</a>
           </p>
         </div>
         <div>

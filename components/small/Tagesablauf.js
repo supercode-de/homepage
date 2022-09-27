@@ -68,14 +68,14 @@ const Tagesablauf = (props) => {
             <style jsx>{`
                 h3 {
                     font-family: "Neue_Machina_Ultrabold";
-                    font-size: 25px;
+                    font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
                 }
                 .tagesablauf-wrapper {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    width: 45%;
-                    margin: 150px auto;
+                    width: 55%;
+                    margin: 15% auto;
                 }
                 .tagesablauf {
                     color: var(--super-white);
@@ -90,9 +90,7 @@ const Tagesablauf = (props) => {
                 }
                 .tagesablauf-body {
                     border-top: 5px solid var(--super-green);
-                    padding-top: 52px;
-                    padding-left: 26px;
-                    padding-right: 26px;
+                    padding: 5.2% 7.6% 0;
                 }
                 .flexContainer {
                     display: flex;
@@ -106,6 +104,11 @@ const Tagesablauf = (props) => {
                 @media (max-width: 768px) {
                     .tagesablauf-wrapper {
                         width: 80%;
+                    }
+                }
+                @media (max-width: 375px) {
+                    .tagesablauf-header img {
+                        width: 30%;
                     }
                 }
             `}</style>

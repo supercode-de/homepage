@@ -102,12 +102,8 @@ const Beratung_flexible = (props) => {
             letter-spacing: -1.5px;
           }
           .jetzt-anmelden-left p {
-            font-size: 1.1em;
-            line-height: 1.08;
-            font-weight: 400;
             letter-spacing: 2px;
             margin-bottom: 14px;
-            line-height: 24px;
           }
           span {
             letter-spacing: 3px;
@@ -128,7 +124,6 @@ const Beratung_flexible = (props) => {
             // position: relative;
             justify-self: center;
             display: inline-block;
-            min-width: ${props.buttonMinWidth};
             width: ${props.buttonWidth};
             margin: 0 15px;
           }
@@ -186,9 +181,13 @@ const Beratung_flexible = (props) => {
           @media (max-width: 468px) {
             .button {
               font-size: 1.2em;
-              width: 16em;
               width: ${props.buttonWidth};
-              min-width: 0;
+              width: 100%;
+            }
+          }
+          @media (max-width: 425px) {
+            .button {
+              margin: 0 ;
             }
           }
           @media (max-width: 400px) {

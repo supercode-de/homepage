@@ -10,12 +10,6 @@ const Kurse_HeaderCTA = (props) => {
                     <h3>– Tägliches Training</h3>
                     <h3>
                         – 2 Trainer*innen
-                        {window.screen.width <= 387 ? (
-                            <>
-                                {' '}
-                                <br /> &nbsp;&nbsp; &nbsp;
-                            </>
-                        ) : null}
                         <span className='after-span'> jeden Tag</span>
                     </h3>
                 </section>
@@ -45,9 +39,8 @@ const Kurse_HeaderCTA = (props) => {
         }
 
         section h3 {
-          font-weight: 300;
+          font-size: clamp(1rem, 0.675rem + 1.625vw, 2.625rem);
           margin-bottom: 1rem;
-          font-size: 2.6rem;
         }
         .super,
         .circle,
@@ -102,14 +95,11 @@ const Kurse_HeaderCTA = (props) => {
           align-items: center;
           width: 90%;
           padding-top: 30px;
-          // align-items: end;
         }
 
         .jetzt-bewerben h4 {
           width: 130%;
           font-size: 2.6rem;
-          // position: relative;
-          // top: 50px;
         }
         .btn {
           display: inline-block;
@@ -130,9 +120,9 @@ const Kurse_HeaderCTA = (props) => {
         }
 
         @media (max-width: 1440px) {
-          h3 {
-            font-size: 2.8rem;
-          }
+          // h3 {
+          //   font-size: 2.8rem;
+          // }
 
           .jetzt-bewerben h4 {
             font-size: 2.6rem;
@@ -147,9 +137,6 @@ const Kurse_HeaderCTA = (props) => {
           }
         }
         @media (max-width: 1024px) {
-          section h3 {
-            font-size: 1.8rem;
-          }
           .jetzt-bewerben h4 {
             font-size: 1.4rem;
             top: 60px;
@@ -167,9 +154,6 @@ const Kurse_HeaderCTA = (props) => {
         }
 
         @media (max-width: 880px) {
-          section h3 {
-            font-size: 1.5rem;
-          }
           .headerFlex section:first-child .after-span {
             background: url('/img/vector127.svg') -10px 20px / contain no-repeat;
           }
@@ -205,18 +189,16 @@ const Kurse_HeaderCTA = (props) => {
             bottom: -0.2em;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') -9px 16px / contain no-repeat;
+            background: url('/img/vector127.svg') -9px 20px / contain no-repeat;
           }
           h2 span.circle::after {
             right: -22px;
           }
         }
         @media (max-width: 655px) {
-
           .jetzt-bewerben h4 {
             font-size: 1rem;
           }
-
         }
         @media (max-width: 575px) {
 
@@ -285,14 +267,15 @@ const Kurse_HeaderCTA = (props) => {
             padding: 2rem 6%;
           }
           .headerFlex {
-            display: flex;
+            display: block;
+            padding-left: 5%;
           }
           h3 {
             font-size: 0.75rem;
             margin: 4px 0;
           }
           .headerFlex section:first-child .after-span {
-            background: url('/img/vector127.svg') -10px 11px / contain no-repeat;
+            background: url('/img/vector127.svg') -3px 21px / contain no-repeat;
           }
           h3 span.bling::before,
           h3 span.bling2::after {
@@ -311,7 +294,7 @@ const Kurse_HeaderCTA = (props) => {
             display: block;
             height: 1.3rem;
             width: 0.8rem;
-            bottom: -0.3em;
+            bottom: .1em;
           }
           h3 span.bling {
             padding-left: 0.4rem;
@@ -334,29 +317,11 @@ const Kurse_HeaderCTA = (props) => {
           #header-call {
             padding: 2rem 3%;
           }
-          section {
-            width: 50%;
-          }
-          section:nth-of-type(2) {
-            padding-left: 3%;
-          }
-          section h3 {
-            font-size: 13px;
-            font-family: 'Neue_Machina_Light';
-            letter-spacing: 0.003px;
-            width: 100%;
-          }
           article .jetzt-bewerben {
             padding-top: -30px;
           }
         }
         @media (max-width: 360px) {
-          section:nth-of-type(2) {
-            padding-left: 8%;
-          }
-          section h3 {
-            font-size: 11px;
-          }
           .jetzt-bewerben h4 {
             top: 12px;
             font-size: 0.7rem;
