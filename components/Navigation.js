@@ -14,8 +14,7 @@ class Navigation extends Component {
     };
 
     this.handleClickOutside = this.handleClickOutside.bind(this);
-    this.handleClickOutsideWorkshops =
-      this.handleClickOutsideWorkshops.bind(this);
+    this.handleClickOutsideWorkshops = this.handleClickOutsideWorkshops.bind(this);
     this.handleDropdown = this.handleDropdown.bind(this);
     this.handleDropdownWorkshops = this.handleDropdownWorkshops.bind(this);
   }

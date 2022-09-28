@@ -104,7 +104,7 @@ class Layout extends Component {
             }
             @font-face {
               font-family: "FiraSans-Regular";
-              src: url('/FiraSans-Regular.otf')
+              src: url('/FiraSans-Regular.ttf')
             }
             * {
               padding: 0;
