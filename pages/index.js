@@ -16,7 +16,6 @@ import kurseData from '../components/data/kursedata.json';
 
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
-import Head from 'next/head';
 const Index_Blog = dynamic(() => import('../components/Index_Blog'))
 
 export default function Home(props) {
