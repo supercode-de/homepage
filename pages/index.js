@@ -16,6 +16,7 @@ import kurseData from '../components/data/kursedata.json';
 
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
+import head from 'next/head';
 const Index_Blog = dynamic(() => import('../components/Index_Blog'))
 
 export default function Home(props) {
@@ -26,6 +27,9 @@ export default function Home(props) {
     });
     return (
       <Layout banner={true}>
+        <Head>
+          <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
+        </Head>
         <div className='container'>
           <main>
             <Index_Header />
@@ -51,7 +55,7 @@ export default function Home(props) {
               {inView && <Index_Blog />}
             </div>
             <FAQ />
-            <Index_FooterCTA/>
+            <Index_FooterCTA />
             {/* <Cookies /> */}
           </main>
           <style jsx>{``}</style>

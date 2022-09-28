@@ -31,7 +31,7 @@ class Layout extends Component {
     return (
       <div id='super-layout'>
         <Head>
-          <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
+          {/* <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script> */}
           <meta
             property='og:image:secure'
             content='https://www.super-code.de/img/page-preview.jpg'
@@ -53,10 +53,7 @@ class Layout extends Component {
         </Head>
         <Pixel name='FACEBOOK_PIXEL_1' />
         {this.props.banner ? <Banner /> : <Banner />}
-        {this.props.oneComponent ? (
-          ''
-        ) : (
-          <Navigation
+        <Navigation
             navstroke={this.props.navstroke}
             dropdownColor={this.props.dropdownColor}
             toggleJetztAnmelden={this.toggleJetztAnmelden}
@@ -64,15 +61,10 @@ class Layout extends Component {
             toggleNavigationMobile={this.toggleNavigationMobile}
             isHiddenMobile={this.state.isHiddenMobile}
           />
-        )}
-        {this.props.oneComponent ? (
-          ''
-        ) : (
-          <JetztAnmelden
+        <JetztAnmelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}
           />
-        )}
 
         {this.props.oneComponent ? (
           ''
