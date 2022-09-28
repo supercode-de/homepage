@@ -53,7 +53,10 @@ class Layout extends Component {
         </Head>
         <Pixel name='FACEBOOK_PIXEL_1' />
         {this.props.banner ? <Banner /> : <Banner />}
-        <Navigation
+        {this.props.oneComponent ? (
+          ''
+        ) : (
+          <Navigation
             navstroke={this.props.navstroke}
             dropdownColor={this.props.dropdownColor}
             toggleJetztAnmelden={this.toggleJetztAnmelden}
@@ -61,10 +64,15 @@ class Layout extends Component {
             toggleNavigationMobile={this.toggleNavigationMobile}
             isHiddenMobile={this.state.isHiddenMobile}
           />
-        <JetztAnmelden
+        )}
+        {this.props.oneComponent ? (
+          ''
+        ) : (
+          <JetztAnmelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}
           />
+        )}
 
         {this.props.oneComponent ? (
           ''
