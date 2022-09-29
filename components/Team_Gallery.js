@@ -135,9 +135,7 @@ const Team_Gallery = (props) => {
         .info-text p:nth-of-type(1) {
           margin-bottom: 20px;
         }
-        .info-img {
-          width: 100%;
-        }
+        .info-img,
         .info-img img {
           width: 100%;
         }
@@ -211,9 +209,6 @@ const Team_Gallery = (props) => {
           width: 100%;
         }
 
-        .carousel-article-container div p {
-          font-size: 1.8em;
-        }
         .carousel-article-container div h2 {
           font-size: 2em;
         }
@@ -233,9 +228,6 @@ const Team_Gallery = (props) => {
           }
           .info-text h1 {
             font-size: 4em;
-          }
-          .info-text p {
-            font-size: 1.8em;
           }
 
           .info-img {

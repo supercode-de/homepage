@@ -33,12 +33,10 @@ const Team_Header = () => {
 
           .header-images-grid {
             position: relative;
+            bottom: -70px;
             display: grid;
             grid-template-columns: repeat(24, 1fr);
-
-            gap: 2vw 2vw;
-            padding: 100px 0 0;
-            margin-bottom: -3vw;
+            gap: 2vw;
             z-index: 2;
             box-sizing: border-box;
           }
@@ -88,6 +86,11 @@ const Team_Header = () => {
           .img7 {
             grid-column: 18/24;
             grid-row: 2/4;
+          }
+          @media (max-width: 768px) {
+            .header-images-grid {
+              padding-bottom: min(6vh, 100px);
+            }
           }
         `}
       </style>

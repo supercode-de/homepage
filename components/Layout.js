@@ -31,7 +31,7 @@ class Layout extends Component {
     return (
       <div id='super-layout'>
         <Head>
-          <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
+          {/* <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script> */}
           <meta
             property='og:image:secure'
             content='https://www.super-code.de/img/page-preview.jpg'
@@ -104,13 +104,14 @@ class Layout extends Component {
             }
             @font-face {
               font-family: "FiraSans-Regular";
-              src: url('/FiraSans-Regular.otf')
+              src: url('/FiraSans-Regular.ttf')
             }
             * {
               padding: 0;
               margin: 0;
               box-sizing: border-box;
               font-family: 'Neue_Machina_Regular_400', sans-serif;
+              line-height: 115%;
             }
             :root {
               --super-green: #3dd7ac;
@@ -153,16 +154,15 @@ class Layout extends Component {
 
             h1,
             h2 {
-              font-size: 5rem;
-              line-height: 1.1em;
+              // font-size: 5rem;
+              font-size: clamp(1.5625rem, 0.875rem + 3.4375vw, 5rem);
             }
             h3 {
               font-size: 1.2rem;
             }
             p {
-              font-size: 1.563rem;
-              // text-align: left;
-              line-height: 115%;
+              // font-size: 1.563rem;
+              font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
             }
             .super-code {
               position: absolute;
@@ -176,8 +176,8 @@ class Layout extends Component {
               border-radius: 5rem; 
             }
 
-            img:not(#tagesablauf, .menu-button, #arrow-img img, .start-termin img, .text1, .text2, .text3, .text4, .text5) {
-              border-radius: 50px;
+            img:not(#tagesablauf, .menu-button, #arrow-img img, .start-termin img, .text1, .text2, .text3, .text4, .text5, .accordion-visible img, .marqueeLogos) {
+              border-radius: clamp(1.5625rem, 1.25rem + 1.5625vw, 3.125rem);
             }
 
             // styling accordion auf team seite für stellenausschreibungen
@@ -210,7 +210,7 @@ class Layout extends Component {
               background: var(--super-blau);
             }
             .accordion__heading {
-              color: #fff;
+              color: var(--super-white);
               font-size: 1.875rem;
             }
 
@@ -226,11 +226,26 @@ class Layout extends Component {
             }
 
             // media queries für die accordion Styles
-            @media (max-width: 320px) {
+            @media (max-width: 425px) {
+              .accordion__item {
+                border-radius: 40px;
+                margin-bottom: 0;
+              }
               .accordion__heading {
                 padding: 1.125rem;
+              }
+              .accordion__panel {
+                padding: 0 1rem 2rem;
+              }
+              .stellen-cta a {
+                width: 100%;
+              }
+            }
+            @media (max-width: 320px) {
+              .accordion__heading {
                 font-size: 1.2rem;
               }
+
             }
 
             // FAQ STYLES START
@@ -366,6 +381,7 @@ class Layout extends Component {
                 width: 70% !important;
               }
             }
+          }
           `}
         </style>
       </div>

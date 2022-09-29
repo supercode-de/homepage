@@ -87,7 +87,6 @@ const Footer = () => {
           #footer {
             background: var(--super-black);
             color: var(--super-white);
-            font-weight: 200;
             display: flex;
             justify-content: center;
           }
@@ -103,8 +102,10 @@ const Footer = () => {
             display: flex;
             align-items: center;
           }
-          #supercodeLogo2022 {
-            width: 150px;
+          .copyright .logo {
+            color: var(--super-white);
+            font-size: 1.3rem;
+
           }
           .copyright .copy {
             color: var(--super-green);
@@ -135,12 +136,9 @@ const Footer = () => {
             display: flex;
             align-items: center;
             justify-content: space-around;
-            font-family: "Neue_Machina_Regular_400";
             text-transform: uppercase;
             font-size: 0.7em;
             letter-spacing: 2px;
-            // -webkit-text-stroke-width: 0.5px;
-            // -webkit-text-stroke-color: #ffffff;
             margin: 1em 0;
           }
 
@@ -162,18 +160,22 @@ const Footer = () => {
           .site-info a:active {
             color: var(--super-lila);
           }
+
           .white {
             color: var(--super-white);
-            font-weight: bold;
             font-size: 1.2em;
           }
-
           @media (max-width: 568px) {
             .footer-grid {
               grid-template-columns: 1fr;
             }
             .copyright {
               justify-content: center;
+            }
+          }
+          @media (max-width: 425px) {
+            #footer {
+              padding-top: 2%;
             }
           }
         `}

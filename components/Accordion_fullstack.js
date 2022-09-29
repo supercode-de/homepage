@@ -137,13 +137,11 @@ export default function Accordion() {
             display: flex;
             justify-content: space-between;
             align-items: center;
-            // padding: 7px 15px;
             border-top-left-radius: 3px;
             border-top-right-radius: 3px;
           }
           .unwrap {
             border: none;
-            // padding: 0;
             padding-right: 4.5%;
           }
           .bar1 {
@@ -194,10 +192,6 @@ export default function Accordion() {
             width: 55%;
           }
 
-          // #getIn {
-          //   transform: rotate(0deg);
-          //   width: 50%;
-          // }
           #gestaltung {
             transform: rotate(0deg);
             width: 30%;
@@ -241,6 +235,22 @@ export default function Accordion() {
               width: 30%;
               position: relative;
               left: 48%;
+            }
+          }
+          @media (max-width: 320px) {
+            #verstehen {
+              width: 40%;
+              left: 43%;
+            }
+            #gestaltung {
+              width: 60%;
+              left: 14%;
+            }
+            #green__arrow {
+              width: 75%;
+            }
+            #green__arrow2 {
+              width: 65%;
             }
           }
         `}

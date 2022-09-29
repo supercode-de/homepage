@@ -85,7 +85,6 @@ const WS_AVGS = () => {
           height: 100%;
         }
         h2 {
-          font-size: 3em;
           letter-spacing: 2px;
           color: var(--super-lila);
           font-weight: 300;
@@ -104,14 +103,12 @@ const WS_AVGS = () => {
         }
         .info-headline h3 {
           color: var(--super-lila);
-          font-size: 1.5em;
+          font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
           font-weight: 300;
           margin-bottom: 1px;
         }
         .info-text p {
           color: var(--super-green);
-          font-size: 1.2em;
-          font-weight: 500;
         }
 
         @media (min-width: 937px) {

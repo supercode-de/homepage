@@ -24,6 +24,17 @@
         "published": true
       },
       {
+        "headline": "UX/UI-\nDesign",
+        "headlineID": "uxui-des",
+        "umfang": "Vollzeit | 18 Wochen",
+        "start": "Start: 28.02.2022 Ende: 03.06.2022",
+        "copy": "Teilnahme kostenlos möglich mit einem Bildunggutschein.",
+        "hubspotFormID": "9436fb4b-eec5-4783-a8ab-cbd987650f6e",
+        "typeformFormularID": "VTxBX6b2",
+        "href": "/kurse/ux-ui-kurs",
+        "published": true
+      },
+      {
         "headline": "Back-End\nDevelopment",
         "headlineID": "backend-dev",
         "umfang": "Vollzeit | 9 Wochen",
@@ -32,17 +43,6 @@
         "hubspotFormID": "895ca711-4e8d-4301-8c40-caf5a62faea7",
         "typeformFormularID": "L6u0np35",
         "href": "/kurse/backend",
-        "published": false
-      },
-      {
-        "headline": "UX/UI-\nDesign",
-        "headlineID": "uxui-des",
-        "umfang": "Vollzeit | 18 Wochen",
-        "start": "Start: 28.02.2022 Ende: 03.06.2022",
-        "copy": "Teilnahme kostenlos möglich mit einem Bildunggutschein.",
-        "hubspotFormID": "7d93ef6f-2b1c-4b2c-9a33-940a7a15ea56",
-        "typeformFormularID": "VTxBX6b2",
-        "href": "/kurse/uxui",
         "published": false
       },
       {

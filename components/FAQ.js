@@ -26,7 +26,8 @@ const FAQ = (props) => {
             background: var(--super-black);
           }
           h2 {
-            margin-bottom: 50px;
+            margin-top: 5%;
+            margin-bottom: 5%;
             margin-left: -2%;
             display: block;
             color: transparent;
@@ -40,6 +41,15 @@ const FAQ = (props) => {
             grid-gap: 0 5%;
           }
 
+          .aside {
+            position: absolute;
+            transform: rotate(-90deg);
+            transform-origin: left;
+            left: 2em;
+            top: 50%;
+            color: var(--super-white);
+          }
+
           @media (max-width: 768px) {
             #faq {
               padding: 10px calc(100vw / 12) 50px;
@@ -48,8 +58,15 @@ const FAQ = (props) => {
               display: block;
               padding: 10px;
             }
+            .aside {
+              display: none;
+            }
           }
-
+          @media (max-width: 425px) {
+            h2 {
+              font-size: 3rem;
+            }
+          }
         `}</style>
     </div>
   );

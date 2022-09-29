@@ -347,36 +347,18 @@ const Kurse_FE_Praxis = () => {
             margin-right: 5%;
             width: 50%;
             position: relative;
-            /*right: 50px;*/
           }
-
-          //=========================
 
           .fsPraxis .neugierCTA_txt {
             font-family: 'Neue_Machina_Light';
-            /*color: #989898;*/
-            font-size: 3.3rem;
+            font-size: 5rem;
             width: 80%;
-            color: #121e28;
-            margin-top: 125px;
-            margin-bottom: 30px;
+            color: var(--super-black);
             padding-left: 5%;
-            line-height: 50px;
-            font-weight:200;
-          }
-
-          h2 {
-            font-size: 4rem;
-            font-family: 'Neue_Machina_Light';
-            color: #03000f;
-            margin: 0;
-            line-height: 50px;
           }
 
           p {
             color: var(--super-blau);
-            font-size: 1.563rem;
-            font-weight: 300;
           }
           .praxisInfos,
           .plus-skills-infos {
@@ -396,6 +378,8 @@ const Kurse_FE_Praxis = () => {
           .neugierCTA {
             display: block;
             position: relative;
+            margin-top: 160px;
+            margin-bottom: 105px;
           }
 
           .buttons {
@@ -416,18 +400,6 @@ const Kurse_FE_Praxis = () => {
             
             transform: scale(1.1, 0.6);
             display: block;
-          }
-
-          @media (max-width: 1040px) {
-            .fsPraxis p {
-              font-size: 1.2rem;
-              font-weight: 300;
-            }
-            h2 {
-              font-size: 4rem;
-            }
-            .letterstroke {
-            }
           }
 
           .mobile-section {
@@ -481,21 +453,6 @@ const Kurse_FE_Praxis = () => {
             -webkit-text-stroke-color: var(--super-lila);
             font-weight: 300;
           }
-
-          #__heading {
-            background: '#fff';
-          }
-          #__item {
-            background: '#fff';
-          }
-          //=============
-          .container,
-          .container2 {
-            width: 100%;
-            max-width: 768px;
-            margin: auto;
-          }
-
           .accordion,
           .accordion2 {
             width: 100%;
@@ -527,13 +484,9 @@ const Kurse_FE_Praxis = () => {
             height: 180px;
             opacity: 1;
           }
-          //===============================
+
           @media (max-width: 768px) {
-            h2 {
-              font-size: 3.5rem;
-            }
             .fsPraxis h2 {
-              font-size: 3rem;
               text-align: left;
               margin-left: 5%;
             }
@@ -549,20 +502,16 @@ const Kurse_FE_Praxis = () => {
               margin: 0;
             }
             .praxisInfos p {
-              font-size: 1rem;
               padding: 0;
               width: 90%;
               margin: auto;
             }
 
             .plus-skills-infos p {
-              font-size: 1rem;
               padding: 0;
               width: 85%;
             }
-            .mobile-section article p {
-              font-size: 0.9rem;
-            }
+
             .mobile-section article h3 {
               font-size: 1rem;
             }
@@ -576,89 +525,37 @@ const Kurse_FE_Praxis = () => {
             }
             .neugierCTA {
               display: block;
-            }
-            .neugierCTA h2 {
-              font-size: 1.5rem;
-              line-height: 28px;
-              width: 80%;
-            }
-          }
-          @media (max-width: 565px) {
-            h2 {
-              font-size: 2rem;
-            }
-            .fsPraxis h2 {
-              font-family:"Neue_Machina_Ultrabold";
-              font-size: 1.8rem;
-              line-height: 20px;
+              margin-top: 100px;
             }
             .fsPraxis .neugierCTA_txt {
               font-size: 2rem;
-              line-height: 28px;
+              margin-bottom: 50px;
             }
+
+          }
+          @media (max-width: 565px) {
+
             .neugierCTA {
               display: block;
             }
-            .neugierCTA h2 {
-              font-size: 1.5rem;
-              line-height: 28px;
-              width: 80%;
-            }
+
             .letterstroke {
               color: transparent;
               letter-spacing: 2px;
               -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: #03000f;
+              -webkit-text-stroke-color: var(--super-black);
               font-weight: 300;
             }
           }
-          @media (max-width: 440px) {
-            h2 {
-              font-size: 1.7rem;
-              line-height: 20px;
-            }
-            .fsPraxis h2 {
-              font-size: 1.4rem;
-            }
-            .neugierCTA {
+
+          @media (max-width: 425px) {
+            .buttons {
               display: block;
-            }
-            .neugierCTA h2 {
-              font-size: 1rem;
               width: 80%;
-            }
-            .mobile-section article p {
-              font-size: 0.7rem;
+              margin: 0 auto;
             }
             .fsPraxis .neugierCTA_txt {
-              font-family: 'Neue_Machina_Light';
-
-              margin-top: 60px;
-              margin-bottom: 30px;
-            }
-
-            .buttons {
-              display: flex;
-              justify-content: space-between;
-              width: 90%;
-              padding-right: 0%;
-              padding-left: 7%;
-            }
-          }
-          @media (max-width: 375px) {
-            .fsPraxis h2 {
-              font-size: 1.4rem;
-            }
-            .fsPraxis .neugierCTA_txt {
-              font-size: 1.4rem;
-              line-height: 20px;
-            }
-            .buttons {
-              display: flex;
-              justify-content: flex-end;
               width: 100%;
-              padding-right: 2.5%;
-              padding-left: 3.7%;
             }
           }
         `}

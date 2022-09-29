@@ -59,7 +59,6 @@ const Newsletter = () => {
         }
 
         h2 {
-          font-size: 2.2em;
           color: var(--super-white);
         }
 

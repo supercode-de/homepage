@@ -151,22 +151,6 @@ const NavigationMobile = (props) => {
             color: var(--super-lila);
           }
 
-          .navigation-mobile-left h1 {
-            font-size: 4.3em;
-            font-style: normal;
-            font-weight: 800;
-            margin: 0;
-            line-height: 1em;
-            letter-spacing: -1.5px;
-          }
-          .navigation-mobile-left p {
-            font-size: 1.1em;
-            line-height: 1.08;
-            font-weight: 400;
-            letter-spacing: 2px;
-            margin-bottom: 14px;
-            line-height: 24px;
-          }
           .isNotHidden {
             right: 0;
           }

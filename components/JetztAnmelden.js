@@ -98,10 +98,6 @@ const JetztAnmelden = (props) => {
             letter-spacing: -1.5px;
           }
           .jetzt-anmelden-left p {
-            font-size: 1.1em;
-            line-height: 1.08;
-            font-weight: 400;
-            letter-spacing: 2px;
             margin-bottom: 14px;
             line-height: 24px;
           }
@@ -116,9 +112,6 @@ const JetztAnmelden = (props) => {
               overflow-y: scroll;
             }
 
-            .jetzt-anmelden-left h1 {
-              font-size: 3.3em;
-            }
             .jetzt-anmelden-container {
               padding: 5% 10%;
               display: block;
@@ -128,8 +121,8 @@ const JetztAnmelden = (props) => {
             }
 
             .jetzt-anmelden-close {
-              top: 60px;
-              right: 20px;
+              top: 30px;
+              right: 30px;
               cursor: pointer;
               position: absolute;
               box-shadow: none;
@@ -149,9 +142,6 @@ const JetztAnmelden = (props) => {
           }
 
           @media screen and (max-width: 568px) {
-            .jetzt-anmelden-left h1 {
-              font-size: 2.3em;
-            }
             .jetzt-anmelden-container {
               padding: 10% 10%;
               display: block;

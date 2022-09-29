@@ -52,14 +52,6 @@ const Bootcamps = (props) => {
             font-family: 'Neue_Machina_Ultrabold';
           }
 
-          @media (max-width: 1440px) {
-            h2 {
-              font-size: 4rem;
-            }
-            .bootcampInfos div p {
-              font-size: 20px;
-            }
-          }
           @media (max-width: 1024px) {
             .cards {
               grid-template-columns: repeat(2, 1fr);
@@ -71,6 +63,9 @@ const Bootcamps = (props) => {
             .copy {
               width: 80%;
               align-self: center;
+            }
+            .headlines{
+              margin-bottom: 20px;
             }
           }
           @media (max-width: 768px) {
@@ -88,22 +83,14 @@ const Bootcamps = (props) => {
               grid-template-columns: 1fr;
             }
           }
-          @media (max-width: 425px) {
-            h2 {
-              font-size: 3.2rem;
-            }
-          }
+
           @media (max-width: 540px) {
             .cards {
               margin: 0 auto;
               width: 90%;
             }
           }
-          @media (max-width: 375px) {
-            h2 {
-              font-size: 2.8rem;
-            }
-          }
+
         `}
       </style>
     </section>

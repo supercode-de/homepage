@@ -54,6 +54,9 @@ const KurseCard = (props) => {
           .text {
             margin-bottom: 35px;
           }
+          .text p:nth-of-type(1) {
+            margin-bottom: 2%;
+          }
           .kurseCard:hover {
             background: var(--super-blau);
           }
@@ -85,10 +88,6 @@ const KurseCard = (props) => {
             margin: 0;
             padding: 0;
           }
-          p {
-            font-size: 18px;
-            line-height: 30px;
-          }
 
           @media (max-width: 1440px) {
             h5 {
@@ -105,9 +104,7 @@ const KurseCard = (props) => {
             h5 {
               font-size: 1.6rem;
             }
-            p {
-              font-size: 14.7px;
-            }
+
           }
           @media (max-width: 425px) {
             .kurseCard {
@@ -128,6 +125,9 @@ const KurseCard = (props) => {
             }
           }
           @media (max-width: 320px) {
+            .kurseCard {
+              padding-bottom: 50px;
+            }
           }
         `}
       </style>

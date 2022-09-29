@@ -49,12 +49,12 @@ const Finanzierung = (props) => {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 40px;
-            margin-top: 100px;
+            margin-top: 10%;
           }
           .info-headline h3 {
             color: var(--super-lila);
             font-size: 2em;
-            margin-bottom: 36px;
+            margin-bottom: 3%;
           }
           .info-headline p {
             color: var(--super-green); 
@@ -73,9 +73,6 @@ const Finanzierung = (props) => {
               grid-template-columns: repeat(1, 1fr);
               gap: 20px;
             }
-            p {
-              font-size: 1.5em;
-            }
           }
 
           @media (max-width: 768px) {
@@ -83,9 +80,6 @@ const Finanzierung = (props) => {
               display: grid;
               grid-template-columns: repeat(1, 1fr);
               gap: 20px;
-            }
-            h1 {
-              font-size: 2em;
             }
           }
         `}

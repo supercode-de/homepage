@@ -6,7 +6,7 @@ const Team_WerdeTeil = () => {
           <h2>Werde Teil unseres</h2>
           <h2 className='super-stroke'>Super-Teams!</h2>
         </div>
-        <div>
+        <div className="info-text">
           <p>
             Wir sind immer auf der Suche nach neuen, motivierten Menschen! Wir
             sind jung, dynamisch, international und haben Lust etwas zu
@@ -14,7 +14,6 @@ const Team_WerdeTeil = () => {
             umzusetzen und dadurch die Welt zu einem chancengerechteren Ort zu
             machen.
           </p>
-          <br />
           <p>
             SuperCode steht für moderne didaktische und methodische Bildung,
             eine nachhaltige und gemeinwohlorientierte Unternehmensführung,
@@ -107,10 +106,8 @@ const Team_WerdeTeil = () => {
         .info > * {
           width: 100%;
         }
-        h2,
-        h3,
-        p {
-          margin: 0;
+        .info-text p:nth-of-type(1){
+          margin-bottom: 2%;
         }
         .grid-HL {
           font-size: 2.65rem;
@@ -130,32 +127,26 @@ const Team_WerdeTeil = () => {
         }
         .super-stroke {
           color: transparent;
-          letter-spacing: 2px;
-          -webkit-text-stroke-width: 0.5px;
+          letter-spacing: 1px;
+          -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: var(--super-white);
           font-weight: 300;
           display: inline-block;
         }
         .super-green {
           color: transparent;
-          letter-spacing: 2px;
+          letter-spacing: 1px;
           -webkit-text-stroke-width: 1px;
           -webkit-text-stroke-color: var(--super-green);
           font-weight: 200;
-          // font-size: 0.7em;
-          // padding-right: 20px;
         }
-        @media (max-width: 1040px) {
-        }
+
         @media (max-width: 768px) {
           .info {
             display: block;
           }
           .info div:nth-of-type(1) {
             margin-bottom: 2rem;
-          }
-          p {
-            font-size: 2em;
           }
         }
 

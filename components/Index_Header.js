@@ -6,7 +6,7 @@ const Index_Header = () => {
   return (
     <div id='header'>
       {/* <img id="supercodeLogo2022" src="/img/supercode_logo_2022.svg" alt="supercode logo" /> */}
-      {/* <h2 className='super-code'>super(code)</h2> */}
+      <h2 className='super-code'>super(code)</h2>
       <TelefonAside />
       <div className='twocolumn'>
         <div className='onecolumn'>
@@ -47,7 +47,7 @@ const Index_Header = () => {
         alt='Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter'
       />
       <div>
-        <Typeform_neu2022 />
+        <Typeform_neu2022 typeformID="L6u0np35"/>
       </div>
       <style jsx>{`
           #header {
@@ -115,12 +115,6 @@ const Index_Header = () => {
             position: relative;
           }
           @media (max-width: 1040px) {
-            h1 {
-              font-size: 2.5em;
-            }
-            .twocolumn {
-              // margin-bottom: 40px;
-            }
             .twocolumn > img {
               width: 60%;
               align-self: center;
@@ -136,7 +130,6 @@ const Index_Header = () => {
               padding: 100px 6% 10px;
             }
             h1 {
-              font-size: 4em;
               align-self: center;
               justify-self: center;
             }
@@ -173,11 +166,7 @@ const Index_Header = () => {
               display: none;
             }
           }
-          @media (max-width: 468px) {
-            h1 {
-              font-size: 2.8em;
-            }
-          }
+
         `}
       </style>
     </div>

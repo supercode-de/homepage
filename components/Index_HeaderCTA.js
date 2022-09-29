@@ -14,7 +14,7 @@ const Index_HeaderCTA = () => {
         </span>
       </h2>
       <div className='buttons'>
-        <Typeform_neu2022 />
+        <Typeform_neu2022 typeformID="L6u0np35"/>
       </div>
       <style jsx>{`
         #header-call {
@@ -24,8 +24,6 @@ const Index_HeaderCTA = () => {
         }
         h2 {
           padding: 0 1%;
-          font-size: 80px;
-          line-height: 105px;
         }
         h2 span.super {
           color: transparent;
@@ -82,11 +80,7 @@ const Index_HeaderCTA = () => {
           justify-content: flex-end;
           align-items: center;
         }
-        @media (max-width: 1040px) {
-          h2 {
-            font-size: 3em;
-          }
-        }
+
         @media (max-width: 768px) {
           h2 span.bling::before {
             bottom: -0.1em;
@@ -96,9 +90,7 @@ const Index_HeaderCTA = () => {
           }
         }
         @media (max-width: 468px) {
-          h2 {
-            font-size: 2.1em;
-          }
+
           h2 span.bling::before {
             bottom: -0.5em;
             width: 1rem;

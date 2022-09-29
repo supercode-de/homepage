@@ -53,9 +53,7 @@ const WS_Header = (props) => {
             right: 0;
           }
           h1 {
-            font-size: 4em;
             color: var(--super-white);
-            line-height: 1.2em;
             margin: 3vh 3vw;
           }
           h1 span.super {
@@ -85,26 +83,17 @@ const WS_Header = (props) => {
 
           p {
             color: var(--super-white);
-            font-size: 1em;
-            line-height: 30px;
           }
 
-          @media (max-width: 1040px) {
-            h1 {
-              font-size: 2.5em;
-            }
-          }
           @media (max-width: 768px) {
             #header {
               padding: 80px 6% 30px;
             }
             h1 {
-              font-size: 4em;
               align-self: center;
               justify-self: center;
             }
             p {
-              font-size: 2em;
               margin-bottom: 50px;
             }
 
@@ -118,9 +107,7 @@ const WS_Header = (props) => {
             }
           }
           @media (max-width: 468px) {
-            h1 {
-              font-size: 2.8em;
-            }
+
             .content-img {
               width: 95%;
             }

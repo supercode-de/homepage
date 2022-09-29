@@ -72,7 +72,6 @@ const Blog = () => {
         h2:not(h2.super-code) {
           color: var(--super-white);
           margin: 0;
-          line-height: 67px;
         }
         .blog-hl {
           margin: 5% 6rem;
@@ -160,9 +159,10 @@ const Blog = () => {
           color: var(--super-lila);
         }
 
-        @media (max-width: 765px) {
-          h2 {
-            line-height: 30px;
+        @media (max-width: 768px) {
+          .blog-header-container {
+            width: 100%;
+            padding-top: 100px;
           }
           .blog-gallery {
             display: grid;
@@ -172,22 +172,19 @@ const Blog = () => {
             padding: 5% 0;
             row-gap: 4rem;
             column-gap: 2rem;
-            color: #fff;
+            color: var(--super-white);
           }
           .blog-hl {
             display: flex;
             flex-direction: column;
-            width: 60%;
-            // justify-content: space-between;
+            width: 80%;
           }
-          blog-hi-gallery {
-          }
+          figcaption{
+            font-size: 1rem;
+          } 
         }
         @media (max-width: 585px) {
-          h2 {
-            font-size: 2.5rem;
-            line-height: 34px;
-          }
+
           .blog-gallery {
             margin: 0 5%;
           }
@@ -203,10 +200,6 @@ const Blog = () => {
           }
         }
         @media (max-width: 475px) {
-          h2 {
-            font-size: 2.5rem;
-            line-height: 34px;
-          }
           .galleryImgs {
             display: none;
           }
@@ -223,12 +216,11 @@ const Blog = () => {
           .blog-header-container {
             width: 100%;
             margin-right: 5%;
-            padding-top: 140px;
+            padding-top: 70px;
             color: var(--super-white);
           }
           .blog-header-container p {
             padding-top: 22px;
-            font-size: 1rem;
           }
         }
       `}</style>

@@ -37,8 +37,6 @@ const Team_FooterCTA = (props) => {
           color: var(--super-lila);
           margin: 0 auto;
           padding: 4rem 6% 2rem;
-
-          font-family: "Neue_Machina_Regular_400";
         }
         
         .bewirbDich { 
@@ -133,6 +131,9 @@ const Team_FooterCTA = (props) => {
           .bewirbDich .text, .bewirbDich .ansprechperson {
             width: 100%;
           } 
+          .bewirbDich figure {
+            margin-top: 20px;
+          }
         }
         @media (max-width: 370px) {
         }

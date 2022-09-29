@@ -36,10 +36,16 @@ export default function Bildungsberatung() {
         </p>
         <p>Wir freuen uns auf dich!</p>
       </div>
-      <button className='kontakt-btn'>
-        <Beratung buttonText='KONTAKT' buttonTextColor='#fff' />
-      </button>
+      <div className="beratungsBtn">
+        <button className='kontakt-btn'>
+          <Beratung buttonText='KONTAKT' buttonTextColor='#fff' />
+        </button>
+
+      </div>
       <style jsx>{`
+          img {
+            width: 100%;
+          }
           .bildungsberatung {
             padding: 115px 0 116px 0;
             background: var(--super-black);
@@ -49,8 +55,6 @@ export default function Bildungsberatung() {
             color: var(--super-white);
             padding-left: 6%;
             margin: 0 0 50px 0;
-            font-size: 5rem;
-            line-height:74px;
           }
           h2 .stroke {
             color: transparent;
@@ -58,7 +62,6 @@ export default function Bildungsberatung() {
             -webkit-text-stroke-color: var(--super-white);
           }
 
-        }
         .circle {
           position: relative;
         }
@@ -83,7 +86,7 @@ export default function Bildungsberatung() {
           figcaption {
             color: var(--super-green);
             padding-top: 1rem;
-            font-size: 1.4rem;
+            font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
           }
           .berater-txt {
             padding: 100px 6%;
@@ -95,10 +98,8 @@ export default function Bildungsberatung() {
           .kontakt-btn{
             background:transparent;
             border:none;
-            display:block;
-        
-            position:absolute;
-            right:13%;
+            display: block;
+            margin-right: auto;
           }
           @media (max-width: 1530px) {
             .bildungs-berater {
@@ -109,73 +110,56 @@ export default function Bildungsberatung() {
           @media (max-width: 1140px) {
             .bildungs-berater {
               grid-template-columns: 1fr;
-              row-gap: 50px;
+              row-gap: 30px;
             }
           }
-          @media (max-width: 905px) {
-            h2{
-              font-size:3rem;
-            }
-          }
+
           @media (max-width: 768px) {
             h2{
-              font-size:2.4rem;
+              margin-bottom: 0;
             }
             .bildungs-berater{
-            
               padding:0 2%;
             }
             figcaption{
-              font-size:1rem;
               padding:20px 0;
             }
-            figure{
-              margin-block-start: 0;
-              margin-block-end: 0;
-              margin-inline-start: 0;
-              margin-inline-end: 0;
-            }
+
             .berater-txt p {
               margin-bottom:0;
+            }
+            .bildungs-berater {
+              margin-top: 50px;
             }
           }
           @media (max-width: 460px) {
             .bildungsberatung {
               padding: 35px 0 116px 0;
             }
-            h2{
-              font-size:1.8rem;
-              line-height:28px;
-              
-            }
-            .berater-txt p {
-              font-size:1rem;
-              line-height:18px;
-            }
+
           }
           @media (max-width: 425px) {
-            h2{
-              font-size:1.8rem;
-              line-height:20px;
-            }
             .bildungs-berater{
-            
               padding:0 2%;
             }
             figcaption{
-              font-size:1rem;
               padding:20px 0;
+            }
+            .berater-txt {
+              padding: 20px 6%;
             }
           }
   
             @media (max-width: 375px) {
-              h2{
-                font-size:1.4rem;
-              }
+
               h2 .stroke {
                 color: transparent;
                 -webkit-text-stroke-width: 0.5px;
                 -webkit-text-stroke-color: var(--super-white);
+              }
+
+              .kontakt-btn {
+                margin: 0 auto;
               }
             }
           

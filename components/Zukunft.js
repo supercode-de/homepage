@@ -2,6 +2,7 @@ const Zukunft = (props) => {
   return (
     <div id="zukunft">
       <div className="infos">
+        <div>
           <h1>
             Denkst du über deine <span>Zukunft</span> nach?
           </h1>
@@ -11,9 +12,12 @@ const Zukunft = (props) => {
             Zukunft.
           </p>
           <p>
-            Teste dich, uns und deine Skills in einem unserer kostenlosen
-            Workshops!
+            Teste dich, uns und deine Skills in einem unserer kostenlosen <a href="/workshops" target="_blank">Workshops!</a>
           </p>
+        </div>
+        <div>
+          <img src="/webp/_DSC2464_LowRes.webp" alt="Frauen Kostenlos Weiterbildung Programmieren lernen, Frauen Programmieren Lernen Fernkurs Bootcamp" />
+        </div>
       </div>
       <div className="images">
         <img
@@ -27,10 +31,6 @@ const Zukunft = (props) => {
           alt="Full Stack Developer Fernkurs Weiterbildung, Best Web Developer Coding Bootcamp"
         />
       </div>
-      <img
-        src="/webp/_DSC2336_MidRes.webp"
-        alt="Full Stack Developer Lernen Bildungsgutschein, IT Umschulung Förderung Jobcenter"
-      />
       <style jsx>{`
         #zukunft {
           color: var(--super-blau);
@@ -47,7 +47,18 @@ const Zukunft = (props) => {
           -webkit-text-stroke-color: var(--super-blau);
         }
         .infos {
-          width: 50%;
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+        .infos a {
+          color: inherit;
+        }
+        .infos a:hover {
+          color: var(--super-green);
+        }
+        .infos div:nth-of-type(1){
+          width: 55%;
         }
         .infos p:nth-of-type(1){
           margin-bottom: 34px;
@@ -55,7 +66,8 @@ const Zukunft = (props) => {
 
         .images {
           margin-top: calc(100vw / 12 * 1.2);
-          padding-bottom: calc(100vw / 12 * 2.6);
+          margin-bottom: calc(100vw / 12 * 1.2);
+          // padding-bottom: calc(100vw / 12 * 2.6);
         }
         .img-one {
           width: calc(100vw / 12 * 5);
@@ -66,13 +78,6 @@ const Zukunft = (props) => {
           margin-bottom: calc(100vw / 12  - 200px);
           transform: translateY(4vh);
         }
-        .img-three {
-          position: absolute;
-          top: calc(100vw / 12 * 6);
-          left: calc(100vw / 12);
-          width: calc(100vw / 12 * 3);
-          z-index: 1;
-        }
         .images + img {
           position: absolute;
           bottom: 0;
@@ -82,17 +87,11 @@ const Zukunft = (props) => {
           width: calc(100vw / 12 * 3);
         }
 
-        @media (max-width: 1040px) {
-          h1 {
-            font-size: 3em;
-          }
-          h3 {
-            font-size: 1.3em;
-          }
-
-        }
-
         @media (max-width: 768px) {
+          .infos,
+          .infos div:nth-of-type(1)  {
+            width: 100%;
+          }
           .images {
             padding-bottom: 50px;
           }
@@ -100,10 +99,6 @@ const Zukunft = (props) => {
           .images + img {
             display: none;
           }
-          h3 {
-            font-size: 2em;
-          }
-
           .img-two {
             margin-left: calc(100vw / 12 - 30px);
             transform: translateY(-12vh);
@@ -112,21 +107,18 @@ const Zukunft = (props) => {
 
         @media (max-width: 468px) {
           #zukunft {
-            padding-bottom: 10%;
+            padding: 10%;
+          }
+          .infos {
+            width: 100%;
           }
           h1 {
-            width: unset;
-          }
-
-          .info-one {
-            grid-column: auto;
+            width: 100%;
           }
           img {
             display: none;
           }
-          a {
-            font-size: 1.2em;
-          }
+
           .img-one {
             width: 270px;
           }

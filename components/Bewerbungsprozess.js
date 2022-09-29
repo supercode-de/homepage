@@ -125,7 +125,7 @@ class Bewerbungsprozess extends Component {
               display: block;
               color: transparent;
               font-weight: 400;
-              letter-spacing: 3px;
+              letter-spacing: 2px;
               -webkit-text-stroke-width: 1px;
               -webkit-text-stroke-color: var(--super-white);
             }
@@ -166,7 +166,7 @@ class Bewerbungsprozess extends Component {
               color: transparent;
               letter-spacing: 2px;
               -webkit-text-stroke-width: 2px;
-              -webkit-text-stroke-color: #fff;
+              -webkit-text-stroke-color: var(--super-white);
               font-weight: 300;
             }
 
@@ -175,7 +175,7 @@ class Bewerbungsprozess extends Component {
               letter-spacing: 2px;
 
               -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: #30e1b9;
+              -webkit-text-stroke-color: var(--super-green);
               font-weight: 200;
               font-size: 0.7em;
               padding-right: 20px;
@@ -185,11 +185,11 @@ class Bewerbungsprozess extends Component {
             }
             a {
               text-decoration: none;
-              color: #fff;
+              color: var(--super-white);
             }
             a:hover {
               text-decoration: line-through;
-              text-decoration-color: #30e1b9;
+              text-decoration-color: var(--super-green);
             }
             .kontakt:hover {
               cursor: pointer;
@@ -199,23 +199,16 @@ class Bewerbungsprozess extends Component {
                 font-size: 2.5em;
                 line-height: 1.2em;
               }
-              .center h2 {
-                font-size: 3.2em;
-              }
             }
             @media (max-width: 768px) {
-              .center h2 {
-                font-size: 3.5em;
-              }
               p {
-                font-size: 2em;
                 margin-bottom: 50px;
               }
               .super-stroke {
                 color: transparent;
                 letter-spacing: 2px;
                 -webkit-text-stroke-width: 1px;
-                -webkit-text-stroke-color: #fff;
+                -webkit-text-stroke-color: var(--super-white);
                 font-weight: 300;
               }
             }
@@ -227,15 +220,13 @@ class Bewerbungsprozess extends Component {
               .twocolumn {
                 grid-template-columns: 100%;
               }
-            }
-            @media (max-width: 468px) {
-              .center h2 {
-                font-size: 3em;
+              h2 {
+                margin-bottom: 20px;
               }
             }
-            @media (max-width: 370px) {
-              .center h2 {
-                font-size: 2.5em;
+            @media(max-width: 425px){
+              .aside {
+                display: none;
               }
             }
           `}

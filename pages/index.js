@@ -2,8 +2,8 @@ import Head from 'next/head';
 import Layout from '../components/Layout';
 import Index_Header from '../components/Index_Header';
 import Index_HeaderCTA from '../components/Index_HeaderCTA';
+import MarqueeAlumni from '../components/MarqueeAlumni';
 import Zukunft from '../components/Zukunft';
-import UnserCampus from '../components/UnserCampus';
 import Index_Weiterbildung from '../components/Index_Weiterbildung';
 import Bootcamps from '../components/Bootcamps';
 import CertquaBonn from '../components/CertquaBonn';
@@ -14,7 +14,6 @@ import FAQ from '../components/FAQ';
 import Index_FooterCTA from '../components/Index_FooterCTA';
 
 import kurseData from '../components/data/kursedata.json';
-import faq from '../components/data/faq';
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
 
@@ -28,12 +27,16 @@ export default function Home(props) {
     });
     return (
       <Layout banner={true}>
+        <Head>
+          <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
+          <script id="clickskeks-disclaimer-script" src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/disclaimer.js" type="application/javascript"></script>
+        </Head>
         <div className='container'>
           <main>
             <Index_Header />
             <Index_HeaderCTA />
+            <MarqueeAlumni />
             <Zukunft />
-            <UnserCampus />
             <Index_Weiterbildung />
             <Bootcamps kurseData={kurseData[0].kurseIndex} />
             <CertquaBonn />
@@ -52,8 +55,8 @@ export default function Home(props) {
               */}
               {inView && <Index_Blog />}
             </div>
-            <FAQ faqData={faq}/>
-            <Index_FooterCTA/>
+            <FAQ />
+            <Index_FooterCTA />
             {/* <Cookies /> */}
           </main>
           <style jsx>{``}</style>

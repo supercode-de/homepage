@@ -27,10 +27,7 @@ const WS_FooterCTA = () => {
           margin: 0 auto;
           padding: 4rem 6% 2rem;
         }
-        h1 {
-          margin: 0;
-          display: block;
-        }
+
         .super {
           color: transparent;
           font-weight: 300;
@@ -83,11 +80,6 @@ const WS_FooterCTA = () => {
           display: block;
         }
 
-        @media (max-width: 1024px) {
-          h1 {
-            font-size: 3em;
-          }
-        }
         @media (max-width: 468px) {
           a {
             font-weight: 400;
@@ -105,8 +97,11 @@ const WS_FooterCTA = () => {
             display: block;
           }
         }
-        @media (max-width: 370px) {
-        }
+        @media (max-width: 425px){
+          .super {
+            -webkit-text-stroke-width: 1px;
+          }
+        } 
       `}</style>
     </div>
   );

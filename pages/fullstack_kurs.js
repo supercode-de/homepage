@@ -30,7 +30,7 @@ export default function FullstackKurse() {
           />
           <Kurse_Tagesablauf kurs="code" dauer="fünf" welt="Codens"/>
           <Bildungsberatung />
-          <Kurse_FooterCTA />
+          <Kurse_FooterCTA color="var(--super-white)"/>
         </div>
       </Layout>
     );

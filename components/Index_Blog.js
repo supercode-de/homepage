@@ -84,11 +84,10 @@ const Index_Blog = () => {
         #blog {
           color: var(--super-green);
           position: relative;
-          padding: 150px 0;
+          padding: 15% 0;
         }
         h2 {
           color: var(--super-green);
-          margin: 0;
           padding: 0 calc(100vw / 12);
         }
         .letterstroke {
@@ -151,6 +150,7 @@ const Index_Blog = () => {
           padding: 10px 0;
           font-weight: 200;
         }
+
         @media (max-width: 1440px) {
           h1 {
             max-width: 9em;
@@ -158,28 +158,19 @@ const Index_Blog = () => {
         }
 
         @media (max-width: 1040px) {
-          // .translate {
-          //   transform: translateX(50px);
-          // }
           h1 {
             max-width: 8.5em;
           }
         }
         @media (max-width: 768px) {
-          // .translate {
-          //   transform: translateX(0);
-          // }
           h1 {
             max-width: 8.9em;
           }
+          h2 {
+            font-size: 2rem;
+          }
         }
-        @media (max-width: 468px) {
-          // a {
-          //   padding-top: 5px;
-          //   font-weight: 400;
-          //   font-size: 0.7em;
-          // }
-        }
+
       `}</style>
     </div>
   );

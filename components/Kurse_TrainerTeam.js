@@ -13,12 +13,7 @@ export default function Kurse_TrainerTeam(props) {
                     Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich pro Tag,
                     wirst du spielerisch {props.kursForm === "uxui" ? "UX/UI-Design lernen und deine eigenen Prototypen bauen" : "programmieren lernen und deine eigenen Webseiten bauen."}
                 </p>
-                {/* <p>
-                    Ergänzend zum Training im Bootcamp bieten wir individuelle Termine
-                    beim Flex-Trainer an. Im One-on-One-Coaching geht der/die Trainer*in
-                    gezielt auf deine Fragen ein, wiederholt noch nicht verstandenes
-                    Unterrichtsmaterial und gibt intensives Feedback zu den Übungen.
-                </p> */}
+
             </div>
             <div>
                 <section className='gridContainer'>
@@ -74,12 +69,12 @@ export default function Kurse_TrainerTeam(props) {
           }
 
           figure p {
-            font-size: 1.875rem;
+            font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
             width: 100%;
           }
 
           figcaption {
-            font-size: 1.875rem;
+            font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
             color: var(--super-green);
             padding-top: 7px;
             padding-bottom: 3px;
@@ -92,7 +87,7 @@ export default function Kurse_TrainerTeam(props) {
             width: 80%;
             margin: 0 auto;
             margin-top: 96px;
-            gap: 126px;
+            gap: 50px;
             position: relative;
 
           }
@@ -115,28 +110,16 @@ export default function Kurse_TrainerTeam(props) {
               transform: rotate(360deg);
             }
           }
-          @media (max-width: 1040px) {
-            .gridContainer {
-              gap: 0.1rem;
-            }
-          }
 
           @media (max-width: 875px) {
             .gridContainer {
               display: grid;
-              grid-template-columns: 50% 50%;
-              gap: 0.1rem;
+              grid-template-columns: repeat(2, 1fr);
               margin: 0 auto;
               width: 100%;
             }
             .rotating-text {
               display: none;
-            }
-          }
-          @media (max-width: 875px) {
-            .fsTrainer h2 {
-              font-size: 1.5rem;
-              line-height: 28px;
             }
             .gridContainer {
               margin: auto;
@@ -147,17 +130,11 @@ export default function Kurse_TrainerTeam(props) {
           }
           @media (max-width: 768px) {
             .fsTrainer h2 {
-              font-size: 1.5rem;
-              line-height: 28px;
               margin-bottom: 10px;
             }
             .fsTrainer p {
-              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
-            }
-            .gridContainer {
-              margin: auto;
             }
             .rotating-text {
               display: none;
@@ -165,8 +142,6 @@ export default function Kurse_TrainerTeam(props) {
           }
           @media (max-width: 585px) {
             .fsTrainer h2 {
-              font-size: 1.8rem;
-              line-height: 20px;
               margin-bottom: 10px;
             }
             .fsTrainer p {
@@ -174,19 +149,10 @@ export default function Kurse_TrainerTeam(props) {
               margin-bottom: 3px;
             }
 
-            figcaption {
-              font-size: 1.2rem;
-              color: var(--super-green);
-              padding-top: 7px;
-              padding-bottom: 1px;
-              font-weight: 100;
-            }
           }
           @media (max-width: 480px) {
             .fsTrainer h2 {
-              font-size: 1.4rem;
               color: var(--super-white);
-              // line-height: 20px;
               margin-bottom: 10px;
               margin-top: 0;
             }
@@ -197,67 +163,27 @@ export default function Kurse_TrainerTeam(props) {
               -webkit-text-stroke-color: var(--super-white);
             }
             .fsTrainer p {
-              font-size: 1rem;
               width: 95%;
               margin-bottom: 3px;
-              line-height: 15px;
             }
 
-            .fsTrainer figure p {
-              line-height: 10px;
-              font-size: 0.8rem;
-            }
-            figcaption {
-              font-size: 1rem;
-              color: var(--super-green);
-              padding-top: 7px;
-              padding-bottom: 1px;
-              font-weight: 100;
-            }
           }
 
           @media (max-width: 425px) {
             .fsTrainer {
               padding: 40px 0 100px 6%;
-
-              // overflow: hidden;
-            }
-            .fsTrainer h2 {
-              font-size: 1.8rem;
-              line-height: 28px;
-              margin-bottom: 0;
-            }
-
-            figcaption {
-              font-size: 1rem;
-              color: var(--super-green);
-              padding-top: 7px;
-              padding-bottom: 1px;
-              font-weight: 100;
             }
             .gridContainer {
-              display: grid;
-              grid-template-columns: 50% 50%;
-              margin: auto;
-              justify-content: center;
+              grid-template-columns: 1fr;
             }
 
             figure {
               margin-inline-start: 5px;
               margin-inline-end: 25px;
             }
-            .fsTrainer figure p {
-              line-height: 10px;
-              font-size: 0.8rem;
-            }
 
           }
-          @media (max-width: 375px) {
-            .fsTrainer h2 {
-              font-size: 1.4rem;
-              line-height: 20px;
-            }
-          }
+
         `}
             </style>
         </section>

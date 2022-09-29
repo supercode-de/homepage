@@ -12,7 +12,7 @@ const WS_HeaderCTA = () => {
         </span>
       </h2>
       <div className="buttons">
-        <Typeform_neu2022 />
+        <Typeform_neu2022 typeformID="L6u0np35"/> 
       </div>
       <style jsx>{`
         #header-call {
@@ -80,11 +80,6 @@ const WS_HeaderCTA = () => {
           align-items: center;
         }
 
-        @media (max-width: 1040px) {
-          h2 {
-            font-size: 3em;
-          }
-        }
         @media (max-width: 768px) {
           h2 span.bling::before {
             bottom: -0.1em;
@@ -95,7 +90,6 @@ const WS_HeaderCTA = () => {
         }
         @media (max-width: 468px) {
           h2 {
-            font-size: 2.1em;
             padding: 0 6%;
           }
           h2 span.bling::before {
@@ -108,8 +102,7 @@ const WS_HeaderCTA = () => {
             width: 1rem;
             right: -1.2rem;
           }
-          @media (max-width: 320px) {
-          }
+
         }
       `}</style>
     </div>

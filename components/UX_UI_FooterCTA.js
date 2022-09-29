@@ -25,7 +25,7 @@ export default function UX_UI_FooterCTA() {
         <h3>Mai 2023 – max. 16 Teilnehmende</h3>
         <h3>Oktober 2023 – max. 16 Teilnehmende</h3>
         <div className="jetzt-bewerben-btn">
-          <Typeform_neu2022 />
+          <Typeform_neu2022 typeformID="VTxBX6b2"/> 
         </div>
 
       </div>

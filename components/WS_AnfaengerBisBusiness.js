@@ -20,9 +20,6 @@ const WS_AnfaengerBisBusiness = () => {
         }
 
         h1 {
-          font-size: 4em;
-          line-height: 1.2em;
-          font-weight: 700;
           text-align: center;
           margin: 0 5%;
         }
@@ -34,17 +31,6 @@ const WS_AnfaengerBisBusiness = () => {
           font-weight: 400;
         }
 
-        @media (max-width: 1040px) {
-          h1 {
-            font-size: 3em;
-          }
-        }
-
-        @media (max-width: 468px) {
-          h1 {
-            font-size: 2.5em;
-          }
-        }
       `}</style>
     </div>
   );
