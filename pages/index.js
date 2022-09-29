@@ -14,6 +14,7 @@ import FAQ from '../components/FAQ';
 import Index_FooterCTA from '../components/Index_FooterCTA';
 
 import kurseData from '../components/data/kursedata.json';
+import faqData from "../components/data/faq";
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
 
@@ -55,7 +56,7 @@ export default function Home(props) {
               */}
               {inView && <Index_Blog />}
             </div>
-            <FAQ />
+            <FAQ faqData={faqData}/>
             <Index_FooterCTA />
             {/* <Cookies /> */}
           </main>

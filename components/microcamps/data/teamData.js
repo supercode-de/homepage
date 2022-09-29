@@ -22,13 +22,7 @@ let teamData = [
     img: "../img/microcamps/team/ruben_wellinger.png",
     theme: "design",
     jobtitel: "UX/UI Design Trainer",
-  },
-  {
-    name: "Thomas Kuhnert",
-    img: "../img/microcamps/team/thomas_kuhnert.png",
-    theme: "data",
-    jobtitel: "Data Science Trainer",
-  },
+  }
 ];
 
 export default teamData;
