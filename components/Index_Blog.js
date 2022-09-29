@@ -30,7 +30,6 @@ const Index_Blog = () => {
 
   return (
     <div id="blog">
-      {console.log("test1")}
       <div>
         <h2>Meine</h2>
         <h2>Straße,</h2>

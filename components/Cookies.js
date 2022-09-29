@@ -1,7 +1,7 @@
 const Cookies = () => {
     let hupspot = () => {
         var _hsp = window._hsp = window._hsp || []; _hsp.push(['showBanner']);
-        console.log("cookie klick test")
+        // console.log("cookie klick test")
     }
 
     // onClick="(function(){var _hsp = window._hsp = window._hsp || []; _hsp.push(['showBanner']);})"

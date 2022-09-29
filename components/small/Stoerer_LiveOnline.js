@@ -1,5 +1,4 @@
 const Stoerer_LiveOnline = (props) => {
-    console.log(props);
     return ( 
         <div className="stoerer-wrapper">
             <div className="redDot"></div>

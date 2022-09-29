@@ -3,7 +3,7 @@ import ReactMarkdown from "react-markdown";
 
 const BlogDetails = (props) => {
   const pixelSize = 2;
-  console.log("props von blogdetails", props);
+  // console.log("props von blogdetails", props);
   return (
     <div id="blogDetails" className={` ${props.klasse}`}>
       <section>

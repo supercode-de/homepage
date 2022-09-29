@@ -2,7 +2,6 @@ import Popup from 'reactjs-popup';
 import HubspotForm from 'react-hubspot-form';
 
 const Typeform = (props) => {
-console.log(props.theme);
   return (
     <>
       <Popup

@@ -1,6 +1,6 @@
 import { useState } from "react";
 const Accordion_FAQ = (props) => {
-    console.log("accordion faq", props);
+    // console.log("accordion faq", props);
     const [activeIndex, setActiveIndex] = useState(null);
     const onTitleClick = (index) => {
         if (activeIndex === index) {

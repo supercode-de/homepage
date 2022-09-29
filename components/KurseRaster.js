@@ -4,7 +4,7 @@ import KurseCard from './KurseCard';
 const hrefs = ['/kurse/fullstack', '/kurse/frontend', '/kurse/uxui'];
 const KurseRaster = () => {
     const [kurseData, setKurseData] = useState([])
-    console.log(kurseData);
+    // console.log(kurseData);
     // const n = 1 // das ist der e.target.value
     // const conditions = [ 1, 2, 3, 4, 5 ] // das ist zb kurserasterdata.format
     // if (conditions.includes(n)) {
@@ -12,28 +12,28 @@ const KurseRaster = () => {
     // }
 
     const handleFilterChangeFachrichtung = (e) => {
-        console.log(e.target.value)
+        // console.log(e.target.value)
         let filteredKurseData = kurseData.filter(function (singleData) {
             return singleData.fachrichtung == e.target.value
         })
         setKurseData(filteredKurseData)
     }
     const handleFilterChangeFormat = (e) => {
-        console.log(e.target.value)
+        // console.log(e.target.value)
         let filteredKurseData = kurseData.filter(function (singleData) {
             return singleData.format == e.target.value
         })
         setKurseData(filteredKurseData)
     }
     const handleFilterChangeFinanzierung = (e) => {
-        console.log(e.target.value)
+        // console.log(e.target.value)
         // let filteredKurseData = kurseData.filter(function (singleData) {
         //     return singleData.finanzierung == e.target.value
         // })
         // setKurseData(filteredKurseData)
     }
     const handleFilterChangeStandort = (e) => {
-        console.log(e.target.value)
+        // console.log(e.target.value)
         // let filteredKurseData = kurseData.filter(function (singleData) {
         //     return singleData.finanzierung == e.target.value
         // })
@@ -41,7 +41,7 @@ const KurseRaster = () => {
     }
 
     const handleReset = () => {
-        console.log("reset click")
+        // console.log("reset click")
         setKurseData(kurseRasterData)
     }
 
