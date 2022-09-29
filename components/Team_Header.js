@@ -92,6 +92,21 @@ const Team_Header = () => {
             .header-images-grid {
               padding-bottom: min(6vh, 100px);
             }
+            .img1, .img4,.img7 {
+              display: none;
+            }
+            .img2 {
+              grid-column: 6/13;
+            }
+            .img3 {
+              grid-column: 13/20;
+            }
+            .img5 {
+              grid-column: 4/12;
+            }
+            .img6 {
+              grid-column: 12/20;
+            }
           }
         `}
       </style>
