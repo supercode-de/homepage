@@ -34,7 +34,7 @@ const AllCoursesCard = (props) => {
           {toolsInternal.map((tool, index) => (
               <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
             ))}
-          <p>+ more</p>
+          <p>+ mehr</p>
         </div>
         <p>
           {modell} | {duration}

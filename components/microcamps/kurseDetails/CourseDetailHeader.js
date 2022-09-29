@@ -22,7 +22,7 @@ const CourseDetailHeader = (props) => {
                         {props.kurs.toolsInternal && props.kurs.toolsInternal.map((tool, index) => (
                             <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
                         ))}
-                        <p>+ more</p>
+                        <p>+ mehr</p>
                     </div>
                     <p>{headerDescription}</p>
                     <MC_Warteliste_Popup wartelisteLinkFormID={wartelisteLinkFormID}/>
