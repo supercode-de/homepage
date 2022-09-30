@@ -3,9 +3,9 @@ import ReactMarkdown from "react-markdown";
 
 const BlogDetails = (props) => {
   const pixelSize = 2;
-  console.log("props von blogdetails", props);
+  // console.log("props von blogdetails", props);
   return (
-    <div id="blogDetails" className={`blackGitter ${props.klasse}`}>
+    <div id="blogDetails" className={`${props.klasse}`}>
       <section>
 
         <article className="right">
@@ -53,49 +53,10 @@ const BlogDetails = (props) => {
         </Link>
       </footer>
       <style jsx>{`
-        // Styling für einzelne Blogartikel Start
-        // .blog11>section>article>p>p:nth-of-type(11)  {
-        // funktioniert leider nicht
-        //   width: 100% !important;
-        //   // display: none;
-        //   background: red !important;
-        // }
-        // Styling für einzelne Blogartikel Ende
-
         #blogDetails {
-          color: #fff;
+          color: var(--super-white);
+          background: var(--super-blau);
         }
-
-        section {
-          //  display: flex;
-        }
-
-        // section .right {
-        //   overflow-y: auto;
-        //   height: 90vh;
-        // }
-
-        // section .left {
-        //   height: 90vh;
-        //   display: flex;
-        //   flex-direction: column;
-        //   justify-content: center;
-        //   align-items: center;
-        //   background: linear-gradient(
-        //       90deg,
-        //       #03000f calc(100vw / 12 - ${pixelSize},
-        //       transparent 1%
-        //     ),
-        //     linear-gradient(
-        //       #03000f calc(100vw / 12 - ${pixelSize},
-        //       transparent 1%
-        //     ),#fff;
-        //   background-size: calc(100vw / 12) calc(100vw / 12);
-        // }
-
-        // .hide {
-        //   display: none;
-        // }
 
         section h3 {
           font-weight: bold;
@@ -112,13 +73,13 @@ const BlogDetails = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: var(--super-white);
         }
         section .left h2 {
           font-size: 2em;
           font-weight: 400;
           padding: 0 8%;
-          color: #fff;
+          color: var(--super-white);
         }
 
         section p {
@@ -126,7 +87,7 @@ const BlogDetails = (props) => {
           padding-top: 50px;
           padding: 20px 6%;
           line-height: 2;
-          color: rgba(0, 0, 0, 0.5);
+          color: var(--super-blau);
         }
 
         section p span {
@@ -141,7 +102,7 @@ const BlogDetails = (props) => {
 
         section .right h2 span {
           font-size: 0.7em;
-          color: rgba(0, 0, 0, 0.5);
+          color: var(--super-blau);
         }
 
         footer {
@@ -156,51 +117,6 @@ const BlogDetails = (props) => {
           justify-content: space-between;
           cursor: pointer;
         }
-        // .left {
-        //   border: 10px solid red;
-        // }
-        // .arrow-left {
-        //   position: relative;
-        //   top: 40px;
-        //   width: 100px;
-        //   left: 5%;
-        // }
-        // .arrow-right {
-        //   position: absolute;
-        //   bottom: 70px;
-        //   width: 95px;
-        //   right: 0%;
-        // }
-
-        // .arrow-left img,
-        // .arrow-right img {
-        //   width: 100%;
-        // }
-        // .arrow-left:hover {
-        //   cursor: pointer;
-        // }
-        // .arrow-right:hover {
-        //   cursor: pointer;
-        // }
-
-        // .arrow-right a {
-        //   color: #fff;
-        //   text-decoration: none;
-        // }
-        .social ul {
-          list-style: none;
-        }
-
-        .social li {
-          display: inline;
-          padding-right: 20px;
-        }
-
-        .social li a {
-          text-decoration: none;
-          color: #000;
-        }
-
         .text-container {
           padding-right: 20px;
           padding-left: 20px;
@@ -216,17 +132,16 @@ const BlogDetails = (props) => {
         .text-container p {
           margin: 0;
           font-size: 0.8em;
-          color: rgba(0, 0, 0, 0.6);
+          color: var(--super-blau);
         }
         .right img {
           width: 80% !important;
         }
         section .right h1 {
-          font-size: 4em;
-          color: #fff;
+          color: var(--super-white);
         }
         section .right h2 {
-          color: #fff;
+          color: var(--super-white);
         }
 
         @media (max-width: 880px) {
