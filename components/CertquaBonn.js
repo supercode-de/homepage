@@ -1,6 +1,6 @@
 const CertquaBonn = () => {
   return (
-    <div id="header-call">
+    <div id="header-call" className="rotateEffect">
       <h2>
         “SuperCode bietet ein arbeitsmarktlich aussichtsreiches und praxisnahes
         Bildungsangebot im IT-Bereich mit methodisch modernen und hohem Einsatz

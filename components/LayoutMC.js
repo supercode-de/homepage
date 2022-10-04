@@ -193,7 +193,7 @@ class LayoutMC extends Component {
                 // --fs-900: 5rem; // 80px
                 --fs-900: clamp(1.875rem, 4vw, 5rem);
                 // --fs-999: 9.375rem; // 150px
-                --fs-999: clamp(4rem, 10vw, 9.375rem);
+                --fs-999: clamp(2.1875rem, 0.75rem + 7.1875vw, 9.375rem);
             }
             
             html {
@@ -296,6 +296,13 @@ class LayoutMC extends Component {
             .btn:hover {
               opacity: 0.8;
             }
+
+            @media (max-width: 425px) {
+              .btn {
+                padding-top: 4%;
+                padding-bottom: 4%;
+            }
+            }
             // loading animation
             .loading-Div {
               margin: 10% auto;
@@ -329,7 +336,6 @@ class LayoutMC extends Component {
               }
             }
 
-            // unsere-story allgemeine styles end
           `}
         </style>
       </div>

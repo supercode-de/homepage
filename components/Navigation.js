@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import React, { Component } from 'react';
+// import SignetRotateAnimation from './small/SignetRotateAnimation';
 
 class Navigation extends Component {
   constructor(props) {
@@ -21,6 +22,7 @@ class Navigation extends Component {
   }
 
   listenScrollEvent = () => {
+
     let scrollLimit =
       Math.max(
         document.body.scrollHeight,
@@ -106,16 +108,22 @@ class Navigation extends Component {
         }}
       >
         <div className={`main-navigation ${this.state.show ? 'hide' : 'hide'}`}>
-
+          {/* <SignetRotateAnimation /> */}
           <Link href='/' passHref>
             <a className='logo'>
-              <img
+              {/* <img
                 src='/img/Bildungsinstitut_Logo.svg'
+                alt='SuperCode-Logo'
+                className='rotate'
+              /> */}
+              <img
+                src='/img/sc_logo2022.svg'
                 alt='SuperCode-Logo'
                 className='rotate'
               />
 
-              <img src='/img/SuperCode_Logo.svg' alt='SuperCode-Logo' />
+              {/* <img src='/img/SuperCode_Logo.svg' alt='SuperCode-Logo' /> */}
+              <img src='/img/c_2022.svg' alt='SuperCode-Logo' id="supercodeC" />
               <img id="supercodeLogo2022" src="/img/supercode_logo_2022.svg" alt="supercode logo" />
             </a>
           </Link>
@@ -223,7 +231,7 @@ class Navigation extends Component {
               </Link>
             </li>
             <li>
-              <Link href='/#faq' passHref> 
+              <Link href='/#faq' passHref>
                 <a>FAQ</a>
               </Link>
             </li>
@@ -259,11 +267,9 @@ class Navigation extends Component {
             padding-left: 2em;
           }
           #navigation {
-            // background: var(--super-black);
             display: flex;
             align-items: center;
             width: 100%;
-            // height: 4vmax;
             transition: width 1s;
             position: relative;
             top: 40px;
@@ -273,7 +279,11 @@ class Navigation extends Component {
             left: 80px;
             width: 150px;
             display: ${window.scrollY > 0 ? 'none' : 'block'};
-              
+          }
+
+          #supercodeC {
+            width: 25px;
+            left: 27px;
           }
 
           .arrowWrapper img {
@@ -282,9 +292,7 @@ class Navigation extends Component {
           .arrowWrapper_workshops img {
             width: 100%;
           }
-          // .kurse-link {
-          //   position: relative;
-          // }
+
           .kurse-link:hover > .arrowWrapper {
             position: absolute;
             display: block;

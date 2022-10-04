@@ -67,6 +67,11 @@ const Accordion_FAQ = (props) => {
                 font-size: var(--fs-300);
                 margin-bottom: .5%;
             }
+            @media (max-width: 425px) {
+                .accordion-item {
+                    margin-bottom: 5%;
+                }
+            }
             `}</style>
         </>
 

@@ -19,7 +19,7 @@ const AlumniSectionReviewCard = (props) => {
                     white-space: pre-line;
                     padding: 0 0 0 5%;
                     margin: 0 0 2% 0;
-                    font-size: var(--fs-500);
+                    font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
                 }
                 .alumniSection__reviewGrid__card p:last-of-type {
                     padding: 2% 0 0 5%;

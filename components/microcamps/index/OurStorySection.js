@@ -164,6 +164,11 @@ const OurStorySection = () => {
                         margin: 5% 0 0 0;
                     }
                 }
+                @media (max-width: 425px) {
+                    .ourStorySection__mainWrap__mainContent .text p {
+                        margin: 0 0 2% 0;
+                    }
+                }
             `}</style>
         </section>
     );

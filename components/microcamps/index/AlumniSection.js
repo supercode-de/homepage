@@ -10,11 +10,10 @@ const AlumniSection = () => {
                 <h3>Das sagen unsere Teilnehmende</h3>
                 <h3>
                     <span className="headlines_stroke">
-                        aus ganz
+                        aus ganz {window.innerWidth < 400 ? <br /> : null}
                         <span className="circle">Deutschland</span>
                     </span>
                 </h3>
-                <video src="../../../public/img/microcamps/videos/gianLuca.mp4"></video>
                 <article className="alumniSection__videoArea">
                     {alumniInterviewsData.map((alumniItem, i) => (
                         <AlumniSectionVideoCard
@@ -44,6 +43,7 @@ const AlumniSection = () => {
                     background-color: var(--clr-super-lila);
                     color: var(--clr-super-white);
                 }
+                
                 .alumniSection h3 .circle {
                     background: url("/img/microcamps/world_circle.svg") center center / contain no-repeat;
                     padding: var(--fs-100);
@@ -109,7 +109,13 @@ const AlumniSection = () => {
                     .alumniSection__videoArea::-webkit-scrollbar {
                         display: none;
                     }
+                }
 
+                @media (max-width: 375px) {
+                    .alumniSection h3 .circle {
+                        background: none;
+                        padding: 0;
+                    }
                 }
             `}</style>
         </section>

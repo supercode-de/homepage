@@ -38,7 +38,7 @@ const HeaderSection = () => {
                     display: flex;
                     justify-content: space-between;
                     align-items: center;
-                    padding: 0 0 0 5%;
+                    padding: 8% 0 0 5%;
                 }
                 .headerSection .wrap article h2 .circle {
                     background: url(/img/microcamps/live_circle.svg) center center / contain no-repeat;
@@ -80,6 +80,9 @@ const HeaderSection = () => {
                     }
                     .headerSection .wrap img {
                         transform: translateY(10%);
+                    }
+                    .btn {
+                        margin-top: 30px;
                     }
                 }
                 

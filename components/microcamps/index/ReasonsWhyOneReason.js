@@ -60,6 +60,7 @@ const ReasonsWhyOneReason = (props) => {
                 }
                 li .reasonWrap div h3 {
                     color: var(--clr-super-lila);
+                    font-size: clamp(1.875rem, 1.4375rem + 2.1875vw, 4.0625rem);
                 }
                 li .reasonWrap div h3 .headlines_stroke {
                     -webkit-text-stroke: 0.025em var(--clr-super-green);
@@ -100,6 +101,15 @@ const ReasonsWhyOneReason = (props) => {
                         border-radius: 25px;
                         width: 90%;
                         top: 70%;
+                    }
+                }
+                @media only screen and (max-width: 768px) {
+                    li .reasonWrap div {
+                        display: block;
+                    }
+
+                    li .reasonWrap {
+                        margin: 3% 0 0 0;
                     }
                 }
             `}</style>

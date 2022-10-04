@@ -55,6 +55,7 @@ const NewsletterSection = () => {
                 }
                 .newsletterSection__textAndInputArea__text h3 {
                     line-height: 121%;
+                    font-size: clamp(1.25rem, 0.6875rem + 2.8125vw, 4.0625rem);
                 }
                 .newsletterSection__textAndInputArea__text .circle {
                     background: url("/img/microcamps/newsletter_circle.svg") center center / contain no-repeat;

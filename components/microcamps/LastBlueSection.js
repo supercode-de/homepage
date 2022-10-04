@@ -48,7 +48,6 @@ const LastBlueSection = () => {
                     color: var(--clr-super-green);
                 }
                 .lastBlueSection .wrap .btn {
-                    height: 6.25rem;
                     font-size: var(--fs-400);
                     display: inline-flex;
                     justify-content: center;
@@ -66,6 +65,11 @@ const LastBlueSection = () => {
 
                     .lastBlueSection a {
                         margin: 5% 0 0 0 ;
+                    }
+                }
+                @media (max-width: 425px) {
+                    .lastBlueSection__text h2 .lines {
+                        background: none;
                     }
                 }
             `}</style>

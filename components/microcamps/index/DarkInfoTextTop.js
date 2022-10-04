@@ -5,7 +5,7 @@ const DarkInfoTextTop = () => {
                 <h2>
                     Die beste, flexibelste und schnellste{" "}
                     Art sich neben dem Job weiterzubilden – 
-                    <span className="headlines_stroke"><span className="circle">unsere MicroCamps</span></span>
+                    <span className="headlines_stroke"><span className="circle">unsere {window.innerWidth < 400 ? <br /> : null}  MicroCamps</span></span>
                 </h2>
             </div>
             <style jsx>{`
@@ -40,6 +40,12 @@ const DarkInfoTextTop = () => {
                     .darkInfoTextTop h2:first-of-type::after {
                         content: "";
                         margin: 0;
+                    }
+                }
+                @media (max-width: 425px) {
+                    .darkInfoTextTop h2 .circle {
+                        background: none;
+                        padding: 0;
                     }
                 }
             `}

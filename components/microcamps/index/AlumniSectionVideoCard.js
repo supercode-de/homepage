@@ -18,7 +18,7 @@ const AlumniSectionVideoCard = (props) => {
                     box-shadow: 0px 0px 35px var(--clr-super-black--shadow);
                 }
                 .alumniSection__videoArea__card p {
-                    font-size: var(--fs-500);
+                    font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
                 }
                 
             

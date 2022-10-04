@@ -257,7 +257,7 @@ const AllCoursesList = () => {
 
             @media only screen and (max-width: 768px) {
                 .allCoursesArea__list__viewList {
-                    width: 100%;
+                    width: 70%;
                     display: flex;
                     overflow-x: scroll;
                     scroll-snap-type: x mandatory;
@@ -266,6 +266,11 @@ const AllCoursesList = () => {
                 }
                 .allCoursesArea__list__viewList::-webkit-scrollbar {
                     display: none;
+                }
+            }
+            @media (max-width: 425px) {
+                .allCoursesArea__list__viewList {
+                    width: 90%;
                 }
             }
         `}</style>

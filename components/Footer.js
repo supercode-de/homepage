@@ -97,7 +97,9 @@ const Footer = () => {
             align-items: center;
             justify-content: space-between;
           }
-
+          #supercodeLogo2022 {
+            width: 70%
+          }
           .copyright {
             display: flex;
             align-items: center;

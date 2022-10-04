@@ -1,6 +1,6 @@
 const Index_Weiterbildung = () => {
   return (
-    <div id="header-call">
+    <div id="header-call" className="rotateEffect">
       <h2>
         IT Weiterbildung&nbsp;- <br />
         <span className="super">

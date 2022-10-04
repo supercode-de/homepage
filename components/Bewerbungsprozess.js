@@ -17,7 +17,7 @@ class Bewerbungsprozess extends Component {
 
   render() {
     return (
-      <div id="bewerbungsprozess">
+      <div id="bewerbungsprozess" className="rotateEffect">
         {this.props.oneComponent ? null : (
           <JetztAnmelden
             toggleJetztAnmelden={this.toggleJetztAnmelden}

@@ -54,7 +54,7 @@ const Typeform = (props) => {
         }
 
         #curriculum-popup {
-          background: var(--super-blue);
+          background: var(--super-blau);
           color: var(--super-white);
           width: calc(100vw / 12 * 8);
           padding: 40px;

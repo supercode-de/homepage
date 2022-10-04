@@ -3,7 +3,7 @@ import arbeitgeberLogos from "../components/data/marqueeArbeitgeberData"
 
 const MarqueeAlumni = () => {
     return (
-        <section className="marquee__section">
+        <section className="marquee__section rotateEffect" id="marqueeAlumni">
             <h3>Unsere Alumni arbeiten bei</h3>
             <Marquee speed={50}>
                 {arbeitgeberLogos.map((logo, index) => (

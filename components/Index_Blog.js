@@ -29,7 +29,7 @@ const Index_Blog = () => {
   const pixelSize = 1.5;
 
   return (
-    <div id="blog">
+    <div id="blog" className="rotateEffect">
       <div>
         <h2>Meine</h2>
         <h2>Straße,</h2>

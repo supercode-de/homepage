@@ -22,7 +22,6 @@ const FAQ = (props) => {
       <style jsx>{`
           #faq {
             padding: 100px calc(100vw / 12) 150px;
-            position: relative;
             background: var(--super-black);
           }
           h2 {
@@ -39,15 +38,6 @@ const FAQ = (props) => {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 0 5%;
-          }
-
-          .aside {
-            position: absolute;
-            transform: rotate(-90deg);
-            transform-origin: left;
-            left: 2em;
-            top: 50%;
-            color: var(--super-white);
           }
 
           @media (max-width: 768px) {

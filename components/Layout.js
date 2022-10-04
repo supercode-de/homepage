@@ -176,7 +176,7 @@ class Layout extends Component {
               border-radius: 5rem; 
             }
 
-            img:not(#tagesablauf, .menu-button, #arrow-img img, .start-termin img, .text1, .text2, .text3, .text4, .text5, .accordion-visible img, .marqueeLogos) {
+            img:not(#tagesablauf, .menu-button, #arrow-img img, .start-termin img, .text1, .text2, .text3, .text4, .text5, .accordion-visible img, .marqueeLogos, #supercodeC) {
               border-radius: clamp(1.5625rem, 1.25rem + 1.5625vw, 3.125rem);
             }
 

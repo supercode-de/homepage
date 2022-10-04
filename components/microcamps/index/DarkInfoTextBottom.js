@@ -5,13 +5,13 @@ const DarkInfoTextBottom = () => {
                 <h2>
                     IT-Weiterbildung –
                     <span className="headlines_stroke">
-                        <span className="lines">zertifiziert, modern</span>
+                        <span className="lines">zertifiziert, modern </span>
                     </span>
                     <span className="circle">
                         <span className="headlines_stroke">& praxisnah.</span>
                     </span>
-                    Stelle dir deinen Kurs einfach selbst zusammen!
                 </h2>
+                <h2>Stelle dir deinen Kurs einfach selbst zusammen!</h2>
             </div>
 
             <style jsx>{`
@@ -37,6 +37,13 @@ const DarkInfoTextBottom = () => {
                 @media only screen and (max-width: 992px) {
                     .darkInfoTextBottom .wrap {
                         padding: 10%;
+                    }
+                }
+                @media (max-width: 425px) {
+                    .darkInfoTextBottom h2 .circle,
+                    .darkInfoTextBottom h2 .lines {
+                        background: none;
+                        padding: 0;
                     }
                 }
             `}</style>
