@@ -256,7 +256,6 @@ class Navigation extends Component {
           ul {
             list-style-type: none;
             display: flex;
-            // width: 100%;
             text-transform: uppercase;
             justify-content: flex-end;
             align-items: center;
@@ -273,11 +272,11 @@ class Navigation extends Component {
             transition: width 1s;
             position: relative;
             top: 40px;
-            z-index: 999;
+            z-index: 2;
           }
           #supercodeLogo2022 {
             left: 80px;
-            width: 150px;
+            width: 136px;
             display: ${window.scrollY > 0 ? 'none' : 'block'};
           }
 
@@ -488,28 +487,22 @@ class Navigation extends Component {
           }
           .nav-list {
             display: ${window.scrollY > 0 ||
-            document.documentElement.clientWidth < 768
+            document.documentElement.clientWidth <= 1116
             ? 'none'
             : 'flex'};
           }
           .menu-button {
-            // position: fixed;
-            // right: 2.5vw;
             height: 4vmax;
             min-height: 50px;
             z-index: 99998;
             cursor: pointer;
             display: ${window.scrollY > 0 ||
-            document.documentElement.clientWidth < 768
+            document.documentElement.clientWidth <= 1116
             ? 'unset'
             : 'none'};
           }
           .logo {
             color: var(--super-green);
-            // position: fixed;
-            // left: 2.5vw;
-            // padding-top: 4vh;
-            // height: 4vmax;
             z-index: 99998;
           }
           .superCode-logo {

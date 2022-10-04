@@ -26,7 +26,7 @@ const MeetTeam = () => {
 
       <style jsx>{`
         .meet-team-wrapper {
-          padding: 12.5rem 10.125rem;
+          padding: 10% 5%;
         }
         .meet-team-wrapper .team-wrapper {
           width: 80%;
@@ -36,9 +36,6 @@ const MeetTeam = () => {
           gap: 25px 25px;
         }
         @media only screen and (max-width: 576px) {
-          .meet-team-wrapper {
-            padding: 3.125rem 4.5rem;
-          }
           .meet-team-wrapper .team-wrapper {
             grid-template-columns: repeat(2, 1fr) !important;
           }

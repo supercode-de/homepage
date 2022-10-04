@@ -18,20 +18,28 @@ const HeaderOurStory = () => {
         align-items: center;
         background-color: var(--clr-super-lila);
         color: var(--super-white);
-        padding: 0 5%;
-        height: 100vh;
+        padding: 10% 5%;
       }
-      .our-story-wrapper .img-sergio {
+      .img-sergio img{
         width: 100%;
       }
       .our-story-wrapper .info {
-        max-width: 50rem;
+        width: 40%;
       }
       .our-story-wrapper h1 {
         font-family: var(--ff-reg-bold);
         font-size: var(--fs-900);
         line-height: 115%;
         margin-bottom: 2%;
+      }
+      @media (max-width: 768px) {
+        .our-story-wrapper {
+          display: block;
+          padding-top: 80px;
+        }
+        .our-story-wrapper .info {
+          width: 100%;
+        }
       }
       @media only screen and (max-width: 576px) {
         .our-story-wrapper {

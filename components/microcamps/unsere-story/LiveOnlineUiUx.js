@@ -16,7 +16,7 @@ const LiveOnlineUiUx = () => {
 
       <style jsx>{`
         .online-uiux-wrapper {
-          padding: 0 10.125rem;
+          padding: 0 5%;
         }
         .online-uiux-wrapper p:nth-of-type(1) {
           margin-bottom: 2%;
@@ -31,9 +31,6 @@ const LiveOnlineUiUx = () => {
           color: var(--clr-super-lila);
         }
         @media only screen and (max-width: 576px) {
-          .online-uiux-wrapper {
-            padding: 3.125rem 4.5rem;
-          }
           .online-uiux-wrapper .btn-wrapper {
             justify-content: center;
           }

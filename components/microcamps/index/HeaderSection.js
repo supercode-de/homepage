@@ -16,7 +16,7 @@ const HeaderSection = () => {
                         <span className="headlines_stroke">live MicroCamps</span>
                     </h2>
                     <p>
-                        Unsere live & online UX/UI, Coding & Data MicroCamps sind so aufgebaut, dass du dich ganz flexibel neben deinem Job weiterbilden kannst – zertifiziert, hochwertig und mit live Trainer*innen!
+                        Unsere live & online UX/UI & Coding MicroCamps sind so aufgebaut, dass du dich ganz flexibel neben deinem Job weiterbilden kannst – zertifiziert, hochwertig und mit live Trainer*innen!
                     </p>
                     <a className="btn" href="#allCourses">
                         zu den Kursen

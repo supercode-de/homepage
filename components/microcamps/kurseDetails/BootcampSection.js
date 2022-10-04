@@ -57,6 +57,11 @@ const BootcampSection = (props) => {
             grid-template-columns: 1fr;
           }
         }
+        @media (max-width: 425px) {
+          .bootcampSection__list__item {
+            display: block;
+          }
+        }
       `}</style>
     </section>
   );

@@ -189,7 +189,8 @@ class LayoutMC extends Component {
                 // --fs-700: 3.125rem; // 50px
                 --fs-700: clamp(1.875rem, 4vw, 3.125rem);
                 // --fs-800: 4.0625rem; // 65px
-                --fs-800: clamp(2.4375rem, 3vw, 4.0625rem);
+                // --fs-800: clamp(2.4375rem, 3vw, 4.0625rem);
+                --fs-800: clamp(2.25rem, 1.0417rem + 2.5174vw, 4.0625rem);
                 // --fs-900: 5rem; // 80px
                 --fs-900: clamp(1.875rem, 4vw, 5rem);
                 // --fs-999: 9.375rem; // 150px
@@ -212,9 +213,17 @@ class LayoutMC extends Component {
                 margin-inline: auto;
                 
             }
-            // @include mq(lg) {
-            //   padding: 10%;
-            // }
+            
+            @media (max-width: 768px) {
+              .wrap {
+                padding: 20% 5%;
+              }
+            }
+            @media (max-width: 425px) {
+              .wrap {
+                padding: 28% 5%;
+              }
+            }
 
             @keyframes rotation {
                 from {

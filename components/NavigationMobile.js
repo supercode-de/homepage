@@ -127,7 +127,8 @@ const NavigationMobile = (props) => {
             list-style-type: none;
             display: flex;
             flex-direction: column;
-            font-size: 4em;
+            // font-size: 4em;
+            font-size: clamp(1.25rem, 0.7rem + 2.75vw, 4rem);
             text-transform: uppercase;
             justify-content: flex-end;
             align-items: center;

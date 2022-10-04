@@ -154,6 +154,11 @@ const CurriculumSection = (props) => {
             order: 2;
           }
         }
+        @media (max-width: 320px) {
+          .curriculumSection__curriculumView {
+            margin: 0;
+          }
+        }
       `}</style>
     </section>
   );

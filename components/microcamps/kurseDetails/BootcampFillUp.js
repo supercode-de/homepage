@@ -60,8 +60,7 @@ const BootcampFillUp = (props) => {
 
         .card-wrapper {
           display: grid;
-          grid-template-columns: repeat(auto-fill, 38rem);
-          // grid-template-columns: repeat(2, 1fr);
+          grid-template-columns: repeat(2, 1fr);
           grid-gap: 25px;
           margin-top: 50px;
           justify-content: center;
@@ -80,6 +79,13 @@ const BootcampFillUp = (props) => {
         .termin-error .button {
           width: 100%;
         }
+
+        @media (max-width: 900px) {
+          .card-wrapper {
+            grid-template-columns: 1fr;
+          }
+        }
+
       `}</style>
     </article>
   );

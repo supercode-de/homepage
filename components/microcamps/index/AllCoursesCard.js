@@ -31,7 +31,7 @@ const AllCoursesCard = (props) => {
       </div>
       <div className="allCoursesArea__list__viewList__card__main">
         <div className="plusList">
-          {toolsInternal.map((tool, index) => (
+          {toolsInternal.slice(0, 4).map((tool, index) => (
               <img src={`/img/${tool.image}`} alt={tool.name} key={index} />
             ))}
           <p>+ mehr</p>

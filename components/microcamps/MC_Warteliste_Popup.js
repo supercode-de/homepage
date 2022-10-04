@@ -146,7 +146,6 @@ const Typeform = (props) => {
           //   grid-template-columns: 1fr;
           // }
 
-       
         }
         @media (max-width: 620px) {
           #curriculum-popup {
@@ -169,6 +168,11 @@ const Typeform = (props) => {
           }
           h1 {
             font-size: 2.3em;
+          }
+        }
+        @media (max-width: 500px) {
+          .button {
+            width: 100%;
           }
         }
         @media (max-width: 468px) {

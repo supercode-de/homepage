@@ -58,7 +58,7 @@ const ToolsOneTool = ({ tool }) => {
                     background-color: var(--clr-super-white);
                     border-radius: 50px;
                     padding: 50%;
-                    width: 30vw;
+                    width: 50vw;
                     position: absolute;
                     top: 150%;
                     left: 0;
@@ -72,6 +72,23 @@ const ToolsOneTool = ({ tool }) => {
                 }
                 .toolWrap .openCard p {
                     color: var(--clr-super-lila);
+                }
+
+                @media (max-width: 768px) {
+                    .toolWrap .openCard {
+                        width: 60vw;
+                        top: 108%;
+                        border-bottom: 5px solid var(--super-lila);
+                    }
+                }
+
+                @media (max-width: 425px) {
+                    .toolWrap .openCard {
+                        width: 80vw;
+                        left: 50%;
+                        margin-right: -50%;
+                        transform: translate(-50%, 2%) 
+                    }
                 }
             `}</style>
         </div>

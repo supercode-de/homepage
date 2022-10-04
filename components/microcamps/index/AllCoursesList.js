@@ -90,7 +90,7 @@ const AllCoursesList = () => {
                 >
                     <p>design</p>
                 </label>
-                <input
+                {/* <input
                     className="hidden"
                     onChange={(e) => insertfilterWhatState(e.target.value)}
                     type="checkbox"
@@ -103,7 +103,7 @@ const AllCoursesList = () => {
                     htmlFor="data-button"
                 >
                     <p>data</p>
-                </label>
+                </label> */}
                 {/* ---------------------- */}
                 <input
                     className="hidden"

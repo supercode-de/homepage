@@ -20,7 +20,7 @@ const Accordion = (props) => {
                                 <p>{index === activeIndex ? "-" : "+"}</p>
                                 <p>{content.ablaufTitel}</p>
                             </div>
-                            <div classNAme="accordion-title-date">
+                            <div className="accordion-title-date">
                                 <p>
                                     {content.ablaufZeitraum}
                                 </p>
@@ -62,10 +62,11 @@ const Accordion = (props) => {
             }
             .accordion-title-arrow p {
                 font-family: var(--ff-reg-bold);
-                font-size: var(--fs-500);
+                font-size: clamp(1rem, 0.6667rem + 0.6944vw, 1.5rem);
             }
             .accordion-title-date p {
-                font-size: var(--fs-200);
+                // font-size: var(--fs-200);
+                font-size: clamp(0.75rem, 0.4167rem + 0.6944vw, 1.25rem);
             }
             .accordion-content ul {
                 list-style-type: disc;
@@ -84,6 +85,23 @@ const Accordion = (props) => {
             .accordion-content ul li{
                 font-size: var(--fs-300);
                 margin-bottom: .5%;
+            }
+            @media (max-width: 768px) {
+                .accordion-item {
+                    border-radius: 25px;
+                    padding: 5%;
+                }
+            }
+            @media (max-width: 425px) {
+                .accordion-title-arrow {
+                    order: 2;
+                }
+                .accordion-title {
+                    flex-direction: column;
+                }
+                .accordion-title-date p {
+                    display: none;
+                }
             }
             `}</style>
         </>

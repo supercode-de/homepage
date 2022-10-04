@@ -5,7 +5,7 @@ const DarkInfoTextTop = () => {
                 <h2>
                     Die beste, flexibelste und schnellste{" "}
                     Art sich neben dem Job weiterzubilden – 
-                    <span className="headlines_stroke"><span className="circle">unsere {window.innerWidth < 400 ? <br /> : null}  MicroCamps</span></span>
+                    <span className="headlines_stroke"><span className="circle">unsere {window.innerWidth < 400 ? <br /> : ""}  MicroCamps</span></span>
                 </h2>
             </div>
             <style jsx>{`

@@ -13,7 +13,7 @@ const TermineMicrocamps = (props) => {
                 <p className="places-wr">
                     <span className="circle">max. 8 Plätze</span>
                 </p>
-                <MC_Warteliste_Popup 
+                <MC_Warteliste_Popup
                     wartelisteLinkFormID={props.wartelisteLinkFormID}
                     theme={props.data.data.theme}
                 />
@@ -86,6 +86,17 @@ const TermineMicrocamps = (props) => {
                 .right-wrapper h6  {
                     font-weight: 400;
                     margin: 0;
+                }
+
+
+                @media (max-width: 500px) {
+                    .single-card {
+                        display: block;
+                    }
+                    .right-wrapper {
+                        text-align: center;
+                        margin-top: 20px;
+                    }
                 }
             `}</style>
         </div>

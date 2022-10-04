@@ -18,7 +18,7 @@ const UxUiPaySection = () => {
 
       <style jsx>{`
         .ui-ux-pay {
-          padding: 12.5rem 10.125rem;
+          padding: 10% 5%;
         }
         .ui-ux-pay .img-wrapper {
           display: flex;
@@ -31,9 +31,6 @@ const UxUiPaySection = () => {
           margin-top: 20px;
         }
         @media only screen and (max-width: 576px) {
-          .ui-ux-pay {
-            padding: 3.125rem 4.5rem;
-          }
           .ui-ux-pay .img-wrapper img {
             max-width: 100%;
           }

@@ -17,7 +17,7 @@ const SolutionLearningUxUi = () => {
 
       <style jsx>{`
         .solution-wrapper {
-          padding: 12.5rem 10.125rem;
+          padding: 10% 5%;
         }
         .solution-wrapper p:nth-of-type(1) {
           margin-bottom: 2rem;
@@ -26,10 +26,10 @@ const SolutionLearningUxUi = () => {
           display: flex;
           justify-content: center;
         }
+        .img-wrapper img {
+          width: 100%;
+        }
         @media only screen and (max-width: 576px) {
-          .solution-wrapper {
-            padding: 3.125rem 4.5rem;
-          }
           .solution-wrapper .img-wrapper img {
             max-width: 100%;
           }
