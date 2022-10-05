@@ -24,6 +24,7 @@ module.exports = {
       "/kurse/ux-ui-kurs": {page:"/ux-ui-kurs"},
       "/danke": { page: "/danke" },
       "/microcamps": {page: "/microcamps"},
+      "/microcamps/unsere-story": {page: "/microcamps/unsere-story"},
       "/microcamps/ux-design-verstehen-ideen-entwickeln-microcamp": {page: "/microcamps/[id]"},
       "/microcamps/ui-design-strukturieren-gestalten-microcamp": {page: "/microcamps/[id]"},
       "/microcamps/ux-research-untersuchen-testen-microcamp": {page: "/microcamps/[id]"},
