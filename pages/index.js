@@ -46,7 +46,7 @@ export default function Home(props) {
             <MeldeDich />
             {/* 
               package installiert, lazyLoading, content wird erst geladen wenn sichtbar
-              */}
+              */} 
             <div ref={observe}>
               {/* 
               https://www.better.dev/lazy-loading-next-js 
