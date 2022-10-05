@@ -7,7 +7,7 @@ const AlumniSection = () => {
     return (
         <section className="alumniSection">
             <div className="wrap" id="alumniSection">
-                <h3>Das sagen unsere Teilnehmende</h3>
+                <h3>Das sagen unsere Teilnehmenden</h3>
                 <h3>
                     <span className="headlines_stroke">
                         aus ganz {window.innerWidth < 400 ? <br /> : null}
@@ -21,7 +21,6 @@ const AlumniSection = () => {
                             id={alumniItem.id}
                             name={alumniItem.name}
                             posterSrc={alumniItem.posterSrc}
-                            jobtitel={alumniItem.jobtitel}
                             videoSrc={alumniItem.videoSrc}
                         />
                     ))}

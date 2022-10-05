@@ -276,7 +276,7 @@ class Navigation extends Component {
           }
           #supercodeLogo2022 {
             left: 80px;
-            width: 136px;
+            width: 166px;
             display: ${window.scrollY > 0 ? 'none' : 'block'};
           }
 
@@ -487,7 +487,7 @@ class Navigation extends Component {
           }
           .nav-list {
             display: ${window.scrollY > 0 ||
-            document.documentElement.clientWidth <= 1116
+            document.documentElement.clientWidth <= 1140
             ? 'none'
             : 'flex'};
           }
@@ -497,7 +497,7 @@ class Navigation extends Component {
             z-index: 99998;
             cursor: pointer;
             display: ${window.scrollY > 0 ||
-            document.documentElement.clientWidth <= 1116
+            document.documentElement.clientWidth <= 1140
             ? 'unset'
             : 'none'};
           }
@@ -964,14 +964,10 @@ class Navigation extends Component {
             }
           }
 
-          @media (max-width: 520px) {
-          }
-
-          @media (max-width: 468px) {
-          }
-          @media (max-width: 400px) {
-          }
-          @media (max-width: 349px) {
+          @media (max-width: 320px) {
+            #supercodeLogo2022 {
+              width: 130px;
+            }
           }
           @keyframes bounce {
             0%,

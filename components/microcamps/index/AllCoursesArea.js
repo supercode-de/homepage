@@ -9,10 +9,10 @@ const AllCoursesArea = () => {
                         unsere<span className="headlines_stroke"> MicroCamps</span>
                     </h3>
                     <p>
-                        Du bist wissenshungrig, möchtest aber nicht gleich das ganze Menü bestellen? Kein Problem! Stell dir deine Kurse individuell zusammen und lerne nur das, was du wirklich brauchst.
+                        Du bist wissenshungrig, möchtest aber nicht ganze 3 Monate in einem Web-Development oder UX/UI-Design Bootcamp hängen? Kein Problem! Stell dir deinen Lernpfad individuell zusammen und lerne nur das, was du wirklich brauchst.
                     </p>
                 </article>
-                <AllCoursesList/>
+                <AllCoursesList />
 
             </div>
             <style jsx>{`

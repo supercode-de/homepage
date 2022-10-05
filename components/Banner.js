@@ -3,7 +3,8 @@ const Banner = () => {
   return (
     <section id="banner">
       <h3>
-        Unsere Anmeldephase läuft. <Link href="/#zukunft">Erfahre mehr</Link>
+        Lust auf kostenlose Workshops?     
+        <Link href="https://www.eventbrite.de/o/supercode-20262218583" passHref><a target="_blank">Dann hier entlang</a></Link>
       </h3>
       <style jsx>{`
           #banner {
@@ -19,6 +20,7 @@ const Banner = () => {
           }
           #banner h3 a {
             color: var(--super-lila);
+            margin-left: 5px;
           }
           #erfahre-mehr {
             color: var(--super-lila);

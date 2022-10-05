@@ -114,7 +114,7 @@ class Layout extends Component {
               line-height: 115%;
             }
             :root {
-              --super-green: #3dd7ac;
+              --super-green: #00ECAA;
               --super-lila: #5d3ede;
               --super-blau: #070021;
               --super-black: #03000f;

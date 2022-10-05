@@ -231,7 +231,7 @@ const AllCoursesList = () => {
             .btn__wrap .btn--more {
                 margin: 5% 0;
                 padding: 1% 6%;
-                font-family: var(--ff-reg-regular);
+                font-family: var(--ff-reg-bold);
                 border: none;
                 font-size: var(--fs-500);
                 background-color: var(--clr-super-green);

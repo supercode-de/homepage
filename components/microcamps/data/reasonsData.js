@@ -12,7 +12,7 @@ let reasons = [
     {
         id: 2,
         title: " Kostengünstig und transparent",
-        reason: "...wöchentlich bezahlbar und kündbar. Sehr geringe Raten von 150 - max. 250 € pro Woche.",
+        reason: "Unsere MicroCamps Kosten nicht so viel wie herkömmliche Web-Development Bootcamps oder UX/UI-Design Bootcamps, aber auch nicht so wenig wie unpersönliche Online-Tutorials ohne Support. Der Preis ist transparent und immer gleich: 150,00 € pro Woche.",
     },
     {
         id: 3,
@@ -32,7 +32,7 @@ let reasons = [
     {
         id: 6,
         title: " Das beste Bootcamp Deutschlands",
-        reason: "Unsere 5 Sterne Bewertung bei Facebook und Google spricht für sich. ;)",
+        reason: "Unsere 5-Sterne-Bewertungen bei Facebook, Google & Course Report sprechen für sich. ;)",
     }
 ];
 export default reasons;

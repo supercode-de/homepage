@@ -14,10 +14,10 @@ const OurStorySection = () => {
                     </h3>
                     <h3>unseren MicroCamps</h3>
                     <p>
-                        Als erster deutschsprachiger Anbieter bieten wir dir ein revolutionäres Bildungskonzept, in dem ganz allein DU bestimmst, welche Inhalte du lernen willst.
+                        Als erster deutschsprachiger Anbieter bieten wir dir ein revolutionäres Bildungskonzept, in dem ganz allein DU bestimmst, welche Inhalte du lernen willst. Web-Entwicklung, UX/UI-Design und bald auch Data!
                     </p>
                     <p>
-                        Und das Ganze in spannenden online live Kurse, mit echten Menschen und guten Trainer*innen.
+                        Und das Ganze in spannenden Online & Live Kursen, mit echten Menschen und Trainer*innen.
                     </p>
                 </div>
                 <div className="ourStorySection__mainWrap">
@@ -37,7 +37,7 @@ const OurStorySection = () => {
                                 "Seien wir mal ehrlich: Sich neben dem Beruf weiterzubilden, ist häufig mit viel Aufwand und hohen Kosten verbunden. Oft sind die Bildungsangebote inhaltlich nicht passend, zu zeitaufwändig oder schlicht und einfach nicht fesselnd genug: Online-Tutorials werden angefangen, aber nicht zu Ende gemacht, Bootcamps sind vielleicht zu teuer und interne Fortbildungen beim Arbeitgeber gehen in eine ganz andere Richtung.
                             </p>
                             <p>
-                                Und deshalb wurden die MicroCamps geboren. Hier bekommst du das, was du wirklich lernen möchtest – flexibel, günstig und neben dem Beruf. Nette Menschen in kleinen Lerngruppen und kompetente Trainer*innen begleiten dich wochenweise. Und du stellst dir deinen Kurs einfach individuell zusammen.
+                                Und deshalb sind die neuen MicroCamps entstanden. Hier bekommst du das, was du wirklich lernen möchtest – flexibel, günstig und neben dem Beruf. Nette Menschen in kleinen Lerngruppen und kompetente Trainer*innen begleiten dich wochenweise.
                             </p>
                             <p>
                                 Probier es aus, wir freuen uns auf dich!"

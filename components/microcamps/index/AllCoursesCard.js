@@ -107,9 +107,10 @@ const AllCoursesCard = (props) => {
         .allCoursesArea__list__viewList__card__main .plusList p {
           font-size: var(--fs-100);
           background-color: var(--clr-super-white);
-          padding: 2% 3%;
+          padding: 3%;
           border-radius: 20px;
           color: var(--clr-super-black);
+          line-height: 100%;
         }
         .allCoursesArea__list__viewList__card__main p {
           font-size: var(--fs-200);

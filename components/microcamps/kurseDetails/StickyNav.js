@@ -1,6 +1,4 @@
 const StickyNav = () => {
-    console.log(window);
-
     return (
         <section className="stickyNav">
             <div className="wrap">

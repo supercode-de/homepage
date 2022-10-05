@@ -1,5 +1,5 @@
 const AlumniSectionVideoCard = (props) => {
-    const { name, posterSrc, videoSrc, jobtitel} = props
+    const { name, posterSrc, videoSrc} = props
     return (
         <div className="alumniSection__videoArea__card">
             <video controls poster={posterSrc} >
@@ -7,8 +7,6 @@ const AlumniSectionVideoCard = (props) => {
                 Your browser does not support the video tag.
             </video>
             <h5>{name}</h5>
-            <p>{jobtitel}</p>
-
             <style jsx>{`
                 video {
                     width: 100%;

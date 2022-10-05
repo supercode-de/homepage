@@ -2,6 +2,7 @@ import Popup from 'reactjs-popup';
 import HubspotForm from 'react-hubspot-form';
 
 const Typeform = (props) => {
+  console.log(props.theme)
   return (
     <>
       <Popup
@@ -13,7 +14,7 @@ const Typeform = (props) => {
 
             <div className='curriculum-popup-input'>
               <h1 className='three-lines'>
-                Für die {props.theme === "design" ? "UX/UI-Design" : "WebDev"} Warteliste <span className='super'>anmelden</span>
+                Für die Warteliste <span className='super'>anmelden</span>
                 <p>Unsere MicroCamps gehen 2023 an den Start. Wenn du das nicht verpassen willst, melde dich fix bei unserem Newsletter an! 😉</p>
               </h1>
               <HubspotForm

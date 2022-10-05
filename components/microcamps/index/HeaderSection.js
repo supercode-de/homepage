@@ -16,7 +16,7 @@ const HeaderSection = () => {
                         <span className="headlines_stroke">live MicroCamps</span>
                     </h2>
                     <p>
-                        Unsere live & online UX/UI & Coding MicroCamps sind so aufgebaut, dass du dich ganz flexibel neben deinem Job weiterbilden kannst – zertifiziert, hochwertig und mit live Trainer*innen!
+                        Unsere MicroCamps sind so aufgebaut, dass du dich ganz flexibel neben deinem Job im Bereich UX/UI & Web-Entwicklung weiterbilden kannst – live, online, zertifiziert und mit live Trainer*innen!
                     </p>
                     <a className="btn" href="#allCourses">
                         zu den Kursen
@@ -41,7 +41,7 @@ const HeaderSection = () => {
                     padding: 8% 0 0 5%;
                 }
                 .headerSection .wrap article h2 .circle {
-                    background: url(/img/microcamps/live_circle.svg) center center / contain no-repeat;
+                    background: url(/img/microcamps/live-circle2.svg) 100% 40% / contain no-repeat;
                     padding: var(--fs-100);
                 }
                 .headerSection .wrap article p {

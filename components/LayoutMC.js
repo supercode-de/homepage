@@ -345,6 +345,10 @@ class LayoutMC extends Component {
               }
             }
 
+
+            .hs-form-e7a9bd57-98eb-4480-8a29-7d69d9bb15d5_169a8c08-f660-434e-bc5a-3d1c78116c7d.hs-form {
+              margin: 0 auto !important;
+            }
           `}
         </style>
       </div>

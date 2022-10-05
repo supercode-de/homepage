@@ -87,7 +87,6 @@ const Index_Header = () => {
           }
           .twocolumn > img {
             width: 100%;
-            // align-self:center
           }
           .onecolumn {
             display: grid;
@@ -104,7 +103,7 @@ const Index_Header = () => {
           }
           .twocolumn + img {
             position: absolute;
-            z-index: 2;
+            z-index: 1;
             margin-top: -15vh;
             margin-left: -3.5vw;
             width: 340px;
