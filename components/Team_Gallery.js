@@ -149,6 +149,7 @@ const Team_Gallery = (props) => {
         .teamname {
           font-size: 1.5rem;
           font-family: 'Neue_Machina_Ultrabold';
+          margin-top: 2%;
         }
         .teamImg {
           width: 100%;

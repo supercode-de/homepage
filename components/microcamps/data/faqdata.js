@@ -1,7 +1,7 @@
 let faqdata = [
     {
         question: "Wie viel kosten die MicroCamps?",
-        answer: "Das kommt ganz darauf an, für welchen Kurs du dich entscheidest, denn das ist abhängig von der Dauer des Kurses. Es wird wochenweise abgerechnet – die Kosten pro Woche liegen bei 200 €."
+        answer: "Das kommt ganz darauf an, für welchen Kurs du dich entscheidest, denn das ist abhängig von der Dauer des Kurses. Es wird wochenweise abgerechnet – die Kosten pro Woche liegen bei 150 €."
     },
     {
         question: "Können die Kosten übernommen werden?",
