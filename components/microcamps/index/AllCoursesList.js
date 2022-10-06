@@ -230,7 +230,7 @@ const AllCoursesList = () => {
             }
             .btn__wrap .btn--more {
                 margin: 5% 0;
-                padding: 1% 6%;
+                padding: 2% 6%;
                 font-family: var(--ff-reg-bold);
                 border: none;
                 font-size: var(--fs-500);
@@ -271,6 +271,9 @@ const AllCoursesList = () => {
             @media (max-width: 425px) {
                 .allCoursesArea__list__viewList {
                     width: 90%;
+                }
+                .btn__wrap .btn--more {
+                    padding: 4% 8%;
                 }
             }
         `}</style>
