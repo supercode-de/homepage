@@ -38,6 +38,11 @@ const BigPictureSection = () => {
             font-size: var(--fs-500);
           }
         }
+        @media (max-width: 425px) {
+          .bigPictureSection .textWrap {
+            border-radius: 25px;
+          }
+        }
       `}</style>
     </section>
   );

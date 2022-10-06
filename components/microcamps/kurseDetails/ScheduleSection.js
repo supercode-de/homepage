@@ -102,6 +102,11 @@ const ScheduleSection = (props) => {
                         width: 100%;
                     }
                 }
+                @media (max-width: 425px) {
+                    .scheduleSection__overview__headline {
+                        margin: 10% 0% 5% 0;
+                    }
+                }
             `}</style>
         </section>
     );

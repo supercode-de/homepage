@@ -39,6 +39,11 @@ const AlumniZitate = (props) => {
                             margin: 0 auto;
                         }
                     }
+                    @media (max-width: 425px) {
+                        .scheduleSection__alumniZitat {
+                            width: 80%;
+                        }
+                    }
                 `}</style>
                 </article>
             }

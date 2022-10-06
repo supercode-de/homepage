@@ -168,6 +168,10 @@ const OurStorySection = () => {
                     .ourStorySection__mainWrap__mainContent .text p {
                         margin: 0 0 2% 0;
                     }
+                    .ourStorySection__mainWrap .leftImageWrap img,
+                    .ourStorySection__mainWrap__mainContent .image img {
+                        border-radius: 25px;
+                    }
                 }
             `}</style>
         </section>

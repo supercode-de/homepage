@@ -216,12 +216,12 @@ class LayoutMC extends Component {
             
             @media (max-width: 768px) {
               .wrap {
-                padding: 20% 5%;
+                padding: 15% 5%;
               }
             }
             @media (max-width: 425px) {
               .wrap {
-                padding: 28% 5%;
+                padding: 20% 5%;
               }
             }
 
@@ -274,7 +274,8 @@ class LayoutMC extends Component {
                 font-weight: 300;
             }
             h3 {
-                font-size: var(--fs-800);
+                // font-size: var(--fs-800);
+                font-size: clamp(1.5625rem, 1.2rem + 1.8125vw, 3.375rem);
                 line-height: 100%;
                 font-weight: 300;
             }

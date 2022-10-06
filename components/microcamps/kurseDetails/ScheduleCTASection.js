@@ -46,6 +46,11 @@ const ScheduleCTASection = (props) => {
                             left: 50%;
                             transform: translate(-50%, -50%);
                         }
+                        @media (max-width: 768px) {
+                            .scheduleSection__overview__headline {
+                                margin: 10% 0% 5% 0;
+                            }
+                        }
                     `}</style>
                 </article>
     )

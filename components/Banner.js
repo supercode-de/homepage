@@ -10,12 +10,12 @@ const Banner = () => {
           #banner {
             background: var(--super-green);
             text-align: center;
-            padding: 15px 0;
+            padding: 1.5vh 5vw;
           }
           #banner h3 {
             text-transform: uppercase;
             color: var(--super-lila);
-            font-size: 1em;
+            font-size: clamp(0.75rem, 0.7rem + 0.25vw, 1rem);
             letter-spacing: 1.3px;
           }
           #banner h3 a {
@@ -25,11 +25,7 @@ const Banner = () => {
           #erfahre-mehr {
             color: var(--super-lila);
           }
-          @media (max-width: 468px) {
-            #banner h3 {
-              font-size: 1.1em;
-            }
-          }
+
         `}
       </style>
     </section>

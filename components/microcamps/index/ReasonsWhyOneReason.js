@@ -60,10 +60,11 @@ const ReasonsWhyOneReason = (props) => {
                 }
                 li .reasonWrap div h3 {
                     color: var(--clr-super-lila);
-                    font-size: clamp(1.875rem, 1.4375rem + 2.1875vw, 4.0625rem);
+                    font-size: clamp(1.25rem, 0.6875rem + 2.8125vw, 4.0625rem);
                 }
                 li .reasonWrap div h3 .headlines_stroke {
                     -webkit-text-stroke: 0.025em var(--clr-super-green);
+                    font-size: clamp(1.5625rem, 1.1183rem + 1.6722vw, 3.125rem);
                 }
                 li .reasonWrap div h3:first-of-type {
                     width: 130px;
@@ -101,6 +102,12 @@ const ReasonsWhyOneReason = (props) => {
                         border-radius: 25px;
                         width: 90%;
                         top: 70%;
+                        padding: 5%;
+                    }
+                }
+                @media (max-width: 1024px) {
+                    li .reasonWrap div h3:first-of-type {
+                        width: 86px;
                     }
                 }
                 @media only screen and (max-width: 768px) {
@@ -109,7 +116,13 @@ const ReasonsWhyOneReason = (props) => {
                     }
 
                     li .reasonWrap {
-                        margin: 3% 0 0 0;
+                        margin: 5% 0 0 0;
+                    }
+                }
+                @media (max-width: 425px) {
+                    li .reasonWrap {
+                        align-items: flex-end;
+                        margin: 8% 0 0 0;
                     }
                 }
             `}</style>

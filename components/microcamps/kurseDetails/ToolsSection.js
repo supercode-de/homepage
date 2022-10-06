@@ -35,6 +35,7 @@ const ToolsSection = (props) => {
                 }
                 .toolsSection__toolList {
                     display: flex;
+                    flex-wrap: wrap;
                     gap: 25px;
                 }
                 

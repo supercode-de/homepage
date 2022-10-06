@@ -1,5 +1,26 @@
 import { useState, useEffect, useRef } from "react";
 import teamData from "../../microcamps/data/teamData";
+import Carousel from 'react-multi-carousel';
+
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+    },
+};
 const TeamSection = ({ data }) => {
     const shouldLog = useRef(true)
     const [filteredTeam, setFilteredTeam] = useState(teamData)
@@ -17,6 +38,7 @@ const TeamSection = ({ data }) => {
         }
     }, [filteredTeam, data.theme])
 
+    console.log(filteredTeam.length);
     return (
         <section className="teamSection" id="teamSection">
             <div className="wrap">
@@ -36,6 +58,30 @@ const TeamSection = ({ data }) => {
                     )
                     )}
                 </article>
+                {filteredTeam.length > 1 ? 
+                <div className='teamSection--carousel'>
+                <Carousel
+                    responsive={responsive}
+                    ssr
+                    showDots={false}
+                    slidesToSlide={1}
+                    infinite
+                    containerClass='container-with-dots'
+                    itemClass='image-item'
+                    deviceType={''}
+                >
+                    {filteredTeam.map((team, i) => (
+                        <div key={i} className="teamSection__gridTeam__card">
+                        <img src={`/img/${team.img}`} alt={`SuperCode Mitarbeiter*in ${team.name}`} />
+                        <h5>{team.name}</h5>
+                        <p>{team.jobtitel}</p>
+                    </div>
+                    ))}
+                </Carousel>
+            </div>
+            :    
+            ""}
+                
             </div>
 
             <style jsx>{`
@@ -61,10 +107,25 @@ const TeamSection = ({ data }) => {
                 .teamSection__gridTeam__card h5 {
                     color: var(--clr-super-green);
                 }
+                .teamSection--carousel {
+                    display: none;
+                }
 
                 @media only screen and (max-width: 1200px)  {
                     .teamSection__gridTeam {
                         grid-template-columns: repeat(2,1fr);
+
+                    }
+                }
+                @media (max-width: 768px) {
+                    .teamSection--carousel {
+                        display: block;
+                    }
+                    .teamSection__gridTeam__card {
+                        margin-right: 50px;
+                    }
+                    .teamSection__gridTeam {
+                        display: ${filteredTeam.length === 1 ? "block" : "none"};
                     }
                 }
             `}</style>  

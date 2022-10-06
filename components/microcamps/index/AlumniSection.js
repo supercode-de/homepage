@@ -1,8 +1,30 @@
-import AlumniSectionReviewCard from "./AlumniSectionReviewCard";
+// import AlumniSectionReviewCard from "./AlumniSectionReviewCard";
+import AlumniSectionReviewCardMarquee from "./AlumniSectionReviewCardMarquee";
 import AlumniSectionVideoCard from "./AlumniSectionVideoCard";
-import alumniBewertungen from "../../microcamps/data/alumniBewertungen";
+// import alumniBewertungen from "../../microcamps/data/alumniBewertungen";
 import alumniInterviewsData from "../../microcamps/data/alumniInterviewsData";
 
+import Marquee from "react-fast-marquee";
+import Carousel from 'react-multi-carousel';
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 3,
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 2,
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+    },
+};
 const AlumniSection = () => {
     return (
         <section className="alumniSection">
@@ -25,15 +47,59 @@ const AlumniSection = () => {
                         />
                     ))}
                 </article>
+                <div className='alumniVideo-carousel'>
+                    <Carousel
+                        responsive={responsive}
+                        ssr
+                        showDots={false}
+                        slidesToSlide={1}
+                        infinite
+                        containerClass='container-with-dots'
+                        itemClass='image-item'
+                        deviceType={''}
+                    >
+                        {alumniInterviewsData.map((alumniItem, i) => (
+                            <AlumniSectionVideoCard
+                                key={i}
+                                id={alumniItem.id}
+                                name={alumniItem.name}
+                                posterSrc={alumniItem.posterSrc}
+                                videoSrc={alumniItem.videoSrc}
+                            />
+                        ))}
+                    </Carousel>
+                </div>
                 <article className="alumniSection__reviewGrid">
-                    {alumniBewertungen.map((bewertung, i) => (
+                    {/* <Marquee speed={100} gradient={false} pauseOnHover={true}>
+                        {alumniBewertungen.map((bewertung, i) => (
+                            <AlumniSectionReviewCard
+                            key={i}
+                            name={bewertung.name}
+                            jobtitel={bewertung.jobtitel}
+                            bewertung={bewertung.bewertung}
+                        />
+                        ))}
+                    </Marquee> */}
+                    {/* {alumniBewertungen.map((bewertung, i) => (
                         <AlumniSectionReviewCard
                             key={i}
                             name={bewertung.name}
                             jobtitel={bewertung.jobtitel}
                             bewertung={bewertung.bewertung}
                         />
-                    ))}
+                    ))} */}
+
+                    {/* {alumniBewertungen.map((bewertung, i) => (
+                            <AlumniSectionReviewCardMarquee
+                                key={i}
+                                name={bewertung.name}
+                                jobtitel={bewertung.jobtitel}
+                                bewertung={bewertung.bewertung}
+                            />
+                        ))} */}
+                    <Marquee speed={50} pauseOnHover={true} gradientColor={[93, 62, 222]} gradient={false}>
+                        <AlumniSectionReviewCardMarquee />
+                    </Marquee>
                 </article>
             </div>
 
@@ -77,10 +143,14 @@ const AlumniSection = () => {
                     right: -8%;
                 }
                 .alumniSection__reviewGrid {
-                    display: grid;
-                    grid-template-columns: repeat(3, 1fr);
-                    gap: 20px;
+                    // display: grid;
+                    // grid-template-columns: repeat(3, 1fr);
+                    // gap: 20px;
                 }
+                .alumniVideo-carousel {
+                    display: none;
+                }
+
                 @media only screen and (max-width: 1200px) {
                     .alumniSection__videoArea {
                         grid-template-columns: repeat(2, 1fr);
@@ -108,8 +178,16 @@ const AlumniSection = () => {
                     .alumniSection__videoArea::-webkit-scrollbar {
                         display: none;
                     }
+                }   
+                @media (max-width: 425px) {
+                    .alumniSection__videoArea {
+                        display: none;
+                    }
+                    .alumniVideo-carousel {
+                        display: block;
+                        margin-top: 25px;
+                    }
                 }
-
                 @media (max-width: 375px) {
                     .alumniSection h3 .circle {
                         background: none;

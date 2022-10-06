@@ -70,7 +70,7 @@ const Bootcamps = (props) => {
           }
           @media (max-width: 768px) {
             .cards {
-              width: 100%;
+              width: 90%;
               margin: 5rem auto;
             }
             .copy {

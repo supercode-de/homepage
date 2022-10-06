@@ -51,6 +51,17 @@ const Timetable = (props) => {
                         grid-template-columns: 1fr;
                     }
                 }
+                @media (max-width: 768px) {
+                    .scheduleSection__weekGrid {
+                        width: 70%;
+                        margin: 0 auto;
+                    }
+                }
+                @media (max-width: 425px) {
+                    .scheduleSection__weekGrid {
+                        width: 100%;
+                    }
+                }
             `}</style>
         </article>
     );
