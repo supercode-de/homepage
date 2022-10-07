@@ -1,6 +1,8 @@
 import ToolsOneTool from "./ToolsOneTool";
+import ToolsOneToolMobile from "./ToolsOneToolMobile";
 
 const ToolsSection = (props) => {
+    console.log(window.innerWidth)
     return (
         <section className="toolsSection" id="toolsSection">
             <div className="wrap">
@@ -12,11 +14,21 @@ const ToolsSection = (props) => {
                         In unseren MicroCamps arbeitest du mit den aktuellsten Tools. Im Gegensatz zu anderen Kursen, die noch mit einem veralteten Tech-Stack aus einer längst vergessenen Zeit arbeiten, sind wir der Meinung, dass moderne Tools deiner Karriere den nötigen Push geben.
                     </p>
                 </article>
-                <article className="toolsSection__toolList">
-                    {props.data.toolsInternal.map((tool, index) => {
-                        return <ToolsOneTool key={index} tool={tool} />
-                    })}
-                </article>
+                {window.innerWidth > 1000 ?
+                    <article className="toolsSection__toolList">
+                        {props.data.toolsInternal.map((tool, index) => {
+                            return <ToolsOneTool key={index} tool={tool} />
+                        })}
+                    </article>
+                    :
+                    <article className="toolsSection__toolList--mobile">
+                        {props.data.toolsInternal.map((tool, index) => {
+                            return <ToolsOneToolMobile key={index} tool={tool} />
+                        })}
+                    </article>
+                }
+
+
             </div>
 
             <style jsx>{`
@@ -38,7 +50,11 @@ const ToolsSection = (props) => {
                     flex-wrap: wrap;
                     gap: 25px;
                 }
-                
+                @media (max-width: 768px) {
+                    .toolsSection__headline h3 + p {
+                        margin: 0;
+                    }
+                }
             `}</style>
         </section>
     );

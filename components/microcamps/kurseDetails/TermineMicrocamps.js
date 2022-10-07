@@ -41,10 +41,6 @@ const TermineMicrocamps = (props) => {
                     background: url("/img/microcamps/line_small.svg") left 110%/ 30% no-repeat;
                     margin-bottom: 15px;
                 }
-                .left-wrapper .info-text h4 {
-                    margin: 0 0 0.625rem 0;
-                    font-size: var(--fs-300);
-                }
         
                 .left-wrapper .info-text p {
                     font-size: var(--fs-200);
@@ -96,6 +92,21 @@ const TermineMicrocamps = (props) => {
                     .right-wrapper {
                         text-align: center;
                         margin-top: 20px;
+                    }
+                }
+                @media (max-width: 425px) {
+                    .single-card {
+                        padding: 2rem;
+                    }
+                    .left-wrapper h4 {
+                        line-height: 100%;
+                    }
+                    .left-wrapper .info-text .start-date {
+                        background: none;
+                        margin-top: 10px;
+                    }
+                    .right-wrapper img {
+                        margin-bottom: 10px;
                     }
                 }
             `}</style>

@@ -27,6 +27,11 @@ const ClassSection = (props) => {
                 .classSection img {
                     width: 100%;
                 }
+                @media (max-width: 768px) {
+                    .classSection__headline h3 + p {
+                        margin: 0 ;
+                    }
+                }
             `}</style>
         </section>
     );

@@ -23,16 +23,6 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "UX-Design verstehen & Ideen entwickeln",
-        "trainerName": "Ruben Wellinger",
-        "trainerTitel": "UX/UI-Design Trainer",
-        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
@@ -44,7 +34,7 @@
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird.."
       }
     ],
     "curriculumOverview": [
@@ -215,16 +205,6 @@
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
         "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
         "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "UI-Design strukturieren & gestalten",
-        "trainerName": "Ruben Wellinger",
-        "trainerTitel": "UX/UI-Design Trainer",
-        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "07.11.2022 - 02.12.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
       }
@@ -426,16 +406,6 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "UX Research untersuchen & testen",
-        "trainerName": "Ruben Wellinger",
-        "trainerTitel": "UX/UI-Design Trainer",
-        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
@@ -447,7 +417,7 @@
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "Notion",
@@ -639,16 +609,6 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "UX/UI-Design",
-        "trainerName": "Ruben Wellinger",
-        "trainerTitel": "UX/UI-Design Trainer",
-        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
@@ -660,7 +620,7 @@
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       }
     ],
     "curriculumOverview": [
@@ -922,16 +882,6 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "UI-Design",
-        "trainerName": "Ruben Wellinger",
-        "trainerTitel": "UX/UI-Design Trainer",
-        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
-        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
@@ -943,7 +893,7 @@
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       }
     ],
     "curriculumOverview": [
@@ -1186,23 +1136,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Front-End Fundamentals",
-        "trainerName": "Steffen Klömpges",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -1459,23 +1399,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "JavaScript Beginner",
-        "trainerName": "Steffen Klömpges",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -1658,23 +1588,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "JavaScript Advanced",
-        "trainerName": "Steffen Klömpges",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -1925,23 +1845,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "API's verstehen & anwenden",
-        "trainerName": "Steffen Klömpges",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -2123,23 +2033,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "React – das JavaScript Framework",
-        "trainerName": "Steffen Klömpges",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -2379,23 +2279,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Digitale Grundkompetenz",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -2661,23 +2551,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Python recap",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -2938,23 +2818,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Mathematik Grundlagen",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -3213,23 +3083,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Lineare Algebra",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -3488,23 +3348,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Sysadmin",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -3763,23 +3613,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Fortgeschrittene Mathematik",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -4038,23 +3878,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Data discovery",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -4313,23 +4143,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Feature Engineering & angewandte Mathematik",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -4588,23 +4408,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Machine Learning in TensorFlow",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",
@@ -4863,23 +4673,13 @@
         "datum": "10.10.2022 - 31.10.2022",
         "tage": "Montag & Mittwoch",
         "uhrzeit": "18 - 20 Uhr" 
-      },
-      {
-        "kursTitel": "Model Deployment",
-        "trainerName": "Thomas Kuhnert",
-        "trainerTitel": "Front-End Trainer",
-        "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
-        "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "07.11.2022 - 02.12.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
       }
     ],
     "toolsInternal": [
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI-Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       },
       {
         "name": "VSCode",

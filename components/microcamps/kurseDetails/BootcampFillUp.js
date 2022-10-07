@@ -85,7 +85,12 @@ const BootcampFillUp = (props) => {
             grid-template-columns: 1fr;
           }
         }
-
+        @media (max-width: 768px) {
+          .header-info p,
+          .header-info h3 {
+            max-width: 100%;
+          }
+        }
       `}</style>
     </article>
   );
