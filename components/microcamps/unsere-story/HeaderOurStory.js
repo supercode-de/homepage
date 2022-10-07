@@ -51,7 +51,11 @@ const HeaderOurStory = () => {
           margin-bottom: 25px;
         }
       }
-    
+    @media (max-width: 425px) {
+      .our-story-wrapper {
+        padding: 5rem 2rem;
+      }
+    }
     `}</style>
     </header>
   )

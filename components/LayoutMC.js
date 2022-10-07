@@ -345,6 +345,11 @@ class LayoutMC extends Component {
                 padding: 3.125rem 4.5rem;
               }
             }
+            @media (max-width: 425px) {
+              .our-story-wrapper h2:not(.lastBlueSection h2, .bigPictureSection .textWrap h2) {
+                margin-bottom: 5%;
+              }
+            }
 
 
             .hs-form-e7a9bd57-98eb-4480-8a29-7d69d9bb15d5_169a8c08-f660-434e-bc5a-3d1c78116c7d.hs-form {

@@ -154,6 +154,11 @@ const CurriculumSection = (props) => {
             order: 2;
           }
         }
+        @media (max-width: 425px) {
+          .curriculumSection__introArticle img {
+            margin: 2em 0;
+          }
+        }
         @media (max-width: 320px) {
           .curriculumSection__curriculumView {
             margin: 0;
