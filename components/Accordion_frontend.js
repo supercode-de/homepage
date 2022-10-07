@@ -12,10 +12,6 @@ export default function Accordion() {
 
   const refHeight = useRef();
 
-  useEffect(() => {
-    // setHeightEl(`${refHeight.current.scrollHeight}px`);
-  }, []);
-
   const toggleState = () => {
     setToggle(!toggle);
   };

@@ -30,7 +30,7 @@ for (let index = 0; index < rotateEffectElements.length; index++) {
             Math.ceil(scrollLimit / document.documentElement.clientHeight / 3) * 0.5;
         let totalRotation = numberOfRotations * 360;
         setRotateDeg((window.scrollY / scrollLimit) * totalRotation)
-    })
+    }, [])
     return (
         <>
             <Link href='/' passHref>
