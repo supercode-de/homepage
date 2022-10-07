@@ -6,7 +6,6 @@ const Index_Header = () => {
   return (
     <div id='header'>
       {/* <img id="supercodeLogo2022" src="/img/supercode_logo_2022.svg" alt="supercode logo" /> */}
-      {/* <h2 className='super-code'>super(code)</h2> */}
       <TelefonAside />
       <div className='twocolumn'>
         <div className='onecolumn'>

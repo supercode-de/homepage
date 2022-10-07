@@ -4,7 +4,6 @@ let reverseBlog = blog.reverse();
 const Blog = () => {
   return (
     <section className='blog-header'>
-      {/* <h2 className='super-code'>super(code)</h2> */}
       <article className='blog-hl'>
         <div className='blog-header-container'>
           <h2>Meine</h2>

@@ -331,7 +331,7 @@ class LayoutMC extends Component {
               max-width: 955px;
               margin-bottom: 3.125rem;
             }
-            .our-story-wrapper h2:not(.lastBlueSection h2, .bigPictureSection .textWrap h2) {
+            .our-story-wrapper h2:not(.lastBlueSection h2, .bigPictureSection .textWrap h2, #faq h2) {
               color: var(--clr-super-lila);
               font-size: var(--fs-800);
               margin-bottom: 2%;

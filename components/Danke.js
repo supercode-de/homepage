@@ -13,7 +13,7 @@ const Danke = () => {
   }, []);
   return (
     <div id='header'>
-      <h2 className='super-code'>super(code)</h2>
+
       <TelefonAside />
 
       <div className='content'>

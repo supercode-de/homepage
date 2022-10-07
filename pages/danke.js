@@ -8,7 +8,7 @@ export default function Custom404() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout>
+      <Layout> 
         <div className='container'>
           <Pixel1 name="FACEBOOK_PIXEL_1" />
           <main>
