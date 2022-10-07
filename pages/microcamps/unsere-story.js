@@ -35,27 +35,6 @@ export default function index() {
             </LayoutMC>
         );
     } else {
-        return (
-            <Head>
-                <meta
-                    property='og:image:secure'
-                    content='https://www.super-code.de/img/page-preview.jpg'
-                />
-                <meta
-                    property='og:image'
-                    content='http://www.super-code.de/img/page-preview.jpg'
-                />
-                <meta property='og:url' content='https://www.super-code.de/unsere-story' />
-                <meta property='og:type' content='Website' />
-                <meta
-                    property='og:title'
-                    content='MicroCamps - Unsere Geschichte'
-                />
-
-                <title>MicroCamps</title>
-                <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-                <link rel='alternate icon' href='/favicon.ico' />
-            </Head>
-        );
+        return ""
     }
 }
