@@ -17,6 +17,7 @@ import kurseData from '../components/data/kursedata.json';
 import faqData from "../components/data/faq";
 import useInView from "react-cool-inview";
 import dynamic from 'next/dynamic'
+import AlumniSection from '../components/microcamps/index/AlumniSection';
 
 const Index_Blog = dynamic(() => import('../components/Index_Blog'))
 
@@ -44,6 +45,7 @@ export default function Home(props) {
             <Finanzierung />
             <Bewerbungsprozess />
             <MeldeDich />
+            <AlumniSection />
             {/* 
               package installiert, lazyLoading, content wird erst geladen wenn sichtbar
               */} 

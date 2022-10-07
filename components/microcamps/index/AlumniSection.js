@@ -105,13 +105,18 @@ const AlumniSection = () => {
 
             <style jsx>{`
                 .alumniSection {
-                    background-color: var(--clr-super-lila);
-                    color: var(--clr-super-white);
+                    background-color: var(--super-lila);
+                    color: var(--super-white);
                 }
                 
                 .alumniSection h3 .circle {
                     background: url("/img/microcamps/world_circle.svg") center center / contain no-repeat;
-                    padding: var(--fs-100);
+                    padding: clamp(0.6875rem, 4vw, 0.6875rem);
+                }
+                .alumniSection h3 {
+                    font-size: clamp(1.5625rem, 1.2rem + 1.8125vw, 3.375rem);
+                    line-height: 100%;
+                    font-weight: 300;
                 }
                 .alumniSection__videoArea {
                     display: grid;

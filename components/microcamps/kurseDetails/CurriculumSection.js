@@ -122,7 +122,7 @@ const CurriculumSection = (props) => {
         .curriculumSection__introArticle img {
           border-radius: 25px;
           width: 30%;
-          height: fit-content;
+          // height: fit-content;
         }
         .curriculumSection__curriculumView {
           margin: 0 5%;

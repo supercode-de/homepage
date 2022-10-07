@@ -144,7 +144,9 @@ const Index_Blog = () => {
         .zum-artikel:hover {
           color: var(--super-green);
         }
-
+        .zum-artikel {
+          padding-bottom: 30px;
+        }
         p {
           padding: 10px 0;
           font-weight: 200;

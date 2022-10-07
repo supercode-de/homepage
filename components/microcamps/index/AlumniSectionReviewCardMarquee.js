@@ -9,27 +9,20 @@ const AlumniSectionReviewCardMarquee = (props) => {
                     <div className="card">
                         <h5>{bewertung.name}</h5>
                         <p>{bewertung.jobtitel}</p>
-                        <p className="flexible">{bewertung.bewertung}</p>
+                        <p className="flexible">"{bewertung.bewertung}"</p>
                     </div>
                 ))}
-
             </div>
 
-
             <style jsx>{`
-                .alumniSection__reviewGrid__card h5 {
-                    padding: 0 0 0 5%;
+                .alumniSection__reviewGrid__card--inner h5 {
+                    font-size: var(--fs-600);
+                    margin: 5% 0 0 0;
+                    line-height: 39px;
                 }
-                .alumniSection__reviewGrid__card p {
-                    white-space: pre-line;
-                    padding: 0 0 0 5%;
-                    margin: 0 0 2% 0;
-                    font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
-                }
-                .alumniSection__reviewGrid__card--inner p:last-of-type {
-                    // padding: 2% 0 0 5%;
-                    background-image: url("/img/microcamps/questionmark.svg");
-                    background-repeat: no-repeat;
+                .alumniSection__reviewGrid__card--inner p {
+                font-size: clamp(1rem, 4vw, 1.25rem);
+                line-height: 115%;
                 }
 
                 .alumniSection__reviewGrid__card--outer {

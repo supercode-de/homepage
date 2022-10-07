@@ -18,13 +18,22 @@ const AlumniSectionVideoCard = (props) => {
                 .alumniSection__videoArea__card p {
                     font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
                 }
-                
+                .alumniSection__videoArea__card h5 {
+                    font-size: var(--fs-600);
+                    margin: 5% 0 0 0;
+                    line-height: 39px;
+                }
             
                 @media only screen and (max-width: 768px) {
                     .alumniSection__videoArea__card {
                         width: 80%;
                         flex-shrink: 0;
                         scroll-snap-align: center;  
+                    }
+                }
+                @media (max-width: 425px) {
+                    .alumniSection__videoArea__card {
+                        width: 100%;
                     }
                 }
             `}</style>
