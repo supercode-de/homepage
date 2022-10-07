@@ -51,6 +51,9 @@ const Zukunft = (props) => {
           justify-content: space-between;
           flex-wrap: wrap;
         }
+        .infos h1 {
+          margin-bottom: 1em;
+        }
         .infos a {
           color: inherit;
         }

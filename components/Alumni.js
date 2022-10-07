@@ -99,8 +99,8 @@ const Alumni = () => {
       <style jsx>{`
         #absolventen {
           color: var(--super-green);
+          background: var(--super-blau);
           position: relative;
-          background: url("./img/bg-line2.png") top/150% no-repeat, url("./img/bg-line2.png") center/100% no-repeat, var(--super-blau);
           padding: 70px 0;
         }
         .aside {
@@ -245,6 +245,11 @@ const Alumni = () => {
           }
           .alumni-carousel {
             display: block;
+          }
+        }
+        @media (max-width: 425px) {
+          h1 {
+            margin: 0 7% 60px;
           }
         }
       `}</style>

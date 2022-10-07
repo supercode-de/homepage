@@ -13,6 +13,7 @@ const TelefonAside = () => {
           top: 50%;
           color: var(--super-white);
           z-index: 9;
+          display: none;
         }
         a {
           color: inherit;
@@ -21,6 +22,7 @@ const TelefonAside = () => {
         @media (max-width: 768px) {
           .aside {
             left: -7%;
+            display: block;
           }
         }
         @media (max-width: 425px) {

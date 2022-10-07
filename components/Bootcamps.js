@@ -8,7 +8,6 @@ const Bootcamps = (props) => {
         <div className='headlines'>
           <h2>Unsere</h2>
           <h2>Bootcamps</h2>
-          <h2>& Workshops</h2>
         </div>
         <div className='copy'>
           <p>In einem halben Jahr zum Web Developer - geht das überhaupt? Und ob! Durch unsere zertifizierte Intensiv-Weiterbildung wirst du in 5-7 Monaten zum Web Developer Front-end oder Full-Stack und steigerst deine Jobchancen im IT-Bereich. Egal, ob dein Studium nicht mehr zu dir passt, es in deinem Beruf keine Zukunft gibt oder du einfach etwas ganz Neues lernen willst - Wir unterstützen dich!</p>
