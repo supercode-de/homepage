@@ -110,7 +110,7 @@ const NavigationMobile = (props) => {
             border-radius: 0;
             padding: 0;
             margin: 0;
-            color: #f0f0f0;
+            color: var(--super-white);
             background: none;
             font-weight: 300;
             font-size: 4em;
