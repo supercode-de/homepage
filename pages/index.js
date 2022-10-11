@@ -82,8 +82,6 @@ export default function Home(props) {
         <title>Super-code</title>
         <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
         <link rel='alternate icon' href='/favicon.ico' />
-        <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
-        <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
       </Head>
     );
   }
