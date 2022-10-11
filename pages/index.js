@@ -44,7 +44,7 @@ export default function Home(props) {
             <AlumniSection />
             {/* 
               package installiert, lazyLoading, content wird erst geladen wenn sichtbar
-              */} 
+              */}
             <div ref={observe}>
               {/* 
               https://www.better.dev/lazy-loading-next-js 
@@ -54,7 +54,7 @@ export default function Home(props) {
               */}
               {inView && <Index_Blog />}
             </div>
-            <FAQ faqData={faqData}/>
+            <FAQ faqData={faqData} />
             <Index_FooterCTA />
             {/* <Cookies /> */}
           </main>
@@ -79,11 +79,11 @@ export default function Home(props) {
           property='og:title'
           content='super-code.de - Programmieren lernen war noch nie digitaler.'
         />
-
-        {/* <meta property="og:description" content="/img/page-preview.jpg" /> */}
         <title>Super-code</title>
         <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
         <link rel='alternate icon' href='/favicon.ico' />
+        <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
+        <script src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js" type="application/javascript"></script>
       </Head>
     );
   }
