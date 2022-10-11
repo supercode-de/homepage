@@ -61,7 +61,6 @@ class LayoutMC extends Component {
           ''
         ) : (
           <Navigation
-            navstroke={this.props.navstroke}
             dropdownColor={this.props.dropdownColor}
             toggleJetztAnmelden={this.toggleJetztAnmelden}
             isHidden={this.state.isHidden}

@@ -16,7 +16,7 @@ export default function UXUIKurs() {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout navstroke="0.1px" banner={true} dropdownColor="var(--super-lila)">
+      <Layout banner={true} dropdownColor="var(--super-lila)">
         <div className="ux/ui-kurse">
           <Kurse_Header kursForm="UX/UI–DESIGN" stoererTopPos="60%"/>
           <UX_UI_HeaderTermine />
