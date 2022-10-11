@@ -6,7 +6,7 @@ const AlumniSectionReviewCardMarquee = (props) => {
         <div className="alumniSection__reviewGrid__card--outer">
             <div className="alumniSection__reviewGrid__card--inner">
                 {alumniBewertungen.map((bewertung, i) => (
-                    <div className="card">
+                    <div className="card" key={i}>
                         <h5>{bewertung.name}</h5>
                         <p>{bewertung.jobtitel}</p>
                         <p className="flexible">"{bewertung.bewertung}"</p>
