@@ -6,6 +6,7 @@ import JetztAnmelden from './JetztAnmelden';
 import NavigationMobile from './NavigationMobile';
 import Footer from './Footer';
 
+// import Script from 'next/script';
 import React, { Component } from 'react';
 
 class Layout extends Component {
@@ -55,6 +56,13 @@ class Layout extends Component {
           <link rel="manifest" href="/site.webmanifest" />
           <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5d3ede" />
           <meta name="theme-color" content="#5d3ede"></meta>
+          {/* <Script
+            src="https://static.clickskeks.at/18/d6/18d60b81-354e-4e9b-b119-078e881c7695/bundle.js"
+            strategy="lazyOnload"
+            onLoad={() =>
+              console.log(`script loaded correctly`)
+            }
+          /> */}
         </Head>
         <Pixel name='FACEBOOK_PIXEL_1' />
         {this.props.banner ? <Banner /> : <Banner />}
