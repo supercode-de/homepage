@@ -1,3 +1,4 @@
+import Head from 'next/head';
 import Link from 'next/link';
 import React, { Component } from 'react';
 // import SignetRotateAnimation from './small/SignetRotateAnimation';
@@ -101,60 +102,61 @@ class Navigation extends Component {
   render() {
     const { dropdownColor } = this.props;
     return (
-      <nav
-        id='navigation'
-        style={{
-          width: this.state.show ? '100%' : '5%',
-        }}
-      >
-        <div className={`main-navigation ${this.state.show ? 'hide' : 'hide'}`}>
-          <Link href='/' passHref>
-            <a className='logo'>
-              <img
-                src='/img/sc_logo2022.svg'
-                alt='SuperCode-Logo'
-                className='rotate'
-              />
-              <img src='/img/c_2022.svg' alt='SuperCode-Logo' id="supercodeC" />
-              <img id="supercodeLogo2022" src="/img/supercode_logo_2022.svg" alt="supercode logo" />
-            </a>
-          </Link>
-
-          <ul className='nav-list'>
-            <li className='kurse-link'>
-              <a
-                onClick={this.handleDropdown}
-                className='dropper dropper_workshop'
-              >
-                Bootcamps
+      <>
+        <nav
+          id='navigation'
+          style={{
+            width: this.state.show ? '100%' : '5%',
+          }}
+        >
+          <div className={`main-navigation ${this.state.show ? 'hide' : 'hide'}`}>
+            <Link href='/' passHref>
+              <a className='logo'>
+                <img
+                  src='/img/sc_logo2022.svg'
+                  alt='SuperCode-Logo'
+                  className='rotate'
+                />
+                <img src='/img/c_2022.svg' alt='SuperCode-Logo' id="supercodeC" />
+                <img id="supercodeLogo2022" src="/img/supercode_logo_2022.svg" alt="supercode logo" />
               </a>
-              <div
-                ref={this.wrapperRef}
-                className={
-                  this.state.showDropDown
-                    ? 'kurseList-open dropper dropper_workshop'
-                    : 'kurseList '
-                }
-              >
-                <Link href='/kurse/fullstack' passHref>
-                  <a id='dropper' className='dropper dropper_workshop'>
-                    Fullstack Development
-                  </a>
-                </Link>
-                <Link href='/kurse/frontend' passHref>
-                  <a id='dropper' className='dropper dropper_workshop'>
-                    Front-End Development
-                  </a>
-                </Link>
-                <Link href='/kurse/ux-ui-kurs' passHref>
-                  <a id='dropper' className='dropper dropper_workshop'>
-                    UX/UI–Design
-                  </a>
-                </Link>
-              </div>
-            </li>
+            </Link>
 
-            {/* <li className='workshops-link'>
+            <ul className='nav-list'>
+              <li className='kurse-link'>
+                <a
+                  onClick={this.handleDropdown}
+                  className='dropper dropper_workshop'
+                >
+                  Bootcamps
+                </a>
+                <div
+                  ref={this.wrapperRef}
+                  className={
+                    this.state.showDropDown
+                      ? 'kurseList-open dropper dropper_workshop'
+                      : 'kurseList '
+                  }
+                >
+                  <Link href='/kurse/fullstack' passHref>
+                    <a id='dropper' className='dropper dropper_workshop'>
+                      Fullstack Development
+                    </a>
+                  </Link>
+                  <Link href='/kurse/frontend' passHref>
+                    <a id='dropper' className='dropper dropper_workshop'>
+                      Front-End Development
+                    </a>
+                  </Link>
+                  <Link href='/kurse/ux-ui-kurs' passHref>
+                    <a id='dropper' className='dropper dropper_workshop'>
+                      UX/UI–Design
+                    </a>
+                  </Link>
+                </div>
+              </li>
+
+              {/* <li className='workshops-link'>
               <a
                 onClick={this.handleDropdownWorkshops}
                 className='dropper_workshop dropper'
@@ -184,44 +186,44 @@ class Navigation extends Component {
                 </Link>
               </div>
             </li> */}
-            <li>
-              <Link href="/microcamps/" passHref>
-                <a>MicroCamps</a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/team' passHref>
-                <a>Team</a>
-              </Link>
-            </li>
-            <li>
-              <Link href="/microcamps/unsere-story" passHref>
-                <a>Unsere Story</a>
-              </Link>
-            </li>
-            <li>
-              <Link href='/#faq' passHref>
-                <a>FAQ</a>
-              </Link>
-            </li>
-            <li>
-              <a onClick={this.props.toggleJetztAnmelden}>Kontakt</a>
-            </li>
-            <li>
-              <Link href='/blog' passHref>
-                <a>Blog</a>
-              </Link>
-            </li>
-          </ul>
+              <li>
+                <Link href="/microcamps/" passHref>
+                  <a>MicroCamps</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/team' passHref>
+                  <a>Team</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/microcamps/unsere-story" passHref>
+                  <a>Unsere Story</a>
+                </Link>
+              </li>
+              <li>
+                <Link href='/#faq' passHref>
+                  <a>FAQ</a>
+                </Link>
+              </li>
+              <li>
+                <a onClick={this.props.toggleJetztAnmelden}>Kontakt</a>
+              </li>
+              <li>
+                <Link href='/blog' passHref>
+                  <a>Blog</a>
+                </Link>
+              </li>
+            </ul>
 
-          <img
-            className='menu-button'
-            src='/menu-button.svg'
-            alt='Menu-Button'
-            onClick={this.props.toggleNavigationMobile}
-          />
-        </div>
-        <style jsx>{`
+            <img
+              className='menu-button'
+              src='/menu-button.svg'
+              alt='Menu-Button'
+              onClick={this.props.toggleNavigationMobile}
+            />
+          </div>
+          <style jsx>{`
           ul {
             list-style-type: none;
             display: flex;
@@ -306,9 +308,9 @@ class Navigation extends Component {
           }
           .nav-list {
             display: ${window.scrollY > 0 ||
-            document.documentElement.clientWidth <= 1140
-            ? 'none'
-            : 'flex'};
+              document.documentElement.clientWidth <= 1140
+              ? 'none'
+              : 'flex'};
           }
           .kurseList-open {
             position: absolute;
@@ -322,8 +324,8 @@ class Navigation extends Component {
             align-items: center;
             padding-top: 2px;
             background: ${this.props.dropdownColor
-            ? dropdownColor
-            : 'var(--super-green)'};
+              ? dropdownColor
+              : 'var(--super-green)'};
             width: 100vw;
             padding-left: 11%;
             padding-right: 11%;
@@ -343,8 +345,8 @@ class Navigation extends Component {
             align-items: center;
             padding-top: 2px;
             background: ${this.props.dropdownColor
-            ? dropdownColor
-            : 'var(--super-green)'};
+              ? dropdownColor
+              : 'var(--super-green)'};
             width: 100vw;
             padding-left: 11%;
             padding-right: 11%;
@@ -364,9 +366,9 @@ class Navigation extends Component {
             z-index: 99998;
             cursor: pointer;
             display: ${window.scrollY > 0 ||
-            document.documentElement.clientWidth <= 1140
-            ? 'unset'
-            : 'none'};
+              document.documentElement.clientWidth <= 1140
+              ? 'unset'
+              : 'none'};
           }
 
           @media (max-width: 320px) {
@@ -375,7 +377,9 @@ class Navigation extends Component {
             }
           }
         `}</style>
-      </nav>
+        </nav>
+      </>
+
     );
   }
 }
