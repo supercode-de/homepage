@@ -5,27 +5,18 @@ const UX_UI_HeaderTermine = () => {
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2>28. November</h2>
+                        <h2>13. Februar 2023</h2>
                     </div>
-                    <div>Anmeldeschluss bis 25. November</div>
+                    <div>Anmeldeschluss bis 10. Februar 2023</div>
                 </div>
             </div>
             <div>
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2>23. Mai</h2>
+                        <h2>17. Juli 2023</h2>
                     </div>
-                    <div>Anmeldeschluss bis Mai 2023</div>
-                </div>
-            </div>
-            <div>
-                <div className="termine-wrapper">
-                    <div className="start-termin">
-                        <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2>23. Oktober</h2>
-                    </div>
-                    <div>Anmeldeschluss bis Oktober 2023</div>
+                    <div>Anmeldeschluss bis 14. Juli 2023</div>
                 </div>
             </div>
             <style jsx>{`
