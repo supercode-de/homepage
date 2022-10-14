@@ -21,9 +21,8 @@ export default function UX_UI_FooterCTA() {
       )}
 
       <div className='termine'>
-        <h3>28.11.2022 – max. 16 Teilnehmende (wenige Plätze verfügbar)</h3>
-        <h3>Mai 2023 – max. 16 Teilnehmende</h3>
-        <h3>Oktober 2023 – max. 16 Teilnehmende</h3>
+        <h3>13. Februar 2023 – max. 16 Teilnehmende</h3>
+        <h3>17. Juli 2023 – max. 16 Teilnehmende</h3>
         <div className="jetzt-bewerben-btn">
           <Typeform_neu2022 typeformID="VTxBX6b2"/> 
         </div>

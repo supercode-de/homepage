@@ -2,7 +2,7 @@ let alumniBewertungen = [
     {
         name: "Victoria",
         jobtitel: "Art Directorin",
-        bewertung: "Der UX/UI-Kurs war inhaltlich genau das, was ich gesucht habe. Ich fühle mich jetzt sicher auf dem Feld der digitalen Gestaltung. Der Kurs war anspruchsvoll aber immer machbar, es wurde sich intensiv mit den einzelnen Teilnehmer*innen auseinandergesetzt und die Trainer*innen waren top organisiert und super freundlich!"
+        bewertung: "Der UX/UI-Kurs war inhaltlich genau das, was ich gesucht habe. Ich fühle mich jetzt sicher auf dem Feld der digitalen Gestaltung. Der Kurs war anspruchsvoll, aber immer machbar. Es wurde sich intensiv mit den einzelnen Teilnehmer*innen auseinandergesetzt und die Trainer*innen waren top organisiert und super freundlich!"
     },
     {
         name: "Daniel",
@@ -12,7 +12,7 @@ let alumniBewertungen = [
     {
         name: "Inna",
         jobtitel: "Full-Stack Entwicklerin",
-        bewertung: "Habe vor kurzem ein 5-monatiges Full Stack Bootcamp bei Supercode erfolgreich absolviert und mein Zertifikat bekommen.\n\nBin sehr froh darüber und sehr stolz bei Supercode gelandet zu sein. Hat mir viel Spaß gemacht!!! Vermisse euch allen  jetzt schon und werde euch weiterempfehlen. Viel Erfolg 😉"
+        bewertung: "Habe vor kurzem ein 5-monatiges Full-Stack Bootcamp bei SuperCode erfolgreich absolviert und mein Zertifikat bekommen.\n\nBin sehr froh darüber und sehr stolz bei SuperCode gelandet zu sein. Hat mir viel Spaß gemacht!!! Vermisse euch alle jetzt schon und werde euch weiterempfehlen. Viel Erfolg 😉"
     },
     {
         name: "Simon",
@@ -36,7 +36,7 @@ let alumniBewertungen = [
     },
     {
         name: "Afrae",
-        jobtitel: "Full-Stack Entwickler",
+        jobtitel: "Full-Stack Entwicklerin",
         bewertung: "Was für eine tolle Erfahrung!\n\nDas ganze Team ist so cool und gut in dem, was sie tun! Internationale Menschen freundlich und so unterstützend für Frauen in der IT! Ich kann das nur jedem empfehlen."
     },
     {
