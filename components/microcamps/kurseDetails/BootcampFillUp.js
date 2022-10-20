@@ -22,8 +22,6 @@ const BootcampFillUp = (props) => {
               trainerImage={item.trainerImage}
               anmeldeLink={item.anmeldeLink}
               datum={item.datum}
-              tage={item.tage}
-              uhrzeit={item.uhrzeit}
               wartelisteLinkFormID={item.wartelisteLinkFormID}
 
             />

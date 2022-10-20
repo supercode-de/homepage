@@ -6,7 +6,7 @@ const Typeform = (props) => {
   return (
     <>
       <Popup
-        trigger={<button className='button'>Jetzt anmelden</button>}
+        trigger={<button className='button'>Warteliste</button>}
         position='center'
       >
         <div id='curriculum-popup'>

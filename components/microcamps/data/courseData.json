@@ -20,9 +20,15 @@
         "trainerTitel": "UX/UI-Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
         "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "30.01.2023"
+      },
+      {
+        "kursTitel": "UX-Design verstehen & Ideen entwickeln",
+        "trainerName": "Ruben Wellinger",
+        "trainerTitel": "UX/UI-Design Trainer",
+        "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
+        "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
+        "datum": "31.01.2023"
       }
     ],
     "toolsInternal": [
@@ -120,7 +126,7 @@
           {
             "block": 1,
             "title": "Vorbereitung",
-            "duration": "30 min.",
+            "duration": "flexibel",
             "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
@@ -133,12 +139,6 @@
             "title": "Live Kurs",
             "duration": "2 Stunden",
             "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
-          },
-          {
-            "block": 2,
-            "title": "Design Meet-up",
-            "duration": "1 Stunde",
-            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
         ]
       },
@@ -164,7 +164,7 @@
           },
           {
             "block": 2,
-            "title": "Workout",
+            "title": "Yoga",
             "duration": "1 Stunde",
             "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
           }
@@ -177,6 +177,69 @@
             "block": 1,
             "title": "Praxisaufgabe",
             "dauer": "2 Stunden",
+            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
+          }
+        ]
+      }
+    ],
+    "timetable2": [
+      {
+        "wochentag": "Dienstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vorbereitung",
+            "duration": "flexibel",
+            "description": "Warm-up & Kurzeinführung in den Themenbereich"
+          }
+        ]
+      },
+      {
+        "wochentag": "Mittwoch",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Live Kurs",
+            "duration": "2 Stunden",
+            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+          }
+        ]
+      },
+      {
+        "wochentag": "Donnerstag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Vertiefung",
+            "duration": "flexibel",
+            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
+          }
+        ]
+      },
+      {
+        "wochentag": "Freitag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Workshop",
+            "dauer": "1 Stunde",
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+          },
+          {
+            "block": 2,
+            "title": "Yoga",
+            "dauer": "1 Stunde",
+            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+          }
+        ]
+      },
+      {
+        "wochentag": "Montag",
+        "blocks": [
+          {
+            "block": 1,
+            "title": "Praxisaufgabe",
+            "duration": "flexibel",
             "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
           }
         ]
@@ -204,9 +267,7 @@
         "trainerTitel": "UX/UI-Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
         "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -403,9 +464,7 @@
         "trainerTitel": "UX/UI-Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
         "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -606,9 +665,7 @@
         "trainerTitel": "UX/UI-Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
         "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -879,9 +936,7 @@
         "trainerTitel": "UX/UI-Design Trainer",
         "trainerImage": "../img/microcamps/team/ruben_wellinger.png",
         "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -1133,9 +1188,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -1396,9 +1449,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -1585,9 +1636,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -1842,9 +1891,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -2030,9 +2077,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/steffen_kloempges.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -2276,9 +2321,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -2548,9 +2591,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -2815,9 +2856,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -3080,9 +3119,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -3345,9 +3382,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -3610,9 +3645,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -3875,9 +3908,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -4140,9 +4171,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -4405,9 +4434,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -4670,9 +4697,7 @@
         "trainerTitel": "Front-End Trainer",
         "trainerImage": "../img/microcamps/team/thomas_kuhnert.png",
         "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
-        "datum": "10.10.2022 - 31.10.2022",
-        "tage": "Montag & Mittwoch",
-        "uhrzeit": "18 - 20 Uhr" 
+        "datum": "2023"
       }
     ],
     "toolsInternal": [
@@ -4851,7 +4876,7 @@
           {
             "block": 1,
             "title": "Vorbereitung",
-            "duration": "30 min.",
+            "duration": "flexibel",
             "description": "Warm-up & Kurzeinführung in den Themenbereich"
           }
         ]
@@ -4864,12 +4889,6 @@
             "title": "Live Kurs",
             "duration": "2 Stunden",
             "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
-          },
-          {
-            "block": 2,
-            "title": "Design Meet-up",
-            "duration": "1 Stunde",
-            "description": "Unsere Profis auf dem Gebiet stehen Rede und Antwort"
           }
         ]
       },
@@ -4895,7 +4914,7 @@
           },
           {
             "block": 2,
-            "title": "Workout",
+            "title": "Yoga",
             "duration": "1 Stunde",
             "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
           }

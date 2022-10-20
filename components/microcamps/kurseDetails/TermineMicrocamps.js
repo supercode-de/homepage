@@ -6,8 +6,7 @@ const TermineMicrocamps = (props) => {
             <div className="left-wrapper">
                 <h4>{props.kursTitel}</h4>
                 <div className="info-text">
-                    <p className="start-date">Start 2023</p>
-                    <p>{props.tage} {props.uhrzeit}</p>
+                    <p className="start-date">Startdatum: {props.datum}</p>
                 </div>
 
                 <p className="places-wr">
@@ -37,27 +36,18 @@ const TermineMicrocamps = (props) => {
                 .left-wrapper .info-text{
                     margin: 0 0 0.625rem 0;
                 }
-                .left-wrapper .info-text .start-date {
-                    background: url("/img/microcamps/line_small.svg") left 110%/ 30% no-repeat;
-                    margin-bottom: 15px;
+                .start-date {
+                    color: var(--super-green);
+                    font-family: var(--ff-reg-bold);
+                    font-size: var(--fs-300);
                 }
-        
-                .left-wrapper .info-text p {
-                    font-size: var(--fs-200);
-                }
-        
                 .btn{
                     font-size: var(--fs-300);
                     background-color: var(--clr-super-green);
                     color: var(--clr-super-lila);
                     margin-top: 5%;
                 }
-        
-                .left-wrapper .places-wr {
-                    margin: 10% 0;
-                    font-size: var(--fs-300);
-                }
-        
+
                 .left-wrapper .places-wr .circle {
                     background: url("/img/microcamps/world_circle.svg") center center/contain no-repeat;
                     padding: var(--fs-300);

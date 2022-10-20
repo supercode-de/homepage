@@ -1,20 +1,47 @@
 const Timetable = (props) => {
+    console.log(props);
     return (
-        <article className="scheduleSection__weekGrid">
-            {props.timetableData.map((timetableElement, index) => (
-                <div key={index} className="scheduleSection__weekGrid__day">
-                    <p className="dayHeadline">{timetableElement.wochentag}</p>
-                    {timetableElement.blocks.map((timetableBlock, index) => (
-                        <div key={index} className="scheduleSection__weekGrid__day__card">
-                            <p className="headline">{timetableBlock.title}</p>
-                            <p className="time">{timetableBlock.duration}</p>
-                            <p className="text">
-                                {timetableBlock.description}
-                            </p>
-                        </div>
-                    ))}
-                </div>
-            ))}
+        <>
+            <p className="week__days">Montag - Freitag</p>
+            <article className="scheduleSection__weekGrid">
+                {props.timetableData.map((timetableElement, index) => (
+                    <div key={index} className="scheduleSection__weekGrid__day">
+                        <p className="dayHeadline">{timetableElement.wochentag}</p>
+                        {timetableElement.blocks.map((timetableBlock, index) => (
+                            <div key={index} className="scheduleSection__weekGrid__day__card">
+                                <p className="headline">{timetableBlock.title}</p>
+                                <p className="time">{timetableBlock.duration}</p>
+                                <p className="text">
+                                    {timetableBlock.description}
+                                </p>
+                            </div>
+                        ))}
+                    </div>
+                ))}
+            </article>
+            {props.timetableData2 ?
+                <>
+                    <p className="week__days">Dienstag - Montag</p>
+                    <article className="scheduleSection__weekGrid">
+                        {props.timetableData2.map((timetableElement, index) => (
+                            <div key={index} className="scheduleSection__weekGrid__day">
+                                <p className="dayHeadline">{timetableElement.wochentag}</p>
+                                {timetableElement.blocks.map((timetableBlock, index) => (
+                                    <div key={index} className="scheduleSection__weekGrid__day__card">
+                                        <p className="headline">{timetableBlock.title}</p>
+                                        <p className="time">{timetableBlock.duration}</p>
+                                        <p className="text">
+                                            {timetableBlock.description}
+                                        </p>
+                                    </div>
+                                ))}
+                            </div>
+                        ))}
+                    </article>
+                </>
+                :
+                null
+            }
 
             <style jsx>{`
                 .scheduleSection__weekGrid {
@@ -34,6 +61,10 @@ const Timetable = (props) => {
                     margin: 0 0 5% 0;
                     border-radius: 20px;
                 }
+                .scheduleSection__weekGrid div:nth-of-type(even) .scheduleSection__weekGrid__day__card:not(.scheduleSection__weekGrid__day__card:nth-of-type(2)){
+                    background-color: var(--clr-super-green);
+                    color: var(--super-blue);
+                }
                 .scheduleSection__weekGrid__day__card .headline {
                     font-weight: 800;
                     font-size: var(--fs-300);
@@ -44,6 +75,9 @@ const Timetable = (props) => {
                 .scheduleSection__weekGrid__day__card .text {
                     margin: 5% 0;
                     font-size: var(--fs-200);
+                }
+                .week__days {
+                    margin-bottom: 3%;
                 }
 
                 @media only screen and (max-width: 1200px) {
@@ -63,7 +97,8 @@ const Timetable = (props) => {
                     }
                 }
             `}</style>
-        </article>
+        </>
+
     );
 }
 
