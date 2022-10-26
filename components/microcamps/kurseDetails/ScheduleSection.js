@@ -63,7 +63,7 @@ const ScheduleSection = (props) => {
                     <div className="scheduleSection__textWrap__text">
                         <p>Wir tun unser Bestes, damit du {props.kurs.theme === "design" ? "UX-Design" : props.kurs.theme === "coding" ? "Web-Entwicklung" : "Data Science"} zu einer Zeit zu lernen kannst, die für dich passt. Im Moment haben wir mehrere Online Live Kurse mit verschiedenen Schwerpunkten.</p>
                         <p>Du lernst also in einem online Kurs, kannst dich aber gleichzeitig jederzeit mit den anderen Teilnehmenden austauschen, vernetzen und gemeinsam lernen.</p>
-                        <p>Alle unsere Kurse starten wahlweise am Montag oder am Dienstag.</p>
+                        {/* <p>Alle unsere Kurse starten wahlweise am Montag oder am Dienstag.</p> */}
                     </div>
                 </article>
 

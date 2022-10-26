@@ -2,7 +2,7 @@ const Timetable = (props) => {
     console.log(props);
     return (
         <>
-            <p className="week__days">Montag - Freitag</p>
+            {/* <p className="week__days">Montag - Freitag</p> */}
             <article className="scheduleSection__weekGrid">
                 {props.timetableData.map((timetableElement, index) => (
                     <div key={index} className="scheduleSection__weekGrid__day">

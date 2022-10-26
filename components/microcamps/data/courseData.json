@@ -181,69 +181,6 @@
           }
         ]
       }
-    ],
-    "timetable2": [
-      {
-        "wochentag": "Dienstag",
-        "blocks": [
-          {
-            "block": 1,
-            "title": "Vorbereitung",
-            "duration": "flexibel",
-            "description": "Warm-up & Kurzeinführung in den Themenbereich"
-          }
-        ]
-      },
-      {
-        "wochentag": "Mittwoch",
-        "blocks": [
-          {
-            "block": 1,
-            "title": "Live Kurs",
-            "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
-          }
-        ]
-      },
-      {
-        "wochentag": "Donnerstag",
-        "blocks": [
-          {
-            "block": 1,
-            "title": "Vertiefung",
-            "duration": "flexibel",
-            "description": "Wiederhole das Gelernte und bereite Fragen für den WS vor"
-          }
-        ]
-      },
-      {
-        "wochentag": "Freitag",
-        "blocks": [
-          {
-            "block": 1,
-            "title": "Workshop",
-            "dauer": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
-          },
-          {
-            "block": 2,
-            "title": "Yoga",
-            "dauer": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
-          }
-        ]
-      },
-      {
-        "wochentag": "Montag",
-        "blocks": [
-          {
-            "block": 1,
-            "title": "Praxisaufgabe",
-            "duration": "flexibel",
-            "description": "Bearbeite die praktische Aufgabe zum Wochenthema"
-          }
-        ]
-      }
     ]
   },
   {
