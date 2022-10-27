@@ -17,7 +17,7 @@ const OurStorySection = () => {
                         Als erster deutschsprachiger Anbieter bieten wir dir ein revolutionäres Bildungskonzept, in dem ganz allein DU bestimmst, welche Inhalte du lernen willst. Web-Entwicklung, UX/UI-Design und bald auch Data!
                     </p>
                     <p>
-                        Und das Ganze in spannenden Online & Live Kursen, mit echten Menschen und Trainer*innen.
+                        Und das Ganze in spannenden Online- & Live-Kursen, mit echten Menschen und Trainer*innen.
                     </p>
                 </div>
                 <div className="ourStorySection__mainWrap">

@@ -4,12 +4,12 @@ const AllCoursesArea = () => {
         <section className="allCoursesArea">
             <div className="wrap">
                 <article className="allCoursesArea__introText" id="allCourses">
-                    <h3>Live & Online – </h3>
+                    <h3>Live & online – </h3>
                     <h3>
                         unsere<span className="headlines_stroke"> MicroCamps</span>
                     </h3>
                     <p>
-                        Du bist wissenshungrig, möchtest aber nicht ganze 3 Monate in einem Web-Development oder UX/UI-Design Bootcamp hängen? Kein Problem! Stell dir deinen Lernpfad individuell zusammen und lerne nur das, was du wirklich brauchst.
+                        Du bist wissenshungrig, möchtest aber nicht ganze 3 Monate in einem Web-Development- oder UX/UI-Design-Bootcamp hängen? Kein Problem! Stell dir deinen Lernpfad individuell zusammen und lerne nur das, was du wirklich brauchst.
                     </p>
                 </article>
                 <AllCoursesList />

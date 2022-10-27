@@ -14,7 +14,7 @@ const NewsletterSection = () => {
                             </span>{" "}
                             und sei{" "}
                             <span className="circle">
-                                immer auf dem neusten
+                                immer auf dem neuesten
                             </span>{" "}
                             Stand! Mit unserem Newsletter bekommst du regelmäßig
                             die{" "}
