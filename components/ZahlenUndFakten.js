@@ -48,7 +48,7 @@ export default function ZahlenUndFakten(props) {
             <span className='stroke'>Vorerfahrung?</span>
           </h2>
           <p>
-            Von A wie Altenpflege bis Z wie Zoolog*in sind bei unseren
+            Von A wie Altenpflege bis Z wie Zoolog:in sind bei unseren
             Teilnehmenden alle beruflichen Hintergründe dabei und wir sind
             großer Fan eurer verschiedener Lebens- und Berufswege.
           </p>
@@ -76,8 +76,8 @@ export default function ZahlenUndFakten(props) {
             ihren Wunschjob.
           </p>
           <p>
-            Sie arbeiten als Junior Webentwickler*innen, als Web-Designer*innen,
-            IT-Trainer*innen oder in den IT-Bereichen Projektmanagement und
+            Sie arbeiten als Junior Webentwickler:innen, als Web-Designer:innen,
+            IT-Trainer:innen oder in den IT-Bereichen Projektmanagement und
             Beratung.
           </p>
         </div>

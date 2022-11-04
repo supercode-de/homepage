@@ -6,7 +6,7 @@ const Index_HeaderCTA = () => {
     <div id='header-call'>
       <h2>
         Lerne Programmieren und werde <br />
-        <span className='bling'>Junior</span> Full-Stack Web-Developer*in
+        <span className='bling'>Junior</span> Full-Stack Web-Developer:in
         <span className='bling2'>!</span>
         <br />–{'  '}
         <span className='super'>

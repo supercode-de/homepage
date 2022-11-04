@@ -28,7 +28,7 @@ export default function Bildungsberatung() {
 
       <div className='berater-txt'>
         <p>
-          Ganz gleich welcher Weg dich zu SuperCode geführt hat, Shapour, Henri und Nina sind deine ersten Ansprechpartner*innen und nehmen dich an die Hand im gesamten Aufnahmeprozess. Sie beantworten alle Fragen, helfen dir bei den Formularen und klären mit dir und dem Kostenträger die Finanzierung ab.
+          Ganz gleich welcher Weg dich zu SuperCode geführt hat, Henri und Nina sind deine ersten Ansprechpartner:innen und nehmen dich an die Hand im gesamten Aufnahmeprozess. Sie beantworten alle Fragen, helfen dir bei den Formularen und klären mit dir und dem Kostenträger die Finanzierung ab.
         </p>
 
         <p>

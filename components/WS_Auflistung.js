@@ -12,7 +12,7 @@ const WS_Auflistung = () => {
             <div className="flex-hover">
               <a>
                 <div>
-                  <span className="super-stroke">immer 2</span> Trainer*innen
+                  <span className="super-stroke">immer 2</span> Trainer:innen
                 </div>
               </a>
             </div>

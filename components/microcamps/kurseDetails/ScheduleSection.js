@@ -19,7 +19,7 @@ const ScheduleSection = (props) => {
                     </div>
                     <div className="scheduleSection__textWrap__text">
                         <p>Wir möchten ehrlich zu dir sein: Unsere MicroCamps sind intensiv und es werden viele neue Themen auf dich zukommen.</p>
-                        <p>Aber wir sind stolz darauf, einen Zeitplan zu haben, der für berufstätige Menschen optimal funktioniert. Bei jedem Schritt wirst du von deinen Trainer*innen, deiner Lerngruppe und unserem guten {props.kurs.theme === "design" ? "Design" : props.kurs.theme === "coding" ? "Web-Dev" : "Data Sientist"}-Netzwerk in ganz Deutschland unterstützt!</p>
+                        <p>Aber wir sind stolz darauf, einen Zeitplan zu haben, der für berufstätige Menschen optimal funktioniert. Bei jedem Schritt wirst du von deinen Trainer:innen, deiner Lerngruppe und unserem guten {props.kurs.theme === "design" ? "Design" : props.kurs.theme === "coding" ? "Web-Dev" : "Data Sientist"}-Netzwerk in ganz Deutschland unterstützt!</p>
                     </div>
                 </article>
                 <img

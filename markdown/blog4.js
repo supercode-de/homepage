@@ -27,7 +27,7 @@ Klingt kompliziert, lässt sich aber spielerisch und mit Humor trainieren und we
 
 ### Und wie lange dauert das Ganze?
 
-Das Bewerbungscoaching umfasst  7 Steps, die alle aufeinander aufbauen. Insgesamt umfasst das Coaching 68 UE, was bei 2-3 individuellen Terminen pro Woche in etwa 2 Monate sind. Am Ende steht natürlich die Beschäftigungsaufnahme in einen tollen Job im IT-Bereich. Für Quereinsteiger*innen eignet sich auch ein Praktikum sehr gut, um erste Arbeitserfahrungen zu machen, zu zeigen, was man kann und dann in das Unternehmen einzusteigen. 
+Das Bewerbungscoaching umfasst  7 Steps, die alle aufeinander aufbauen. Insgesamt umfasst das Coaching 68 UE, was bei 2-3 individuellen Terminen pro Woche in etwa 2 Monate sind. Am Ende steht natürlich die Beschäftigungsaufnahme in einen tollen Job im IT-Bereich. Für Quereinsteiger:innen eignet sich auch ein Praktikum sehr gut, um erste Arbeitserfahrungen zu machen, zu zeigen, was man kann und dann in das Unternehmen einzusteigen. 
 
 ### Warum SuperCode und wie bist du zu SuperCode gekommen?
 

@@ -36,7 +36,7 @@ Weil ich schon gefordert wurde, aber trotzdem alles machbar war, kam ich mit ein
 
 Bei mir hat wie gesagt alles anfang Januar mit dem HTML/CSS-Workshop begonnen, für den konnte ich mich wirklich einfach anmelden. Durch die Teilnahme habe ich euch schon ein wenig kennengelernt und ich hatte danach auch alle Kontaktdaten, die ich brauchte. Ich habe mich dann direkt am nächsten Morgen bei eurem Bildungsberater Henri gemeldet, der im Grunde nur ein paar Dokumente brauchte und mich gut durch diese Bewerbungsphase gelotst hat. Da konnte ich wirklich nicht viel falsch machen.
 ##### 
-Die Bildungsberater*innen helfen gut in allen Fragen weiter. Gerade in der Finanzierungsfrage wurde ich unterstützt. Selbst wenn man keine Förderung vom Arbeitsamt erhält, gibt es individuell verschiedene Möglichkeiten. In meinem Fall ist das die Chancen EG.
+Die Bildungsberater:innen helfen gut in allen Fragen weiter. Gerade in der Finanzierungsfrage wurde ich unterstützt. Selbst wenn man keine Förderung vom Arbeitsamt erhält, gibt es individuell verschiedene Möglichkeiten. In meinem Fall ist das die Chancen EG.
 
 ### Und im März ging es dann schon los! Gab es für dich jetzt schon ein besonderes Highlight im Kurs?
 
@@ -54,7 +54,7 @@ Woodies - eine Hausaufgabe aus dem Full-Stack-Bootcamp
 
 Vor allem sollte man sich für den Zeitraum nichts anderes vornehmen. Also keine Kurzurlaube oder Ähnliches, sondern sich die Zeit nur für das Bootcamp nehmen. Das ist wohl der Punkt, an dem man sonst scheitern könnte. Ich habe mir dieses Jahr nichts vorgenommen, ich habe aber Schafe, Garten und Kinder. Daher wäre der Tipp an mich selbst, besser im Winter zu starten, wenn nicht gerade das ganze Heu geerntet werden muss. Da hätte ich mehr Zeit zum Üben gehabt. 
 #####
-Aber egal, so passt es jetzt auch für mich, da es einfach Spaß macht. Weil die Trainer*innen versuchen, einen Wohlfühlrahmen zu schaffen, wird der Kurs nicht anstrengend und die Zeit vergeht recht schnell. Trotzdem sollte man zu 100 Prozent darauf fokussiert sein. Und man muss außerdem selbst mitdenken, denn nur so lösen sich die Probleme. Man kann zuhören und bekommt alles erklärt, wenn man aber dann nicht aktiv mitdenkt, kommt man auch nicht zum Ziel. Man muss die Dinge selber hinterfragen, immer wieder ausprobieren und vor allem nicht aufgeben.
+Aber egal, so passt es jetzt auch für mich, da es einfach Spaß macht. Weil die Trainer:innen versuchen, einen Wohlfühlrahmen zu schaffen, wird der Kurs nicht anstrengend und die Zeit vergeht recht schnell. Trotzdem sollte man zu 100 Prozent darauf fokussiert sein. Und man muss außerdem selbst mitdenken, denn nur so lösen sich die Probleme. Man kann zuhören und bekommt alles erklärt, wenn man aber dann nicht aktiv mitdenkt, kommt man auch nicht zum Ziel. Man muss die Dinge selber hinterfragen, immer wieder ausprobieren und vor allem nicht aufgeben.
 
 ### Vielen Dank für das Interview Michaela! Wir wünschen dir viel Erfolg beim Back-End-Teil, der Bewerbungsphase und generell alles Gute für dich, deine Kinder und Schafe!
 

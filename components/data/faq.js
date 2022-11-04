@@ -2,7 +2,7 @@ var faq = [
   {
     question: "Für wen ist dieses Bootcamp?",
     answer:
-      "Für alle Menschen die, motiviert sind Neues zu lernen! Du solltest außerdem über 18 Jahre alt sein und bestenfalls eine Leidenschaft für den Bereich IT mitbringen.",
+      "Für alle Menschen, die motiviert sind Neues zu lernen! Du solltest außerdem über 18 Jahre alt sein und bestenfalls eine Leidenschaft für den Bereich IT mitbringen.",
   },
   {
     question: "Welcher akademische Grad ist erforderlich?",
@@ -17,7 +17,7 @@ var faq = [
   {
     question: "Was werde ich lernen?",
     answer:
-      "Kurz: Du wirst in der Lage sein, moderne Webseiten von Grund auf zu erstellen. Lang: Du wirst in der Lage sein, eine Full-Stack-Programmier-Mentalität zu entwickeln, die es dir ermöglicht, dich frei zwischen Front- & Backend zu bewegen. Du wirst in einem einzigartigen und kreativen Umfeld die neuesten Techniken im Bereich Web-Entwicklung erleben und anwenden. Du wirst fließend in den wichtigsten Programmiersprachen sprechen und deine verrückten Entwicklungsfertigkeiten mit den coolsten Frameworks der Menschheit beschleunigen. Aber vor allem wirst du lernen zu lernen – was im Grunde genommen die nützlichste Fähigkeit in der Welt von morgen ist! Im UX/UI-Design-Kurs lernst du alles wichtige über erfolgreiche Digitalprodukte und wirst Prototypen entwickeln, die deine Kund*innen und Nutzer*innen begeistern. ",
+      "Kurz: Du wirst in der Lage sein, moderne Webseiten von Grund auf zu erstellen. Lang: Du wirst in der Lage sein, eine Full-Stack-Programmier-Mentalität zu entwickeln, die es dir ermöglicht, dich frei zwischen Front- & Backend zu bewegen. Du wirst in einem einzigartigen und kreativen Umfeld die neuesten Techniken im Bereich Web-Entwicklung erleben und anwenden. Du wirst fließend in den wichtigsten Programmiersprachen sprechen und deine verrückten Entwicklungsfertigkeiten mit den coolsten Frameworks der Menschheit beschleunigen. Aber vor allem wirst du lernen zu lernen – was im Grunde genommen die nützlichste Fähigkeit in der Welt von morgen ist! Im UX/UI-Design-Kurs lernst du alles wichtige über erfolgreiche Digitalprodukte und wirst Prototypen entwickeln, die deine Kund:innen und Nutzer:innen begeistern. ",
   },
   {
     question: "Wie viel kosten die Bootcamps?",
@@ -32,17 +32,17 @@ var faq = [
   {
     question: "Wie sieht der Tagesablauf aus? ",
     answer:
-      "Der Vollzeitkurs Webentwicklung findet Montag bis Freitag von 9 bis ca. 17.30 Uhr statt. In der Praxis wirst du deine Zeit flexibel je nach Projektphase (Einzel- und Gruppenprojekte) einteilen. Im Grunde genommen machen wir dich bereit in einer Endlosschleife von EAT SLEEP CODE REPEAT zu leben, denn für 5 Monate wird unser virtueller SuperKursraum dein Zuhause und deine Kolleg*innen deine Familie sein. Im Teilzeitkurs Webentwicklung ist die Reise etwas entspannter. An drei Wochentagen kannst du dich von 18 – 21 Uhr in unserem Live Stream online einwählen und von deinem Cockpit zuhause mit uns durch die schöne Welt der Web-Entwicklung düsen. Jeden 2. Samstag erwarten dich ganztägig spannende Peer-to-Peer-Projekte und IT-Workshops. Im UX/UI-Design-Kurs wirst du an zwei Abenden (aktuell Mo + Mi) vom 18-21 Uhr sowie an einem Wochentag ganztags (aktuell Fr) von 9-18 Uhr in die Welt von UX und UI eintauchen und neben deinem Beruf machen wir dich innerhalb von 3 Monaten zur gefragten Fachkraft.",
+      "Der Vollzeitkurs Webentwicklung findet Montag bis Freitag von 9 bis ca. 17.30 Uhr statt. In der Praxis wirst du deine Zeit flexibel je nach Projektphase (Einzel- und Gruppenprojekte) einteilen. Im Grunde genommen machen wir dich bereit in einer Endlosschleife von EAT SLEEP CODE REPEAT zu leben, denn für 5 Monate wird unser virtueller SuperKursraum dein Zuhause und deine Kolleg:innen deine Familie sein. Im Teilzeitkurs Webentwicklung ist die Reise etwas entspannter. An drei Wochentagen kannst du dich von 18 – 21 Uhr in unserem Live Stream online einwählen und von deinem Cockpit zuhause mit uns durch die schöne Welt der Web-Entwicklung düsen. Jeden 2. Samstag erwarten dich ganztägig spannende Peer-to-Peer-Projekte und IT-Workshops. Im UX/UI-Design-Kurs wirst du an zwei Abenden (aktuell Mo + Mi) vom 18-21 Uhr sowie an einem Wochentag ganztags (aktuell Fr) von 9-18 Uhr in die Welt von UX und UI eintauchen und neben deinem Beruf machen wir dich innerhalb von 3 Monaten zur gefragten Fachkraft.",
   },
   {
     question: "Gibt es eine Jobgarantie nach dem Bootcamp?",
     answer:
-      "Es wird oft gesagt, dass die einzigen Dinge, die im Leben garantiert werden, Tod und Steuern sind. Deshalb wäre es eine große Verantwortungslosigkeit, etwas zu garantieren, das nicht ausschließlich von uns abhängt. Was wir dir klar versichern können, ist, dass wir dir eine erstklassige Ausbildung in einem Bereich anbieten, in dem die Arbeitslosenquote praktisch null ist, begleitet von einer bedingungslosen Unterstützung für deine schnelle Eingliederung in einen Arbeitsmarkt, der nach neuen Talenten sucht. Unsere Zahlen sprechen für sich: Einen Monat nach Ende unserer Bootcamps sind in der Regel mehr als 50% unserer SuperAlumni bereits vermittelt, und nach 6 Wochen bis zu 75 % – Müssen wir noch mehr sagen?! Ok. INSIDER-TIPP: SuperCode ist immer auf der Suche nach talentierten  Trainern*innen. Wenn du während des Bootcamps auffällst, kann es sogar sein, dass du uns nie wieder verlassen wirst.",
+      "Es wird oft gesagt, dass die einzigen Dinge, die im Leben garantiert werden, Tod und Steuern sind. Deshalb wäre es eine große Verantwortungslosigkeit, etwas zu garantieren, das nicht ausschließlich von uns abhängt. Was wir dir klar versichern können, ist, dass wir dir eine erstklassige Ausbildung in einem Bereich anbieten, in dem die Arbeitslosenquote praktisch null ist, begleitet von einer bedingungslosen Unterstützung für deine schnelle Eingliederung in einen Arbeitsmarkt, der nach neuen Talenten sucht. Unsere Zahlen sprechen für sich: Einen Monat nach Ende unserer Bootcamps sind in der Regel mehr als 50% unserer SuperAlumni bereits vermittelt, und nach 6 Wochen bis zu 75 % – Müssen wir noch mehr sagen?! Ok. INSIDER-TIPP: SuperCode ist immer auf der Suche nach talentierten  Trainern:innen. Wenn du während des Bootcamps auffällst, kann es sogar sein, dass du uns nie wieder verlassen wirst.",
   },
   {
     question: "Wie kann ich während des Aufnahmeprozesses Fragen stellen?",
     answer:
-      "Wir haben tolle SuperBildungsberater*innen, die dir rund um die Uhr zur Verfügung stehen: Schicke uns einfach eine E-Mail an beratung@super-code.de und wir werden zeitnah auf deine Nachricht antworten.",
+      "Wir haben tolle SuperBildungsberater:innen, die dir rund um die Uhr zur Verfügung stehen: Schicke uns einfach eine E-Mail an beratung@super-code.de und wir werden zeitnah auf deine Nachricht antworten.",
   },
   {
     question: "Ist es verpflichtend, bei einem Jobcenter registriert zu sein?",
@@ -57,7 +57,7 @@ var faq = [
   {
     question: "Wie viele freie Plätze pro Bootcamp gibt es?",
     answer:
-      "Wir haben uns dazu entschlossen maximal 16 Personen pro Bootcamp aufzunehmen. Und warum? Weil bei uns Qualität vor Quantität kommt. Wir machen wenig Kurse im Jahr, mit max. 16 Teilnehmer*innen und 2 Trainer*innen.",
+      "Wir haben uns dazu entschlossen maximal 16 Personen pro Bootcamp aufzunehmen. Und warum? Weil bei uns Qualität vor Quantität kommt. Wir machen wenig Kurse im Jahr, mit max. 16 Teilnehmer:innen und 2 Trainer:innen.",
   },
   {
     question: "Was muss ich tun, um meine Bewerbung zu starten?",

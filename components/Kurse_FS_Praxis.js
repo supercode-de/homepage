@@ -57,7 +57,7 @@ const Kurse_FS_Praxis = () => {
 
         <p>
           Mit über 60% Praxisanteil bilden wir dich optimal für die Berufspraxis
-          als Webentwickler*in aus. Da fast jede Website kleinere oder größere
+          als Webentwickler:in aus. Da fast jede Website kleinere oder größere
           JavaScripte verwendet, liegt neben HTML & CSS ein starker Fokus auf
           dem Erlernen von JavaScript und der Library React. Ihr lernt die
           wichtigsten Sprachen und Technologien, um vollwertige Webseiten zu

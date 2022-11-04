@@ -7,7 +7,7 @@ const Leitbild_Body = () => {
           <h3>Unser Ziel</h3>
 
           <p>
-            ist die Ausbildung unserer Teilnehmenden zu verantwortungsvollen, effizient arbeitenden und nachhaltig denkenden Fachkräften für die Digitalwirtschaft (z.B. Web Entwickler Frontend, Webentwickler Full-Stack, Data Analysts) auszubilden. Dabei richten wir uns vor allem an Studienabbrecher*innen, Absolvent*innen der Geistes- und Humanwissenschaften, Quereinsteiger*innen aus technischen, wie auch nicht-technischen Berufen. Ein besonderes Augenmerk liegt auch auf der Integration von Frauen in die Digitalwirtschaft, daher spricht unser Kurs explizit auch Frauen an.
+            ist die Ausbildung unserer Teilnehmenden zu verantwortungsvollen, effizient arbeitenden und nachhaltig denkenden Fachkräften für die Digitalwirtschaft (z.B. Web Entwickler Frontend, Webentwickler Full-Stack, Data Analysts) auszubilden. Dabei richten wir uns vor allem an Studienabbrecher:innen, Absolvent:innen der Geistes- und Humanwissenschaften, Quereinsteiger:innen aus technischen, wie auch nicht-technischen Berufen. Ein besonderes Augenmerk liegt auch auf der Integration von Frauen in die Digitalwirtschaft, daher spricht unser Kurs explizit auch Frauen an.
           </p>
           <h3>Insbesondere vermitteln wir:</h3>
           <p>

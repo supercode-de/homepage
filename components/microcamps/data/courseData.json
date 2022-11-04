@@ -10,7 +10,7 @@
     "duration": "4 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/design1.png",
-    "jobtitle": "UX-Designer*in",
+    "jobtitle": "UX-Designer:in",
     "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Erlerne alle Grundlagen guter User Experience. Durchlaufe die ersten wichtige Schritte beim Entwickeln eines digitalen Produktes. Erlerne und nutze unsere Methoden, die dir helfen erfolgreiche Ideen entstehen zu lassen, um daraus einen digitalen Prototypen auf Figma zu designen.",
     "termine": [
@@ -40,13 +40,13 @@
       {
         "name": "Discord",
         "image": "microcamps/tools/discord.svg",
-        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird.."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
       }
     ],
     "curriculumOverview": [
       {
         "curriculumTitle": "Design Thinking",
-        "curriculumPreview": "Verstehe deine Nutzer*innen und entwickle Ideen"
+        "curriculumPreview": "Verstehe deine Nutzer:innen und entwickle Ideen"
       },
       {
         "curriculumTitle": "Product Field & Personas",
@@ -54,21 +54,21 @@
       },
       {
         "curriculumTitle": "Informationsarchitektur",
-        "curriculumPreview": "Lerne Funktionen und Inhalte sinnvoll zu unterteilen und lege Navigationswege für die Nutzer*innen fest"
+        "curriculumPreview": "Lerne Funktionen und Inhalte sinnvoll zu unterteilen und lege Navigationswege für die Nutzer:innen fest"
       },
       {
         "curriculumTitle": "User Stories",
-        "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender*innen"
+        "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender:innen"
       }
     ],
     "curriculumExtended": [
       {
         "ablaufTitel": "Vorbereitung und Kennenlernen",
         "ablaufZeitraum": "Vorbereitung",
-        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg:innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
         "ablaufBeschreibungPunkte": [
           "Erstelle einen Account auf Figma und Discord",
-          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Lerne deine Kolleg:innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
           "Bearbeite unsere Aufwärmübung auf FigJam",
@@ -78,20 +78,20 @@
       {
         "ablaufTitel": "Design Thinking",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "Stelle deine Nutzer*innen in den Mittelpunkt. Untersuche Probleme und Bedürfnisse deiner Zielgruppe. Erarbeite Hypothesen und baue darauf deine Konzeptidee auf.",
+        "ablaufBeschreibung": "Stelle deine Nutzer:innen in den Mittelpunkt. Untersuche Probleme und Bedürfnisse deiner Zielgruppe. Erarbeite Hypothesen und baue darauf deine Konzeptidee auf.",
         "ablaufBeschreibungPunkte": [
           "Einführung in die Grundlagen des Design Thinking in unserer Live-Class",
           "Lerne unser FigJam Design Thinking Template kennen und wende es praktisch an",
-          "Führe ein Expert*inneninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
+          "Führe ein Expert:inneninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
           "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungsansätze enthalten",
           "Führe eine eigene Untersuchung innerhalb der Zielgruppe durch, um deine Hypothesen zu bestätigen",
-          "Entwickle gemeinsam mit deinen Kolleg*innen eine Produktidee"
+          "Entwickle gemeinsam mit deinen Kolleg:innen eine Produktidee"
         ]
       },
       {
         "ablaufTitel": "Product Field & Personas",
         "ablaufZeitraum": "Woche 2",
-        "ablaufBeschreibung": "Nutze das Product Field um Stärken und Schwächen deiner Produktidee herauszuarbeiten. Erstelle außerdem eine User-Persona auf Basis deiner Zielgruppenanalyse mit den Eigenschaften & Verhaltensmustern deiner Nutzer*innen.",
+        "ablaufBeschreibung": "Nutze das Product Field um Stärken und Schwächen deiner Produktidee herauszuarbeiten. Erstelle außerdem eine User-Persona auf Basis deiner Zielgruppenanalyse mit den Eigenschaften & Verhaltensmustern deiner Nutzer:innen.",
         "ablaufBeschreibungPunkte": [
           "Erlerne die Grundlagen des Product Fields und wende es an",
           "Untersuche, ob deine Produktidee umsetzbar und innovativ ist",
@@ -101,19 +101,19 @@
       {
         "ablaufTitel": "Informationsarchitektur",
         "ablaufZeitraum": "Woche 3",
-        "ablaufBeschreibung": "In Woche 3 bringt ihr Struktur und Ordnung in eure Produktidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer*innen fest.",
+        "ablaufBeschreibung": "In Woche 3 bringt ihr Struktur und Ordnung in eure Produktidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer:innen fest.",
         "ablaufBeschreibungPunkte": [
           "Einführung in die Grundlagen guter Informationsarchitektur",
           "Nutze FigJam und erstelle dein erstes Flowchart (User Flow)",
-          "Lerne das Flowchart so zu gestalten, dass den Nutzer*innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
+          "Lerne das Flowchart so zu gestalten, dass den Nutzer:innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
         ]
       },
       {
         "ablaufTitel": "User Storys",
         "ablaufZeitraum": "Woche 4",
-        "ablaufBeschreibung": "In Woche 4 unseres Kurses lernst du die Stärke von User Storys kennen. Wende dieses Werkzeug an, um gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender*innen zu beschreiben.",
+        "ablaufBeschreibung": "In Woche 4 unseres Kurses lernst du die Stärke von User Storys kennen. Wende dieses Werkzeug an, um gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender:innen zu beschreiben.",
         "ablaufBeschreibungPunkte": [
-          "Lerne User Storys zu entwickeln, die leicht zu verstehen sind und die Wünsche der Anwender*innen vermitteln",
+          "Lerne User Storys zu entwickeln, die leicht zu verstehen sind und die Wünsche der Anwender:innen vermitteln",
           "Lerne wie du mit Hilfe der User Storys schnell und einfach eine Aufwandsschätzung realisierst",
           "Verfeinere deine User Storys schrittweise und unterstütze so die iterative Entwicklung des Produktes in seiner Tiefe"
         ]
@@ -138,7 +138,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           }
         ]
       },
@@ -160,13 +160,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Yoga",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -194,7 +194,7 @@
     "duration": "5 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/design2.png",
-    "jobtitle": "UI-Designer*in",
+    "jobtitle": "UI-Designer:in",
     "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Erlerne alle Grundlagen um zukünftig ansprechende und funktionale  Benutzeroberflächen in Figma zu erstellen. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.",
     "termine": [
@@ -245,10 +245,10 @@
       {
         "ablaufTitel": "Vorbereitung und Kennenlernen",
         "ablaufZeitraum": "Vorbereitung",
-        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg:innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
         "ablaufBeschreibungPunkte": [
           "Erstelle einen Account auf Figma und Discord",
-          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Lerne deine Kolleg:innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
           "Bearbeite unsere Aufwärmübung auf FigJam",
@@ -329,7 +329,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -357,13 +357,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -391,7 +391,7 @@
     "duration": "5 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/design3.png",
-    "jobtitle": "UX-Designer*in",
+    "jobtitle": "UX-Designer:in",
     "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Lerne generative und evaluative Untersuchungsmethoden kennen, wende diese an und festige deine Routine im erstellen von Ergebnisberichten.",
     "termine": [
@@ -424,7 +424,7 @@
     "curriculumOverview": [
       {
         "curriculumTitle": "Generatives Testing",
-        "curriculumPreview": "Erlerne die Grundlagen und Methoden generativen Testens. Rekrutiere Probant*innen und führe Research-Interviews durch."
+        "curriculumPreview": "Erlerne die Grundlagen und Methoden generativen Testens. Rekrutiere Probant:innen und führe Research-Interviews durch."
       },
       {
         "curriculumTitle": "Umfragen & Konkurrenzforschung",
@@ -447,10 +447,10 @@
       {
         "ablaufTitel": "Vorbereitung und Kennenlernen",
         "ablaufZeitraum": "Vorbereitung",
-        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg:innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
         "ablaufBeschreibungPunkte": [
           "Erstelle einen Account auf Figma und Discord",
-          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Lerne deine Kolleg:innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
           "Bearbeite unsere Aufwärmübung auf FigJam",
@@ -460,12 +460,12 @@
       {
         "ablaufTitel": "Generatives Testing",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "In Woche 1 erlernst du, wie wertvoll und wichtig UX Untersuchungsmethoden sind. Außerdem zeigen wir dir, wie du Probant*innen rekrutierst und Research-Interviews durchführst.",
+        "ablaufBeschreibung": "In Woche 1 erlernst du, wie wertvoll und wichtig UX Untersuchungsmethoden sind. Außerdem zeigen wir dir, wie du Probant:innen rekrutierst und Research-Interviews durchführst.",
         "ablaufBeschreibungPunkte": [
           "Lerne verschiedene UX Untersuchungsmethoden kennen",
-          "Rekrutiere Probant*innen und stelle dir eine Testgruppe aus 10-15 Personen zusammen",
+          "Rekrutiere Probant:innen und stelle dir eine Testgruppe aus 10-15 Personen zusammen",
           "Lerne verschiedene Interview-Techniken kennen und wende diese an",
-          "Bereit dein eigenes Research-Interview vor und führe es mit deinen Probant*innen"
+          "Bereit dein eigenes Research-Interview vor und führe es mit deinen Probant:innen"
         ]
       },
       {
@@ -494,7 +494,7 @@
         "ablaufZeitraum": "Woche 4",
         "ablaufBeschreibung": "In der 4. Woche zeigen wir dir, wie die gesammelten Daten zusammenzufassen und sinnvoll zu nutzen sind. Du lernst aus den Daten, Probleme zu definieren und umsetzbare Erkenntnisse zu gewinnen.",
         "ablaufBeschreibungPunkte": [
-          "Lerne deine Nutzer*innen zu segmentieren und in Gruppen zu unterteilen",
+          "Lerne deine Nutzer:innen zu segmentieren und in Gruppen zu unterteilen",
           "Lerne deine Daten mit Hilfe von Notion übersichtlich und sinnvoll zusammenzufassen",
           "Lerne die Grundlagen von “Taxonomy Tagging”",
           "Erlerne das Erstellen eines Affinitätsdiagramms"
@@ -503,11 +503,11 @@
       {
         "ablaufTitel": "Testberichte",
         "ablaufZeitraum": "Woche 5",
-        "ablaufBeschreibung": "In Woche 5 lernst du abschließend wie alle Ergebnisse und Daten aus den vorigen Wochen zu einem finalen Schlussbericht zusammen gefasst und präsentiert werden können. Außerdem habt ihr die Möglichkeit eure wertvollen Ergebnisse euren Kolleg*innen vorzustellen.",
+        "ablaufBeschreibung": "In Woche 5 lernst du abschließend wie alle Ergebnisse und Daten aus den vorigen Wochen zu einem finalen Schlussbericht zusammen gefasst und präsentiert werden können. Außerdem habt ihr die Möglichkeit eure wertvollen Ergebnisse euren Kolleg:innen vorzustellen.",
         "ablaufBeschreibungPunkte": [
           "Organisiere deine Ergebnisse und lerne, sie ansprechend darzustellen und zu kommunizieren",
           "Lerne Testberichte zu formulieren, welche du an den Kunden weitergeben kannst",
-          "Erstelle deine erste eigene UX-Research Fallstudie und präsentiere sie deinen Kolleg*innen und deinen Trainer*innen"
+          "Erstelle deine erste eigene UX-Research Fallstudie und präsentiere sie deinen Kolleg:innen und deinen Trainer:innen"
         ]
       }
     ],
@@ -530,7 +530,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -558,13 +558,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -592,7 +592,7 @@
     "duration": "10 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/design4.png",
-    "jobtitle": "UX/UI-Designer*in",
+    "jobtitle": "UX/UI-Designer:in",
     "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Erlernen alle UX/UI-Design Fähigkeiten, um aus einer Idee ein innovatives und erfolgreiches, digitales Produkt zu erschaffen.",
     "termine": [
@@ -620,15 +620,15 @@
     "curriculumOverview": [
       {
         "curriculumTitle": "Design Thinking",
-        "curriculumPreview": "Verstehe deine Nutzer*innen und entwickle Ideen"
+        "curriculumPreview": "Verstehe deine Nutzer:innen und entwickle Ideen"
       },
       {
         "curriculumTitle": "Informationsarchitektur",
-        "curriculumPreview": "Lerne Funktionen und Inhalte sinnvoll zu unterteilen und lege Navigationswege für die Nutzer*innen fest"
+        "curriculumPreview": "Lerne Funktionen und Inhalte sinnvoll zu unterteilen und lege Navigationswege für die Nutzer:innen fest"
       },
       {
         "curriculumTitle": "User Stories",
-        "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender*innen"
+        "curriculumPreview": "Beschreibe gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender:innen"
       },
       {
         "curriculumTitle": "Wireframe",
@@ -652,7 +652,7 @@
       },
       {
         "curriculumTitle": "Abschlussprojekt",
-        "curriculumPreview": "Während des Abschlussprojekts kannst du gemeinsam mit deinen Kolleg*innen zeigen, was du gelernt hast"
+        "curriculumPreview": "Während des Abschlussprojekts kannst du gemeinsam mit deinen Kolleg:innen zeigen, was du gelernt hast"
       },
       {
         "curriculumTitle": "Portfolio & Bewerbung",
@@ -663,10 +663,10 @@
       {
         "ablaufTitel": "Vorbereitung und Kennenlernen",
         "ablaufZeitraum": "Vorbereitung",
-        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg:innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
         "ablaufBeschreibungPunkte": [
           "Erstelle einen Account auf Figma und Discord",
-          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Lerne deine Kolleg:innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
           "Bearbeite unsere Aufwärmübung auf FigJam",
@@ -676,32 +676,32 @@
       {
         "ablaufTitel": "Design Thinking",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "Stelle deine Nutzer*innen in den Mittelpunkt. Untersuche Probleme und Bedürfnisse deiner Zielgruppe. Erarbeite Hypothesen und baue darauf deine Konzeptidee auf.",
+        "ablaufBeschreibung": "Stelle deine Nutzer:innen in den Mittelpunkt. Untersuche Probleme und Bedürfnisse deiner Zielgruppe. Erarbeite Hypothesen und baue darauf deine Konzeptidee auf.",
         "ablaufBeschreibungPunkte": [
           "Einführung in die Grundlagen des Design Thinking in unserer Live-Class",
           "Lerne unser FigJam Design Thinking Template kennen und wende es praktisch an",
-          "Führe ein Expert*inneninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
+          "Führe ein Expert:inneninterview durch und lerne alles über die Zielgruppe und deren Bedürfnisse",
           "Stelle auf Basis deines Interviews Hypothesen auf, die Lösungsansätze enthalten",
           "Führe eine eigene Untersuchung innerhalb der Zielgruppe durch, um deine Hypothesen zu bestätigen",
-          "Entwickle gemeinsam mit deinen Kolleg*innen eine Produktidee"
+          "Entwickle gemeinsam mit deinen Kolleg:innen eine Produktidee"
         ]
       },
       {
         "ablaufTitel": "Informationsarchitektur",
         "ablaufZeitraum": "Woche 2",
-        "ablaufBeschreibung": "In Woche 2 bringt ihr Struktur und Ordnung in eure Produktidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer*innen fest.",
+        "ablaufBeschreibung": "In Woche 2 bringt ihr Struktur und Ordnung in eure Produktidee. Ihr lernt eure Funktionen und Inhalte sinnvoll zu unterteilen, und legt Navigationswege für die Nutzer:innen fest.",
         "ablaufBeschreibungPunkte": [
           "Einführung in die Grundlagen guter Informationsarchitektur",
           "Nutze FigJam und erstelle dein erstes Flowchart (User Flow)",
-          "Lerne das Flowchart so zu gestalten, dass den Nutzer*innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
+          "Lerne das Flowchart so zu gestalten, dass den Nutzer:innen der Zugang zu allen Informationen und Funktionen ermöglicht wird"
         ]
       },
       {
         "ablaufTitel": "User Storys",
         "ablaufZeitraum": "Woche 3",
-        "ablaufBeschreibung": "In Woche 3 unseres Kurses lernst du die Stärke von User Storys kennen. Wende dieses Werkzeug an, um gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender*innen zu beschreiben.",
+        "ablaufBeschreibung": "In Woche 3 unseres Kurses lernst du die Stärke von User Storys kennen. Wende dieses Werkzeug an, um gewünschte Funktionalitäten deiner Produktidee aus Sicht der Anwender:innen zu beschreiben.",
         "ablaufBeschreibungPunkte": [
-          "Lerne User Storys zu entwickeln, die leicht zu verstehen sind und die Wünsche der Anwender*innen vermitteln",
+          "Lerne User Storys zu entwickeln, die leicht zu verstehen sind und die Wünsche der Anwender:innen vermitteln",
           "Lerne wie du mit Hilfe der User Storys schnell und einfach eine Aufwandsschätzung realisierst",
           "Verfeinere deine User Storys schrittweise und unterstütze so die iterative Entwicklung des Produktes in seiner Tiefe"
         ]
@@ -764,7 +764,7 @@
       {
         "ablaufTitel": "Abschlussprojekt",
         "ablaufZeitraum": "Woche 9",
-        "ablaufBeschreibung": "Practice, practice, practice... In Woche 9 könnt ihr zeigen was ihr die ganzen letzten Wochen gelernt habt. Gemeinsam mit euren Teamkolleg*innen durchlauft ihr nochmal alle Phasen und arbeitet an eurem ersten richtigen Kundenauftrag.",
+        "ablaufBeschreibung": "Practice, practice, practice... In Woche 9 könnt ihr zeigen was ihr die ganzen letzten Wochen gelernt habt. Gemeinsam mit euren Teamkolleg:innen durchlauft ihr nochmal alle Phasen und arbeitet an eurem ersten richtigen Kundenauftrag.",
         "ablaufBeschreibungPunkte": [
           "Bearbeitung eines Kundenauftrags im Teamverband",
           "Von der Idee bis zum fertigen Prototypen, werden alle Phasen durchlaufen",
@@ -801,7 +801,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -829,13 +829,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -863,7 +863,7 @@
     "duration": "10 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/design5.png",
-    "jobtitle": "UI-Designer*in",
+    "jobtitle": "UI-Designer:in",
     "wartelisteLinkFormID": "7497e829-c49e-496c-a3df-4ae408c18f82",
     "headerDescription": "Erlernen alle UI-Design Fähigkeiten und meistere die Gestaltung schöner und funktionaler Oberflächen in Figma. Erstelle UI-Komponenten, Schrift- und Farbbibliotheken und erlerne Gestaltungsrichtlinien für ein gutes UI-Design.",
     "termine": [
@@ -930,10 +930,10 @@
       {
         "ablaufTitel": "Vorbereitung und Kennenlernen",
         "ablaufZeitraum": "Vorbereitung",
-        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg:innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
         "ablaufBeschreibungPunkte": [
           "Erstelle einen Account auf Figma und Discord",
-          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Lerne deine Kolleg:innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der Figma Umgebung vertraut",
           "Bearbeite unsere Aufwärmübung auf FigJam",
@@ -987,7 +987,7 @@
       {
         "ablaufTitel": "Responsive Design",
         "ablaufZeitraum": "Woche 5",
-        "ablaufBeschreibung": "Für viele Designer*innen stellt es eine Herausforderung dar, mühelos über verschiedene Geräte hinweg zu gestalten. In Woche 5 zeigen wir dir, wie du mit Hilfe der Auto-Layout Funktion von Figma deine Designs entsprechend der verschiedenen Endgeräte in der Größe anpassen kannst. Diesen Prozess nennt man responsives Gestalten.",
+        "ablaufBeschreibung": "Für viele Designer:innen stellt es eine Herausforderung dar, mühelos über verschiedene Geräte hinweg zu gestalten. In Woche 5 zeigen wir dir, wie du mit Hilfe der Auto-Layout Funktion von Figma deine Designs entsprechend der verschiedenen Endgeräte in der Größe anpassen kannst. Diesen Prozess nennt man responsives Gestalten.",
         "ablaufBeschreibungPunkte": [
           "Lerne die Grundlagen des responsiven Designs",
           "Beherrsche die Auto-Layout-Funktion & Größenanpassung in Figma",
@@ -1053,7 +1053,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -1081,13 +1081,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -1115,7 +1115,7 @@
     "duration": "10 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/webdev1.png",
-    "jobtitle": "Web-Entwickler*in",
+    "jobtitle": "Web-Entwickler:in",
     "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lerne, wie du mit HTML/CSS und ein bisschen JavaScript voll responsive Webseiten bauen kannst. Dazu bekommst du einen Überblick über die gesamte Webbranche und deren Tools.",
     "termine": [
@@ -1202,10 +1202,10 @@
       {
         "ablaufTitel": "WebDev Essentials & Kennenlernen",
         "ablaufZeitraum": "Vorbereitung",
-        "ablaufBeschreibung": "Lerne deine Camp-Kolleg*innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
+        "ablaufBeschreibung": "Lerne deine Camp-Kolleg:innen kennen und richte dir in Ruhe alle deine Tools ein, die du für eine erfolgreiche Teilnahme an unserem MicroCamp benötigst. Wir haben außerdem eine kleine Aufwärmübung für dich vorbereitet.",
         "ablaufBeschreibungPunkte": [
           "Erstelle einen Account auf Discord und unserer Plattform",
-          "Lerne deine Kolleg*innen auf Discord kennen",
+          "Lerne deine Kolleg:innen auf Discord kennen",
           "Mache dich mit der Discord Umgebung vertraut",
           "Mache dich mit der VSCode Umgebung vertraut"
         ]
@@ -1213,7 +1213,7 @@
       {
         "ablaufTitel": "HTML Basics",
         "ablaufZeitraum": "Woche 1",
-        "ablaufBeschreibung": "Beginne mit den ersten Schritte in Richtung Web-Entwickler*in. Hier lernen wir die Syntax von HTML kennen, die Unterschiede zwischen den Elementen und wie man diese in eine semantische Struktur bringt.",
+        "ablaufBeschreibung": "Beginne mit den ersten Schritte in Richtung Web-Entwickler:in. Hier lernen wir die Syntax von HTML kennen, die Unterschiede zwischen den Elementen und wie man diese in eine semantische Struktur bringt.",
         "ablaufBeschreibungPunkte": [
           "Workflow mit Visual Studio Code",
           "Erstellen von HTML Dokumenten und HTML lesen lernen",
@@ -1314,7 +1314,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -1342,7 +1342,7 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
@@ -1376,7 +1376,7 @@
     "duration": "2 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/webdev2.png",
-    "jobtitle": "Web-Entwickler*in",
+    "jobtitle": "Web-Entwickler:in",
     "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Lerne in kurzer Zeit die Basics von JavaScript und entdecke die wunderbare Welt der Programmierung.",
     "termine": [
@@ -1501,7 +1501,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -1529,7 +1529,7 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
@@ -1563,7 +1563,7 @@
     "duration": "8 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/webdev3.png",
-    "jobtitle": "Web-Entwickler*in",
+    "jobtitle": "Web-Entwickler:in",
     "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Deep Dive JavaScript – your welcome. Hier geht es ins Eingemachte und ab jetzt wird es richtig interessant. Von String Methoden, über Loops ist alles dabei.",
     "termine": [
@@ -1678,7 +1678,7 @@
       {
         "ablaufTitel": "Circle of Code",
         "ablaufZeitraum": "Woche 2 - 8",
-        "ablaufBeschreibung": "Programmierer*innen sind faul! Deswegen sind Loops/Schleifen so beliebt, denn mit ihnen können wir einen Code implementieren der immer wieder ausgeführt werden soll.",
+        "ablaufBeschreibung": "Programmierer:innen sind faul! Deswegen sind Loops/Schleifen so beliebt, denn mit ihnen können wir einen Code implementieren der immer wieder ausgeführt werden soll.",
         "ablaufBeschreibungPunkte": [
           "Loops in ihrer Funktion in JavaScript",
           "Welche Arten von Loops hat JavaScript?",
@@ -1756,7 +1756,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -1784,7 +1784,7 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
@@ -1818,7 +1818,7 @@
     "duration": "2 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/webdev4.png",
-    "jobtitle": "Web-Entwickler*in",
+    "jobtitle": "Web-Entwickler:in",
     "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "API’s sind das Rückrat des Webs und bilden damit ein solides Fundament in der Webentwicklung. Hier lernst Du wieso, weshalb und warum.",
     "termine": [
@@ -1942,7 +1942,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -1970,7 +1970,7 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
@@ -2004,7 +2004,7 @@
     "duration": "10 Wochen",
     "level": "Beginner",
     "image": "microcamps/kurse/webdev5.png",
-    "jobtitle": "Web-Entwickler*in",
+    "jobtitle": "Web-Entwickler:in",
     "wartelisteLinkFormID": "32d40867-412c-47f6-b5ae-5b854e5d2fdf",
     "headerDescription": "Wer JavaScript kann braucht auch ein JS-Framework und mit React haben wir hier ein wundervolles und mächtiges Tool. Dieses möchten wir dir hier näher bringen und gemeinsam mit dir lieben lernen.",
     "termine": [
@@ -2186,7 +2186,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -2214,7 +2214,7 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
@@ -2449,7 +2449,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -2477,13 +2477,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -2721,7 +2721,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -2749,13 +2749,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -2984,7 +2984,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -3012,13 +3012,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -3247,7 +3247,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -3275,13 +3275,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -3510,7 +3510,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -3538,13 +3538,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -3773,7 +3773,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -3801,13 +3801,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -4036,7 +4036,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -4064,13 +4064,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -4299,7 +4299,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -4327,13 +4327,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -4562,7 +4562,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           },
           {
             "block": 2,
@@ -4590,13 +4590,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Workout",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },
@@ -4825,7 +4825,7 @@
             "block": 1,
             "title": "Live Kurs",
             "duration": "2 Stunden",
-            "description": "Live Kurs mit deinen Trainer*innen und den Kursteilnehmer*innen"
+            "description": "Live Kurs mit deinen Trainer:innen und den Kursteilnehmer:innen"
           }
         ]
       },
@@ -4847,13 +4847,13 @@
             "block": 1,
             "title": "Workshop",
             "duration": "1 Stunde",
-            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer*innen"
+            "description": "Arbeite mit deinem Team und stelle Fragen an die Trainer:innen"
           },
           {
             "block": 2,
             "title": "Yoga",
             "duration": "1 Stunde",
-            "description": "Unser kleines Workout mit Trainer*innen & Teilnehmer*innen"
+            "description": "Unser kleines Workout mit Trainer:innen & Teilnehmer:innen"
           }
         ]
       },

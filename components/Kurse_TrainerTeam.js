@@ -5,12 +5,12 @@ export default function Kurse_TrainerTeam(props) {
             <div className='trainerinfos'>
                 <h2>
                     <span>Super</span>
-                    Trainer*innen
+                    Trainer:innen
                 </h2>
                 <p>
-                    Unsere Trainer*innen sind praxiserfahrene {props.kursForm === "uxui" ? "UX/UI-Designer*innen" : "Webentwickler*innen"}, die
+                    Unsere Trainer:innen sind praxiserfahrene {props.kursForm === "uxui" ? "UX/UI-Designer:innen" : "Webentwickler:innen"}, die
                     sich laufend fachlich und pädagogisch fortbilden. Durch unseren
-                    Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich pro Tag,
+                    Methodenmix und dem Einsatz von zwei Trainer:innen zeitgleich pro Tag,
                     wirst du spielerisch {props.kursForm === "uxui" ? "UX/UI-Design lernen und deine eigenen Prototypen bauen" : "programmieren lernen und deine eigenen Webseiten bauen."}
                 </p>
 

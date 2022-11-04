@@ -10,7 +10,7 @@ const UXUI_HeaderCTA = () => {
           </h3>
           <h3>– Teilzeit / berufsbegleitend</h3>
           <h3>
-            – 2 <span className="after-span">Trainer*innen</span>
+            – 2 <span className="after-span">Trainer:innen</span>
           </h3>
         </section>
         <section>

@@ -9,7 +9,7 @@ const Kurse_HeaderCTA = (props) => {
                     </h3>
                     <h3>– Tägliches Training</h3>
                     <h3>
-                        – 2 Trainer*innen
+                        – 2 Trainer:innen
                         <span className='after-span'> jeden Tag</span>
                     </h3>
                 </section>

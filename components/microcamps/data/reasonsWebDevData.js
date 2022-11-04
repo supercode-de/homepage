@@ -1,8 +1,8 @@
 let reasonsWebDevData = [
     {
         id: 0,
-        title: " Qualifizierte Trainer*innen",
-        reason: "Unsere Trainer*innen sind praxiserfahrene Web-Entwickler*innen, die sich regelmäßig fortbilden. Du bist also in guten Händen und profitierst von den Berufs- und Unterrrichts-erfahrungen unserer Trainer*innen.",
+        title: " Qualifizierte Trainer:innen",
+        reason: "Unsere Trainer:innen sind praxiserfahrene Web-Entwickler:innen, die sich regelmäßig fortbilden. Du bist also in guten Händen und profitierst von den Berufs- und Unterrrichts-erfahrungen unserer Trainer:innen.",
     },
     {
         id: 1,
@@ -32,7 +32,7 @@ let reasonsWebDevData = [
     {
         id: 6,
         title: " Praxisprojekte / Fallstudien",
-        reason: "Während des Microcamps lernst du, wie du Webseiten anhand von echten Design Vorlagen programmieren kannst. Dadurch hebst du dich von anderen Bewerber*innen ab, denn dein Portfolio glänzt mit praxisnahen Arbeiten.",
+        reason: "Während des Microcamps lernst du, wie du Webseiten anhand von echten Design Vorlagen programmieren kannst. Dadurch hebst du dich von anderen Bewerber:innen ab, denn dein Portfolio glänzt mit praxisnahen Arbeiten.",
     },
     {
         id: 7,

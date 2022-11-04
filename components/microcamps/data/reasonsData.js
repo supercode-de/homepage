@@ -1,8 +1,8 @@
 let reasons = [
     {
         id: 0,
-        title: " Echte Menschen und Live-Trainer*innen",
-        reason: "Die MicroCamps sind wie Online-Tutorials, nur besser! Denn du hast es mit echten Menschen zu tun und lernst live mit anderen zusammen. Unser Trainerteam besteht aus erfahrenen IT-Expert*innen, die sich ständig weiterbilden und so fachlich und methodisch immer up-to date sind.",
+        title: " Echte Menschen und Live-Trainer:innen",
+        reason: "Die MicroCamps sind wie Online-Tutorials, nur besser! Denn du hast es mit echten Menschen zu tun und lernst live mit anderen zusammen. Unser Trainerteam besteht aus erfahrenen IT-Expert:innen, die sich ständig weiterbilden und so fachlich und methodisch immer up-to date sind.",
     },
     {
         id: 1,

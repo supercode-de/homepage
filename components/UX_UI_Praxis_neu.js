@@ -70,7 +70,7 @@ const UX_UI_Praxis_neu = () => {
           von Benutzeroberflächen.
         </p>
         <p>
-          Als UX-Designer*in findest du heraus, was die Benutzer*innen wirklich
+          Als UX-Designer:in findest du heraus, was die Benutzer:innen wirklich
           wollen und lieferst mit deinen Kenntnissen im UI-Bereich eine digitale
           Schnittstelle, die keine Fragen offen lässt. Und das alles lernst du
           in Teilzeit neben deinem Job!

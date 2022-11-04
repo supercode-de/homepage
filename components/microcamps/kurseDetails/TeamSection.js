@@ -44,14 +44,14 @@ const TeamSection = ({ data }) => {
             <div className="wrap">
                 <article className="teamSection__headline">
                     <p>{data.category} Team</p>
-                    <h3>Lerne mit qualifizierten Trainer*innen</h3>
+                    <h3>Lerne mit qualifizierten Trainer:innen</h3>
                     <h3>aus der {data.theme === "design" ? "Design-" : data.theme === "coding" ? "IT-" : data.theme === "data" ? "Data-Science-" : ""}Branche</h3>
                 </article>
 
                 <article className="teamSection__gridTeam">
                     {filteredTeam.map((team, i) => (
                         <div key={i} className="teamSection__gridTeam__card">
-                            <img src={`/img/${team.img}`} alt={`SuperCode Mitarbeiter*in ${team.name}`} />
+                            <img src={`/img/${team.img}`} alt={`SuperCode Mitarbeiter:in ${team.name}`} />
                             <h5>{team.name}</h5>
                             <p>{team.jobtitel}</p>
                         </div>
@@ -72,7 +72,7 @@ const TeamSection = ({ data }) => {
                 >
                     {filteredTeam.map((team, i) => (
                         <div key={i} className="teamSection__gridTeam__card">
-                        <img src={`/img/${team.img}`} alt={`SuperCode Mitarbeiter*in ${team.name}`} />
+                        <img src={`/img/${team.img}`} alt={`SuperCode Mitarbeiter:in ${team.name}`} />
                         <h5>{team.name}</h5>
                         <p>{team.jobtitel}</p>
                     </div>

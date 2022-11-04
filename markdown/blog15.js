@@ -11,7 +11,7 @@ Ich würde mal sagen, ich war zur richtigen Zeit am richtigen Ort. Zunächst ein
 
 ### Steile Lernkurve! Wie hast du das denn gemacht?
 
-SuperCode bietet für angehende Trainer*innen ein internes Traineeprogramm mit Fortbildungen in den Bereichen Methodik/Didaktik, Selbstreflexion und Coding an. Dort konnte ich meine Rolle und Haltung als Trainer reflektieren und mein Wissen in der Erwachsenenbildung noch ergänzen. Darüber hinaus muss man natürlich Eigeninitiative zeigen und alle Inhalte des Kurses noch mal wiederholen und vertiefen. Das habe ich immer früh morgens vor den Kursen gemacht, um einfach gut vorbereitet zu sein. 
+SuperCode bietet für angehende Trainer:innen ein internes Traineeprogramm mit Fortbildungen in den Bereichen Methodik/Didaktik, Selbstreflexion und Coding an. Dort konnte ich meine Rolle und Haltung als Trainer reflektieren und mein Wissen in der Erwachsenenbildung noch ergänzen. Darüber hinaus muss man natürlich Eigeninitiative zeigen und alle Inhalte des Kurses noch mal wiederholen und vertiefen. Das habe ich immer früh morgens vor den Kursen gemacht, um einfach gut vorbereitet zu sein. 
 
 
 ### Du bist ja selbst Quereinsteiger. Wie bist du zum Coding gekommen?  
@@ -27,17 +27,17 @@ Steffen und Natalie im Interview
 
 ### Wie war es für dich als Teilnehmer im Bootcamp Webentwicklung? Was hat dir gefallen?
 
-Ich war total fasziniert, was man mit Code alles noch so machen kann. Layouts nur aus Code heraus zu gestalten fand ich einfach toll. Am liebsten habe ich dabei mit SASS gearbeitet, weil es so schön übersichtlich ist. Die Welt von JavaScript hat es mir dann richtig angetan, denn sobald das ins Spiel kommt, passiert die Magie: Durch schöne Animationen, Loading Screens und alles, was mit den Benutzer\\*innen interagiert, gibt man Leben in die Webseite!
+Ich war total fasziniert, was man mit Code alles noch so machen kann. Layouts nur aus Code heraus zu gestalten fand ich einfach toll. Am liebsten habe ich dabei mit SASS gearbeitet, weil es so schön übersichtlich ist. Die Welt von JavaScript hat es mir dann richtig angetan, denn sobald das ins Spiel kommt, passiert die Magie: Durch schöne Animationen, Loading Screens und alles, was mit den Benutzer:innen interagiert, gibt man Leben in die Webseite!
 
-### Gemeinsam mit dem/der Assistant-Trainer\\*in leitest du nun die Bootcamps Webentwicklung, in denen bis zu 16 erwachsene IT-Quereinsteiger\\*innen sitzen. Wie ist das für dich?
+### Gemeinsam mit dem/der Assistant-Trainer:in leitest du nun die Bootcamps Webentwicklung, in denen bis zu 16 erwachsene IT-Quereinsteiger:innen sitzen. Wie ist das für dich?
 
 Ich kenne beide Perspektiven, das sehe ich als Vorteil. Ich habe über die Jahre selbst an sehr vielen Fortbildungen teilgenommen und konnte gut beobachten, welche Lehrmethoden gut oder weniger gut sind und worauf man achten sollte. Ich konnte mir also viel abgucken.
 #####
-Während meiner Tätigkeit als Physiotherapeut habe ich neben der Betreuung der Patient*innen interne Fortbildungen für Mitarbeitende gegeben. Es hat mir immer schon Spaß gemacht, Wissen zu vermitteln und zu sehen, wie es von den Teilnehmenden angewendet wird und sie damit Fortschritte machen. Es ist einfach total schön, ein Teil der persönlichen Weiterentwicklung von Menschen zu sein. Irgendwann entwickelt man dann seinen eigenen Trainingsstil.
+Während meiner Tätigkeit als Physiotherapeut habe ich neben der Betreuung der Patient:innen interne Fortbildungen für Mitarbeitende gegeben. Es hat mir immer schon Spaß gemacht, Wissen zu vermitteln und zu sehen, wie es von den Teilnehmenden angewendet wird und sie damit Fortschritte machen. Es ist einfach total schön, ein Teil der persönlichen Weiterentwicklung von Menschen zu sein. Irgendwann entwickelt man dann seinen eigenen Trainingsstil.
 
 ### Was zeichnet deinen Trainingsstil aus und was ist dir besonders wichtig als Trainer?
 
-Mein Motto ist: Keep it simple. Wer komplizierte Sachen nicht einfach erklären kann, hat meistens keine Ahnung von der Materie. Außerdem ist es wichtig, mit den Teilnehmenden auf einer Ebene zu sein. Wir als Trainer*innen müssen zwar die Kursstruktur einhalten, können aber trotzdem dafür sorgen, dass sich alle wahr- und angenommen fühlen. Wir sitzen alle im selben Boot und lernen uns mit der Zeit auch privat etwas besser kennen.
+Mein Motto ist: Keep it simple. Wer komplizierte Sachen nicht einfach erklären kann, hat meistens keine Ahnung von der Materie. Außerdem ist es wichtig, mit den Teilnehmenden auf einer Ebene zu sein. Wir als Trainer:innen müssen zwar die Kursstruktur einhalten, können aber trotzdem dafür sorgen, dass sich alle wahr- und angenommen fühlen. Wir sitzen alle im selben Boot und lernen uns mit der Zeit auch privat etwas besser kennen.
 #####
 Mein Ziel ist es, fachlich und menschlich auf ein tolles Level zukommen und mit Spaß bei der Sache zu sein. Denn Coding ist ein super kreativer Prozess, der logischen Abläufen folgt.
 

@@ -29,7 +29,7 @@ const Alumni = () => {
       <span className="aside">Super (code) x Super (you)</span>
       <section className="content">
         <h1>
-          Unsere <br /> <span className="super">Absol&shy;vent*innen</span>
+          Unsere <br /> <span className="super">Absol&shy;vent:innen</span>
         </h1>
 
         <div className="alumni-grid">

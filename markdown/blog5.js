@@ -7,9 +7,9 @@ An drei herbstlichen Oktobertagen haben sich die Teilnehmenden der aktuellen Boo
 ![blog5](/img/blogs/5/2.jpg )
 
 ### Hacka..what?!
-Hackathon ist eine Verschmelzung von „Hacking“ und „Marathon“ und zielt darauf ab  technische Probleme auf ungewöhnliche Weise zu lösen. Der Ansatz des Hackathons ist ausgesprochen konstruktiv, da die Teilnehmenden in kürzester Zeit in Gruppenarbeit und unter Vorgabe eines Themas ein hilfreiches Produkt erschaffen. Somit wird nicht nur die Teamarbeit, sondern auch das Arbeiten unter realen Bedingungen mit Projektmanagement und Deadlines gefördert. Unterstützt werden sie dabei von Trainer*innen, die ihnen mit Rat und Tat zur Seite stehen.
+Hackathon ist eine Verschmelzung von „Hacking“ und „Marathon“ und zielt darauf ab  technische Probleme auf ungewöhnliche Weise zu lösen. Der Ansatz des Hackathons ist ausgesprochen konstruktiv, da die Teilnehmenden in kürzester Zeit in Gruppenarbeit und unter Vorgabe eines Themas ein hilfreiches Produkt erschaffen. Somit wird nicht nur die Teamarbeit, sondern auch das Arbeiten unter realen Bedingungen mit Projektmanagement und Deadlines gefördert. Unterstützt werden sie dabei von Trainer:innen, die ihnen mit Rat und Tat zur Seite stehen.
 
-### Die SuperHacker*innen und ihre Projekte 
+### Die SuperHacker:innen und ihre Projekte 
 Im SuperHackathon wurde die Teilnehmenden, die kurz vor Abschluss des Bootcamps stehen mit denen gemischt, die erst am Anfang ihrer Trainings sind. In 5 Teams wurden Konzepte erstellt, Aufgaben verteilt, Prototypen gebaut und natürlich wie wild gecodet, um nach nur 3 Tagen die vorläufigen Ergebnisse zu präsentieren, die sich bereits jetzt -auch wenn sie noch nicht responsive sind- sehen lassen können.
 #####
 Die 5 Themen drehten sich um Alltagsprobleme und aktuelle Fragestellungen:
@@ -20,7 +20,7 @@ Die 5 Themen drehten sich um Alltagsprobleme und aktuelle Fragestellungen:
 3. UPSkill: ZERTIFIZIERT in die NEUE Jobwelt. Deine Skills + unser Zertifikat = neuer Job
 [Schau dir hier den Prototyp an (noch nicht mobile-friendly)](https://mighty-brook-13289.herokuapp.com/)
 4. Save our Food: Wie können wir Lebensmittelverschwendung reduzieren?
-5. Parking Help: Hilf den Autofahrer*innen einen Parkplatz zu finden.
+5. Parking Help: Hilf den Autofahrer:innen einen Parkplatz zu finden.
 
 ![blog5](/img/blogs/5/3.png )
 ![blog5](/img/blogs/5/4.png )
@@ -32,10 +32,10 @@ Auch die Gruppe “FundPot”, die Ideen zur Unterstützung des lokale Einzelhan
 
 ![blog5](/img/blogs/5/5.jpg )
 
-### “Für mich als Grafikdesigner und angehender Webentwickler war der Hackathon einfach großartig! Ich konnte meine Kenntnisse gut einbringen und habe von den Programmierkenntnissen der erfahrenen Teilnehmer*innen super viel gelernt! Ich freue mich schon richtig darauf im Bootcamp noch tiefer ins Coding einzusteigen!”
+### “Für mich als Grafikdesigner und angehender Webentwickler war der Hackathon einfach großartig! Ich konnte meine Kenntnisse gut einbringen und habe von den Programmierkenntnissen der erfahrenen Teilnehmer:innen super viel gelernt! Ich freue mich schon richtig darauf im Bootcamp noch tiefer ins Coding einzusteigen!”
 
 ### And the Winner is… 
-Die glücklichen Gewinner des SuperHackathons 2020, die den großen Wanderpokal mit nach Hause nehmen durften kamen aus dem Team “Super(Synergy)”, einer Austauschplattform für ehemalige und aktuelle Teilnehmer*innen der Supercode-Bootcamps Webentwicklung. Mit beeindruckenden Features in Front- und Backend kann man hier nicht nur ein User-Profil anlegen, sondern auch Anfragen in einem Blog posten und eigene Projekte mit Links zur Webseite und dem GitHub-Account erstellen. Das Projekt ist bereits so ausgereift, dass Matthias Höh, einer der engagiertesten Teilnehmer im Bootcamp von SuperCode beauftragt wurde, die Inhalte weiter zu entwickeln und sie in der Alumni-Seite von SuperCode umzusetzen. 
+Die glücklichen Gewinner des SuperHackathons 2020, die den großen Wanderpokal mit nach Hause nehmen durften kamen aus dem Team “Super(Synergy)”, einer Austauschplattform für ehemalige und aktuelle Teilnehmer:innen der Supercode-Bootcamps Webentwicklung. Mit beeindruckenden Features in Front- und Backend kann man hier nicht nur ein User-Profil anlegen, sondern auch Anfragen in einem Blog posten und eigene Projekte mit Links zur Webseite und dem GitHub-Account erstellen. Das Projekt ist bereits so ausgereift, dass Matthias Höh, einer der engagiertesten Teilnehmer im Bootcamp von SuperCode beauftragt wurde, die Inhalte weiter zu entwickeln und sie in der Alumni-Seite von SuperCode umzusetzen. 
 
 ![blog5](/img/blogs/5/6.jpg )
 

@@ -41,7 +41,7 @@ const WS_WorkIT = () => {
             <p>
               Tauche ein in die wundervolle Welt der Web-Entwicklung und mache
               bei uns dein Seepferdchen im Bereich HTML & CSS. Online, im World
-              Wide Web! Live, in Farbe und immer mit zwei Trainer*innen.
+              Wide Web! Live, in Farbe und immer mit zwei Trainer:innen.
             </p>
             <h5>Inhalte:</h5>
             <p>
@@ -59,7 +59,7 @@ const WS_WorkIT = () => {
             </p>
             <h5>sonstiges:</h5>
             <p>
-              - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt online
+              - 2 Trainer:innen pro Workshop <br />- Teilnahme erfolgt online
             </p>
             <div className="buttons">
               <Link
@@ -107,7 +107,7 @@ const WS_WorkIT = () => {
             </p>
             <h5>sonstiges:</h5>
             <p>
-              - Ein*e Trainer*in pro Workshop <br />- Teilnahme erfolgt online
+              - Ein:e Trainer:in pro Workshop <br />- Teilnahme erfolgt online
             </p>
             <div className="buttons">
               <Link
@@ -149,7 +149,7 @@ const WS_WorkIT = () => {
                   Tauche ein in die wundervolle Welt der Web-Entwicklung und
                   mache bei uns dein Seepferdchen im Bereich HTML & CSS. Online,
                   im World Wide Web! Live, in Farbe und immer mit zwei
-                  Trainer*innen.
+                  Trainer:innen.
                 </p>
                 <h5>Inhalte:</h5>
                 <p>
@@ -168,7 +168,7 @@ const WS_WorkIT = () => {
                 </p>
                 <h5>sonstiges:</h5>
                 <p>
-                  - 2 Trainer*innen pro Workshop <br />- Teilnahme erfolgt
+                  - 2 Trainer:innen pro Workshop <br />- Teilnahme erfolgt
                   online
                 </p>
                 <div className="buttons">
@@ -197,7 +197,7 @@ const WS_WorkIT = () => {
                 <p>
                   Tauche ein in die wundervolle Welt des Web-Designs und mache
                   bei uns dein Seepferdchen im Bereich UX & UI-Design, im World
-                  Wide Web! Live, in Farbe und immer mit zwei Trainer*innen.
+                  Wide Web! Live, in Farbe und immer mit zwei Trainer:innen.
                 </p>
                 <h5>Inhalte:</h5>
                 <p>
@@ -217,7 +217,7 @@ const WS_WorkIT = () => {
                 </p>
                 <h5>sonstiges:</h5>
                 <p>
-                  - Ein*e Trainer*in pro Workshop <br />- Teilnahme erfolgt
+                  - Ein:e Trainer:in pro Workshop <br />- Teilnahme erfolgt
                   online
                 </p>
                 <div className="buttons">

@@ -22,7 +22,7 @@ const Tagesablauf = (props) => {
                         </div>
                         <div>
                             <h3>09:45 Explore the Unknown</h3>
-                            <p>Neue, spannende Themen präsentiert von deinem*deiner Main-Trainer*in.</p>
+                            <p>Neue, spannende Themen präsentiert von deinem:deiner Main-Trainer:in.</p>
                         </div>
                     </div>
                     <div className="flexContainer">
@@ -40,7 +40,7 @@ const Tagesablauf = (props) => {
                         </div>
                         <div>
                             <h3>13:00 {props.kurs[0].toUpperCase() + props.kurs.substring(1)} Flow</h3>
-                            <p>Praktische Projektarbeit alleine oder in Teams mit direkter Hilfestellung deiner Trainer*innen.</p>
+                            <p>Praktische Projektarbeit alleine oder in Teams mit direkter Hilfestellung deiner Trainer:innen.</p>
                         </div>
                     </div>
                     <div className="flexContainer">
@@ -49,7 +49,7 @@ const Tagesablauf = (props) => {
                         </div>
                         <div>
                             <h3>17:00 Flex Time</h3>
-                            <p>Arbeite betreut weiter an deinen Projekten oder schnapp dir deine Trainer*innen für Einzelsessions.</p>
+                            <p>Arbeite betreut weiter an deinen Projekten oder schnapp dir deine Trainer:innen für Einzelsessions.</p>
                         </div>
                     </div>
                     <div className="flexContainer">

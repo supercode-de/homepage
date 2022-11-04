@@ -34,7 +34,7 @@ const Team_Gallery = (props) => {
             Wir sind SuperCode!
           </h1>
           <p>
-            – ein Team aus Expert*innen mit langjähriger Erfahrung in den
+            – ein Team aus Expert:innen mit langjähriger Erfahrung in den
             Bereichen Webentwicklung, Bildungsmanagement und IT-Recruitment. Wir
             haben eine klare Vision: Digitale Bildung für alle, nachhaltig und
             modern.

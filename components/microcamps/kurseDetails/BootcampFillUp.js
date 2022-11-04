@@ -29,7 +29,7 @@ const BootcampFillUp = (props) => {
         </div> :
         <div className="termin-error">
           <h4>Schade! Sieht so aus, als gäbe es für dieses MicroCamp noch keine Termine 🥲</h4>
-          <p>Meld dich doch bei unserem Newsletter an, dann kriegst du als Erste*r mit, wenn es los geht!</p>
+          <p>Meld dich doch bei unserem Newsletter an, dann kriegst du als Erste:r mit, wenn es los geht!</p>
           <MC_Warteliste_Popup wartelisteLinkFormID={props.data.wartelisteLinkFormID} theme={props.data.theme}/>
         </div>
       }

@@ -3,7 +3,7 @@ const blog10 = `## Wie sich die IT-Branche durch Women in Tech erneuern lässt
 
 ![blog10](/img/blogs/10/01.png)
 
-In der IT-Branche besteht seit Jahren ein Fachkräftemangel, hoch gepriesene Experten\\*innen fehlen, viele Stellen können nicht besetzt werden. Das Land der Ingenieure und Patente kommt bei der Digitalisierung nicht hinterher. Neben vielen Faktoren aus der Verbesserung von Ausbildung und sogenannter ‘Employability’ sowie der Internationalisierung unserer Gesellschaft könnte sich diese Lücke vor allem durch jene Hälfte unserer Gesellschaft schließen lassen, die dort bisher kaum sichtbar war: Frauen. 
+In der IT-Branche besteht seit Jahren ein Fachkräftemangel, hoch gepriesene Experten:innen fehlen, viele Stellen können nicht besetzt werden. Das Land der Ingenieure und Patente kommt bei der Digitalisierung nicht hinterher. Neben vielen Faktoren aus der Verbesserung von Ausbildung und sogenannter ‘Employability’ sowie der Internationalisierung unserer Gesellschaft könnte sich diese Lücke vor allem durch jene Hälfte unserer Gesellschaft schließen lassen, die dort bisher kaum sichtbar war: Frauen. 
 #####
 Die Digitalisierung schreitet voran, mit oder ohne bestimmte Personengruppen. Sie bringt zahlreiche Disruptionen mit sich und verändert damit unsere gesamte Lebensweise, wie wir entscheiden, arbeiten, denken und handeln. Inwiefern wir dabei jedoch auch als gesamte Gesellschaft partizipieren hängt zu einem großen Teil davon ab, ob die entsprechenden Startvoraussetzungen gleichermaßen vorhanden sind. 
 
@@ -22,7 +22,7 @@ Denn Diversität, das wurde durch zahlreiche [Studien nachgewiesen](https://www.
 #####
 Frauen einzustellen bedeutet, einen Einfluss auf die Diversität im Unternehmen zu nehmen, breitere Denkweisen zuzulassen, statt starr einem immer gleichen Weg zu folgen. IT an sich ist kein ressourcenintensives Geschäft, das wichtigste Gut sind die Köpfe der Menschen, die dort für etwas arbeiten. Deswegen braucht es ein gutes Verständnis für deren Bedürfnisse im Arbeitsalltag, Empathie, Kommunikation und Flexibilität. All das können Frauen bieten, sei es als Vorgesetzte oder Kollegin.
 #####
-Auch ein Quereinstieg ist jederzeit möglich. Kaum eine Branche ist dem so aufgeschlossen gegenüber wie die IT. Es kommt auf die Skills an, nicht unbedingt auf den Diplomabschluss aus dem vergangenen Jahrhundert. Zudem wachsen die Möglichkeiten von Jahr zu Jahr und es entstehen immer mehr Bildungseinrichtungen, die sich auf diese Zielgruppe der Quereinsteiger\\*innen fokussieren.
+Auch ein Quereinstieg ist jederzeit möglich. Kaum eine Branche ist dem so aufgeschlossen gegenüber wie die IT. Es kommt auf die Skills an, nicht unbedingt auf den Diplomabschluss aus dem vergangenen Jahrhundert. Zudem wachsen die Möglichkeiten von Jahr zu Jahr und es entstehen immer mehr Bildungseinrichtungen, die sich auf diese Zielgruppe der Quereinsteiger:innen fokussieren.
 
 ## Wie spezifische Angebote für Frauen dabei helfen die IT-Branche zu erneuern
 

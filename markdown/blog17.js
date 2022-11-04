@@ -32,7 +32,7 @@ Das kommt ganz auf den Zeitraum an. Im Grunde habe ich schon sehr viel gemacht, 
 
 Im Vergleich zu anderen Bildungsanbietern haben wir einen sehr hohen Personaleinsatz in unseren Kursen. Das ist auch unserem Zertifizierer schon mehrfach sehr positiv aufgefallen. 
 #####
-Konkret bedeutet das: Wir haben jeden Tag zwei Trainer*innen in einem Kurs von maximal 16 Teilnehmenden. Wir könnten zwar mehr Teilnehmende in unsere Kurse aufnehmen, tun dies aber aus eigenem Qualitätsbewusstsein nicht. Wir sind der Meinung, dass Bildung dann gut funktioniert, wenn Gruppen nicht zu groß sind, das Trainerteam sehr praxiserfahren ist und zu zweit eingesetzt wird. Damit lässt sich dann auch besser auf die verschiedenen Leistungsniveaus der Kursteilnehmenden eingehen.
+Konkret bedeutet das: Wir haben jeden Tag zwei Trainer:innen in einem Kurs von maximal 16 Teilnehmenden. Wir könnten zwar mehr Teilnehmende in unsere Kurse aufnehmen, tun dies aber aus eigenem Qualitätsbewusstsein nicht. Wir sind der Meinung, dass Bildung dann gut funktioniert, wenn Gruppen nicht zu groß sind, das Trainerteam sehr praxiserfahren ist und zu zweit eingesetzt wird. Damit lässt sich dann auch besser auf die verschiedenen Leistungsniveaus der Kursteilnehmenden eingehen.
 #####
 Außerdem nutzen wir nur modernste Technik in den Kursen. Aktuell sind das die neusten Apple MacBooks M1, die es als Leihgabe für die Kursdauer gibt. Dazu veranstalten wir jede Woche kostenlose Workshops im Bereich Coding und Design, organisieren in den Kursen übergreifende Hackathons und vieles mehr.
 

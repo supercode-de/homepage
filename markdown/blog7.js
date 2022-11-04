@@ -1,6 +1,6 @@
 const blog7 = `# Cocktails, Curry und Kryptowährung - Halbzeit beim Fullstack-Bootcamp Webentwicklung
 
-_Die Teilnehmer\*innen des Fullstack-Bootcamps haben nun das erste Modul erfolgreich gemeistert und zeigten bei der Präsentation der Abschlussprojekte im Frontend-Bereich ihre Coding-Skills_
+_Die Teilnehmer:innen des Fullstack-Bootcamps haben nun das erste Modul erfolgreich gemeistert und zeigten bei der Präsentation der Abschlussprojekte im Frontend-Bereich ihre Coding-Skills_
 #####
 In drei Gruppen wurde im Vorfeld eine Woche lang geplant, gecodet und bis zum letzten Tag die kleinen und großen Bugs unschädlich gemacht. Die anspruchsvollen Projekte können sich sehen lassen: Durchdachte, responsive Designs mit HTML und CSS, eine hohe Funktionalität dank JavaScript und React und eine tolle Nutzung von API-Schnittstellen! Eine API ist eine Programmierschnittstelle, mit der man externe Daten bei sich auf der Webseite einpflegen kann. Und das ging so:
 #####
@@ -10,7 +10,7 @@ Gruppe 1 (“Tasty”) hatte die Aufgabe, eine Rezepte-Seite mit einem Suchfeld 
 
 ![blog7](/img/blogs/7/1.jpg)
 
-Gruppe 2 (“SuperExchange”) widmete sich sehr ambitioniert und mit minimalem Design der Welt der Kurse, Aktien und Krypto-Währungen. Dafür nutzten sie einige Datenbanken für Tageskurse und Finanzen, um den User\*innen unkompliziert und übersichtlich zu mehr Geld zu verhelfen.
+Gruppe 2 (“SuperExchange”) widmete sich sehr ambitioniert und mit minimalem Design der Welt der Kurse, Aktien und Krypto-Währungen. Dafür nutzten sie einige Datenbanken für Tageskurse und Finanzen, um den User:innen unkompliziert und übersichtlich zu mehr Geld zu verhelfen.
 #####
 [“SuperExchange”](https://5fcd658863454900075a7583--elegant-euclid-080f22.netlify.app/)
 
@@ -27,7 +27,7 @@ Nun geht es weiter mit Modul 2 - dem Backend-Bereich und schon bald werden unser
 #####
 Wir sind sehr stolz auf euch und eure Projekte, die ihr komplett remote und hoch motiviert umgesetzt habt!
 #####
-Das willst du auch können? Dann melde dich schnell bei SuperCode und mach digitale Karriere als Webentwickler\*in!
+Das willst du auch können? Dann melde dich schnell bei SuperCode und mach digitale Karriere als Webentwickler:in!
 #####
 Bilder: SuperCode     
 Text: Natalie Streich

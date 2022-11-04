@@ -45,7 +45,7 @@ const Team_Stellenanzeigen = () => {
               </div>
               <div className="stellen-cta">
                 <p className="cta">{stelle.cta}</p>
-                <a href="mailto:bewerbung@super-code.de?subject=Main-Trainer*in Web-Entwicklung Teilzeit">Jetzt bewerben</a>
+                <a href="mailto:bewerbung@super-code.de?subject=Main-Trainer:in Web-Entwicklung Teilzeit">Jetzt bewerben</a>
               </div>
             </AccordionItemPanel>
           </AccordionItem>

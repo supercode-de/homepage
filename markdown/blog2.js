@@ -13,7 +13,7 @@ Beim anschließenden Termin bei der Bildungsberatung von SuperCode haben wir lan
 
 ### Dann hattest du also schon Vorkenntnisse als du das Bootcamp begonnen hast?
 
-Ja, ich konnte schon etwas HTML, CSS und JAVA aus meinem Studium. Daher war der Einstieg für mich etwas leichter als für die anderen Teilnehmer*innen. Als wir dann aber JavaScript und React.js lernten, waren wir alle auf dem selben Stand. Das war einerseits total spannend, weil ich immer gerne Neues lerne und andererseits auch anstrengend. Zum Glück waren die Trainer sehr empathisch und haben nach komplexen Programminhalten dann auch mal andere Themen wie Design-Thinking durchgenommen.
+Ja, ich konnte schon etwas HTML, CSS und JAVA aus meinem Studium. Daher war der Einstieg für mich etwas leichter als für die anderen Teilnehmer:innen. Als wir dann aber JavaScript und React.js lernten, waren wir alle auf dem selben Stand. Das war einerseits total spannend, weil ich immer gerne Neues lerne und andererseits auch anstrengend. Zum Glück waren die Trainer sehr empathisch und haben nach komplexen Programminhalten dann auch mal andere Themen wie Design-Thinking durchgenommen.
 
 ### Es heißt ja nicht ohne Grund “Bootcamp Webentwicklung” ;-). Was waren deine Ups and Downs in der Zeit bei uns?
 

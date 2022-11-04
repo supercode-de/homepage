@@ -1,8 +1,8 @@
 let reasonsDataScienceData = [
     {
         id: 0,
-        title: " Qualifizierte Trainer*innen",
-        reason: "Unsere Trainer*innen sind praxiserfahrene Data-Scientist, die sich regelmäßig fortbilden. Du bist also in guten Händen und profitierst von den Berufs- und Unterrrichts-erfahrungen unserer Trainer*innen.",
+        title: " Qualifizierte Trainer:innen",
+        reason: "Unsere Trainer:innen sind praxiserfahrene Data-Scientist, die sich regelmäßig fortbilden. Du bist also in guten Händen und profitierst von den Berufs- und Unterrrichts-erfahrungen unserer Trainer:innen.",
     },
     {
         id: 1,

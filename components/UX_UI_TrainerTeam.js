@@ -5,12 +5,12 @@ export default function UX_UI_TrainerTeam() {
       <div className="trainerinfos">
         <h2>
           <span>Super</span>
-          Trainer*innen
+          Trainer:innen
         </h2>
         <p>
-          Unsere Trainer*innen sind praxiserfahrene UX/UI-Designer*innen, die
+          Unsere Trainer:innen sind praxiserfahrene UX/UI-Designer:innen, die
           sich laufend fachlich und pädagogisch fortbilden. Durch unseren
-          Methodenmix und dem Einsatz von zwei Trainer*innen zeitgleich an den
+          Methodenmix und dem Einsatz von zwei Trainer:innen zeitgleich an den
           vollen Tagen, wirst du spielerisch UX/UI-Design lernen und deine
           eigenen Prototypen bauen.
         </p>

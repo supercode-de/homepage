@@ -18,10 +18,10 @@ const Team_WerdeTeil = () => {
             SuperCode steht für moderne didaktische und methodische Bildung,
             eine nachhaltige und gemeinwohlorientierte Unternehmensführung,
             Ehrlichkeit und Transparenz. Wir sind ein Team aus qualifizierten
-            und praxiserfahrenen Expert*innen, die Spaß an ihrer Arbeit haben
+            und praxiserfahrenen Expert:innen, die Spaß an ihrer Arbeit haben
             und an das glauben, was sie machen. Wir sind mit vielen Firmen aus
             der Region gut vernetzt, nutzen immer den neuesten Tech-Stack und
-            legen viel Wert darauf, dass sich jede*r einbringen und mit
+            legen viel Wert darauf, dass sich jede:r einbringen und mit
             ihrer/seiner Persönlichkeit entfalten kann.{' '}
           </p>
         </div>
@@ -34,7 +34,7 @@ const Team_WerdeTeil = () => {
         <div>
           <h2 className='grid-HL'>
             <span className='super-stroke'>Tolles Team</span> voller IT
-            Enthusiast*innen
+            Enthusiast:innen
           </h2>
         </div>
         <div>

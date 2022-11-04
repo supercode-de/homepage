@@ -2,7 +2,7 @@ const blog3 = `# “Crazy, cool people!””
 ## Ein Interview mit Adriaan van der Bergh, unserem Super-Master Trainer und Innovation-Geek
 
 Er kommt mit einem selbstfahrenden Longboard zur Arbeit, begeistert seine
-Kursteilnehmer*innen mit technischen Gimmicks und hat diesen coolen, undefinierbaren
+Kursteilnehmer:innen mit technischen Gimmicks und hat diesen coolen, undefinierbaren
 Akzent. Wer ist dieser sympathische, junggebliebene Typ mit dem Pferdeschwanz und den
 Geschichten aus aller Welt? Hier im Blog-interview lernt ihr ihn ein bisschen kennen.
 
@@ -14,7 +14,7 @@ _Unser Super-Master-Trainer Adriaan in seinem Raumschiff_
 
 Naja, ein Geek war ich eigentlich schon als Kind. Ich bin in Südafrika in den 70er Jahren geboren und aufgewachsen und das Land war geprägt von Restriktionen und der Apartheid. Mit den ersten Demokratieschritten in den 80ern kamen mit den Menschenrechten auch alle möglichen neuen technischen Produkte. Meine Welt veränderte sich schlagartig und ich stürzte mich auf alles, was Kabel, Software und Nullen und Einsen hatte. Zum Ende der Highschool hatte ich jede Menge selbst zusammengebaute Computer, ein Mobiltelefon und mein eigenes Business.
 #####
-Ich habe als IT-Support sofort Arbeit gefunden und mit meiner Fortbildung zum Microsoft Certified Solutions Developer konnte ich dann erstmalig als Entwickler arbeiten. Danach bereiste ich die Welt: England, Schottland, Thailand, Korea und wieder Südafrika. Während dieser Jahre machte ich mein Bachelorstudium of Education an der Fernuni, arbeitete als Englischlehrer für Kinder und mein Sohn kam zur Welt. Parallel hatte ich immer meine IT-Projekte und verfolgte aktuelle Techniktrends. Modernen Technologien und die Aussicht auf mehr Gehalt zogen mich nach Korea. Hier konnte ich dann meine beiden Leidenschaften miteinander verbinden und ich entwickelte ein Online-Learning-Tool für meine Student*innen.
+Ich habe als IT-Support sofort Arbeit gefunden und mit meiner Fortbildung zum Microsoft Certified Solutions Developer konnte ich dann erstmalig als Entwickler arbeiten. Danach bereiste ich die Welt: England, Schottland, Thailand, Korea und wieder Südafrika. Während dieser Jahre machte ich mein Bachelorstudium of Education an der Fernuni, arbeitete als Englischlehrer für Kinder und mein Sohn kam zur Welt. Parallel hatte ich immer meine IT-Projekte und verfolgte aktuelle Techniktrends. Modernen Technologien und die Aussicht auf mehr Gehalt zogen mich nach Korea. Hier konnte ich dann meine beiden Leidenschaften miteinander verbinden und ich entwickelte ein Online-Learning-Tool für meine Student:innen.
 #####
 Zurück in Südafrika 2007 machte ich mich mit einem Freund selbstständig. Unsere IT-Consulting Firma war sehr erfolgreich, jedoch wurde die Arbeit irgendwann zuviel und mich zog es wieder ins Ausland. Über die international School kam ich dann nach Düsseldorf und arbeitete dort 8 Jahre als Design Technologie Lehrer und aufgrund meiner Kenntnisse bald als Koordinator für die Digitalisierung und Netzwerkeinrichtung der Schule. 
 #####
@@ -31,7 +31,7 @@ Ich fühle mich sehr gut, weil die Lern- und Arbeitsatmosphäre modern und locke
 Auch bei der Konzeption von neuen Kursen arbeite ich mit. Demnächst startet unser erster Full-Stack-Kurs, in dem ich z.B. die neuesten Building-Tools integriert habe.
 #####
 Außerdem entwickle ich gerade eine Lernplattform, die den Unterricht optimieren wird. Eine Kombination aus analogem und digitalem Lernen vereinfacht die Interaktion und ermöglicht
-schnelles Feedback. Ich gebe auch regelmäßig interne Workshops für die anderen Trainer*innen im Bereich Methodik und Didaktik.
+schnelles Feedback. Ich gebe auch regelmäßig interne Workshops für die anderen Trainer:innen im Bereich Methodik und Didaktik.
 
 ### Wie war für dich die Umstellung der Kurse auf 100% online remote im Zuge der Corona-Krise?
 
@@ -44,7 +44,7 @@ Wir haben es sogar geschafft am Hackathon der Bundesregierung teilzunehmen und h
 
 ### Was gefällt dir am Besten bei Supercode?
 
-Crazy cool people, die viel Spaß bei der Arbeit haben! SuperCode ist eine junge, frische Firma, wo jede*r gehört wird und jede*r sich einbringen kann. Alle sind offen gegenüber Neuerungen und es ist toll, den eigenen Einfluss zu spüren. Auch der Coworking Space Super7000 ist eine tolle Location, weil man in der Küche immer interessante Startup-Leute trifft. In Südafrika nennen wir das “Entrepreneurial-Spirit”! Ich freue mich wirklich darauf, dass wir uns hoffentlich bald vor Ort alle wieder treffen. Trotz optimaler online Arbeitsbedingungen ist der richtige Kontakt natürlich total gut und wichtig. 
+Crazy cool people, die viel Spaß bei der Arbeit haben! SuperCode ist eine junge, frische Firma, wo jede:r gehört wird und jede:r sich einbringen kann. Alle sind offen gegenüber Neuerungen und es ist toll, den eigenen Einfluss zu spüren. Auch der Coworking Space Super7000 ist eine tolle Location, weil man in der Küche immer interessante Startup-Leute trifft. In Südafrika nennen wir das “Entrepreneurial-Spirit”! Ich freue mich wirklich darauf, dass wir uns hoffentlich bald vor Ort alle wieder treffen. Trotz optimaler online Arbeitsbedingungen ist der richtige Kontakt natürlich total gut und wichtig. 
 #####
 Danke Adriaan für deine Offenheit und die Einblicke in dein Leben und deine Arbeit.
 #####

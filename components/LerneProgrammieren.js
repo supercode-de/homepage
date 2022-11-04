@@ -4,7 +4,7 @@ const LerneProgrammieren = () => {
       <h1>
         Lerne <span className="super">Programmieren</span> und werde{" "}
         <span className="super">Front-End oder Full-Stack</span>{" "}
-        Web-Developer*in! – Jetzt auch{" "}
+        Web-Developer:in! – Jetzt auch{" "}
         <span className="super circle">online.</span>
       </h1>
 

@@ -88,7 +88,7 @@ const CurriculumSection = (props) => {
               {Number(duration.slice(0, 1)) > 10
                 ? Number(duration.slice(0, 1))
                 : Number(duration.slice(0, 2))}
-              -wöchiger Intensivkurs. Erlerne mit maximal 20 Teilnehmer*innen
+              -wöchiger Intensivkurs. Erlerne mit maximal 20 Teilnehmer:innen
               aus ganz Deutschland die Grundlagen von {subTheme}.
             </p>
           </div>

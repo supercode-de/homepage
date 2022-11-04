@@ -2,7 +2,7 @@ let alumniBewertungen = [
     {
         name: "Victoria",
         jobtitel: "Art-Directorin",
-        bewertung: "Der UX/UI-Kurs war inhaltlich genau das, was ich gesucht habe. Ich fühle mich jetzt sicher auf dem Feld der digitalen Gestaltung. Der Kurs war anspruchsvoll, aber immer machbar. Es wurde sich intensiv mit den einzelnen Teilnehmer*innen auseinandergesetzt und die Trainer*innen waren top organisiert und super freundlich!"
+        bewertung: "Der UX/UI-Kurs war inhaltlich genau das, was ich gesucht habe. Ich fühle mich jetzt sicher auf dem Feld der digitalen Gestaltung. Der Kurs war anspruchsvoll, aber immer machbar. Es wurde sich intensiv mit den einzelnen Teilnehmer:innen auseinandergesetzt und die Trainer:innen waren top organisiert und super freundlich!"
     },
     {
         name: "Daniel",
@@ -27,7 +27,7 @@ let alumniBewertungen = [
     {
         name: "Finn",
         jobtitel: "Front-End-Entwickler & Designer",
-        bewertung: "Die Inhalte waren alle sehr interessant. Die Trainer*innen waren immer zur Stelle und konnten immer gut helfen. Und ansonsten hat man sich eben auch mal in der Gruppe untereinander geholfen.\n\nEine super Erfahrung, die ich immer wieder machen würde. Ich habe nicht einen Kurstag bereut. Einen Job hab ich natürlich auch gefunden. :)"
+        bewertung: "Die Inhalte waren alle sehr interessant. Die Trainer:innen waren immer zur Stelle und konnten immer gut helfen. Und ansonsten hat man sich eben auch mal in der Gruppe untereinander geholfen.\n\nEine super Erfahrung, die ich immer wieder machen würde. Ich habe nicht einen Kurstag bereut. Einen Job hab ich natürlich auch gefunden. :)"
     },
     {
         name: "Natalie",

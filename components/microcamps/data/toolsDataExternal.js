@@ -7,7 +7,7 @@ let toolsDataExternal = [
     {
         "name": "Discord",
         "image": "tools/discord.svg",
-        "description": "Figma ist eine kollaborative Software zum Erstellen von Prototypen im Bereich des UX bzw. UI Design. Sie wird vor allem als Webanwendung genutzt. Daneben läuft Figma auch als Desktop-App für MacOS und Windows und als Mobile App für Android und iOS."
+        "description": "Discord ist ein Onlinedienst für Instant Messaging, Chat, Sprachkonferenzen und Videokonferenzen, der ursprünglich für Computerspieler geschaffen wurde, inzwischen aber auch vermehrt für andere Bereiche genutzt wird."
     },
     {
         "name": "VSCode",

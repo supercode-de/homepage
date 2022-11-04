@@ -16,8 +16,8 @@ let faqdata = [
         answer: "Für jedes erfolgreich abgeschlossenes MicroCamp gibt es selbstverständlich auch eine Bestätigung in Form eines tollen Zertifikats – damit du allen zeigen kannst, was du drauf hast! "
     },
     {
-        question: "Wer sind die Trainer*innen?",
-        answer: "Unsere Trainer*innen sind praxiserfahrene Webentwickler*innen und Designer*innen, die sich laufend fachlich und pädagogisch fortbilden. Wir sind remote unterwegs und profitieren dadurch von einem weltweiten Freelancer-Experten-Netzwerk im Bereich Web-Entwicklung und Design auf das wir zugreifen können."
+        question: "Wer sind die Trainer:innen?",
+        answer: "Unsere Trainer:innen sind praxiserfahrene Webentwickler:innen und Designer:innen, die sich laufend fachlich und pädagogisch fortbilden. Wir sind remote unterwegs und profitieren dadurch von einem weltweiten Freelancer-Experten-Netzwerk im Bereich Web-Entwicklung und Design auf das wir zugreifen können."
     },
     {
         question: "Brauche ich Vorerfahrung?",

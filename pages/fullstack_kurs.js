@@ -25,7 +25,7 @@ export default function FullstackKurse() {
           <ZahlenUndFakten 
             alumniName="Emilija-Sekulic" 
             alumniAG="smartin ADVERTISING"
-            alumniZitat="An alle Karrierewechsler*innen da draußen: Fangt einfach an. Schreibt die ersten Zeilen in HTML, denn “Hallo Welt” könnte der Beginn von etwas Großem sein!"
+            alumniZitat="An alle Karrierewechsler:innen da draußen: Fangt einfach an. Schreibt die ersten Zeilen in HTML, denn “Hallo Welt” könnte der Beginn von etwas Großem sein!"
             alumniImg="/img/alumni/Emilija-Sekulic.png"
           />
           <Kurse_Tagesablauf kurs="code" dauer="fünf" welt="Codens"/>

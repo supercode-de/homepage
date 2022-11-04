@@ -7,7 +7,7 @@ const LiveOnlineUiUx = () => {
           Unsere MicroClasses verfolgen einen Learning-by-doing-Ansatz, bei dem ihr live mit den neuesten Echtzeit-Design- und Coding-Tools zusammenarbeitet. Die MicroCamps sind so konzipiert dass ihr ganz bequem neben eurem Job daran teilnehmen könnt. Sie sind ein Produkt  langjähriger Erfahrung im Bereich der Vollzeit-Bootcamps und eine tolle Teamleistung!
         </p>
         <p>
-          Dies spiegelt sich auch in den 5/5-Bewertungen unserer Alumni wieder. Im Gegensatz zu vielen anderen Bildungsanbietern ist SuperCode zu 100 % remote, zu 100 % bootstrapped mit dem Ziel, neuen und erfahrenen Designer*innen oder Coder*innen dabei zu helfen, effektiv und neben dem Job neue Skills zu erlernen.
+          Dies spiegelt sich auch in den 5/5-Bewertungen unserer Alumni wieder. Im Gegensatz zu vielen anderen Bildungsanbietern ist SuperCode zu 100 % remote, zu 100 % bootstrapped mit dem Ziel, neuen und erfahrenen Designer:innen oder Coder:innen dabei zu helfen, effektiv und neben dem Job neue Skills zu erlernen.
         </p>
       </div>
       <div className="btn-wrapper">
