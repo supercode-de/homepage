@@ -57,7 +57,7 @@ const Kurse_FE_Praxis = () => {
         <p>
           Neben den Basics in Grafikdesign und Projektmanagement, stärken wir
           eure Präsentationsskills, Teamfähigkeit und die Fähigkeit des
-          selbstständigen Lernens. Und das alles neben deinem Job in Teilzeit!
+          selbstständigen Lernens.
         </p>
       </div>
       {window.screen.width > 768 ? (

@@ -72,8 +72,7 @@ const UX_UI_Praxis = () => {
         <p>
           Als UX-Designer:in findest du heraus, was die Benutzer:innen wirklich
           wollen und lieferst mit deinen Kenntnissen im UI-Bereich eine digitale
-          Schnittstelle, die keine Fragen offen lässt. Und das alles lernst du
-          in Teilzeit neben deinem Job!
+          Schnittstelle, die keine Fragen offen lässt.
         </p>
       </div>
       {window.screen.width > 768 ? (

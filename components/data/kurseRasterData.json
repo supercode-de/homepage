@@ -14,20 +14,6 @@
         "campus": ["remote", "duesseldorf"]
     },
     {
-        "id": 2,
-        "headline": "Web-Development\nFront-End",
-        "headlineID": "web-dev-fe",
-        "umfang": "Umfang: 30 Wochen (7 Monate) – Teilzeit / berufsbegleitend",
-        "start": "Start: 28.02.2022 Ende: 15.10.2022",
-        "copy": "Programmieren lernen neben dem Beruf?\nKein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.",
-        "hubspotFormID": "b00baa3e-2b2d-4cf6-9304-1a135924ea7a",
-        "typeformFormularID": "L6u0np35",
-        "fachrichtung": "web-dev",
-        "format": "teilzeit",
-        "finanzierung": ["bgs", "raten", "chancen-eg", "deutscheBildung-ag"],
-        "campus": ["remote", "duesseldorf"]
-    },
-    {
         "id": 3,
         "headline": "Web-Development\nBack-End",
         "headlineID": "web-dev-be",
@@ -66,20 +52,6 @@
         "typeformFormularID": "xxx",
         "fachrichtung": "data-path",
         "format": "vollzeit",
-        "finanzierung": ["bgs", "raten", "chancen-eg", "deutscheBildung-ag"],
-        "campus": ["remote", "duesseldorf"]
-    },
-    {
-        "id": 6,
-        "headline": "UX/UI-Design",
-        "headlineID": "uxui-des",
-        "umfang": "Umfang: 13 Wochen (3 Monate) – Teilzeit / berufsbegleitend",
-        "start": "Start: 28.02.2022 Ende: 03.06.2022",
-        "copy": "Dieser Kurs setzt sich aus insgesamt fünf Themenblöcken zusammen, die perfekt ineinander greifen, um dich innerhalb von drei Monaten in Teilzeit zur gefragten Fachkraft im Bereich UX/UI-Design weiterzubilden.",
-        "hubspotFormID": "9436fb4b-eec5-4783-a8ab-cbd987650f6e",
-        "typeformFormularID": "VTxBX6b2",
-        "fachrichtung": "design",
-        "format": "teilzeit",
         "finanzierung": ["bgs", "raten", "chancen-eg", "deutscheBildung-ag"],
         "campus": ["remote", "duesseldorf"]
     }

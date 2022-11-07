@@ -27,12 +27,12 @@ var faq = [
   {
     question: "Wie lange dauern die Bootcamps?",
     answer:
-      "Das kommt ganz auf das Kursformat an. Der Vollzeit Kurs Webentwicklung ist 22 Wochen lang (5 Monate) und der Teilzeitkurs streckt sich über 30 Wochen (7 Monate). Der UX/UI-Design-Kurs geht über 3 Monate in Teilzeit und berufsbegleitend.",
+      "Der Vollzeit Kurs Webentwicklung ist 22 Wochen lang (5 Monate).",
   },
   {
     question: "Wie sieht der Tagesablauf aus? ",
     answer:
-      "Der Vollzeitkurs Webentwicklung findet Montag bis Freitag von 9 bis ca. 17.30 Uhr statt. In der Praxis wirst du deine Zeit flexibel je nach Projektphase (Einzel- und Gruppenprojekte) einteilen. Im Grunde genommen machen wir dich bereit in einer Endlosschleife von EAT SLEEP CODE REPEAT zu leben, denn für 5 Monate wird unser virtueller SuperKursraum dein Zuhause und deine Kolleg:innen deine Familie sein. Im Teilzeitkurs Webentwicklung ist die Reise etwas entspannter. An drei Wochentagen kannst du dich von 18 – 21 Uhr in unserem Live Stream online einwählen und von deinem Cockpit zuhause mit uns durch die schöne Welt der Web-Entwicklung düsen. Jeden 2. Samstag erwarten dich ganztägig spannende Peer-to-Peer-Projekte und IT-Workshops. Im UX/UI-Design-Kurs wirst du an zwei Abenden (aktuell Mo + Mi) vom 18-21 Uhr sowie an einem Wochentag ganztags (aktuell Fr) von 9-18 Uhr in die Welt von UX und UI eintauchen und neben deinem Beruf machen wir dich innerhalb von 3 Monaten zur gefragten Fachkraft.",
+      "Der Vollzeitkurs Webentwicklung findet Montag bis Freitag von 9 bis ca. 17.30 Uhr statt. In der Praxis wirst du deine Zeit flexibel je nach Projektphase (Einzel- und Gruppenprojekte) einteilen. Im Grunde genommen machen wir dich bereit in einer Endlosschleife von EAT SLEEP CODE REPEAT zu leben, denn für 5 Monate wird unser virtueller SuperKursraum dein Zuhause und deine Kolleg:innen deine Familie sein.",
   },
   {
     question: "Gibt es eine Jobgarantie nach dem Bootcamp?",
