@@ -79,5 +79,9 @@ let arbeitgeberLogos = [
         name: "ewe",
         image: "/img/logos/ewe-logo.png"
     },
+    {
+        name: "Directional Software",
+        image: "/img/logos/Directional-Software-Logo-Variante-1.jpg"
+    },
 ]
 export default arbeitgeberLogos;
