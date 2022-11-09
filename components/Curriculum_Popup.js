@@ -2,6 +2,7 @@ import Popup from 'reactjs-popup';
 import HubspotForm from 'react-hubspot-form';
 
 const Typeform = (props) => {
+  console.log("im popup drinne", props.hubspot);
   return (
     <>
       <Popup
@@ -19,6 +20,7 @@ const Typeform = (props) => {
               <h1 className='one-line'>
                 Curriculum herunter<span className='super'>laden</span>
               </h1>
+              <p>Hi, danke für dein Interesse am Curriculum! Hier ein kleiner Hinweis für dich: Solltest du die Cookies abgelehnt haben, kann es zu Problemen mit dem Captcha für den Download kommen. Versuche es dann in einem anderen Browser nochmal.</p>
               <HubspotForm
                 portalId='5807040'
                 // formId="5c9d4947-7d51-448d-845a-231155f27380"
@@ -56,13 +58,15 @@ const Typeform = (props) => {
         #curriculum-popup {
           background: var(--super-blau);
           color: var(--super-white);
-          width: calc(100vw / 12 * 8);
           padding: 40px;
           border: 1px solid var(--super-green);
           position: fixed;
+          top: 50%;
           left: 50%;
-          top: 7%;
-          width: 500px;
+          transform: translate(-50%, -50%);
+          // left: 50%;
+          // top: 7%;
+          // width: 500px;
           color: var(--super-green);
           z-index: 9999;
         }
@@ -141,19 +145,15 @@ const Typeform = (props) => {
           .button {
             font-size: 0.938em;
           }
-          #curriculum-popup {
-          
-            left: ${(document.documentElement.clientWidth - 500) / 2}px;
-            width: 400px;
-          }
-
         
         }
-        @media (max-width: 768px) {
+
+        @media (max-width: 1024px) {
           #curriculum-popup {
-            left: ${(document.documentElement.clientWidth - 500) / 2}px;
-            width: 400px;
+            width: 80%;
           }
+        }
+        @media (max-width: 768px) {
           h1 {
             font-size: 3.3em;
           }
@@ -163,43 +163,42 @@ const Typeform = (props) => {
 
         }
         @media (max-width: 620px) {
-          #curriculum-popup {
-            width: calc(100vw / 12 * 9);
-            padding: 40px 0;
-          }
+
           .curriculum-popup-input {
             margin: auto;
             width: 90%;
           }
-          .iframe {
-            // width: 80vw !important;
-          }
         }
 
         @media (max-width: 568px) {
-          #curriculum-popup {
-            left: ${(document.documentElement.clientWidth - 400) / 2}px;
-            width: 400px;
-          }
+
           h1 {
             font-size: 2.3em;
           }
         }
-        @media (max-width: 468px) {
-          #curriculum-popup {
-            left: ${(document.documentElement.clientWidth - 300) / 2}px;
-            width: 300px;
+        @media (max-width: 425px) {
+          h1 {
+            margin-bottom: 2vh;
           }
+          .button {
+            width: 100%;
+          }
+          #curriculum-popup {
+            padding: 20px;
+          }
+        }
+        @media (max-width: 468px) {
+
           .button {
             font-size: 1.2em;
           }
         }
-        @media (max-width: 425px) {
-          .button {
-            width: 100%;
-          }
+        
         }
-
+        @media (max-width: 375px) {
+          #curriculum-popup {
+            width: 90%;
+          }
         }
         @media (max-height: ${document.documentElement.clientHeight * 0.15 + 600}px) {
           .one-line {
@@ -210,12 +209,6 @@ const Typeform = (props) => {
           }
           h1 {
             font-size: 2em;
-          }
-        }
-        @media (min-width: ${document.documentElement.clientHeight / 2}px) and (max-height: ${document.documentElement.clientHeight * 0.15 + 600}px) {
-          #curriculum-popup {
-            width: ${document.documentElement.clientWidth - 2 * (document.documentElement.clientWidth / 10)}px;
-            left: ${(document.documentElement.clientWidth - (document.documentElement.clientWidth - 2 * (document.documentElement.clientWidth / 10))) / 2}px;
           }
         }
       `}</style>

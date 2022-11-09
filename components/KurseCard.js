@@ -15,6 +15,7 @@ const KurseCard = (props) => {
     href,
     published
   } = props.data;
+  console.log(headline, hubspotFormID);
   return (
     <section className='kurseCard'>
       <div className='headlines'>
