@@ -10,9 +10,23 @@ import withAnalytics from 'next-analytics';
 
 // This default export is required in a new `pages/_app.js` file.
 function MyApp({ Component, pageProps }) {
+  const router = useRouter()
   useEffect(() => {
     TagManager.initialize({ gtmId: 'GTM-5773QJD' });
   }, []);
+
+  useEffect(() => {
+    import('react-facebook-pixel')
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init('353903998812058') // facebookPixelId
+        ReactPixel.pageView()
+
+        router.events.on('routeChangeComplete', () => {
+          ReactPixel.pageView()
+        })
+      })
+  }, [router.events])
   return <Component {...pageProps} />;
 }
 // export default withFBQ("353903998812058", Router)(MyApp);
