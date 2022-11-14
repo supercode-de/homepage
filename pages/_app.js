@@ -4,7 +4,7 @@ import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
 import { useEffect } from 'react';
 import TagManager from 'react-gtm-module';
 library.add(faChevronDown);
-import Router from 'next/router';
+import Router, { useRouter } from 'next/router';
 // import withFBQ from "next-fbq";
 import withAnalytics from 'next-analytics';
 
