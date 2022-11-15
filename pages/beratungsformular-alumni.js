@@ -8,7 +8,7 @@ export default function beratungsformularAlumni() {
     const width = useWindowSize().width / 12;
     return (
       <Layout>
-        <Header_Subpages headline='Willkommen bei SuperCode' />
+        <Header_Subpages headline='Willkommen im SuperPool' />
         <div id='arrow-img'>
           <img src='/img/Arrow24.svg' alt='' />
         </div>
