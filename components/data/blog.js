@@ -34,6 +34,8 @@ import blog17 from "../../markdown/blog17";
 import titleBlog17 from "../../markdown/titleBlog17";
 import blog18 from "../../markdown/blog18";
 import titleBlog18 from "../../markdown/titleBlog18";
+import blog19 from "../../markdown/blog19";
+import titleBlog19 from "../../markdown/titleBlog19";
 
 
 // console.log({ blog7, titleBlog7 });
@@ -163,6 +165,13 @@ let blog = [
     text: blog18,
     pic: "/img/blogs/18/blog18_03.png",
     url: "interview-mit-teilnehmerin-michaela",
+  },
+  {
+    id: 18,
+    title: titleBlog19,
+    text: blog19,
+    pic: "/img/blogs/19/Stefan1.png",
+    url: "interview-mit-trainer-stefan",
   },
 ];
 

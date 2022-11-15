@@ -12,6 +12,7 @@ module.exports = {
       "/supercodeworkshop": { page: "/supercodeworkshop" },
       "/uxuidesignworkshop": { page: "/uxuidesignworkshop" },
       "/beratung-coding": { page: "/beratungsformular-coding" },
+      "/alumni-profil": { page: "/beratungsformular-alumni" },
       "/beratungsformular": { page: "/beratungsformular-coding" },
       "/beratung-design": { page: "/beratungsformular-design" },
       "/team": { page: "/team" },
@@ -56,6 +57,7 @@ module.exports = {
       "/blog/Ich-bin-dankbar-dass-es-Supercode-gibt-und-sich-Menschen-die-Zeit-dafür-nehmen-anderen-etwas-beizubringen": { page: "/blog/[blogItem]" },
       "/blog/SuperCode-hat-laufen-gelernt-sich-hier-und-da-mal-gestoßen-und-steht-jetzt-selbstbewusst-im-Bildungsmarkt": { page: "/blog/[blogItem]" },
       "/blog/Zuerst-denkt-man-das-wäre-niemals-zu-schaffen-und-dann-ist-der-Themenblock-vorüber-und-man-kann-es-plötzlich-doch": { page: "/blog/[blogItem]" },
+      "/blog/In-die-IT-Branche-zu-wechseln-hat-mir-persönlich-sehr-viel-Freiheit-und-die-Freude-an-der-Arbeit-zurückgegeben": { page: "/blog/[blogItem]" },
     };
   },
 };
