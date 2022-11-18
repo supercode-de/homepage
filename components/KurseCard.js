@@ -1,7 +1,8 @@
 import Curriculum from './Curriculum_Popup';
 import { useRouter } from 'next/router';
 // import HubspotForm from 'react-hubspot-form';
-import UX_UI_JetztBewerben_Warteliste from './UX_UI_JetztBewerben_Warteliste';
+import Typeform_neu2022 from './Typeform_neu2022';
+
 const KurseCard = (props) => {
   const router = useRouter();
   const {
@@ -35,7 +36,7 @@ const KurseCard = (props) => {
               width="100%" />
             <button onClick={() => router.push(href)}>ZUM KURS</button>
           </div>
-          : <UX_UI_JetztBewerben_Warteliste />}
+          : <Typeform_neu2022 typeformID={typeformFormularID}/>}
 
       </div>
       <style jsx>{`

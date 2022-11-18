@@ -1,5 +1,6 @@
 import Popup from "reactjs-popup";
 const Typeform_neu2022 = (props) => {
+  console.log("typeform", props.width);
   return (
     <>
       <Popup trigger={<button>JETZT BEWERBEN</button>} position="center">
@@ -34,30 +35,20 @@ const Typeform_neu2022 = (props) => {
           text-align: center;
           letter-spacing: 1px;
           text-transform: uppercase;
-          padding: 15px 0px;
+          padding: 1rem 5rem;
           background: transparent;
           border: 2px solid var(--super-green);
-          color: ${props.color ? props.color : "var(--super-white)"};
           justify-self: center;
           display: inline-block;
-          width: 38.75em;
           outline: none;
+          color: ${props.color ? props.color : "var(--super-white)"};
+          
         }
         button:hover {
           color: var(--super-lila);
           background: var(--super-green);
         }
 
-        @media (max-width: 768px) {
-          button {
-            width: 420px;
-          }
-        }
-        @media (max-width: 568px) {
-          button {
-            width: 230px;
-          }
-        }
       `}</style>
     </>
   );
