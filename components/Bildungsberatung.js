@@ -99,7 +99,7 @@ export default function Bildungsberatung() {
             background:transparent;
             border:none;
             display: block;
-            margin-right: auto;
+            margin-left: auto;
           }
           @media (max-width: 1530px) {
             .bildungs-berater {
