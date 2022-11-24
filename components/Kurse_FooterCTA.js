@@ -10,7 +10,9 @@ const FooterCallToActionKurse = (props) => {
       </h2>
       <div className='buttons'></div>
       <div className='termine'>
-        <h3>12.12.2022 – max. 16 Teilnehmende</h3>
+        <h3>12.12.2022 – keine Plätze mehr verfügbar</h3>
+        <h3>30.01.2023 – Anmeldephase läuft</h3>
+        <h3>20.03.2023 – Anmeldephase läuft</h3>
         <span className='jetzt-bewerben-btn'>
           <Typeform_neu2022 color={props.color} typeformID="L6u0np35"/>
         </span>
@@ -54,9 +56,7 @@ const FooterCallToActionKurse = (props) => {
           color: ${props.color ? props.color : "var(--super-white)"};
           font-size: 2rem;
         }
-        .termine h3:nth-of-type(1) {
-          margin-bottom: 50px;
-        }
+
         .jetzt-bewerben-btn {
           display: flex;
           justify-content: flex-end;
