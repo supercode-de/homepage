@@ -36,7 +36,7 @@ const JetztAnmelden = (props) => {
           <HubspotForm
             portalId='5807040'
             formId='4fb004bc-0372-4848-b17d-923a1b059392'
-            onSubmit={() => console.log('Submit!')}
+            onSubmit={() => console.log('Submit! :-P')}
             onReady={(form) => console.log('Form ready!')}
             loading={<div>Loading...</div>}
           />

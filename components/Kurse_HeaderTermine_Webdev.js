@@ -5,18 +5,28 @@ const Kurse_HeaderTermine_Webdev = () => {
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2 className="line-through">19. September</h2>
+                        <h2 className="line-through">12. Dezember</h2>
                     </div>
-                    <div className="line-through">Anmeldeschluss bis 16. September</div>
+                    <div className="line-through">Anmeldeschluss bis 9. Dezember</div>
+                    <div>Keine Plätze mehr verfügbar</div>
                 </div>
             </div>
             <div>
                 <div className="termine-wrapper">
                     <div className="start-termin">
                         <img src="/img/FSHeader_Termine_Icon.png" alt="" />
-                        <h2>12. Dezember</h2>
+                        <h2>30. Januar</h2>
                     </div>
-                    <div>Anmeldeschluss bis 9. Dezember</div>
+                    <div>Anmeldeschluss bis 27. Januar</div>
+                </div>
+            </div>
+            <div>
+                <div className="termine-wrapper">
+                    <div className="start-termin">
+                        <img src="/img/FSHeader_Termine_Icon.png" alt="" />
+                        <h2>20. März</h2>
+                    </div>
+                    <div>Anmeldeschluss bis 17. März</div>
                 </div>
             </div>
             <style jsx>{`

@@ -15,8 +15,7 @@ const Kurse_HeaderCTA = (props) => {
                 </section>
                 <section>
                     <h3>
-                        –<span className='bling'>Moderne </span>
-                        <span className='bling2'>Tools</span>
+                        – Moderne Tools
                     </h3>
                     <h3>– MacBook als Leihgabe</h3>
                     <h3>– digital und online</h3>
