@@ -84,6 +84,12 @@
     "team": "fullstack"
   },
   {
+    "img": "/img/team/Lars_Kollmann_Trainer_Fullstack.png",
+    "name": "Lars Kollmann",
+    "job": "Trainer Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
     "img": "/img/team/Stefan_Selinger_Trainer_Fullstack.png",
     "name": "Stefan Seliger",
     "job": "Trainer Webentwicklung Full-Stack",

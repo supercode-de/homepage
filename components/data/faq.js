@@ -17,12 +17,12 @@ var faq = [
   {
     question: "Was werde ich lernen?",
     answer:
-      "Kurz: Du wirst in der Lage sein, moderne Webseiten von Grund auf zu erstellen. Lang: Du wirst in der Lage sein, eine Full-Stack-Programmier-Mentalität zu entwickeln, die es dir ermöglicht, dich frei zwischen Front- & Backend zu bewegen. Du wirst in einem einzigartigen und kreativen Umfeld die neuesten Techniken im Bereich Web-Entwicklung erleben und anwenden. Du wirst fließend in den wichtigsten Programmiersprachen sprechen und deine verrückten Entwicklungsfertigkeiten mit den coolsten Frameworks der Menschheit beschleunigen. Aber vor allem wirst du lernen zu lernen – was im Grunde genommen die nützlichste Fähigkeit in der Welt von morgen ist! Im UX/UI-Design-Kurs lernst du alles wichtige über erfolgreiche Digitalprodukte und wirst Prototypen entwickeln, die deine Kund:innen und Nutzer:innen begeistern. ",
+      "Kurz: Du wirst in der Lage sein, moderne Webseiten von Grund auf zu erstellen. Lang: Du wirst in der Lage sein, eine Full-Stack-Programmier-Mentalität zu entwickeln, die es dir ermöglicht, dich frei zwischen Front- & Backend zu bewegen. Du wirst in einem einzigartigen und kreativen Umfeld die neuesten Techniken im Bereich Web-Entwicklung erleben und anwenden. Du wirst fließend in den wichtigsten Programmiersprachen sprechen und deine verrückten Entwicklungsfertigkeiten mit den coolsten Frameworks der Menschheit beschleunigen. Aber vor allem wirst du lernen zu lernen – was im Grunde genommen die nützlichste Fähigkeit in der Welt von morgen ist! Im UX/UI-Design-Kurs lernst du alles wichtige über erfolgreiche Digitalprodukte und wirst Prototypen entwickeln, die deine Kund:innen und Nutzer:innen begeistern.",
   },
   {
     question: "Wie viel kosten die Bootcamps?",
     answer:
-      "Der Preis ist stark abhängig vom Finanzierungsweg und dem Kursformat, für das du dich entscheidest. Melde dich einfach bei uns und wir finden den Weg, der am besten zu dir passt. Grundsätzlich gilt: Ein Kurs kann bei entsprechender Förderung 0 € kosten – maximal bis zu 13.560 €.",
+      "Der Preis ist stark abhängig vom Finanzierungsweg und dem Kursformat, für das du dich entscheidest. Melde dich einfach bei uns und wir finden den Weg, der am besten zu dir passt. Grundsätzlich gilt: Ein Kurs kann bei entsprechender Förderung 0 € kosten – maximal bis zu 14.150 €.",
   },
   {
     question: "Wie lange dauern die Bootcamps?",
@@ -30,7 +30,7 @@ var faq = [
       "Der Vollzeit Kurs Webentwicklung ist 22 Wochen lang (5 Monate).",
   },
   {
-    question: "Wie sieht der Tagesablauf aus? ",
+    question: "Wie sieht der Tagesablauf aus?",
     answer:
       "Der Vollzeitkurs Webentwicklung findet Montag bis Freitag von 9 bis ca. 17.30 Uhr statt. In der Praxis wirst du deine Zeit flexibel je nach Projektphase (Einzel- und Gruppenprojekte) einteilen. Im Grunde genommen machen wir dich bereit in einer Endlosschleife von EAT SLEEP CODE REPEAT zu leben, denn für 5 Monate wird unser virtueller SuperKursraum dein Zuhause und deine Kolleg:innen deine Familie sein.",
   },
@@ -62,7 +62,7 @@ var faq = [
   {
     question: "Was muss ich tun, um meine Bewerbung zu starten?",
     answer:
-      "Sende uns deine vollständigen Kontaktdaten – wir melden uns dann zeitnah bei dir, um dich kennenzulernen. Aber denk daran, dich zu beeilen: Wir haben eine begrenzte Anzahl von freien Plätzen und diejenigen, die zuerst – erfolgreich – am Ende des Bewerbungsprozesses ankommen, kommen auch in den entsprechenden Kurs. ",
+      "Sende uns deine vollständigen Kontaktdaten – wir melden uns dann zeitnah bei dir, um dich kennenzulernen. Aber denk daran, dich zu beeilen: Wir haben eine begrenzte Anzahl von freien Plätzen und diejenigen, die zuerst – erfolgreich – am Ende des Bewerbungsprozesses ankommen, kommen auch in den entsprechenden Kurs.",
   },
   {
     question: "Wie macht ihr das mit Corona?",
