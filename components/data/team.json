@@ -96,6 +96,12 @@
     "team": "fullstack"
   },
   {
+    "img": "/img/team/Magda_Cale_Trainer_Fullstack.png",
+    "name": "Magda Cale",
+    "job": "Trainerin Webentwicklung Full-Stack",
+    "team": "fullstack"
+  },
+  {
     "img": "/img/team/Julia_Rintz_Trainerin_Frontend.png",
     "name": "Julia Rintz",
     "job": "Trainerin Webentwicklung Front-End",
