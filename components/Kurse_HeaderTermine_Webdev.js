@@ -65,14 +65,16 @@ const Kurse_HeaderTermine_Webdev = () => {
 
                 @media (max-width: 780px) {
                     #header-termine{
-                        padding: 5vh 0 1vh 0;
-                    }
-
-                    .termine-wrapper div:nth-child(2){
-                        margin-bottom: 5vh;
+                        padding: 5vh 0 4vh 0;
                     }
                 }
-
+                @media(max-width: 425px) {
+                    #header-termine {
+                        flex-direction: column;
+                        gap: 20px;
+                        padding-left: 10%;
+                    }
+                }
             `}
             </style>
         </div>);

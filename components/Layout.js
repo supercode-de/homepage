@@ -354,6 +354,10 @@ class Layout extends Component {
             .bootcamps .react-multiple-carousel__arrow--left {
               left: 0.5%;
             }
+
+            img[src$='#test']{
+              width: 30% !important;
+            }
             // Styling Carousel Blog End
             // BLOGSTYLES End
 

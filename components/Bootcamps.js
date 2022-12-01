@@ -14,6 +14,7 @@ const Bootcamps = (props) => {
           <p>Von der Beratung bis zum erfolgreichen Kursabschluss stehst du mit deiner Motivation, deiner Geschichte und deinen Fortschritten bei uns im Mittelpunkt. Mit zwei Trainer:innen pro Kurs, einem durchdachten Lehrplan, modernster Technik und guten Job-Kontakten machen wir dich fit für deine Zukunft als Web Developer.</p>
           <p>No Money? No Problem! Unsere Kurse können durch die Chancen eG oder einen Bildungsgutschein zu 100% finanziert werden.</p>
         </div>
+        
       </article>
 
       <section className='cards'>
@@ -79,7 +80,7 @@ const Bootcamps = (props) => {
           }
           @media (max-width: 580px) {
             .cards {
-              grid-template-columns: 1fr;
+              display: block;
             }
           }
 

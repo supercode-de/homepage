@@ -58,6 +58,7 @@ module.exports = {
       "/blog/SuperCode-hat-laufen-gelernt-sich-hier-und-da-mal-gestoßen-und-steht-jetzt-selbstbewusst-im-Bildungsmarkt": { page: "/blog/[blogItem]" },
       "/blog/Zuerst-denkt-man-das-wäre-niemals-zu-schaffen-und-dann-ist-der-Themenblock-vorüber-und-man-kann-es-plötzlich-doch": { page: "/blog/[blogItem]" },
       "/blog/In-die-IT-Branche-zu-wechseln-hat-mir-persönlich-sehr-viel-Freiheit-und-die-Freude-an-der-Arbeit-zurückgegeben": { page: "/blog/[blogItem]" },
+      "/blog/Hack4theFuture-of-Europe": { page: "/blog/[blogItem]" },
     };
   },
 };

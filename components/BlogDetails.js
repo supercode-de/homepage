@@ -170,7 +170,12 @@ const BlogDetails = (props) => {
             width: 9%;
           }
         }
-
+        @media (max-width: 768px) {
+          footer {
+            display: block;
+            padding: 5%;
+          }
+        }
         @media (max-width: 710px) {
           .arrow-right {
             bottom: 56px;
@@ -180,9 +185,7 @@ const BlogDetails = (props) => {
           section .left h1 {
             padding: 0 4%;
           }
-          footer {
-            height: 10vh;
-          }
+
           .text-container {
             display: none;
           }
