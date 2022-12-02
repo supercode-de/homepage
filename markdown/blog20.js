@@ -10,7 +10,7 @@ Die Einladung zu unserem Abschlussevent
 
 SuperCode hat bereits interne Hackathons durchgeführt und immer sehr viel Begeisterung bei den Teilnehmenden gesehen. Als Programmierschule ist es generell sehr wichtig, die Lernenden durch Praxisprojekte auf die Arbeitswelt vorzubereiten. In der IT und Digitalbranche sind innovative Köpfe und Projekte gefragt, denn die Branche ist disruptiv und schnelllebig. Ein Hackathon bietet die Möglichkeiten, dies zu üben und das Potenzial zu fördern. Außerdem geht es auch um Spaß, Kreativität und Teamarbeit im Hackathon.
 
-Und da wir uns in den letzten Jahren mit anderen europäischen Programmierschulen angefreundet hatten, lag die Idee auf der Hand, gemeinsam etwas zu starten. SuperCode hat dann einen Förderantrag bei der EU im Erasmus+ Programm gestellt und dieser wurde bewilligt. Wir haben uns riesig gefreut.   
+Und da wir uns in den letzten Jahren mit anderen europäischen Programmierschulen angefreundet hatten, lag die Idee auf der Hand, gemeinsam etwas zu starten. SuperCode hat dann einen Förderantrag bei der EU im Erasmus+ Programm gestellt und dieser wurde bewilligt. Wir haben uns riesig gefreut auf die Zusammenarbeit mit der Social Hackers Academy aus Griechenland und der <Academia de Código_> aus Portugal.
 
 ### Und wie ist das abgelaufen?
 
@@ -23,6 +23,7 @@ Als es dann losging am Hackathon Wochenende, waren wir alle ganz schön vorfreud
 ![blog20](/img/blogs/20/blog20-2.png)
 
 Ein paar Teammitglieder des Hack4theFuture Hackathons in unserem schicken Büro  
+#
 
 Wir hatten 5 Teams im Rennen. Es fanden 3 Workshops statt und die Teams konnten das ganze Wochenende auf Mentor:innen zugreifen, wenn sie Hilfe brauchten. Es war schon herausfordernd als online Event. Niemand kann sich treffen, die Menschen kennen sich auch vorher nicht und werden dann in Teams gesteckt und dann heißt es: Los gehts! Durch ein paar Spiele, Auflockerungen und regelmäßige Treffpunkte ist es uns aber doch ganz gut gelungen, ein “Wir” Gefühl zu erzeugen.
 Drei Projekte sind dann weiter in die Projektphase gekommen, um noch weitere 3 Monate an ihren Ideen zu arbeiten.
@@ -42,7 +43,7 @@ Ich habe jetzt viel mehr Selbstvertrauen bei Programmierprojekten, ob alleine od
 
 Also es hat auf jeden Fall viel Spaß gemacht, mit anderen europäischen Programmierschulen zusammenzuarbeiten. Wir haben viel voneinander gelernt und uns über Inhalte des Projektes hinaus über unsere Erfahrungen in diesem Arbeitsfeld ausgetauscht. Und das Ziel des Projektes haben wir auch erreicht: Lernende europäischer Programmierschulen arbeiten in internationalen Teams an innovativen und digitalen Lösungen für die Herausforderungen der Welt. Das Feedback der Teilnehmenden war auch super. Sie haben viel gelernt, und das ist ja das Ziel von SuperCode!
 
-Und nicht zu vergessen: Wir haben auch ein Guidebook geschrieben, um unser Wissen und unsere Erfahrungen weiterzugeben. Also schaut mal rein, wenn ihr auch einen Hackathon organisieren wollt: [Link zum Guidebook Download](https://duckduckgo.com)
+Und nicht zu vergessen: Wir haben auch ein Guidebook geschrieben, um unser Wissen und unsere Erfahrungen weiterzugeben. Also schaut mal rein, wenn ihr auch einen Hackathon organisieren wollt: [Link zum Guidebook Download](https://www.hack4thefuture.eu/Guidebook_Hack4theFuture_02.pdf)
 
 ![blog20](/img/blogs/20/blog20-5.png#test)
 `;
